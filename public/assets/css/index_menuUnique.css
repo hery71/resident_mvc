@@ -1,0 +1,6 @@
+body { background-color: #fafafa; }
+.container { max-width: 950px; margin-top: 30px; }
+h2 { margin-bottom: 25px; }
+.table th, .table td { text-align: center; vertical-align: middle; }
+.table thead th { background-color: #343a40; color: white; }
+.btn-action { padding: 3px 10px; font-size: 14px; }

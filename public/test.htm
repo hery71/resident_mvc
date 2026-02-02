@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Menu Unique</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://resident_mvc.test/assets/css/style.css">
+    <style>
+        </style>
+        </head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+
+        <a class="navbar-brand" href="/">Resident MVC</a>
+
+        <button class="navbar-toggler" type="button"
+                data-toggle="collapse"
+                data-target="#mainMenu"
+                aria-controls="mainMenu"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="mainMenu">
+
+            <!-- GAUCHE -->
+            <ul class="navbar-nav mr-auto">
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle"
+                       href="#"
+                       id="residentDropdown"
+                       role="button"
+                       data-toggle="dropdown"
+                       aria-haspopup="true"
+                       aria-expanded="false">
+                        Résidents
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="/resident">Liste des résidents</a>
+                        <a class="dropdown-item" href="/resident/create">Ajouter un résident</a>
+                    </div>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle"
+                       href="#"
+                       id="birthdayDropdown"
+                       role="button"
+                       data-toggle="dropdown">
+                        Anniversaires
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="/birthday">Anniversaires</a>
+                        <a class="dropdown-item" href="/cake/cake_list_order?mois=1&annee=2026">Cake Order List</a>
+                    </div>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
+                        Fêtes
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="/Fete/?mois=1&annee=2026"> Liste des fêtes </a>
+                        <a class="dropdown-item" href="/Fete/create"> Ajouter fête</a>
+                    </div>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle"
+                       href="#"
+                       data-toggle="dropdown">
+                        Ménage
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="/menage/">Liste Inspections</a>
+                    </div>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle"
+                       href="#"
+                       data-toggle="dropdown">
+                        Service Alimentaire
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="/alimentaire/index">Sommaire Alimentaire</a>
+                        <a class="dropdown-item" href="/alimentaire/saison">Cycle saison</a>
+                        <a class="dropdown-item" href="/menu/edit">Editer Menu </a>
+                        <a class="dropdown-item" href="/menu/dailyMenu">Menu du jour</a>
+                        <a class="dropdown-item" href="/menu/weeklyMenu">Menu de la semaine</a>
+                        <a class="dropdown-item" href="/menu/monthlyMenu">Menu du Mois</a>
+                        <a class="dropdown-item" href="/menu/special">Menu Noel et Fin d année</a>
+                        <hr class="dropdown-divider">
+                        <a class="dropdown-item" href="/menuUnique/index">Menu Unique</a>                       
+                        <hr class="dropdown-divider">
+                        <a class="dropdown-item" href="/ingredient/edit">Éditer Ingrédients</a>
+                        <hr class="dropdown-divider">
+                        <a class="dropdown-item" href="/allergie/edit">Éditer Allergies</a>
+                        <a class="dropdown-item" href="/intolerance/edit">Éditer Intolérances</a>
+                    </div>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle"
+                       href="#" 
+                       data-toggle="dropdown">
+                        Paramètres
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="/parametres/">Paramètres</a>
+                    </div>
+                </li>
+
+            </ul>
+
+            <!-- DROITE -->
+            <ul class="navbar-nav ml-auto">
+
+                                    <li class="nav-item mr-3">
+                        <span class="navbar-text text-light">
+                            👤 hery                        </span>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="btn btn-outline-light btn-sm"
+                           href="/auth/logout"
+                           onclick="return confirm('Se déconnecter ?');">
+                            🚪 Déconnexion
+                        </a>
+                    </li>
+                
+            </ul>
+
+        </div>
+    </div>
+</nav>
+
+<div class="container mt-4">
+<h2>Menu Unique 2026-01-27</h2>
+<a href="/menu/daylyMenu" class="btn btn-secondary mb-3">⬅ Retour</a>
+
+
+
+       <form method="POST" class="mb-4">
+              <input type="hidden" name="id_unique" value="11">
+              <input name="nom" class="form-control mb-2" value="test09" required>
+              <input type="date" name="date" class="form-control mb-2" value="2026-01-27" required>
+              <input name="observation" class="form-control mb-2" value="">
+              <button name="update_menu" class="btn btn-primary">💾 Mettre à jour</button>
+       </form>
+       <!-------------------------------------------------------------------------------------->
+       <!-------------------------------------------------------------------------------------->
+       <!-------------------------------------------------------------------------------------->
+       <hr>
+       <button class="btn btn-outline-info mb-3"
+              data-toggle="modal"
+              data-target="#importModal">
+       Importer les plats du menu régulier
+       </button>
+
+
+<form method="POST">
+    <input type="hidden" name="id_unique" value="11">
+
+    
+    
+        <h5 class="mt-4 mb-2">Petit-déjeuner</h5>
+
+        
+        
+        <!-- AJOUT -->
+        <div id="breakfast_container" class="ml-md-0"></div>
+        <button type="button"
+                class="btn btn-outline-secondary btn-sm mt-1"
+                onclick="addTextbox('breakfast')">
+       Ajouter
+        </button>
+
+        <hr>
+
+    
+        <h5 class="mt-4 mb-2">🍽️ Dîner</h5>
+
+        
+        
+        <!-- AJOUT -->
+        <div id="lunch_container" class="ml-md-0"></div>
+        <button type="button"
+                class="btn btn-outline-secondary btn-sm mt-1"
+                onclick="addTextbox('lunch')">
+       Ajouter
+        </button>
+
+        <hr>
+
+    
+        <h5 class="mt-4 mb-2">Dessert dîner</h5>
+
+        
+        
+        <!-- AJOUT -->
+        <div id="lunch_dessert_container" class="ml-md-0"></div>
+        <button type="button"
+                class="btn btn-outline-secondary btn-sm mt-1"
+                onclick="addTextbox('lunch_dessert')">
+       Ajouter
+        </button>
+
+        <hr>
+
+    
+        <h5 class="mt-4 mb-2">Souper</h5>
+
+        
+        
+        <!-- AJOUT -->
+        <div id="dinner_container" class="ml-md-0"></div>
+        <button type="button"
+                class="btn btn-outline-secondary btn-sm mt-1"
+                onclick="addTextbox('dinner')">
+       Ajouter
+        </button>
+
+        <hr>
+
+    
+        <h5 class="mt-4 mb-2">Dessert souper</h5>
+
+        
+        
+        <!-- AJOUT -->
+        <div id="dinner_dessert_container" class="ml-md-0"></div>
+        <button type="button"
+                class="btn btn-outline-secondary btn-sm mt-1"
+                onclick="addTextbox('dinner_dessert')">
+       Ajouter
+        </button>
+
+        <hr>
+
+    
+    <button name="update_meals" class="btn btn-secondary mt-3">
+        Enregistrer les plats
+    </button>
+</form>
+
+
+
+</div>
+<!---------------------------- Import Modal -------------------------------------------------->
+<!-- MODAL IMPORT MENU RÉGULIER -->
+<div class="modal fade" id="importModal" tabindex="-1" role="dialog">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <h5 class="modal-title">Importer les plats du menu régulier</h5>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+
+      <div class="modal-body" id="importModalBody">
+        <div class="text-center text-muted">
+          Chargement des plats…
+        </div>
+      </div>
+
+      <div class="modal-footer">
+        <button class="btn btn-secondary" data-dismiss="modal">Annuler</button>
+        <button class="btn btn-success" onclick="confirmImport()">Confirmer</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+<!--------------------------------------------------- End Modal ------------------>
+<div class="text-center mt-4">
+    <a href="/alimentaire/index" class="btn btn-secondary">⬅ Accueil</a>
+  </div>
+</div>
+    <footer class="bg-light text-center mt-5 py-3">
+        <small class="text-muted">
+            © 2026 – Resident MVC
+        </small>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"></script>
+
+    <script>
+    // Tailles de police
+    const fontSizes = {
+        's': { screen: '12px', print: '12px' },
+        'm': { screen: '14px', print: '14px' },
+        'l': { screen: '16px', print: '16px' },
+        'xl': { screen: '18px', print: '18px' },
+        'tg': { screen: '22px', print: '20px' }
+    };
+
+    let currentSize = 'm';
+
+    function setFontSize(size) {
+        currentSize = size;
+
+        // Appliquer à l'écran
+        document.getElementById('printable-area').style.fontSize = fontSizes[size].screen;
+
+        // Mettre à jour le CSS d'impression
+        const style = document.createElement('style');
+        style.id = 'print-font-style';
+        style.innerHTML = `
+            @media print {
+                #printable-area {
+                    font-size: ${fontSizes[size].print} !important;
+                }
+            }
+        `;
+
+        // Supprimer l'ancien style si existe
+        const oldStyle = document.getElementById('print-font-style');
+        if (oldStyle) oldStyle.remove();
+
+        // Ajouter le nouveau
+        document.head.appendChild(style);
+
+        // Sauvegarder la préférence
+        localStorage.setItem('fontSize', size);
+    }
+
+    // Charger la taille sauvegardée
+    document.addEventListener('DOMContentLoaded', () => {
+        const savedSize = localStorage.getItem('fontSize');
+        if (savedSize) setFontSize(savedSize);
+    });
+    // Custom JavaScript can be added here
+function removeMeal(btn) {
+    btn.closest('li').remove()
+}
+
+function confirmImport() {
+    const data = new FormData();
+
+    document.querySelectorAll('#importModal input[type="hidden"]').forEach(input => {
+        data.append(input.name, input.value);
+    });
+
+    data.append('id_unique', 10);
+    data.append('import_confirm', 1);
+
+    fetch('import_menu_unique.php', {
+        method: 'POST',
+        body: data
+    })
+    .then(r => r.text())
+    .then(() => location.reload());
+}
+
+$('#importModal').on('show.bs.modal', function () {
+
+    const body = document.getElementById('importModalBody');
+    body.innerHTML = 'Chargement des plats…';
+
+    fetch('ajax_import_menu_regular.php?id_unique=<?= (int)$id_unique ?>')
+        .then(r => r.text())
+        .then(html => body.innerHTML = html)
+        .catch(() => body.innerHTML = 'Erreur de chargement');
+});
+function addTextbox(section) {
+    alert('Ajouter un nouveau plat');
+    const c = document.getElementById(section+'_container');
+    const i = document.createElement('input');
+    i.type='text'; i.name=section+'[]';
+    i.className='form-control mt-1';
+    i.placeholder='Nouveau plat';
+    c.appendChild(i);
+}
+function confirmDelete(id, table, menuId) {
+    if(confirm('Supprimer ce plat ?')) {
+        location = `edit_menu_jour_unique.php?delete=${id}&table=${table}&id=${menuId}`;
+    }
+}    </script>
+
+
+    </body>
+    </html>

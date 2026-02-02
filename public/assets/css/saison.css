@@ -1,0 +1,7 @@
+body { background-color: #f8f9fa; }
+.special { background: #fff3cd; }
+.winter  { background: #d1ecf1; }
+.spring  { background: #d4edda; }
+.summer  { background: #fff5eb; }
+.fall    { background: #f8d7da; }
+thead.thead-dark th { text-align:center; }

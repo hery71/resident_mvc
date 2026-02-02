@@ -1,0 +1,49 @@
+    /* Style pour l'impression */
+    @media print {
+        /* Cache tout sauf la zone imprimable */
+        body * {
+            visibility: hidden;
+        }
+        #printable-area,
+        #printable-area * {
+            visibility: visible;
+        }
+        #printable-area {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+        }
+         #printable-area {
+        margin-top: 3cm !important; /* Ajustez cette valeur */
+        }   
+        /* Force le tableau à s'afficher correctement */
+        .table {
+            width: 100% !important;
+            border-collapse: collapse !important;
+            page-break-inside: avoid;
+        }
+        .table th,
+        .table td {
+            padding: 8px !important;
+            border: 1px solid #000 !important;
+            page-break-inside: avoid;
+        }
+
+        /* Orientation portrait (annule le paysage si problème) */
+        @page {
+            size: portrait;
+            margin: 0.5cm;
+        }
+
+        /* Tailles de police pour impression */
+        #printable-area {
+            font-size: var(--print-font-size, 14px) !important;
+        }
+    }
+
+    /* Tailles de police pour l'écran */
+    #printable-area {
+        font-size: 14px;
+        transition: font-size 0.2s;
+    }

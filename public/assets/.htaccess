@@ -1,0 +1,9 @@
+# Bloquer l'accès direct aux fichiers (sauf images autorisées)
+<FilesMatch "\.(png|jpe?g|gif|svg)$">
+    # Autoriser l'accès aux images
+    Require all granted
+</FilesMatch>
+<FilesMatch "\.(php|html?|txt|json)$">
+    # Bloquer l'accès aux autres types de fichiers
+    Require all denied
+</FilesMatch>

@@ -1,0 +1,87 @@
+{
+    "Intolerances_Alimentaires_Canada": {
+        "Produits_Laitiers": [
+            "Lactose (présent dans le lait, fromage, yogourt, crème, beurre)",
+            "Caséine (protéine du lait)",
+            "Protéine du lactosérum (whey)"
+        ],
+        "Céréales_et_Gluten": [
+            "Gluten (blé, seigle, orge, triticale)",
+            "Blé (autre que gluten, sensibilité spécifique)",
+            "Avoine (si contaminée au gluten)",
+            "Seigle",
+            "Orge"
+        ],
+        "Sucres_et_FODMAPs": [
+            "Fructose (fruits, miel, sirops, boissons sucrées)",
+            "Sorbitol (pommes, poires, pruneaux, édulcorants)",
+            "Mannitol (champignons, chou-fleur, bonbons sans sucre)",
+            "Lactose (produits laitiers non fermentés)",
+            "Galactanes (légumineuses, haricots, pois chiches, lentilles)",
+            "Fructanes (blé, ail, oignon, poireau)"
+        ],
+        "Protéines_et_Légumineuses": [
+            "Soja (tofu, lait de soja, sauce soya)",
+            "Pois chiches",
+            "Lentilles",
+            "Haricots rouges",
+            "Pois verts",
+            "Arachides (intolérance non allergique possible)"
+        ],
+        "Fruits_et_Légumes": [
+            "Pommes",
+            "Poires",
+            "Cerises",
+            "Mangue",
+            "Pastèque",
+            "Pruneaux",
+            "Chou-fleur",
+            "Brocoli",
+            "Chou de Bruxelles",
+            "Oignon",
+            "Ail"
+        ],
+        "Amines_et_Histamine": [
+            "Fromages vieillis",
+            "Charcuterie (saucissons, jambons fumés)",
+            "Poisson fumé ou en conserve (thon, sardines)",
+            "Vin rouge et bière",
+            "Tomates et produits à base de tomate",
+            "Chocolat et cacao",
+            "Fraises",
+            "Épinards",
+            "Vinaigre balsamique"
+        ],
+        "Additifs_et_Conservateurs": [
+            "Glutamate de Sodium - Ve Tsin",
+            "Sulfites (fruits secs, vin, jus de raisin, crevettes)",
+            "Benzoates (boissons gazeuses, condiments)",
+            "Glutamate monosodique (MSG)",
+            "Nitrites et nitrates (charcuterie, bacon)",
+            "Colorants artificiels (tartrazine E102, rouge allura E129)",
+            "Édulcorants artificiels (aspartame, sucralose, saccharine)"
+        ],
+        "Boissons_et_Stimulants": [
+            "Caféine (café, thé, chocolat, boissons énergisantes)",
+            "Alcool (bière, vin, spiritueux)",
+            "Boissons gazeuses",
+            "Boissons contenant guarana ou taurine"
+        ],
+        "Autres_Aliments": [
+            "Œufs (intolérance digestive)",
+            "Levure (pain, bière, vin)",
+            "Ail (soufre et fructanes)",
+            "Oignon (fructanes et composés sulfurés)",
+            "Chou (fermentations intestinales)",
+            "Viande rouge (digestion lente)",
+            "Poisson gras (certaines intolérances aux oméga-3)",
+            "Cacao et chocolat (amines biogènes)"
+        ],
+        "Substances_Chimiques_et_Contact": [
+            "Nickel (ustensiles, eau, aliments riches en nickel : cacao, noix, lentilles)",
+            "Latex (contact avec aliments manipulés ou gants)",
+            "Agents nettoyants alimentaires (résidus chimiques)",
+            "Histamine libérée par certains additifs alimentaires"
+        ]
+    }
+}
