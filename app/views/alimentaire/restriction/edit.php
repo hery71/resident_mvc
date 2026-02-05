@@ -3,101 +3,27 @@
     $annee = $_GET['annee'] ?? date("Y");
     $custom_js = <<<'JS'
     // Custom JavaScript can be added here
-    /**********************************************
-     *  SYSTEME D'AUTO-COMPLETION
-     **********************************************/
-    function setupAuto(inputId, boxId, containerId, hiddenId, sourceList) {
+    function applySelection(checkClass, containerId, hiddenId) {
 
-        const input = document.getElementById(inputId);
-        const suggest = document.getElementById(boxId);
-        const container = document.getElementById(containerId);
-        const hiddenField = document.getElementById(hiddenId);
+    const checks = document.querySelectorAll('.' + checkClass + ':checked');
+    const container = document.getElementById(containerId);
+    const hidden = document.getElementById(hiddenId);
 
-        if (!input) {
-            console.warn("❌ Input introuvable:", inputId);
-            return;
-        }
+    container.innerHTML = '';
+    const values = [];
 
-        function refreshHidden() {
-            const values = [...container.querySelectorAll(".tag")].map(t => t.dataset.value);
-            hiddenField.value = values.join(",");
-        }
+    checks.forEach(chk => {
+        values.push(chk.value);
 
-        function addTag(value) {
-            value = value.trim();
-            if (!value) return;
+        const badge = document.createElement('span');
+        badge.className = 'badge bg-primary me-1 mb-1';
+        badge.textContent = chk.value;
 
-            if ([...container.querySelectorAll(".tag")].some(t => t.dataset.value === value)) return;
+        container.appendChild(badge);
+    });
 
-            const span = document.createElement("span");
-            span.className = "tag bg-primary text-white";
-            span.dataset.value = value;
-            span.innerHTML = value + ` <i class="bi bi-x remove-tag"></i>`;
-            container.appendChild(span);
-
-            suggest.style.display = "none";
-            input.value = "";
-            refreshHidden();
-        }
-
-        input.addEventListener("input", () => {
-            let q = input.value.trim().toLowerCase();
-            suggest.innerHTML = "";
-            suggest.style.display = "none";
-
-            if (q.length === 0) return;
-
-            let filtered = sourceList.filter(item => item.toLowerCase().includes(q));
-
-            filtered.forEach(item => {
-                const div = document.createElement("div");
-                div.className = "autocomplete-item";
-                div.textContent = item;
-                div.onclick = () => addTag(item);
-                suggest.appendChild(div);
-            });
-
-            if (filtered.length > 0) suggest.style.display = "block";
-        });
-
-        container.addEventListener("click", e => {
-            if (e.target.classList.contains("remove-tag")) {
-                e.target.closest(".tag").remove();
-                refreshHidden();
-            }
-        });
-
-        document.addEventListener("click", e => {
-            if (!suggest.contains(e.target) && e.target !== input) {
-                suggest.style.display = "none";
-            }
-        });
-
-        refreshHidden();
+    hidden.value = values.join(',');
     }
-
-    /**********************************************
-     *  ACTIVATION (avec délai pour HTML prêt)
-     **********************************************/
-    setTimeout(() => {
-
-        setupAuto(
-            "allergen-input",
-            "allergen-suggest",
-            "allergen-tags",
-            "allergen-final",
-            <?= json_encode($allergenList) ?>
-        );
-
-        setupAuto(
-            "intol-input",
-            "intol-suggest",
-            "intol-tags",
-            "intol-final",
-            <?= json_encode($intoleranceList) ?>
-        );
-
-    }, 200);
     JS;
     $custom_style = <<<CSS
     /* Custom CSS can be added here */
@@ -128,7 +54,7 @@
                 <?php foreach ($meals as $m): ?>
                     <li class="list-group-item d-flex justify-content-between">
                         <span><?= htmlspecialchars($m['meal']) ?></span>
-                        <a href="edit_meal_restriction.php?table=<?= $table ?>&id=<?= $m['id'] ?>" 
+                        <a href="/restriction/edit?table=<?= $table ?>&id=<?= $m['id'] ?>" 
                            class="btn btn-sm btn-primary">
                             <i class="bi bi-pencil"></i>
                         </a>
@@ -136,7 +62,6 @@
                 <?php endforeach; ?>
             </ul>
         </div>
-
         <!-- FORMULAIRE DE RESTRICTIONS -->
         <div class="card card-custom p-4">
 
@@ -153,54 +78,126 @@
                     <input type="hidden" name="table" value="<?= $table ?>">
 
                     <!-- ALLERGENES -->
-                    <h5 class="fw-bold">Allergènes</h5>
+                    <div class="mb-3">
+                        <label class="form-label fw-bold">Allergènes</label><br>
 
-                    <div id="allergen-tags" class="mb-2">
-                        <?php foreach ($checkedAllergens as $a): ?>
-                            <span class="tag bg-danger text-white" data-value="<?= htmlspecialchars($a) ?>">
-                                <?= htmlspecialchars($a) ?> 
-                                <i class="bi bi-x remove-tag"></i>
-                            </span>
-                        <?php endforeach; ?>
+                        <button type="button"
+                                class="btn btn-outline-primary btn-sm"
+                                data-toggle="modal"
+                                data-target="#allergenModal">
+                            Choisir les allergènes
+                        </button>
+
+                        <div id="allergen-tags" class="mt-2"></div>
+                        <input type="hidden" name="allergen" id="allergen-final">
                     </div>
-
-                    <div class="position-relative">
-                        <input type="text" id="allergen-input" class="form-control" placeholder="Ajouter un allergène...">
-                        <div id="allergen-suggest" class="autocomplete-box"></div>
-                    </div>
-
-                    <input type="hidden" name="allergen_final" id="allergen-final">
 
                     <!-- INTOLERANCES -->
-                    <h5 class="fw-bold mt-4">Intolérances</h5>
+                    <div class="mb-3">
+                        <label class="form-label fw-bold">Intolérances</label><br>
 
-                    <div id="intol-tags" class="mb-2">
-                        <?php foreach ($checkedIntolerances as $i): ?>
-                            <span class="tag bg-warning text-dark" data-value="<?= htmlspecialchars($i) ?>">
-                                <?= htmlspecialchars($i) ?> 
-                                <i class="bi bi-x remove-tag"></i>
-                            </span>
-                        <?php endforeach; ?>
-                    </div>
-
-                    <div class="position-relative">
-                        <input type="text" id="intol-input" class="form-control" placeholder="Ajouter une intolérance...">
-                        <div id="intol-suggest" class="autocomplete-box"></div>
-                    </div>
-
-                    <input type="hidden" name="intol_final" id="intol-final">
-
-                    <div class="text-center mt-4">
-                        <button class="btn btn-success btn-lg px-5">
-                            <i class="bi bi-check-circle"></i> Enregistrer
+                        <button type="button"
+                                class="btn btn-outline-warning btn-sm"
+                                data-toggle="modal"
+                                data-target="#intoleranceModal">
+                            Choisir les intolérances
                         </button>
+
+                        <div id="intol-tags" class="mt-2"></div>
+                        <input type="hidden" name="intolerance" id="intol-final">
                     </div>
+<!------------------------------------------------------------------------------->
+                    <button type="submit" class="btn btn-success">Enregistrer</button>  
                 </form>
             <?php endif; ?>
         </div>
-
     </div>
-    
+    <!---------------------------------------MODALES--------------------------------------->
+    <!-- MODALE ALLERGENES -->
+    <div class="modal fade" id="allergenModal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h5 class="modal-title">Allergènes</h5>
+                    <button type="button" class="btn-close" data-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                    <?php foreach ($allergenList as $a): ?>
+                        <div class="col-md-4">
+                        <div class="form-check">
+                            <input class="form-check-input allergen-check"
+                                type="checkbox"
+                                value="<?= htmlspecialchars($a) ?>"
+                                id="allergen_<?= md5($a) ?>">
+                            <label class="form-check-label" for="allergen_<?= md5($a) ?>">
+                                <?= htmlspecialchars($a) ?>
+                            </label>
+                        </div>
+                        </div>
+                    <?php endforeach; ?>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-primary" onclick="applySelection(
+                        'allergen-check',
+                        'allergen-tags',
+                        'allergen-final'
+                    )" data-dismiss="modal">
+                        Appliquer
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- MODALE INTOLERANCES -->
+     <div class="modal fade" id="intoleranceModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-scrollable">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h5 class="modal-title">Intolérances alimentaires</h5>
+                    <button type="button" class="btn-close" data-dismiss="modal"></button>
+                </div>
+
+                <div class="modal-body">
+                    <div class="row">
+                         <?php foreach ($intoleranceList as $i): ?>
+                            <div class="col-md-4 col-sm-6">
+                                <div class="form-check">
+                                    <input
+                                    class="form-check-input intolerance-check"
+                                    type="checkbox"
+                                    value="<?= htmlspecialchars($i) ?>"
+                                    id="intol_<?= md5($i) ?>"
+                                    >
+                                    <label class="form-check-label" for="intol_<?= md5($i) ?>">
+                                    <?= htmlspecialchars($i) ?>
+                                    </label>
+                                </div>
+                            </div>
+                        <?php endforeach; ?>
+                    </div>
+                </div>
+
+                <div class="modal-footer">
+                        <button
+                        type="button"
+                        class="btn btn-primary"
+                        onclick="applySelection(
+                            'intolerance-check',
+                            'intol-tags',
+                            'intol-final'
+                        )"
+                        data-dismiss="modal">
+                        Appliquer
+                        </button>
+                </div>
+
+            </div>
+        </div>
+    </div>
 <!---------------------FIN DIV PRINCIPAL--------------------->
 </div>
 <?php require __DIR__ . '/../../layout/footer.php'; ?>

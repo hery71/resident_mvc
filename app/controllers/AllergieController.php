@@ -8,6 +8,7 @@ class AllergieController
         $page_css = 'edit_allergie.css';
         $model = new AllergieModel();
         $allergenes = $model->all();
+        
 
         // Logique pour récupérer les paramètres si nécessaire
 

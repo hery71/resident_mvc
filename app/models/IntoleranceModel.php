@@ -23,6 +23,24 @@ class IntoleranceModel extends JsonRepository
 
         return $data['Intolerances_Alimentaires_Canada'] ?? [];
     }
+    public function all(): array
+    {
+        if (!file_exists($this->file)) {
+            return [];
+        }
+
+        $data = json_decode(file_get_contents($this->file), true);
+        $allItems = [];
+        if (isset($data['Intolerances_Alimentaires_Canada']) && is_array($data['Intolerances_Alimentaires_Canada'])) {
+            foreach ($data['Intolerances_Alimentaires_Canada'] as $items) {
+                if (is_array($items)) {
+                    $allItems = array_merge($allItems, $items);
+                }
+            }
+        }
+        sort($allItems);
+        return $allItems;
+    }
 
     /**
      * Sauvegarde toutes les catégories (logique de ton ancien script)

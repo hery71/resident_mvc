@@ -33,6 +33,18 @@ public function index()
 public function edit()
     {
         global $pdo;
+        $page_css = 'edit_restriction.css';
+        $mealId = $_GET['id'] ?? 0;
+        $selectedMeal = null;
+        $checkedAllergens = [];
+        $checkedIntolerances = [];
+        //POST-----------------------------------------
+        if ($_SERVER['REQUEST_METHOD'] === 'POST') {    
+
+
+
+        }
+        //GET-----------------------------------------
         $table= $_GET['table'] ?? 'list_lunch';
         $listTables = [
             'list_breakfast' => 'Breakfast',
@@ -41,10 +53,22 @@ public function edit()
             'list_dinner' => 'Dinner',
             'list_dinner_dessert' => 'Dinner Dessert'
         ];
-        
-        //$page_css = 'alimentaire.css';
+        $model = new AllergieModel($pdo);
+        $allergenList = $model->all();
+        $model2 = new IntoleranceModel($pdo);
+        $intoleranceList = $model2->all();
         $model = new RestrictionModel($pdo);
+        if ($mealId) {
+            $selectedMeal = $model->getRestrictionByMealId($table, (int)$mealId);
+            if ($selectedMeal) {
+                $checkedAllergens = array_filter(array_map('trim', explode(',', $selectedMeal['allergene']??'')));
+                $checkedIntolerances = array_filter(array_map('trim', explode(',', $selectedMeal['intolerance']??'')));
+            }
+        }
+        
         $meals = $model->getAllMeals($table);
+
+
         require __DIR__ . '/../views/alimentaire/restriction/edit.php';
     }
 
