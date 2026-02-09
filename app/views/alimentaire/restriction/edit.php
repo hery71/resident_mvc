@@ -1,7 +1,13 @@
 <?php $title = 'Editer les restrictions alimentaires';
+    $link='<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">';
     $inspection=  Config::inspection(); 
     $annee = $_GET['annee'] ?? date("Y");
     $custom_js = <<<'JS'
+    //au chargement de la page
+    document.addEventListener('DOMContentLoaded', function () {
+    applySelection('allergen-check', 'allergen-tags', 'allergen-final');
+    applySelection('intolerance-check', 'intol-tags', 'intol-final');
+    });
     // Custom JavaScript can be added here
     function applySelection(checkClass, containerId, hiddenId) {
 
@@ -13,16 +19,79 @@
     const values = [];
 
     checks.forEach(chk => {
-        values.push(chk.value);
+        const value = chk.value;
+        values.push(value);
 
-        const badge = document.createElement('span');
-        badge.className = 'badge bg-primary me-1 mb-1';
-        badge.textContent = chk.value;
+        // Création du tag
+        const tag = document.createElement('span');
+        tag.className = 'tag bg-warning text-dark me-1 mb-1';
+        tag.dataset.value = value;
+        tag.style.cursor = 'pointer';
 
-        container.appendChild(badge);
+        tag.innerHTML = `
+            ${value}
+            <i class="bi bi-x remove-tag ms-1"></i>
+        `;
+
+        // Click sur ❌ = décocher la checkbox + refresh
+        tag.querySelector('.remove-tag').addEventListener('click', function (e) {
+            e.stopPropagation();
+            chk.checked = false;
+            applySelection(checkClass, containerId, hiddenId);
+        });
+
+        container.appendChild(tag);
     });
 
+    // Valeur finale envoyée au POST
     hidden.value = values.join(',');
+    }
+    document.addEventListener('DOMContentLoaded', () => {
+    applySelection('allergen-check', 'allergen-tags', 'allergen-final');
+    applySelection('intolerance-check', 'intolerance-tags', 'intolerance-final');
+    });
+    function saveAllergen() {
+    const value = document.getElementById('new-allergen').value.trim();
+    if (!value) return alert('Champ vide');
+    alert("1");
+    fetch('/ajaxRestriction/addAllergen', {
+        method: 'POST',
+        headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify({ value })
+    })
+    .then(r => r.json())
+    .then(data => {
+        if (data.success) {
+            $('#addAllergenModal').modal('hide');
+            location.reload(); // ou reload partiel
+        } else {
+            alert(data.error);
+        }
+    });
+    }
+    function saveIntolerance() {
+    const category = document.getElementById('intolerance-category').value;
+    const value    = document.getElementById('new-intolerance').value.trim();
+
+    if (!category || !value) {
+        alert('Champs requis');
+        return;
+    }
+
+    fetch('/ajaxRestriction/addIntolerance', {
+        method: 'POST',
+        headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify({ category, value })
+    })
+    .then(r => r.json())
+    .then(data => {
+        if (data.success) {
+            $('#addIntoleranceModal').modal('hide');
+            location.reload();
+        } else {
+            alert(data.error);
+        }
+    });
     }
     JS;
     $custom_style = <<<CSS
@@ -32,8 +101,18 @@
 <?php require __DIR__ . '/../../layout/header.php'; ?>
 <div class="container center">
     <h3> Editer les Restrictions Alimentatires</h3>
+    <?php if(isset($success)): ?>
+        <div class="alert alert-success">
+            Les restrictions ont été enregistrées avec succès.
+        </div>
+    <?php endif; ?>
+    <?php if(isset($error)): ?>
+        <div class="alert alert-danger">
+            <?= htmlspecialchars($error) ?>
+        </div>
+    <?php endif; ?>
     <!-- DROPDOWN LISTE TABLE -->
-    <form method="get" class="mb-4">
+    <form method="get" class="mb-4">    
         <label class="fw-bold">Choisir une catégorie :</label>
         <select name="table" class="form-select w-auto d-inline-block" onchange="this.form.submit()">
             <?php foreach ($listTables as $key => $label): ?>
@@ -120,6 +199,12 @@
 
                 <div class="modal-header">
                     <h5 class="modal-title">Allergènes</h5>
+                    <button type="button"
+                        class="btn btn-sm btn-outline-secondary mt-2"
+                        data-toggle="modal"
+                        data-target="#addAllergenModal">
+                        ➕ Ajouter un allergène
+                    </button>
                     <button type="button" class="btn-close" data-dismiss="modal"></button>
                 </div>
                 <div class="modal-body">
@@ -130,7 +215,8 @@
                             <input class="form-check-input allergen-check"
                                 type="checkbox"
                                 value="<?= htmlspecialchars($a) ?>"
-                                id="allergen_<?= md5($a) ?>">
+                                id="allergen_<?= md5($a) ?>"
+                                <?= in_array($a, $checkedAllergens) ? 'checked' : '' ?>>
                             <label class="form-check-label" for="allergen_<?= md5($a) ?>">
                                 <?= htmlspecialchars($a) ?>
                             </label>
@@ -158,6 +244,12 @@
 
                 <div class="modal-header">
                     <h5 class="modal-title">Intolérances alimentaires</h5>
+                    <button type="button"
+                            class="btn btn-sm btn-outline-secondary mt-2"
+                            data-toggle="modal"
+                            data-target="#addIntoleranceModal">
+                        ➕ Ajouter une intolérance
+                    </button>
                     <button type="button" class="btn-close" data-dismiss="modal"></button>
                 </div>
 
@@ -171,7 +263,7 @@
                                     type="checkbox"
                                     value="<?= htmlspecialchars($i) ?>"
                                     id="intol_<?= md5($i) ?>"
-                                    >
+                                    <?= in_array($i, $checkedIntolerances) ? 'checked' : '' ?>>
                                     <label class="form-check-label" for="intol_<?= md5($i) ?>">
                                     <?= htmlspecialchars($i) ?>
                                     </label>
@@ -198,6 +290,66 @@
             </div>
         </div>
     </div>
+<!-----------------------------------MODALE AJOUTER ALLERGENES-------------------------------------------->
+<div class="modal fade" id="addAllergenModal" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <h5 class="modal-title">Ajouter un allergène</h5>
+        <button class="close" data-dismiss="modal">&times;</button>
+      </div>
+
+      <div class="modal-body">
+        <input type="text"
+               id="new-allergen"
+               class="form-control"
+               placeholder="Ex: Sésame">
+      </div>
+
+      <div class="modal-footer">
+        <button class="btn btn-primary" onclick="saveAllergen()">Enregistrer</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+<!-----------------------------------mODALE AJOUTER INTOLERANCES-------------------------------------------->
+<div class="modal fade" id="addIntoleranceModal" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <h5 class="modal-title">Ajouter une intolérance</h5>
+        <button class="close" data-dismiss="modal">&times;</button>
+      </div>
+
+      <div class="modal-body">
+
+        <select id="intolerance-category" class="form-control mb-2">
+            <option value="">-- Catégorie --</option>
+
+            <?php foreach ($intoleranceCategories as $cat): ?>
+                <option value="<?= e($cat) ?>">
+                    <?= e(str_replace('_', ' ', $cat)) ?>
+                </option>
+            <?php endforeach; ?>
+        </select>
+
+        <input type="text"
+               id="new-intolerance"
+               class="form-control"
+               placeholder="Ex: Porc">
+
+      </div>
+
+      <div class="modal-footer">
+        <button class="btn btn-primary" onclick="saveIntolerance()">Enregistrer</button>
+      </div>
+
+    </div>
+  </div>
+</div>
 <!---------------------FIN DIV PRINCIPAL--------------------->
 </div>
 <?php require __DIR__ . '/../../layout/footer.php'; ?>

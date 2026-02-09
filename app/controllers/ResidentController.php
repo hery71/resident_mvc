@@ -22,6 +22,27 @@ class ResidentController
 
         require __DIR__ . '/../views/residents/index.php';
     }
+     public function printIndex()
+    {
+        $model = new ResidentModel();
+
+        // Pagination
+        $perPage = 10;
+        $page = max(1, (int)($_GET['page'] ?? 1));
+        $offset = ($page - 1) * $perPage;
+
+        // Filtres
+        $nom = trim($_GET['nom'] ?? '');
+        $prenom = trim($_GET['prenom'] ?? '');
+
+        // Données
+        $residents = $model->getPaginated($perPage, $offset, $nom, $prenom);
+        $total = $model->countFiltered($nom, $prenom);
+
+        $totalPages = ceil($total / $perPage);
+
+        require __DIR__ . '/../views/residents/printIndex.php';
+    }
     public function edit($id)
     {
         $model = new ResidentModel();
@@ -108,4 +129,18 @@ class ResidentController
         header("Location: /resident");
         exit;
     }
+    public function preferenceAlimentaire()
+    {
+        $options = require __DIR__ . '/../config/options.php';
+        $id = (int)($_GET['id'] ?? 0);
+        $model = new ResidentModel();
+        $resident = $model->findById($id);
+
+        if (!$resident) {
+            http_response_code(404);
+            die("Résident introuvable");
+        }
+
+        require __DIR__ . '/../views/residents/preferenceAlimentaire.php';
+    }   
 }

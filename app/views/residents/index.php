@@ -1,6 +1,12 @@
 <?php $title = 'Liste résidents'; ?>
 <?php require __DIR__ . '/../layout/header.php'; ?>
 <div class="container mt-4">
+    <a href="/resident/create" class="btn btn-primary mb-3">
+    Ajouter un résident
+    </a>
+    <a href="/resident/printIndex?nom=<?= urlencode($nom) ?>&prenom=<?= urlencode($prenom) ?>&page=<?= $page ?>" class="NP btn btn-warning mb-3" target="_blank">
+      🖨 Imprimer
+    </a>
     <form method="get" class="mb-3">
         <div class="form-row align-items-end">
             <div class="col">
@@ -24,9 +30,6 @@
                     ♻️ Annuler filtre
                 </a>
             </div>
-            <a href="/resident/create" class="btn btn-primary mb-3">
-            ➕ Ajouter un résident
-            </a>
         </div>
     </form>
     <table class="table table-bordered table-striped">
@@ -61,6 +64,10 @@
                 <a href="/resident/edit/<?= $r['id'] ?>"
                 class="btn btn-sm btn-warning ml-1">
                     ✏️ Modifier
+                </a>
+                <a href="/resident/preferenceAlimentaire?id=<?= $r['id'] ?>"
+                class="btn btn-sm btn-success ml-1">
+                Preference Alimentaires
                 </a>
                 <a href="#"
                     class="btn btn-sm btn-danger btn-depart-resident"

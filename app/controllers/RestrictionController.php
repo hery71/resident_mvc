@@ -40,9 +40,23 @@ public function edit()
         $checkedIntolerances = [];
         //POST-----------------------------------------
         if ($_SERVER['REQUEST_METHOD'] === 'POST') {    
-
-
-
+        //Traitement du POST
+            $table= $_POST['table'] ?? 'list_lunch';
+            $mealId = (int)($_POST['meal_id'] ?? 0);
+            $allergenes = $_POST['allergen'] ?? '';
+            $intolerances = $_POST['intolerance'] ?? '';
+            //$allergeneStr = implode(',', $allergenes ??[]);
+            //$intoleranceStr = implode(',', $intolerances ??[]);
+            $model = new RestrictionModel($pdo);
+            $success = $model->saveRestrictions($table, $mealId, $allergenes, $intolerances);
+            if ($success) {
+                header("Location: /restriction/edit?table=$table&id=$mealId&success=1");
+                //$message =  $table . '#' . $mealId . '#' . $allergeneStr . '#' . $intoleranceStr;
+                //header("Location: /test/index?message=" . urlencode($message));
+                exit();
+            } else {
+                $error = "Une erreur est survenue lors de l'enregistrement des restrictions.";
+            }
         }
         //GET-----------------------------------------
         $table= $_GET['table'] ?? 'list_lunch';
@@ -53,6 +67,12 @@ public function edit()
             'list_dinner' => 'Dinner',
             'list_dinner_dessert' => 'Dinner Dessert'
         ];
+        $file = dirname(__DIR__, 2) . '/storage/data/intolerances.json';
+        $json = json_decode(file_get_contents($file), true);
+
+        $intoleranceCategories = array_keys(
+            $json['Intolerances_Alimentaires_Canada'] ?? []
+        );
         $model = new AllergieModel($pdo);
         $allergenList = $model->all();
         $model2 = new IntoleranceModel($pdo);
@@ -71,5 +91,6 @@ public function edit()
 
         require __DIR__ . '/../views/alimentaire/restriction/edit.php';
     }
+
 
 }

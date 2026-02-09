@@ -18,8 +18,8 @@ class BirthdayModel
         'pax'           => $data['pax'],
         'date'          => $data['date'],
         'heure'         => $data['heure'],
-        'observation'   => $data['observation'],
-        'commentaires'  => $data['commentaires'],
+        'observation'   => $data['observation'] ?? 'NC',
+        'commentaires'  => $data['commentaires'] ?? 'NC',
         'lieux'         => $data['lieux'],
         'annee'         => $data['annee'],
 
@@ -46,7 +46,6 @@ class BirthdayModel
         'napkin'        => (int)$data['napkin'],
         'trashbag'      => (int)$data['trashbag'],
         'kitchencloth'  => (int)$data['kitchencloth'],
-
         'informations'  => $data['informations'],
         'disposable'    => (int)$data['disposable'],
         'enabled'       => 1,
@@ -139,7 +138,11 @@ class BirthdayModel
 
             'trashbag' => (int)$data['trashbag'], 
             'kitchencloth' => (int)$data['kitchencloth'], 
-            'informations' => $data['informations'], 
+
+            'commentaires' => $data['commentaires'] ?? '',
+            'observation' => $data['observation'] ?? '',
+            'informations' => $data['informations'] ?? '',
+
             'disposable' => (int)$data['disposable']
             ];
             $sql = "UPDATE anniversaire_tbl SET
@@ -180,7 +183,11 @@ class BirthdayModel
 
             trashbag      = :trashbag,
             kitchencloth  = :kitchencloth,
+            
+            commentaires  = :commentaires,
+            observation  = :observation,
             informations  = :informations,
+
             disposable    = :disposable
         WHERE id = :idBirthday";
         $stmt = $this->pdo->prepare($sql);

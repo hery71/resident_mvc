@@ -86,6 +86,7 @@
                         <a class="dropdown-item" href="/menuUnique/index">Menu Unique</a>                       
                         <hr class="dropdown-divider">
                         <a class="dropdown-item" href="/ingredient/edit">Éditer Ingrédients</a>
+                        <a class="dropdown-item" href="/preparation/edit">Éditer Preparations</a>
                         <hr class="dropdown-divider">
                         <a class="dropdown-item" href="/allergie/edit">Éditer Allergies</a>
                         <a class="dropdown-item" href="/intolerance/edit">Éditer Intolérances</a>

@@ -54,10 +54,11 @@ class BirthdayController
             'pax'           => $_POST['pax'],
             'date'          => $_POST['date'],
             'heure'         => $_POST['heure'],
-            'commentaires'  => 'NC',
+            'commentaires'  => $_POST['commentaires'] ?? '',
+            'informations'  => $_POST['informations'] ?? '',
+            'observation'   => $_POST['observation'] ?? '',
             'lieux'         => $_POST['lieux'],
             'annee'         => $_POST['annee'],
-
             'tea'           => $_POST['tea'] ?? 0,
             'coffee'        => $_POST['coffee'] ?? 0,
             'pop'           => $_POST['pop'] ?? 0,
@@ -81,10 +82,7 @@ class BirthdayController
             'napkin'        => $_POST['napkin'] ?? 0,
             'trashbag'      => $_POST['trashbag'] ?? 0,
             'kitchencloth'  => $_POST['kitchencloth'] ?? 0,
-
-            'informations'  => $_POST['informations'] ?? '',
             'disposable'    => $_POST['disposable'] ?? 0,
-
             'enabled'       => 1,
             'rang'          => 0
         ];
@@ -162,8 +160,10 @@ class BirthdayController
             'napkin'        => $_POST['napkin'] ?? 0,
             'trashbag'      => $_POST['trashbag'] ?? 0,
             'kitchencloth'  => $_POST['kitchencloth'] ?? 0,
-            'informations'  => $_POST['informations'] ?? '',
             'disposable'    => $_POST['disposable'] ?? 0,
+            'commentaires'  => $_POST['commentaires'] ?? '',
+            'informations'  => $_POST['informations'] ?? '',
+            'observation'   => $_POST['observation'] ?? '',
             'enabled'       => 1,
             'rang'          => 0
         ];

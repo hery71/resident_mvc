@@ -39,3 +39,10 @@
 .autocomplete-item:hover {
     background: #eee;
 }
+.tag {
+    display: inline-flex;
+    align-items: center;
+    padding: .25em .5em;
+    border-radius: .25rem;
+    font-size: 0.875rem;
+}

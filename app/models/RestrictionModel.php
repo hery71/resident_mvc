@@ -30,5 +30,15 @@ class RestrictionModel
         $stmt->execute();
         $meal = $stmt->fetch(PDO::FETCH_ASSOC);
         return $meal ?: null;
+        var_dump($meal);
+        exit();
+    }
+    public function saveRestrictions(string $table, int $mealId, string $allergeneStr, string $intoleranceStr): bool
+    {
+        $stmt = $this->pdo->prepare("UPDATE `$table` SET allergene = :allergene, intolerance = :intolerance WHERE id = :mealId");
+        $stmt->bindParam(':allergene', $allergeneStr, PDO::PARAM_STR);
+        $stmt->bindParam(':intolerance', $intoleranceStr, PDO::PARAM_STR);
+        $stmt->bindParam(':mealId', $mealId, PDO::PARAM_INT);
+        return $stmt->execute();
     }
 }

@@ -29,17 +29,19 @@
             "Arachides (intolérance non allergique possible)"
         ],
         "Fruits_et_Légumes": [
-            "Pommes",
-            "Poires",
-            "Cerises",
-            "Mangue",
-            "Pastèque",
-            "Pruneaux",
-            "Chou-fleur",
+            "Ail",
             "Brocoli",
+            "Cerises",
+            "Chou-fleur",
             "Chou de Bruxelles",
+            "Figues",
+            "Letchis",
+            "Mangue",
             "Oignon",
-            "Ail"
+            "Pastèque",
+            "Poires",
+            "Pommes",
+            "Pruneaux"
         ],
         "Amines_et_Histamine": [
             "Fromages vieillis",
