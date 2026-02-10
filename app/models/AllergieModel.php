@@ -7,7 +7,6 @@ class AllergieModel extends JsonRepository
     {
         $this->file = dirname(__DIR__, 2) . '/storage/data/allergies.json';
     }
-
     public function all(): array
     {
         return $this->read($this->file); 

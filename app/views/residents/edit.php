@@ -64,7 +64,7 @@
                    value="<?= e($resident['Chambre']) ?>">
         </div>
 
-        <button class="btn btn-success">💾 Enregistrer</button>
+        <button class="btn btn-success">Update</button>
         <a href="/resident" class="btn btn-secondary">↩ Retour</a>
     </form>
 </div>

@@ -124,16 +124,53 @@ class ResidentModel
         ]);
     }
     public function insert($data)
-{
-    $sql = "INSERT INTO resident_tbl
-        (Nom, Prenom, Anniversaire, Admission, Gender,
-         Tel1, Tel2, Tel3, Famille, Relation, Enabled)
-        VALUES
-        (:Nom, :Prenom, :Anniversaire, :Admission, :Gender,
-         :Tel1, :Tel2, :Tel3, :Famille, :Relation, 1)";
+    {
+        $sql = "INSERT INTO resident_tbl
+            (Nom, Prenom, Anniversaire, Admission, Gender,
+            Tel1, Tel2, Tel3, Famille, Relation, Enabled)
+            VALUES
+            (:Nom, :Prenom, :Anniversaire, :Admission, :Gender,
+            :Tel1, :Tel2, :Tel3, :Famille, :Relation, 1)";
 
-    $stmt = $this->pdo->prepare($sql);
-    $stmt->execute($data);
+        $stmt = $this->pdo->prepare($sql);
+        $stmt->execute($data);
+    }
+    public function updatePreferenceAlimentaire($id, $data)
+    {
+        ['Breuvage_dej', 'Breuvage_din', 'Breuvage_sou','moremeal','lessmeal'];
+        $sql = "UPDATE resident_tbl SET
+                    Bread = :Bread,
+                    Tartinade = :Tartinade,
+                    Cereale = :Cereale,
+                    Proteine = :Proteine,
+                    Fruit = :Fruit,
+                    BREUVAGE_DEJ = :Breuvage_dej,
+                    BREUVAGE_DIN = :Breuvage_din,
+                    BREUVAGE_SOU = :Breuvage_sou,
+                    moremeal = :moremeal,
+                    lessmeal = :lessmeal,
+                    Regime = :Regime,
+                    ModeEating = :ModeEating,
+                    Allergie = :Allergie
+                WHERE id = :id";
+
+        $stmt = $this->pdo->prepare($sql);
+        $stmt->execute([
+            'Bread' => $data['Bread'],
+            'Tartinade' => $data['Tartinade'],
+            'Cereale' => $data['Cereale'],
+            'Proteine' => $data['Proteine'],
+            'Fruit' => $data['Fruit'],
+            'Breuvage_dej' => $data['Breuvage_dej'],
+            'Breuvage_din' => $data['Breuvage_din'],
+            'Breuvage_sou' => $data['Breuvage_sou'],
+            'moremeal' => $data['moremeal'],
+            'lessmeal' => $data['lessmeal'],
+            'Regime' => $data['Regime'],
+            'ModeEating' => $data['ModeEating'],
+            'Allergie' => $data['   '],
+            'id' => $id
+        ]);
+
 }
-
 }

@@ -19,6 +19,7 @@ $parseList = function($s) {
 $dejSel = $parseList($resident['Breuvage_dej'] ?? '');
 $dinSel = $parseList($resident['Breuvage_din'] ?? '');
 $souSel = $parseList($resident['Breuvage_sou'] ?? '');
+$allergieSel = $parseList($resident['Allergie'] ?? '');
 ?>
 <?php require __DIR__ . '/../layout/header.php'; ?>
 <div class="container center">
@@ -26,11 +27,11 @@ $souSel = $parseList($resident['Breuvage_sou'] ?? '');
 <!-----------------------------DIV PRINCIPAL----------------->
 <div class="d-flex flex-wrap align-items-center justify-content-between mb-3">
     <h1 class="h4 mb-0">Préférences alimentaires — <?= e($resident['Prenom']) ?> <?= e($resident['Nom']) ?></h1>
-    <a href="generate_pref_pdf.php?id=<?= (int)$id ?>" class="btn btn-outline-dark"><i class="bi bi-printer"></i> Imprimer en PDF</a>
-    <a href="index.php" class="btn btn-outline-secondary"><i class="bi bi-arrow-left"></i> Retour</a>
+    <a href="/resident/index/" class="btn btn-outline-secondary"><i class="bi bi-arrow-left"></i> Retour</a>
   </div>
 
-  <form method="post" action="">
+  <form method="post" action="/resident/savePreferenceAlimentaire/">
+    <input type="hidden" name="idResident" value="<?= e($resident['id']) ?>">
     <div class="row g-3">
       <!-- Carte DIÉTÉTIQUE -->
       <div class="col-lg-6">
@@ -81,6 +82,30 @@ $souSel = $parseList($resident['Breuvage_sou'] ?? '');
                   <option value="<?= e($opt) ?>" <?= (($resident['Fruit'] ?? '') === $opt) ? 'selected' : '' ?>><?= e($opt) ?></option>
                 <?php endforeach; ?>
               </select>
+            </div>
+
+            <div class="mb-4">
+              <label for="Regime" class="form-label">Regime</label>
+              <input type="text" id="Regime" name="Regime" class="form-control" value="<?= e($resident['Regime'] ?? '') ?>" placeholder="Entrez, séparés par des virgules">
+            </div>
+
+            <div class="mb-4">
+              <label for="ModeEating" class="form-label">Habilite a se nourrir</label>
+              <select class="form-select w-50" id="ModeEating" name="ModeEating"  aria-describedby="helpModeEating">
+                <?php foreach ($options['ModeEating'] as $opt): ?>
+                  <option value="<?= e($opt) ?>" <?= ($opt === ($modeEatingSel ?? '')) ? 'selected' : '' ?>><?= e($opt) ?></option>
+                <?php endforeach; ?>
+              </select>
+            </div>
+
+            <div class="mb-4">
+              <label for="Allergie" class="form-label">Allergies</label>
+              <select class="form-select w-50" id="Allergie" name="Allergie[]" multiple size="6"  aria-describedby="helpAllergie">
+                <?php foreach ($allergenes as $opt): ?>
+                  <option value="<?= e($opt) ?>" <?= in_array($opt, $dejSel, true) ? 'selected' : '' ?>><?= e($opt) ?></option>
+                <?php endforeach; ?>
+              </select>
+              <div id="helpAllergie" class="help">Maintiens Ctrl (ou ⌘ sur Mac) pour sélectionner plusieurs.</div>
             </div>
 
           </div>
@@ -139,7 +164,7 @@ $souSel = $parseList($resident['Breuvage_sou'] ?? '');
 
     <div class="d-flex gap-2 mt-3">
       <button type="submit" class="btn btn-primary"><i class="bi bi-save"></i> Enregistrer</button>
-      <a href="index.php" class="btn btn-outline-secondary">Annuler</a>
+      <a href="/resident/index/" class="btn btn-outline-secondary">Annuler</a>
     </div>
   </form>
 <!---------------------FIN DIV PRINCIPAL--------------------->

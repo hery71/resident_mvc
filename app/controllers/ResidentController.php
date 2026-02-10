@@ -4,7 +4,6 @@ class ResidentController
     public function index()
     {
         $model = new ResidentModel();
-
         // Pagination
         $perPage = 10;
         $page = max(1, (int)($_GET['page'] ?? 1));
@@ -132,9 +131,13 @@ class ResidentController
     public function preferenceAlimentaire()
     {
         $options = require __DIR__ . '/../config/options.php';
-        $id = (int)($_GET['id'] ?? 0);
+        $idResident = (int)($_GET['id'] ?? 0);
+
+        $model = new AllergieModel();
+        $allergenes = $model->all();
+
         $model = new ResidentModel();
-        $resident = $model->findById($id);
+        $resident = $model->findById($idResident);
 
         if (!$resident) {
             http_response_code(404);
@@ -142,5 +145,34 @@ class ResidentController
         }
 
         require __DIR__ . '/../views/residents/preferenceAlimentaire.php';
-    }   
+    }  
+    public function savePreferenceAlimentaire()
+    {
+        if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
+            http_response_code(405);
+            exit;
+        }
+        $idResident = (int)($_POST['idResident'] ?? 0);
+        // Champs à mettre à jour
+        $fields = ['Bread', 'Tartinade', 'Cereale',
+        'Proteine','Fruit', 'Breuvage_dej', 'Breuvage_din', 
+        'Breuvage_sou','moremeal','lessmeal','Regime','ModeEating','Allergie'];
+
+         $model = new ResidentModel();
+        $data = [];
+        foreach ($fields as $field) {
+
+            if (isset($_POST[$field]) && is_array($_POST[$field])) {
+                // Champ multiple
+                $values = array_filter(array_map('trim', $_POST[$field]));
+                $data[$field] = implode(',', $values);
+            } else {
+                // Champ simple
+                $data[$field] = trim($_POST[$field] ?? '');
+            }
+        }
+        $model->updatePreferenceAlimentaire($idResident, $data);
+        header("Location: /resident");
+        exit;
+    }
 }
