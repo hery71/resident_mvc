@@ -137,4 +137,9 @@ class PreparationModel
         $stmt = $this->pdo->prepare("UPDATE preparation SET enabled = 0 WHERE id = ?");
         $stmt->execute([$id]);  
     }
+    function getWeeklyPreparation($start,$end){
+        $stmt = $this->pdo->prepare("SELECT * FROM preparation WHERE date >= ? AND date <= ? AND enabled = 1 ORDER BY date ASC");
+        $stmt->execute([$start->format('Y-m-d'), $end->format('Y-m-d')]);
+        return $stmt->fetchAll(PDO::FETCH_ASSOC);
+    }
 }

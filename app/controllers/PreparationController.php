@@ -77,4 +77,20 @@ class PreparationController
        $model = new PreparationModel();
        $model->delete_preparation($id);
     }
+    public function hebdomadaire()
+    {
+        $xdate = $_GET['date'] ?? date("Y-m-d");
+        $dayIndex = (new DateTime($xdate))->format('N');
+        if ($dayIndex != 7) {
+        $startOfWeek = (new DateTime($xdate))->modify('+' . (0 - $dayIndex) . ' days');
+        $endOfWeek = (new DateTime($xdate))->modify('+' . (6 - $dayIndex) . ' days');
+        } else {
+        $startOfWeek = (new DateTime($xdate));
+        $endOfWeek = (new DateTime($xdate))->modify('+6 days');
+        }
+        $model = new PreparationModel();
+        $weekData = [];
+        $weekData = $model->getWeeklyPreparation($startOfWeek, $endOfWeek);
+        require __DIR__ . '/../views/alimentaire/preparation/hebdomadaire.php';
+    }
 }

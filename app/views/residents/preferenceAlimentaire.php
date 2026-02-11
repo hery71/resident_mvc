@@ -16,9 +16,9 @@ $parseList = function($s) {
     if (!$s) return [];
     return array_map('trim', explode(',', (string)$s));
 };
-$dejSel = $parseList($resident['Breuvage_dej'] ?? '');
-$dinSel = $parseList($resident['Breuvage_din'] ?? '');
-$souSel = $parseList($resident['Breuvage_sou'] ?? '');
+$beuvragedejSel = $parseList($resident['Breuvage_dej'] ?? '');
+$beuvragedinSel = $parseList($resident['Breuvage_din'] ?? '');
+$beuvragesouSel = $parseList($resident['Breuvage_sou'] ?? '');
 $allergieSel = $parseList($resident['Allergie'] ?? '');
 ?>
 <?php require __DIR__ . '/../layout/header.php'; ?>
@@ -93,7 +93,7 @@ $allergieSel = $parseList($resident['Allergie'] ?? '');
               <label for="ModeEating" class="form-label">Habilite a se nourrir</label>
               <select class="form-select w-50" id="ModeEating" name="ModeEating"  aria-describedby="helpModeEating">
                 <?php foreach ($options['ModeEating'] as $opt): ?>
-                  <option value="<?= e($opt) ?>" <?= ($opt === ($modeEatingSel ?? '')) ? 'selected' : '' ?>><?= e($opt) ?></option>
+                  <option value="<?= e($opt) ?>" <?= ($opt === ($resident['ModeEating'] ?? '')) ? 'selected' : '' ?>><?= e($opt) ?></option>
                 <?php endforeach; ?>
               </select>
             </div>
@@ -102,7 +102,7 @@ $allergieSel = $parseList($resident['Allergie'] ?? '');
               <label for="Allergie" class="form-label">Allergies</label>
               <select class="form-select w-50" id="Allergie" name="Allergie[]" multiple size="6"  aria-describedby="helpAllergie">
                 <?php foreach ($allergenes as $opt): ?>
-                  <option value="<?= e($opt) ?>" <?= in_array($opt, $dejSel, true) ? 'selected' : '' ?>><?= e($opt) ?></option>
+                  <option value="<?= e($opt) ?>" <?= in_array($opt, $allergieSel, true) ? 'selected' : '' ?>><?= e($opt) ?></option>
                 <?php endforeach; ?>
               </select>
               <div id="helpAllergie" class="help">Maintiens Ctrl (ou ⌘ sur Mac) pour sélectionner plusieurs.</div>
@@ -122,7 +122,7 @@ $allergieSel = $parseList($resident['Allergie'] ?? '');
               <label for="Breuvage_dej" class="form-label">Breuvages – Déjeuner</label>
               <select class="form-select w-50" id="Breuvage_dej" name="Breuvage_dej[]" multiple size="6"  aria-describedby="helpDej">
                 <?php foreach ($options['Breuvage'] as $opt): ?>
-                  <option value="<?= e($opt) ?>" <?= in_array($opt, $dejSel, true) ? 'selected' : '' ?>><?= e($opt) ?></option>
+                  <option value="<?= e($opt) ?>" <?= in_array($opt, $beuvragedejSel, true) ? 'selected' : '' ?>><?= e($opt) ?></option>
                 <?php endforeach; ?>
               </select>
               <div id="helpDej" class="help">Maintiens Ctrl (ou ⌘ sur Mac) pour sélectionner plusieurs.</div>
@@ -132,7 +132,7 @@ $allergieSel = $parseList($resident['Allergie'] ?? '');
               <label for="Breuvage_din" class="form-label">Breuvages – Dîner</label>
               <select class="form-select w-50" id="Breuvage_din" name="Breuvage_din[]" multiple size="6" aria-describedby="helpDin">
                 <?php foreach ($options['Breuvage'] as $opt): ?>
-                  <option value="<?= e($opt) ?>" <?= in_array($opt, $dinSel, true) ? 'selected' : '' ?>><?= e($opt) ?></option>
+                  <option value="<?= e($opt) ?>" <?= in_array($opt, $beuvragedinSel, true) ? 'selected' : '' ?>><?= e($opt) ?></option>
                 <?php endforeach; ?>
               </select>
               <div id="helpDin" class="help">Sélection multiple autorisée.</div>
@@ -142,7 +142,7 @@ $allergieSel = $parseList($resident['Allergie'] ?? '');
               <label for="Breuvage_sou" class="form-label">Breuvages – Souper</label>
               <select class="form-select w-50" id="Breuvage_sou" name="Breuvage_sou[]" multiple size="6" aria-describedby="helpSou">
                 <?php foreach ($options['Breuvage'] as $opt): ?>
-                  <option value="<?= e($opt) ?>" <?= in_array($opt, $souSel, true) ? 'selected' : '' ?>><?= e($opt) ?></option>
+                  <option value="<?= e($opt) ?>" <?= in_array($opt, $beuvragesouSel, true) ? 'selected' : '' ?>><?= e($opt) ?></option>
                 <?php endforeach; ?>
               </select>
               <div id="helpSou" class="help">Sélection multiple autorisée.</div>

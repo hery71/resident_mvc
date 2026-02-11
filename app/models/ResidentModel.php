@@ -137,7 +137,6 @@ class ResidentModel
     }
     public function updatePreferenceAlimentaire($id, $data)
     {
-        ['Breuvage_dej', 'Breuvage_din', 'Breuvage_sou','moremeal','lessmeal'];
         $sql = "UPDATE resident_tbl SET
                     Bread = :Bread,
                     Tartinade = :Tartinade,
@@ -168,7 +167,7 @@ class ResidentModel
             'lessmeal' => $data['lessmeal'],
             'Regime' => $data['Regime'],
             'ModeEating' => $data['ModeEating'],
-            'Allergie' => $data['   '],
+            'Allergie' => $data['Allergie'],
             'id' => $id
         ]);
 

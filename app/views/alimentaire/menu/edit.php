@@ -137,6 +137,7 @@ require __DIR__ . '/../../layout/header.php'; ?>
 </div>
 <div class="text-center mt-4">
     <a href="/alimentaire/index" class="btn btn-secondary">⬅ Accueil</a>
+    <a href="/menu/dailyMenu" class="btn btn-secondary">⬅ Menu du jour</a>
   </div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 <script>

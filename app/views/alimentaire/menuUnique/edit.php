@@ -71,7 +71,7 @@ JS;
 require __DIR__ . '/../../layout/header.php'; ?>
 <div class="container mt-4">
 <h2>Menu Unique <?= htmlspecialchars($menu_unique['date'] ?? $currentDate) ?></h2>
-<a href="/menu/daylyMenu" class="btn btn-secondary mb-3">⬅ Retour</a>
+<a href="/menuUnique/index/" class="btn btn-secondary mb-3">Liste</a>
 
 <?php if (!empty($message)): ?>
 <div class="alert alert-success"><?= htmlspecialchars($message) ?></div>
