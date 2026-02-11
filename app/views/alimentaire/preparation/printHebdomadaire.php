@@ -1,30 +1,19 @@
-<?php $title = 'PREPARATIONS HEBDOMADAIRES'; 
-    $inspection=  Config::inspection(); 
-    $annee = $_GET['annee'] ?? date("Y");
-    $custom_js = <<<JS
-    // Custom JavaScript can be added here
-    JS;
-    $custom_style = <<<CSS
-    /* Custom CSS can be added here */
-    CSS;
-?>
-<?php require __DIR__ . '/../../layout/header.php'; ?>
-<div class="container center">
-    <h2>📅 Fiche hebdomadaire de préparation</h2>
-    <h5>
-        Semaine du <strong><?= $startOfWeek->format('d M Y') ?></strong>  
-        au <strong><?= $endOfWeek->format('d M Y') ?></strong>
-    </h5>
-
-    <!-- Sélecteur de date -->
-    <form method="GET" class="no-print mt-4 mb-4 d-flex align-items-center gap-2">
-        <label class="me-2">Choisir une date :</label>
-        <input type="date" name="date" class="form-control me-2" style="width:200px" value="<?= $xdate ?>">
-        <button class="btn btn-primary">Afficher</button>
-        <button type="button" target="_blank" onclick="window.open('/preparation/printHebdomadaire?date=<?= urlencode($xdate) ?>', '_blank')" class="btn btn-success ms-3">🖨️ Imprimer</button>
-    </form>
-
-    <table class="table table-bordered table-striped">
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Impression Liste préparation Hebdomadaire</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://resident_mvc.test/assets/css/style.css">
+<?php require __DIR__ . '/../../layout/printStyleScript.php'; ?>
+</head>
+<body>
+<div class="container mt-4" id="printable-area">
+    <?php include __DIR__ . '/../../layout/printSizeOption.php'; ?>
+    <h4 class="mb-4 text-center font-weight-bold">LISTE DES PREPARATIONS HEBDOMADAIRES</h4>
+     <table class="table table-bordered table-striped">
         <thead class="table-dark">
             <tr>
                 <th>Plat</th>
@@ -66,7 +55,16 @@
                 <?php $dateEnCours->modify('+1 day'); 
             endwhile; ?>
         </tbody>
-    </table>    
-<!---------------------FIN DIV PRINCIPAL--------------------->
-</div>
-<?php require __DIR__ . '/../../layout/footer.php'; ?>
+    </table>  
+                        
+</div> <!-- container -->
+
+
+    <footer class="bg-light text-center mt-5 py-3">
+        <small class="text-muted">
+            © 2026 – Resident MVC
+        </small>
+    </footer>
+</body>
+    </html>
+

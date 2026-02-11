@@ -47,7 +47,8 @@ class PreparationController
             'unite' => $unite,
             'action' => $action,
             'jour' => $jour,
-            'enabled' => $enabled
+            'enabled' => $enabled,
+            'preparation_date' => (new DateTime($date))->modify('-' . intval($jour) . ' days')->format('Y-m-d')
         ]);
         // Redirection après succès
         header("Location: /preparation/edit?date=" . urlencode($date) . "&success=1");
@@ -92,5 +93,21 @@ class PreparationController
         $weekData = [];
         $weekData = $model->getWeeklyPreparation($startOfWeek, $endOfWeek);
         require __DIR__ . '/../views/alimentaire/preparation/hebdomadaire.php';
+    }
+    public function printHebdomadaire()
+    {
+        $xdate = $_GET['date'] ?? date("Y-m-d");
+        $dayIndex = (new DateTime($xdate))->format('N');
+        if ($dayIndex != 7) {
+        $startOfWeek = (new DateTime($xdate))->modify('+' . (0 - $dayIndex) . ' days');
+        $endOfWeek = (new DateTime($xdate))->modify('+' . (6 - $dayIndex) . ' days');
+        } else {
+        $startOfWeek = (new DateTime($xdate));
+        $endOfWeek = (new DateTime($xdate))->modify('+6 days');
+        }
+        $model = new PreparationModel();
+        $weekData = [];
+        $weekData = $model->getWeeklyPreparation($startOfWeek, $endOfWeek);
+        require __DIR__ . '/../views/alimentaire/preparation/printHebdomadaire.php';
     }
 }

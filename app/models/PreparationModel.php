@@ -138,8 +138,13 @@ class PreparationModel
         $stmt->execute([$id]);  
     }
     function getWeeklyPreparation($start,$end){
-        $stmt = $this->pdo->prepare("SELECT * FROM preparation WHERE date >= ? AND date <= ? AND enabled = 1 ORDER BY date ASC");
+        $stmt = $this->pdo->prepare("SELECT * FROM preparation WHERE preparation_date >= ? AND preparation_date <= ? AND enabled = 1 ORDER BY preparation_date ASC");
         $stmt->execute([$start->format('Y-m-d'), $end->format('Y-m-d')]);
+        return $stmt->fetchAll(PDO::FETCH_ASSOC);
+    }
+    function getPreparationByDate($date){
+        $stmt = $this->pdo->prepare("SELECT * FROM preparation WHERE preparation_date = ? AND enabled = 1");
+        $stmt->execute([$date]);
         return $stmt->fetchAll(PDO::FETCH_ASSOC);
     }
 }
