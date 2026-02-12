@@ -21,12 +21,23 @@
   </form>
   <H3 class="mb-4 text-center font-weight-bold">Menu de la semaine du <?= $weekStartStr ?> au <?= $weekEndStr ?></H3> 
   <table class="table table-bordered">
+     <colgroup>
+        <col style="width:6%">   <!-- Jour -->
+        <col style="width:10%">  <!-- Date -->
+        <col style="width:10%">  <!-- Saison -->
+        <col style="width:5%">  <!-- Week -->
+        <col style="width:15%">  <!-- Breakfast -->
+        <col style="width:15%">  <!-- Lunch -->
+        <col style="width:12%">  <!-- Lunch Dessert -->
+        <col style="width:15%">  <!-- Dinner -->
+        <col style="width:12%">  <!-- Dinner Dessert -->
+    </colgroup>
         <thead>
             <tr>
                 <th>Jour</th>
                 <th>Date</th>
                 <th>Saison</th>
-                <th>Week</th>
+                <th>Wk</th>
                 <th>Breakfast</th>
                 <th>Lunch</th>
                 <th>Lunch Dessert</th>
@@ -37,7 +48,11 @@
         <tbody>
             <?php foreach ($menus as $item): ?>
                 <tr class="<?= ($item['saison'] === 'Special') ? 'table-warning' : '' ?>">
-                <td><strong><?= e($item['day']) ?></strong></td>
+                <td class="col-1">
+                    <strong>
+                        <?= (new DateTime($item['day']))->format('D') ?>
+                    </strong>
+                </td>
                 <td><?= date('d/m/Y', strtotime($item['date'])) ?></td>
                 <td><?= e($item['saison']) ?></td>
                 <td><?= e($item['week']) ?></td>

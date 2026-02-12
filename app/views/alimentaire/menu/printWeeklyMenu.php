@@ -24,31 +24,43 @@ $colonnes='
 <body>
 <div class="container mt-4" id="printable-area">
 <?php include __DIR__ . '/../../layout/printSizeOption.php'; ?>
-<H3 class="mb-4 text-center font-weight-bold">MENU DE LA SEMAINE</H3>
  <H3 class="mb-4 text-center font-weight-bold">Menu de la semaine du <?= $weekStartStr ?> au <?= $weekEndStr ?></H3> 
   <table class="table table-bordered">
+     <colgroup>
+        <col style="width:6%">   <!-- Jour -->
+        <col style="width:10%">  <!-- Date -->
+        <col style="width:20%">  <!-- Breakfast -->
+        <col style="width:20%">  <!-- Lunch -->
+        <col style="width:12%">  <!-- Lunch Dessert -->
+        <col style="width:20%">  <!-- Dinner -->
+        <col style="width:12%">  <!-- Dinner Dessert -->
+    </colgroup>
         <thead>
             <tr>
-                <th>Jour</th>
-                <th>Date</th>
-                <th>Breakfast</th>
-                <th>Lunch</th>
-                <th>Lunch Dessert</th>
-                <th>Dinner</th>
-                <th>Dinner Dessert</th>
+                <th class="col-1">Jour</th>
+                <th class="col-2">Date</th>
+                <th class="col-3">Breakfast</th>
+                <th class="col-4">Lunch</th>
+                <th class="col-5">Lunch Dessert</th>
+                <th class="col-6">Dinner</th>
+                <th class="col-7">Dinner Dessert</th>
             </tr>
         </thead>
         <tbody>
             <?php foreach ($menus as $item): ?>
                 <tr class="<?= ($item['saison'] === 'Special') ? 'table-warning' : '' ?>">
-                <td><strong><?= e($item['day']) ?></strong></td>
-                <td><?= date('d/m/Y', strtotime($item['date'])) ?></td>
+                <td class="col-1">
+                    <strong>
+                        <?= (new DateTime($item['day']))->format('D') ?>
+                    </strong>
+                </td>
+                <td class="col-2"><?= date('d/m/Y', strtotime($item['date'])) ?></td>
                 <?php if ($item['menu']): ?>
-                    <td><?= e($item['menu']['breakfast']) ?></td>
-                    <td><?= e($item['menu']['lunch']) ?></td>
-                    <td><?= e($item['menu']['lunch_dessert']) ?></td>
-                    <td><?= e($item['menu']['dinner']) ?></td>
-                    <td><?= e($item['menu']['dinner_dessert']) ?></td>
+                    <td class="col-3"><?= e($item['menu']['breakfast']) ?></td>
+                    <td class="col-4"><?= e($item['menu']['lunch']) ?></td>
+                    <td class="col-5"><?= e($item['menu']['lunch_dessert']) ?></td>
+                    <td class="col-6"><?= e($item['menu']['dinner']) ?></td>
+                    <td class="col-7"><?= e($item['menu']['dinner_dessert']) ?></td>
                 <?php else: ?>
                     <td colspan="5" class="cell-empty"><em>Aucun menu trouvé</em></td>
                 <?php endif; ?>
