@@ -1,3 +1,15 @@
+<?php
+$colonnes='
+{
+"Jour": 1,
+"Date": 2,
+"Breakfast": 3,
+"Lunch": 4,
+"Lunch Dessert": 5,
+"Dinner": 6,
+"Dinner Dessert": 7
+}';
+?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>

@@ -26,7 +26,19 @@
             <option value="landscape">Paysage</option>
         </select>
     </div>
-
+    <!-- Afficher/ Masquer colonnes -->
+    <div class="col-4 col-md-3">
+        <label class="mb-0 mr-2">Afficher/ Masquer colonnes :</label>
+        <select class="form-control form-control-sm"
+                onchange="setOrientation(this.value)">
+            <?php
+            $colonnesArray = json_decode($colonnes, true);
+            foreach ($colonnesArray as $colName => $colIndex) {
+                echo '<option value="' . $colIndex . '" selected>' . $colName . '</option>';
+            }    
+            ?>
+        </select>
+    </div>
     <!-- Bouton imprimer -->
     <div class="col-auto">
         <button class="btn btn-primary mt-2 mt-md-0"

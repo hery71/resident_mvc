@@ -36,6 +36,9 @@ function setOrientation(value) {
         display: inline-block;
         width: auto;
     }
+    th {
+    text-align: center;
+}
     
 </style>
 <style id="orientation-style">
