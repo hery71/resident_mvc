@@ -34,7 +34,6 @@ require __DIR__ . '/../../layout/header.php'; ?>
          class="btn btn-outline-secondary">
          Changer en menu unique
       </a>
-
     <?php else: ?>
       <a href="/menuUnique/edit?id=<?= $id_unique ?>"
          class="btn btn-outline-secondary">
@@ -48,6 +47,10 @@ require __DIR__ . '/../../layout/header.php'; ?>
          Changer le menu de base
       </a>
     <?php endif; ?>
+     <a target="_blank" href="/menu/printDailyMenu?date=<?= htmlspecialchars($xdate) ?>"
+         class="btn btn-outline-secondary">
+         Imprimer
+      </a>
   </form>
 
   <div class="alert alert-info"><?= $info ?></div>

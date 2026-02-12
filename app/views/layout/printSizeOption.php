@@ -1,4 +1,6 @@
 <div class="row no-print mb-3 align-items-center">
+
+    <!-- Taille police -->
     <div class="col-4 col-md-3">
         <label class="mb-0 mr-2">Taille police :</label>
         <select class="form-control form-control-sm"
@@ -14,10 +16,23 @@
             <option value="36px">36</option>
         </select>
     </div>
+
+    <!-- Orientation -->
+    <div class="col-4 col-md-3">
+        <label class="mb-0 mr-2">Orientation :</label>
+        <select class="form-control form-control-sm"
+                onchange="setOrientation(this.value)">
+            <option value="portrait" selected>Portrait</option>
+            <option value="landscape">Paysage</option>
+        </select>
+    </div>
+
+    <!-- Bouton imprimer -->
     <div class="col-auto">
         <button class="btn btn-primary mt-2 mt-md-0"
                 onclick="window.print()">
             🖨 Imprimer
         </button>
     </div>
+
 </div>

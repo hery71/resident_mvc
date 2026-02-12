@@ -17,8 +17,9 @@
             class="form-control mr-2"
             value="<?= e($startDate) ?>">
         <button type="button" class="btn btn-primary mr-2" onclick="selectDate()">Afficher</button>
+        <a target="_blank" href="/menu/printWeeklyMenu?date=<?= e($startDate) ?>" class="btn btn-secondary">Imprimer</a>
   </form>
-
+  <H3 class="mb-4 text-center font-weight-bold">Menu de la semaine du <?= $weekStartStr ?> au <?= $weekEndStr ?></H3> 
   <table class="table table-bordered">
         <thead>
             <tr>
@@ -55,19 +56,6 @@
         </tbody>
   </table>
 
-  <div class="form-group mt-3">
-        <label for="fontSizeSelect"><strong>Taille du texte :</strong></label>
-        <select id="fontSizeSelect" class="form-control d-inline-block ml-2" style="width:150px;">
-            <option value="10">S</option>
-            <option value="12">M</option>
-            <option value="14" selected>Normal</option>
-            <option value="16">XL</option>
-            <option value="18">XXL</option>
-            <option value="20">XXXL</option>
-        </select>
-  </div>
-
-  <button class="btn btn-success mt-3" onclick="printWeek()">🖨️ Imprimer la semaine</button>
    <div class="text-center mt-4">
     <a href="/alimentaire/index" class="btn btn-secondary">⬅ Accueil</a>
 <?php require __DIR__ . '/../../layout/footer.php'; ?> 

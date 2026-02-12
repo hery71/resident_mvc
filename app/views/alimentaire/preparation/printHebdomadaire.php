@@ -13,6 +13,9 @@
 <div class="container mt-4" id="printable-area">
     <?php include __DIR__ . '/../../layout/printSizeOption.php'; ?>
     <h4 class="mb-4 text-center font-weight-bold">LISTE DES PREPARATIONS HEBDOMADAIRES</h4>
+    <h4 class="mb-4 text-center font-weight-bold">
+        Semaine du <?= $startOfWeek->format('d M Y') ?> au <?= $endOfWeek->format('d M Y') ?>
+     </h4>
      <table class="table table-bordered table-striped">
         <thead class="table-dark">
             <tr>

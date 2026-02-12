@@ -5,6 +5,17 @@ function setPrintFontSize(size) {
         .style
         .setProperty('--print-font-size', size);
 }
+function setOrientation(value) {
+
+    document.getElementById('orientation-style').innerHTML = `
+        @media print {
+            @page {
+                size: ${value};
+                margin: 10mm;
+            }
+        }
+    `;
+}
 </script>
 <style>
     @media print {
@@ -25,4 +36,13 @@ function setPrintFontSize(size) {
         display: inline-block;
         width: auto;
     }
+    
+</style>
+<style id="orientation-style">
+@media print {
+    @page {
+        size: portrait;
+        margin: 10mm;
+    }
+}
 </style>
