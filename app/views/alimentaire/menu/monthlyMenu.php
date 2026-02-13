@@ -119,7 +119,7 @@
 ?>
 <?php require __DIR__ . '/../../layout/header.php'; ?>
 <div class="container center">
-<h3>Menu Mensuel</h3>
+<h3>Menu Mensuel: <?= $monthName ?> <?= $year ?></h3>
  <!-- Filtre mois/année -->
         <form class="form-inline mb-4 no-print">
             <label class="mr-2">Mois :</label>
@@ -156,10 +156,9 @@
             <button id="toggleDessertsBtn" class="btn btn-success toggle-btn">
                 <i class="bi bi-eye"></i> Masquer Desserts
             </button>
-
-            <button class="btn btn-secondary toggle-btn" onclick="window.print()">
+            <a href="printMonthlyMenu?annee=<?= $year ?>&mois=<?= $month ?>" target="_blank" class="btn btn-secondary toggle-btn">
                 <i class="bi bi-printer"></i> Imprimer
-            </button>
+            </a>
         </div>
 
         <!-- TABLEAU -->

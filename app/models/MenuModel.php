@@ -91,6 +91,7 @@ class MenuModel
             'dinner_dessert'  => $fetchMeals('dinner_dessert')
         ];
     }
+    
     function getSpecialMenuForDate(string $date) {
         $stmt = $this->pdo->prepare("SELECT * FROM menu_unique WHERE date = ? AND enabled = 1 LIMIT 1");
         $stmt->execute([$date]);

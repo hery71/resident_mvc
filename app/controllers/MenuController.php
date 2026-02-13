@@ -218,7 +218,7 @@ class MenuController extends Controller
     {
         $year  = $_GET['annee'] ?? date('Y');
         $month = $_GET['mois']  ?? date('n');
-
+        $monthName = DateHelper::MONTHS_FR[(int)$month];
         $model = new MenuModel();
         $data = $model->getMonthlyMenus((int)$year, (int)$month);
         $data['monthsFr'] = DateHelper::MONTHS_FR;
@@ -377,6 +377,17 @@ class MenuController extends Controller
         }
         require __DIR__ . '/../views/alimentaire/menu/printWeeklyMenu.php';
     }
-        
+public function printMonthlyMenu()
+    {
+        $year  = $_GET['annee'] ?? date('Y');
+        $month = $_GET['mois']  ?? date('n');
+        $monthName = DateHelper::MONTHS_FR[(int)$month];
+
+        $model = new MenuModel();
+        $data = $model->getMonthlyMenus((int)$year, (int)$month);
+        $data['monthsFr'] = DateHelper::MONTHS_FR;
+
+       $this->render('alimentaire/menu/printMonthlyMenu', $data);
+    }
 
 }
