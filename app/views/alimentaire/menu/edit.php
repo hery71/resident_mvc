@@ -174,7 +174,6 @@ document.addEventListener("input", function (e) {
                 };
                 box.appendChild(item);
             });
-
             group.appendChild(box);
         });
 });
@@ -198,7 +197,7 @@ document.addEventListener("click", e => {
     if (!id) { btn.closest(".input-group").remove(); return; }
 
     if (confirm(`Supprimer "${meal}" ?`)) {
-      fetch("update_enabled.php", {
+      fetch("/menu/deleteMeal/", {
         method: "POST",
         headers: { "Content-Type": "application/x-www-form-urlencoded" },
         body: new URLSearchParams({ table, id })

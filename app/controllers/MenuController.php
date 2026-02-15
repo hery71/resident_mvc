@@ -389,5 +389,17 @@ public function printMonthlyMenu()
 
        $this->render('alimentaire/menu/printMonthlyMenu', $data);
     }
+public function deleteMeal(): void
+    {
+        if ($_SERVER['REQUEST_METHOD'] !== 'POST') exit;
 
+        $table = $_POST['table'] ?? '';
+        $id = (int)($_POST['id'] ?? 0);
+        $allowed = ['breakfast','lunch','lunch_dessert','dinner','dinner_dessert'];
+        if (!in_array($table, $allowed) || $id <= 0) { echo "Invalid data"; exit; }
+        $model = new MenuModel();
+        $model->deleteMeal($table, $id);
+        
+       
+    }
 }

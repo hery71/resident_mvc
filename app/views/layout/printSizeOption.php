@@ -37,15 +37,17 @@
         </button>
     </div>
     <!-- Afficher/ Masquer colonnes -->
-    <div class="no-print mb-3">
-        <label class="mb-0 mr-2">Afficher/ Masquer colonnes :</label>
-            <?php
-            $colonnesArray = json_decode($colonnes, true);
-            foreach ($colonnesArray as $colName => $colIndex) {
-                echo '<label><input type="checkbox" checked onchange="toggleColumn(\'col-' . $colIndex . '\')"> ' . htmlspecialchars($colName) . '</label>';
-            }    
-            ?>
-        </select>
-    </div>
+     <?php if(isset($colonnes) && !empty($colonnes)): ?>
+        <div class="no-print mb-3">
+            <label class="mb-0 mr-2">Afficher/ Masquer colonnes :</label>
+                <?php
+                $colonnesArray = json_decode($colonnes, true);
+                foreach ($colonnesArray as $colName => $colIndex) {
+                    echo '<label><input type="checkbox" checked onchange="toggleColumn(\'col-' . $colIndex . '\')"> ' . htmlspecialchars($colName) . '</label>';
+                }    
+                ?>
+            </select>
+        </div>
+    <?php endif; ?>
 
 </div>

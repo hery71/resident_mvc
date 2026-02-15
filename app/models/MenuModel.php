@@ -265,5 +265,15 @@ public function getSpecialMenus(int $annee, int $week): array
 
         return $plats;
     }
+    public function deleteMeal($table, $id)
+    {
+         try {
+            $stmt = $this->pdo->prepare("UPDATE $table SET enabled=0 WHERE id=?");
+            $stmt->execute([$id]);
+            echo "OK";
+        } catch (Exception $e) {
+            echo "Erreur SQL: ".$e->getMessage();
+        }
+    }
 
 }
