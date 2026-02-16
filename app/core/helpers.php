@@ -7,6 +7,10 @@ function e($value): string
 {
     return htmlspecialchars((string)($value ?? ''), ENT_QUOTES, 'UTF-8');
 }
+function f8($value): string
+{
+    return mb_convert_encoding((string)($value ?? ''), 'ISO-8859-1', 'UTF-8');
+}
 
 function logo_disk_path(): ?string
 {

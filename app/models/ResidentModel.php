@@ -171,5 +171,62 @@ class ResidentModel
             'id' => $id
         ]);
 
-}
+    }
+    public function findDietById(int $id)
+    {
+        $stmt = $this->pdo->prepare("SELECT * FROM resident_tbl WHERE id = ?");
+        $stmt->execute([$id]);
+        return $stmt->fetch(PDO::FETCH_ASSOC);
+    }
+    public function updateDietetique(int $id, array $data): bool
+    {
+        if ($id <= 0 || empty($data)) {
+            return false;
+        }
+
+        // ✅ Convertir automatiquement les champs multi-select (array -> varchar)
+        foreach (['Intolerance', 'Allergie'] as $multiField) {
+            if (array_key_exists($multiField, $data)) {
+                if (is_array($data[$multiField])) {
+                    // Nettoyage + suppression des vides + unicité
+                    $vals = array_values(array_unique(array_filter(array_map('trim', $data[$multiField]))));
+                    $data[$multiField] = $vals ? implode(', ', $vals) : null;
+                } else {
+                    // si string: trim et null si vide
+                    $v = trim((string)$data[$multiField]);
+                    $data[$multiField] = ($v === '') ? null : $v;
+                }
+            }
+        }
+
+        // (Optionnel) trim sur tous les champs string
+        foreach ($data as $k => $v) {
+            if (is_string($v)) {
+                $data[$k] = trim($v);
+            }
+            if ($data[$k] === '') {
+                $data[$k] = null;
+            }
+        }
+
+        // Construire dynamiquement SET
+        $set = [];
+        foreach ($data as $key => $value) {
+            // ⚠️ sécurité: on évite les clés bizarres
+            if (!preg_match('/^[A-Za-z0-9_]+$/', $key)) {
+                continue;
+            }
+            $set[] = "`$key` = :$key";
+        }
+
+        if (empty($set)) {
+            return false;
+        }
+
+        $sql = "UPDATE `resident_tbl` SET " . implode(', ', $set) . " WHERE `id` = :id";
+        $stmt = $this->pdo->prepare($sql);
+
+        $data['id'] = $id;
+        return $stmt->execute($data);
+    }
 }

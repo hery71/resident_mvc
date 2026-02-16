@@ -193,5 +193,119 @@ class ParametresController
         }
         require __DIR__ . '/../views/parametres/seasonMenu.php';
     }
+   public function importSpecial()
+{
+    $rows = [];
+
+    $meals = ['breakfast','lunch','lunch_dessert','dinner','dinner_dessert'];
+
+    // 1) RANGER : RAW -> 5 textareas (Week 1) + detect type
+    if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['range'])) {
+
+        $raw = trim($_POST['raw_data'] ?? '');
+
+        if ($raw !== '') {
+
+            $hasXmas = (strpos($raw, 'CCCCCCC') !== false);
+            $hasNY   = (strpos($raw, 'NNNNNNN') !== false);
+
+            if ($hasXmas && $hasNY) {
+                // on garde raw dans textarea + message simple
+                $_POST['special_type'] = '';
+                // Tu peux remplacer par flash/alert bootstrap plus tard
+                die("Erreur: le brut contient CCCCCCC ET NNNNNNN. Importer un seul type à la fois.");
+            }
+            if (!$hasXmas && !$hasNY) {
+                $_POST['special_type'] = '';
+                die("Erreur: aucun séparateur détecté (CCCCCCC ou NNNNNNN).");
+            }
+
+            $sep = $hasXmas ? 'CCCCCCC' : 'NNNNNNN';
+            $_POST['special_type'] = $hasXmas ? 'Christmass' : 'New year';
+
+            $lines = explode("\n", $raw);
+
+            $currentBlock = -1;
+            $blocks = []; // [blockIndex][] lines
+
+            foreach ($lines as $line) {
+                $line = trim($line);
+                if ($line === '') continue;
+
+                if ($line === $sep) {
+                    $currentBlock++;
+                    continue;
+                }
+
+                if ($currentBlock >= 0) {
+                    $blocks[$currentBlock][] = $line;
+                }
+            }
+
+            // On veut 5 blocs : breakfast..dinner_dessert
+            for ($i = 0; $i < 5; $i++) {
+                $meal = $meals[$i];
+                $_POST["week1_{$meal}"] = isset($blocks[$i]) ? implode("\n", $blocks[$i]) : '';
+            }
+        }
+    }
+
+    // 2) PREVIEW : textareas -> table (Week 1)
+    if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['preview'])) {
+
+        $type = $_POST['special_type'] ?? '';
+        $data = [];
+
+        foreach ($meals as $meal) {
+            $field = "week1_{$meal}";
+            $text = trim($_POST[$field] ?? '');
+            if ($text === '') continue;
+
+            $lines = explode("\n", $text);
+
+            foreach ($lines as $line) {
+                $cols = explode(';', trim($line));
+                for ($d = 0; $d < 7; $d++) {
+                    if (!empty($cols[$d])) {
+                        $data[1][$d + 1][$meal][] = trim($cols[$d]);
+                    }
+                }
+            }
+        }
+
+        $rows[] = ['Type','Week','Day','Breakfast','Lunch','Lunch Dessert','Dinner','Dinner Dessert'];
+
+        foreach (($data[1] ?? []) as $day => $mealsData) {
+            $rows[] = [
+                $type,
+                1,
+                $day,
+                implode(', ', $mealsData['breakfast'] ?? []),
+                implode(', ', $mealsData['lunch'] ?? []),
+                implode(', ', $mealsData['lunch_dessert'] ?? []),
+                implode(', ', $mealsData['dinner'] ?? []),
+                implode(', ', $mealsData['dinner_dessert'] ?? []),
+            ];
+        }
+    }
+
+    require __DIR__ . '/../views/parametres/importSpecial.php';
+}
+
+public function exportSpecial()
+{
+    $annee = $_POST['annee'] ?? '';
+    $type  = $_POST['special_type'] ?? '';
+
+    if ($annee === '') die("Année obligatoire.");
+    if ($type !== 'Christmass' && $type !== 'New year') die("Type obligatoire (Christmass ou New year).");
+
+    $model = new ParametresModel();
+    $model->exportSpecialMenus($_POST, $type, $annee);
+
+    header("Location: /parametres/seasonMenu?saison=" . urlencode($type) . "&annee=" . urlencode($annee));
+    exit;
+}
+
 
 }

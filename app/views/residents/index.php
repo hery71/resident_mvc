@@ -69,6 +69,10 @@
                 class="btn btn-sm btn-success ml-1">
                 Preference Alimentaires
                 </a>
+                <a href="/resident/dietetique/<?= (int)$r['id'] ?>"
+                  class="btn btn-success btn-sm">
+                    Dietetique
+                </a>
                 <a href="#"
                     class="btn btn-sm btn-danger btn-depart-resident"
                     data-toggle="modal"

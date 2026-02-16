@@ -31,7 +31,7 @@
             <select name="saison" class="form-control" required>
                 <option value="">-- Choisir --</option>
                 <?php 
-                $seasons = ['Winter','Spring','Summer','Falls','Christmass','New year'];
+                $seasons = ['Winter','Spring','Summer','Falls','Christmass','New Year'];
                 foreach ($seasons as $s): ?>
                     <option value="<?= $s ?>" <?= ($saison ?? '') == $s ? 'selected' : '' ?>>
                         <?= $s ?>

@@ -4,7 +4,7 @@ return [
     'Relation' => ['Epoux','Epouse','Grands parents', 'Père', 'Mère', 'Frère', 'Sœur', 'Cousin(e)', 'Ami/Oncle', 'Tante', 'Fils', 'Fille', 'Petit Fils', 'Petite fille'],
     'CauseDepart' => ['Décès', 'Déménagement', 'Maladie', 'Autre'],
     'Commentaires' => ['CAKE FOR RESIDENTS','CAKE FOR THE STAFF','CAKE FOR THE PARTY','WAITING CONFIRMATION','CAKE FOR RESIDENTS','GIVE THE CAKE TO FAMILY','FAMILY WILL BRING CAKE','NO PARTY FAMILLY PICK UP THE CAKE','NO CAKE'],
-    'Heure' => ['13:00:00','13:30:00','14:00:00','14:30:00','15:00:00','15:30:00','16:00:00','16:30:00','17:00:00'],
+    'Heure' => ['13:30:00','14:00:00','14:30:00','15:00:00','15:30:00','16:00:00','16:30:00','17:00:00'],
     'Lieux' => ['Salle Activite','Salon','Gazebo','Chambre','NO PARTY'],
     'Observations' => [ 'Confirmed','Subject to modification','Family no answer'],
     'Informations' => [ 'No','Family clean and throw all after party Send all disposables'],
@@ -24,7 +24,7 @@ return [
     'LieuRepas' => ['Cafeteria', 'Activité', 'Chambre', 'Salon'],
 
     //********************************infirmier************************************************** */
-    'Consistance' => ['Normale', 'Purée', 'Haché'],
+    'Consistance' => ['Normale', 'Purée', 'Haché','Liquide'],
     'ModeEating' => ['Autonome', 'Feeding'],
     'Thickened' => ['0', '1', '2', '3', '4'],
     'Diabet' => ['Oui', 'Non'],

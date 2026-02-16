@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Code de confirmation</title>
+  <style>
+    /* Email-safe CSS (simple, widely supported) */
+    body { margin:0; padding:0; background:#f6f8fb; font-family: Arial, Helvetica, sans-serif; color:#1f2937; }
+    .wrapper { width:100%; table-layout:fixed; background:#f6f8fb; padding:24px 0; }
+    .container { width:100%; max-width:600px; background:#ffffff; border-radius:12px; overflow:hidden; }
+    .header { background:#0b57d0; color:#fff; padding:18px 24px; }
+    .brand { font-size:16px; font-weight:700; letter-spacing:.2px; }
+    .content { padding:24px; }
+    h1 { margin:0 0 10px; font-size:18px; }
+    p { margin:10px 0; line-height:1.5; font-size:14px; }
+    .codeBox {
+      margin:18px 0 14px;
+      padding:16px;
+      border:1px solid #e5e7eb;
+      background:#f9fafb;
+      border-radius:10px;
+      text-align:center;
+    }
+    .code {
+      font-size:28px;
+      font-weight:800;
+      letter-spacing:3px;
+      color:#111827;
+    }
+    .muted { color:#6b7280; font-size:12px; }
+    .warning {
+      margin:16px 0;
+      padding:14px;
+      border-left:4px solid #f59e0b;
+      background:#fff7ed;
+      border-radius:8px;
+      font-size:13px;
+    }
+    .danger {
+      margin:16px 0;
+      padding:14px;
+      border-left:4px solid #ef4444;
+      background:#fef2f2;
+      border-radius:8px;
+      font-size:13px;
+    }
+    .footer {
+      padding:18px 24px;
+      background:#f9fafb;
+      border-top:1px solid #e5e7eb;
+      font-size:12px;
+      color:#6b7280;
+    }
+    a { color:#0b57d0; text-decoration:none; }
+  </style>
+</head>
+<body>
+  <table class="wrapper" role="presentation" cellpadding="0" cellspacing="0" border="0">
+    <tr>
+      <td align="center">
+        <table class="container" role="presentation" cellpadding="0" cellspacing="0" border="0">
+          <tr>
+            <td class="header">
+              <div class="brand">Sécurité du compte</div>
+            </td>
+          </tr>
+          <tr>
+            <td class="content">
+              <h1>Bonjour Hery,</h1>
+
+              <p>
+              Voici le code pour votre contact sur WHATSAPP donnez le a l autre utilisateur pour qu ilpuisse vous appeller.... :
+              </p>
+
+              <div class="codeBox">
+                <div class="code">65466607</div>
+                <div class="muted">Ce code expire rapidement. Ne le partagez avec personne.</div>
+              </div>
+
+              <div class="danger">
+                <strong>Ne partagez ce code avec personne.</strong><br />
+                Si quelqu’un vous demande ce code, <strong>ne le donnez pas</strong>, même si la personne dit travailler pour
+                Facebook ou Meta. Il pourrait s’agir d’une tentative de piratage.
+              </div>
+
+              <div class="warning">
+                <strong>Vous n’êtes pas à l’origine de cette demande&nbsp;?</strong><br />
+                Si vous avez reçu cet e-mail sans essayer de confirmer votre compte, vous n’avez rien à faire
+                tant que vous ne partagez pas ce code. Pour renforcer la sécurité, changez votre mot de passe
+                et activez la vérification en deux étapes dans les paramètres de votre compte.
+              </div>
+
+              <p class="muted">
+                Astuce sécurité : vérifiez toujours l’adresse de l’expéditeur et ne cliquez pas sur des liens suspects.
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td class="footer">
+              Cet e-mail a été envoyé automatiquement. Merci de ne pas répondre.<br />
+              © <span id="y"></span> Votre service — Sécurité du compte
+            </td>
+          </tr>
+        </table>
+
+        <!-- Small JS won’t run in most email clients; safe to omit. -->
+      </td>
+    </tr>
+  </table>
+</body>
+</html>

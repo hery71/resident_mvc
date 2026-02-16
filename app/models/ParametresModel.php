@@ -196,7 +196,94 @@ class ParametresModel
 
         return $stmt->fetchAll(PDO::FETCH_COLUMN);
     }
+public function exportSpecialMenus(array $postData, string $saison, string $annee): void
+    {
+        $pdo = $this->pdo;
 
+        $meals = ['breakfast','lunch','lunch_dessert','dinner','dinner_dessert'];
+        $importTime = date('Y-m-d H:i:s');
 
+        $pdo->beginTransaction();
 
+        try {
+
+            // 1) reconstruire data (week 1 only)
+            $data = [];
+
+            foreach ($meals as $meal) {
+                $field = "week1_{$meal}";
+                $text = trim($postData[$field] ?? '');
+                if ($text === '') continue;
+
+                $lines = explode("\n", $text);
+                foreach ($lines as $line) {
+                    $cols = explode(';', trim($line));
+                    for ($d = 0; $d < 7; $d++) {
+                        if (!empty($cols[$d])) {
+                            $data[1][$d + 1][$meal][] = trim($cols[$d]);
+                        }
+                    }
+                }
+            }
+
+            // 2) insert menu_tbl (week=1)
+            $stmtMenu = $pdo->prepare("
+                INSERT INTO menu_tbl
+                (week, annee, saison, day, breakfast, lunch, lunch_dessert, dinner, dinner_dessert, enabled, date1)
+                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, 1, ?)
+            ");
+
+            $dayNames = [
+                1=>'Sunday',2=>'Monday',3=>'Tuesday',
+                4=>'Wednesday',5=>'Thursday',6=>'Friday',7=>'Saturday'
+            ];
+
+            foreach (($data[1] ?? []) as $day => $mealsData) {
+                $stmtMenu->execute([
+                    1,
+                    $annee,
+                    $saison,
+                    $dayNames[$day],
+                    implode(', ', $mealsData['breakfast'] ?? []),
+                    implode(', ', $mealsData['lunch'] ?? []),
+                    implode(', ', $mealsData['lunch_dessert'] ?? []),
+                    implode(', ', $mealsData['dinner'] ?? []),
+                    implode(', ', $mealsData['dinner_dessert'] ?? []),
+                    $importTime
+                ]);
+            }
+
+            // 3) relire menus insérés
+            $stmtSelect = $pdo->prepare("SELECT * FROM menu_tbl WHERE date1 = ?");
+            $stmtSelect->execute([$importTime]);
+            $menus = $stmtSelect->fetchAll(PDO::FETCH_ASSOC);
+
+            // 4) explosion vers tables meals
+            foreach ($menus as $menu) {
+                $menuId = (int)$menu['id'];
+
+                foreach ($meals as $mealTable) {
+                    $items = explode(',', (string)$menu[$mealTable]);
+
+                    foreach ($items as $item) {
+                        $item = trim($item);
+                        if ($item === '') continue;
+
+                        $stmtMeal = $pdo->prepare("
+                            INSERT INTO {$mealTable}
+                            (meal, allergene, enabled, id_menu, intolerance, ids)
+                            VALUES (?, '', 1, ?, '', 0)
+                        ");
+                        $stmtMeal->execute([$item, $menuId]);
+                    }
+                }
+            }
+
+            $pdo->commit();
+
+        } catch (Exception $e) {
+            $pdo->rollBack();
+            throw $e;
+        }
+    }
 }

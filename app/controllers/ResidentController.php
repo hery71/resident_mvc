@@ -1,5 +1,5 @@
 <?php
-class ResidentController
+class ResidentController extends Controller
 {
     public function index()
     {
@@ -18,7 +18,6 @@ class ResidentController
         $total = $model->countFiltered($nom, $prenom);
 
         $totalPages = ceil($total / $perPage);
-
         require __DIR__ . '/../views/residents/index.php';
     }
      public function printIndex()
@@ -174,5 +173,149 @@ class ResidentController
         $model->updatePreferenceAlimentaire($idResident, $data);
         header("Location: /resident");
         exit;
+    }
+    public function dietetique(int $id): void
+    {
+        //veridsi il y a un nouveaui resident selectionné
+        if(isset($_POST['idResident']))
+            {
+                $id=(int)$_POST['idResident'];
+            }
+            // Récupération des données du résident
+        $model = new ResidentModel();
+        $resident = $model->findDietById($id);
+        $residentList = $model->getAll();
+
+        if (!$resident) {
+            header("Location: /residents");
+            exit;
+        }
+        $options = require APP_PATH . '/config/options.php';
+        $jsonPath = dirname(__DIR__, 2) . '/storage/data/intolerances.json';
+        $intolerances = json_decode(file_get_contents($jsonPath), true);
+        $allergiesPath = dirname(__DIR__, 2) . '/storage/data/allergies.json';
+        $allergies = json_decode(file_get_contents($allergiesPath), true);
+
+        $this->render('residents/dietetique', [
+            'resident' => $resident,
+            'options' => $options,
+            'intolerances' => $intolerances,
+            'allergies' => $allergies,
+            'residentList' => $residentList
+        ]);
+    }
+    public function updateDietetique(): void
+    {
+        
+        // Intolerances
+        if (!empty($_POST['Intolerance'])) {
+            $data['Intolerance'] = implode(', ', $_POST['Intolerance']);
+        } else {
+            $data['Intolerance'] = null;
+        }
+
+        // Allergies
+        if (!empty($_POST['Allergie'])) {
+            $data['Allergie'] = implode(', ', $_POST['Allergie']);
+        } else {
+            $data['Allergie'] = null;
+        }
+
+        $model = new ResidentModel();
+        $id = (int)$_POST['id'];
+
+        $fields = [
+            'Diabet',
+            'LieuRepas',
+            'Juice',
+            'Prune',
+            'Thickened',
+            'Consistance',
+            'Milk',
+            'Lactose',
+            'Intolerance',
+            'Allergie',
+            'Tartinade'
+        ];
+
+        $data = [];
+
+        foreach ($fields as $field) {
+            $data[$field] = $_POST[$field] ?? null;
+        }
+
+        $model->updateDietetique($id, $data);
+
+        header("Location: /resident/dietetique/$id");
+        exit;
+    }
+    public function ficheDietetique(int $id): void
+    {
+        $model = new ResidentModel();
+        $resident = $model->findDietById($id);
+
+        if (!$resident) {
+            header("Location: /residents");
+            exit;
+        }
+        //require_once __DIR__ . '/../../fpdf/fpdf.php';
+        require_once __DIR__ . '/../../app/services/residentPdf.php';
+        $pdf = new ResidentPDF('P', 'mm', 'Letter');
+        $pdf->AddPage();
+
+        $pdf->SetFont('Arial', '', 12);
+
+        $pdf->Cell(0, 8, 'Nom : ' . f8($resident['Prenom'] . ' ' . $resident['Nom']), 0, 1);
+        $pdf->Cell(0, 8, 'Chambre : ' . f8($resident['Chambre']), 0, 1);
+        $pdf->Ln(5);
+
+        // ===============================
+        // 🔝 PARTIE HAUT : PREFERENCES
+        // ===============================
+
+        $pdf->SetFont('Arial', 'B', 14);
+        $pdf->Cell(0, 8, 'Preferences Alimentaires', 0, 1);
+        $pdf->Ln(3);
+
+        $pdf->SetFont('Arial', '', 12);
+
+        $pdf->Cell(0, 8, 'Juice : ' . f8($resident['Juice']), 0, 1);
+        $pdf->Cell(0, 8, 'Prune : ' . f8($resident['Prune']), 0, 1);
+        $pdf->Cell(0, 8, 'Milk : ' . f8($resident['Milk']), 0, 1);
+        $pdf->Cell(0, 8, 'Pain : ' . f8($resident['Bread']), 0, 1);
+        $pdf->Cell(0, 8, 'Tartinade : ' . f8($resident['Tartinade']), 0, 1);
+        $pdf->Cell(0, 8, 'Cereale : ' . f8($resident['Cereale']), 0, 1);
+        $pdf->Cell(0, 8, 'Proteine : ' . f8($resident['Proteine']), 0, 1);
+        $pdf->Cell(0, 8, 'Fruit : ' . f8($resident['Fruit']), 0, 1);
+        $pdf->Cell(0, 8, 'Breuvage Breakfast : ' . f8($resident['Breuvage_dej']), 0, 1);
+        $pdf->Cell(0, 8, 'Breuvage Dinner : ' . f8($resident['Breuvage_din']), 0, 1);
+        $pdf->Cell(0, 8, 'Breuvage Souper : ' . f8($resident['Breuvage_sou']), 0, 1);
+
+        $pdf->Ln(10);
+
+        // ===============================
+        // 🔽 PARTIE BAS : DIETETIQUE
+        // ===============================
+
+        $pdf->SetFont('Arial', 'B', 14);
+        $pdf->Cell(0, 8, 'Informations Dietetiques', 0, 1);
+        $pdf->Ln(3);
+
+        $pdf->SetFont('Arial', '', 12);
+
+        $pdf->Cell(0, 8, 'Diabetique : ' . f8($resident['Diabet']), 0, 1);
+        $pdf->Cell(0, 8, 'Lieu repas : ' . f8($resident['LieuRepas']), 0, 1);
+        $pdf->Cell(0, 8, 'Consistance : ' . f8($resident['Consistance']), 0, 1);
+        $pdf->Cell(0, 8, 'Thickened : ' . f8($resident['Thickened']), 0, 1);
+        $pdf->Cell(0, 8, 'Lactose : ' . f8($resident['Lactose']), 0, 1);
+
+        $pdf->Ln(5);
+
+        // Allergies et Intolerances en MultiCell (plus long)
+        $pdf->MultiCell(0, 8, 'Allergies : ' . f8($resident['Allergie']));
+        $pdf->Ln(2);
+        $pdf->MultiCell(0, 8, 'Intolerances : ' . f8($resident['Intolerance']));
+
+        $pdf->Output('I', 'Fiche_' . f8($resident['Prenom']) . '.pdf');
     }
 }

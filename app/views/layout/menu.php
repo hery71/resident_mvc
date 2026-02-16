@@ -105,7 +105,8 @@
                     </a>
                     <div class="dropdown-menu">
                         <a class="dropdown-item" href="/parametres/">Paramètres</a>
-                        <a class="dropdown-item" href="/parametres/import">Importer </a>
+                        <a class="dropdown-item" href="/parametres/import">Importer les menus réguliers</a>
+                        <a class="dropdown-item" href="/parametres/importSpecial">Importer les menus spéciaux</a>
                         <a class="dropdown-item" href="/parametres/seasonMenu">Menus par saison</a>
                     </div>
                 </li>
