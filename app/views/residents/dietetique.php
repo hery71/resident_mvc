@@ -222,7 +222,7 @@ if (!empty($resident['Allergie'])) {
         <a href="/resident/" class="btn btn-secondary mt-4">
         Retour
         </a>
-        <a href="/resident/ficheDietetique/<?= (int)$resident['id'] ?>"
+        <a href="/resident/printFicheDietetique/<?= (int)$resident['id'] ?>"
             class="btn btn-success mt-4">
         Imprimer la fiche Dietetique
         </a>

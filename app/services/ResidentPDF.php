@@ -16,11 +16,15 @@ class ResidentPDF extends FPDF
         $this->Cell(0, 10, 'Page ' . $this->PageNo(), 0, 0, 'C');
     }
 
-    function TableRow($label, $value)
+    function TableRow4($label1, $value1, $label2, $value2)
     {
-        $this->SetFont('Arial', 'B', 12);
-        $this->Cell(60, 8, $label, 1);
-        $this->SetFont('Arial', '', 12);
-        $this->Cell(130, 8, $value, 1, 1);
+        $this->SetFont('Arial', 'B', 10);
+        $this->Cell(35, 8, $label1, 0);
+        $this->SetFont('Arial', '', 10);
+        $this->Cell(60, 8, $value1, 0);
+        $this->SetFont('Arial', 'B', 10);
+        $this->Cell(35, 8, $label2, 0);
+        $this->SetFont('Arial', '', 10);
+        $this->Cell(60, 8, $value2, 0, 1);
     }
 }

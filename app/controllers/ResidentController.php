@@ -249,7 +249,9 @@ class ResidentController extends Controller
         header("Location: /resident/dietetique/$id");
         exit;
     }
-    public function ficheDietetique(int $id): void
+    //*******************************************************************************
+    // ****************************************************************************** */
+    public function printFicheDietetique(int $id): void
     {
         $model = new ResidentModel();
         $resident = $model->findDietById($id);
@@ -278,18 +280,13 @@ class ResidentController extends Controller
         $pdf->Ln(3);
 
         $pdf->SetFont('Arial', '', 12);
-
-        $pdf->Cell(0, 8, 'Juice : ' . f8($resident['Juice']), 0, 1);
-        $pdf->Cell(0, 8, 'Prune : ' . f8($resident['Prune']), 0, 1);
-        $pdf->Cell(0, 8, 'Milk : ' . f8($resident['Milk']), 0, 1);
-        $pdf->Cell(0, 8, 'Pain : ' . f8($resident['Bread']), 0, 1);
-        $pdf->Cell(0, 8, 'Tartinade : ' . f8($resident['Tartinade']), 0, 1);
-        $pdf->Cell(0, 8, 'Cereale : ' . f8($resident['Cereale']), 0, 1);
-        $pdf->Cell(0, 8, 'Proteine : ' . f8($resident['Proteine']), 0, 1);
-        $pdf->Cell(0, 8, 'Fruit : ' . f8($resident['Fruit']), 0, 1);
-        $pdf->Cell(0, 8, 'Breuvage Breakfast : ' . f8($resident['Breuvage_dej']), 0, 1);
-        $pdf->Cell(0, 8, 'Breuvage Dinner : ' . f8($resident['Breuvage_din']), 0, 1);
-        $pdf->Cell(0, 8, 'Breuvage Souper : ' . f8($resident['Breuvage_sou']), 0, 1);
+        //tableaux
+        $pdf->TableRow4('Juice:', f8($resident['Juice']), 'Prune:', f8($resident['Prune']));
+        $pdf->TableRow4('Milk:', f8($resident['Milk']), 'Pain:', f8($resident['Bread']));
+        $pdf->TableRow4('Tartinade:', f8($resident['Tartinade']), 'Cereale:', f8($resident['Cereale']));
+        $pdf->TableRow4('Proteine:', f8($resident['Proteine']), 'Fruit:', f8($resident['Fruit']));
+        $pdf->TableRow4('Breuvage Breakfast:', f8($resident['Breuvage_dej']), 'Breuvage Dinner:', f8($resident['Breuvage_din']));
+        $pdf->TableRow4('Breuvage Souper:    ', f8($resident['Breuvage_sou']), '', '');
 
         $pdf->Ln(10);
 
@@ -303,11 +300,9 @@ class ResidentController extends Controller
 
         $pdf->SetFont('Arial', '', 12);
 
-        $pdf->Cell(0, 8, 'Diabetique : ' . f8($resident['Diabet']), 0, 1);
-        $pdf->Cell(0, 8, 'Lieu repas : ' . f8($resident['LieuRepas']), 0, 1);
-        $pdf->Cell(0, 8, 'Consistance : ' . f8($resident['Consistance']), 0, 1);
-        $pdf->Cell(0, 8, 'Thickened : ' . f8($resident['Thickened']), 0, 1);
-        $pdf->Cell(0, 8, 'Lactose : ' . f8($resident['Lactose']), 0, 1);
+        $pdf->TableRow4('Diabetique:', f8($resident['Diabet']), 'Lieu repas:', f8($resident['LieuRepas']));
+        $pdf->TableRow4('Consistance:', f8($resident['Consistance']), 'Thickened:', f8($resident['Thickened']));
+        $pdf->TableRow4('Lactose:', f8($resident['Lactose']), '', '');
 
         $pdf->Ln(5);
 

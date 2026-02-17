@@ -18,13 +18,13 @@ return [
     'Bread' => ['Roti ble entier', 'Roti pain blanc', 'Pain ble entier' , 'Pain Blanc'],
     'Tartinade' => ['Confiture','Beurre d arachide','Beurre','Margarine'],
     'Cereale' => ['Cereales chaudes', 'Cereales froides', 'Muffin'],
-    'Proteine' => ['Oeuf','Fromage','Custard'],
+    'Proteine' => ['Oeuf','Fromage','Custard','Bacon'],
     'Fruit' => ['Fraise','prune','Autre'],
-    'Breuvage' => ['The','Cafe','Lait 1Oz', 'Lait 8Oz','Eau' ,'Eau 8Oz','Jus 4Oz'],
+    'Breuvage' => ['The','Cafe','Lait 1Oz', 'Lait 8Oz','Sucre 1cc','Sucre Artificiel','Eau' ,'Eau 8Oz','Jus 4Oz'],
     'LieuRepas' => ['Cafeteria', 'Activité', 'Chambre', 'Salon'],
 
     //********************************infirmier************************************************** */
-    'Consistance' => ['Normale', 'Purée', 'Haché','Liquide'],
+    'Consistance' => ['Normale', 'Purée', 'Haché','Liquide','Coupe'],
     'ModeEating' => ['Autonome', 'Feeding'],
     'Thickened' => ['0', '1', '2', '3', '4'],
     'Diabet' => ['Oui', 'Non'],
