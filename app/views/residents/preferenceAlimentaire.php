@@ -20,6 +20,7 @@ $beuvragedejSel = $parseList($resident['Breuvage_dej'] ?? '');
 $beuvragedinSel = $parseList($resident['Breuvage_din'] ?? '');
 $beuvragesouSel = $parseList($resident['Breuvage_sou'] ?? '');
 $allergieSel = $parseList($resident['Allergie'] ?? '');
+$BreadSel = $parseList($resident['Bread'] ?? '');
 ?>
 <?php require __DIR__ . '/../layout/header.php'; ?>
 <div class="container center">
@@ -46,6 +47,15 @@ $allergieSel = $parseList($resident['Allergie'] ?? '');
                   <option value="<?= e($opt) ?>" <?= (($resident['Bread'] ?? '') === $opt) ? 'selected' : '' ?>><?= e($opt) ?></option>
                 <?php endforeach; ?>
               </select>
+            </div>
+             <div class="mb-4">
+              <label for="Bread" class="form-label">Bread</label>
+              <select class="form-select w-50" id="Bread" name="Bread[]" multiple size="6"  aria-describedby="helpBread">
+                <?php foreach ($options['Bread'] as $opt): ?>
+                  <option value="<?= e($opt) ?>" <?= in_array($opt, $BreadSel, true) ? 'selected' : '' ?>><?= e($opt) ?></option>
+                <?php endforeach; ?>
+              </select>
+              <div id="helpDej" class="help">Maintiens Ctrl (ou ⌘ sur Mac) pour sélectionner plusieurs.</div>
             </div>
 
             <div class="mb-3">
