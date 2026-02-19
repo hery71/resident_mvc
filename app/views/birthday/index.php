@@ -53,8 +53,10 @@
                     <?php if ($a['fete_id']): ?>
                         <a href="/birthday/edit?idBirthday=<?= $a['fete_id'] ."&mois=" .$mois ."&annee=" .$annee ?>"
                             class="btn btn-sm btn-info">
-                            Voir/ Editer
-                         </a>
+                            Voir/ Editer</a>
+                         <a href="/birthday/printRequisition/<?= (int)$a['fete_id'] ?>" 
+                            class="btn btn-sm btn-outline-danger" target="_blank">
+                            Requisition</a>
                     <?php else: ?>
                         <a href="/birthday/create?
                             id_resident=<?= $a['id'] ?>
@@ -65,7 +67,7 @@
                             ➕ Ajouter anniversaire
                             </a>
                             <?php endif; ?>
-                    <!-- si anniversaire enablede == 1 donc il y a un anniversaire enregistré -->
+                    <!-- si anniversaire enabled == 1 donc il y a un anniversaire enregistré -->
                     <?php if ($a['enabled'] == 1): ?>
                         <?php if ($a['cake_id']): ?>
                             <a href="/cake/pdf/<?= $a['cake_id'] ?>"

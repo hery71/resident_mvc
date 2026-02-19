@@ -243,4 +243,26 @@ class BirthdayModel
 
         return $stmt->fetchAll();
     }
+     public function findFullById(int $id): ?array
+    {
+        $sql = "
+            SELECT 
+                r.Prenom,
+                r.Nom,
+                r.Anniversaire,
+                a.*
+            FROM anniversaire_tbl a
+            LEFT JOIN resident_tbl r 
+                ON r.id = a.id_resident
+            WHERE a.id = :id
+        ";
+
+        $stmt = $this->pdo->prepare($sql);
+        $stmt->bindValue(':id', $id, PDO::PARAM_INT);
+        $stmt->execute();
+
+        $result = $stmt->fetch(PDO::FETCH_ASSOC);
+
+        return $result ?: null;
+    }
 }

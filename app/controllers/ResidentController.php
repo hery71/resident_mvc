@@ -313,4 +313,5 @@ class ResidentController extends Controller
 
         $pdf->Output('I', 'Fiche_' . f8($resident['Prenom']) . '.pdf');
     }
+    
 }
