@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
-
+        <img src="<?= $logoPathPublic ?>" alt="Logo" class="mr-2" style="height: 40px;">
         <a class="navbar-brand" href="/">Resident MVC</a>
 
         <button class="navbar-toggler" type="button"

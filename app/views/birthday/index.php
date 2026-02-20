@@ -70,9 +70,9 @@
                     <!-- si anniversaire enabled == 1 donc il y a un anniversaire enregistré -->
                     <?php if ($a['enabled'] == 1): ?>
                         <?php if ($a['cake_id']): ?>
-                            <a href="/cake/pdf/<?= $a['cake_id'] ?>"
+                            <a href="/cake/cakeOrderPdf/<?= $a['cake_id'] ?>"
                              target="_blank"
-                            class="btn btn-sm btn-success">BC gâteau</a>
+                            class="btn btn-sm btn-success">Cake order</a>
                         <?php else: ?>    
                             <a href="/cake/create/<?= $a['id'] ?>/<?= e($a['annee']) ?>/<?= $a['fete_id'] ?>"
                             class="btn btn-sm btn-warning">Commander gâteau</a>

@@ -61,7 +61,7 @@ class CakeController
         header("Location: /birthday");
         exit;
     }
-    public function pdf($idCake)
+    public function cakeOrderPdf($idCake)
 {
     if (!Auth::check()) {
         header("Location: /auth/login");
@@ -78,7 +78,7 @@ class CakeController
 
     $logoPath = logo_disk_path(); // ← depuis helpers + logo.json
 
-    require __DIR__ . '/../views/cake/pdf.php';
+    require __DIR__ . '/../views/cake/cakeOrderPdf.php';
     exit;
 }
 

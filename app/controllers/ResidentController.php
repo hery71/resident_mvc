@@ -262,8 +262,16 @@ class ResidentController extends Controller
         }
         //require_once __DIR__ . '/../../fpdf/fpdf.php';
         require_once __DIR__ . '/../../app/services/residentPdf.php';
-        $pdf = new ResidentPDF('P', 'mm', 'Letter');
+        $logoConfig = Config::get('logo');
+        $logoFilename = $logoConfig['filename'] ?? null;
+
+        $logoPath = $logoFilename
+            ? ROOT_PATH . '/public/assets/images/' . $logoFilename
+            : null;
+
+        $pdf = new ResidentPDF($logoPath);
         $pdf->AddPage();
+        $pdf->Ln(7);
 
         $pdf->SetFont('Arial', '', 12);
 

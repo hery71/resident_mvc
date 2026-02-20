@@ -1,7 +1,6 @@
 <?php
 require_once __DIR__ . '/../../../fpdf/fpdf.php';
 define('IMAGE_PATH', ROOT_PATH . '/public/assets/images');
-
 function enc($str) {
     return mb_convert_encoding($str ?? '', 'ISO-8859-1', 'UTF-8');
 }

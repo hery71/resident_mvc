@@ -219,6 +219,7 @@
 
 <!-- ================= JS DISPOSABLE ================= -->
 <script>
+/*
 document.addEventListener('DOMContentLoaded', function () {
 
     const disposable = document.getElementById('disposable');
@@ -240,6 +241,7 @@ document.addEventListener('DOMContentLoaded', function () {
         toggleSections();
     }
 });
+*/
 </script>
 
 <?php require __DIR__ . '/../layout/footer.php'; ?>
