@@ -1,6 +1,4 @@
 <?php $title = 'Base'; 
-    $inspection=  Config::inspection(); 
-    $annee = $_GET['annee'] ?? date("Y");
     $custom_js = <<<JS
     // Custom JavaScript can be added here
     JS;

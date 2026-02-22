@@ -212,4 +212,19 @@ WHERE id = :id_fete";
     $stmt = $this->pdo->prepare($sql);
     $stmt->execute($feteData);
     }
+public function feteByDate($date)
+    {
+        $sql = "SELECT a.*,r.id as idResident, r.Prenom, r.Nom FROM anniversaire_tbl as a 
+                LEFT JOIN resident_tbl as r ON a.id_resident = r.id
+                WHERE a.date = :date
+                AND a.enabled = 1
+                ORDER BY `date` ASC;";
+
+        $stmt = $this->pdo->prepare($sql);
+        $stmt->execute([
+            'date' => $date
+        ]);
+
+        return $stmt->fetchall();
+    }
 }

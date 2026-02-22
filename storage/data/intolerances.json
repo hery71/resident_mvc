@@ -81,6 +81,21 @@
             "Latex",
             "Agents nettoyants alimentaires",
             "Histamine"
+        ],
+         "Viandes_et_Autres": [
+            "Boeuf",
+            "Poulet",
+            "Porc",
+            "Agneau",
+            "Dinde",
+            "Veau",
+            "Canard",
+            "Lapin",
+            "Gibier",
+            "Mouton",
+            "oie",
+            "Poisson",
+            "Fruits de mer"
         ]
     }
 }

@@ -51,7 +51,7 @@ class AuthController
         }
 
         Auth::login($user);
-        header("Location: /resident");
+        header("Location: /dashBoard");
         exit;
     }
 

@@ -16,6 +16,18 @@
 
             <!-- GAUCHE -->
             <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle"
+                       href="#"
+                       id="dashboardDropdown"
+                       role="button"
+                       data-toggle="dropdown">
+                        Dashboard
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="/dashboard">Dashboard</a>
+                    </div>
+                </li>
 
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle"

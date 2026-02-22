@@ -8,7 +8,6 @@ function removeMeal(btn) {
 // Confirm Import Function
 //*******************************************************/
 function confirmImport(idUnique) {
-    alert("Importation des plats du menu réguliersssssss…");
 
     const data = new FormData();
 
@@ -36,7 +35,6 @@ function confirmImport(idUnique) {
 // Event on nmodal #importModal open
 //*******************************************************/
 $('#importModal').on('show.bs.modal', function (e) {
-   alert('Chargement des plats du menu régulier…');
     const button   = e.relatedTarget;          // bouton cliqué
     const idUnique = button.dataset.id_unique; // variable récupérée
     const body = document.getElementById('importModalBody');
@@ -51,7 +49,6 @@ $('#importModal').on('show.bs.modal', function (e) {
 // Add text box
 //*******************************************************/
 function addTextbox(section) {
-    alert('Ajouter un nouveau plat');
     const c = document.getElementById(section+'_container');
     const i = document.createElement('input');
     i.type='text'; i.name=section+'[]';

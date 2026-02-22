@@ -43,6 +43,21 @@ class CakeModel
 
         return $stmt->fetchall();
     }
+    public function cakeOrderByDate($date)
+    {
+        $sql = "SELECT c.*,r.Prenom, r.Nom FROM cake as c 
+                INNER JOIN resident_tbl as r ON c.idResident = r.id
+                WHERE date(dateLivraison) = :date
+                  AND c.enabled = 1
+                ORDER BY dateLivraison ASC";
+
+        $stmt = $this->pdo->prepare($sql);
+        $stmt->execute([
+            'date' => $date
+        ]);
+
+        return $stmt->fetchall();
+    }
 
     public function insert($data)
     {

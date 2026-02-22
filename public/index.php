@@ -97,7 +97,7 @@ if (!isset($_SESSION['user']) && !$isPublic) {
 // --------------------------------------------------
 $controllerName = !empty($urlParts[0])
     ? ucfirst($urlParts[0]) . 'Controller'
-    : 'ResidentController';
+    : 'DashBoardController';
 
 if (!class_exists($controllerName)) {
     http_response_code(404);

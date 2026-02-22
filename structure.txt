@@ -1,37 +1,124 @@
 Structure du dossier pour le volume OS
 Le numéro de série du volume est 460E-2850
 C:.
+|   .gitignore
+|   git
 |   structure.txt
 |   
 +---.vscode
 |       launch.json
 |       
 +---app
+|   +---config
+|   |       config.php
+|   |       country.php
+|   |       db.php
+|   |       inspection.php
+|   |       logo.json
+|   |       options.php
+|   |       
 |   +---controllers
+|   |       AjaxRestrictionController.php
+|   |       AlimentaireController.php
+|   |       AllergieController.php
 |   |       AuthController.php
+|   |       BaseController.php
 |   |       BirthdayController.php
-|   |       BirthdayDetailsController.php
 |   |       CakeController.php
-|   |       CreateBirthdayController.php
-|   |       EditBirthdayController.php
-|   |       Page2Controller.php
+|   |       DashBoardController.php
+|   |       FeteController.php
+|   |       IngredientController.php
+|   |       IntoleranceController.php
+|   |       MenageController.php
+|   |       MenuController.php
+|   |       MenuUniqueController.php
+|   |       ParametresController.php
+|   |       PreparationController.php
 |   |       ResidentController.php
+|   |       RestrictionController.php
+|   |       TaskController.php
+|   |       TestController.php
 |   |       
 |   +---core
 |   |       Auth.php
 |   |       config.php
+|   |       Controller.php
+|   |       DateHelper.php
 |   |       helpers.php
+|   |       JsonRepository.php
+|   |       Router.php
 |   |       
 |   +---models
-|   |       AnniversaireMoisModel.php
+|   |       AlimentaireModel.php
+|   |       AllergieModel.php
+|   |       BaseModel.php
 |   |       BirthdayModel.php
 |   |       CakeModel.php
+|   |       DashBoardModel.php
+|   |       FeteModel.php
+|   |       IngredientModel.php
+|   |       IntoleranceModel.php
+|   |       MenageModel.php
+|   |       MenuCycle.php
+|   |       MenuModel.php
+|   |       MenuUniqueModel.php
+|   |       OrganisationModel.php
+|   |       ParametresModel.php
+|   |       PreparationModel.php
 |   |       ResidentModel.php
+|   |       RestrictionModel.php
+|   |       StaffModel.php
 |   |       UserModel.php
 |   |       
+|   +---services
+|   |       birthdayRequisitionPdf.php
+|   |       ResidentPDF.php
+|   |       seasonService.php
+|   |       
 |   \---views
+|       +---alimentaire
+|       |   |   index.php
+|       |   |   saison.php
+|       |   |   
+|       |   +---allergie
+|       |   |       edit.php
+|       |   |       
+|       |   +---intolerance
+|       |   |       edit.php
+|       |   |       
+|       |   +---menu
+|       |   |       daylyMenu.php
+|       |   |       edit.php
+|       |   |       monthlyMenu.php
+|       |   |       printDailyMenu.php
+|       |   |       printMonthlyMenu.php
+|       |   |       printWeeklyMenu.php
+|       |   |       special.php
+|       |   |       weeklyMenu.php
+|       |   |       
+|       |   +---menuUnique
+|       |   |       edit.php
+|       |   |       index.php
+|       |   |       _import_regular_meals.php
+|       |   |       
+|       |   +---preparation
+|       |   |   |   edit.php
+|       |   |   |   hebdomadaire.php
+|       |   |   |   printHebdomadaire.php
+|       |   |   |   
+|       |   |   \---ingredient
+|       |   |           edit.php
+|       |   |           
+|       |   \---restriction
+|       |           edit.php
+|       |           index.php
+|       |           
 |       +---auth
 |       |       login.php
+|       |       
+|       +---base
+|       |       index.php
+|       |       print.php
 |       |       
 |       +---birthday
 |       |       create.php
@@ -40,30 +127,52 @@ C:.
 |       |       index.php
 |       |       
 |       +---cake
+|       |       cakeOrderPdf.php
+|       |       cake_list_order.php
 |       |       create.php
-|       |       pdf.php
+|       |       
+|       +---dashBoard
+|       |       index.php
+|       |       
+|       +---fete
+|       |       create.php
+|       |       edit.php
+|       |       index.php
 |       |       
 |       +---layout
 |       |       footer.php
 |       |       header.php
 |       |       menu.php
+|       |       printSizeOption.php
+|       |       printStyleScript.php
 |       |       
-|       +---page2
+|       +---menage
+|       |   |   create.php
+|       |   |   detail.php
+|       |   |   edit.php
+|       |   |   index.php
+|       |   |   
+|       |   \---task
+|       |           addTask.php
+|       |           index.php
+|       |           
+|       +---parametres
+|       |       import.php
+|       |       importSpecial.php
 |       |       index.php
+|       |       seasonMenu.php
 |       |       
-|       +---page4
+|       +---residents
+|       |       create.php
+|       |       dietetique.php
+|       |       edit.php
 |       |       index.php
+|       |       preferenceAlimentaire.php
+|       |       printIndex.php
 |       |       
-|       \---residents
-|               create.php
-|               edit.php
+|       \---test
 |               index.php
 |               
-+---config
-|       db.php
-|       logo.json
-|       options.php
-|       
 +---fpdf
 |   |   FAQ.htm
 |   |   fpdf.css
@@ -195,13 +304,42 @@ C:.
 |   \---logo
 |           20251205113538.png
 |           
-\---public
-    |   .htaccess
-    |   favicon.ico
-    |   index.php
-    |   phpinfo.php
-    |   
-    \---images
-        \---logo
-                20251205113538.png
-                
++---public
+|   |   .htaccess
+|   |   code.html
+|   |   favicon.ico
+|   |   index.php
+|   |   indexa.php
+|   |   test.htm
+|   |   test.php
+|   |   
+|   +---ajax
+|   |       getRooms.php
+|   |       getTasks.php
+|   |       
+|   \---assets
+|       |   .htaccess
+|       |   
+|       +---css
+|       |       editmenu.css
+|       |       edit_allergie.css
+|       |       edit_ingredient.css
+|       |       edit_intolerance.css
+|       |       edit_restriction.css
+|       |       index_menuUnique.css
+|       |       saison.css
+|       |       style.css
+|       |       
+|       \---images
+|               20251205113538.png
+|               checked.jpg
+|               unchecked.jpg
+|               
+\---storage
+    \---data
+            action.json
+            allergies.json
+            ingredients.json
+            intolerances.json
+            unite.json
+            

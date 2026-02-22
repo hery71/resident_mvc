@@ -108,6 +108,16 @@ class ResidentModel
 
         return $stmt->fetch();
     }
+     public function findByBornDate($date)
+     {
+        $month = date('m', strtotime($date));
+        $day = date('d', strtotime($date));
+         $sql = "SELECT * FROM resident_tbl WHERE MONTH(Anniversaire) = :month AND DAY(Anniversaire) = :day AND enabled = 1";
+         $stmt = $this->pdo->prepare($sql);
+         $stmt->execute(['month' => $month, 'day' => $day]);
+
+         return $stmt->fetchAll();
+     }
     public function departResident($id, $cause, $date)
     {
         $sql = "UPDATE resident_tbl
