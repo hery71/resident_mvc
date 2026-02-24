@@ -3,17 +3,18 @@
 
 <style>
 .card-header-pastel {
-    background-color: #F2F4F6; /* gris pastel doux */
+    background-color: #5ebdef; /* gris pastel doux */
     font-weight: 600;
     text-align: center;
     border: 1px solid #E0E0E0;
-    border-radius: 0px 0px 0 0;
-    padding: 0px;
+    border-radius: 18px;
+    padding: 5px;
     box-shadow: inset 0 -1px 0 rgba(0,0,0,0.05);
 }
 .pastel-tile {
     background-color: #A8D8EA;
     border-radius: 18px;
+    overflow: hidden;   /* IMPORTANT */
     box-shadow: 0 8px 20px rgba(0,0,0,0.06);
     transition: all 0.25s ease;
     min-height: 350px;
@@ -206,8 +207,10 @@
                         <?php if (!empty($fetes)): ?>
                             <div class="tile-content">
                                 <?php foreach ($fetes as $f): ?>
-                                    <?= htmlspecialchars($f['Prenom']) ?>
-                                    <?= htmlspecialchars($f['Nom']) ?><br>
+                                    <?= e($f['Prenom']) ." " ?>
+                                    <?= e($f['Nom']) ?>
+                                    <?= "(" .e($f['motif']) .")" ?>
+                                    <br>
                                 <?php endforeach; ?>
                             </div>
                         <?php else: ?>
@@ -219,7 +222,7 @@
             </div>
         </div>
          <!-- ===================== -->
-        <!-- TUILE L2 2: AJOUER TUILE -->
+        <!-- TUILE L2 2: Gâteaux d'anniversaire -->
         <!-- ===================== -->
         <div class="col-md-4 mb-4">
             <div class="card pastel-tile">
@@ -227,7 +230,19 @@
                     Commande gateau
                 </div>
                 <div class="card-body">
-
+                        <?php if (!empty($cakes)): ?>
+                            <div class="tile-content">
+                                <?php foreach ($cakes as $c): ?>
+                                    <?= e($c['Prenom']) ?>
+                                    <?= e($c['Nom']) ?>
+                                    <br>
+                                <?php endforeach; ?>
+                            </div>
+                        <?php else: ?>
+                            <div class="text-center mt-4">
+                                Aucune commande de gâteau aujourd'hui
+                            </div>
+                        <?php endif; ?>
                 </div>
             </div>
         </div>

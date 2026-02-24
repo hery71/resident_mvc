@@ -80,6 +80,10 @@ class DashBoardController extends Controller
         //-----------------------------
         $feteModel = new FeteModel($pdo);
         $fetes = $feteModel->feteByDate($xdate);
+        //-----------------------------
+        //gâteaux d'anniversaire pour aujourd'hui
+        $cakeModel = new CakeModel($pdo);
+        $cakes = $cakeModel->cakeOrderByDate($xdate);
         // ==============================
         // 5️⃣ VIEW
         // ==============================
