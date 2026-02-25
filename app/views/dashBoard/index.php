@@ -1,8 +1,10 @@
-<?php $title = "DashBoard"; ?>
-<?php require __DIR__ . '/../layout/header.php'; ?>
-
-<style>
-.card-header-pastel {
+<?php $title = "DashBoard";
+    $custom_js = <<<'JS'
+    // Custom JavaScript can be added here
+    JS;
+    $custom_style = <<<'CSS'
+    /* Custom CSS can be added here */
+    .card-header-pastel {
     background-color: #5ebdef; /* gris pastel doux */
     font-weight: 600;
     text-align: center;
@@ -10,44 +12,45 @@
     border-radius: 18px;
     padding: 5px;
     box-shadow: inset 0 -1px 0 rgba(0,0,0,0.05);
-}
-.pastel-tile {
-    background-color: #A8D8EA;
-    border-radius: 18px;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.06);
-    transition: all 0.25s ease;
-    min-height: 350px;
-    color: #2E2E2E;
-    height: 350px;               /* fixe la grandeur */
-    display: flex;
-    flex-direction: column;      /* header en haut, contenu en bas */
-    overflow: hidden;            /* garde le border-radius propre */
-}
-.pastel-tile .card-body {
-    flex: 1 1 auto;              /* prend le reste de la hauteur */
-    min-height: 0;               /* TRÈS IMPORTANT pour que overflow marche en flex */
-    overflow-y: auto;            /* scrollbar si nécessaire */
-    overflow-x: hidden;
-    padding: 10px;             /* ton padding ici plutôt que sur la tile */
-}
+    }
+    .pastel-tile {
+        background-color: #A8D8EA;
+        border-radius: 18px;
+        box-shadow: 0 8px 20px rgba(0,0,0,0.06);
+        transition: all 0.25s ease;
+        min-height: 350px;
+        color: #2E2E2E;
+        height: 350px;               /* fixe la grandeur */
+        display: flex;
+        flex-direction: column;      /* header en haut, contenu en bas */
+        overflow: hidden;            /* garde le border-radius propre */
+    }
+    .pastel-tile .card-body {
+        flex: 1 1 auto;              /* prend le reste de la hauteur */
+        min-height: 0;               /* TRÈS IMPORTANT pour que overflow marche en flex */
+        overflow-y: auto;            /* scrollbar si nécessaire */
+        overflow-x: hidden;
+        padding: 10px;             /* ton padding ici plutôt que sur la tile */
+    }
 
-.pastel-tile:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 14px 28px rgba(0,0,0,0.10);
-}
+    .pastel-tile:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 14px 28px rgba(0,0,0,0.10);
+    }
 
-.tile-content {
-    font-size: 0.95rem;
-}
+    .tile-content {
+        font-size: 0.95rem;
+    }
 
-.top-bar {
-    background-color: #f8f9fa;
-    padding: 15px;
-    border-radius: 12px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
-}
-</style>
-
+    .top-bar {
+        background-color: #f8f9fa;
+        padding: 15px;
+        border-radius: 12px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    }
+CSS;
+?>
+<?php require __DIR__ . '/../layout/header.php'; ?>
 <div class="container-fluid mt-4">
 
     <!-- =============================== -->

@@ -196,7 +196,7 @@ $FruitSel = $parseList($resident['Fruit'] ?? '');
     </div>
 
     <div class="d-flex gap-2 mt-3">
-      <button type="submit" class="btn btn-primary"><i class="bi bi-save"></i> Enregistrer</button>
+      <button type="submit" class="btn btn-primary"><i class="bi bi-save"></i> Update</button>
       <a href="/resident/index/" class="btn btn-outline-secondary">Annuler</a>
     </div>
   </form>

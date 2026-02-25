@@ -1,8 +1,8 @@
 <?php $title = 'Base'; 
-    $custom_js = <<<JS
+    $custom_js = <<<'JS'
     // Custom JavaScript can be added here
     JS;
-    $custom_style = <<<CSS
+    $custom_style = <<<'CSS'
     /* Custom CSS can be added here */
     CSS;
 ?>

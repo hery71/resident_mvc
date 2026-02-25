@@ -86,7 +86,7 @@
         }
     });
     JS;
-    $custom_css = <<<CSS
+    $custom_style = <<<CSS
     .hidden-col { display: none; }
         .shown-col  { display: table-cell; }
 

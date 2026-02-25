@@ -18,7 +18,7 @@ $logoPathPublic = $logoFilename
           href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="<?= BASE_URL ?>/assets/css/style.css">
     <style>
-    <?= $custom_css ?? '' ?>
+    <?= $custom_style ?? '' ?>
     </style>
     <?php if (!empty($page_css)) : ?>
     <link rel="stylesheet" href="<?= BASE_URL ?>/assets/css/<?= $page_css ?>">
