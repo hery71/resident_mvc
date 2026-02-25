@@ -2,6 +2,20 @@
 
 class SeasonService
 {
+    public static function getNextSeasonByDate(string $date): array
+    {
+        $year = date('Y', strtotime($date));
+        $seasons = self::getSeasonsForYear($year);
+
+        foreach ($seasons as $s) {
+            if (strtotime($date) > strtotime($s['Début']) && strtotime($date) <= strtotime($s['Fin'])) {
+                return $s;
+            }
+        }
+        // Si aucune saison suivante dans l'année, retourner la première saison de l'année suivante
+        return self::getSeasonsForYear($year + 1)[0];
+
+    }
     public static function getSeasonsForYear(int $year): array
     {
         $seasons = [];

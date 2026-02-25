@@ -1,4 +1,4 @@
-<?php $title = "DashBoard Cuisine"; ?>
+<?php $title = "DashBoard"; ?>
 <?php require __DIR__ . '/../layout/header.php'; ?>
 
 <style>
@@ -14,11 +14,21 @@
 .pastel-tile {
     background-color: #A8D8EA;
     border-radius: 18px;
-    overflow: hidden;   /* IMPORTANT */
     box-shadow: 0 8px 20px rgba(0,0,0,0.06);
     transition: all 0.25s ease;
     min-height: 350px;
     color: #2E2E2E;
+    height: 350px;               /* fixe la grandeur */
+    display: flex;
+    flex-direction: column;      /* header en haut, contenu en bas */
+    overflow: hidden;            /* garde le border-radius propre */
+}
+.pastel-tile .card-body {
+    flex: 1 1 auto;              /* prend le reste de la hauteur */
+    min-height: 0;               /* TRÈS IMPORTANT pour que overflow marche en flex */
+    overflow-y: auto;            /* scrollbar si nécessaire */
+    overflow-x: hidden;
+    padding: 10px;             /* ton padding ici plutôt que sur la tile */
 }
 
 .pastel-tile:hover {
@@ -103,7 +113,9 @@
                         </div>
 
                     <?php endif; ?>
-
+                <div class="d-flex justify-content-end mt-3">
+                    <a href="/Menu/dailyMenu/" class="btn btn-secondary">Voir</a>
+                </div>
                 </div>
             </div>
         </div>
@@ -155,7 +167,9 @@
                         </div>
 
                     <?php endif; ?>
-
+                    <div class="d-flex justify-content-end mt-3">
+                    <a href="/restriction/edit/" class="btn btn-secondary">Voir</a>
+                </div>
                 </div>
             </div>
         </div>
@@ -188,7 +202,9 @@
                         </div>
 
                     <?php endif; ?>
-
+                <div class="d-flex justify-content-end mt-3">
+                    <a href="/birthday/" class="btn btn-secondary">Voir</a>
+                </div>
                 </div>
             </div>
         </div>
@@ -218,6 +234,9 @@
                                 Aucune fête aujourd'hui
                             </div>
                         <?php endif; ?>
+                        <div class="d-flex justify-content-end mt-3">
+                            <a href="/Fete/" class="btn btn-secondary">Voir</a>
+                        </div>
                 </div>
             </div>
         </div>
@@ -243,6 +262,37 @@
                                 Aucune commande de gâteau aujourd'hui
                             </div>
                         <?php endif; ?>
+                        <div class="d-flex justify-content-end mt-3">
+                            <a href="/Cake/cake_list_order/" class="btn btn-secondary">Voir</a>
+                        </div>
+                </div>
+            </div>
+        </div>
+         <!-- ===================== -->
+        <!-- TUILE L2 3: Next Periode -->
+        <!-- ===================== -->
+         <!-- ===================== array(4) { ["Saison"]=> string(6) "Winter" ["Début"]=> string(10) "2026-01-04" ["Fin"]=> string(10) "2026-03-21" ["Durée"]=> float(76.95833333333333) } -->
+        <div class="col-md-4 mb-4">
+            <div class="card pastel-tile">
+                <div class="card-header card-header-pastel">
+                    Periode en cours
+                </div>
+                <div class="card-body">
+                        <?php if (!empty($currentPeriod)): ?>
+                            <div class="tile-content">
+                                    <?= e($currentPeriod['Saison']) ?> -
+                                    <?= e($currentPeriod['Début']) ?> au
+                                    <?= e($currentPeriod['Fin']) ?>
+                                    <br>
+                            </div>
+                        <?php else: ?>
+                            <div class="text-center mt-4">
+                                Aucune période en cours
+                            </div>
+                        <?php endif; ?>
+                        <div class="d-flex justify-content-end mt-3">
+                            <a href="/alimentaire/saison/" class="btn btn-secondary">Voir</a>
+                        </div>
                 </div>
             </div>
         </div>

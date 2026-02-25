@@ -4,6 +4,7 @@ class DashBoardController extends Controller
 {
     public function index()
     {
+        require_once __DIR__ . '/../services/SeasonService.php';
         global $pdo;
 
         date_default_timezone_set('America/Moncton');
@@ -84,6 +85,10 @@ class DashBoardController extends Controller
         //gâteaux d'anniversaire pour aujourd'hui
         $cakeModel = new CakeModel($pdo);
         $cakes = $cakeModel->cakeOrderByDate($xdate);
+        //-----------------------------
+        //saison pour aujourd'hui
+        $seasonService = new SeasonService();
+        $currentPeriod = $seasonService->getNextSeasonByDate($xdate);
         // ==============================
         // 5️⃣ VIEW
         // ==============================
