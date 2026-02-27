@@ -1,6 +1,13 @@
 <?php
 define('ROOT_PATH', dirname(__DIR__));
 define('APP_PATH', dirname(__DIR__) . '/app');
+// ✅ Version automatique basée sur Git
+$gitVersion = trim(shell_exec('git rev-parse --short HEAD'));
+define('APP_VERSION', $gitVersion ?: 'dev');
+$gitDateTime = trim(shell_exec(
+    'git log -1 --format=%cd --date=format:%Y%m%d%H%M'
+));
+define('APP_VERSION_DATE', $gitDateTime ?: 'dev');
 
 // Démarrer la session une seule fois, ici
 if (session_status() === PHP_SESSION_NONE) {

@@ -1,9 +1,6 @@
-    <?php
-        $config = require __DIR__ . '/../../config/app.php';
-    ?>
     <footer class="bg-light text-center mt-5 py-3">
         <small class="text-muted">
-            © <?= date('Y') ?> – Resident MVC v<?= $config['version'] ?>
+            © <?= date('Y') ?> – Resident MVC v1.7.<?= APP_VERSION_DATE ."(" .APP_VERSION .")" ?>
         </small>
     </footer>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
@@ -12,6 +9,7 @@
 
     <script>
     // Tailles de police
+
     const fontSizes = {
         's': { screen: '12px', print: '12px' },
         'm': { screen: '14px', print: '14px' },
