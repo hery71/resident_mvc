@@ -14,6 +14,15 @@ class ParametresController
     }
     public function import()
     {
+        $model = new ParametresModel();
+        $yearSeason = $model->getExistedSeasonYear();
+         $meals = [
+            'breakfast' => 'Breakfast',
+            'lunch' => 'Lunch',
+            'lunch_dessert' => 'Lunch Dessert',
+            'dinner' => 'Dinner',
+            'dinner_dessert' => 'Dinner Dessert'
+        ];
         $rows = [];
 
         $meals = [
@@ -44,7 +53,7 @@ class ParametresController
 
                     if ($line === '') continue;
 
-                    if ($line === 'xxxxxxx') {
+                    if ($line === 'xxxxxxx;;;;;;;') {
                         $currentBlock++;
                         continue;
                     }
@@ -159,6 +168,12 @@ class ParametresController
 //**************************************************************** */
     public function export()
     {
+        //verifier l etat de overwrite
+         $overwrite = $_POST['overwrite'] ?? '0';
+            if ($overwrite === '1') {
+                $model = new ParametresModel();
+                $model->disableYearSeason($_POST['annee'], $_POST['saison']);
+            }
         $saison = $_POST['saison'] ?? '';
         $annee = $_POST['annee'] ?? '2000';
 

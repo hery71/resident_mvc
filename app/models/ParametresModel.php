@@ -286,4 +286,17 @@ public function exportSpecialMenus(array $postData, string $saison, string $anne
             throw $e;
         }
     }
+    public function getExistedSeasonYear()
+    {
+        $pdo = $this->pdo;
+        $stmt = $pdo->prepare("SELECT CONCAT(annee, ' ', saison) FROM menu_tbl WHERE enabled = 1 GROUP BY CONCAT(annee, ' ', saison)");
+        $stmt->execute();
+        return $stmt->fetchAll(PDO::FETCH_COLUMN);
+    }
+    public function disableYearSeason($annee, $saison)
+    {
+        $pdo = $this->pdo;
+        $stmt = $pdo->prepare("UPDATE menu_tbl SET enabled = 0 WHERE annee = ? AND saison = ?");
+        $stmt->execute([$annee, $saison]);
+    }
 }

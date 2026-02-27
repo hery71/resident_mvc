@@ -1,7 +1,38 @@
 <?php $title = 'IMPORTER MENUS'; 
     $inspection=  Config::inspection(); 
     $annee = $_GET['annee'] ?? date("Y");
-    $custom_js = <<<JS
+    $custom_js = <<<'JS'
+    function confirmExport() {
+
+        // 1️⃣ Récupérer le JSON hidden
+        let raw = document.getElementById("yearSeason").value;
+        let yearSeason = JSON.parse(raw);
+
+        // 2️⃣ Récupérer les selects
+        let saison = document.getElementById("saison").value;
+        let annee  = document.getElementById("annee").value;
+
+        if (!saison || !annee) {
+            return true; // laisse le required HTML gérer
+        }
+
+        // 3️⃣ Construire la combinaison
+        let selected = annee + " " + saison;
+
+        // 4️⃣ Message par défaut
+        let message = "Êtes-vous sûr de vouloir exporter vers la base ?";
+        document.getElementById("overwrite").value = "0"; // par défaut pas d overwrite
+
+        // 5️⃣ Si déjà existant → changer message
+        if (yearSeason.includes(selected)) {
+            message = "⚠️ La saison " + selected + 
+                    " existe déjà.\n\nVoulez-vous vraiment écraser les données ?";
+            document.getElementById("overwrite").value = "1"; // signaler l overwrite
+        }
+
+        // 6️⃣ Afficher confirmation
+        return confirm(message);
+    }
     // Custom JavaScript can be added here
     JS;
     $custom_style = <<<CSS
@@ -11,6 +42,10 @@
 <?php require __DIR__ . '/../layout/header.php'; ?>
 <div class="container center">
 <h3> IMPORTATION DES MENUS </h3>
+<div class="alert alert-info">
+    Séparateurs de chaque bloc:
+    <strong>xxxxxxx;;;;;;;</strong> = Separateur de blocs week1 (Breakfast → Lunch → Lunch Dessert → Dinner → Dinner Dessert) en premier week2 et week3 ensuite...
+</div>
 <form method="post" action="/parametres/import/">
 
 <ul class="nav nav-tabs" id="weekTabs" role="tablist">
@@ -156,12 +191,17 @@ $meals = [
                 value="<?= htmlspecialchars($_POST["week{$w}_{$key}"] ?? '') ?>">
         <?php endforeach; ?>
     <?php endfor; ?>
-
+<input type="hidden"
+    name="overwrite" id="overwrite" value="0"> 
 <!----------------------------Bouton d'export---------------------------->
-    <button type="submit" class="btn btn-success mt-2">
+<input type="hidden"
+    name="yearSeason" id="yearSeason"
+    value='<?= htmlspecialchars(json_encode($yearSeason), ENT_QUOTES, "UTF-8") ?>'>
+    <button type="submit" 
+        class="btn btn-success mt-2"
+        onclick="return confirmExport();">
         Exporter vers la base
     </button>
-
 </form>
 
 <!---------------------FIN DIV PRINCIPAL--------------------->

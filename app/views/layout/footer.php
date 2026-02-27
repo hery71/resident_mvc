@@ -1,6 +1,9 @@
+    <?php
+        $config = require __DIR__ . '/../../config/app.php';
+    ?>
     <footer class="bg-light text-center mt-5 py-3">
         <small class="text-muted">
-            © <?= date('Y') ?> – Resident MVC
+            © <?= date('Y') ?> – Resident MVC v<?= $config['version'] ?>
         </small>
     </footer>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
@@ -54,7 +57,5 @@
     });
     <?= $custom_js ?>
     </script>
-
-
     </body>
     </html>
