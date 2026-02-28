@@ -199,7 +199,7 @@ require __DIR__ . '/../../layout/header.php'; ?>
 
       <div class="modal-footer">
         <button class="btn btn-secondary" data-dismiss="modal">Annuler</button>
-        <button type="button" class="btn btn-success" onclick="confirmImport(<?= (int)$id_unique ?>)">Confirmer</button>
+        <button type="button" class="btn btn-info" onclick="confirmImport(<?= (int)$id_unique ?>)">Confirmer</button>
       </div>
 
     </div>

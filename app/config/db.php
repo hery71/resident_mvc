@@ -16,12 +16,6 @@ $user = 'mycloudm_fassuser';
 $pass = 'FOYERASSOMPTION';
 $charset = 'utf8mb4';
 
-//LOCAL DB devarenne
-$host = 'localhost';
-$db   = 'fass';
-$user = 'root';
-$pass = '';
-$charset = 'utf8mb4';
 
 //LOCAL DB ROGER
 $host = 'localhost';
@@ -29,6 +23,13 @@ $db   = 'fass';
 $user = 'root';
 $pass = 'FOYERASSOMPTION';
 $charset = 'utf8mb4';
+//LOCAL DB devarenne
+$host = 'localhost';
+$db   = 'fass';
+$user = 'root';
+$pass = '';
+$charset = 'utf8mb4';
+
 // ---------------------------------------------------------
 // DSN PDO
 // ---------------------------------------------------------

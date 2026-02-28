@@ -153,7 +153,7 @@
                 <i class="bi bi-eye"></i> Masquer Breakfast
             </button>
 
-            <button id="toggleDessertsBtn" class="btn btn-success toggle-btn">
+            <button id="toggleDessertsBtn" class="btn btn-info toggle-btn">
                 <i class="bi bi-eye"></i> Masquer Desserts
             </button>
             <a href="printMonthlyMenu?annee=<?= $year ?>&mois=<?= $month ?>" target="_blank" class="btn btn-secondary toggle-btn">

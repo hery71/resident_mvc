@@ -16,7 +16,9 @@ $title = "Commande de gâteau"; ?>
     //exit;
 ?>
 <div class="container mt-4">
-    <h4>Commande de gâteau</h4>
+    <div class="card-modern">
+    <div class="card-header-pastel"><?= $title ?></div>
+    <div class="card-body">
 
     <p>
         Résident :
@@ -61,9 +63,11 @@ $title = "Commande de gâteau"; ?>
             <textarea name="observation" class="form-control"></textarea>
         </div>
 
-        <button class="btn btn-success">Enregistrer la commande</button>
+        <button class="btn btn-info">Enregistrer la commande</button>
         <a href="/birthday" class="btn btn-secondary">Retour</a>
     </form>
+</div>
+</div>
 </div>
 </div> <!-- container -->
 <?php require __DIR__ . '/../layout/footer.php'; ?>

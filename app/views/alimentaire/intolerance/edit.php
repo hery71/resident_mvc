@@ -57,7 +57,7 @@
                         <button type="button" class="btn btn-outline-primary btn-sm btn-sort" onclick="sortSection('<?= $catName ?>', true)">🔼 A-Z</button>
                         <button type="button" class="btn btn-outline-primary btn-sm btn-sort" onclick="sortSection('<?= $catName ?>', false)">🔽 Z-A</button>
                         <input type="text" class="form-control form-control-sm" placeholder="🔍 Rechercher..." onkeyup="filterSection('<?= $catName ?>', this.value)">
-                        <button type="button" class="btn btn-success btn-sm" onclick="addInput('<?= $catName ?>')">+ Ajouter</button>
+                        <button type="button" class="btn btn-info btn-sm" onclick="addInput('<?= $catName ?>')">+ Ajouter</button>
                     </div>
                 </div>
 

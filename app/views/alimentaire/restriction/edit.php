@@ -186,7 +186,7 @@
                         <input type="hidden" name="intolerance" id="intol-final">
                     </div>
 <!------------------------------------------------------------------------------->
-                    <button type="submit" class="btn btn-success">Enregistrer</button>  
+                    <button type="submit" class="btn btn-info">Enregistrer</button>  
                 </form>
             <?php endif; ?>
         </div>

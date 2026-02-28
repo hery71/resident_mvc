@@ -21,7 +21,7 @@
         <label class="me-2">Choisir une date :</label>
         <input type="date" name="date" class="form-control me-2" style="width:200px" value="<?= $xdate ?>">
         <button class="btn btn-primary">Afficher</button>
-        <button type="button" target="_blank" onclick="window.open('/preparation/printHebdomadaire?date=<?= urlencode($xdate) ?>', '_blank')" class="btn btn-success ms-3">🖨️ Imprimer</button>
+        <button type="button" target="_blank" onclick="window.open('/preparation/printHebdomadaire?date=<?= urlencode($xdate) ?>', '_blank')" class="btn btn-info ms-3">🖨️ Imprimer</button>
     </form>
 
     <table class="table table-bordered table-striped">

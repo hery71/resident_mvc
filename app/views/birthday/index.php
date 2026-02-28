@@ -1,7 +1,9 @@
 <?php $title = 'Anniversaires du mois'; ?>
 <?php require __DIR__ . '/../layout/header.php'; ?>
 <div class="container mt-4">
-<h3>🎂 Anniversaires – <?= e($moisLabel[$mois]) ?> <?= e($annee) ?></h3>
+    <div class="card-modern">
+    <div class="card-header-pastel"><?= $title ?> — <?= e($moisLabel[$mois]) ?> <?= e($annee) ?></div>
+    <div class="card-body">
 
     <!-- FILTRES -->
     <form method="get" class="form-inline mb-4">
@@ -27,7 +29,7 @@
 
     <!-- TABLEAU -->
     <table class="table table-bordered table-sm table-hover">
-        <thead class="thead-dark">
+        <thead >
             <tr>
                 <th>Jour</th>
                 <th>Résident</th>
@@ -72,7 +74,7 @@
                         <?php if ($a['cake_id']): ?>
                             <a href="/cake/cakeOrderPdf/<?= $a['cake_id'] ?>"
                              target="_blank"
-                            class="btn btn-sm btn-success">Cake order</a>
+                            class="btn btn-sm btn-info">Cake order</a>
                         <?php else: ?>    
                             <a href="/cake/create/<?= $a['id'] ?>/<?= e($a['annee']) ?>/<?= $a['fete_id'] ?>"
                             class="btn btn-sm btn-warning">Commander gâteau</a>
@@ -89,5 +91,7 @@
     <a href="/" class="btn btn-secondary">
         ⬅ Retour accueil
     </a>
+    </div>
+    </div>
 </div> <!-- container -->
 <?php require __DIR__ . '/../layout/footer.php'; ?>

@@ -1,7 +1,9 @@
 <?php $title = "Ajouter un résident"; ?>
 <?php require __DIR__ . '/../layout/header.php'; ?>
 <div class="container mt-4">
-    <h4>Ajouter un résident</h4>
+    <div class="card-modern">
+    <div class="card-header-pastel"><?= $title ?></div>
+    <div class="card-body">
     <form method="post" action="/resident/store">
         <input type="hidden" name="token" value="<?= e($token) ?>">
         <div class="form-row">
@@ -66,9 +68,11 @@
                 </select>
             </div>
         </div>
-        <button class="btn btn-success">Enregistrer</button>
+        <button class="btn btn-info">Enregistrer</button>
         <a href="/resident" class="btn btn-secondary">Annuler</a>
     </form>
-</div>
+    </div>
+    </div>
+</div>  
 </div> <!-- container -->
 <?php require __DIR__ . '/../layout/footer.php'; ?>

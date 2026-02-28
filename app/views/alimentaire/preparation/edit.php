@@ -217,7 +217,7 @@ foreach (['breakfast','lunch','lunch_dessert','dinner','dinner_dessert'] as $cat
         </button>
     <?php else: ?>
         <!-- Bouton VERT si aucune préparation -->
-        <button class="btn btn-success btn-sm"
+        <button class="btn btn-info btn-sm"
                 onclick="openPrepModal('<?= addslashes($p) ?>')">
             Créer préparation
         </button>
@@ -318,7 +318,7 @@ foreach (['breakfast','lunch','lunch_dessert','dinner','dinner_dessert'] as $cat
         <h5 class="modal-title">Préparations pour <span id="view_plat_name"></span></h5>
         <div class="modal-header">
     <!-- BOUTON AJOUTER PREPARATION -->
-    <button type="button" class="btn btn-success btn-sm ms-3"
+    <button type="button" class="btn btn-info btn-sm ms-3"
             onclick="openPrepModalAddFromView()">
         + Ajouter préparation
     </button>

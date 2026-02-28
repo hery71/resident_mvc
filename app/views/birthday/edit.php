@@ -2,9 +2,9 @@
 <?php require __DIR__ . '/../layout/header.php'; ?>
 
 <div class="container mt-4">
-
-<h3 class="mb-3">✏️ Modifier anniversaire</h3>
-
+<div class="card-modern">
+    <div class="card-header-pastel"><?= $title ?></div>
+    <div class="card-body">
 <form method="post" action="/birthday/update">
 
 <!-- ================= INFOS TECHNIQUES ================= -->
@@ -211,10 +211,12 @@
 </div>
 
 <div class="text-right mb-5">
-    <button class="btn btn-success btn-lg">💾 Enregistrer la fête</button>
+    <button class="btn btn-info btn-lg">💾 Enregistrer la fête</button>
 </div>
 
 </form>
+</div>
+</div>
 </div>
 
 <!-- ================= JS DISPOSABLE ================= -->

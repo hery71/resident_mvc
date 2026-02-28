@@ -4,7 +4,9 @@
 ?>
 <?php require __DIR__ . '/../../layout/header.php'; ?>
 <div class="container mt-4">
-<h3>Ajouter Taches</h3>
+<div class="card-modern">
+    <div class="card-header-pastel"><?= $title ?></div>
+    <div class="card-body">
 <hr>
 <p><strong>Nom :</strong> <?= e($inspectionDetail['nom']) ."(" .$id_inspection  . ")"?></p>
 <p><strong>Date :</strong> <?= e($inspectionDetail['date']) ?></p>
@@ -92,7 +94,9 @@
                 </div>
             </div>
         <?php endforeach; ?>
-</div>
+    </form>
+    </div>
+    </div></div> <!-- container -->
 <script>
 document.getElementById('aile').addEventListener('change', function () {
     fetch('/ajax/getRooms.php?aile=' + this.value)

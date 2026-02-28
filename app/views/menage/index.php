@@ -4,7 +4,9 @@
 ?>
 <?php require __DIR__ . '/../layout/header.php'; ?>
 <div class="container mt-4">
-<h3>Liste Inspection </h3>
+<div class="card-modern">
+    <div class="card-header-pastel"><?= $title ?></div>
+    <div class="card-body">
  <!-- Sélecteur d'année -->
     <form method="GET" class="form-inline mb-3">
         <label class="mr-2">Année :</label>
@@ -16,14 +18,14 @@
             <?php endfor; ?>
         </select>
 
-        <a href="/menage/create?annee=<?= $annee ?>" class="btn btn-success">
+        <a href="/menage/create?annee=<?= $annee ?>" class="btn btn-info">
             ➕ Créer une inspection
         </a>
     </form>
 
     <!-- Tableau des inspections -->
     <table class="table table-bordered table-striped">
-        <thead class="thead-dark">
+        <thead >
             <tr>
                 <th>Date</th>
                 <th>Type</th>
@@ -60,4 +62,6 @@
         </tbody>
     </table>
 </div>
+</div>
+</div> <!-- container -->
 <?php require __DIR__ . '/../layout/footer.php'; ?>

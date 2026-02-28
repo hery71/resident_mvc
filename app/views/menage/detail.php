@@ -4,7 +4,9 @@
 ?>
 <?php require __DIR__ . '/../layout/header.php'; ?>
 <div class="container mt-4">
-<h3>Detail Inspection </h3>
+<div class="card-modern">
+    <div class="card-header-pastel"><?= $title ?></div>
+    <div class="card-body">
 <a href="/task/addTask?id=<?= $id_inspection  .'&type=' .$inspection['type'] ?>" class="btn btn-primary mb-3">
     Ajouter des tâches
 </a>
@@ -60,4 +62,6 @@ foreach ($taskS as $t) {
 <?php endforeach; ?>
 <a href="/menage/index?annee=<?= $annee ?>" class="btn btn-secondary">Retour</a>
 </div>
+</div>
+</div> <!-- container -->
 <?php require __DIR__ . '/../layout/footer.php'; ?>

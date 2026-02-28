@@ -1,6 +1,9 @@
 <?php $title = 'Liste Fêtes du mois'; ?>
 <?php require __DIR__ . '/../layout/header.php'; ?>
 <div class="container mt-4">
+    <div class="card-modern">
+    <div class="card-header-pastel"><?= $title ?></div>
+    <div class="card-body">
 
     <!-- FILTRES -->
     <form method="get" class="form-inline mb-4">
@@ -30,7 +33,7 @@
            Créer fête
         </a>
             <table class="table table-bordered table-sm table-hover">
-                <thead class="thead-dark">
+                <thead >
                     <tr>
                         <th>N</th>
                         <th>Motif</th>
@@ -84,5 +87,7 @@
                 <button class="btn btn-outline-secondary btn-sm" onclick="setFontSize('xl')">XL</button>
                 <button class="btn btn-outline-secondary btn-sm" onclick="setFontSize('tg')">TG</button>
             </div>
+    </div>
+    </div>
 </div> <!-- container -->
 <?php require __DIR__ . '/../layout/footer.php'; ?>

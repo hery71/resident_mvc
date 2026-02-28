@@ -16,7 +16,7 @@ $logoPathPublic = $logoFilename
     <?=  $link ?? '' ?>
     <link rel="stylesheet"
           href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="<?= BASE_URL ?>/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/style.css?v=<?= time() ?>">
     <style>
     <?= $custom_style ?? '' ?>
     </style>

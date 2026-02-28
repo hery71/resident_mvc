@@ -1,7 +1,9 @@
 <?php $title = 'Créer Fêtes'; ?>
 <?php require __DIR__ . '/../layout/header.php'; ?>
 <div class="container mt-4">
-<h3>Créer une Fete</h3>
+<div class="card-modern">
+    <div class="card-header-pastel"><?= $title ?></div>
+    <div class="card-body">
 <form method="post" action="/fete/store">
     <input type="hidden" name="token" value="<?= e($token) ?>">
     <!--Motif de la fete-->
@@ -248,12 +250,14 @@
         <input type="input" name="informations" class="form-control">
     </div>
     <div class="mt-3">
-        <button class="btn btn-success">
+        <button class="btn btn-info">
             Enregistrer Fête
         </button>   
 </div>
 
 </form>
+</div>
+</div>
 </div>
 </div> <!-- container -->
 <script>

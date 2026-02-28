@@ -19,7 +19,9 @@
 <div class="container center">
     <h3> Importer les menus speciaux</h3>
    <div class="container center mt-4">
-    <h3>IMPORT SPECIAL — Christmas / New Year</h3>
+    <div class="card-modern">
+    <div class="card-header-pastel"><?= $title ?></div>
+    <div class="card-body">
 
     <form method="post" action="/parametres/importSpecial">
 
@@ -144,11 +146,13 @@
                    value="<?= htmlspecialchars($_POST["week1_{$key}"] ?? '') ?>">
         <?php endforeach; ?>
 
-        <button type="submit" class="btn btn-success mt-2">
+        <button type="submit" class="btn btn-info mt-2">
             Exporter vers la base
         </button>
 
     </form>
 <!---------------------FIN DIV PRINCIPAL--------------------->
+    </div>
+    </div>
 </div>
 <?php require __DIR__ . '/../layout/footer.php'; ?>

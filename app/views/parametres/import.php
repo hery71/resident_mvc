@@ -41,7 +41,9 @@
 ?>
 <?php require __DIR__ . '/../layout/header.php'; ?>
 <div class="container center">
-<h3> IMPORTATION DES MENUS </h3>
+<div class="card-modern">
+    <div class="card-header-pastel"><?= $title ?></div>
+    <div class="card-body">
 <div class="alert alert-info">
     Séparateurs de chaque bloc:
     <strong>xxxxxxx;;;;;;;</strong> = Separateur de blocs week1 (Breakfast → Lunch → Lunch Dessert → Dinner → Dinner Dessert) en premier week2 et week3 ensuite...
@@ -198,12 +200,13 @@ $meals = [
     name="yearSeason" id="yearSeason"
     value='<?= htmlspecialchars(json_encode($yearSeason), ENT_QUOTES, "UTF-8") ?>'>
     <button type="submit" 
-        class="btn btn-success mt-2"
+        class="btn btn-info mt-2"
         onclick="return confirmExport();">
         Exporter vers la base
     </button>
 </form>
-
+</div>
+</div>
 <!---------------------FIN DIV PRINCIPAL--------------------->
 </div>
 <?php require __DIR__ . '/../layout/footer.php'; ?>

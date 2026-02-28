@@ -21,8 +21,9 @@ if (!empty($resident['Allergie'])) {
 <?php require __DIR__ . '/../layout/header.php'; ?>
 
 <div class="container mt-4">
-
-    <h3>Régime diététique</h3>
+    <div class="card-modern">
+    <div class="card-header-pastel"><?= $title ?></div>
+    <div class="card-body">
     <!----------------------------Identité---------------->
     <div class="alert alert-info">
         <Form method="post" action="/resident/dietetique/">
@@ -223,10 +224,12 @@ if (!empty($resident['Allergie'])) {
         Retour
         </a>
         <a href="/resident/printFicheDietetique/<?= (int)$resident['id'] ?>"
-            class="btn btn-success mt-4">
+            class="btn btn-info mt-4">
         Imprimer la fiche Dietetique
         </a>
     </form>
+    </div>
+    </div>
 </div>
 
 <?php require __DIR__ . '/../layout/footer.php'; ?>

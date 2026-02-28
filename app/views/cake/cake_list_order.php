@@ -1,6 +1,9 @@
 <?php $title = 'Liste commande Gateau'; ?>
 <?php require __DIR__ . '/../layout/header.php'; ?>
 <div class="container mt-4">
+    <div class="card-modern">
+    <div class="card-header-pastel"><?= $title ?> — <?= e($moisLabel[$mois]) ?> <?= e($annee) ?></div>
+    <div class="card-body">
     
         <!-- FILTRES -->
         <form method="get" class="form-inline mb-4">
@@ -26,7 +29,7 @@
             <h3>Commande de gateaux - <?= e($moisLabel[$mois]) ?> <?= e($annee) ?></h3>
         <!-- TABLEAU -->
             <table class="table table-bordered table-sm table-hover">
-                <thead class="thead-dark">
+                <thead >
                     <tr>
                         <th>N</th>
                         <th>Résident</th>

@@ -1,49 +1,126 @@
-    /* Style pour l'impression */
-    @media print {
-        /* Cache tout sauf la zone imprimable */
-        body * {
-            visibility: hidden;
-        }
-        #printable-area,
-        #printable-area * {
-            visibility: visible;
-        }
-        #printable-area {
-            position: absolute;
-            left: 0;
-            top: 0;
-            width: 100%;
-        }
-         #printable-area {
-        margin-top: 3cm !important; /* Ajustez cette valeur */
-        }   
-        /* Force le tableau à s'afficher correctement */
-        .table {
-            width: 100% !important;
-            border-collapse: collapse !important;
-            page-break-inside: avoid;
-        }
-        .table th,
-        .table td {
-            padding: 8px !important;
-            border: 1px solid #000 !important;
-            page-break-inside: avoid;
-        }
+/* ===================================== */
+/*        RESIDENT MVC GLOBAL THEME      */
+/* ===================================== */
 
-        /* Orientation portrait (annule le paysage si problème) */
-        @page {
-            size: portrait;
-            margin: 0.5cm;
-        }
+/* -------- BODY -------- */
+body {
+    background-color: #f8fafc;
+    font-size: 15px;
+    color: #2E2E2E;
+}
 
-        /* Tailles de police pour impression */
-        #printable-area {
-            font-size: var(--print-font-size, 14px) !important;
-        }
+/* -------- TITRES -------- */
+h3, h4, h5 {
+    font-weight: 600;
+}
+
+/* -------- TABLE -------- */
+.table thead {
+    background-color: #5ebdef;
+    color: white;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #f0f8ff;
+}
+
+/* -------- BOUTONS -------- */
+.btn-primary {
+    background-color: #5ebdef !important;
+    border: none !important;
+    border-radius: 10px;
+}
+
+.btn-info {
+    background-color: #4A90E2 !important;
+    border: none !important;
+    border-radius: 10px;
+}
+
+.btn-secondary {
+    background-color: #9aa5b1 !important;
+    border: none !important;
+    border-radius: 10px;
+}
+
+.btn-danger {
+    background-color: #D96C6C !important;
+    border: none !important;
+    border-radius: 10px;
+}
+
+/* -------- MODALS -------- */
+.modal-header {
+    background-color: #F2F4F6;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.modal-title {
+    font-weight: 600;
+}
+
+/* -------- CARD MODERN -------- */
+.card-modern {
+    background: white;
+    border-radius: 18px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+    border: 1px solid #E0E0E0;
+    overflow: hidden; /* important pour arrondis parfaits */
+}
+
+.card-header-pastel {
+    background-color: #F2F4F6;
+    font-weight: 600;
+    text-align: center;
+    padding: 14px;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+/* ===================================== */
+/*            PRINT SETTINGS             */
+/* ===================================== */
+
+@media print {
+
+    body * {
+        visibility: hidden;
     }
 
-    /* Tailles de police pour l'écran */
+    #printable-area,
+    #printable-area * {
+        visibility: visible;
+    }
+
     #printable-area {
-        font-size: 14px;
-        transition: font-size 0.2s;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        margin-top: 3cm !important;
+        font-size: var(--print-font-size, 14px) !important;
     }
+
+    .table {
+        width: 100% !important;
+        border-collapse: collapse !important;
+        page-break-inside: avoid;
+    }
+
+    .table th,
+    .table td {
+        padding: 8px !important;
+        border: 1px solid #000 !important;
+        page-break-inside: avoid;
+    }
+
+    @page {
+        size: portrait;
+        margin: 0.5cm;
+    }
+}
+
+/* Taille écran pour zone imprimable */
+#printable-area {
+    font-size: 14px;
+    transition: font-size 0.2s;
+}

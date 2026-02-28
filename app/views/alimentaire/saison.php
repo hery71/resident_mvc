@@ -18,7 +18,7 @@
     <button type="submit" class="btn btn-primary">Afficher</button>
   </form>
   <table class="table table-bordered table-hover text-center">
-    <thead class="thead-dark">
+    <thead >
       <tr>
         <th>Saison / Semaine spéciale</th>
         <th>Début (dimanche)</th>

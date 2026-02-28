@@ -57,7 +57,7 @@
   <?php endif; ?>
 
   <div class="mt-3">
-    <a href="/menuUnique/edit" class="btn btn-success">➕ Créer un nouveau menu unique</a>
+    <a href="/menuUnique/edit" class="btn btn-info">➕ Créer un nouveau menu unique</a>
     <a href="/alimentaire/index.php" class="btn btn-secondary ml-2">⬅ Retour</a>
   </div>
     

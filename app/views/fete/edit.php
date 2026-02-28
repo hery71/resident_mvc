@@ -1,7 +1,9 @@
 <?php $title = 'Modifier fete'; ?>
 <?php require __DIR__ . '/../layout/header.php'; ?>
 <div class="container mt-4">
-<h3>Modifier une Fete</h3>
+<div class="card-modern">
+    <div class="card-header-pastel"><?= $title ?></div>
+    <div class="card-body">
 <form method="post" action="/fete/update">
     <input type="hidden" name="token" value="<?= e($token) ?>">
     <input type="hidden" name="mois" value="<?= $mois ?>">
@@ -250,12 +252,14 @@
         <label class="form-label">Informations<input type="input" name="informations" class="form-control" value ="<?=  $fete['informations'] ?>"></label>
     </div>
     <div class="mt-3">
-        <button class="btn btn-success">
+        <button class="btn btn-info">
             Enregistrer Fête
         </button>   
 </div>
 
 </form>
+</div>
+</div>
 </div>
 </div> <!-- container -->
 <script>

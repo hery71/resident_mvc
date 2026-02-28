@@ -61,7 +61,7 @@
                         <input type="text" id="searchInput" class="form-control form-control-sm" placeholder="🔍 Rechercher un ingrédient..." onkeyup="filterList()">
                     </div>
                     <div>
-                        <button type="button" class="btn btn-success btn-sm" onclick="addInput()">+ Ajouter un ingrédient</button>
+                        <button type="button" class="btn btn-info btn-sm" onclick="addInput()">+ Ajouter un ingrédient</button>
                     </div>
                 </div>
 
@@ -76,7 +76,7 @@
 
                 <div class="text-end mt-3">
                     <a href="index.php" class="btn btn-secondary me-2">Annuler</a>
-                    <button type="submit" class="btn btn-success">💾 Enregistrer</button>
+                    <button type="submit" class="btn btn-info">💾 Enregistrer</button>
                 </div>
             </form>
         </div>

@@ -2,7 +2,9 @@
 <?php require __DIR__ . '/../layout/header.php'; ?>
 
 <div class="container mt-4">
-    <h4>Modifier le résident</h4>
+    <div class="card-modern">
+    <div class="card-header-pastel"><?= $title ?></div>
+    <div class="card-body">
 
     <form method="post" action="/resident/update/<?= $resident['id'] ?>">
 
@@ -64,9 +66,11 @@
                    value="<?= e($resident['Chambre']) ?>">
         </div>
 
-        <button class="btn btn-success">Update</button>
+        <button class="btn btn-info">Update</button>
         <a href="/resident" class="btn btn-secondary">↩ Retour</a>
     </form>
+    </div>
+    </div>
 </div>
 </div> <!-- container -->
 <?php require __DIR__ . '/../layout/footer.php'; ?>

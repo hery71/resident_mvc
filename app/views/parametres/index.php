@@ -6,7 +6,9 @@
     $logoPath = logo_disk_path(); // ← depuis helpers + logo.json
 ?>
 <div class="container mt-4">
-    <h3>Parametres</h3>
+    <div class="card-modern">
+    <div class="card-header-pastel"><?= $title ?></div>
+    <div class="card-body">
     <div class="box">
 
         <h3>Informations de l'entreprise</h3>
@@ -108,6 +110,8 @@
 
             <button class="btn btn-primary">💾 Enregistrer</button>
         </form>
+    </div>
+    </div>
 
     </div>
 

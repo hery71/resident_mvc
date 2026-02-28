@@ -67,7 +67,7 @@
     </div>
 
     <div class="text-center mt-3">
-        <button class="btn btn-success" onclick="printSpecial()">🖨️ Imprimer</button>
+        <button class="btn btn-info" onclick="printSpecial()">🖨️ Imprimer</button>
     </div>
     <?php endif; ?>
 

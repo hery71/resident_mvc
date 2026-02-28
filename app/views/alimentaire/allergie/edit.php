@@ -67,7 +67,7 @@
                         <input type="text" id="searchInput" class="form-control form-control-sm" placeholder="🔍 Rechercher un allergène..." onkeyup="filterList()">
                     </div>
                     <div>
-                        <button type="button" class="btn btn-success btn-sm" onclick="addInput()">+ Ajouter un allergène</button>
+                        <button type="button" class="btn btn-info btn-sm" onclick="addInput()">+ Ajouter un allergène</button>
                     </div>
                 </div>
 

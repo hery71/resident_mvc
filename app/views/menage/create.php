@@ -3,7 +3,9 @@
 ?>
 <?php require __DIR__ . '/../layout/header.php'; ?>
 <div class="container mt-4">
-<h3>Créer Inspection </h3>
+<div class="card-modern">
+    <div class="card-header-pastel"><?= $title ?></div>
+    <div class="card-body">
 <form method="POST" action="/menage/save">
         <input type="hidden" name="annee" value="<?= $annee ?>">
         <div class="card shadow-sm">
@@ -64,4 +66,6 @@
         </div>
     </form>
 </div>
+</div>
+</div> <!-- container -->
 <?php require __DIR__ . '/../layout/footer.php'; ?>

@@ -58,7 +58,9 @@ $FruitSel = $parseList($resident['Fruit'] ?? '');
 ?>
 <?php require __DIR__ . '/../layout/header.php'; ?>
 <div class="container center">
-    <h3> Preference alimentaire</h3>
+<div class="card-modern">
+    <div class="card-header-pastel"><?= $title ?></div>
+    <div class="card-body">
 <!-----------------------------DIV PRINCIPAL----------------->
 <div class="d-flex flex-wrap align-items-center justify-content-between mb-3">
     <h1 class="h4 mb-0">Préférences alimentaires — <?= e($resident['Prenom']) ?> <?= e($resident['Nom']) ?></h1>
@@ -201,5 +203,7 @@ $FruitSel = $parseList($resident['Fruit'] ?? '');
     </div>
   </form>
 <!---------------------FIN DIV PRINCIPAL--------------------->
+    </div>
+    </div>
 </div>
 <?php require __DIR__ . '/../layout/footer.php'; ?>
