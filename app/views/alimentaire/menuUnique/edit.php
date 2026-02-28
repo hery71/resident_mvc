@@ -67,11 +67,13 @@ function confirmDelete(id, table, menuId) {
 JS;
 require __DIR__ . '/../../layout/header.php'; ?>
 <div class="container mt-4">
-<h2>Menu Unique <?= htmlspecialchars($menu_unique['date'] ?? $currentDate) ?></h2>
+<div class="card-modern">
+  <div class="card-header-pastel"><?= e($menu_unique['date'] ?? $currentDate) ?></div>
+    <div class="card-body">
 <a href="/menuUnique/index/" class="btn btn-secondary mb-3">Liste</a>
 
 <?php if (!empty($message)): ?>
-<div class="alert alert-success"><?= htmlspecialchars($message) ?></div>
+<div class="alert alert-success"><?= e($message) ?></div>
 <?php endif; ?>
 
 <?php if (!$menu_unique): ?>
@@ -87,9 +89,9 @@ require __DIR__ . '/../../layout/header.php'; ?>
 
        <form method="POST" class="mb-4">
               <input type="hidden" name="id_unique" value="<?= $menu_unique['id'] ?>">
-              <input name="nom" class="form-control mb-2" value="<?= htmlspecialchars($menu_unique['nom']) ?>" required>
-              <input type="date" name="date" class="form-control mb-2" value="<?= $menu_unique['date'] ?>" required>
-              <input name="observation" class="form-control mb-2" value="<?= htmlspecialchars($menu_unique['observation']) ?>">
+              <input name="nom" class="form-control mb-2" value="<?= e($menu_unique['nom']) ?>" required>
+              <input type="date" name="date" class="form-control mb-2" value="<?= e($menu_unique['date']) ?>" required>
+              <input name="observation" class="form-control mb-2" value="<?= e($menu_unique['observation']) ?>">
               <button name="update_menu" class="btn btn-primary">💾 Mettre à jour</button>
        </form>
        <!-------------------------------------------------------------------------------------->
@@ -178,7 +180,8 @@ require __DIR__ . '/../../layout/header.php'; ?>
 
 
 <?php endif; ?>
-
+    </div>
+</div>
 </div>
 <!---------------------------- Import Modal -------------------------------------------------->
 <!-- MODAL IMPORT MENU RÉGULIER -->

@@ -6,7 +6,10 @@
 ?>
 <?php require __DIR__ . '/../layout/header.php'; ?>
 <div class="container center">
-<h2 class="mb-4 text-center">Cycle des saisons – Année <?= $annee ?></h2>
+  <div class="card-modern">
+  <div class="card-header-pastel"><?= $title ?></div>
+  <div class="card-body">
+<h2 class="mb-4 text-center"><?= $annee ?></h2>
 
   <form method="get" class="form-inline justify-content-center mb-4">
     <label for="annee" class="mr-2">Choisir une année :</label>
@@ -62,7 +65,6 @@
     <a href="/alimentaire/index" class="btn btn-secondary">⬅ Accueil</a>
 </div>
 
-
-
+</div>
 </div>
 <?php require __DIR__ . '/../layout/footer.php'; ?>

@@ -20,7 +20,9 @@ $custom_js = <<<JS
 require __DIR__ . '/../../layout/header.php'; ?>
 
 <div class="container mt-4">
-  <h2>Menu du jour</h2>
+  <div class="card-modern">
+  <div class="card-header-pastel"><?= $title ?></div>
+  <div class="card-body">
 
   <form class="form-inline mt-3 mb-4">
     <label class="mr-2">Choisissez une date :</label>
@@ -73,6 +75,8 @@ require __DIR__ . '/../../layout/header.php'; ?>
   <?php endif; ?>
    <div class="text-center mt-4">
     <a href="/alimentaire/index" class="btn btn-secondary">⬅ Accueil</a>
+  </div>
+  </div>
   </div>
 </div>
 <?php require __DIR__ . '/../../layout/footer.php'; ?>

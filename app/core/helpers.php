@@ -58,7 +58,7 @@ function createMealSection($label, $name, $items, $dessertLabel = null, $dessert
         echo "<div class='input-group mb-2 position-relative'>";
         echo "<input type='hidden' name='{$name}[id][]' value='{$item['id']}'>";
         echo "<input type='text' name='{$name}[meal][]' class='form-control' value='".htmlspecialchars($item['meal'])."'>";
-        echo "<button type='button' class='btn bg-light text-secondary remove-btn ms-2' data-table='{$name}' data-id='{$item['id']}' data-meal='".htmlspecialchars($item['meal'])."'><i class='bi bi-trash'></i>X</button>";
+        echo "<button type='button' class='btn bg-light text-danger remove-btn ms-2' data-table='{$name}' data-id='{$item['id']}' data-meal='".htmlspecialchars($item['meal'])."'><i class='bi bi-trash'></i>X</button>";
         echo "</div>";
     }
 

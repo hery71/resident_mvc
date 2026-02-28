@@ -10,11 +10,11 @@
 ?>
 <?php require __DIR__ . '/../../layout/header.php'; ?>
 <div class="container center">
-    <h2>📅 Fiche hebdomadaire de préparation</h2>
-    <h5>
+    <div class="card-modern">
+        <div class="card-header-pastel"><?= $title ?>
+        <div class="card-body">
         Semaine du <strong><?= $startOfWeek->format('d M Y') ?></strong>  
         au <strong><?= $endOfWeek->format('d M Y') ?></strong>
-    </h5>
 
     <!-- Sélecteur de date -->
     <form method="GET" class="no-print mt-4 mb-4 d-flex align-items-center gap-2">
@@ -68,5 +68,7 @@
         </tbody>
     </table>    
 <!---------------------FIN DIV PRINCIPAL--------------------->
+        </div>
+        </div>
 </div>
 <?php require __DIR__ . '/../../layout/footer.php'; ?>

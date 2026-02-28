@@ -97,11 +97,7 @@
             .shown-col  { display: table-cell !important; }
         }
 
-        .table thead th {
-            background: #343a40;
-            color: white;
-            text-align: center;
-        }
+        
 
         .table tbody td {
             vertical-align: middle;
@@ -118,8 +114,11 @@
     CSS;
 ?>
 <?php require __DIR__ . '/../../layout/header.php'; ?>
-<div class="container center">
-<h3>Menu Mensuel: <?= $monthName ?> <?= $year ?></h3>
+<div class="container mt-4">
+<div class="card-modern">
+  <div class="card-header-pastel"><?= $title ?> : <?= $monthName ?> <?= $year ?></div>
+    <div class="card-body">   
+        <div class="container center">       
  <!-- Filtre mois/année -->
         <form class="form-inline mb-4 no-print">
             <label class="mr-2">Mois :</label>
@@ -163,7 +162,7 @@
 
         <!-- TABLEAU -->
         <div class="table-responsive">
-            <table class="table table-bordered table-striped">
+            <table class="table table-bordered table-hover">
                 <thead>
                     <tr>
                         <th>Date</th>
@@ -207,7 +206,8 @@
                 </tbody>
             </table>
         </div>
-
-
+    </div>
+    </div>
+</div>
 </div>
 <?php require __DIR__ . '/../../layout/footer.php'; ?>

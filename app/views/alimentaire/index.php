@@ -7,14 +7,10 @@ JS;
 <?php require __DIR__ . '/../layout/header.php'; ?>
 
 <div class="container mt-5">
-
-    <h2 class="mb-4 text-center">🍽️ Module Alimentaire</h2>
-    <p class="text-center text-muted mb-5">
-        Gestion des menus, saisons et menus spéciaux
-    </p>
-
+    <div class="card-modern">
+    <div class="card-header-pastel"><?= $title ?></div>
+    <div class="card-body">
     <div class="row">
-
         <!-- Calendrier des saisons -->
         <div class="col-md-3 mb-4">
             <a href="/alimentaire/saison" class="text-decoration-none">
@@ -104,6 +100,8 @@ JS;
             </a>
         </div>
 
+    </div>
+    </div>
     </div>
 
 </div>

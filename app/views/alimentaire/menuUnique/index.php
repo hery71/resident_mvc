@@ -1,5 +1,4 @@
-<?php $title = 'Base'; 
-    $inspection=  Config::inspection(); 
+<?php $title = 'Menu Unique'; 
     $annee = $_GET['annee'] ?? date("Y");
     $custom_js = <<<'JS'
     // Custom JavaScript can be added here
@@ -15,7 +14,9 @@
 ?>
 <?php require __DIR__ . '/../../layout/header.php'; ?>
 <div class="container center">
-    <h3> Liste Menu Unique - Année <?= e($annee) ?></h3>
+  <div class="card-modern">
+  <div class="card-header-pastel"><?= $title ?> - Année <?= e($annee) ?></div>
+    <div class="card-body">
 
 
     <form class="form-inline mb-4" method="get" action="/menuUnique/index">
@@ -31,7 +32,7 @@
   <?php if (empty($menus)): ?>
     <div class="alert alert-warning">Aucun menu unique trouvé pour <?= e($annee) ?>.</div>
   <?php else: ?>
-    <table class="table table-bordered">
+    <table class="table table-bordered table-hover">
       <thead>
         <tr>
           <th>Date</th>
@@ -60,7 +61,8 @@
     <a href="/menuUnique/edit" class="btn btn-info">➕ Créer un nouveau menu unique</a>
     <a href="/alimentaire/index.php" class="btn btn-secondary ml-2">⬅ Retour</a>
   </div>
-    
+    </div>
+  </div>
 <!---------------------FIN DIV PRINCIPAL--------------------->
 </div>
 <?php require __DIR__ . '/../../layout/footer.php'; ?>

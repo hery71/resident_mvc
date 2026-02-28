@@ -100,7 +100,9 @@
 ?>
 <?php require __DIR__ . '/../../layout/header.php'; ?>
 <div class="container center">
-    <h3> Editer les Restrictions Alimentatires</h3>
+    <div class="card-modern">
+        <div class="card-header-pastel"><?= $title ?> - Année <?= e($annee) ?></div>
+        <div class="card-body">
     <?php if(isset($success)): ?>
         <div class="alert alert-success">
             Les restrictions ont été enregistrées avec succès.
@@ -350,6 +352,8 @@
     </div>
   </div>
 </div>
+        </div>
+    </div>
 <!---------------------FIN DIV PRINCIPAL--------------------->
 </div>
 <?php require __DIR__ . '/../../layout/footer.php'; ?>

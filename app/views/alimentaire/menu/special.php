@@ -7,7 +7,9 @@
 ?>
 <?php require __DIR__ . '/../../layout/header.php'; ?>
 <div class="container mt-4 mb-5">
-    <h2 class="text-center">🎉 Menus spéciaux</h2>
+    <div class="card-modern">
+    <div class="card-header-pastel"><?= $title ?></div>
+    <div class="card-body">
     <!-- Filtres -->
     <form method="get" class="form-inline justify-content-center mb-4">
         <label class="mr-2">Menu spécial :</label>
@@ -37,7 +39,7 @@
     <?php else: ?>
     <div id="specialContent">
         <table class="table table-bordered table-hover">
-            <thead class="bg-primary text-white text-center">
+            <thead>
                 <tr>
                     <th>Day</th>
                     <th>Date 1</th>
@@ -74,6 +76,7 @@
     <div class="text-center mt-4">
         <a href="/menu" class="btn btn-secondary">⬅ Retour</a>
     </div>
-
+    </div>
+    </div>
 </div>
 <?php require __DIR__ . '/../../layout/footer.php'; ?>

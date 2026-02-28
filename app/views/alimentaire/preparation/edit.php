@@ -180,12 +180,15 @@ foreach (['breakfast','lunch','lunch_dessert','dinner','dinner_dessert'] as $cat
 ?>
 <?php require __DIR__ . '/../../layout/header.php'; ?>
 <div class="container center">
+  <div class="card-modern">
+  <div class="card-header-pastel"><?= $title ?></div>
+    <div class="card-body">
+
     <div class="alert alert-info mt-3">
         <?php if (isset($_GET['success'])): ?>
             <strong>✔️ Préparation enregistrée avec succès !</strong>
         <?php endif; ?>
     </div>
-    <h3> Editer Preparations</h3>
     <form class="form-inline mt-3 mb-4">
     <label class="mr-2">Choisissez une date :</label>
     <input type="date" name="date" id="date" class="form-control mr-2" value="<?= $xdate ?>">
@@ -230,7 +233,8 @@ foreach (['breakfast','lunch','lunch_dessert','dinner','dinner_dessert'] as $cat
     <?php else: ?>
         <div class="alert alert-warning mt-3">Aucun plat trouvé pour cette date.</div>
     <?php endif; ?>
-
+    </div>
+  </div>
 </div>
 
 

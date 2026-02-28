@@ -21,7 +21,7 @@ $logoPathPublic = $logoFilename
     <?= $custom_style ?? '' ?>
     </style>
     <?php if (!empty($page_css)) : ?>
-    <link rel="stylesheet" href="<?= BASE_URL ?>/assets/css/<?= $page_css ?>">
+    <link rel="stylesheet" href="<?= BASE_URL ?>/assets/css/<?= $page_css ?>?v=<?= time() ?>">
     <?php endif; ?>
     </head>
 <body>

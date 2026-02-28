@@ -8,7 +8,7 @@
         div.className = 'input-group mb-2 allergene-item new-allergene';
         div.innerHTML = `
             <input type="text" name="allergenes[]" class="form-control" placeholder="Nouvel allergène">
-            <button type="button" class="btn btn-danger" onclick="this.parentNode.remove()">✕</button>
+            <button type="button" class="btn btn-light text-danger" onclick="this.parentNode.remove()">✕</button>
         `;
         const list = document.getElementById('allergenes-list');
         // Ajouter en première position
@@ -53,10 +53,9 @@
 ?>
 <?php require __DIR__ . '/../../layout/header.php'; ?>
 <div class="container center">
-    <h3> Editer Allergies</h3>
-    <div class="page-title">
-        <h4 class="m-0">Gestion des Allergènes (allergie.json)</h4>
-    </div>
+    <div class="card-modern">
+        <div class="card-header-pastel"><?= $title ?></div>
+         <div class="card-body">
     <div class="card shadow-sm mb-4">
         <div class="card-body">
             <form method="POST" id="formAllergies" action="/allergie/update">
@@ -75,7 +74,7 @@
                     <?php foreach ($allergenes as $i => $allergene): ?>
                         <div class="input-group mb-2 allergene-item">
                             <input type="text" name="allergenes[]" value="<?= htmlspecialchars($allergene) ?>" class="form-control">
-                            <button type="button" class="btn btn-danger" onclick="this.parentNode.remove()">✕</button>
+                            <button type="button" class="btn btn-light text-danger" onclick="this.parentNode.remove()">✕</button>
                         </div>
                     <?php endforeach; ?>
                 </div>
@@ -87,6 +86,8 @@
             </form>
         </div>
     </div>
+         </div>
+        </div>
 <!---------------------FIN DIV PRINCIPAL--------------------->
 </div>
 <?php require __DIR__ . '/../../layout/footer.php'; ?>

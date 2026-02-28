@@ -1,4 +1,4 @@
-<?php $title = 'Editer menu'; 
+<?php $title = 'Modifier menu'; 
     $annee = $_GET['annee'] ?? date("Y");
     // =========================
     // 🔧 Variables
@@ -28,110 +28,108 @@
     JS;
 require __DIR__ . '/../../layout/header.php'; ?>
 <div class="container center">
-<h3> Editer menu</h3>
-<div class="container mt-4 mb-5">
+    <div class="card-modern">
+    <div class="card-header-pastel"><?= $title ?> - Cycle : <?= $currentMenu ?></div>
+    <div class="card-body">
+    <div class="container mt-4 mb-5">
 
-    <h1 class="text-center fw-bold mb-3">Modifier le menu du jour</h1>
+        <!-- ====================== -->
+        <!--       FILTRES         -->
+        <!-- ====================== -->
 
-    <div class="text-center mb-4">
-        <h4 class="text-primary">📅 Menu actif : <strong><?= $currentMenu ?></strong></h4>
+        <form method="get" action="/menu/edit" class="mb-4">
+            <input type="hidden" name="id" value="<?= $menu['id'] ?>">
+            <div class="row g-3 bg-white p-3 rounded shadow-sm">
+
+                <div class="col-md-3">
+                    <label class="form-label fw-bold">Année</label>
+                    <select name="annee" class="form-select" onchange="this.form.submit()">
+                    <?php foreach ($years as $y): ?>
+                        <option value="<?= $y ?>" <?= ($annee==$y)?'selected':'' ?>><?= $y ?></option>
+                    <?php endforeach; ?>
+                    </select>
+                </div>
+
+                <div class="col-md-3">
+                    <label class="form-label fw-bold">Saison</label>
+                    <select name="saison" class="form-select" onchange="this.form.submit()">
+                    <?php foreach ($seasons as $s): ?>
+                        <option value="<?= $s ?>" <?= ($saison==$s)?'selected':'' ?>><?= $s ?></option>
+                    <?php endforeach; ?>
+                    </select>
+                </div>
+
+                <div class="col-md-3">
+                    <label class="form-label fw-bold">week</label>
+                    <select name="week" class="form-select" onchange="this.form.submit()">
+                    <?php foreach ($weeksMap as $num=>$label): ?>
+                        <option value="<?= $num ?>" <?= ($week==$num)?'selected':'' ?>><?= $label ?></option>
+                    <?php endforeach; ?>
+                    </select>
+                </div>
+
+                <div class="col-md-3">
+                    <label class="form-label fw-bold">Jour</label>
+                    <select name="day" class="form-select" onchange="this.form.submit()">
+                    <?php foreach ($days as $d): ?>
+                        <option value="<?= $d ?>" <?= ($day==$d)?'selected':'' ?>><?= $d ?></option>
+                    <?php endforeach; ?>
+                    </select>
+                </div>
+
+            </div>
+        </form>
+
+        <!-- ====================== -->
+        <!--      FORMULAIRE        -->
+        <!-- ====================== -->
+
+        <form method="post" id="mainForm" action="/menu/save" class="mb-5">
+
+            <input type="hidden" name="id_menu" value="<?= $menu['id'] ?>">
+            <input type="hidden" name="annee" value="<?= $annee ?>">
+            <input type="hidden" name="saison" value="<?= $saison ?>">
+            <input type="hidden" name="week" value="<?= $week ?>">
+            <input type="hidden" name="day" value="<?= $day ?>">
+
+        <div class="row">
+            <div class="col-md-4">
+                <?php createMealSection('Breakfast', 'breakfast', $breakfastItems); ?>
+            </div>
+
+            <div class="col-md-4">
+                <?php createMealSection(
+                    'Lunch',
+                    'lunch',
+                    $lunchItems,
+                    'Dessert',
+                    'lunch_dessert',
+                    $lunchDessertItems
+                ); ?>
+            </div>
+
+            <div class="col-md-4">
+                <?php createMealSection(
+                    'Dinner',
+                    'dinner',
+                    $dinnerItems,
+                    'Dessert',
+                    'dinner_dessert',
+                    $dinnerDessertItems
+                ); ?>
+            </div>
+        </div>
+
+        </form>
     </div>
-
-    <!-- ====================== -->
-    <!--       FILTRES         -->
-    <!-- ====================== -->
-
-    <form method="get" action="/menu/edit" class="mb-4">
-        <input type="hidden" name="id" value="<?= $menu['id'] ?>">
-        <div class="row g-3 bg-white p-3 rounded shadow-sm">
-
-            <div class="col-md-3">
-                <label class="form-label fw-bold">Année</label>
-                <select name="annee" class="form-select" onchange="this.form.submit()">
-                <?php foreach ($years as $y): ?>
-                    <option value="<?= $y ?>" <?= ($annee==$y)?'selected':'' ?>><?= $y ?></option>
-                <?php endforeach; ?>
-                </select>
-            </div>
-
-            <div class="col-md-3">
-                <label class="form-label fw-bold">Saison</label>
-                <select name="saison" class="form-select" onchange="this.form.submit()">
-                <?php foreach ($seasons as $s): ?>
-                    <option value="<?= $s ?>" <?= ($saison==$s)?'selected':'' ?>><?= $s ?></option>
-                <?php endforeach; ?>
-                </select>
-            </div>
-
-            <div class="col-md-3">
-                <label class="form-label fw-bold">week</label>
-                <select name="week" class="form-select" onchange="this.form.submit()">
-                <?php foreach ($weeksMap as $num=>$label): ?>
-                    <option value="<?= $num ?>" <?= ($week==$num)?'selected':'' ?>><?= $label ?></option>
-                <?php endforeach; ?>
-                </select>
-            </div>
-
-            <div class="col-md-3">
-                <label class="form-label fw-bold">Jour</label>
-                <select name="day" class="form-select" onchange="this.form.submit()">
-                <?php foreach ($days as $d): ?>
-                    <option value="<?= $d ?>" <?= ($day==$d)?'selected':'' ?>><?= $d ?></option>
-                <?php endforeach; ?>
-                </select>
-            </div>
-
-        </div>
-    </form>
-
-    <!-- ====================== -->
-    <!--      FORMULAIRE        -->
-    <!-- ====================== -->
-
-    <form method="post" id="mainForm" action="/menu/save" class="mb-5">
-
-        <input type="hidden" name="id_menu" value="<?= $menu['id'] ?>">
-        <input type="hidden" name="annee" value="<?= $annee ?>">
-        <input type="hidden" name="saison" value="<?= $saison ?>">
-        <input type="hidden" name="week" value="<?= $week ?>">
-        <input type="hidden" name="day" value="<?= $day ?>">
-
-      <div class="row">
-        <div class="col-md-4">
-            <?php createMealSection('Breakfast', 'breakfast', $breakfastItems); ?>
-        </div>
-
-        <div class="col-md-4">
-            <?php createMealSection(
-                'Lunch',
-                'lunch',
-                $lunchItems,
-                'Dessert',
-                'lunch_dessert',
-                $lunchDessertItems
-            ); ?>
-        </div>
-
-        <div class="col-md-4">
-            <?php createMealSection(
-                'Dinner',
-                'dinner',
-                $dinnerItems,
-                'Dessert',
-                'dinner_dessert',
-                $dinnerDessertItems
-            ); ?>
-        </div>
     </div>
-
-    </form>
 </div>
 <!-- ====================== -->
 <!--   BARRE DE SAUVEGARDE  -->
 <!-- ====================== -->
 
 <div class="save-bar text-center">
-    <button type="submit" form="mainForm" class="btn btn-light btn-lg btn-modern text-info fw-bold">
+    <button type="submit" form="mainForm" class="btn btn-light btn-lg btn-modern text-info fw-bold ">
         <i class="bi bi-check-circle-fill"></i> Enregistrer
     </button>
 </div>
@@ -225,7 +223,7 @@ document.addEventListener("click", e => {
     div.innerHTML = `
       <input type="hidden" name="${table}[id][]" value="0">
       <input type="text" name="${table}[meal][]" class="form-control" placeholder="Nouveau meal...">
-      <button type="button" class="btn btn-danger remove-btn ms-2"><i class="bi bi-trash"></i></button>
+      <button type="button" class="btn btn-light remove-btn ms-2 text-warning"><i class="bi bi-trash">X</i></button>
     `;
     container.appendChild(div);
   }

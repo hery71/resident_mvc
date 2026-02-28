@@ -8,7 +8,7 @@
         div.className = 'input-group mb-2 ingredient-item new-ingredient';
         div.innerHTML = `
             <input type="text" name="ingredients[]" class="form-control" placeholder="Nouvel ingrédient">
-            <button type="button" class="btn btn-danger" onclick="this.parentNode.remove()">✕</button>
+            <button type="button" class="btn btn-light text-danger" onclick="this.parentNode.remove()">✕</button>
         `;
         const list = document.getElementById('ingredients-list');
         list.prepend(div);
@@ -51,8 +51,9 @@
 ?>
 <?php require __DIR__ . '/../../../layout/header.php'; ?>
 <div class="container center">
-    <h3>Editer Ingredients</h3>
-    <div class="card-body">
+    <div class="card-modern">
+        <div class="card-header-pastel"><?= $title ?></div>
+        <div class="card-body">
             <form method="POST" id="formIngredients" action="/ingredient/update">
                 <div class="d-flex flex-wrap justify-content-between align-items-center mb-3 gap-2">
                     <div class="d-flex flex-wrap align-items-center gap-2">
@@ -69,7 +70,7 @@
                     <?php foreach ($ingredients as $i => $ingredient): ?>
                         <div class="input-group mb-2 ingredient-item">
                             <input type="text" name="ingredients[]" value="<?= htmlspecialchars($ingredient) ?>" class="form-control">
-                            <button type="button" class="btn btn-danger" onclick="this.parentNode.remove()">✕</button>
+                            <button type="button" class="btn btn-light text-danger" onclick="this.parentNode.remove()">✕</button>
                         </div>
                     <?php endforeach; ?>
                 </div>
@@ -81,6 +82,8 @@
             </form>
         </div>
     </div>
+</div>
+</div>
 <!--------------------------FIN DIV PRINCIPALE-------------------------->
 </div>
 <?php require __DIR__ . '/../../../layout/footer.php'; ?>

@@ -8,7 +8,7 @@
         div.className = 'input-group mb-2 intoler-item new-input';
         div.innerHTML = `
             <input type="text" name="${category}[]" class="form-control" placeholder="Nouvel aliment / ingrédient">
-            <button type="button" class="btn btn-danger" onclick="this.parentNode.remove()">✕</button>
+            <button type="button" class="btn btn-light text-danger" onclick="this.parentNode.remove()">✕</button>
         `;
         const section = document.getElementById('section-' + category);
         section.prepend(div);
@@ -46,7 +46,9 @@
 ?>
 <?php require __DIR__ . '/../../layout/header.php'; ?>
 <div class="container center">
-    <h3> Editer intolérances</h3>
+    <div class="card-modern">
+    <div class="card-header-pastel"><?= $title ?></div>
+        <div class="card-body">
 
      <form method="POST" action="/intolerance/update">
         <?php foreach ($categories as $catName => $items): ?>
@@ -65,7 +67,7 @@
                     <?php foreach ($items as $i => $item): ?>
                         <div class="input-group mb-2 intoler-item">
                             <input type="text" name="<?= $catName ?>[]" value="<?= htmlspecialchars($item) ?>" class="form-control">
-                            <button type="button" class="btn btn-danger" onclick="this.parentNode.remove()">✕</button>
+                            <button type="button" class="btn btn-light text-danger" onclick="this.parentNode.remove()">✕</button>
                         </div>
                     <?php endforeach; ?>
                 </div>
@@ -77,6 +79,8 @@
             <button type="submit" class="btn btn-primary">💾 Enregistrer toutes les catégories</button>
         </div>
     </form>
+        </div>
+    </div>
 <!---------------------FIN DIV PRINCIPAL--------------------->
 </div>
 <?php require __DIR__ . '/../../layout/footer.php'; ?>
