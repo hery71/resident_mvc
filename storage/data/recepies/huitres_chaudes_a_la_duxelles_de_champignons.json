@@ -1,0 +1,172 @@
+{
+  "titre": "HUÎTRES CHAUDES À LA DUXELLES DE CHAMPIGNONS",
+  "type": "Huîtres chaudes",
+  "page": 768,
+  "denrees_pour_8_couverts": {
+    "Éléments de base": [
+      {
+        "nom": "huîtres creuses de pleine mer (Cancale) calibre 2 ou M3 minimum",
+        "unite": "pièce",
+        "quantite": "48"
+      },
+      {
+        "nom": "beurre",
+        "unite": "kg",
+        "quantite": "0,040"
+      },
+      {
+        "nom": "échalotes",
+        "unite": "kg",
+        "quantite": "0,040"
+      },
+      {
+        "nom": "vin blanc",
+        "unite": "l",
+        "quantite": "0,10"
+      },
+      {
+        "nom": "fumet de poisson",
+        "unite": "l",
+        "quantite": "PM"
+      }
+    ],
+    "Fumet de poisson": [
+      {
+        "nom": "beurre",
+        "unite": "kg",
+        "quantite": "0,040"
+      },
+      {
+        "nom": "oignons",
+        "unite": "kg",
+        "quantite": "0,080"
+      },
+      {
+        "nom": "échalotes (facultatif)",
+        "unite": "kg",
+        "quantite": "0,040"
+      },
+      {
+        "nom": "arêtes de poissons maigres",
+        "unite": "kg",
+        "quantite": "0,800"
+      },
+      {
+        "nom": "vin blanc",
+        "unite": "l",
+        "quantite": "0,10"
+      },
+      {
+        "nom": "parures de champignons",
+        "unite": "kg",
+        "quantite": "PM"
+      },
+      {
+        "nom": "bouquet garni",
+        "unite": "pièce",
+        "quantite": "1"
+      },
+      {
+        "nom": "poivre en grains",
+        "unite": "kg",
+        "quantite": "PM"
+      }
+    ],
+    "Duxelles": [
+      {
+        "nom": "beurre",
+        "unite": "kg",
+        "quantite": "0,040"
+      },
+      {
+        "nom": "échalotes",
+        "unite": "kg",
+        "quantite": "0,080"
+      },
+      {
+        "nom": "champignons de Paris",
+        "unite": "kg",
+        "quantite": "0,800"
+      },
+      {
+        "nom": "crème",
+        "unite": "l",
+        "quantite": "0,10"
+      },
+      {
+        "nom": "persil",
+        "unite": "kg",
+        "quantite": "0,020"
+      },
+      {
+        "nom": "citron (1/2 pièce)",
+        "unite": "kg",
+        "quantite": "0,050"
+      }
+    ],
+    "Sauce vin blanc à glacer": [
+      {
+        "nom": "fumet d’huîtres",
+        "unite": "l",
+        "quantite": "PM"
+      },
+      {
+        "nom": "crème",
+        "unite": "l",
+        "quantite": "0,20"
+      },
+      {
+        "nom": "beurre",
+        "unite": "kg",
+        "quantite": "0,050"
+      }
+    ],
+    "Sauce hollandaise": [
+      {
+        "nom": "œufs (jaunes)",
+        "unite": "pièce",
+        "quantite": "2"
+      },
+      {
+        "nom": "beurre",
+        "unite": "kg",
+        "quantite": "0,125"
+      },
+      {
+        "nom": "citron (1/2 pièce)",
+        "unite": "kg",
+        "quantite": "0,050"
+      },
+      {
+        "nom": "crème fleurette",
+        "unite": "l",
+        "quantite": "0,10"
+      }
+    ],
+    "Assaisonnement": [
+      {
+        "nom": "poivre du moulin",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "piment de Cayenne",
+        "quantite": "PM",
+        "unite": ""
+      }
+    ]
+  },
+  "technique_de_realisation": [
+    "1. Mettre en place le poste de travail - 5 min",
+    "2. Réaliser le fumet de poisson - 15 min (voir p. 266/268)",
+    "3. Réaliser la Duxelles de champignons - 20 min (voir p. 316)",
+    "4. Ouvrir les huîtres - 20 min (voir p. 181)",
+    "5. Réserver les coquilles inférieures (valves creuses du dessous) et les stériliser - 10 min",
+    "6. Confectionner la sauce hollandaise - 15 min (voir p. 306)",
+    "7. Pocher les huîtres - 5 min",
+    "8. Confectionner la sauce vin blanc à glacer - 15 min",
+    "9. Détendre la Duxelles - 5 min",
+    "10. Garnir et glacer les huîtres - 10 min",
+    "11. Dresser les huîtres chaudes - 5 min"
+  ]
+}

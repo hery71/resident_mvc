@@ -1,0 +1,126 @@
+{
+  "title": "Le fond brun de veau",
+  "category": "Fonds",
+  "type": "Technique de base",
+  "pages": [258, 259, 260],
+  "chapter_range": "FONDS 256-275",
+
+  "yield": "1 litre",
+
+  "notes_techniques": [
+    {
+      "id": 1,
+      "description": "La qualité savorique des fonds peut être améliorée en utilisant, en plus des os, des morceaux de viande de veau de 2ème et 3ème catégories.",
+      "impact": "Excellente qualité gustative mais coût de fabrication augmenté.",
+      "usage": "Destiné principalement aux sauces courtes conduites par déglaçage et réduction."
+    },
+    {
+      "id": 2,
+      "description": "Il est possible d’obtenir un fond plus sapide et plus corsé en remplaçant l’eau froide du mouillement par du fond blanc."
+    },
+    {
+      "id": 3,
+      "description": "Les fonds sans utilisation précise ne se salent pas.",
+      "assaisonnement": "Après réduction, au moment de la finition.",
+      "dosage_sel": "3 à 5 g par litre de mouillement"
+    }
+  ],
+
+  "ingredients": {
+    "base": [
+      {"name": "os de veau", "unite": "kg", "quantite": null},
+      {"name": "crosse de veau", "unite": "kg", "quantite": 1.000},
+      {"name": "jarret de veau", "unite": "kg", "quantite": null},
+      {"name": "pieds de veau", "unite": "kg", "quantite": null},
+      {"name": "parures maigres", "unite": "kg", "quantite": null}
+    ],
+    "facultativement": [
+      {
+        "name": "morceaux de veau de 2ème et 3ème catégories (collier, poitrine, tendrons, flanchet)",
+        "unite": "kg",
+        "quantite": "PM"
+      }
+    ],
+    "garniture_aromatique": [
+      {"name": "carottes", "unite": "kg", "quantite": 0.100},
+      {"name": "oignons", "unite": "kg", "quantite": 0.100},
+      {"name": "ail", "unite": "kg", "quantite": 0.010},
+      {"name": "tomates", "unite": "kg", "quantite": 0.200},
+      {"name": "concentré de tomates", "unite": "kg", "quantite": 0.020},
+      {"name": "bouquet garni", "unite": "piece", "quantite": 1}
+    ],
+    "mouillement": [
+      {"name": "eau ou fond blanc de veau", "unite": "litre", "quantite": 1.5}
+    ],
+    "assaisonnement": [
+      {"name": "gros sel", "unite": "kg", "quantite": "PM"}
+    ]
+  },
+
+  "preparation_steps": [
+    {
+      "step": 1,
+      "title": "Mise en place",
+      "actions": [
+        "Réunir les denrées.",
+        "Réunir le matériel de préparation et de cuisson.",
+        "Contrôler la fraîcheur et la qualité des produits."
+      ]
+    },
+    {
+      "step": 2,
+      "title": "Concasser les ingrédients de base",
+      "actions": [
+        "Concasser les os et éléments de base en menus morceaux."
+      ]
+    },
+    {
+      "step": 3,
+      "title": "Coloration au four",
+      "actions": [
+        "Colorer les os au four dans une plaque à rôtir adaptée.",
+        "Ne pas ajouter de matière grasse.",
+        "Retourner fréquemment les os durant la coloration."
+      ],
+      "precautions": [
+        "Plaque trop grande : les sucs brûlent et donnent de l’amertume.",
+        "Plaque trop petite : coloration uniforme difficile."
+      ]
+    },
+    {
+      "step": 4,
+      "title": "Préparer la garniture aromatique",
+      "actions": [
+        "Éplucher et laver les légumes.",
+        "Tailler carottes et oignons en mirepoix.",
+        "Écraser les gousses d’ail dégermées.",
+        "Concasser les tomates sans les monder.",
+        "Confectionner le bouquet garni."
+      ]
+    }
+  ],
+
+  "timing": {
+    "duree_moyenne_realisation": "30 min",
+    "duree_moyenne_cuisson": "3 à 4 h"
+  },
+
+  "technical_keywords": [
+    "fond brun",
+    "veau",
+    "mirepoix",
+    "coloration des os",
+    "déglaçage",
+    "réduction",
+    "mouillement"
+  ],
+
+  "storage_recommendations": {
+    "cooling": "Refroidir rapidement.",
+    "storage_temp": "+3°C maximum",
+    "coverage": "Maintenir couvert en enceinte réfrigérée."
+  },
+
+  "image": null,
+  "version": "1.1"
+}

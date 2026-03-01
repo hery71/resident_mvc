@@ -1,0 +1,151 @@
+{
+    "fiche": 7,
+    "titre": "Gaspacho andalou",
+    "type": "potage froid",
+    "page": 625,
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "tomates mûres à point",
+                "quantite": "1",
+                "unite": "kg"
+            },
+            {
+                "nom": "concombre (2/3 d’une pièce)",
+                "quantite": "0,260",
+                "unite": "kg"
+            },
+            {
+                "nom": "poivron rouge (1 petit)",
+                "quantite": "0,160",
+                "unite": "kg"
+            },
+            {
+                "nom": "oignon doux d’Espagne",
+                "quantite": "0,080",
+                "unite": "kg"
+            },
+            {
+                "nom": "ail (1 gousse)",
+                "quantite": "0,010",
+                "unite": "kg"
+            },
+            {
+                "nom": "pain de mie",
+                "quantite": "0,080",
+                "unite": "kg"
+            },
+            {
+                "nom": "menthe ou cerfeuil ou basilic",
+                "quantite": "1/4",
+                "unite": "botte"
+            },
+            {
+                "nom": "concentré de tomate (facultatif)",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "vinaigre de Xérès",
+                "quantite": "0,02",
+                "unite": "l"
+            },
+            {
+                "nom": "huile d’olive",
+                "quantite": "0,08",
+                "unite": "l"
+            },
+            {
+                "nom": "eau glacée",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ],
+        "garniture": [
+            {
+                "nom": "concombre (1/3 restant)",
+                "quantite": "0,160",
+                "unite": "kg"
+            },
+            {
+                "nom": "poivron rouge",
+                "quantite": "0,160",
+                "unite": "kg"
+            },
+            {
+                "nom": "céleri en branches",
+                "quantite": "0,080",
+                "unite": "kg"
+            },
+            {
+                "nom": "olives vertes ou noires",
+                "quantite": "0,080",
+                "unite": "kg"
+            },
+            {
+                "nom": "œufs durs (facultatif)",
+                "quantite": "2",
+                "unite": "pièces"
+            },
+            {
+                "nom": "pain de mie",
+                "quantite": "0,160",
+                "unite": "kg"
+            },
+            {
+                "nom": "huile d’arachide",
+                "quantite": "0,04",
+                "unite": "l"
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel",
+                "quantite": "PM"
+            },
+            {
+                "nom": "poivre du moulin",
+                "quantite": "PM"
+            }
+        ]
+    },
+    "duree_preparation": "1 h 15 min",
+    "technique": [
+        "1. Mettre en place le poste de travail – 5 min",
+        "Denrées, matériels de préparation et de dressage.",
+        "2. Éplucher et laver tous les légumes – 15 min",
+        "Éplucher, laver et dégermer la gousse d’ail.",
+        "Éplucher, laver et épépiner le poivron.",
+        "Éplucher et laver l’oignon.",
+        "Éplucher, laver et évider partiellement le concombre. Réserver les 2/3 pour la soupe, le 1/3 restant pour la garniture.",
+        "3. Monder, épépiner et concasser les tomates – 10 min",
+        "Tailler tous les légumes du gaspacho – 10 min",
+        "Émincer les 2/3 du concombre et le mettre à dégorger avec un peu de sel fin.",
+        "Émincer l’oignon et le poivron puis écraser la gousse d’ail.",
+        "Concasser les herbes.",
+        "4. Mariner les éléments de base du gaspacho – 5 min",
+        "Réunir le concombre égoutté, les tomates, les oignons, le poivron, la gousse d’ail écrasée et les herbes dans une grande calotte en acier inoxydable.",
+        "Assaisonner puis ajouter le vinaigre de Xérès et le 1/3 de l’huile d’olive.",
+        "Filmer et réserver au froid pendant 3 à 4 h durant quelques heures.",
+        "5. Préparer la garniture – 20 min",
+        "Détailler les œufs, les rafraîchir, les écaler puis hacher séparément les blancs et les jaunes.",
+        "Tailler en petits dés réguliers de 3 mm de section le poivron rouge, le céleri en branches et le concombre restant.",
+        "Saupoudrer les dés de concombre de sel fin et les laisser dégorger durant une dizaine de minutes puis les égoutter.",
+        "Ciseler finement le persil ou la menthe.",
+        "Concasser régulièrement les olives.",
+        "Tailler le pain de mie en petits dés de 3 mm de section.",
+        "Les sauter à l’huile puis les égoutter sur du papier absorbant.",
+        "6. Terminer le potage à la commande – 5 min",
+        "Dans la cuve du mixeur placer la mie de pain et verser tous les légumes marinés. Mixer durant quelques minutes.",
+        "Ajouter si nécessaire un peu de concentré de tomate et un peu d’eau glacée jusqu’à l’obtention de la consistance souhaitée.",
+        "Monter avec le reste de l’huile d’olive ou l’ajouter en dernier à l’aide d’un petit filet.",
+        "Vérifier et rectifier l’assaisonnement.",
+        "Passer au chinois étamine.",
+        "7. Dresser les garnitures – 3 min",
+        "Les dresser séparément dans des petits raviers.",
+        "Les présenter sur un plateau recouvert d’un papier gaufré.",
+        "8. Dresser le gaspacho – 2 min",
+        "Le dresser en cassolettes individuelles.",
+        "Saupoudrer sans excès de ciboulette ou de double cisèle."
+    ]
+}

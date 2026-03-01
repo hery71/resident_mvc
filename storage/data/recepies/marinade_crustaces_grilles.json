@@ -1,0 +1,19 @@
+{
+    "titre": "Marinade Crustacés grillés",
+    "type": "marinade",
+    "base": "Crustacés grillés",
+    "type_de_viande": "queues de langoustines, gambas, scampis",
+    "ingredients": [
+        "huile",
+        "tranches de citron pelées à vif",
+        "thym pulvérisés",
+        "laurier pulvérisés",
+        "herbes fraîches hachées"
+    ],
+    "technique": [
+        "Ranger les éléments dans une plaque en acier inoxydable de grandeur appropriée.",
+        "Arroser légèrement d’huile et de jus de citron si nécessaire.",
+        "Ajouter la garniture aromatique, les aromates ou les condiments.",
+        "Laisser mariner selon la nature et la taille des pièces."
+    ]
+}

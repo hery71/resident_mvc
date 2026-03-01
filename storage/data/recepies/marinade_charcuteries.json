@@ -1,0 +1,20 @@
+{
+    "titre": "Marinade Charcuteries",
+    "type": "marinade",
+    "base": "Charcuteries",
+    "type_de_viande": "farces pour terrines, pâtés, galantines, ballotines",
+    "ingredients": [
+        "Cognac",
+        "Madère",
+        "Porto",
+        "jus de truffe",
+        "sel épicé ou nitrité",
+        "quatre épices"
+    ],
+    "technique": [
+        "Ranger les éléments dans une plaque en acier inoxydable de grandeur appropriée.",
+        "Arroser légèrement d’huile et de jus de citron si nécessaire.",
+        "Ajouter la garniture aromatique, les aromates ou les condiments.",
+        "Laisser mariner selon la nature et la taille des pièces."
+    ]
+}

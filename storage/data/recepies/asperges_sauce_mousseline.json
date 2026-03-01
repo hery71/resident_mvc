@@ -1,0 +1,100 @@
+{
+  "page": "658",
+  "titre": "ASPERGES SAUCE MOUSSELINE",
+  "type": "Hors-d’œuvre tièdes à base de légumes cuits",
+  "denrees_pour_8_couverts": {
+    "elements_de_base": [
+      {
+        "nom": "asperges blanches (0,400 kg par personne)",
+        "unite": "kg",
+        "quantite": "3,200"
+      }
+    ],
+    "sauce_mousseline": [
+      {
+        "nom": "œufs (jaunes)",
+        "unite": "pièce",
+        "quantite": "4"
+      },
+      {
+        "nom": "beurre",
+        "unite": "kg",
+        "quantite": "0,250"
+      },
+      {
+        "nom": "citron",
+        "unite": "pièce",
+        "quantite": "1/2"
+      },
+      {
+        "nom": "crème liquide",
+        "unite": "l",
+        "quantite": "0,05"
+      }
+    ],
+    "decor": [
+      {
+        "nom": "persil",
+        "unite": "kg",
+        "quantite": "0,020"
+      },
+      {
+        "nom": "tomates «garniture»",
+        "unite": "pièce",
+        "quantite": "2"
+      }
+    ],
+    "assaisonnement": [
+      {
+        "nom": "gros sel",
+        "quantite": "PM"
+      },
+      {
+        "nom": "sel fin",
+        "quantite": "PM"
+      },
+      {
+        "nom": "piment de Cayenne",
+        "quantite": "PM"
+      }
+    ]
+  },
+  "technique": [
+    "1. Mettre en place le poste de travail - 5 min",
+    "• Denrées, matériels de préparation, de cuisson et de dressage.",
+    "2. Clarifier le beurre - 2 min",
+    "3. Éplucher les asperges - 30 min (voir p. 45)",
+    "• Maintenir les asperges bien à plat sur un plan de travail.",
+    "• Éplucher à l’aide d’un couteau économe en partant du talon et en tirant vers la pointe.",
+    "• Raccourcir les bases.",
+    "• Laver délicatement et égoutter.",
+    "• Regrouper les asperges par grosseur (dans le cas d’asperges non calibrées).",
+    "• Bottez et ficeler soigneusement. Chaque botte doit comporter 8 à 10 asperges.",
+    "• Égaliser les tiges.",
+    "4. Marquer les asperges en cuisson - 3 min",
+    "• Cuire les asperges à l’anglaise dans une grande quantité d’eau bouillante et salée, à raison de 0,010 kg de gros sel par litre d’eau.",
+    "• Maintenir la cuisson pendant 15 à 20 min suivant la grosseur des asperges.",
+    "5. Confectionner la sauce hollandaise - 10 min (voir p. 308)",
+    "• Clarifier les œufs.",
+    "• Mettre les jaunes d’œufs dans une petite sauteuse.",
+    "• Ajouter 0,02 l d’eau froide.",
+    "• Porter l’ensemble sur un feu doux en fouettant énergiquement jusqu’à ce qu’une température atteigne 50 à 55 °C (les œufs doivent avoir une consistance mousseuse et chaque coup de fouet doit laisser apercevoir le fond de la sauteuse).",
+    "• Retirer le récipient du feu et ajouter le sel et le piment de Cayenne.",
+    "• Incorporer progressivement le beurre clarifié et décanté.",
+    "• Passer la sauce au chinois étamine dans un petit bain-marie en inox.",
+    "• Vérifier l’assaisonnement.",
+    "• Conserver hors du récipient, couvrir et réserver la sauce dans un endroit tiède (40 à 45 °C).",
+    "6. Préparer le persil en branches - 5 min",
+    "7. Terminer la sauce mousseline - 5 min",
+    "• Ajouter à la sauce hollandaise avec le jus d’un demi-citron.",
+    "• Fouetter la crème et l’incorporer délicatement à la sauce.",
+    "8. Dresser les asperges - 5 min",
+    "• Égoutter délicatement les asperges.",
+    "• Enlever la ficelle.",
+    "• Ranger harmonieusement les asperges sur le plat recouvert d’une serviette en protégeant les pointes.",
+    "• Disposer les éléments de décoration (persil en branches, rose en tomate, éventuellement).",
+    "• Dresser la sauce à part en saucière."
+  ],
+  "duree_moyenne_de_preparation": "1 h 05 min",
+  "duree_moyenne_de_cuisson": "15 à 20 min"
+}

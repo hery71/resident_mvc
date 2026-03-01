@@ -1,0 +1,154 @@
+{
+    "titre": "Spaghetti napolitaine",
+    "type": "Hors-d'œuvre chauds à base de pâtes industrielles",
+    "description": "Spaghetti industriels assaisonnés au beurre, servis avec une garniture de sauce tomate napolitaine, tomates concassées et fromage râpé (gruyère ou parmesan).",
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "spaghetti (pâtes industrielles)",
+                "quantite": "0,640",
+                "unite": "kg"
+            },
+            {
+                "nom": "beurre (par personne 0,010 kg)",
+                "quantite": "0,080",
+                "unite": "kg"
+            }
+        ],
+        "sauce_tomate_napolitaine": [
+            {
+                "nom": "huile d'olive ou beurre",
+                "quantite": "0,050",
+                "unite": "kg"
+            },
+            {
+                "nom": "oignons",
+                "quantite": "0,080",
+                "unite": "kg"
+            },
+            {
+                "nom": "carottes",
+                "quantite": "0,080",
+                "unite": "kg"
+            },
+            {
+                "nom": "farine (pour singer)",
+                "quantite": "0,040",
+                "unite": "kg"
+            },
+            {
+                "nom": "fond de veau ou bouillon",
+                "quantite": "1",
+                "unite": "l"
+            },
+            {
+                "nom": "bouquet garni",
+                "quantite": "1",
+                "unite": "pièce"
+            },
+            {
+                "nom": "tomates (ou concentré de tomate)",
+                "quantite": "0,800",
+                "unite": "kg"
+            },
+            {
+                "nom": "ail (gousses)",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ],
+        "fondue_de_tomates": [
+            {
+                "nom": "tomates (concassées)",
+                "quantite": "0,400",
+                "unite": "kg"
+            },
+            {
+                "nom": "échalotes",
+                "quantite": "0,040",
+                "unite": "kg"
+            },
+            {
+                "nom": "ail (gousses)",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "bouquet garni",
+                "quantite": "1",
+                "unite": "pièce"
+            }
+        ],
+        "finition": [
+            {
+                "nom": "gruyère ou parmesan râpé",
+                "quantite": "0,160",
+                "unite": "kg"
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel fin",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "poivre du moulin",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "noix de muscade",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "sucre (facultatif pour corriger l'acidité)",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ]
+    },
+    "duree_moyenne_preparation": "1 h",
+    "duree_moyenne_cuisson": "8 à 10 min (spaghetti) + 25 à 30 min (sauces)",
+    "technique": [
+        "1. Mettre en place le poste de travail – 5 min",
+        "Denrées, matériels de préparation, de cuisson et de dressage.",
+        "2. Préparer les légumes – 5 min",
+        "Éplucher, laver et émincer les oignons, carottes, échalotes et ail.",
+        "Laver, équeuter et concasser les tomates (ou préparer le concentré).",
+        "Laver et hacher le persil (si utilisé).",
+        "3. Marquer la sauce tomate napolitaine en cuisson – 25 min",
+        "Faire suer les oignons, carottes et ail dans l'huile ou beurre sans coloration.",
+        "Singer avec la farine, cuire 1 min.",
+        "Mouiller avec le fond de veau ou bouillon, ajouter le bouquet garni.",
+        "Ajouter les tomates concassées ou concentré, assaisonner sel, poivre, sucre si besoin.",
+        "Cuire à couvert à petit frémissement 20 à 30 min, passer au chinois ou mixer finement, rectifier assaisonnement.",
+        "Tamponner au beurre, réserver au chaud.",
+        "4. Préparer la fondue de tomates – 15 min",
+        "Faire suer échalotes et ail dans un peu d'huile ou beurre.",
+        "Ajouter les tomates concassées, bouquet garni, assaisonner.",
+        "Cuire à découvert jusqu'à évaporation complète de l'eau (15 min environ).",
+        "Réserver au chaud.",
+        "5. Préparer le fromage râpé – 5 min",
+        "Râper le gruyère ou parmesan, tamiser si nécessaire.",
+        "Réserver.",
+        "6. Cuire les spaghetti – 6 à 10 min",
+        "Porter une grande quantité d'eau salée à ébullition (10 g sel/litre).",
+        "Plonger les spaghetti, cuire 8 à 10 min selon marque (al dente).",
+        "Égoutter rapidement, ne pas rincer.",
+        "Lier immédiatement au beurre dans un sautoir chaud.",
+        "Vérifier l'assaisonnement.",
+        "7. Dresser les spaghetti – 4 min",
+        "Dresser les spaghetti en dôme ou en nid au centre des assiettes chaudes.",
+        "Napper harmonieusement de sauce tomate napolitaine chaude.",
+        "Disposer une cuillerée de fondue de tomates au centre ou autour.",
+        "Saupoudrer généreusement de fromage râpé.",
+        "Servir très chaud, avec le reste de sauce et fromage en saucière et ravier à part."
+    ],
+    "remarques": [
+        "Pour les pâtes industrielles, respecter le temps de cuisson indiqué sur l'emballage pour un résultat al dente.",
+        "Variante classique napolitaine : ajouter du basilic frais haché en fin de cuisson de la sauce.",
+        "Servir avec parmesan fraîchement râpé à table pour plus de saveur."
+    ]
+}

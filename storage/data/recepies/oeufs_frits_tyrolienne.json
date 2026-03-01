@@ -1,0 +1,93 @@
+{
+    "titre": "Œufs frits tyrolienne",
+    "type": "Hors-d'œuvre chauds à base d'œufs",
+    "description": "Œufs frits à l'huile, servis sur un lit de sauce tomate, accompagnés de tomates et oignons frits, persil frit et éventuellement lardons ou bacon grillé. Présentation colorée avec garniture croustillante.",
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "œufs extra-frais",
+                "quantite": "16",
+                "unite": "pièces"
+            }
+        ],
+        "garniture_tyrolienne": [
+            {
+                "nom": "tomates (fermes, moyennes)",
+                "quantite": "0,800",
+                "unite": "kg"
+            },
+            {
+                "nom": "oignons",
+                "quantite": "0,200",
+                "unite": "kg"
+            },
+            {
+                "nom": "persil en branches (pour friture)",
+                "quantite": "0,050",
+                "unite": "kg"
+            }
+        ],
+        "sauce_tomate": [
+            {
+                "nom": "sauce tomate (base classique ou napolitaine)",
+                "quantite": "0,500",
+                "unite": "l"
+            }
+        ],
+        "friture": [
+            {
+                "nom": "huile (pour friture des œufs, tomates, oignons, persil)",
+                "quantite": "0,500",
+                "unite": "l"
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel fin",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "poivre du moulin",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ]
+    },
+    "duree_moyenne_preparation": "45 min",
+    "duree_moyenne_cuisson": "20 à 40 sec (œufs) + 5 à 10 min (garniture)",
+    "technique": [
+        "1. Mettre en place le poste de travail – 5 min",
+        "Denrées, matériels de préparation, de cuisson et de dressage.",
+        "2. Préparer la garniture – 15 min",
+        "Laver les tomates, éliminer le pédoncule, les couper en rondelles épaisses (environ 1 cm).",
+        "Éplucher et tailler les oignons en rondelles fines ou anneaux.",
+        "Laver, équeuter et sécher soigneusement le persil en branches.",
+        "3. Cuire la sauce tomate – 10 min",
+        "Réchauffer la sauce tomate, rectifier assaisonnement si besoin.",
+        "Réserver au chaud.",
+        "4. Cuire les garnitures – 10 min",
+        "Griller les rondelles de tomates et oignons à la poêle ou au four avec un filet d'huile, quelques minutes par face jusqu'à légère coloration.",
+        "Égoutter sur papier absorbant.",
+        "Frire le persil quelques secondes dans l'huile chaude (attention aux projections), égoutter sur papier absorbant.",
+        "Réserver au chaud.",
+        "5. Frire les œufs – 15 min",
+        "Chauffer l'huile dans une poêle profonde ou friteuse à 170–180 °C.",
+        "Casser les œufs un par un, frire 20 à 40 sec selon degré souhaité (jaune coulant ou semi-cuit).",
+        "Égoutter sur papier absorbant, saler légèrement.",
+        "Répéter par lots si nécessaire.",
+        "6. Dresser les œufs frits tyrolienne – 5 min",
+        "Disposer un cordon ou une cuillerée de sauce tomate chaude au centre de chaque assiette chaude.",
+        "Poser 2 œufs frits par assiette sur la sauce.",
+        "Ranger harmonieusement autour les rondelles de tomates et oignons frits.",
+        "Décorer avec le persil frit en bouquet au centre.",
+        "Servir immédiatement très chaud."
+    ],
+    "remarques": [
+        "En restauration, servir deux œufs par personne ; ajuster selon portion.",
+        "La friture doit être très chaude pour une bordure croustillante et un jaune coulant.",
+        "Attention aux projections lors de la friture du persil : utiliser une passoire ou couvercle.",
+        "Variante tyrolienne classique : ajouter des lardons ou pancetta grillés dans la garniture.",
+        "Ne pas surcuire les œufs : le jaune doit rester coulant pour saucer la sauce tomate."
+    ]
+}

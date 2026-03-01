@@ -1,0 +1,118 @@
+{
+  "titre": "ÉCREVISSES À LA NAGE",
+  "type": "Crustacés pochés",
+  "page": 770,
+  "denrees_pour_8_couverts": {
+    "Éléments de base": [
+      {
+        "nom": "écrevisses rouges vivantes (48 x 0,060 kg environ)",
+        "unite": "kg",
+        "quantite": "2,400 à 3"
+      }
+    ],
+    "Nage": [
+      {
+        "nom": "eau",
+        "unite": "l",
+        "quantite": "2"
+      },
+      {
+        "nom": "vin blanc",
+        "unite": "l",
+        "quantite": "1"
+      },
+      {
+        "nom": "fumet de poisson (1)",
+        "unite": "l",
+        "quantite": "1"
+      },
+      {
+        "nom": "carottes",
+        "unite": "kg",
+        "quantite": "0,500"
+      },
+      {
+        "nom": "oignons",
+        "unite": "kg",
+        "quantite": "0,500"
+      },
+      {
+        "nom": "bouquet garni",
+        "unite": "pièce",
+        "quantite": "1"
+      },
+      {
+        "nom": "gros sel",
+        "unite": "kg",
+        "quantite": "PM"
+      },
+      {
+        "nom": "poivre en grains",
+        "unite": "kg",
+        "quantite": "PM"
+      }
+    ],
+    "Beurre de nage": [
+      {
+        "nom": "nage",
+        "unite": "l",
+        "quantite": "1"
+      },
+      {
+        "nom": "beurre extra-fin",
+        "unite": "kg",
+        "quantite": "0,200"
+      }
+    ],
+    "Finition": [
+      {
+        "nom": "persil",
+        "unite": "kg",
+        "quantite": "0,040"
+      }
+    ],
+    "Assaisonnement": [
+      {
+        "nom": "sel fin",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "poivre du moulin",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "piment de Cayenne",
+        "quantite": "PM",
+        "unite": ""
+      }
+    ]
+  },
+  "technique_de_realisation": [
+    "1. Mettre en place le poste de travail - 5 min",
+    "Denrées, matériels de préparation, de cuisson et de dressage.",
+    "2. Préparer les éléments de la nage - 15 min",
+    "Court-bouillon dont la garniture aromatique est soigneusement émincée et servie aux clients : rondelles de carottes cannelées, brunoise d’oignons. (voir p. 338).",
+    "3. Marquer la nage en cuisson - 5 min",
+    "Dans une grande russe, réunir les carottes cannelées, le vin blanc, le fumet de poisson et le bouquet garni.",
+    "Saler à raison de 0,010 kg de gros sel par litre de nage.",
+    "Laisser cuire à faible ébullition durant 15 min environ. Éliminer si nécessaire et ajouter les oignons.",
+    "Laisser cuire à nouveau durant quelques minutes.",
+    "Ajouter quelques grains de poivre et laisser infuser.",
+    "4. Préparer les écrevisses - 25 min",
+    "Les faire jeûner durant 2 jours environ dans de l’eau courante très oxygénée, les laver soigneusement, les «châtrer» (extraire le petit boyau noir en arrachant délicatement et en tournant d’un quart de tour l’écaille centrale de la nageoire caudale – le telson) (voir p. 177).",
+    "5. Marquer les écrevisses en cuisson - 5 min",
+    "Les plonger immédiatement châtrées dans la nage en ébullition.",
+    "Laisser pocher les écrevisses 4 à 6 min selon la grosseur.",
+    "6. Réaliser le beurre de nage - 10 min",
+    "Filtrer 0,80 l de nage et la réduire des 4/5èmes.",
+    "Monter la réduction avec le beurre découpé en parcelles.",
+    "Vérifier l’assaisonnement.",
+    "7. Dresser les écrevisses - 5 min",
+    "Répartir équitablement les écrevisses en timbales ou sur assiettes.",
+    "Placer soigneusement les rondelles de carottes et les brunoises d’oignons.",
+    "Napper avec le beurre de nage.",
+    "Disposer harmonieusement quelques branches de persil blanchies dans la nage."
+  ]
+}

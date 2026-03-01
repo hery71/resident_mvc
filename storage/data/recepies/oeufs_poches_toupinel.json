@@ -1,0 +1,168 @@
+{
+    "titre": "Œufs pochés Toupinel",
+    "type": "Hors-d'œuvre chauds à base d'œufs pochés",
+    "description": "Œufs pochés dressés dans une coque de pomme de terre creusée, garnie d'une purée de pommes de terre à la crème et d'épinards sautés, nappés de sauce Mornay, saupoudrés de gruyère râpé et gratinés au four.",
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "grosses pommes de terre (à chair farineuse)",
+                "quantite": "1,600",
+                "unite": "kg"
+            },
+            {
+                "nom": "œufs extra-frais",
+                "quantite": "8",
+                "unite": "pièces"
+            }
+        ],
+        "puree_de_pommes_de_terre": [
+            {
+                "nom": "beurre",
+                "quantite": "0,035",
+                "unite": "kg"
+            },
+            {
+                "nom": "crème liquide",
+                "quantite": "0,200",
+                "unite": "l"
+            },
+            {
+                "nom": "lait (facultatif pour fluidité)",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ],
+        "epinards_sautes": [
+            {
+                "nom": "épinards nouveaux (ou frais)",
+                "quantite": "0,800",
+                "unite": "kg"
+            },
+            {
+                "nom": "beurre noisette",
+                "quantite": "0,020",
+                "unite": "kg"
+            }
+        ],
+        "sauce_mornay": [
+            {
+                "nom": "beurre",
+                "quantite": "0,035",
+                "unite": "kg"
+            },
+            {
+                "nom": "farine",
+                "quantite": "0,035",
+                "unite": "kg"
+            },
+            {
+                "nom": "lait",
+                "quantite": "0,500",
+                "unite": "l"
+            },
+            {
+                "nom": "œufs (jaunes)",
+                "quantite": "2",
+                "unite": "pièces"
+            },
+            {
+                "nom": "gruyère râpé et tamisé",
+                "quantite": "0,040",
+                "unite": "kg"
+            }
+        ],
+        "beurre_pour_tamponner_et_plat": [
+            {
+                "nom": "beurre (tamponnage sauce)",
+                "quantite": "0,020",
+                "unite": "kg"
+            }
+        ],
+        "finition_et_gratin": [
+            {
+                "nom": "gruyère râpé (pour gratiner)",
+                "quantite": "0,040",
+                "unite": "kg"
+            }
+        ],
+        "decoration": [
+            {
+                "nom": "persil haché ou pluches",
+                "quantite": "0,020",
+                "unite": "kg"
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel fin",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "poivre du moulin",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "piment de Cayenne",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "noix de muscade",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ]
+    },
+    "duree_moyenne_preparation": "1 h 35 min",
+    "duree_moyenne_cuisson": "2 min 30 à 3 min (pochage œufs) + gratinage",
+    "technique": [
+        "1. Mettre en place le poste de travail – 5 min",
+        "Denrées, matériels de préparation, de cuisson et de dressage.",
+        "2. Confectionner les coques de pommes de terre – 15 min",
+        "Sélectionner 8 grosses pommes de terre régulières (environ 200 g chacune).",
+        "Cuire au four à 220 °C pendant 50 à 60 min (ou à la vapeur puis finir au four) jusqu'à ce qu'elles soient bien tendres.",
+        "Couper un chapeau, creuser soigneusement pour obtenir une coque d'environ 1 cm d'épaisseur.",
+        "Réserver la chair pour la purée, garder les coques au chaud.",
+        "3. Confectionner la purée de pommes de terre – 15 min",
+        "Passer la chair des pommes de terre au presse-purée ou au moulin à légumes.",
+        "Incorporer beurre en pommade, crème chaude, assaisonner sel, poivre, muscade.",
+        "Travailler énergiquement pour obtenir une purée onctueuse et homogène.",
+        "Réserver au chaud.",
+        "4. Préparer les épinards – 15 min",
+        "Trier, laver et égoutter les épinards frais.",
+        "Blanchir 1 min dans eau bouillante salée, rafraîchir, presser fortement.",
+        "Sauter rapidement au beurre noisette, assaisonner sel, poivre, muscade.",
+        "Réserver au chaud.",
+        "5. Confectionner la sauce Mornay – 15 min",
+        "Confectionner un roux blanc avec beurre et farine.",
+        "Mouiller avec lait bouillant, cuire 5–8 min en fouettant.",
+        "Hors du feu, incorporer jaunes d'œufs, puis gruyère râpé.",
+        "Assaisonner sel, poivre, piment de Cayenne, muscade.",
+        "Tamponner au beurre, réserver au bain-marie.",
+        "6. Pocher les œufs – 10 min",
+        "Porter eau vinaigrée à frémissement doux.",
+        "Casser les œufs un par un, pocher 2 min 30 à 3 min (jaune coulant).",
+        "Rafraîchir dans eau glacée, égoutter, parer les bords.",
+        "Réserver au chaud dans eau tiède salée.",
+        "7. Monter les œufs Toupinel – 10 min",
+        "Disposer une couche de purée de pommes de terre au fond de chaque coque.",
+        "Ajouter une couche d'épinards sautés.",
+        "Poser délicatement un œuf poché au centre.",
+        "Napper généreusement de sauce Mornay chaude.",
+        "Saupoudrer de gruyère râpé.",
+        "8. Gratiner les œufs – 5 à 10 min",
+        "Passer au four chaud (220 °C) ou sous salamandre 5 à 10 min jusqu'à belle coloration dorée.",
+        "9. Dresser les œufs Toupinel – 2 min",
+        "Dresser chaque coque sur assiette chaude ou plat ovale.",
+        "Décorer avec persil haché ou pluches.",
+        "Servir immédiatement très chaud."
+    ],
+    "remarques": [
+        "Les œufs pochés doivent être cuits à la commande pour conserver le jaune coulant.",
+        "Utiliser des pommes de terre à chair farineuse (Bintje, Agata) pour une coque solide et une purée onctueuse.",
+        "Variante : ajouter une pointe de muscade ou de fromage supplémentaire dans la purée.",
+        "Pour une présentation plus élégante, servir avec un cordon de sauce tomate ou une réduction de porto autour."
+    ]
+}

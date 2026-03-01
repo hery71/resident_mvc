@@ -1,0 +1,186 @@
+{
+  "page": "642",
+  "titre": "SOUPE DE POISSONS ACCOMPAGNÉE D’UNE SAUCE ROUILLE OU D’AÏOLI",
+  "type": "Soupes de poissons",
+  "denrees_pour_8_couverts": {
+    "elements_de_base": [
+      {
+        "nom": "poissons de roche mélangés ou grondin, rascasse, vive, St-Pierre, merlan, congre",
+        "unite": "kg",
+        "quantite": "1,600"
+      },
+      {
+        "nom": "huile d’olive",
+        "unite": "kg",
+        "quantite": "0,08"
+      },
+      {
+        "nom": "fumet de poisson",
+        "unite": "l",
+        "quantite": "1,600"
+      },
+      {
+        "nom": "huile d’olive",
+        "unite": "kg",
+        "quantite": "0,05"
+      },
+      {
+        "nom": "carottes",
+        "unite": "kg",
+        "quantite": "0,100"
+      },
+      {
+        "nom": "oignons",
+        "unite": "kg",
+        "quantite": "0,200"
+      },
+      {
+        "nom": "échalotes",
+        "unite": "kg",
+        "quantite": "0,100"
+      },
+      {
+        "nom": "têtes et arêtes des poissons",
+        "unite": "kg",
+        "quantite": "1"
+      },
+      {
+        "nom": "bouquet garni",
+        "unite": "pièce",
+        "quantite": "1"
+      }
+    ],
+    "garniture_aromatique": [
+      {
+        "nom": "oignons",
+        "unite": "kg",
+        "quantite": "0,300"
+      },
+      {
+        "nom": "poireaux",
+        "unite": "kg",
+        "quantite": "0,160"
+      },
+      {
+        "nom": "céleri en branches",
+        "unite": "kg",
+        "quantite": "0,080"
+      },
+      {
+        "nom": "fenouil bulbeux",
+        "unite": "kg",
+        "quantite": "0,080"
+      },
+      {
+        "nom": "tomates",
+        "unite": "kg",
+        "quantite": "0,400"
+      },
+      {
+        "nom": "concentré de tomate",
+        "unite": "kg",
+        "quantite": "0,040"
+      },
+      {
+        "nom": "bouquet garni",
+        "unite": "pièce",
+        "quantite": "1"
+      },
+      {
+        "nom": "ail",
+        "unite": "gousse",
+        "quantite": "8"
+      },
+      {
+        "nom": "safran",
+        "unite": "kg",
+        "quantite": "0,002"
+      },
+      {
+        "nom": "badiane",
+        "unite": "kg",
+        "quantite": "0,002"
+      }
+    ],
+    "garniture": [
+      {
+        "nom": "baguette ou ficelle",
+        "unite": "kg",
+        "quantite": "0,160"
+      },
+      {
+        "nom": "gruyère",
+        "unite": "kg",
+        "quantite": "0,160"
+      },
+      {
+        "nom": "huile d’olive",
+        "unite": "l",
+        "quantite": "0,04"
+      },
+      {
+        "nom": "ail",
+        "unite": "gousse",
+        "quantite": "4"
+      }
+    ],
+    "sauce_d_accompagnement": [
+      {
+        "nom": "œufs (jaunes)",
+        "unite": "pièce",
+        "quantite": "2"
+      },
+      {
+        "nom": "ail",
+        "unite": "kg",
+        "quantite": "0,010"
+      },
+      {
+        "nom": "huile d’olive",
+        "unite": "l",
+        "quantite": "0,25"
+      },
+      {
+        "nom": "safran (si sauce rouille)",
+        "unite": "kg",
+        "quantite": "0,001"
+      },
+      {
+        "nom": "citron (1/2 pièce)",
+        "unite": "kg",
+        "quantite": "0,050"
+      }
+    ],
+    "assaisonnement": [
+      {
+        "nom": "gros sel",
+        "quantite": "PM"
+      },
+      {
+        "nom": "sel fin",
+        "quantite": "PM"
+      },
+      {
+        "nom": "poivre du moulin",
+        "quantite": "PM"
+      },
+      {
+        "nom": "piment de Cayenne",
+        "quantite": "PM"
+      }
+    ]
+  },
+  "technique": [
+    "1. Mettre en place le poste de travail - 5 min",
+    "2. Habiller les poissons - 30 min (voir p. 155 et suivantes).",
+    "3. Préparer les légumes de la garniture aromatique du fumet de poissons et de la soupe - 30 min",
+    "4. Marquer un fumet de poissons avec les arêtes - 10 min (voir p. 266)",
+    "5. Marquer la soupe de poissons en cuisson - 10 min",
+    "6. Préparer la garniture - 10 min",
+    "7. Réaliser la sauce d’accompagnement (façon rouille ou aïoli) - 10 min",
+    "8. Passer et terminer la soupe de poissons - 10 min",
+    "9. Dresser la soupe de poissons - 5 min"
+  ],
+  "duree_moyenne_de_preparation": "1 h 30 min",
+  "duree_moyenne_de_cuisson": "25 à 30 min"
+}

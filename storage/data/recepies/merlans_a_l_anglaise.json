@@ -1,0 +1,139 @@
+{
+  "titre": "MERLANS À L’ANGLAISE",
+  "type": "Poissons panés et sautés",
+  "page": 758,
+  "denrees_pour_8_couverts": {
+    "Éléments de base": [
+      {
+        "nom": "merlans (8 x 0,200 kg à 0,250 kg)",
+        "unite": "kg",
+        "quantite": "1,600 à 2,000"
+      },
+      {
+        "nom": "beurre",
+        "unite": "kg",
+        "quantite": "0,080"
+      },
+      {
+        "nom": "huile",
+        "unite": "kg",
+        "quantite": "0,08"
+      }
+    ],
+    "Panure à l’anglaise": [
+      {
+        "nom": "farine",
+        "unite": "kg",
+        "quantite": "0,160"
+      },
+      {
+        "nom": "œufs entiers",
+        "unite": "pièce",
+        "quantite": "3 à 4"
+      },
+      {
+        "nom": "huile",
+        "unite": "kg",
+        "quantite": "PM"
+      },
+      {
+        "nom": "sel, poivre du moulin",
+        "unite": "kg",
+        "quantite": "PM"
+      },
+      {
+        "nom": "mie de pain",
+        "unite": "kg",
+        "quantite": "0,300"
+      }
+    ],
+    "Beurre Maître d’hôtel": [
+      {
+        "nom": "beurre",
+        "unite": "kg",
+        "quantite": "0,160"
+      },
+      {
+        "nom": "persil",
+        "unite": "kg",
+        "quantite": "0,040"
+      },
+      {
+        "nom": "citron (1/2 pièce)",
+        "unite": "kg",
+        "quantite": "0,050"
+      },
+      {
+        "nom": "sel, poivre du moulin",
+        "unite": "kg",
+        "quantite": "PM"
+      }
+    ],
+    "Décor": [
+      {
+        "nom": "citrons (4 pièces)",
+        "unite": "kg",
+        "quantite": "0,400"
+      },
+      {
+        "nom": "persil frit",
+        "unite": "kg",
+        "quantite": "0,040"
+      }
+    ],
+    "Finition": [
+      {
+        "nom": "beurre pour lustrer",
+        "unite": "kg",
+        "quantite": "0,040"
+      }
+    ],
+    "Assaisonnement": [
+      {
+        "nom": "sel fin",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "poivre du moulin",
+        "quantite": "PM",
+        "unite": ""
+      }
+    ]
+  },
+  "technique_de_realisation": [
+    "1. Mettre en place le poste de travail - 5 min",
+    "Denrées, matériels de préparation, de cuisson et de dressage.",
+    "2. Habiller et désarêter les merlans par le dos - 35 min (voir p. 155/156 et 158/159)",
+    "Ébarber et vider les merlans par les ouïes.",
+    "Laver et éponger soigneusement.",
+    "Ouvrir les merlans par le dos et extraire l’arête en la sectionnant à l’aide d’une paire de ciseaux.",
+    "Rincer délicatement (si nécessaire) et enlever les membranes noirâtres (péritoine) à l’aide de papier absorbant.",
+    "Réserver les merlans en enceinte réfrigérée.",
+    "3. Préparer les éléments pour paner les merlans - 10 min",
+    "Tamiser et réserver la mie de pain dans une plaque à débarrasser.",
+    "Casser, assaisonner, puis battre les œufs à l’aide d’une fourchette ou d’un petit fouet. Ajouter l’huile et réserver l’anglaise dans une deuxième plaque.",
+    "Répartir la farine dans une troisième plaque.",
+    "4. Paner les merlans - 15 min",
+    "Passer successivement les merlans dans la farine, l’anglaise et la mie de pain tamisée (bien faire adhérer la mie de pain en pressant légèrement avec la main).",
+    "Égaliser l’épaisseur des merlans et quadriller l’intérieur à l’aide d’une lame bien affûtée.",
+    "Réserver les merlans en enceinte réfrigérée jusqu’à leur mise en cuisson.",
+    "5. Préparer les éléments de décor et confectionner le beurre Maître d’hôtel - 15 min",
+    "Laver, équeuter, concasser, hacher et essorer la moitié du persil.",
+    "Réserver la 2ème moitié du persil en branches pour la présentation.",
+    "Presser un demi-citron et réserver le jus dans un petit ramequin.",
+    "Travailler le beurre dans une petite calotte à l’aide d’une spatule.",
+    "Ajouter le jus de demi-citron et le persil haché.",
+    "Assaisonner avec le sel fin et le poivre du moulin.",
+    "Réserver le beurre en pommade à la température ambiante.",
+    "Historer les citrons en dents de loup.",
+    "6. Marquer les merlans en cuisson - 20 min",
+    "Faire sauter les merlans, côté quadrillé en premier, dans une poêle à poissons avec l’huile et le beurre.",
+    "Arroser les merlans durant toute la coloration des merlans, et les retourner à l’aide d’une spatule à poissons très large.",
+    "Terminer la cuisson doucement, sur le côté de la plaque du fourneau, en arrosant sans discontinuer la tête des merlans avec la matière grasse.",
+    "7. Dresser les merlans à l’anglaise - 5 min",
+    "Disposer harmonieusement les merlans en branches et citrons historiés.",
+    "Lustrer au pinceau les merlans avec du beurre fondu.",
+    "Dresser le beurre Maître d’hôtel en saucière."
+  ]
+}

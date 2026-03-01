@@ -1,0 +1,116 @@
+{
+  "page": "652",
+  "titre": "LÉGUMES À LA GRECQUE",
+  "type": "Hors-d’œuvre froids à base de légumes cuits",
+  "denrees_pour_8_couverts": {
+    "elements_de_base": [
+      {
+        "nom": "champignons de Paris ou artichauts (16 x 0,250 kg)",
+        "unite": "kg",
+        "quantite": "1,200"
+      },
+      {
+        "nom": "chou-fleur sans les feuilles",
+        "unite": "kg",
+        "quantite": "1,200"
+      },
+      {
+        "nom": "courgettes",
+        "unite": "kg",
+        "quantite": "1,200"
+      },
+      {
+        "nom": "gros oignons",
+        "unite": "kg",
+        "quantite": "0,200"
+      },
+      {
+        "nom": "petits oignons (grelets)",
+        "unite": "kg",
+        "quantite": "0,200"
+      },
+      {
+        "nom": "huile d’olive",
+        "unite": "l",
+        "quantite": "0,10"
+      },
+      {
+        "nom": "vin blanc",
+        "unite": "l",
+        "quantite": "0,10"
+      },
+      {
+        "nom": "citron",
+        "unite": "pièce",
+        "quantite": "2"
+      },
+      {
+        "nom": "bouquet garni",
+        "unite": "pièce",
+        "quantite": "1"
+      },
+      {
+        "nom": "ail (facultatif)",
+        "unite": "gousse",
+        "quantite": "2"
+      }
+    ],
+    "assaisonnement": [
+      {
+        "nom": "sel fin",
+        "quantite": "PM"
+      },
+      {
+        "nom": "poivre en grains",
+        "quantite": "PM"
+      },
+      {
+        "nom": "coriandre",
+        "quantite": "PM"
+      }
+    ],
+    "decor_facultatif": [
+      {
+        "nom": "citron",
+        "unite": "pièce",
+        "quantite": "1/2"
+      }
+    ]
+  },
+  "technique": [
+    "1. Mettre en place le poste de travail - 5 min",
+    "• Denrées, matériels de préparation, de cuisson et de dressage.",
+    "2. Préparer les légumes - 25 min",
+    "• Éplucher, laver, ciseler finement les oignons, ou éplucher et les petits oignons.",
+    "• Confectionner le bouquet garni.",
+    "• Éplucher, laver et éliminer le germe des gousses d’ail.",
+    "• Presser le citron et réserver le jus dans un petit ramequin.",
+    "• Envelopper dans une mousseline ou dans une «gaze hydrophile» les 2/3 des grains de poivre et de coriandre, et les gousses d’ail.",
+    "• Écraser légèrement le «sac aromatique», cette technique facultative évite au client d’avoir l’intégralité des graines dans son assiette.",
+    "• Éplucher, laver soigneusement et escaloper les champignons (il est possible de réserver et de tourner les plus belles têtes).",
+    "• Tourner, éliminer le «foin», laver, citronner et escaloper les fonds d’artichauts.",
+    "• Laver, tronçonner et tourner les courgettes.",
+    "• Éplucher, détailler en petits bouquets et laver les choux-fleurs.",
+    "3. Marquer les légumes en cuisson - 10 min",
+    "• Suer à l’huile d’olive, dans une grande sauteuse, les oignons ciselés ou les petits oignons.",
+    "• Ajouter les champignons escalopés ainsi que les têtes tournées ou, suivant les cas, les artichauts, les courgettes ou les choux-fleurs.",
+    "• Joindre le jus de citron, le vin blanc, le bouquet garni, le «sac aromatique» et le reste des grains de poivre et de coriandre.",
+    "• Saler au sel fin.",
+    "• Poivrer les légumes autres que les champignons, ajouter un peu d’eau.",
+    "• Couvrir et porter l’ensemble rapidement à ébullition.",
+    "• Cuire rapidement pendant 5 à 6 min pour les champignons, 10 à 12 min pour les courgettes, 20 à 25 min pour les artichauts et les choux-fleurs.",
+    "• Enlever le couvercle en fin de cuisson.",
+    "• Réduire rapidement l’eau de végétation des légumes si nécessaire.",
+    "• Émulsionner la cuisson : elle doit être courte et concentrée.",
+    "• Éliminer le bouquet garni et le sac aromatique.",
+    "• Vérifier l’assaisonnement.",
+    "• Débarrasser.",
+    "4. Dresser les légumes à la grecque - 5 min",
+    "• Enrober soigneusement les légumes dans leur cuisson pour les faire briller.",
+    "• Les dresser harmonieusement en raviers.",
+    "• Ajouter les têtes de champignons tournées ou les champignons.",
+    "• Décorer facultativement avec des demi-rondelles de citron cannelées."
+  ],
+  "duree_moyenne_de_preparation": "45 min",
+  "duree_moyenne_de_cuisson": "10 min"
+}

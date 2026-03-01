@@ -1,0 +1,170 @@
+{
+    "titre": "Truites chaud-froid, sauce verte",
+    "type": "Hors-d'œuvre froids à base de poisson",
+    "description": "Truites pochées au court-bouillon, refroidies, nappées d'une sauce chaud-froid verte (mayonnaise collée à la gelée avec herbes fraîches), décorées de motifs de légumes, œufs durs, tomates et truffes (facultatif), puis lustrées à la gelée claire. Servies froides sur plat de présentation.",
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "truites entières (frais, vidées et écaillées)",
+                "quantite": "8",
+                "unite": "pièces"
+            }
+        ],
+        "court_bouillon": [
+            {
+                "nom": "vin blanc sec",
+                "quantite": "0,250",
+                "unite": "l"
+            },
+            {
+                "nom": "carottes",
+                "quantite": "0,200",
+                "unite": "kg"
+            },
+            {
+                "nom": "oignons",
+                "quantite": "0,200",
+                "unite": "kg"
+            },
+            {
+                "nom": "bouquet garni",
+                "quantite": "1",
+                "unite": "pièce"
+            },
+            {
+                "nom": "poivre en grains",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "gros sel",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ],
+        "gelée_de_poisson": [
+            {
+                "nom": "fumet de poisson clair",
+                "quantite": "1,500",
+                "unite": "l"
+            },
+            {
+                "nom": "feuilles de gélatine",
+                "quantite": "20",
+                "unite": "feuilles"
+            }
+        ],
+        "sauce_chaud_froid_verte": [
+            {
+                "nom": "mayonnaise",
+                "quantite": "0,300",
+                "unite": "kg"
+            },
+            {
+                "nom": "gelée de poisson (liquide)",
+                "quantite": "0,200",
+                "unite": "l"
+            },
+            {
+                "nom": "herbes fraîches (persil, cerfeuil, estragon, ciboulette)",
+                "quantite": "0,050",
+                "unite": "kg"
+            },
+            {
+                "nom": "épinards ou orties (pour couleur verte, facultatif)",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ],
+        "decoration": [
+            {
+                "nom": "tomates (pelées, concassées ou motifs)",
+                "quantite": "0,100",
+                "unite": "kg"
+            },
+            {
+                "nom": "carottes (brunoise ou losanges)",
+                "quantite": "0,050",
+                "unite": "kg"
+            },
+            {
+                "nom": "truffes (lamelles, facultatif)",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "œufs durs (pour motifs)",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "persil, cerfeuil, estragon frais",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel fin",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "poivre du moulin",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "piment de Cayenne",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ]
+    },
+    "duree_moyenne_preparation": "2 h",
+    "duree_moyenne_cuisson": "15 à 20 min (pochage truites) + prise gelée",
+    "technique": [
+        "1. Mettre en place le poste de travail – 5 min",
+        "Denrées, matériels de préparation, de cuisson et de dressage.",
+        "2. Réaliser le court-bouillon – 20 min",
+        "Éplucher, laver et émincer carottes et oignons.",
+        "Préparer le bouquet garni.",
+        "Mettre tous les éléments dans un grand rondeau, couvrir d'eau, ajouter vin blanc, gros sel et poivre en grains.",
+        "Porter à ébullition, écumer, cuire 15–20 min à frémissement.",
+        "Passer au chinois, réserver chaud.",
+        "3. Pocher les truites – 15 min",
+        "Plonger les truites entières dans le court-bouillon frémissant.",
+        "Cuire 15 à 20 min selon taille (chair se détachant facilement).",
+        "Rafraîchir dans le liquide, puis refroidir complètement.",
+        "4. Préparer la gelée de poisson – 20 min",
+        "Ramollir les feuilles de gélatine dans eau froide.",
+        "Chauffer le fumet ou bouillon clair, y dissoudre la gélatine essorée.",
+        "Clarifier si nécessaire, passer au chinois fin.",
+        "Réserver à température ambiante pour gelée tremblante.",
+        "5. Préparer la sauce chaud-froid verte – 15 min",
+        "Préparer une mayonnaise classique.",
+        "Blanchir les herbes (persil, cerfeuil, estragon, ciboulette), mixer avec un peu d'eau ou gelée pour obtenir une purée verte.",
+        "Incorporer progressivement la gelée liquide tiède à la mayonnaise pour coller la sauce.",
+        "Ajouter la purée d'herbes pour couleur et goût, rectifier assaisonnement.",
+        "Réserver au frais.",
+        "6. Détailler et décorer les truites – 30 min",
+        "Débarrasser les truites de leur peau et arêtes, lever les filets propres ou les laisser entiers selon présentation.",
+        "Disposer les filets ou poissons dans un plat ou moule.",
+        "Décorer harmonieusement avec éléments (carottes, tomates, œufs durs, truffes, herbes).",
+        "Verser progressivement la gelée tremblante pour fixer les décorations, puis recouvrir complètement.",
+        "Réserver au réfrigérateur 4–6 h minimum pour prise complète.",
+        "7. Dresser les truites chaud-froid – 10 min",
+        "Démouler les truites en gelée sur plat de service froid.",
+        "Lustrer avec gelée fondue si besoin.",
+        "Napper ou accompagner de sauce chaud-froid verte en saucière.",
+        "Disposer autour : chiffonnade de laitue, citrons, persil frais.",
+        "Servir très frais."
+    ],
+    "remarques": [
+        "Le pochage doit être très doux pour préserver la chair fragile des truites.",
+        "La sauce chaud-froid verte doit être lisse et brillante ; passer au chinois si besoin.",
+        "La gelée doit être limpide et tremblante : trop ferme = aspect caoutchouteux ; trop liquide = démoulage impossible.",
+        "Variante bellevue : napper directement de gelée claire sans sauce verte.",
+        "Servir avec pain de mie grillé ou toast Melba à part."
+    ]
+}

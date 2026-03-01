@@ -1,0 +1,117 @@
+{
+  "title": "Le fond brun de volaille",
+  "category": "Fonds",
+  "type": "Technique de base",
+  "pages": [260, 261],
+  "yield": "1 litre",
+
+  "notes_techniques": [
+    {
+      "id": 1,
+      "description": "Le fond brun de volaille est réalisé selon la même technique que le fond brun de veau.",
+      "usage": "Base pour sauces brunes de volaille, réductions et déglaçages."
+    }
+  ],
+
+  "ingredients": {
+    "base": [
+      {"name": "abattis de volaille (sauf le foie)", "unite": "kg", "quantite": 1.000},
+      {"name": "carcasses de volaille", "unite": "kg", "quantite": null},
+      {"name": "volaille âgée (facultatif)", "unite": "kg", "quantite": "PM"}
+    ],
+    "garniture_aromatique": [
+      {"name": "carottes", "unite": "kg", "quantite": 0.100},
+      {"name": "oignons", "unite": "kg", "quantite": 0.100},
+      {"name": "tomates", "unite": "kg", "quantite": 0.200},
+      {"name": "concentré de tomates", "unite": "kg", "quantite": 0.020},
+      {"name": "ail", "unite": "kg", "quantite": 0.010},
+      {"name": "bouquet garni", "unite": "piece", "quantite": "PM"}
+    ],
+    "mouillement": [
+      {"name": "eau ou fond de volaille", "unite": "litre", "quantite": 1.5}
+    ],
+    "assaisonnement": [
+      {"name": "gros sel (facultatif)", "unite": "PM", "quantite": "PM"}
+    ]
+  },
+
+  "preparation_steps": [
+    {
+      "step": 1,
+      "title": "Mise en place",
+      "actions": [
+        "Réunir les denrées.",
+        "Réunir le matériel de préparation et de cuisson.",
+        "Contrôler la fraîcheur et la qualité des produits."
+      ]
+    },
+    {
+      "step": 2,
+      "title": "Concasser les carcasses et les abattis",
+      "actions": [
+        "Concasser les carcasses et les abattis en menus morceaux."
+      ]
+    },
+    {
+      "step": 3,
+      "title": "Coloration au four",
+      "actions": [
+        "Colorer les carcasses dans une plaque à rôtir adaptée.",
+        "Ne pas ajouter de matière grasse.",
+        "Retourner fréquemment durant la coloration."
+      ]
+    },
+    {
+      "step": 4,
+      "title": "Préparer la garniture aromatique",
+      "actions": [
+        "Éplucher et laver les légumes.",
+        "Tailler carottes et oignons en mirepoix.",
+        "Écraser les gousses d’ail.",
+        "Concasser les tomates.",
+        "Confectionner le bouquet garni."
+      ]
+    },
+    {
+      "step": 5,
+      "title": "Cuisson du fond",
+      "actions": [
+        "Ajouter les carottes et les oignons lorsque la coloration est presque terminée.",
+        "Laisser suer une dizaine de minutes.",
+        "Débarrasser dans une marmite ou un rondeau haut.",
+        "Mouiller avec l’eau froide ou le fond de volaille.",
+        "Porter à ébullition puis maintenir à frémissement.",
+        "Écumer, dégraisser et dépouiller régulièrement.",
+        "Compenser l’évaporation si nécessaire avec de l’eau bouillante.",
+        "Passer au chinois sans fouler.",
+        "Refroidir rapidement.",
+        "Réserver couvert en enceinte réfrigérée à +3°C maximum."
+      ]
+    }
+  ],
+
+  "timing": {
+    "duree_moyenne_realisation": "20 à 25 min",
+    "duree_moyenne_cuisson": "1 h 30 à 2 h"
+  },
+
+  "technical_keywords": [
+    "fond brun",
+    "volaille",
+    "coloration des carcasses",
+    "mirepoix",
+    "écumer",
+    "dégraisser",
+    "mouillement",
+    "réduction"
+  ],
+
+  "storage_recommendations": {
+    "cooling": "Refroidir rapidement.",
+    "storage_temp": "+3°C maximum",
+    "coverage": "Maintenir couvert en enceinte réfrigérée."
+  },
+
+  "image": null,
+  "version": "1.1"
+}

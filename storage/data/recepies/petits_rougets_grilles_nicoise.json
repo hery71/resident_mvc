@@ -1,0 +1,89 @@
+{
+  "titre": "PETITS ROUGETS GRILLÉS NIÇOISE",
+  "denrees_pour_8_couverts": {
+    "Éléments de base": [
+      {
+        "nom": "rougets (0,150 kg chacun)",
+        "quantite": "16",
+        "unite": "pièces"
+      }
+    ],
+    "Fondue de tomates": [
+      {
+        "nom": "tomates mûres",
+        "quantite": "0,080",
+        "unite": "kg"
+      },
+      {
+        "nom": "oignons ciselés",
+        "quantite": "0,040",
+        "unite": "kg"
+      },
+      {
+        "nom": "huile d’olive",
+        "quantite": "0,04",
+        "unite": "l"
+      }
+    ],
+    "Beurre d’anchois": [
+      {
+        "nom": "beurre en pommade",
+        "quantite": "0,150",
+        "unite": "kg"
+      },
+      {
+        "nom": "filets d’anchois à l’huile",
+        "quantite": "0,080",
+        "unite": "kg"
+      }
+    ],
+    "Garniture": [
+      {
+        "nom": "olives noires de Nice",
+        "quantite": "16",
+        "unite": "pièces"
+      },
+      {
+        "nom": "rondelles de citron",
+        "quantite": "PM",
+        "unite": ""
+      }
+    ],
+    "Assaisonnement": [
+      {
+        "nom": "sel",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "poivre",
+        "quantite": "PM",
+        "unite": ""
+      }
+    ]
+  },
+  "technique_de_realisation": [
+    "1. Mettre en place le poste de travail",
+    "2. Habiller 16 rougets de 0,150 kg chacun",
+    "Les réserver en enceinte réfrigérée.",
+    "3. Réaliser la fondue de tomates",
+    "Monder, épépiner et concasser 0,080 kg de tomates mûres.",
+    "Réaliser une fondue avec 0,040 kg d’oignons ciselés, 0,04 l d’huile d’olive, 2 gousses d’ail et un petit bouquet garni.",
+    "Y ajouter un peu d’estragon haché après cuisson.",
+    "4. Réaliser le beurre d’anchois",
+    "(voir «soles grillées, beurre d’anchois»)",
+    "Utiliser 0,150 kg de beurre en pommade et 0,080 kg de filets d’anchois à l’huile.",
+    "5. Réaliser les éléments de présentation",
+    "Peler à vif 2 citrons et les détailler en 16 rondelles régulières.",
+    "Dénoyauter 16 olives noires de Nice et les cercler (entourer) d’une lanière de filet d’anchois.",
+    "Disposer les olives cerclées sur les rondelles de citron.",
+    "6. Griller les rougets",
+    "Les passer dans la marinade et les quadriller soigneusement des deux côtés. Les assaisonner.",
+    "Terminer la cuisson au four, si nécessaire.",
+    "7. Dresser les rougets niçoise",
+    "Disposer un lit de fondue de tomates au fond des plats ou sur les assiettes.",
+    "Placer dans le sens de la diagonale 2 rougets par personne, tête à gauche et partie ventrale vers soi.",
+    "Les lustrer au beurre clarifié.",
+    "Disposer sur chaque rouget une rondelle de citron surmontée d’une olive cerclée."
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "titre": "SOLES OU MERLANS FRITS AU CITRON",
+  "type": "Poissons frits",
+  "page": 748,
+  "fiche": 63,
+  "denrees_pour_8_couverts": {
+    "Éléments de base": [
+      {
+        "nom": "merlans (8 x 0,250 kg)",
+        "unite": "kg",
+        "quantite": "2"
+      },
+      {
+        "nom": "soles portions (8 x 0,250 kg)",
+        "unite": "kg",
+        "quantite": "2"
+      },
+      {
+        "nom": "lait",
+        "unite": "l",
+        "quantite": "0,20"
+      },
+      {
+        "nom": "bière",
+        "unite": "l",
+        "quantite": "0,20"
+      },
+      {
+        "nom": "farine (1)",
+        "unite": "kg",
+        "quantite": "0,200"
+      }
+    ],
+    "Friture à poisson": [
+      {
+        "nom": "friture à poisson",
+        "unite": "",
+        "quantite": "PM"
+      }
+    ],
+    "Finition": [
+      {
+        "nom": "citrons (4 pièces)",
+        "unite": "kg",
+        "quantite": "0,400"
+      },
+      {
+        "nom": "persil",
+        "unite": "kg",
+        "quantite": "0,080"
+      }
+    ],
+    "Assaisonnement": [
+      {
+        "nom": "sel fin",
+        "quantite": "PM",
+        "unite": ""
+      }
+    ]
+  },
+  "technique_de_realisation": [
+    "1. Mettre en place le poste de travail - 5 min",
+    "Denrées, matériels de préparation, de cuisson et de dressage.",
+    "2. Habiller les merlans - 10 min (ou les soles - 30 min) (voir p. 155/156 et 165/166)",
+    "Ébarber et vider soigneusement les merlans.",
+    "Limiter l’ouverture ventrale à 2 ou 3 cm.",
+    "Éliminer délicatement les ouïes.",
+    "Veiller à ne pas perforer la partie ventrale.",
+    "Rincer sous un filet d’eau et réserver les merlans en enceinte réfrigérée.",
+    "Ébarber et arracher la peau grise des soles.",
+    "Écailler la peau blanche.",
+    "Arracher les ouïes et ôter les caillots de sang et les glaires sous la tête.",
+    "Les faire dégorger durant quelques minutes et les égoutter.",
+    "Réserver les soles en enceinte réfrigérée.",
+    "3. Préparer les éléments de finition - 15 min",
+    "Laver, équeuter et réserver le persil en branches sur du papier absorbant.",
+    "Historer les citrons.",
+    "4. Frire le persil - 5 min",
+    "Le plonger durant 5 secondes environ, dans de l’huile neuve.",
+    "L’égoutter sur du papier absorbant et le saler. Il doit rester vert et croustillant (frire du persil représente un danger de brûlure, voire d’incendie, s’il n’est pas parfaitement séché sur du papier absorbant).",
+    "5. Marquer les merlans ou les soles en cuisson - 10 min (voir p. 452/454)",
+    "Essuyer soigneusement les poissons avec du papier absorbant.",
+    "Les assaisonner (saler l’intérieur).",
+    "Passer les poissons dans la bière ou dans le lait salé.",
+    "Fariner au dernier moment et bien les tapoter pour enlever l’excédent de farine.",
+    "Frire à 180 °C durant 5 à 6 min environ (le bain d’huile doit s’arrêter de bouillonner autour des poissons, ceux-ci doivent être dorés et remonter à la surface de la friture).",
+    "Les égoutter soigneusement sur du papier absorbant en les retirant du bain de friture délicatement à l’aide d’une araignée.",
+    "Les saler légèrement.",
+    "6. Dresser les merlans ou les soles - 5 min",
+    "Disposer les merlans ou les soles dans le sens de la diagonale sur un grand plat long recouvert d’un papier gaufré.",
+    "Disposer les merlans, tête en haut du plat et à gauche, ventre tourné vers soi.",
+    "Disposer les soles la tête en haut du plat et à gauche, côté peau blanche sur le dessus.",
+    "Disposer le persil frit par petits bouquets du côté des têtes et les quartiers de citron du côté des queues."
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "titre": "DUO DE CABILLAUD ET DE MORUE, PURÉE DE POMMES DE TERRE À L’HUILE D’OLIVE",
+  "type": "Pavés de poissons sautés",
+  "page": 756,
+  "denrees_pour_8_couverts": {
+    "Éléments de base": [
+      {
+        "nom": "pavés épais de cabillaud avec peau (8 x 0,150 kg)",
+        "unite": "kg",
+        "quantite": "1,200"
+      },
+      {
+        "nom": "gros sel",
+        "unite": "kg",
+        "quantite": "0,040"
+      },
+      {
+        "nom": "huile d’olive",
+        "unite": "l",
+        "quantite": "0,01"
+      }
+    ],
+    "Brandade": [
+      {
+        "nom": "filet de morue salée",
+        "unite": "kg",
+        "quantite": "0,400"
+      },
+      {
+        "nom": "huile d’olive",
+        "unite": "l",
+        "quantite": "0,10"
+      },
+      {
+        "nom": "citron (1/2 pièce)",
+        "unite": "kg",
+        "quantite": "0,050"
+      }
+    ],
+    "Purée à l’huile d’olive": [
+      {
+        "nom": "pommes de terre Bintje",
+        "unite": "kg",
+        "quantite": "1,600"
+      },
+      {
+        "nom": "lait",
+        "unite": "l",
+        "quantite": "0,10"
+      },
+      {
+        "nom": "crème",
+        "unite": "l",
+        "quantite": "0,10"
+      },
+      {
+        "nom": "ail (4 gousses)",
+        "unite": "kg",
+        "quantite": "0,020"
+      },
+      {
+        "nom": "huile d’olive",
+        "unite": "l",
+        "quantite": "0,10"
+      },
+      {
+        "nom": "beurre",
+        "unite": "kg",
+        "quantite": "0,040"
+      }
+    ],
+    "Beurre blanc": [
+      {
+        "nom": "échalotes grises",
+        "unite": "kg",
+        "quantite": "0,040"
+      },
+      {
+        "nom": "vin blanc sec",
+        "unite": "l",
+        "quantite": "0,04"
+      },
+      {
+        "nom": "vinaigre de vin blanc",
+        "unite": "l",
+        "quantite": "0,02"
+      },
+      {
+        "nom": "crème",
+        "unite": "l",
+        "quantite": "0,10"
+      },
+      {
+        "nom": "beurre extra-fin",
+        "unite": "kg",
+        "quantite": "0,200"
+      }
+    ],
+    "Tomates confites": [
+      {
+        "nom": "tomates (3 pièces)",
+        "unite": "kg",
+        "quantite": "0,240"
+      },
+      {
+        "nom": "huile d’olive",
+        "unite": "l",
+        "quantite": "0,04"
+      },
+      {
+        "nom": "ail (2 gousses)",
+        "unite": "kg",
+        "quantite": "0,015"
+      },
+      {
+        "nom": "thym",
+        "unite": "botte",
+        "quantite": "PM"
+      }
+    ],
+    "Finition": [
+      {
+        "nom": "beurre pour lustrer",
+        "unite": "kg",
+        "quantite": "0,020"
+      },
+      {
+        "nom": "cerfeuil",
+        "unite": "botte",
+        "quantite": "1/4"
+      }
+    ],
+    "Assaisonnement": [
+      {
+        "nom": "gros sel",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "sel fin",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "fleur de sel",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "piment de Cayenne",
+        "quantite": "PM",
+        "unite": ""
+      }
+    ]
+  },
+  "technique_de_realisation": [
+    "La veille : dessaler les filets de morue - 5 min",
+    "Les frotter avec une brosse pour les débarrasser de l’excédent de sel, puis les rincer.",
+    "Les découper en morceaux et les laisser tremper dans de l’eau glacée durant une douzaine d’heures.",
+    "Changer l’eau fréquemment.",
+    "1. Mettre en place le poste de travail - 5 min",
+    "Denrées, matériels de préparation, de cuisson et de dressage.",
+    "2. Vérifier les pavés de cabillaud - 5 min",
+    "Les parer, ôter les éventuelles arêtes si nécessaire.",
+    "Les saupoudrer avec du gros sel et les réserver en enceinte réfrigérée.",
+    "3. Éplucher et tailler les légumes - 10 min",
+    "Confire les tomates - 5 min",
+    "Monder les tomates, les parer en huit.",
+    "Ôter tous les pépins et ranger les morceaux sur une plaque recouverte d’un papier cuisson.",
+    "Badigeonner les morceaux avec de l’huile d’olive parfumée à l’ail et au thym.",
+    "Assaisonner et confire au four à l’étuve à 80 °C durant quelques heures.",
+    "5. Marquer la brandade et la purée en cuisson - 10 min",
+    "Partager les pommes de terre en deux et les cuire à l’anglaise, départ eau froide. Saler au gros sel et écumer si nécessaire.",
+    "Blanchir les gousses d’ail dans deux cuissons successives dans la crème durant une vingtaine de minutes. Mixer, puis réserver la purée d’ail au chaud.",
+    "Pocher les morceaux de morue, départ eau froide, sans ajouter de sel. Laisser pocher sans ébullition à 90 °C durant 6 à 8 min selon l’épaisseur des filets. Égoutter, retirer la peau et les arêtes délicatement.",
+    "6. Réaliser la brandade à la purée de pommes de terre - 15 min",
+    "Réaliser la purée de pommes de terre, ajouter le lait bouillant, le beurre, la crème et l’huile d’olive.",
+    "Effeuiller la morue et la travailler à la spatule sur un feu doux dans une grande sauteuse en lui incorporant progressivement l’huile d’olive. Vérifier l’assaisonnement et ajouter quelques gouttes de jus de citron.",
+    "Mélanger lentement à la spatule la brandade à la purée de pommes de terre, huiler ou beurrer en surface et réserver la purée à plus de 63 °C.",
+    "7. Réaliser le beurre blanc - 10 min (voir p. 306/307)",
+    "8. Sauter les pavés de cabillaud - 10 min",
+    "Les rincer et les éponger soigneusement sur du papier absorbant.",
+    "Les sauter dans une poêle antiadhésive avec un peu d’huile d’olive, côté peau en premier.",
+    "Terminer la cuisson au four durant quelques minutes.",
+    "9. Dresser les pavés de cabillaud - 5 min",
+    "Disposer au centre de chaque assiette un tampon de brandade à l’aide d’un petit cercle à entremets.",
+    "Placer un pavé de cabillaud au-dessus, la peau dorée et croustillante sur le dessus, lustrer et saupoudrer d’une pincée de fleur de sel.",
+    "Disposer un cordon de beurre blanc tout autour, puis décorer avec les segments de tomates confites et des pluches de cerfeuil."
+  ]
+}

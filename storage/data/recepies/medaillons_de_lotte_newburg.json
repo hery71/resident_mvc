@@ -1,0 +1,116 @@
+{
+    "titre": "Médaillons de lotte Newburg",
+    "type": "Hors-d'œuvre chauds à base de poisson",
+    "description": "Médaillons (tranches épaisses) de queue de lotte pochés dans un fumet de poisson, nappés d'une sauce Newburg : réduction de sauce américaine (crustacés flambés au cognac, tomates, vin blanc), liée à la crème et montée au beurre, servie sur riz pilaf ou pommes vapeur. Dressage élégant avec fleurons de feuilletage.",
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "queue de lotte (parée, prête à trancher)",
+                "quantite": "2,400",
+                "unite": "kg"
+            }
+        ],
+        "court_mouillement": [
+            {
+                "nom": "fumet de poisson",
+                "quantite": "1,000",
+                "unite": "l"
+            }
+        ],
+        "sauce_newburg": [
+            {
+                "nom": "sauce américaine (réalisée au préalable, voir fiche précédente)",
+                "quantite": "0,800",
+                "unite": "l"
+            },
+            {
+                "nom": "crème liquide",
+                "quantite": "0,200",
+                "unite": "l"
+            },
+            {
+                "nom": "beurre",
+                "quantite": "0,100",
+                "unite": "kg"
+            },
+            {
+                "nom": "cognac (pour flamber ou finir)",
+                "quantite": "0,050",
+                "unite": "l"
+            }
+        ],
+        "liaison": [
+            {
+                "nom": "beurre manié",
+                "quantite": "0,040",
+                "unite": "kg"
+            }
+        ],
+        "accompagnement": [
+            {
+                "nom": "riz pilaf (ou riz créole)",
+                "quantite": "0,800",
+                "unite": "kg"
+            }
+        ],
+        "finition_et_decoration": [
+            {
+                "nom": "fleurons de feuilletage",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "cerfeuil ou estragon (pluches)",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel fin",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "poivre du moulin",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "piment de Cayenne",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ]
+    },
+    "duree_moyenne_preparation": "1 h 40 min (hors sauce américaine)",
+    "duree_moyenne_cuisson": "12 à 18 min (pochage médaillons) + finition sauce",
+    "technique": [
+        "1. Mettre en place le poste de travail",
+        "Rassembler denrées, matériels de préparation, cuisson et dressage.",
+        "2. Préparer la lotte",
+        "Dépouiller, dénerver, parer la queue de lotte. Couper en médaillons réguliers (environ 1,5 à 2 cm d'épaisseur, 120-150 g pièce). Réserver au frais.",
+        "3. Rincer les filets et réaliser le fumet de poisson",
+        "Rincer les médaillons, égoutter. Préparer ou utiliser un fumet de poisson concentré. Réserver chaud.",
+        "4. Confectionner la sauce Newburg",
+        "Utiliser la sauce américaine réalisée précédemment. Réduire légèrement si nécessaire. Ajouter crème liquide, réduire pour obtenir une consistance nappante. Flamber au cognac si besoin pour intensifier les arômes. Lier au beurre manié pour épaissir et lustrer. Monter au beurre froid hors du feu. Assaisonner (sel, poivre, pointe de Cayenne). Réserver au bain-marie.",
+        "5. Pocher la queue de lotte (ou les médaillons)",
+        "Beurrer un plat à poisson. Disposer les médaillons en une seule couche. Mouiller avec fumet à hauteur ou presque. Couvrir d'une feuille de papier sulfurisé beurré. Pocher au four à 170-180 °C ou à frémissement doux 12-18 min selon épaisseur (chair nacrée, ferme mais encore moelleuse). Égoutter délicatement, réserver au chaud.",
+        "6. Marquer le riz pilaf en cuisson",
+        "Réaliser un riz pilaf classique (ou réchauffer si préparé à l'avance). Réserver au chaud.",
+        "7. Terminer la sauce Newburg",
+        "Passer la sauce au chinois fin si nécessaire. Ajouter un trait de crème ordinaire ou de beurre pour liaison finale. Faire réduire légèrement si trop liquide. Vérifier assaisonnement. Réserver au bain-marie.",
+        "8. Dresser les médaillons de lotte Newburg",
+        "Disposer deux médaillons par assiette chaude. Napper généreusement de sauce Newburg chaude. Accompagner de riz pilaf moulé ou en timbale. Décorer avec fleurons de feuilletage et pluches de cerfeuil ou estragon. Servir immédiatement très chaud."
+    ],
+    "remarques": [
+        "La sauce Newburg est une variante enrichie de la sauce américaine : plus onctueuse grâce à la crème et au beurre, avec une touche de cognac pour profondeur.",
+        "Pochage doux impératif pour la lotte : elle devient caoutchouteuse si surcuite.",
+        "Utiliser une sauce américaine bien corsée (réalisée avec homard ou langoustines) comme base.",
+        "Variante : ajouter des queues de crevettes ou lamelles de truffe pour version plus luxueuse.",
+        "Accompagnements classiques : riz pilaf, pommes vapeur ou tagliatelles fraîches.",
+        "Servir avec une saucière pour le surplus de sauce."
+    ],
+    "page": "741",
+    "fiche": "59"
+}

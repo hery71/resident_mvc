@@ -1,0 +1,167 @@
+{
+    "titre": "Talmouses à la bagragion",
+    "type": "Hors-d'œuvre chauds à base de pâte à choux cuite au four",
+    "page": 678,
+    "fiche": "30",
+    "description": "Hors-d'œuvre chaud composé d'une tartelette en pâte brisée garnie de pâte à choux fromage. Cuit au four, le chou est garni ensuite de sauce Mornay.",
+    "denrees_pour_8_couverts": {
+        "pate_brisee": [
+            {
+                "nom": "farine type 55",
+                "quantite": "0,250",
+                "unite": "kg"
+            },
+            {
+                "nom": "beurre",
+                "quantite": "0,125",
+                "unite": "kg"
+            },
+            {
+                "nom": "œuf (jaune)",
+                "quantite": "1",
+                "unite": "pièce"
+            },
+            {
+                "nom": "eau",
+                "quantite": "0,050",
+                "unite": "l"
+            },
+            {
+                "nom": "farine (pour abaisser)",
+                "quantite": "0,040",
+                "unite": "kg"
+            }
+        ],
+        "pate_a_choux": [
+            {
+                "nom": "lait",
+                "quantite": "0,125",
+                "unite": "l"
+            },
+            {
+                "nom": "beurre",
+                "quantite": "0,080",
+                "unite": "kg"
+            },
+            {
+                "nom": "farine",
+                "quantite": "0,125",
+                "unite": "kg"
+            },
+            {
+                "nom": "œufs",
+                "quantite": "4",
+                "unite": "pièces"
+            },
+            {
+                "nom": "gruyère râpé",
+                "quantite": "0,040",
+                "unite": "kg"
+            },
+            {
+                "nom": "sel fin",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "noix de muscade",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ],
+        "dorure": [
+            {
+                "nom": "œuf (entier)",
+                "quantite": "1",
+                "unite": "pièce"
+            }
+        ],
+        "sauce_mornay": [
+            {
+                "nom": "beurre",
+                "quantite": "0,040",
+                "unite": "kg"
+            },
+            {
+                "nom": "farine",
+                "quantite": "0,040",
+                "unite": "kg"
+            },
+            {
+                "nom": "lait (entier)",
+                "quantite": "0,400",
+                "unite": "l"
+            },
+            {
+                "nom": "gruyère râpé",
+                "quantite": "0,080",
+                "unite": "kg"
+            }
+        ],
+        "finition": [
+            {
+                "nom": "gruyère râpé",
+                "quantite": "0,040",
+                "unite": "kg"
+            }
+        ],
+        "decoration": [
+            {
+                "nom": "persil en branches",
+                "quantite": "0,040",
+                "unite": "kg"
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel fin",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "piment de Cayenne",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "noix de muscade",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ]
+    },
+    "duree_moyenne_preparation": "1 h 30 min",
+    "duree_moyenne_cuisson": "20 à 25 min",
+    "technique": [
+        "1. Mettre en place le poste de travail – 5 min",
+        "Denrées, matériels de préparation, de cuisson et de dressage.",
+        "2. Confectionner la pâte brisée – 15 min (voir p. 481)",
+        "3. Confectionner la pâte à choux – 15 min",
+        "Y ajouter 0,040 kg de gruyère râpé et tamisé.",
+        "4. Foncer 16 tartelettes – 15 min",
+        "Foncer les fonds de tartelettes avec la pâte brisée.",
+        "Piquer les fonds.",
+        "5. Confectionner les talmouses – 15 min",
+        "Couper dans un gros chou rond de pâte à choux à l’aide d’une poche munie d’une douille unie.",
+        "Dorer légèrement au jaune d’œuf.",
+        "6. Marquer les talmouses en cuisson – 5 min",
+        "Disposer les tartelettes sur une plaque à pâtisserie.",
+        "Cuire au four chaud (200 °C au départ) pendant 20 à 25 min.",
+        "7. Confectionner la sauce Mornay – 15 min",
+        "Confectionner le roux blanc et le refroidir rapidement.",
+        "Mettre le lait à bouillir et le verser sur le roux froid.",
+        "Porter à ébullition en remuant, cuire 4 à 5 min.",
+        "Assaisonner sel fin, piment de Cayenne et noix de muscade.",
+        "Ajouter hors du feu les jaunes d’œufs et remuer.",
+        "Incorporer délicatement le gruyère râpé tamisé.",
+        "Débarasser en petite calotte inox, tamponner la surface.",
+        "8. Garnir les talmouses – 8 min",
+        "Fourrer les talmouses de sauce Mornay à l’aide d’une poche munie d’une douille unie.",
+        "9. Préparer le persil en branches – 5 min",
+        "10. Dresser les talmouses – 2 min",
+        "Disposer harmonieusement les talmouses sur un grand plat rond recouvert d’un papier gaufré.",
+        "Lustrer avec beurre clarifié.",
+        "Décorer avec le persil en branches."
+    ],
+    "remarques": []
+}

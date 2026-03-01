@@ -1,0 +1,100 @@
+{
+  "fiche": "636",
+  "titre": "CRÈME AGNÈS SOREL",
+  "type": "Crèmes et veloutés à base de volaille",
+  "denrees_pour_8_couverts": {
+    "elements_de_base": [
+      {
+        "nom": "beurre",
+        "unite": "kg",
+        "quantite": "0,100"
+      },
+      {
+        "nom": "blancs de poireaux (facultatif)",
+        "unite": "kg",
+        "quantite": "0,160"
+      },
+      {
+        "nom": "queues de champignons (pieds)",
+        "unite": "kg",
+        "quantite": "0,400"
+      },
+      {
+        "nom": "crème de champignons appertisée, lyophilisée ou déshydratée",
+        "unite": "kg",
+        "quantite": "0,50"
+      },
+      {
+        "nom": "farine",
+        "unite": "kg",
+        "quantite": "0,080"
+      },
+      {
+        "nom": "fond blanc de volaille",
+        "unite": "l",
+        "quantite": "2"
+      }
+    ],
+    "finition": [
+      {
+        "nom": "crème double",
+        "unite": "l",
+        "quantite": "0,2"
+      },
+      {
+        "nom": "beurre",
+        "unite": "kg",
+        "quantite": "0,020"
+      }
+    ],
+    "garniture": [
+      {
+        "nom": "blanc de volaille poché",
+        "unite": "kg",
+        "quantite": "0,160"
+      },
+      {
+        "nom": "langue écarlate",
+        "unite": "kg",
+        "quantite": "0,080"
+      },
+      {
+        "nom": "gros champignons de Paris",
+        "unite": "kg",
+        "quantite": "0,160"
+      },
+      {
+        "nom": "truffe (facultatif)",
+        "unite": "pièce",
+        "quantite": "1/2"
+      },
+      {
+        "nom": "beurre",
+        "unite": "kg",
+        "quantite": "0,050"
+      }
+    ],
+    "assaisonnement": [
+      {
+        "nom": "sel fin",
+        "quantite": "PM"
+      },
+      {
+        "nom": "gros sel",
+        "quantite": "PM"
+      }
+    ]
+  },
+  "technique": [
+    "1. Mettre en place le poste de travail - 5 min",
+    "2. Marquer un excellent fond blanc de volaille - 15 min (voir p. 264).",
+    "3. Préparer les légumes - 15 min.",
+    "4. Étuv er la julienne de champignons - 2 min",
+    "5. Marquer le velouté en cuisson - 10 min.",
+    "6. Passer et terminer la crème - 5 min.",
+    "7. Préparer la garniture - 10 min.",
+    "8. Dresser la crème Agnès Sorel - 3 min."
+  ],
+  "duree_moyenne_de_preparation": "1 h",
+  "duree_moyenne_de_cuisson": "30 à 35 min"
+}

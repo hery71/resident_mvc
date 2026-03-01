@@ -1,0 +1,92 @@
+{
+    "titre": "Filets de sole Marguery",
+    "type": "Hors-d'œuvre chauds à base de poisson",
+    "description": "Filets de sole pochés court-mouillement au fumet de poisson et vin blanc, avec garniture de moules et queues de crevettes pochées. Sauce obtenue par réduction du liquide de cuisson montée au beurre, nappée et glacée au four ou salamandre. Dressage avec moules et crevettes disposées harmonieusement.",
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "filets de sole (d'une sole de 0,500 à 0,600 kg chacune)",
+                "quantite": "8",
+                "unite": "pièces"
+            }
+        ],
+        "garniture": [
+            {
+                "nom": "moules (décortiquées, cuites au vin blanc)",
+                "quantite": "0,800",
+                "unite": "kg"
+            },
+            {
+                "nom": "queues de crevettes (décortiquées, pochées)",
+                "quantite": "0,400",
+                "unite": "kg"
+            }
+        ],
+        "court_mouillement": [
+            {
+                "nom": "fumet de poisson",
+                "quantite": "0,800",
+                "unite": "l"
+            },
+            {
+                "nom": "vin blanc sec",
+                "quantite": "0,100",
+                "unite": "l"
+            }
+        ],
+        "sauce": [
+            {
+                "nom": "beurre",
+                "quantite": "0,200",
+                "unite": "kg"
+            }
+        ],
+        "finition_et_decoration": [
+            {
+                "nom": "fleurons de feuilletage (optionnel, classique)",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel fin",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "poivre du moulin",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ]
+    },
+    "duree_moyenne_preparation": "1 h 30 min à 1 h 45 min",
+    "duree_moyenne_cuisson": "5 à 8 min (pochage) + glaçage",
+    "technique": [
+        "1. Mettre en place le poste de travail",
+        "Rassembler denrées, matériels de préparation, cuisson et dressage.",
+        "2. Habiller les soles et lever les filets",
+        "Écailler, vider, lever les filets (garder en long ou pliés selon préférence), parer, retirer la peau si nécessaire. Réserver au frais.",
+        "3. Préparer la garniture et réaliser le fumet",
+        "Ouvrir et cuire les moules au vin blanc avec échalotes, bouquet garni ; décoquiller, réserver le jus filtré. Poché les queues de crevettes dans le fumet. Réaliser ou utiliser un fumet de poisson concentré. Réserver.",
+        "4. Préparer la garniture sole Marguery",
+        "Gratter, nettoyer et émincer les champignons (si présents dans variante). Cuire les moules et crevettes, réserver au chaud.",
+        "5. Placer les filets en cuisson",
+        "Beurrer un plat à poisson. Disposer les filets en longueur, assaisonner légèrement. Mouiller avec fumet + vin blanc (à hauteur ou presque). Ajouter un peu de cuisson des moules pour intensifier le goût. Couvrir d'une feuille de papier sulfurisé beurré.",
+        "6. Cuire les filets – 5 à 8 min",
+        "Pocher au four à 170-180 °C ou sur le feu à frémissement doux jusqu'à ce que les filets soient opaques et se détachent facilement (5-8 min selon épaisseur). Égoutter délicatement, réserver au chaud. Conserver le liquide de cuisson.",
+        "7. Réaliser la sauce par réduction",
+        "Réduire le liquide de pochage (fumet + vin + jus moules) jusqu'à consistance sirupeuse. Monter au beurre froid hors du feu en fouettant vigoureusement pour obtenir une sauce onctueuse et brillante. Assaisonner. Passer au chinois fin si nécessaire. Réserver au chaud (bain-marie).",
+        "8. Dresser les filets de sole Marguery et glacer",
+        "Disposer les filets bien égouttés sur plat ou assiettes chaudes allant au four. Napper uniformément de sauce. Répartir harmonieusement les moules et queues de crevettes autour ou dessus. Glacer rapidement sous salamandre ou au four chaud (200-220 °C) jusqu'à coloration légère et brillante. Servir immédiatement très chaud."
+    ],
+    "remarques": [
+        "La sauce Marguery est une variante riche de la sauce vin blanc : très réduite et montée au beurre pour une texture veloutée et brillante.",
+        "Pochage doux à frémissement pour garder les filets nacrés et tendres ; ne pas bouillir.",
+        "Garniture classique : moules pochées au vin blanc + queues de crevettes roses ; bien égouttées et décoquillées.",
+        "Glaçage rapide à la salamandre pour la coloration dorée typique sans dessécher le poisson.",
+        "Accompagnements suggérés : riz pilaf, pommes vapeur ou fleurons de feuilletage pour version traditionnelle.",
+        "Vin blanc sec et aromatique (type Chablis ou Muscadet) pour le court-mouillement et la sauce."
+    ]
+}

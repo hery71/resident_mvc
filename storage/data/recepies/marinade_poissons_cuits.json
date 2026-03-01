@@ -1,0 +1,17 @@
+{
+    "titre": "Marinade Poissons cuits",
+    "type": "marinade",
+    "base": "Poissons cuits",
+    "type_de_viande": "maquereaux, harengs",
+    "ingredients": [
+        "vin blanc",
+        "vinaigre",
+        "aromates"
+    ],
+    "technique": [
+        "Ranger les éléments dans une plaque en acier inoxydable de grandeur appropriée.",
+        "Arroser légèrement d’huile et de jus de citron si nécessaire.",
+        "Ajouter la garniture aromatique, les aromates ou les condiments.",
+        "Laisser mariner selon la nature et la taille des pièces."
+    ]
+}

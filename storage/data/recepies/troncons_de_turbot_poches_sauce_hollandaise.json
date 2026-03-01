@@ -1,0 +1,127 @@
+{
+    "titre": "Tronçons de turbot ou turbotins pochés, sauce hollandaise",
+    "type": "Hors-d'œuvre chauds à base de poisson",
+    "description": "Tronçons de turbot (ou turbotins) pochés dans un court-bouillon citronné et au lait, servis chauds avec une sauce hollandaise émulsionnée. Accompagnés traditionnellement de légumes vapeur (pommes à l'anglaise, carottes, brocolis, romanesco) ou d'une persillade.",
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "turbot ou turbotins (tronçons ou portions entières)",
+                "quantite": "3,200",
+                "unite": "kg"
+            }
+        ],
+        "court_bouillon_pochage": [
+            {
+                "nom": "eau",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "lait",
+                "quantite": "0,400",
+                "unite": "l"
+            },
+            {
+                "nom": "citron (entier ou jus)",
+                "quantite": "1",
+                "unite": "pièce"
+            },
+            {
+                "nom": "gros sel",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ],
+        "sauce_hollandaise": [
+            {
+                "nom": "œufs (jaunes)",
+                "quantite": "4",
+                "unite": "pièces"
+            },
+            {
+                "nom": "beurre clarifié ou extra-fin",
+                "quantite": "0,300",
+                "unite": "kg"
+            },
+            {
+                "nom": "citron (jus)",
+                "quantite": "1/2",
+                "unite": "pièce"
+            },
+            {
+                "nom": "vinaigre blanc ou vin blanc",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "piment de Cayenne",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ],
+        "garniture_et_decoration": [
+            {
+                "nom": "citrons (en quartiers ou tranches)",
+                "quantite": "4",
+                "unite": "pièces"
+            },
+            {
+                "nom": "persil plat (frais, pluches ou haché)",
+                "quantite": "0,040",
+                "unite": "kg"
+            },
+            {
+                "nom": "légumes vapeur (pommes, carottes, brocolis…)",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel fin",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "poivre du moulin",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ]
+    },
+    "duree_moyenne_preparation": "1 h 15 min",
+    "duree_moyenne_cuisson": "8 à 10 min (pochage tronçons) + 10 min (sauce hollandaise)",
+    "technique": [
+        "1. Mettre en place le poste de travail – 5 min",
+        "Denrées, matériels de préparation, de cuisson et de dressage.",
+        "2. Habiller et détailler les tronçons de turbot – 15 min",
+        "Lever les filets ou tronçons de turbot/turbotins, retirer peau et arêtes si nécessaire.",
+        "Laver, éponger, détailler en portions régulières.",
+        "Réserver au frais.",
+        "3. Préparer les éléments de décoration – 10 min",
+        "Laver, éplucher et détailler les citrons en quartiers ou tranches fines.",
+        "Laver, équeuter et plonger le persil en branches dans eau glacée pour le maintenir croquant.",
+        "4. Marquer les tronçons en cuisson – 5 min",
+        "Porter un grand rondeau d'eau + lait + citron à frémissement (acidité et lait protègent la chair).",
+        "Plonger les tronçons délicatement, cuire à frémissement 8 à 10 min selon épaisseur (chair opaque et se détachant facilement).",
+        "Maintenir au chaud dans le liquide de pochage.",
+        "5. Confectionner la sauce hollandaise – 15 min",
+        "Réduire légèrement vinaigre/vin blanc avec échalotes (facultatif), passer au chinois.",
+        "Monter au bain-marie tiède les jaunes d'œufs avec la réduction, fouetter jusqu'à ruban.",
+        "Incorporer progressivement le beurre clarifié chaud en fouettant vigoureusement.",
+        "Ajouter jus de citron, assaisonner sel et pointe de piment de Cayenne.",
+        "Réserver au chaud (bain-marie 60 °C max).",
+        "6. Dresser les tronçons de turbot et sauce hollandaise – 5 min",
+        "Égoutter soigneusement les tronçons, les disposer sur assiettes chaudes ou grand plat rond recouvert de papier gaufré.",
+        "Napper harmonieusement de sauce hollandaise chaude.",
+        "Disposer les éléments de décoration : quartiers de citron, persil en branches.",
+        "Servir immédiatement très chaud, avec le reste de sauce en saucière."
+    ],
+    "remarques": [
+        "Le pochage au lait + citron donne une chair très blanche et moelleuse ; ne pas faire bouillir pour éviter que le poisson ne se défasse.",
+        "La sauce hollandaise est fragile : maintenir au chaud sans excès de température pour éviter qu'elle ne tranche.",
+        "Variante : servir avec légumes vapeur (pommes à l'anglaise, carottes, asperges, brocolis) ou persillade.",
+        "Le turbot/turbotin est un poisson noble : cuisson précise pour préserver la texture.",
+        "Accompagnement classique : pommes de terre vapeur, carottes tournées ou romanesco."
+    ]
+}

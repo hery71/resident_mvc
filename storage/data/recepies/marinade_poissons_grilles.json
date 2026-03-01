@@ -1,0 +1,18 @@
+{
+    "titre": "Marinade Poissons grillés",
+    "type": "marinade",
+    "base": "Poissons grillés",
+    "type_de_viande": "soles, turbotins, tronçons de turbot, darnes de saumon",
+    "ingredients": [
+        "huile",
+        "tranches de citron pelées à vif",
+        "thym pulvérisés",
+        "laurier pulvérisés"
+    ],
+    "technique": [
+        "Ranger les éléments dans une plaque en acier inoxydable de grandeur appropriée.",
+        "Arroser légèrement d’huile et de jus de citron si nécessaire.",
+        "Ajouter la garniture aromatique, les aromates ou les condiments.",
+        "Laisser mariner selon la nature et la taille des pièces."
+    ]
+}

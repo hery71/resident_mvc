@@ -1,0 +1,142 @@
+{
+    "titre": "Suprêmes de bar vue farcis en darnes, beurre au pipérade",
+    "type": "Hors-d'œuvre chauds à base de poisson",
+    "description": "Suprêmes de bar farcis d'une farce fine de bar ou poisson blanc, façonnés en darnes, enveloppés de bardes de lard ou couenne, cuits à la vapeur ou pochés, servis nappés de beurre monté à la pipérade (poivrons, tomates, oignons). Dressage avec légumes vapeur ou pommes à l'anglaise.",
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "bar (filets ou suprêmes, pour 2,500 kg total)",
+                "quantite": "2,500",
+                "unite": "kg"
+            }
+        ],
+        "farce": [
+            {
+                "nom": "chair de bar ou poisson blanc",
+                "quantite": "0,400",
+                "unite": "kg"
+            },
+            {
+                "nom": "crème fraîche",
+                "quantite": "0,200",
+                "unite": "l"
+            },
+            {
+                "nom": "œuf (blanc pour liaison)",
+                "quantite": "1",
+                "unite": "pièce"
+            }
+        ],
+        "bardes_et_enveloppement": [
+            {
+                "nom": "bardes de lard ou couenne fine",
+                "quantite": "0,200",
+                "unite": "kg"
+            }
+        ],
+        "pipérade": [
+            {
+                "nom": "poivrons (rouges et verts)",
+                "quantite": "0,300",
+                "unite": "kg"
+            },
+            {
+                "nom": "tomates concassées",
+                "quantite": "0,400",
+                "unite": "kg"
+            },
+            {
+                "nom": "oignons",
+                "quantite": "0,200",
+                "unite": "kg"
+            },
+            {
+                "nom": "ail (gousses)",
+                "quantite": "2",
+                "unite": "gousses"
+            },
+            {
+                "nom": "huile d'olive",
+                "quantite": "0,060",
+                "unite": "l"
+            }
+        ],
+        "beurre_monté": [
+            {
+                "nom": "beurre extra-fin",
+                "quantite": "0,200",
+                "unite": "kg"
+            }
+        ],
+        "finition_et_decoration": [
+            {
+                "nom": "persil plat frais (pluches ou haché)",
+                "quantite": "0,040",
+                "unite": "kg"
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel fin",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "poivre du moulin",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "piment de Cayenne",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ]
+    },
+    "duree_moyenne_preparation": "1 h 30 min",
+    "duree_moyenne_cuisson": "12 à 15 min (cuisson vapeur/pochage)",
+    "technique": [
+        "1. Mettre en place le poste de travail – 5 min",
+        "Denrées, matériels de préparation, de cuisson et de dressage.",
+        "2. Habiller et lever les filets de bar – 15 min",
+        "Lever les filets du bar, retirer peau et arêtes.",
+        "Détailler en suprêmes réguliers (150–200 g par personne), réserver au frais.",
+        "3. Réaliser la farce fine de bar – 15 min",
+        "Mixer la chair de bar avec sel, poivre, pointe de muscade.",
+        "Incorporer progressivement la crème très froide en filet.",
+        "Ajouter le blanc d'œuf pour liaison, passer au tamis fin.",
+        "Réserver au frais.",
+        "4. Farcir et barder les suprêmes – 15 min",
+        "Inciser les suprêmes pour créer une poche.",
+        "Garnir de farce fine, refermer soigneusement.",
+        "Envelopper chaque suprême dans une barde de lard ou couenne fine.",
+        "Ficeler légèrement pour maintenir la forme.",
+        "Réserver au frais.",
+        "5. Réaliser la pipérade – 20 min",
+        "Éplucher, laver et tailler poivrons, oignons, tomates en dés.",
+        "Faire suer oignons et poivrons dans huile d'olive.",
+        "Ajouter tomates concassées, ail haché, bouquet garni.",
+        "Cuire à découvert jusqu'à évaporation complète de l'eau.",
+        "Rectifier assaisonnement, réserver au chaud.",
+        "6. Cuire les suprêmes – 12 à 15 min",
+        "Cuire à la vapeur ou pocher dans court-bouillon léger 12 à 15 min (chair nacrée et opaque).",
+        "Maintenir au chaud.",
+        "7. Confectionner le beurre monté au pipérade – 10 min",
+        "Réduire légèrement la pipérade avec un peu de fumet.",
+        "Monter au beurre froid en fouettant sur feu doux.",
+        "Assaisonner sel, poivre, piment de Cayenne.",
+        "Réserver au chaud (bain-marie).",
+        "8. Dresser les suprêmes de bar – 5 min",
+        "Disposer les suprêmes sur assiettes chaudes ou plat rond.",
+        "Napper harmonieusement de beurre monté à la pipérade.",
+        "Décorer avec pluches de persil ou fines herbes.",
+        "Servir immédiatement très chaud, avec légumes vapeur à part si désiré."
+    ],
+    "remarques": [
+        "Le bar est un poisson délicat : cuisson douce pour éviter qu'il ne se défasse.",
+        "La farce doit être très fine et bien froide pour une texture homogène.",
+        "Le beurre monté à la pipérade peut être légèrement infusé au fenouil ou anis pour accentuer l'arôme.",
+        "Variante : servir avec une sauce hollandaise ou beurre blanc pour une version plus classique.",
+        "Accompagnement classique : pommes à l'anglaise, carottes, brocolis ou fenouil braisé."
+    ]
+}

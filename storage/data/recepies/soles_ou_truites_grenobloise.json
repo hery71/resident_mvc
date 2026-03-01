@@ -1,0 +1,88 @@
+{
+  "titre": "SOLES OU TRUITES GRENOBLOISE",
+  "denrees_pour_8_couverts": {
+    "Éléments de base": [
+      {
+        "nom": "soles ou truites",
+        "quantite": "8",
+        "unite": "pièces"
+      },
+      {
+        "nom": "poids par pièce",
+        "quantite": "0,250",
+        "unite": "kg"
+      }
+    ],
+    "Garniture grenobloise": [
+      {
+        "nom": "citrons pelés à vif",
+        "quantite": "2",
+        "unite": "pièces"
+      },
+      {
+        "nom": "petits dés réguliers de citron (1 cm de côté)",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "beurre",
+        "quantite": "0,040",
+        "unite": "kg"
+      },
+      {
+        "nom": "huile",
+        "quantite": "0,02",
+        "unite": "l"
+      },
+      {
+        "nom": "câpres",
+        "quantite": "0,080",
+        "unite": "kg"
+      },
+      {
+        "nom": "persil haché",
+        "quantite": "0,040",
+        "unite": "kg"
+      }
+    ],
+    "Cuisson": [
+      {
+        "nom": "beurre noisette",
+        "quantite": "0,160",
+        "unite": "kg"
+      }
+    ],
+    "Assaisonnement": [
+      {
+        "nom": "sel",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "poivre",
+        "quantite": "PM",
+        "unite": ""
+      }
+    ]
+  },
+  "technique_de_realisation": [
+    "1. Mettre en place le poste de travail",
+    "2. Habiller 8 soles ou 8 truites de 0,250 kg pièce",
+    "3. Préparer la garniture grenobloise",
+    "Détailler 0,160 kg de pain de mie en petits dés réguliers d’1 cm de côté.",
+    "Les faire sauter rapidement dans une petite poêle avec 0,040 kg de beurre et 0,02 l d’huile.",
+    "Égoutter et réserver les croûtons sur du papier absorbant.",
+    "Peler à vif et lever les segments de deux citrons.",
+    "Détailler les segments (transversalement) en lamelles de 2 mm d’épaisseur.",
+    "Égoutter 0,080 kg de câpres fines.",
+    "4. Préparer les éléments de la présentation",
+    "Hacher finement 0,040 kg de persil.",
+    "Canneler et émincer en demi-rondelles deux citrons (ils sont destinés à festonner les bords des plats).",
+    "5. Marquer les soles ou les truites en cuisson",
+    "Les fariner et les cuire au beurre et d’huile selon la méthode des soles ou des truites meunière.",
+    "6. Dresser les soles ou les truites grenobloise",
+    "Répartir uniformément la garniture grenobloise sur les soles ou sur les truites.",
+    "Napper uniformément avec 0,160 kg de beurre noisette.",
+    "Saupoudrer (sans excès) de persil haché."
+  ]
+}

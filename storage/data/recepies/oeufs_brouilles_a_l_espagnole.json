@@ -1,0 +1,130 @@
+{
+    "titre": "Œufs brouillés à l'espagnole",
+    "type": "Hors-d'œuvre chauds à base d'œufs",
+    "description": "Œufs brouillés crémeux servis sur une fondue de tomates, entourés d'anneaux d'oignons frits en beignet et décorés de poivrons rouges ou persil. Garniture typique espagnole avec tomates, oignons et éventuellement poivrons.",
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "œufs extra-frais",
+                "quantite": "24",
+                "unite": "pièces"
+            }
+        ],
+        "fondue_de_tomates": [
+            {
+                "nom": "tomates (fraîches, mûres)",
+                "quantite": "1,000",
+                "unite": "kg"
+            },
+            {
+                "nom": "oignons",
+                "quantite": "0,200",
+                "unite": "kg"
+            },
+            {
+                "nom": "ail (gousses)",
+                "quantite": "2",
+                "unite": "gousses"
+            },
+            {
+                "nom": "huile d'olive",
+                "quantite": "0,060",
+                "unite": "l"
+            }
+        ],
+        "anneaux_d_oignons_frits": [
+            {
+                "nom": "oignons (gros)",
+                "quantite": "0,500",
+                "unite": "kg"
+            },
+            {
+                "nom": "farine (pour pâte à beignet)",
+                "quantite": "0,150",
+                "unite": "kg"
+            },
+            {
+                "nom": "bière ou eau gazeuse (pour pâte)",
+                "quantite": "0,200",
+                "unite": "l"
+            },
+            {
+                "nom": "huile de friture",
+                "quantite": "1,000",
+                "unite": "l"
+            }
+        ],
+        "brouillage_et_finition": [
+            {
+                "nom": "beurre (pour brouillage)",
+                "quantite": "0,080",
+                "unite": "kg"
+            },
+            {
+                "nom": "crème liquide (facultatif pour onctuosité)",
+                "quantite": "0,040",
+                "unite": "l"
+            },
+            {
+                "nom": "persil haché ou pluches",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "poivrons rouges (facultatif, en brunoise ou anneaux)",
+                "quantite": "0,200",
+                "unite": "kg"
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel fin",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "poivre du moulin",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ]
+    },
+    "duree_moyenne_preparation": "1 h",
+    "duree_moyenne_cuisson": "6 à 8 min (brouillage) + 15 min (fondue) + 5 min (friture oignons)",
+    "technique": [
+        "1. Mettre en place le poste de travail – 5 min",
+        "Denrées, matériels de préparation, de cuisson et de dressage.",
+        "2. Préparer la pâte pour anneaux d'oignons – 10 min",
+        "Tamiser la farine, ajouter sel, incorporer progressivement la bière ou eau gazeuse pour obtenir une pâte lisse et fluide.",
+        "Laisser reposer 30 min au frais.",
+        "3. Préparer la fondue de tomates – 15 min",
+        "Éplucher, laver, concasser les tomates.",
+        "Éplucher et ciseler les oignons et l'ail.",
+        "Faire suer oignons et ail dans l'huile d'olive sans coloration.",
+        "Ajouter les tomates, assaisonner sel et poivre, cuire à découvert jusqu'à évaporation complète de l'eau.",
+        "Rectifier assaisonnement, réserver au chaud.",
+        "4. Cuire les anneaux d'oignons frits – 10 min",
+        "Éplucher et tailler les oignons en rondelles de 4 mm d'épaisseur, séparer les anneaux.",
+        "Tremper les anneaux dans la pâte, frire dans huile chaude (170–180 °C) jusqu'à doré croustillant.",
+        "Égoutter sur papier absorbant, saler légèrement.",
+        "Réserver au chaud.",
+        "5. Réaliser les œufs brouillés – 15 min",
+        "Battre les œufs avec sel et poivre.",
+        "Cuire au bain-marie ou à feu très doux avec beurre en remuant constamment jusqu'à consistance crémeuse.",
+        "Hors du feu, ajouter beurre supplémentaire et crème si désiré, mélanger vigoureusement.",
+        "Vérifier assaisonnement.",
+        "6. Dresser les œufs brouillés à l'espagnole – 5 min",
+        "Disposer une couche de fondue de tomates chaude au centre de chaque assiette chaude.",
+        "Napper généreusement des œufs brouillés crémeux par-dessus.",
+        "Ranger harmonieusement autour les anneaux d'oignons frits.",
+        "Décorer avec persil haché ou pluches, éventuellement des lanières de poivrons rouges frits ou crus.",
+        "Servir immédiatement très chaud."
+    ],
+    "remarques": [
+        "Les œufs brouillés doivent être cuits à la commande pour conserver leur onctuosité.",
+        "La fondue de tomates peut être préparée à l'avance et réchauffée doucement.",
+        "Variante espagnole : ajouter des poivrons rouges ou verts dans la fondue pour plus de couleur et de goût.",
+        "Pour une version plus légère, réduire la quantité de beurre et crème.",
+        "Servir avec pain grillé ou toast à part pour saucer la fondue."
+    ]
+}

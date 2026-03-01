@@ -1,0 +1,115 @@
+{
+    "titre": "Côtelettes d'œufs durs, sauce tomate",
+    "type": "Hors-d'œuvre chauds à base d'œufs",
+    "description": "Œufs durs concassés et façonnés en forme de côtelettes, panés à l'anglaise, frits ou sautés au beurre clarifié, servis avec une sauce tomate chaude. Présentation en papillote ou sur plat rond avec accompagnement de sauce.",
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "œufs durs",
+                "quantite": "12",
+                "unite": "pièces"
+            }
+        ],
+        "garniture_et_farce": [
+            {
+                "nom": "champignons de Paris",
+                "quantite": "0,250",
+                "unite": "kg"
+            },
+            {
+                "nom": "beurre",
+                "quantite": "0,020",
+                "unite": "kg"
+            },
+            {
+                "nom": "jambon cuit (ou jambon de Paris)",
+                "quantite": "0,150",
+                "unite": "kg"
+            }
+        ],
+        "panure_anglaise": [
+            {
+                "nom": "farine",
+                "quantite": "0,100",
+                "unite": "kg"
+            },
+            {
+                "nom": "œufs entiers (pour panure)",
+                "quantite": "3",
+                "unite": "pièces"
+            },
+            {
+                "nom": "chapelure (ou mie de pain fraîche)",
+                "quantite": "0,200",
+                "unite": "kg"
+            }
+        ],
+        "cuisson": [
+            {
+                "nom": "beurre clarifié (ou huile pour friture)",
+                "quantite": "0,100",
+                "unite": "kg"
+            }
+        ],
+        "sauce_tomate": [
+            {
+                "nom": "sauce tomate (base napolitaine ou classique)",
+                "quantite": "0,500",
+                "unite": "l"
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel fin",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "poivre du moulin",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ]
+    },
+    "duree_moyenne_preparation": "1 h",
+    "duree_moyenne_cuisson": "5 à 8 min (friture/sautage des côtelettes)",
+    "technique": [
+        "1. Mettre en place le poste de travail – 5 min",
+        "Denrées, matériels de préparation, de cuisson et de dressage.",
+        "2. Durcir et concasser les œufs – 10 min",
+        "Cuire les 12 œufs durs (10 min à partir de l'ébullition), rafraîchir, écaler.",
+        "Concasser grossièrement les œufs (blancs et jaunes) sur feuille de papier sulfurisé ou planche.",
+        "Passer au tamis grossier ou hacher finement au couteau.",
+        "3. Préparer la garniture – 10 min",
+        "Laver, équeuter, hacher finement le persil.",
+        "Nettoyer, émincer et hacher les champignons, les faire suer au beurre avec échalotes si utilisées.",
+        "Hacher le jambon finement.",
+        "Mélanger les œufs concassés avec la garniture (champignons, jambon, persil), assaisonner sel et poivre.",
+        "4. Confectionner les côtelettes – 15 min",
+        "Diviser le mélange en 12 portions égales.",
+        "Façonner chaque portion en forme de côtelette ovale ou ronde (environ 1,5 cm d'épaisseur).",
+        "Disposer sur plaque farinée ou papier sulfurisé, réserver au frais 15–30 min pour raffermir.",
+        "5. Paner à l'anglaise – 10 min",
+        "Préparer 3 bacs : farine assaisonnée, œufs battus, chapelure.",
+        "Paner chaque côtelette : passer dans farine, œuf, chapelure (double panure si désiré pour plus de croustillant).",
+        "Réserver au frais.",
+        "6. Sauter ou frire les côtelettes – 5 à 8 min",
+        "Chauffer le beurre clarifié ou l'huile dans une poêle ou friteuse (170–180 °C).",
+        "Sauter ou frire les côtelettes jusqu'à belle coloration dorée des deux côtés (3–4 min par face).",
+        "Égoutter sur papier absorbant, saler légèrement.",
+        "7. Préparer la sauce tomate – 5 min",
+        "Réchauffer la sauce tomate, rectifier assaisonnement si besoin.",
+        "Réserver au chaud.",
+        "8. Dresser les côtelettes – 5 min",
+        "Dresser 1 à 2 côtelettes par assiette chaude ou sur plat rond.",
+        "Napper harmonieusement de sauce tomate chaude autour ou en saucière à part.",
+        "Décorer éventuellement avec pluches de persil ou brins de ciboulette.",
+        "Servir immédiatement très chaud."
+    ],
+    "remarques": [
+        "La préparation peut être faite à l'avance jusqu'au panage ; frire ou sauter à la commande pour un maximum de croustillant.",
+        "Variante : ajouter une pointe de muscade ou d'herbes dans la farce pour plus de saveur.",
+        "Pour une version plus légère, cuire au four chaud (200 °C) après panure au lieu de friture.",
+        "Servir avec une salade verte ou des légumes vapeur en accompagnement."
+    ]
+}

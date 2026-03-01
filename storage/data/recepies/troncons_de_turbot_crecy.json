@@ -1,0 +1,119 @@
+{
+    "titre": "Tronçons de turbot Crécy",
+    "type": "Hors-d'œuvre chauds à base de poisson",
+    "description": "Tronçons de turbot pochés, servis nappés de beurre fondu ou sauce légère, accompagnés d'une garniture Crécy (purée de carottes fine et onctueuse), décorés de carottes tournées et persil. Dressage classique avec accompagnement de légumes vapeur ou pommes à l'anglaise.",
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "turbot (tronçons ou portions)",
+                "quantite": "2,000",
+                "unite": "kg"
+            }
+        ],
+        "garniture_crecy": [
+            {
+                "nom": "carottes (fraîches, nouvelles ou tendres)",
+                "quantite": "0,800",
+                "unite": "kg"
+            },
+            {
+                "nom": "beurre",
+                "quantite": "0,100",
+                "unite": "kg"
+            },
+            {
+                "nom": "crème liquide ou double",
+                "quantite": "0,200",
+                "unite": "l"
+            },
+            {
+                "nom": "pomme de terre (facultatif pour liaison)",
+                "quantite": "0,100",
+                "unite": "kg"
+            }
+        ],
+        "beurre_fondu_ou_sauce": [
+            {
+                "nom": "beurre extra-fin",
+                "quantite": "0,200",
+                "unite": "kg"
+            },
+            {
+                "nom": "citron (jus)",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ],
+        "decoration_et_accompagnement": [
+            {
+                "nom": "carottes tournées (petites, pour décor)",
+                "quantite": "0,200",
+                "unite": "kg"
+            },
+            {
+                "nom": "persil plat (pluches ou haché)",
+                "quantite": "0,040",
+                "unite": "kg"
+            },
+            {
+                "nom": "légumes vapeur (pommes, brocolis…)",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel fin",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "poivre du moulin",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "piment de Cayenne",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ]
+    },
+    "duree_moyenne_preparation": "1 h",
+    "duree_moyenne_cuisson": "10 à 12 min (pochage turbot) + 30 min (garniture Crécy)",
+    "technique": [
+        "1. Mettre en place le poste de travail – 5 min",
+        "Denrées, matériels de préparation, de cuisson et de dressage.",
+        "2. Habiller et détailler le turbot en tronçons – 15 min",
+        "Lever les filets ou tronçons de turbot, retirer peau et arêtes.",
+        "Laver, éponger, détailler en portions régulières (150–200 g par personne).",
+        "Réserver au frais.",
+        "3. Préparer la garniture Crécy – 30 min",
+        "Éplucher et tailler les carottes en rondelles fines ou dés.",
+        "Cuire les carottes dans eau bouillante salée avec beurre jusqu'à tendreté complète.",
+        "Égoutter, mixer finement au blender ou passer au tamis pour obtenir une purée très fine.",
+        "Incorporer beurre en pommade et crème chaude, fouetter pour onctuosité.",
+        "Assaisonner sel, poivre, pointe de muscade ou sucre si besoin.",
+        "Réserver au chaud (bain-marie).",
+        "4. Cuire les carottes tournées pour décor – 20 min",
+        "Tourner les petites carottes, cuire dans beurre et eau jusqu'à glacé.",
+        "Réserver au chaud.",
+        "5. Marquer les tronçons de turbot en cuisson – 5 min",
+        "Porter un rondeau d'eau citronnée à frémissement.",
+        "Plonger les tronçons, cuire 8 à 10 min selon épaisseur (chair opaque).",
+        "Maintenir au chaud dans le liquide.",
+        "6. Dresser les tronçons de turbot Crécy – 5 min",
+        "Égoutter les tronçons, les disposer sur assiettes chaudes ou plat rond.",
+        "Napper d'un cordon de beurre fondu citronné ou sauce légère.",
+        "Disposer une quenelle ou cuillerée de purée Crécy à côté ou dessous.",
+        "Décorer avec carottes tournées glacées et persil frais.",
+        "Servir immédiatement très chaud, avec légumes vapeur à part si désiré."
+    ],
+    "remarques": [
+        "Le turbot est un poisson noble : pochage très doux pour préserver la texture.",
+        "La purée Crécy doit être très fine et onctueuse ; passer au chinois si besoin.",
+        "Variante : ajouter une pointe de muscade ou sucre dans la purée pour équilibrer l'acidité.",
+        "Accompagnement classique : pommes à l'anglaise, carottes, brocolis ou asperges.",
+        "Servir avec beurre blanc ou hollandaise pour une version plus riche."
+    ]
+}

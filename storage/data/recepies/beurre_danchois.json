@@ -1,0 +1,17 @@
+{
+    "titre": "Beurre d’anchois",
+    "type": "beurre compose",
+    "genre": "a froid",
+    "ingredients": [
+        "Beurre",
+        "filet d’anchois à l’huile égoutté ou anchovy sauce",
+        "sel",
+        "poivre du moulin"
+    ],
+    "technique": [
+        "Mixer le beurre et les filets d’anchois. Passer au tamis si nécessaire"
+    ],
+    "utilisation": [
+        "Poissons grillés, canapés, allumettes et feuilletés aux anchois, etc."
+    ]
+}

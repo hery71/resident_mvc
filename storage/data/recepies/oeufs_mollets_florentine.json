@@ -1,0 +1,142 @@
+{
+    "titre": "Œufs mollets florentine",
+    "type": "Hors-d'œuvre chauds à base d'œufs",
+    "description": "Œufs mollets dressés sur un lit d'épinards sautés au beurre noisette, nappés de sauce Mornay, saupoudrés de gruyère râpé et gratinés au four ou sous salamandre.",
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "œufs extra-frais",
+                "quantite": "16",
+                "unite": "pièces"
+            }
+        ],
+        "epinards": [
+            {
+                "nom": "épinards extra-frais (ou surgelés)",
+                "quantite": "2",
+                "unite": "kg"
+            }
+        ],
+        "sauce_mornay": [
+            {
+                "nom": "beurre",
+                "quantite": "0,070",
+                "unite": "kg"
+            },
+            {
+                "nom": "farine",
+                "quantite": "0,070",
+                "unite": "kg"
+            },
+            {
+                "nom": "lait",
+                "quantite": "1",
+                "unite": "l"
+            },
+            {
+                "nom": "œufs (jaunes)",
+                "quantite": "3",
+                "unite": "pièces"
+            },
+            {
+                "nom": "gruyère râpé et tamisé",
+                "quantite": "0,080",
+                "unite": "kg"
+            }
+        ],
+        "beurre_pour_plat_et_tamponnage": [
+            {
+                "nom": "beurre (pour le plat à gratin)",
+                "quantite": "0,020",
+                "unite": "kg"
+            },
+            {
+                "nom": "beurre (noisette pour épinards)",
+                "quantite": "0,020",
+                "unite": "kg"
+            }
+        ],
+        "finition_et_gratin": [
+            {
+                "nom": "gruyère râpé",
+                "quantite": "0,080",
+                "unite": "kg"
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "gros sel",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "sel fin",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "poivre du moulin",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "piment de Cayenne",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "noix de muscade",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ]
+    },
+    "duree_moyenne_preparation": "1 h 10 min",
+    "duree_moyenne_cuisson": "5 à 6 min (œufs mollets) + gratinage",
+    "technique": [
+        "1. Mettre en place le poste de travail – 5 min",
+        "Denrées, matériels de préparation, de cuisson et de dressage.",
+        "2. Trier, équeuter, laver et blanchir les épinards – 15 min",
+        "Trier et laver soigneusement les épinards frais (ou décongeler les surgelés).",
+        "Porter une grande quantité d'eau salée à ébullition, plonger les épinards 1 à 2 min (blanchiment rapide).",
+        "Rafraîchir immédiatement dans eau glacée, égoutter, presser fortement pour éliminer l'eau.",
+        "Réserver.",
+        "3. Préparer le gruyère – 5 min",
+        "Râper et tamiser le gruyère. Réserver la moitié pour la sauce Mornay et l'autre pour le gratin.",
+        "4. Confectionner la sauce Mornay – 15 min",
+        "Confectionner un roux blanc avec beurre et farine, cuire 1 min sans coloration.",
+        "Mouiller avec lait bouillant, porter à ébullition en fouettant, cuire 5–8 min.",
+        "Hors du feu, incorporer les jaunes d'œufs un à un, puis la moitié du gruyère râpé.",
+        "Assaisonner sel, poivre, piment de Cayenne, noix de muscade.",
+        "Tamponner au beurre, filmer au contact et réserver au bain-marie.",
+        "5. Cuire les œufs mollets – 15 min",
+        "Porter une grande casserole d'eau vinaigrée à frémissement doux.",
+        "Casser les œufs un par un dans l'eau frémissante, cuire 5 à 6 min (jaune coulant).",
+        "Rafraîchir dans eau glacée, égoutter délicatement, retirer la membrane fine si besoin.",
+        "Réserver au frais si pas utilisés immédiatement.",
+        "6. Sauter les épinards – 5 min",
+        "Faire fondre le beurre noisette dans une grande sauteuse.",
+        "Ajouter les épinards égouttés et pressés, sauter vivement 2–3 min.",
+        "Assaisonner sel, poivre, muscade. Réserver au chaud.",
+        "7. Réchauffer les œufs mollets – 2 min",
+        "Plonger les œufs mollets dans eau frémissante 30 secondes pour les réchauffer sans recuire.",
+        "Égoutter soigneusement.",
+        "8. Dresser et gratiner les œufs florentine – 10 min",
+        "Beurrer un grand plat à gratin ou des ramequins individuels.",
+        "Disposer un lit d'épinards sautés au fond.",
+        "Poser 2 œufs mollets par personne sur les épinards.",
+        "Napper uniformément de sauce Mornay chaude.",
+        "Saupoudrer généreusement du reste de gruyère râpé.",
+        "Gratiner au four chaud (200 °C) ou sous salamandre 5 à 8 min jusqu'à belle coloration dorée.",
+        "9. Dresser final – 2 min",
+        "Dresser les œufs florentine sur assiettes chaudes ou servir dans le plat.",
+        "Nettoyer les bords, disposer sur papier gaufré si en plat.",
+        "Servir immédiatement très chaud."
+    ],
+    "remarques": [
+        "Les œufs mollets doivent être cuits à la commande pour garder le jaune coulant.",
+        "Les épinards frais donnent un meilleur résultat ; si surgelés, bien les presser pour éviter l'eau de restitution.",
+        "Variante : ajouter une pointe d'ail haché ou de muscade supplémentaire dans les épinards.",
+        "Pour une version plus légère, remplacer une partie de la crème par du lait dans la sauce Mornay."
+    ]
+}

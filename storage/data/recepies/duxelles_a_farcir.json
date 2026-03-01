@@ -1,0 +1,85 @@
+{
+    "titre": "Duxelles à farcir",
+    "type": "Préparation de base",
+    "page": "317-318",
+    "denrees": {
+        "base": [
+            {
+                "nom": "Champignons",
+                "quantite": "1,000",
+                "unite": "kg"
+            },
+            {
+                "nom": "Beurre",
+                "quantite": "0,100",
+                "unite": "kg"
+            },
+            {
+                "nom": "Échalotes",
+                "quantite": "0,075",
+                "unite": "kg"
+            },
+            {
+                "nom": "Oignons",
+                "quantite": "0,075",
+                "unite": "kg"
+            },
+            {
+                "nom": "Persil",
+                "quantite": "0,020",
+                "unite": "kg"
+            }
+        ],
+        "complement": [
+            {
+                "nom": "Vin blanc",
+                "quantite": "0,20",
+                "unite": "l"
+            },
+            {
+                "nom": "Sauce demi-glace tomatée",
+                "quantite": "0,40",
+                "unite": "l"
+            },
+            {
+                "nom": "Fond brun de veau lié fortement tomaté",
+                "quantite": "0,40",
+                "unite": "l"
+            },
+            {
+                "nom": "Ail",
+                "quantite": "0,020",
+                "unite": "kg"
+            },
+            {
+                "nom": "Mie de pain",
+                "quantite": "0,150 à 0,200",
+                "unite": "kg"
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "Sel fin",
+                "quantite": "PM"
+            },
+            {
+                "nom": "Poivre du moulin",
+                "quantite": "PM"
+            }
+        ]
+    },
+    "duree_moyenne_preparation": "30 à 35 min",
+    "duree_moyenne_cuisson": "30 à 35 min",
+    "technique": [
+        "Mettre en place le poste de travail.",
+        "Peser, mesurer et contrôler les denrées.",
+        "Réaliser la Duxelles sèche (voir fiche précédente).",
+        "Ajouter le vin blanc et le laisser réduire presque complètement.",
+        "Ajouter la sauce demi-glace ou le fond brun de veau lié fortement tomaté et l’ail finement haché.",
+        "Laisser réduire doucement et ajouter la mie de pain tamisée.",
+        "Laisser réduire jusqu’à la consistance souhaitée en remuant fréquemment à l’aide d’une spatule en exoglass.",
+        "Vérifier la consistance et l’assaisonnement.",
+        "Débarrasser la Duxelles à farcir dans une calotte en acier inoxydable.",
+        "La recouvrir d’un papier sulfurisé beurré."
+    ]
+}

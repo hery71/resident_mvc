@@ -1,0 +1,22 @@
+{
+    "titre": "Marinade Poissons crus",
+    "type": "marinade",
+    "base": "Poissons crus",
+    "type_de_viande": "fines tranches ou filets de saumon, de daurade, de bar, de Saint-Pierre",
+    "ingredients": [
+        "sel",
+        "sucre",
+        "huile d’olive",
+        "aneth",
+        "badiane",
+        "jus de citron",
+        "lait de coco",
+        "jus de citron vert ou jus de lime"
+    ],
+    "technique": [
+        "Ranger les éléments dans une plaque en acier inoxydable de grandeur appropriée.",
+        "Arroser légèrement d’huile et de jus de citron si nécessaire.",
+        "Ajouter la garniture aromatique, les aromates ou les condiments.",
+        "Laisser mariner selon la nature et la taille des pièces."
+    ]
+}

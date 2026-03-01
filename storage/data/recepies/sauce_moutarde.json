@@ -1,0 +1,11 @@
+{
+    "titre": "Sauce moutarde",
+    "type": "Sauce dérivée",
+    "base": "Sauce hollandaise",
+    "page": 311,
+    "garniture": "Moutarde blanche ou moutarde de Meaux",
+    "utilisations": [
+        "Poissons grillés",
+        "Abats blancs pochés"
+    ]
+}

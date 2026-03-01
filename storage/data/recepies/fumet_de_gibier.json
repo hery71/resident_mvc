@@ -1,0 +1,90 @@
+{
+  "title": "Fumet de gibier",
+  "category": "Fonds",
+  "type": "Technique de base",
+  "pages": [
+    262,
+    263
+  ],
+  "yield": "1 litre",
+  "ingredients": {
+    "base": [
+      {
+        "name": "os et parures maigres de gibier à poils",
+        "unite": "kg",
+        "quantite": null
+      },
+      {
+        "name": "bas morceaux d’animaux âgés (cou, collier, poitrine)",
+        "unite": "kg",
+        "quantite": 1.0
+      },
+      {
+        "name": "carcasses et abattis de gibier à plumes",
+        "unite": "kg",
+        "quantite": 1.0
+      },
+      {
+        "name": "oiseaux âgés (faisans, pigeons)",
+        "unite": "kg",
+        "quantite": null
+      }
+    ],
+    "garniture_aromatique": [
+      {
+        "name": "carottes",
+        "unite": "kg",
+        "quantite": 0.1
+      },
+      {
+        "name": "oignons",
+        "unite": "kg",
+        "quantite": 0.1
+      },
+      {
+        "name": "tiges de persil",
+        "unite": "PM",
+        "quantite": "PM"
+      },
+      {
+        "name": "thym, laurier, sauge, romarin, sarriette",
+        "unite": "PM",
+        "quantite": "PM"
+      }
+    ],
+    "mouillement": [
+      {
+        "name": "vin blanc",
+        "unite": "litre",
+        "quantite": 0.1
+      },
+      {
+        "name": "eau froide",
+        "unite": "litre",
+        "quantite": 1.4
+      }
+    ],
+    "assaisonnement": [
+      {
+        "name": "gros sel (facultatif)",
+        "unite": "PM",
+        "quantite": "PM"
+      },
+      {
+        "name": "poivre en grains",
+        "unite": "PM",
+        "quantite": "PM"
+      },
+      {
+        "name": "baies de genévrier",
+        "unite": "PM",
+        "quantite": "PM"
+      }
+    ]
+  },
+  "timing": {
+    "duree_moyenne_realisation": "20 à 25 min",
+    "duree_moyenne_cuisson": "2 h 30 à 3 h"
+  },
+  "version": "1.1"
+}

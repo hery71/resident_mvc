@@ -1,0 +1,138 @@
+{
+  "titre": "PETITE NAGE TIÈDE DE LANGOUSTINES ET COQUILLES SAINT-JACQUES AU NOILLY",
+  "type": "Crustacés pochés",
+  "page": 771,
+  "denrees_pour_8_couverts": {
+    "elements_de_base": [
+      {
+        "nom": "coquilles Saint-Jacques coraillées",
+        "quantite": "16",
+        "unite": "pièces"
+      },
+      {
+        "nom": "langoustines",
+        "quantite": "24",
+        "unite": "pièces"
+      }
+    ],
+    "fumet_de_base": [
+      {
+        "nom": "beurre",
+        "quantite": "0,100",
+        "unite": "kg"
+      },
+      {
+        "nom": "blancs de poireaux",
+        "quantite": "0,100",
+        "unite": "kg"
+      },
+      {
+        "nom": "champignons",
+        "quantite": "0,100",
+        "unite": "kg"
+      },
+      {
+        "nom": "blancs de céleri",
+        "quantite": "0,050",
+        "unite": "kg"
+      },
+      {
+        "nom": "échalotes",
+        "quantite": "0,050",
+        "unite": "kg"
+      },
+      {
+        "nom": "fumet de poisson",
+        "quantite": "0,50",
+        "unite": "l"
+      },
+      {
+        "nom": "bouquet garni",
+        "quantite": "1",
+        "unite": "pièce"
+      }
+    ],
+    "nage": [
+      {
+        "nom": "petites carottes (2 cm diamètre max)",
+        "quantite": "0,250",
+        "unite": "kg"
+      },
+      {
+        "nom": "petits oignons blancs (brunoise)",
+        "quantite": "0,200",
+        "unite": "kg"
+      },
+      {
+        "nom": "Noilly",
+        "quantite": "0,10",
+        "unite": "l"
+      },
+      {
+        "nom": "échalotes ciselées",
+        "quantite": "0,040",
+        "unite": "kg"
+      },
+      {
+        "nom": "crème",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "beurre extra-fin",
+        "quantite": "0,150",
+        "unite": "kg"
+      }
+    ],
+    "assaisonnement": [
+      {
+        "nom": "sel fin",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "poivre du moulin",
+        "quantite": "PM",
+        "unite": ""
+      }
+    ],
+    "decoration": [
+      {
+        "nom": "pluches de cerfeuil",
+        "quantite": "PM",
+        "unite": ""
+      }
+    ]
+  },
+  "technique_de_realisation": [
+    "1. Mettre en place le poste de travail",
+    "2. Ouvrir 16 coquilles Saint-Jacques coraillées",
+    "Les parer, les dénerver et les mettre à dégorger.",
+    "Les escaloper si elles sont très épaisses.",
+    "Réserver les franges.",
+    "3. Décortiquer 24 belles langoustines",
+    "Broyer ou piler les carapaces.",
+    "4. Réaliser le fumet de base",
+    "Faire suer au beurre 0,100 kg de blancs de poireaux, 0,100 kg de champignons, 0,050 kg de blancs de céleri et 0,050 kg d’échalotes émincées.",
+    "Ajouter les carapaces des langoustines et les franges des coquilles Saint-Jacques.",
+    "Mouiller avec 0,50 l de fumet de poisson et ajouter un petit bouquet garni.",
+    "Cuire très lentement durant 15 min.",
+    "Dépouiller et filtrer soigneusement à l’étamine.",
+    "5. Réaliser la nage",
+    "Éplucher, laver, canneler et émincer finement en rondelles 0,250 kg de petites carottes.",
+    "Mouiller avec le fumet de base et laisser cuire durant une dizaine de minutes.",
+    "Ajouter 0,200 kg de petits oignons blancs taillés en brunoise et cuire à nouveau quelques minutes.",
+    "Saler et poivrer.",
+    "6. Pocher les langoustines et les coquilles Saint-Jacques",
+    "Les plonger dans la nage en ébullition. Laisser frémir 2 min environ.",
+    "7. Terminer la nage",
+    "Réduire 0,10 l de Noilly avec 0,040 kg d’échalotes ciselées.",
+    "Ajouter à la nage passée au chinois. Réduire à glace, crémer et réduire à nouveau.",
+    "Monter la nage avec 0,150 kg de beurre extra-fin découpé en parcelles.",
+    "8. Dresser les langoustines et les coquilles Saint-Jacques",
+    "Les répartir uniformément sur assiettes.",
+    "Disposer harmonieusement les lamelles de carottes et les brunoises d’oignons.",
+    "Napper avec la nage montée au beurre.",
+    "Décorer avec quelques pluches de cerfeuil."
+  ]
+}

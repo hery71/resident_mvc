@@ -1,0 +1,150 @@
+{
+    "fiche": 9,
+    "titre": "Potage Saint-Germain aux croûtons",
+    "type": "potage purée de légumes secs",
+    "page": 628,
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "pois cassés verts",
+                "quantite": "0,700",
+                "unite": "kg"
+            }
+        ],
+        "garniture_aromatique": [
+            {
+                "nom": "beurre",
+                "quantite": "0,040",
+                "unite": "kg"
+            },
+            {
+                "nom": "poitrine de porc demi-sel",
+                "quantite": "0,100",
+                "unite": "kg"
+            },
+            {
+                "nom": "vert de poireau",
+                "quantite": "0,080",
+                "unite": "kg"
+            },
+            {
+                "nom": "carottes",
+                "quantite": "0,080",
+                "unite": "kg"
+            },
+            {
+                "nom": "oignons",
+                "quantite": "0,080",
+                "unite": "kg"
+            },
+            {
+                "nom": "bouquet garni",
+                "quantite": "1",
+                "unite": "pièce"
+            },
+            {
+                "nom": "ail",
+                "quantite": "1",
+                "unite": "gousse"
+            }
+        ],
+        "mouillement": [
+            {
+                "nom": "eau ou fond blanc de veau",
+                "quantite": "2",
+                "unite": "l"
+            }
+        ],
+        "finition": [
+            {
+                "nom": "beurre ou crème double",
+                "quantite": "0,08",
+                "unite": "kg ou l"
+            },
+            {
+                "nom": "cerfeuil",
+                "quantite": "1/4",
+                "unite": "botte"
+            },
+            {
+                "nom": "beurre pour tamponner",
+                "quantite": "0,020",
+                "unite": "kg"
+            }
+        ],
+        "garniture": [
+            {
+                "nom": "pain de mie",
+                "quantite": "0,160",
+                "unite": "kg"
+            },
+            {
+                "nom": "beurre",
+                "quantite": "0,040",
+                "unite": "kg"
+            },
+            {
+                "nom": "huile d’arachide",
+                "quantite": "0,02",
+                "unite": "l"
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "gros sel",
+                "quantite": "PM"
+            },
+            {
+                "nom": "sel fin",
+                "quantite": "PM"
+            }
+        ]
+    },
+    "duree_preparation": "1 h 20 min",
+    "duree_cuisson": "45 min à 1 h",
+    "technique": [
+        "1. Mettre en place le poste de travail – 5 min",
+        "Denrées, matériels de préparation, de cuisson et de dressage.",
+        "2. Blanchir les pois cassés – 5 min",
+        "Laver soigneusement les pois cassés.",
+        "Blanchir (départ eau froide), écumer, rafraîchir et égoutter.",
+        "3. Préparer les lardons – 5 min",
+        "Éliminer la couenne et détailler la poitrine de porc en lardons.",
+        "Blanchir fortement les lardons (départ eau froide) et égoutter.",
+        "4. Préparer les légumes de la garniture aromatique – 20 min",
+        "Éplucher, laver le vert de poireau, les carottes, les oignons, le persil et les gousses d’ail.",
+        "Émincer finement les légumes de la garniture aromatique (Mirepoix).",
+        "Confectionner le bouquet garni.",
+        "Dégermer et écraser les gousses d’ail.",
+        "5. Marquer le potage Saint-Germain en cuisson – 10 min",
+        "Raidir (faire revenir sans coloration) les lardons dans le beurre.",
+        "Ajouter le vert de poireau, les carottes et les oignons.",
+        "Faire suer la Mirepoix pendant 4 à 5 min.",
+        "Ajouter les pois cassés.",
+        "Mouiller avec 2 l d’eau froide ou de préférence du fond blanc de veau.",
+        "Ajouter le bouquet garni et l’ail.",
+        "Porter à ébullition et écumer.",
+        "Cuire doucement et régulièrement à couvert durant 45 min à 1 h suivant la qualité des pois cassés.",
+        "Saler au gros sel en fin de cuisson.",
+        "6. Préparer la garniture – 15 min",
+        "Détailler le pain de mie en petits cubes réguliers d’1 cm de côté.",
+        "Les faire sauter rapidement dans une petite poêle avec du beurre clarifié.",
+        "Égoutter et réserver sur du papier absorbant.",
+        "Effeuiller le cerfeuil.",
+        "Réserver les pluches dans un ramequin avec de l’eau froide.",
+        "7. Passer le potage – 15 min",
+        "Éliminer le bouquet garni.",
+        "Passer le potage Saint-Germain au moulin à légumes ou au mixeur, puis au chinois fin.",
+        "Beurrer ou crémer selon la couleur du potage (la crème présente l’inconvénient de blanchir le potage).",
+        "Remettre le potage à bouillir, écumer si nécessaire.",
+        "Vérifier l’onctuosité, l’assaisonnement et la couleur.",
+        "Débarrasser le potage au bain-marie.",
+        "Tamponner en surface.",
+        "Couvrir le bain-marie.",
+        "8. Terminer et dresser le potage – 5 min",
+        "Disposer les croûtons en dôme au centre de l’assiette ou du ravier.",
+        "Mélanger pour rendre le potage homogène.",
+        "Dresser le potage brûlant dans la soupière.",
+        "Au dernier moment, ajouter les pluches de cerfeuil bien égouttées."
+    ]
+}

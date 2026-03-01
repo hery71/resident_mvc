@@ -1,0 +1,162 @@
+{
+    "fiche": "Sauce américaine",
+    "page": "292-293",
+    "denrees_pour_1_l": {
+        "base": [
+            {
+                "produit": "étrilles",
+                "unite": "kg",
+                "quantite": 1.0
+            },
+            {
+                "produit": "ou autres crustacés",
+                "unite": "kg",
+                "quantite": 1.0
+            },
+            {
+                "produit": "ou carapaces de crustacés",
+                "unite": "kg",
+                "quantite": 1.0
+            },
+            {
+                "produit": "arêtes de poisson (facultatif)",
+                "unite": "kg",
+                "quantite": 0.5
+            },
+            {
+                "produit": "huile",
+                "unite": "l",
+                "quantite": 0.5
+            },
+            {
+                "produit": "beurre",
+                "unite": "kg",
+                "quantite": 0.02
+            }
+        ],
+        "garniture_aromatique": [
+            {
+                "produit": "carottes",
+                "unite": "kg",
+                "quantite": 0.1
+            },
+            {
+                "produit": "oignons",
+                "unite": "kg",
+                "quantite": 0.1
+            },
+            {
+                "produit": "échalotes",
+                "unite": "kg",
+                "quantite": 0.04
+            },
+            {
+                "produit": "tomates",
+                "unite": "kg",
+                "quantite": 0.4
+            },
+            {
+                "produit": "concentré de tomates",
+                "unite": "kg",
+                "quantite": 0.04
+            },
+            {
+                "produit": "ail",
+                "unite": "kg",
+                "quantite": 0.02
+            },
+            {
+                "produit": "bouquet garni",
+                "unite": "piece",
+                "quantite": 1
+            },
+            {
+                "produit": "cerfeuil",
+                "quantite": "PM"
+            },
+            {
+                "produit": "estragon",
+                "quantite": "PM"
+            },
+            {
+                "produit": "Cognac",
+                "unite": "l",
+                "quantite": 0.05
+            },
+            {
+                "produit": "vin blanc",
+                "unite": "l",
+                "quantite": 0.2
+            }
+        ],
+        "mouillement": [
+            {
+                "produit": "fumet de poisson",
+                "unite": "l",
+                "quantite": 1.5
+            }
+        ],
+        "liaison": [
+            {
+                "produit": "beurre",
+                "unite": "kg",
+                "quantite": 0.05
+            },
+            {
+                "produit": "farine",
+                "unite": "kg",
+                "quantite": 0.05
+            }
+        ],
+        "finition": [
+            {
+                "produit": "estragon",
+                "unite": "botte",
+                "quantite": "1/4"
+            },
+            {
+                "produit": "cerfeuil",
+                "unite": "botte",
+                "quantite": "1/4"
+            },
+            {
+                "produit": "beurre",
+                "unite": "kg",
+                "quantite": 0.05
+            }
+        ],
+        "assaisonnement": [
+            {
+                "produit": "sel fin",
+                "quantite": "PM"
+            },
+            {
+                "produit": "piment de Cayenne",
+                "quantite": "PM"
+            }
+        ]
+    },
+    "duree": {
+        "preparation": "40 à 45 min",
+        "cuisson": "25 à 30 min"
+    },
+    "technique": [
+        "Mettre en place le poste de travail : peser, mesurer et contrôler les denrées.",
+        "Laver, brosser les étrilles ou les autres crustacés (ils doivent être impérativement vivants). Les égoutter soigneusement.",
+        "Eplucher et laver soigneusement tous les légumes.",
+        "Préparer la garniture aromatique : tailler les carottes et les oignons en fine Mirepoix, ciseler les échalotes, ôter le pédoncule et concasser les tomates, ôter le germe et écraser l’ail, confectionner le bouquet garni.",
+        "Chauffer fortement une grande sauteuse ou un rondeau plat avec l’huile et le beurre.",
+        "Faire revenir les étrilles très vivement jusqu’à ce qu’elles deviennent rouge vif.",
+        "Dégraisser, ajouter la garniture aromatique et faire suer quelques minutes.",
+        "Flamber avec le Cognac.",
+        "Ajouter le vin blanc et réduire des deux tiers.",
+        "Mouiller avec le fumet de poisson ou ajouter des arêtes dégorgées et concassées et de l’eau froide.",
+        "Ajouter les tomates concassées, le concentré, l’ail écrasé, le bouquet garni, un peu de cerfeuil et d’estragon.",
+        "Cuire à petite ébullition durant 25 à 30 minutes.",
+        "Passer au chinois étamine.",
+        "Lier avec le beurre manié.",
+        "Ajouter en finition l’estragon et le cerfeuil.",
+        "Monter au beurre.",
+        "Assaisonner."
+    ]
+}

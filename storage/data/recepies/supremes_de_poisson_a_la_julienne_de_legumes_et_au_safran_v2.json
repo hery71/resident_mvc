@@ -1,0 +1,131 @@
+{
+  "titre": "SUPRÊMES DE POISSON À LA JULIENNE DE LÉGUMES ET AU SAFRAN",
+  "type": "bar, turbot, Saint-Pierre, cabillaud, lieu jaune, julienne",
+  "page": 737,
+  "denrees_pour_8_couverts": {
+    "elements_de_base": [
+      {
+        "nom": "suprêmes de poisson",
+        "quantite": "8",
+        "unite": "pièces"
+      },
+      {
+        "nom": "portion",
+        "quantite": "0,140 à 0,150",
+        "unite": "kg par portion"
+      }
+    ],
+    "julienne_de_legumes": [
+      {
+        "nom": "carottes",
+        "quantite": "0,150",
+        "unite": "kg"
+      },
+      {
+        "nom": "blancs de poireaux",
+        "quantite": "0,150",
+        "unite": "kg"
+      },
+      {
+        "nom": "céleri en branches",
+        "quantite": "0,050",
+        "unite": "kg"
+      },
+      {
+        "nom": "champignons émincés",
+        "quantite": "0,150",
+        "unite": "kg"
+      },
+      {
+        "nom": "vert de courgettes",
+        "quantite": "PM",
+        "unite": ""
+      }
+    ],
+    "cuisson_et_sauce_vin_blanc": [
+      {
+        "nom": "vin blanc",
+        "quantite": "0,10",
+        "unite": "l"
+      },
+      {
+        "nom": "fumet de poisson",
+        "quantite": "0,50",
+        "unite": "l"
+      },
+      {
+        "nom": "crème",
+        "quantite": "0,30",
+        "unite": "l"
+      },
+      {
+        "nom": "beurre",
+        "quantite": "0,100",
+        "unite": "kg"
+      },
+      {
+        "nom": "safran",
+        "quantite": "PM",
+        "unite": ""
+      }
+    ],
+    "finition": [
+      {
+        "nom": "fleurons (rognures de feuilletage)",
+        "quantite": "8",
+        "unite": "pièces"
+      },
+      {
+        "nom": "pluches de cerfeuil",
+        "quantite": "PM",
+        "unite": ""
+      }
+    ],
+    "assaisonnement": [
+      {
+        "nom": "sel",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "poivre",
+        "quantite": "PM",
+        "unite": ""
+      }
+    ]
+  },
+  "technique": [
+    "1. Mettre en place le poste de travail",
+    "2. Escaloper les filets à raison de 0,140 à 0,150 kg par portion. Réserver les suprêmes en enceinte réfrigérée.",
+    "3. Réaliser un fumet de poisson.",
+    "• Éventuellement, il est possible d’utiliser un fumet de poisson de fabrication industrielle.",
+    "4. Préparer la julienne de légumes",
+    "• Éplucher et laver 0,150 kg de carottes, 0,150 kg de blancs de poireaux, 0,050 kg de céleri en branches, et 0,150 kg de champignons émincés.",
+    "• Tailler tous les légumes en julienne (champignons doivent être taillés légèrement plus gros que les autres légumes car ils diminuent à la cuisson).",
+    "5. Étuver la julienne de légumes",
+    "• Faire suer et étuver les carottes, les blancs de poireaux et le céleri dans une sauteuse avec du beurre.",
+    "• Assaisonner légèrement.",
+    "• Couvrir hermétiquement la sauteuse avec une feuille de papier sulfurisé et un couvercle.",
+    "• Amollir et ajouter les champignons.",
+    "• Plonger la julienne de vert de courgettes dans de l’eau bouillante et la refroidir immédiatement dans de l’eau glacée. Égoutter délicatement afin qu’elle garde sa couleur verte et sa saveur.",
+    "6. Confectionner 8 fleurons en rognures de feuilletage",
+    "7. Plaquer les suprêmes de poisson et les marquer en cuisson",
+    "• Beurrer, saler, poivrer et les placer à poisson.",
+    "• Ranger les suprêmes en les chevauchant légèrement.",
+    "• Mouiller avec 0,10 l de vin blanc et éventuellement 0,50 l de fumet de poisson.",
+    "• Donner la cuisson sur la plaque du fourneau.",
+    "• Couvrir d’une feuille de papier sulfurisé beurrée.",
+    "• Cuire au four à 170/180 °C durant 8 à 10 min, suivant l’épaisseur des filets.",
+    "8. Réaliser la sauce vin blanc",
+    "• Saisir le fond de cuisson du poisson.",
+    "• Transvaser la sauce dans une grande sauteuse.",
+    "• La réduire jusqu’à glace et ajouter 0,30 l de crème.",
+    "• Réduire à nouveau jusqu’à consistance nappante.",
+    "• Ajouter quelques filaments de safran et monter la sauce avec 0,100 kg de beurre.",
+    "• Ajouter un peu de sauce à la julienne de légumes et vérifier l’assaisonnement.",
+    "9. Dresser les suprêmes de poisson",
+    "• Disposer un petit bouquet gourmand sur les assiettes ou sur le plat.",
+    "• Placer un filet de poisson sur la garniture, la face qui était en contact avec l’arête sur le dessus.",
+    "• Napper uniformément avec le reste de la sauce et disposer les fleurons et quelques pluches de cerfeuil."
+  ]
+}

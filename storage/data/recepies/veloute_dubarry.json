@@ -1,0 +1,126 @@
+{
+    "fiche": 11,
+    "titre": "Velouté Dubarry",
+    "type": "crème et velouté à base de légumes",
+    "page": 632,
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "beurre",
+                "quantite": "0,100",
+                "unite": "kg"
+            },
+            {
+                "nom": "blancs de poireaux",
+                "quantite": "0,160",
+                "unite": "kg"
+            },
+            {
+                "nom": "farine",
+                "quantite": "0,080",
+                "unite": "kg"
+            },
+            {
+                "nom": "fond blanc de veau",
+                "quantite": "1",
+                "unite": "l"
+            },
+            {
+                "nom": "chou-fleur",
+                "quantite": "1",
+                "unite": "pièce"
+            }
+        ],
+        "liaison": [
+            {
+                "nom": "lait (facultatif)",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "œufs (jaunes)",
+                "quantite": "4",
+                "unite": "pièces"
+            },
+            {
+                "nom": "crème double",
+                "quantite": "0,20",
+                "unite": "l"
+            }
+        ],
+        "finition": [
+            {
+                "nom": "beurre",
+                "quantite": "0,020",
+                "unite": "kg"
+            },
+            {
+                "nom": "cerfeuil",
+                "quantite": "1/4",
+                "unite": "botte"
+            }
+        ],
+        "garniture": [
+            {
+                "nom": "sommités de chou-fleur (prélevées sur le chou-fleur du velouté)",
+                "quantite": "0,160",
+                "unite": "kg"
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "gros sel",
+                "quantite": "PM"
+            },
+            {
+                "nom": "sel fin",
+                "quantite": "PM"
+            }
+        ]
+    },
+    "duree_preparation": "1 h 15 min",
+    "duree_cuisson": {
+        "principal": "40 à 45 min",
+        "garniture": "5 min"
+    },
+    "technique": [
+        "1. Mettre en place le poste de travail – 5 min",
+        "Denrées, matériels de préparation, de cuisson et de dressage.",
+        "2. Préparer les légumes – 30 min",
+        "Éplucher, laver les poireaux et le chou-fleur.",
+        "Diviser le chou-fleur en petits bouquets, le laver à l’eau vinaigrée et le rincer.",
+        "Prélever les sommités de la garniture et les réserver.",
+        "Émincer finement les blancs de poireaux.",
+        "3. Marquer le potage en cuisson – 10 min",
+        "Porter le fond blanc à ébullition.",
+        "Suer au beurre (sans coloration) les blancs de poireaux.",
+        "Ajouter la farine.",
+        "Cuire doucement le roux blanc pendant 3 à 4 min.",
+        "Refroidir le roux.",
+        "Verser progressivement le fond blanc bouillant sur le roux en remuant vigoureusement jusqu’à la reprise de l’ébullition.",
+        "Ajouter les bouquets de chou-fleur (éventuellement blanchis).",
+        "Saler au gros sel.",
+        "Cuire doucement et régulièrement à couvert pendant 40 à 45 min.",
+        "4. Préparer les garnitures – 10 min",
+        "Cuire les sommités de chou-fleur à l’anglaise.",
+        "Rafraîchir délicatement, égoutter.",
+        "Réserver les pluches dans un ramequin avec de l’eau froide.",
+        "5. Préparer la liaison – 3 min",
+        "Mélanger les jaunes d’œufs et la crème.",
+        "Passer au chinois.",
+        "6. Passer et terminer le potage – 12 min",
+        "Passer le velouté au moulin à légumes ou au mixeur, puis au chinois.",
+        "Remettre le velouté à bouillir, écumer si nécessaire.",
+        "Ajouter délicatement la liaison hors du feu.",
+        "Reporter le velouté à ébullition, le retirer du feu immédiatement et le passer au chinois étamine.",
+        "Vérifier l’assaisonnement et l’onctuosité.",
+        "Débarrasser le potage au bain-marie.",
+        "Tamponner en surface.",
+        "Couvrir le bain-marie.",
+        "7. Dresser le velouté Dubarry – 5 min",
+        "Ajouter la garniture au potage.",
+        "Mélanger délicatement pour rendre le potage homogène.",
+        "Dresser le potage brûlant dans la soupière.",
+        "Au dernier moment, ajouter les pluches de cerfeuil bien égouttées."
+    ]
+}

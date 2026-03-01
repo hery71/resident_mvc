@@ -1,0 +1,19 @@
+{
+    "titre": "Beurre de fromage (bleus, fromages frais)",
+    "type": "beurre compose",
+    "genre": "a froid",
+    "ingredients": [
+        "Beurre",
+        "fromage selon l’appellation (peut comporter des ingrédients complémentaires : noix",
+        "noisettes",
+        "ciboulette ciselée",
+        "crème",
+        "paprika)"
+    ],
+    "technique": [
+        "Mixer le beurre et le fromage. Ajouter des éléments complémentaires s’il y a lieu"
+    ],
+    "utilisation": [
+        "Canapés, pains surprise, etc."
+    ]
+}

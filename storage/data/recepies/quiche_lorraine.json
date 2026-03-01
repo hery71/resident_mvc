@@ -1,0 +1,157 @@
+{
+  "page": "668",
+  "fiche": "25",
+  "titre": "QUICHE LORRAINE",
+  "type": "Hors-d’œuvre chauds à base de pâte brisée",
+  "denrees_pour_8_couverts": {
+    "pate_brisee": [
+      {
+        "nom": "farine type 55",
+        "unite": "kg",
+        "quantite": "0,250"
+      },
+      {
+        "nom": "sel fin",
+        "unite": "kg",
+        "quantite": "0,005"
+      },
+      {
+        "nom": "beurre",
+        "unite": "kg",
+        "quantite": "0,125"
+      },
+      {
+        "nom": "œuf (jaune)",
+        "unite": "pièce",
+        "quantite": "1"
+      },
+      {
+        "nom": "eau",
+        "unite": "l",
+        "quantite": "0,05"
+      },
+      {
+        "nom": "farine (pour abaisser)",
+        "unite": "kg",
+        "quantite": "0,040"
+      },
+      {
+        "nom": "beurre pour les cercles",
+        "unite": "kg",
+        "quantite": "0,010"
+      }
+    ],
+    "garniture": [
+      {
+        "nom": "poitrine de porc fumée",
+        "unite": "kg",
+        "quantite": "0,250"
+      },
+      {
+        "nom": "huile",
+        "unite": "l",
+        "quantite": "0,02"
+      },
+      {
+        "nom": "gruyère",
+        "unite": "kg",
+        "quantite": "0,200"
+      }
+    ],
+    "appareil_a_creme_prise_salee": [
+      {
+        "nom": "œufs (entiers)",
+        "unite": "pièce",
+        "quantite": "2"
+      },
+      {
+        "nom": "œufs (jaunes)",
+        "unite": "pièce",
+        "quantite": "2"
+      },
+      {
+        "nom": "lait",
+        "unite": "l",
+        "quantite": "0,25"
+      },
+      {
+        "nom": "crème",
+        "unite": "l",
+        "quantite": "0,25"
+      }
+    ],
+    "dorure": [
+      {
+        "nom": "œufs (entier)",
+        "unite": "pièce",
+        "quantite": "PM"
+      }
+    ],
+    "decor": [
+      {
+        "nom": "persil frisé",
+        "unite": "kg",
+        "quantite": "0,040"
+      }
+    ],
+    "assaisonnement": [
+      {
+        "nom": "sel fin",
+        "quantite": "PM"
+      },
+      {
+        "nom": "piment de Cayenne",
+        "quantite": "PM"
+      },
+      {
+        "nom": "noix de muscade",
+        "quantite": "PM"
+      }
+    ]
+  },
+  "technique": [
+    "1. Mettre en place le poste de travail - 5 min",
+    "• Denrées, matériels de préparation, de cuisson et de dressage.",
+    "2. Confectionner la pâte brisée - 15 min (voir p. 481)",
+    "• Tamiser la farine et la disposer en fontaine.",
+    "• Ajouter le sel, l’eau, le jaune d’œuf et le beurre en parcelles.",
+    "• Mélanger ces éléments du bout des doigts au centre de la fontaine.",
+    "• Incorporer progressivement la farine à l’aide d’un coupe-pâte sans pétrir.",
+    "• Fraiser une ou deux fois au maximum si nécessaire.",
+    "• Rassembler la pâte en boule sans la retravailler.",
+    "• Envelopper d’un film plastique alimentaire.",
+    "• Réserver la pâte au frais afin qu’elle se raffermisse et perde de son élasticité.",
+    "3. Préparer la garniture - 15 min",
+    "• Éliminer la couenne et les éventuels cartilages de la poitrine fumée.",
+    "• La découper en tranches fines à l’aide d’un trancheur universel.",
+    "• Détailler les tranches ainsi obtenues en lamelles de 2 cm de longueur (ou éventuellement en petits lardons).",
+    "• Sauter rapidement les lamelles à l’huile sans les dessécher et les égoutter.",
+    "• Détailler le gruyère en fines lamelles de 3 à 4 cm (le gruyère peut être simplement râpé).",
+    "4. Foncer les quiches - 15 min (voir p. 489)",
+    "• Beurrer 2 cercles à tarte de 18 cm de diamètre.",
+    "• Abaisser la pâte à 3 mm d’épaisseur.",
+    "• La piquer à l’aide d’un pique-vite et retourner l’abaisse.",
+    "• Foncer les cercles.",
+    "• Élever l’excédent de farine à l’aide d’une brosse.",
+    "• Relever les crêtes et pincer les bords (chiqueter).",
+    "• Disposer les fonds de tarte sur 2 tourtières rondes.",
+    "• Laisser raffermir au frais.",
+    "5. Confectionner l’appareil à crème prise - 10 min",
+    "• Mélanger dans une petite calotte les 2 œufs entiers, les 2 jaunes, la crème et le lait.",
+    "• Assaisonner avec le sel, le piment de Cayenne et quelques râpures de noix de muscade.",
+    "• Passer l’appareil au chinois étamine.",
+    "6. Marquer les quiches en cuisson - 3 min",
+    "• Répartir équitablement la poitrine fumée et le gruyère.",
+    "• Verser l’appareil sur la garniture (à fleur de la pâte).",
+    "• Cuire à four chaud (220 °C sole, 180 °C voûte) pendant 30 à 35 min.",
+    "• Retirer les cercles 5 min avant la fin de la cuisson et dorer la pâte et les crêtes à l’aide d’un pinceau.",
+    "• Terminer la cuisson.",
+    "• Débarrasser les quiches sur une grille à pâtisserie.",
+    "• Réserver au chaud.",
+    "7. Dresser les quiches - 2 min",
+    "• Disposer chaque quiche sur un grand plat rond recouvert d’un papier gaufré.",
+    "• Décorer avec le persil en branches (facultatif)."
+  ],
+  "duree_moyenne_de_preparation": "1 h 10 min",
+  "duree_moyenne_de_cuisson": "25 à 30 min"
+}

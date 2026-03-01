@@ -1,0 +1,140 @@
+{
+    "titre": "Mille-feuille de thon rouge à la piémontaise",
+    "type": "Hors-d'œuvre chauds à base de feuilles de brick",
+    "description": "Superposition de disques de brick dorés au four, intercalés avec des tranches de thon rouge saisi, une piperade de poivrons et tomates, et une sauce légère au vinaigre balsamique réduit. Dressage en mille-feuille harmonieux, servi chaud.",
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "thon rouge (filet frais, sans peau ni arêtes)",
+                "quantite": "0,600",
+                "unite": "kg"
+            },
+            {
+                "nom": "feuilles de brick",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ],
+        "piperade": [
+            {
+                "nom": "poivrons verts",
+                "quantite": "0,200",
+                "unite": "kg"
+            },
+            {
+                "nom": "poivrons rouges",
+                "quantite": "0,200",
+                "unite": "kg"
+            },
+            {
+                "nom": "oignons",
+                "quantite": "0,100",
+                "unite": "kg"
+            },
+            {
+                "nom": "tomates",
+                "quantite": "0,400",
+                "unite": "kg"
+            },
+            {
+                "nom": "huile d'olive",
+                "quantite": "0,040",
+                "unite": "l"
+            },
+            {
+                "nom": "ail",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "bouquet garni (thym, laurier, persil)",
+                "quantite": "1",
+                "unite": "pièce"
+            }
+        ],
+        "sauce_vinaigre_balsamique": [
+            {
+                "nom": "vinaigre balsamique",
+                "quantite": "0,100",
+                "unite": "l"
+            },
+            {
+                "nom": "fond brun ou fond de veau lié",
+                "quantite": "0,100",
+                "unite": "l"
+            }
+        ],
+        "finition_et_decoration": [
+            {
+                "nom": "beurre (pour badigeonner les bricks)",
+                "quantite": "0,020",
+                "unite": "kg"
+            },
+            {
+                "nom": "huile d'olive (pour finir)",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "persil plat (pluches)",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "tomates cerises ou tomates rouges (décoration)",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel fin",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "poivre du moulin",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ]
+    },
+    "duree_moyenne_preparation": "environ 50 min",
+    "duree_moyenne_cuisson": "20 à 30 min (piperade + séchage brick + saisie thon)",
+    "technique": [
+        "1. Mettre en place le poste de travail – 5 min",
+        "Denrées, matériels de préparation, de cuisson et de dressage.",
+        "2. Marquer la piperade en cuisson",
+        "Faire suer les oignons émincés dans l'huile d'olive.",
+        "Ajouter les poivrons verts et rouges taillés en lanières fines, cuire à feu moyen.",
+        "Ajouter les tomates mondées, épépinées et concassées, le bouquet garni, l'ail haché.",
+        "Assaisonner sel et poivre, cuire à découvert jusqu'à évaporation complète de l'eau et obtention d'une compotée épaisse (20–30 min).",
+        "Retirer le bouquet garni, réserver chaud.",
+        "3. Détailer les disques de brick – 10 min",
+        "Détailler 24 disques de 8 cm de diamètre dans les feuilles de brick (3 disques par mille-feuille).",
+        "Badigeonner légèrement de beurre fondu ou d'huile.",
+        "Disposer sur plaque avec papier sulfurisé, cuire au four à 160–180 °C jusqu'à croustillant et doré (8–10 min).",
+        "Réserver au sec.",
+        "4. Réduire la sauce au vinaigre balsamique",
+        "Réduire le vinaigre balsamique avec le fond brun jusqu'à consistance sirupeuse.",
+        "Émulsionner avec un peu d'huile d'olive si désiré, réserver au chaud.",
+        "5. Sauter les tranches de thon rouge",
+        "Tailler le thon rouge en 16 tranches régulières d'environ 0,040 kg chacune.",
+        "Saisir rapidement à la poêle très chaude avec un filet d'huile d'olive (30 secondes par face pour une cuisson bleue ou saignante).",
+        "Assaisonner sel et poivre, réserver au chaud.",
+        "6. Dresser les mille-feuilles – 10 min",
+        "Disposer un disque de brick au centre de chaque assiette chaude.",
+        "Déposer une tranche de thon rouge saisi.",
+        "Napper légèrement de piperade chaude.",
+        "Superposer un deuxième disque de brick, puis une autre tranche de thon et piperade.",
+        "Terminer par un troisième disque de brick.",
+        "Napper autour avec la réduction balsamique.",
+        "Décorer avec pluches de persil, dés de tomates, brins de ciboulette ou cordon de sauce.",
+        "Servir immédiatement très chaud."
+    ],
+    "remarques": [
+        "Le thon doit rester très rosé au cœur pour préserver sa tendreté.",
+        "La piperade peut être préparée à l'avance et réchauffée doucement.",
+        "Variante : ajouter des olives noires hachées ou des câpres dans la piperade pour plus de caractère."
+    ]
+}

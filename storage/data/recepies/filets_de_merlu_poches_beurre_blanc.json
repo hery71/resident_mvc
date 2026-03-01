@@ -1,0 +1,122 @@
+{
+    "titre": "Filets de merlu (colin) pochés, beurre blanc",
+    "type": "Hors-d'œuvre chauds à base de poisson",
+    "description": "Filets de merlu (ou colin) pochés dans un court-bouillon léger, servis nappés de beurre blanc classique (réduction de vin blanc, échalotes et beurre monté). Dressage sur plat rond avec citrons, persil et éventuellement légumes vapeur ou pommes à l'anglaise.",
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "merlu ou colin (filets parés, sans peau ni arêtes)",
+                "quantite": "2,200",
+                "unite": "kg"
+            }
+        ],
+        "court_bouillon_pochage": [
+            {
+                "nom": "eau",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "gros sel",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "citron (tranches ou jus)",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "poivre en grains",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ],
+        "beurre_blanc_classique": [
+            {
+                "nom": "beurre extra-fin",
+                "quantite": "0,400",
+                "unite": "kg"
+            },
+            {
+                "nom": "vin blanc sec (type Muscadet ou Sauvignon)",
+                "quantite": "0,200",
+                "unite": "l"
+            },
+            {
+                "nom": "vinaigre de vin blanc",
+                "quantite": "0,020",
+                "unite": "l"
+            },
+            {
+                "nom": "échalotes",
+                "quantite": "0,040",
+                "unite": "kg"
+            },
+            {
+                "nom": "piment de Cayenne",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ],
+        "garniture_et_decoration": [
+            {
+                "nom": "citrons (en quartiers ou tranches)",
+                "quantite": "3",
+                "unite": "pièces"
+            },
+            {
+                "nom": "persil plat (frais, pluches ou haché)",
+                "quantite": "0,040",
+                "unite": "kg"
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel fin",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "poivre du moulin",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ]
+    },
+    "duree_moyenne_preparation": "50 min",
+    "duree_moyenne_cuisson": "6 à 8 min (pochage filets) + 10 min (beurre blanc)",
+    "technique": [
+        "1. Mettre en place le poste de travail – 5 min",
+        "Denrées, matériels de préparation, de cuisson et de dressage.",
+        "2. Habiller et détailler les filets – 15 min",
+        "Lever les filets de merlu/colin (ou les utiliser déjà parés), retirer peau et arêtes restantes.",
+        "Laver, éponger, détailler en portions régulières (environ 150–200 g par personne).",
+        "Réserver au frais.",
+        "3. Préparer les éléments de décoration – 10 min",
+        "Laver, éplucher et détailler les citrons en quartiers ou tranches fines.",
+        "Laver, équeuter et plonger le persil en branches dans eau glacée pour le maintenir croquant.",
+        "4. Marquer les filets en cuisson – 5 min",
+        "Porter un grand rondeau d'eau salée à frémissement (ajouter citron ou vinaigre pour acidité).",
+        "Plonger les filets délicatement, cuire à frémissement 6 à 8 min selon épaisseur (chair opaque et se détachant facilement).",
+        "Maintenir au chaud dans le liquide de pochage.",
+        "5. Confectionner le beurre blanc – 10 min",
+        "Ciseler finement les échalotes.",
+        "Réduire vin blanc + vinaigre + échalotes jusqu'à presque sec (mouillé).",
+        "Incorporer progressivement le beurre froid en petits morceaux au fouet sur feu très doux ou bain-marie.",
+        "Monter la sauce jusqu'à consistance nappante, assaisonner sel et pointe de piment de Cayenne.",
+        "Passer au chinois fin si besoin, réserver au chaud (bain-marie tiède).",
+        "6. Dresser les filets de merlu et beurre blanc – 5 min",
+        "Égoutter soigneusement les filets, les disposer sur assiettes chaudes ou grand plat rond recouvert de papier gaufré.",
+        "Napper harmonieusement de beurre blanc chaud.",
+        "Disposer les éléments de décoration : quartiers de citron, persil en branches.",
+        "Servir immédiatement très chaud, avec le reste de beurre blanc en saucière."
+    ],
+    "remarques": [
+        "Les filets de merlu/colin sont fragiles : pochage à frémissement très doux pour éviter qu'ils ne se défassent.",
+        "Le beurre blanc doit être monté hors du feu ou au bain-marie pour ne pas trancher ; maintenir température autour de 60 °C.",
+        "Variante : servir avec légumes vapeur (pommes à l'anglaise, carottes, brocolis) ou pommes de terre persillées.",
+        "Accompagnement classique : sauce mousseline ou hollandaise pour une version plus riche.",
+        "Ne pas réchauffer le beurre blanc trop fort : risque de séparation."
+    ]
+}

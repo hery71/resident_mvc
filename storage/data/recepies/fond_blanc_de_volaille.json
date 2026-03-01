@@ -1,0 +1,122 @@
+{
+  "title": "Fond blanc de volaille",
+  "category": "Fonds",
+  "type": "Technique de base",
+  "pages": [
+    264,
+    265
+  ],
+  "yield": "1 litre",
+  "ingredients": {
+    "base": [
+      {
+        "name": "carcasses et abattis de volaille",
+        "unite": "kg",
+        "quantite": 1.0
+      },
+      {
+        "name": "volaille à pocher (poule)",
+        "unite": "kg",
+        "quantite": null
+      }
+    ],
+    "garniture_aromatique": [
+      {
+        "name": "carottes",
+        "unite": "kg",
+        "quantite": 0.1
+      },
+      {
+        "name": "oignons",
+        "unite": "kg",
+        "quantite": 0.1
+      },
+      {
+        "name": "blancs de poireaux",
+        "unite": "kg",
+        "quantite": 0.2
+      },
+      {
+        "name": "céleri en branche",
+        "unite": "kg",
+        "quantite": 0.08
+      },
+      {
+        "name": "bouquet garni",
+        "unite": "piece",
+        "quantite": 1
+      }
+    ],
+    "mouillement": [
+      {
+        "name": "eau froide",
+        "unite": "litre",
+        "quantite": 1.5
+      }
+    ],
+    "assaisonnement": [
+      {
+        "name": "gros sel (facultatif)",
+        "unite": "PM",
+        "quantite": "PM"
+      },
+      {
+        "name": "poivre en grains",
+        "unite": "PM",
+        "quantite": "PM"
+      },
+      {
+        "name": "clous de girofle",
+        "unite": "PM",
+        "quantite": "PM"
+      }
+    ]
+  },
+  "preparation_steps": [
+    {
+      "step": 1,
+      "action": "Mettre en place le poste de travail."
+    },
+    {
+      "step": 2,
+      "action": "Concasser finement les carcasses et les abattis."
+    },
+    {
+      "step": 3,
+      "action": "Blanchir les os et la viande."
+    },
+    {
+      "step": 4,
+      "action": "Rafraîchir les ingrédients à l’eau courante."
+    },
+    {
+      "step": 5,
+      "action": "Marquer le fond blanc en cuisson et cuire à frémissement 45 min à 1 h."
+    },
+    {
+      "step": 6,
+      "action": "Passer sans fouler."
+    },
+    {
+      "step": 7,
+      "action": "Refroidir rapidement."
+    },
+    {
+      "step": 8,
+      "action": "Réserver couvert à +3°C maximum."
+    }
+  ],
+  "timing": {
+    "duree_moyenne_realisation": "20 à 25 min",
+    "duree_moyenne_cuisson": "45 min à 1 h"
+  },
+  "notes": [
+    "Les fonds blancs sans utilisation précise ne se salent pas.",
+    "Possibilité de saler légèrement à raison de 3 à 5 g par litre."
+  ],
+  "storage_recommendations": {
+    "cooling": "Refroidir rapidement.",
+    "storage_temp": "+3°C maximum"
+  },
+  "version": "1.1"
+}

@@ -1,0 +1,129 @@
+{
+  "titre": "VIENNOISE DE BARBUE, BEURRE DE POIVRONS",
+  "page": 759,
+  "denrees_pour_8_couverts": {
+    "Éléments de base": [
+      {
+        "nom": "escalopes de barbue",
+        "quantite": "8",
+        "unite": "pièces"
+      },
+      {
+        "nom": "poids par escalope",
+        "quantite": "0,150",
+        "unite": "kg"
+      }
+    ],
+    "Fondue de poivrons": [
+      {
+        "nom": "oignons finement ciselés",
+        "quantite": "0,040",
+        "unite": "kg"
+      },
+      {
+        "nom": "poivrons rouges mondés, épépinés et taillés en brunoise",
+        "quantite": "0,250",
+        "unite": "kg"
+      },
+      {
+        "nom": "tomates mondées, épépinées et concassées",
+        "quantite": "0,100",
+        "unite": "kg"
+      },
+      {
+        "nom": "gousses d’ail entières",
+        "quantite": "2",
+        "unite": "pièces"
+      },
+      {
+        "nom": "bouquet garni",
+        "quantite": "1",
+        "unite": "pièce"
+      }
+    ],
+    "Garniture viennoise": [
+      {
+        "nom": "pain de mie",
+        "quantite": "1",
+        "unite": "pièce"
+      },
+      {
+        "nom": "olives vertes",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "persil",
+        "quantite": "PM",
+        "unite": ""
+      }
+    ],
+    "Beurre de poivrons": [
+      {
+        "nom": "beurre",
+        "quantite": "0,100",
+        "unite": "kg"
+      },
+      {
+        "nom": "fond de volaille",
+        "quantite": "0,10",
+        "unite": "l"
+      },
+      {
+        "nom": "beurre extra-fin",
+        "quantite": "0,150",
+        "unite": "kg"
+      }
+    ],
+    "Cuisson": [
+      {
+        "nom": "beurre clarifié",
+        "quantite": "PM",
+        "unite": ""
+      }
+    ],
+    "Assaisonnement": [
+      {
+        "nom": "sel",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "poivre",
+        "quantite": "PM",
+        "unite": ""
+      }
+    ]
+  },
+  "technique_de_realisation": [
+    "1. Mettre en place le poste de travail",
+    "2. Préparer les escalopes de barbue",
+    "Détailler les filets de barbue en 8 escalopes régulières de 0,150 kg chacune.",
+    "Les aplatir entre deux feuilles de papier en matière plastique alimentaire, à l’aide d’une batte à côtelettes.",
+    "Les assaisonner et les parer à l’anglaise.",
+    "Les quadriller avec le dos d’un couteau éminceur. Les parer et les réserver en enceinte réfrigérée.",
+    "3. Préparer la fondue de poivrons",
+    "Faire suer au beurre 0,040 kg d’oignons finement ciselés.",
+    "Ajouter 0,250 kg de poivrons rouges mondés, épépinés et taillés en brunoise.",
+    "Laisser compoter et ajouter 0,100 kg de tomates mondées épépinées et concassées, 2 gousses d’ail entières et un petit bouquet garni.",
+    "Cuire à couvert jusqu’à évaporation complète de l’eau des légumes.",
+    "Bien dessécher la fondue. Ôter l’ail et le bouquet garni.",
+    "Mixer finement ou passer au tamis fin.",
+    "Vérifier l’assaisonnement.",
+    "4. Préparer la garniture viennoise",
+    "Parer à vif un citron et le détailler en 8 tranches régulières.",
+    "Dénoyauter 8 olives vertes et les entourer d’un filet d’anchois.",
+    "Disposer chaque olive cerclée d’un filet d’anchois sur une tranche de citron pelé à vif.",
+    "Obstruer l’emplacement du noyau des olives avec une petite câpre ou du persil en branches.",
+    "5. Confectionner le beurre de poivrons",
+    "Réunir dans une petite sauteuse la purée de poivrons et 0,10 l de crème. Réduire de moitié et monter la sauce avec 0,150 kg de beurre extra-fin. Vérifier l’assaisonnement.",
+    "6. Faire sauter les escalopes de barbue",
+    "Les faire sauter au beurre clarifié.",
+    "Poser le côté quadrillé le premier dans la poêle. Les retourner lorsqu’elles sont dorées et les assaisonner.",
+    "7. Dresser les escalopes de barbue au beurre de poivrons",
+    "Répartir uniformément le beurre au fond des assiettes.",
+    "Placer les escalopes au centre.",
+    "Les lustrer au beurre clarifié avec un pinceau.",
+    "Disposer une tranche de citron surmontée de l’olive et du filet d’anchois sur chaque escalope."
+  ]
+}

@@ -1,0 +1,22 @@
+{
+    "titre": "Marinade Petites pièces de gibier sautées",
+    "type": "marinade",
+    "base": "Petites pièces de gibier sautées",
+    "type_de_viande": "noisettes, côtelettes, filet mignon de chevreuil, râbles et filets de lièvre",
+    "ingredients": [
+        "huile d’olive",
+        "jus de citron",
+        "Cognac ou vin blanc",
+        "échalotes ciselées",
+        "thym",
+        "laurier",
+        "romarin",
+        "baies de genévrier pulvérisés"
+    ],
+    "technique": [
+        "Ranger les éléments dans une plaque en acier inoxydable de grandeur appropriée.",
+        "Arroser légèrement d’huile et de jus de citron si nécessaire.",
+        "Ajouter la garniture aromatique, les aromates ou les condiments.",
+        "Laisser mariner selon la nature et la taille des pièces."
+    ]
+}

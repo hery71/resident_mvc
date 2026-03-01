@@ -1,0 +1,188 @@
+{
+  "titre": "FILET DE SAINT-PIERRE À L’OSEILLE",
+  "type": "Poissons sautés",
+  "page": 754,
+  "denrees_pour_8_couverts": {
+    "Éléments de base": [
+      {
+        "nom": "Saint-Pierre (4 x 0,700 kg à 0,750 kg)",
+        "unite": "kg",
+        "quantite": "2,800 à 3,000"
+      },
+      {
+        "nom": "farine (1)",
+        "unite": "kg",
+        "quantite": "0,160"
+      },
+      {
+        "nom": "huile",
+        "unite": "kg",
+        "quantite": "0,060"
+      }
+    ],
+    "Fumet de poisson": [
+      {
+        "nom": "beurre",
+        "unite": "kg",
+        "quantite": "0,040"
+      },
+      {
+        "nom": "échalotes",
+        "unite": "kg",
+        "quantite": "0,040"
+      },
+      {
+        "nom": "carottes (facultatif)",
+        "unite": "kg",
+        "quantite": "0,080"
+      },
+      {
+        "nom": "oignons",
+        "unite": "kg",
+        "quantite": "0,080"
+      },
+      {
+        "nom": "arêtes de Saint-Pierre",
+        "unite": "kg",
+        "quantite": "PM"
+      },
+      {
+        "nom": "vin blanc",
+        "unite": "l",
+        "quantite": "0,10"
+      },
+      {
+        "nom": "bouquet garni",
+        "unite": "pièce",
+        "quantite": "1"
+      },
+      {
+        "nom": "parures de champignons",
+        "unite": "kg",
+        "quantite": "PM"
+      },
+      {
+        "nom": "poivre en grains",
+        "unite": "kg",
+        "quantite": "PM"
+      }
+    ],
+    "Chiffonnade d’oseille": [
+      {
+        "nom": "oseille",
+        "unite": "botte",
+        "quantite": "2"
+      },
+      {
+        "nom": "beurre",
+        "unite": "kg",
+        "quantite": "0,020"
+      }
+    ],
+    "Sauce": [
+      {
+        "nom": "beurre",
+        "unite": "kg",
+        "quantite": "0,200"
+      },
+      {
+        "nom": "échalotes grises de Jersey",
+        "unite": "kg",
+        "quantite": "0,040"
+      },
+      {
+        "nom": "Noilly",
+        "unite": "l",
+        "quantite": "0,05"
+      },
+      {
+        "nom": "vin blanc",
+        "unite": "l",
+        "quantite": "0,05"
+      },
+      {
+        "nom": "crème",
+        "unite": "l",
+        "quantite": "0,10"
+      },
+      {
+        "nom": "beurre extra-fin",
+        "unite": "kg",
+        "quantite": "0,200"
+      }
+    ],
+    "Finition": [
+      {
+        "nom": "beurre pour lustrer",
+        "unite": "kg",
+        "quantite": "0,020"
+      }
+    ],
+    "Décor": [
+      {
+        "nom": "cerfeuil",
+        "unite": "botte",
+        "quantite": "1/4"
+      }
+    ],
+    "Assaisonnement": [
+      {
+        "nom": "sel fin",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "poivre du moulin",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "piment de Cayenne",
+        "quantite": "PM",
+        "unite": ""
+      }
+    ]
+  },
+  "technique_de_realisation": [
+    "1. Mettre en place le poste de travail - 5 min",
+    "Denrées, matériels de préparation, de cuisson et de dressage.",
+    "2. Habiller les Saint-Pierre - 20 min",
+    "Ôter en premier les épines dorsales à l’aide d’une paire de ciseaux.",
+    "Éliminer les ouïes et vider les Saint-Pierre. Les faire dégorger dans de l’eau glacée durant quelques minutes.",
+    "Les égoutter et les éponger soigneusement.",
+    "3. Lever les filets - 20 min",
+    "Lever délicatement les deux filets de chaque Saint-Pierre en prenant soin qu’ils ne se séparent pas.",
+    "Conserver les filets dégorgés les arêtes.",
+    "Réserver les filets en enceinte réfrigérée.",
+    "4. Préparer les légumes - 20 min",
+    "Éplucher, laver et ciseler finement la moitié des échalotes.",
+    "Émincer l’autre moitié pour le fumet de poisson.",
+    "Éplucher, laver et émincer finement l’oignon et la carotte (facultatif).",
+    "Confectionner un bouquet garni.",
+    "Équeuter et laver l’oseille dans plusieurs eaux.",
+    "Rouler les feuilles en forme de cigares et les émincer en chiffonnade d’1 cm d’épaisseur.",
+    "Effilocher le cerfeuil et réserver les pluches dans un peu d’eau.",
+    "5. Marquer le fumet de poisson en cuisson - 5 min",
+    "Le mouiller à peine à hauteur des arêtes.",
+    "Le passer au chinois étamine et le réduire presque à glace.",
+    "6. Marquer la chiffonnade d’oseille en cuisson - 5 min",
+    "L’étuver au beurre et la couvrir dans une petite sauteuse.",
+    "7. Réaliser la sauce - 15 min",
+    "Dans une petite sauteuse, faire suer au beurre les échalotes ciselées.",
+    "Déglacer avec le Noilly et le vin blanc.",
+    "Réduire des 2/3 et ajouter la glace de poisson et la crème.",
+    "Réduire à nouveau jusqu’à consistance nappante.",
+    "Monter la sauce au beurre.",
+    "Incorporer hors du feu, en petites parcelles en vannant et en émulsionnant comme pour la réalisation d’un beurre blanc.",
+    "Assaisonner de sel fin et de piment de Cayenne.",
+    "Passer la sauce au chinois étamine sur la chiffonnade d’oseille et réserver dans un endroit tiède (45 à 50 °C maximum).",
+    "8. Marquer les filets de Saint-Pierre en cuisson - 10 min",
+    "Les assaisonner et les passer dans la farine. Les tapoter délicatement pour enlever l’excédent.",
+    "Les faire sauter dans un poêle antiadhésive beurrée (au beurre clarifié) avec un pinceau, sans exagérer la coloration.",
+    "9. Dresser les filets de Saint-Pierre - 5 min",
+    "Répartir uniformément la sauce à l’oseille au fond des assiettes.",
+    "Disposer les filets de Saint-Pierre sur la sauce.",
+    "Les lustrer au beurre clarifié.",
+    "Disposer harmonieusement quelques pluches de cerfeuil."
+  ]
+}

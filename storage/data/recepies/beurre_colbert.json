@@ -1,0 +1,16 @@
+{
+    "titre": "Beurre Colbert",
+    "type": "beurre compose",
+    "genre": "a froid",
+    "ingredients": [
+        "Beurre Maître d’hôtel",
+        "glace de viande",
+        "estragon à la place du persil"
+    ],
+    "technique": [
+        "Mélanger tous les ingrédients avec le beurre en pommade"
+    ],
+    "utilisation": [
+        "Viandes ou volailles grillées"
+    ]
+}

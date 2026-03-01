@@ -1,0 +1,74 @@
+{
+  "title": "Roux",
+  "category": "Éléments de liaison",
+  "type": "Base de liaison",
+  "pages": [
+    281
+  ],
+  "yield": "1 kg",
+  "ingredients": {
+    "base": [
+      {
+        "name": "beurre",
+        "unite": "kg",
+        "quantite": 0.5
+      },
+      {
+        "name": "farine",
+        "unite": "kg",
+        "quantite": 0.5
+      }
+    ]
+  },
+  "variations": [
+    {
+      "type": "Roux blanc",
+      "cuisson": "Cuisson courte sans coloration.",
+      "utilisation": "Sauces blanches (béchamel, velouté)."
+    },
+    {
+      "type": "Roux blond",
+      "cuisson": "Cuisson moyenne, légère coloration blonde.",
+      "utilisation": "Veloutés, sauces blanches corsées."
+    },
+    {
+      "type": "Roux brun",
+      "cuisson": "Cuisson longue, coloration brune soutenue.",
+      "utilisation": "Sauces brunes (espagnole, sauces dérivées)."
+    }
+  ],
+  "preparation_steps": [
+    {
+      "step": 1,
+      "action": "Faire fondre le beurre sans coloration."
+    },
+    {
+      "step": 2,
+      "action": "Ajouter la farine en une seule fois."
+    },
+    {
+      "step": 3,
+      "action": "Mélanger régulièrement avec une spatule."
+    },
+    {
+      "step": 4,
+      "action": "Cuire selon la couleur souhaitée (blanc, blond ou brun)."
+    },
+    {
+      "step": 5,
+      "action": "Refroidir rapidement pour stopper la cuisson."
+    }
+  ],
+  "timing": {
+    "duree_moyenne_realisation": "10 à 20 min selon la coloration"
+  },
+  "notes": [
+    "Le roux doit être bien cuit pour éviter le goût farineux.",
+    "Toujours incorporer un liquide chaud sur un roux froid ou inversement."
+  ],
+  "storage_recommendations": {
+    "cooling": "Refroidir rapidement.",
+    "storage_temp": "+3°C maximum"
+  },
+  "version": "1.0"
+}

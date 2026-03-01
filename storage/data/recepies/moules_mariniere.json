@@ -1,0 +1,76 @@
+{
+  "titre": "MOULES MARINIÈRE",
+  "type": "Coquillages «marinière» (moules, coques, praires, palourdes, pétoncles, vénus, amandes…)",
+  "page": 762,
+  "denrees_pour_8_couverts": {
+    "Éléments de base": [
+      {
+        "nom": "moules de bouchots",
+        "unite": "kg",
+        "quantite": "2,400"
+      },
+      {
+        "nom": "beurre",
+        "unite": "kg",
+        "quantite": "0,080"
+      },
+      {
+        "nom": "échalotes",
+        "unite": "kg",
+        "quantite": "0,080"
+      },
+      {
+        "nom": "vin blanc",
+        "unite": "l",
+        "quantite": "0,08"
+      },
+      {
+        "nom": "persil plat",
+        "unite": "kg",
+        "quantite": "0,020"
+      }
+    ],
+    "Finition": [
+      {
+        "nom": "beurre",
+        "unite": "kg",
+        "quantite": "0,080"
+      },
+      {
+        "nom": "persil plat",
+        "unite": "kg",
+        "quantite": "0,040"
+      }
+    ],
+    "Assaisonnement": [
+      {
+        "nom": "poivre du moulin",
+        "quantite": "PM",
+        "unite": ""
+      }
+    ]
+  },
+  "technique_de_realisation": [
+    "1. Mettre en place le poste de travail - 5 min",
+    "Denrées, matériels de préparation, de cuisson et de dressage.",
+    "2. Préparer les moules - 15 min (voir p. 164)",
+    "Les gratter, éliminer les filaments fixateurs (byssus), les laver soigneusement en les brassant dans plusieurs eaux.",
+    "Éliminer celles qui remontent à la surface, celles qui sont brisées et toutes celles qui s’entrouvrent (ne pas les laisser tremper, elles risquent de s’ouvrir et de perdre ainsi leur eau de mer).",
+    "REMARQUE : Les moules élevées à plat et risquant de contenir du sable doivent être mises à tremper dans de l’eau salée à raison de 0,020 kg par litre d’eau. L’eau de trempage doit être changée fréquemment.",
+    "3. Préparer la garniture - 10 min",
+    "Éplucher, laver et ciseler finement les échalotes.",
+    "Laver, équeuter, concasser, hacher et essorer le persil.",
+    "4. Marquer les moules en cuisson - 5 min",
+    "Dans un rondeau plat ou dans une grande russe, réunir les moules bien égouttées, le beurre en parcelles, les échalotes ciselées, le vin blanc et la moitié du persil haché.",
+    "Poivrer (ne jamais saler) et cuire à plein feu et à couvert durant 5 à 6 min.",
+    "Remuer le récipient en cours de cuisson.",
+    "Retirer le récipient du feu lorsque les moules sont juste ouvertes (trop cuites, elles se racornissent).",
+    "5. Dresser les moules marinière - 10 min",
+    "Égoutter les moules à l’aide d’une écumoire, puis les dresser dans un grand légumier.",
+    "Retirer la coquille vide des moules situées sur le dessus.",
+    "Décanter et réduire le liquide de cuisson en plein feu, puis hors du feu, le monter au beurre.",
+    "Verser la cuisson sur les moules ou la décanter, et veiller à ne pas mettre le dépôt qui risque de contenir du sable.",
+    "Saupoudrer de persil haché.",
+    "Disposer le légumier sur un sous-bol couvert d’un papier gaufré."
+  ]
+}

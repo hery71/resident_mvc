@@ -1,0 +1,83 @@
+{
+  "title": "Sauce Mornay",
+  "category": "Sauces dérivées",
+  "type": "Dérivée de béchamel",
+  "pages": [
+    287
+  ],
+  "yield": "1 litre",
+  "ingredients": {
+    "base": [
+      {
+        "name": "sauce béchamel",
+        "unite": "litre",
+        "quantite": 1.0
+      }
+    ],
+    "garniture": [
+      {
+        "name": "gruyère râpé",
+        "unite": "kg",
+        "quantite": 0.08
+      },
+      {
+        "name": "jaune d'œuf",
+        "unite": "piece",
+        "quantite": 4
+      },
+      {
+        "name": "beurre",
+        "unite": "kg",
+        "quantite": 0.02
+      }
+    ],
+    "assaisonnement": [
+      {
+        "name": "sel fin",
+        "unite": "PM",
+        "quantite": "PM"
+      },
+      {
+        "name": "poivre blanc",
+        "unite": "PM",
+        "quantite": "PM"
+      },
+      {
+        "name": "muscade râpée",
+        "unite": "PM",
+        "quantite": "PM"
+      }
+    ]
+  },
+  "preparation_steps": [
+    {
+      "step": 1,
+      "action": "Préparer une sauce béchamel chaude."
+    },
+    {
+      "step": 2,
+      "action": "Incorporer progressivement les fromages râpés en remuant."
+    },
+    {
+      "step": 3,
+      "action": "Ajouter les jaunes d'œufs et le beurre hors du feu pour monter la sauce."
+    },
+    {
+      "step": 4,
+      "action": "Rectifier l’assaisonnement."
+    }
+  ],
+  "timing": {
+    "duree_moyenne_realisation": "10 min",
+    "duree_moyenne_cuisson": "5 à 10 min"
+  },
+  "notes": [
+    "Utilisée pour gratins, légumes et poissons.",
+    "Ne pas faire bouillir après ajout du fromage."
+  ],
+  "storage_recommendations": {
+    "cooling": "Refroidir rapidement.",
+    "storage_temp": "+3°C maximum"
+  },
+  "version": "1.0"
+}

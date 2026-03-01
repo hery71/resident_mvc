@@ -1,0 +1,126 @@
+{
+  "title": "Fumet de poisson",
+  "category": "Fonds",
+  "type": "Technique de base",
+  "pages": [
+    266,
+    267
+  ],
+  "yield": "1 litre",
+  "ingredients": {
+    "base": [
+      {
+        "name": "arêtes et parures maigres de poisson blanc",
+        "unite": "kg",
+        "quantite": 1.0
+      }
+    ],
+    "garniture_aromatique": [
+      {
+        "name": "échalotes",
+        "unite": "kg",
+        "quantite": 0.05
+      },
+      {
+        "name": "oignons",
+        "unite": "kg",
+        "quantite": 0.05
+      },
+      {
+        "name": "blancs de poireaux",
+        "unite": "kg",
+        "quantite": 0.1
+      },
+      {
+        "name": "céleri en branche",
+        "unite": "kg",
+        "quantite": 0.05
+      },
+      {
+        "name": "bouquet garni",
+        "unite": "piece",
+        "quantite": 1
+      }
+    ],
+    "mouillement": [
+      {
+        "name": "vin blanc",
+        "unite": "litre",
+        "quantite": 0.2
+      },
+      {
+        "name": "eau froide",
+        "unite": "litre",
+        "quantite": 1.3
+      }
+    ],
+    "assaisonnement": [
+      {
+        "name": "gros sel (facultatif)",
+        "unite": "PM",
+        "quantite": "PM"
+      },
+      {
+        "name": "poivre en grains",
+        "unite": "PM",
+        "quantite": "PM"
+      }
+    ]
+  },
+  "preparation_steps": [
+    {
+      "step": 1,
+      "action": "Mettre en place le poste de travail."
+    },
+    {
+      "step": 2,
+      "action": "Rincer soigneusement les arêtes et parures à l’eau froide."
+    },
+    {
+      "step": 3,
+      "action": "Faire suer la garniture aromatique sans coloration."
+    },
+    {
+      "step": 4,
+      "action": "Ajouter les arêtes et parures."
+    },
+    {
+      "step": 5,
+      "action": "Déglacer au vin blanc et réduire légèrement."
+    },
+    {
+      "step": 6,
+      "action": "Mouiller à l’eau froide et porter à ébullition."
+    },
+    {
+      "step": 7,
+      "action": "Écumer si nécessaire et cuire à frémissement 20 à 30 min."
+    },
+    {
+      "step": 8,
+      "action": "Passer sans fouler."
+    },
+    {
+      "step": 9,
+      "action": "Refroidir rapidement."
+    },
+    {
+      "step": 10,
+      "action": "Réserver couvert à +3°C maximum."
+    }
+  ],
+  "timing": {
+    "duree_moyenne_realisation": "15 à 20 min",
+    "duree_moyenne_cuisson": "20 à 30 min"
+  },
+  "notes": [
+    "Ne jamais laisser bouillir fortement.",
+    "Cuisson courte pour éviter l’amertume.",
+    "Les fumets sans utilisation précise ne se salent pas."
+  ],
+  "storage_recommendations": {
+    "cooling": "Refroidir rapidement.",
+    "storage_temp": "+3°C maximum"
+  },
+  "version": "1.1"
+}

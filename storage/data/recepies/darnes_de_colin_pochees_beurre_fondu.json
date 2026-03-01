@@ -1,0 +1,104 @@
+{
+    "titre": "Darnes de colin pochées, beurre fondu",
+    "type": "Hors-d'œuvre chauds à base de poisson",
+    "description": "Darnes de colin pochées dans un court-bouillon à l'eau salée, servies avec un beurre fondu citronné. Accompagnées traditionnellement de légumes vapeur (pommes à l'anglaise, carottes, brocolis, romanesco) ou d'une persillade.",
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "colin (darnes de 0,200 kg chacune)",
+                "quantite": "1,600",
+                "unite": "kg"
+            }
+        ],
+        "court_bouillon_pochage": [
+            {
+                "nom": "eau",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "gros sel",
+                "quantite": "0,100",
+                "unite": "kg"
+            },
+            {
+                "nom": "citron (tranches ou jus)",
+                "quantite": "1",
+                "unite": "pièce"
+            }
+        ],
+        "beurre_fondu_citronne": [
+            {
+                "nom": "beurre extra-fin",
+                "quantite": "0,400",
+                "unite": "kg"
+            },
+            {
+                "nom": "citron (jus)",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "piment de Cayenne",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ],
+        "garniture_et_decoration": [
+            {
+                "nom": "persil plat (frais, pluches ou haché)",
+                "quantite": "0,040",
+                "unite": "kg"
+            },
+            {
+                "nom": "légumes vapeur (pommes, carottes, brocolis, romanesco…)",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel fin",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "poivre du moulin",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ]
+    },
+    "duree_moyenne_preparation": "50 min",
+    "duree_moyenne_cuisson": "6 à 8 min (pochage darnes)",
+    "technique": [
+        "1. Mettre en place le poste de travail – 5 min",
+        "Denrées, matériels de préparation, de cuisson et de dressage.",
+        "2. Habiller et détailler les darnes – 15 min",
+        "Lever les darnes de colin (ou les acheter déjà parées), retirer les arêtes si présentes.",
+        "Laver, éponger, réserver au frais.",
+        "3. Préparer les éléments de décoration – 10 min",
+        "Laver, équeuter et plonger le persil en branches dans eau glacée pour le maintenir croquant.",
+        "Préparer les citrons en quartiers ou tranches fines.",
+        "4. Marquer les darnes en cuisson – 5 min",
+        "Porter un grand rondeau d'eau salée à frémissement (ajouter citron ou vinaigre pour acidité).",
+        "Plonger les darnes délicatement, cuire à frémissement 6 à 8 min selon épaisseur (chair opaque et se détachant facilement).",
+        "Maintenir au chaud dans le liquide de pochage.",
+        "5. Confectionner le beurre fondu citronné – 10 min",
+        "Faire fondre le beurre doucement jusqu'à clarification (ou utiliser beurre clarifié).",
+        "Ajouter jus de citron, pincée de piment de Cayenne, rectifier sel.",
+        "Réserver au chaud (bain-marie tiède).",
+        "6. Dresser les darnes de colin et beurre fondu – 5 min",
+        "Égoutter soigneusement les darnes, les disposer sur assiettes chaudes ou plat rond.",
+        "Napper harmonieusement de beurre fondu citronné.",
+        "Disposer les éléments de décoration : quartiers de citron, persil en branches, éventuellement légumes vapeur autour.",
+        "Servir immédiatement très chaud, avec le reste de beurre fondu en saucière."
+    ],
+    "remarques": [
+        "Les poissons pochés à l'eau salée doivent être pochés à frémissement pour éviter qu'ils ne se défassent.",
+        "Les citrons utilisés pour la cuisson doivent être impérativement non traités si on les sert en tranches.",
+        "Le colin est un poisson à chair fragile : éviter le bouillon trop frémissant ou trop long.",
+        "Variante : servir avec une sauce hollandaise ou mousseline pour une version plus riche.",
+        "Accompagnement classique : pommes vapeur, carottes, brocolis ou romanesco, persillade."
+    ]
+}

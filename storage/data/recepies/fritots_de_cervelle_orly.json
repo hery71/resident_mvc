@@ -1,0 +1,219 @@
+{
+    "titre": "Fritots de cervelle orly",
+    "type": "Hors-d'œuvre chauds à base de pâte à frire",
+    "page": 684,
+    "fiche": "33",
+    "description": "Petits morceaux de cervelle d'agneau pochés, marinés, enrobés de pâte à frire, puis frits. Ils sont servis accompagnés de persil frit et de sauce tomate.",
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "cervelle d'agneau",
+                "quantite": "1,200",
+                "unite": "kg"
+            },
+            {
+                "nom": "vinaigre d'alcool coloré",
+                "quantite": "0,05",
+                "unite": "l"
+            }
+        ],
+        "court_bouillon": [
+            {
+                "nom": "eau",
+                "quantite": "1,5",
+                "unite": "l"
+            },
+            {
+                "nom": "vinaigre d'alcool coloré",
+                "quantite": "0,15",
+                "unite": "l"
+            },
+            {
+                "nom": "carottes",
+                "quantite": "0,200",
+                "unite": "kg"
+            },
+            {
+                "nom": "oignons",
+                "quantite": "0,200",
+                "unite": "kg"
+            },
+            {
+                "nom": "bouquet garni",
+                "quantite": "1",
+                "unite": "pièce"
+            },
+            {
+                "nom": "poivre en grains",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "sel",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ],
+        "marinade_instantanee": [
+            {
+                "nom": "huile d'arachide (ou huile neutre)",
+                "quantite": "0,10",
+                "unite": "l"
+            },
+            {
+                "nom": "citron (jus)",
+                "quantite": "1",
+                "unite": "pièce"
+            },
+            {
+                "nom": "persil (haché)",
+                "quantite": "1",
+                "unite": "botte"
+            },
+            {
+                "nom": "cerfeuil",
+                "quantite": "1/2",
+                "unite": "botte"
+            },
+            {
+                "nom": "estragon",
+                "quantite": "1/2",
+                "unite": "botte"
+            },
+            {
+                "nom": "thym (fleur ou branche)",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ],
+        "pate_a_frire": [
+            {
+                "nom": "farine type 55",
+                "quantite": "0,200",
+                "unite": "kg"
+            },
+            {
+                "nom": "sel fin",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "huile",
+                "quantite": "0,04",
+                "unite": "l"
+            },
+            {
+                "nom": "œufs (blancs)",
+                "quantite": "3",
+                "unite": "pièces"
+            }
+        ],
+        "sauce_tomate": [
+            {
+                "nom": "sauce tomate (base demi-glace ou classique)",
+                "quantite": "0,400",
+                "unite": "l"
+            },
+            {
+                "nom": "oignons",
+                "quantite": "0,080",
+                "unite": "kg"
+            },
+            {
+                "nom": "porc-sel (ou lard maigre)",
+                "quantite": "0,080",
+                "unite": "kg"
+            },
+            {
+                "nom": "farine",
+                "quantite": "0,040",
+                "unite": "kg"
+            },
+            {
+                "nom": "eau ou fond blanc",
+                "quantite": "0,400",
+                "unite": "l"
+            },
+            {
+                "nom": "bouquet garni",
+                "quantite": "1",
+                "unite": "pièce"
+            },
+            {
+                "nom": "ail (gousse)",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ],
+        "friture_et_finition": [
+            {
+                "nom": "huile de friture",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "beurre (pour tamponner)",
+                "quantite": "0,020",
+                "unite": "kg"
+            },
+            {
+                "nom": "persil en branches",
+                "quantite": "0,040",
+                "unite": "kg"
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel fin",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "poivre du moulin",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ]
+    },
+    "duree_moyenne_preparation": "1 h 10 min",
+    "duree_moyenne_cuisson": "7 à 10 min (friture)",
+    "technique": [
+        "1. Mettre en place le poste de travail – 5 min",
+        "Denrées, matériels de préparation, de cuisson et de dressage.",
+        "2. Préparer les cervelles – 10 min (voir p. 235)",
+        "Dénuder les cervelles, les débarrasser des membranes et des filaments sanguins sous un filet d'eau froide.",
+        "Les égoutter et les réserver.",
+        "3. Préparer le court-bouillon – 15 min",
+        "Réunir l'eau, le vinaigre, les carottes, oignons émincés, bouquet garni, poivre en grains et sel.",
+        "Porter à ébullition, écumer, cuire 15 min à petit frémissement.",
+        "Passer au chinois et réserver chaud.",
+        "4. Pocher les cervelles – 5 min",
+        "Plonger les cervelles dans le court-bouillon bouillant, cuire à frémissement très léger 10 à 15 min environ.",
+        "Rafraîchir rapidement dans eau glacée, égoutter, éponger.",
+        "5. Mariner les cervelles – 5 min",
+        "Préparer la marinade instantanée avec huile, jus de citron, persil, cerfeuil, estragon, thym hachés.",
+        "Badigeonner les cervelles marinées, laisser reposer 10 à 15 min au frais.",
+        "6. Confectionner la pâte à frire – 20 min",
+        "Tamiser la farine, ajouter sel, huile, jaunes d'œufs (si utilisés), puis incorporer progressivement de l'eau ou bière pour obtenir une pâte lisse.",
+        "Laisser reposer 30 min.",
+        "Monter les blancs d'œufs en neige ferme avec une pincée de sel, les incorporer délicatement à la pâte au dernier moment.",
+        "7. Préparer la sauce tomate – 25 min (voir p. 289)",
+        "Faire suer oignons et lardons, singer avec farine, mouiller avec eau ou fond, ajouter tomates ou concentré, bouquet garni, ail.",
+        "Cuire à couvert 20 à 25 min, passer au chinois, rectifier assaisonnement.",
+        "8. Frire les fritots – 10 min",
+        "Égoutter les cervelles marinées, les plonger dans la pâte à frire, les frire par petites quantités dans huile à 175–180 °C jusqu'à belle coloration dorée.",
+        "Égoutter sur papier absorbant.",
+        "9. Frire le persil – 2 min",
+        "Frire les bouquets de persil dans la même huile chaude jusqu'à croustillant (quelques secondes).",
+        "Égoutter sur papier absorbant.",
+        "10. Dresser les fritots – 5 min",
+        "Disposer les fritots sur un plat rond recouvert de papier gaufré ou serviette.",
+        "Décorer avec bouquets de persil frit tout autour.",
+        "Servir la sauce tomate en saucière à part."
+    ],
+    "remarques": [
+        "La marinade peut être remplacée par une simple vinaigrette légère.",
+        "Utiliser de la cervelle très fraîche ; la préparation peut être faite à l'avance jusqu'au pochage.",
+        "Servir très chaud avec quartiers de citron à part."
+    ]
+}

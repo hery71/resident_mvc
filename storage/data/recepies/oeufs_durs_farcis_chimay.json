@@ -1,0 +1,155 @@
+{
+    "titre": "Œufs durs farcis Chimay",
+    "type": "Hors-d'œuvre chauds à base d'œufs",
+    "description": "Œufs durs dont les blancs sont garnis d'une farce à base de jaunes durs hachés, de duxelles de champignons, nappés de sauce Mornay et gratinés au four.",
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "œufs",
+                "quantite": "12",
+                "unite": "pièces"
+            }
+        ],
+        "duxelles_seche": [
+            {
+                "nom": "beurre",
+                "quantite": "0,040",
+                "unite": "kg"
+            },
+            {
+                "nom": "champignons de Paris (ou mélange gris et blancs)",
+                "quantite": "0,400",
+                "unite": "kg"
+            },
+            {
+                "nom": "échalotes",
+                "quantite": "0,040",
+                "unite": "kg"
+            },
+            {
+                "nom": "citron (jus, facultatif)",
+                "quantite": "1/2",
+                "unite": "pièce"
+            },
+            {
+                "nom": "persil haché",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ],
+        "sauce_mornay": [
+            {
+                "nom": "beurre",
+                "quantite": "0,060",
+                "unite": "kg"
+            },
+            {
+                "nom": "farine",
+                "quantite": "0,060",
+                "unite": "kg"
+            },
+            {
+                "nom": "lait",
+                "quantite": "1",
+                "unite": "l"
+            },
+            {
+                "nom": "œufs (jaunes pour liaison)",
+                "quantite": "3",
+                "unite": "pièces"
+            },
+            {
+                "nom": "gruyère râpé et tamisé",
+                "quantite": "0,080",
+                "unite": "kg"
+            }
+        ],
+        "beurre_pour_tamponner_et_plat": [
+            {
+                "nom": "beurre (tamponnage sauce)",
+                "quantite": "0,020",
+                "unite": "kg"
+            },
+            {
+                "nom": "beurre (pour le plat à gratin)",
+                "quantite": "0,020",
+                "unite": "kg"
+            }
+        ],
+        "finition_et_gratin": [
+            {
+                "nom": "gruyère râpé",
+                "quantite": "0,080",
+                "unite": "kg"
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel fin",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "piment de Cayenne",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "noix de muscade",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ]
+    },
+    "duree_moyenne_preparation": "1 h 40 min",
+    "duree_moyenne_cuisson": "10 min (œufs) + gratinage",
+    "technique": [
+        "1. Mettre en place le poste de travail – 5 min",
+        "Denrées, matériels de préparation, de cuisson et de dressage.",
+        "2. Marquer les œufs durs en cuisson – 10 min",
+        "Plonger les œufs dans l'eau froide salée, porter à ébullition, cuire 10 min à partir de la reprise.",
+        "Rafraîchir immédiatement dans eau glacée, écaler délicatement.",
+        "3. Préparer la duxelles sèche – 20 min",
+        "Éplucher, laver, ciseler finement les échalotes.",
+        "Nettoyer, hacher les champignons (ou mixer grossièrement).",
+        "Faire suer les échalotes au beurre, ajouter les champignons, cuire à feu vif pour évaporer toute l'eau.",
+        "Assaisonner sel, poivre, muscade, piment de Cayenne, ajouter persil haché en fin de cuisson.",
+        "Débarasser et refroidir.",
+        "4. Préparer la duxelles au fromage – 5 min",
+        "Râper et tamiser le gruyère.",
+        "Mélanger la moitié du gruyère râpé à la duxelles sèche refroidie.",
+        "5. Confectionner la sauce Mornay – 15 min",
+        "Confectionner un roux blanc avec beurre et farine, cuire 1 min sans coloration.",
+        "Mouiller avec lait bouillant, porter à ébullition en fouettant, cuire 5–8 min.",
+        "Hors du feu, incorporer les jaunes d'œufs un à un, puis le reste de gruyère râpé.",
+        "Assaisonner sel, piment de Cayenne, noix de muscade.",
+        "Tamponner au beurre, réserver au bain-marie.",
+        "6. Préparer les œufs – 10 min",
+        "Couper les œufs durs en deux dans le sens de la longueur.",
+        "Extraire délicatement les jaunes, les passer au tamis ou mixer finement.",
+        "Mélanger les jaunes hachés à la duxelles au fromage, lier avec un peu de sauce Mornay.",
+        "Vérifier l'assaisonnement.",
+        "7. Farcir les œufs – 5 min",
+        "Garnir généreusement les blancs d'œufs avec la farce à l'aide d'une poche à douille cannelée.",
+        "Lisser la surface.",
+        "8. Monter la sauce Mornay pour gratiner – 5 min",
+        "Réchauffer la sauce Mornay, ajouter les jaunes restants si besoin, rectifier consistance et assaisonnement.",
+        "Tamponner et réserver au bain-marie.",
+        "9. Beurrer et gratiner les œufs – 10 min",
+        "Beurrer un plat à gratin.",
+        "Disposer les œufs farcis côte à côte dans le plat.",
+        "Napper uniformément de sauce Mornay chaude.",
+        "Saupoudrer du reste de gruyère râpé.",
+        "Gratiner au four chaud (200 °C) ou sous salamandre 5 à 10 min jusqu'à belle coloration dorée.",
+        "10. Dresser les œufs Chimay – 5 min",
+        "Dresser les œufs gratinés sur assiettes chaudes ou plat de service.",
+        "Nettoyer les bords du plat, disposer sur papier gaufré si servi en plat.",
+        "Servir immédiatement très chaud."
+    ],
+    "remarques": [
+        "La duxelles de champignons peut être réalisée avec des champignons de Paris ou un mélange forestier.",
+        "Pour une version plus légère, remplacer une partie de la crème ou du beurre par du lait.",
+        "Les œufs peuvent être préparés à l'avance jusqu'au gratinage, mais gratiner à la commande pour un maximum de croustillant.",
+        "Servir avec une petite salade verte ou des légumes vapeur en accompagnement si désiré."
+    ]
+}

@@ -1,0 +1,175 @@
+{
+    "titre": "Croustillant de tourteau et de calamars à l'américaine",
+    "type": "Hors-d'œuvre chauds à base de feuilles de brick",
+    "page": 690,
+    "fiche": "36",
+    "description": "Superposition de feuilles de brick séchées au four, intercalées avec du tourteau (chair de crabe) et des calamars à l'américaine. Dressage en croustillants harmonieux, servis chauds avec une sauce américaine crémeuse.",
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "chair de tourteau (crabe décortiqué)",
+                "quantite": "0,400",
+                "unite": "kg"
+            },
+            {
+                "nom": "pincées de crabe (ou chair supplémentaire)",
+                "quantite": "0,800",
+                "unite": "pièces"
+            },
+            {
+                "nom": "calamars (nettoyés et détaillés en rondelles)",
+                "quantite": "0,400",
+                "unite": "kg"
+            }
+        ],
+        "sauce_americaine": [
+            {
+                "nom": "huile d'olive",
+                "quantite": "0,020",
+                "unite": "l"
+            },
+            {
+                "nom": "carottes",
+                "quantite": "0,080",
+                "unite": "kg"
+            },
+            {
+                "nom": "oignons",
+                "quantite": "0,080",
+                "unite": "kg"
+            },
+            {
+                "nom": "échalotes",
+                "quantite": "0,040",
+                "unite": "kg"
+            },
+            {
+                "nom": "tomates (ou concentré de tomate)",
+                "quantite": "0,200",
+                "unite": "kg"
+            },
+            {
+                "nom": "cognac",
+                "quantite": "0,040",
+                "unite": "l"
+            },
+            {
+                "nom": "vin blanc",
+                "quantite": "0,100",
+                "unite": "l"
+            },
+            {
+                "nom": "fond d'américaine (ou fumet de poisson)",
+                "quantite": "0,400",
+                "unite": "l"
+            },
+            {
+                "nom": "estragon",
+                "quantite": "1/4",
+                "unite": "botte"
+            },
+            {
+                "nom": "cerfeuil",
+                "quantite": "1/4",
+                "unite": "botte"
+            },
+            {
+                "nom": "bouquet garni",
+                "quantite": "1",
+                "unite": "pièce"
+            }
+        ],
+        "liaison_et_finition": [
+            {
+                "nom": "beurre manié",
+                "quantite": "0,020",
+                "unite": "kg"
+            },
+            {
+                "nom": "crème fraîche",
+                "quantite": "0,200",
+                "unite": "l"
+            },
+            {
+                "nom": "cognac (supplémentaire pour flamber)",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ],
+        "feuilles_de_brick": [
+            {
+                "nom": "feuilles de brick",
+                "quantite": "6",
+                "unite": "pièces"
+            }
+        ],
+        "beurre_pour_tamponner_et_chemisage": [
+            {
+                "nom": "beurre (fondu)",
+                "quantite": "0,020",
+                "unite": "kg"
+            },
+            {
+                "nom": "beurre (pour tamponner la sauce)",
+                "quantite": "0,010",
+                "unite": "kg"
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel fin",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "poivre du moulin",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "piment de Cayenne",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ]
+    },
+    "duree_moyenne_preparation": "1 h 5 min",
+    "duree_moyenne_cuisson": "45 min à 1 h (réduction sauce + séchage brick)",
+    "technique": [
+        "1. Mettre en place le poste de travail – 5 min",
+        "Denrées, matériels de préparation, de cuisson et de dressage.",
+        "2. Marquer les blancs de calamars en cuisson à l'américaine – 20 min",
+        "Faire suer les légumes (carottes, oignons, échalotes) dans l'huile d'olive.",
+        "Ajouter les carcasses ou parures de crustacés si disponibles, colorer légèrement.",
+        "Flamber au cognac, déglacer au vin blanc, ajouter tomates, bouquet garni, fond d'américaine.",
+        "Réduire, cuire 30 à 40 min, passer au chinois, lier au beurre manié, ajouter crème, rectifier assaisonnement.",
+        "Incorporer les rondelles de calamars dans la sauce chaude hors du feu, laisser pocher 2 à 3 min, réserver au chaud.",
+        "3. Terminer la sauce américaine – 10 min",
+        "Crémer et réduire si nécessaire, tamponner au beurre, réserver au bain-marie.",
+        "4. Détailer les disques de brick – 10 min",
+        "Détailler 24 disques de 8 cm de diamètre dans les feuilles de brick.",
+        "Badigeonner légèrement de beurre fondu, superposer par 3 ou 4 disques pour solidité.",
+        "Disposer sur plaque avec papier sulfurisé, cuire au four à 160–180 °C jusqu'à séchage et légère coloration (10 min).",
+        "Réserver au sec.",
+        "5. Chauffer la chair de crabe – 6 min",
+        "Chauffer doucement la chair de tourteau avec un peu de sauce américaine, flamber légèrement au cognac si désiré.",
+        "Assaisonner, réserver au chaud.",
+        "6. Chauffer les pinces de crabe – 2 min",
+        "Chauffer les pinces avec un filet de sauce américaine, réserver.",
+        "7. Chauffer les calamars – 2 min",
+        "Réchauffer les calamars dans la sauce américaine sans prolonger la cuisson.",
+        "8. Dresser les croustillants – 10 min",
+        "Disposer un disque de brick au centre de chaque assiette chaude.",
+        "Déposer une cuillerée de chair de crabe au centre.",
+        "Superposer un autre disque de brick, ajouter les calamars à l'américaine.",
+        "Terminer par un dernier disque de brick.",
+        "Napper harmonieusement autour avec la sauce américaine crémeuse.",
+        "Décorer avec pluches de cerfeuil et estragon frais.",
+        "Servir immédiatement très chaud."
+    ],
+    "remarques": [
+        "Utiliser du fond de sauce américaine prêt ou un bon fumet de poisson pour gagner du temps.",
+        "Les disques de brick peuvent être préparés à l'avance et conservés au sec.",
+        "Variante : remplacer les calamars par des queues de langoustines ou Saint-Jacques poêlées."
+    ]
+}

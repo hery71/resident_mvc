@@ -1,0 +1,105 @@
+{
+    "titre": "Filets de sole dieppoise",
+    "type": "Hors-d'œuvre chauds à base de poisson",
+    "description": "Filets de sole pochés court-mouillement au fumet de poisson et vin blanc, avec garniture de moules, queues de crevettes et champignons de Paris. Sauce obtenue par réduction du liquide de cuisson, addition de crème, montée au beurre. Dressage nappé, garniture disposée harmonieusement autour des filets.",
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "filets de sole (4 à 5 filets par sole de 0,500 à 0,600 kg)",
+                "quantite": "2,400",
+                "unite": "kg"
+            }
+        ],
+        "court_mouillement": [
+            {
+                "nom": "fumet de poisson",
+                "quantite": "0,800",
+                "unite": "l"
+            },
+            {
+                "nom": "vin blanc sec",
+                "quantite": "0,100",
+                "unite": "l"
+            }
+        ],
+        "garniture_dieppoise": [
+            {
+                "nom": "moules (décortiquées, cuites au vin blanc)",
+                "quantite": "0,800",
+                "unite": "kg"
+            },
+            {
+                "nom": "queues de crevettes (décortiquées, pochées)",
+                "quantite": "0,160",
+                "unite": "kg"
+            },
+            {
+                "nom": "champignons de Paris (émincés ou tournés)",
+                "quantite": "0,200",
+                "unite": "kg"
+            }
+        ],
+        "sauce": [
+            {
+                "nom": "crème liquide",
+                "quantite": "0,400",
+                "unite": "l"
+            },
+            {
+                "nom": "beurre",
+                "quantite": "0,100",
+                "unite": "kg"
+            }
+        ],
+        "garniture_aromatique": [
+            {
+                "nom": "échalotes ciselées",
+                "quantite": "0,040",
+                "unite": "kg"
+            },
+            {
+                "nom": "persil haché",
+                "quantite": "0,020",
+                "unite": "kg"
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel fin",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "poivre du moulin",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ]
+    },
+    "duree_moyenne_preparation": "1 h 50 min",
+    "duree_moyenne_cuisson": "5 à 6 min (pochage filets) + réduction sauce",
+    "technique": [
+        "1. Mettre en place le poste de travail – 5 min",
+        "Rassembler denrées, matériels de préparation, cuisson et dressage.",
+        "2. Habiller les soles et lever les filets – 30 min",
+        "Écailler, vider, lever les filets, parer, retirer la peau si nécessaire. Réserver au frais.",
+        "3. Préparer la garniture aromatique et réaliser le fumet – 15 min",
+        "Ciseler les échalotes, émincer les champignons. Réaliser ou utiliser un fumet de poisson concentré. Réserver.",
+        "4. Préparer la garniture dieppoise – 25 min",
+        "Cuire les moules au vin blanc avec échalotes et bouquet garni ; décoquiller, filtrer le jus, réserver les moules au chaud. Poché les queues de crevettes dans le fumet. Cuire les champignons au beurre et citron (garder blancs). Réserver le tout au chaud.",
+        "5. Pocher les filets de sole – 15 min",
+        "Beurrer un plat à poisson. Disposer les filets pliés ou en longueur. Mouiller avec fumet + vin blanc (à hauteur). Ajouter un peu de jus de moules filtré. Couvrir d'une feuille de papier sulfurisé beurré. Pocher au four à 170-180 °C ou à frémissement sur le feu pendant 5-6 min (filets opaques et tendres). Égoutter délicatement, réserver au chaud. Conserver le liquide de cuisson.",
+        "6. Réaliser la sauce vin blanc par réduction – 10 min",
+        "Réduire le liquide de pochage (fumet + vin + jus moules) jusqu'à consistance sirupeuse. Ajouter la crème, réduire légèrement pour obtenir une sauce nappante. Monter au beurre froid hors du feu en fouettant vigoureusement. Assaisonner (sel, poivre). Passer au chinois fin si nécessaire. Réserver au chaud (bain-marie).",
+        "7. Dresser les filets de sole dieppoise – 5 min",
+        "Disposer les filets bien égouttés et épongés sur plat ou assiettes chaudes. Napper uniformément de sauce chaude. Répartir harmonieusement les moules, queues de crevettes et champignons autour ou dessus. Parsemer de persil haché. Servir immédiatement très chaud."
+    ],
+    "remarques": [
+        "La garniture dieppoise est typique : moules, crevettes et champignons pochés séparément puis réintégrés au dressage.",
+        "Pochage doux à frémissement pour conserver la chair nacrée des filets de sole.",
+        "La sauce doit être brillante et veloutée ; monter au beurre hors du feu pour éviter la séparation.",
+        "Utiliser le jus de cuisson des moules filtré pour intensifier le goût iodé de la sauce.",
+        "Accompagnements classiques : pommes à l'anglaise, riz pilaf ou tagliatelles fraîches.",
+        "Vin blanc sec et minéral (type Muscadet ou Chablis) recommandé pour le court-mouillement."
+    ]
+}

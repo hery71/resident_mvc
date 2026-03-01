@@ -1,0 +1,19 @@
+{
+    "titre": "Beurre de paprika",
+    "type": "beurre compose",
+    "genre": "a froid",
+    "ingredients": [
+        "Beurre",
+        "oignons",
+        "vin blanc",
+        "paprika",
+        "sel",
+        "poivre du moulin"
+    ],
+    "technique": [
+        "Faire suer les oignons finement ciselés au beurre. Ajouter le paprika, déglacer au vin blanc, réduire, mixer avec le beurre. Passer au tamis"
+    ],
+    "utilisation": [
+        "Finition de la sauce hongroise, côtes de veau au paprika, canapés, etc."
+    ]
+}

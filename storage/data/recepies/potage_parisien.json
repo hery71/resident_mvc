@@ -1,0 +1,81 @@
+{
+    "titre": "Potage parisien",
+    "type": "potage taille",
+    "page": 621,
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "beurre",
+                "quantite": "0,040",
+                "unite": "kg"
+            },
+            {
+                "nom": "blancs de poireaux",
+                "quantite": "0,400",
+                "unite": "kg"
+            },
+            {
+                "nom": "pommes de terre (Bintje)",
+                "quantite": "1,200",
+                "unite": "kg"
+            }
+        ],
+        "mouillement": [
+            {
+                "nom": "eau",
+                "quantite": "1,8 à 2",
+                "unite": "l"
+            }
+        ],
+        "finition": [
+            {
+                "nom": "cerfeuil",
+                "quantite": "1/4",
+                "unite": "botte"
+            },
+            {
+                "nom": "beurre pour tamponner",
+                "quantite": "0,020",
+                "unite": "kg"
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel gros",
+                "quantite": "PM"
+            },
+            {
+                "nom": "sel fin",
+                "quantite": "PM"
+            }
+        ]
+    },
+    "duree_preparation": "1 h",
+    "duree_cuisson": "8 à 10 min",
+    "technique": [
+        "1. Mettre en place le poste de travail – 5 min",
+        "Denrées, matériels de préparation, de cuisson et de dressage.",
+        "2. Préparer les légumes – 10 min",
+        "Éplucher et laver les légumes (vérifier très soigneusement les poireaux).",
+        "3. Émincer finement les poireaux en paysanne – 10 min (voir p. 119)",
+        "4. Marquer le potage en cuisson – 8 min",
+        "Suer au beurre, très lentement, les blancs de poireaux émincés.",
+        "Mouiller avec 1,8 à 2 l d’eau froide.",
+        "Porter à ébullition.",
+        "Saler légèrement avec du gros sel.",
+        "5. Tailler les pommes de terre en paysanne – 10 min (voir p. 129)",
+        "Les tailler durant la cuisson des poireaux afin qu’elles ne noircissent pas.",
+        "Ne pas les mettre dans l’eau pour conserver la fécule.",
+        "6. Ajouter les pommes de terre au potage – 2 min",
+        "Les laisser cuire durant 8 à 10 min.",
+        "Écumer si nécessaire.",
+        "7. Effeuiller le cerfeuil – 5 min (voir p. 100)",
+        "Réserver les pluches dans de l’eau très froide.",
+        "8. Terminer le potage – 3 min",
+        "Vérifier la cuisson des légumes et l’assaisonnement.",
+        "Le débarrasser et le réserver à couvert au bain-marie.",
+        "9. Dresser le potage – 2 min",
+        "Dresser le potage brûlant dans la soupière en répartissant les légumes équitablement.",
+        "Au dernier moment, ajouter les pluches de cerfeuil bien égouttées."
+    ]
+}

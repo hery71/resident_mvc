@@ -1,0 +1,144 @@
+{
+    "titre": "Lotte à l'américaine",
+    "type": "Hors-d'œuvre chauds à base de poisson",
+    "description": "Filets (queues) de lotte pochés dans un fumet de poisson, escalopés puis nappés d'une sauce américaine classique : réduction de carcasses de crustacés (homard, langoustines ou araignées de mer), tomates, cognac, vin blanc, estragon, montée au beurre ou liée au beurre manié. Sauce relevée, brillante, servie avec garniture au choix (riz créole, pilaf, tagliatelles aux herbes).",
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "queues de lotte (filets parés)",
+                "quantite": "2,400",
+                "unite": "kg"
+            }
+        ],
+        "court_mouillement": [
+            {
+                "nom": "fumet de poisson",
+                "quantite": "1,000",
+                "unite": "l"
+            }
+        ],
+        "sauce_americaine": [
+            {
+                "nom": "carcasses de crustacés (homard, langoustines, araignées de mer)",
+                "quantite": "0,800",
+                "unite": "kg"
+            },
+            {
+                "nom": "huile d'olive",
+                "quantite": "0,020",
+                "unite": "l"
+            },
+            {
+                "nom": "beurre",
+                "quantite": "0,040",
+                "unite": "kg"
+            },
+            {
+                "nom": "cognac",
+                "quantite": "0,100",
+                "unite": "l"
+            },
+            {
+                "nom": "vin blanc sec",
+                "quantite": "0,200",
+                "unite": "l"
+            },
+            {
+                "nom": "tomates concassées (ou concentré de tomates)",
+                "quantite": "0,400",
+                "unite": "kg"
+            },
+            {
+                "nom": "oignons",
+                "quantite": "0,080",
+                "unite": "kg"
+            },
+            {
+                "nom": "carottes",
+                "quantite": "0,080",
+                "unite": "kg"
+            },
+            {
+                "nom": "échalotes",
+                "quantite": "0,040",
+                "unite": "kg"
+            },
+            {
+                "nom": "estragon frais",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "cerfeuil frais",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ],
+        "liaison": [
+            {
+                "nom": "beurre manié (beurre + farine)",
+                "quantite": "0,040",
+                "unite": "kg"
+            }
+        ],
+        "finition": [
+            {
+                "nom": "cerfeuil (pluches)",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "estragon haché",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel fin",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "poivre du moulin",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "piment de Cayenne",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ]
+    },
+    "duree_moyenne_preparation": "1 h 35 min",
+    "duree_moyenne_cuisson": "18 à 22 min",
+    "technique": [
+        "1. Mettre en place le poste de travail – 5 min",
+        "Rassembler denrées, matériels de préparation, cuisson et dressage.",
+        "2. Préparer la lotte – 10 min",
+        "Dépouiller, dénerver, parer les queues de lotte. Lever les filets, retirer la membrane, escaloper légèrement si épais. Réserver au frais.",
+        "3. Éplucher et laver les légumes pour garniture aromatique – 10 min",
+        "Préparer mirepoix (oignons, carottes, échalotes). Réserver.",
+        "4. Réaliser le fumet de poisson – 10 min",
+        "Utiliser un fumet classique ou préparer avec arêtes de poisson/poisson blanc. Réserver chaud.",
+        "5. Réaliser la sauce américaine – 30 min",
+        "Faire suer les carcasses de crustacés concassées dans l'huile d'olive et beurre. Ajouter cognac, flamber. Incorporer mirepoix, tomates concassées, vin blanc, bouquet garni. Mouiller avec fumet. Cuire 20-25 min à frémissement. Passer au chinois, presser pour extraire les sucs. Réduire si nécessaire. Lier au beurre manié si besoin pour nappante. Assaisonner (sel, poivre, Cayenne). Réserver au chaud.",
+        "6. Marquer les filets de lotte en cuisson – 5 min",
+        "Beurrer un plat à poisson. Disposer les escalopes de lotte. Saler, poivrer. Mouiller avec un peu de fumet. Couvrir d'une feuille de papier sulfurisé beurré. Cuire au four à 170-180 °C pendant 18-22 min selon épaisseur (chair nacrée, ferme mais moelleuse).",
+        "7. Terminer la sauce américaine – 10 min",
+        "Réduire si trop liquide. Monter au beurre froid hors du feu pour brillance. Ajouter estragon et cerfeuil hachés. Vérifier assaisonnement. Réserver au bain-marie.",
+        "8. Dresser la lotte à l'américaine – 5 min",
+        "Disposer les tranches de lotte sur plat ou assiettes chaudes. Napper uniformément de sauce américaine chaude. Parsemer de pluches de cerfeuil et estragon frais. Servir immédiatement très chaud."
+    ],
+    "remarques": [
+        "La sauce américaine est riche et relevée : flamber au cognac pour développer les arômes, ne pas trop réduire pour garder la texture veloutée.",
+        "Cuisson douce de la lotte (frémissement ou four) pour éviter qu'elle ne durcisse.",
+        "Utiliser des carcasses fraîches de homard ou langoustines pour une sauce authentique et intense.",
+        "Variante Nantua : remplacer les crustacés par écrevisses et ajouter du beurre d'écrevisses.",
+        "Accompagnements classiques : riz créole, pilaf, risotto au safran, tagliatelles aux herbes ou légumes vapeur.",
+        "Piment de Cayenne à doser avec modération pour relever sans dominer."
+    ],
+    "page": "740",
+    "fiche": "58"
+}

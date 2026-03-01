@@ -1,0 +1,83 @@
+{
+  "title": "Sauce crème",
+  "category": "Sauces dérivées",
+  "type": "Sauce blanche à la crème",
+  "pages": [
+    290
+  ],
+  "yield": "1 litre",
+  "ingredients": {
+    "base": [
+      {
+        "name": "béchamel",
+        "unite": "litre",
+        "quantite": 1.0
+      }
+    ],
+    "garniture": [
+      {
+        "name": "crème liquide",
+        "unite": "litre",
+        "quantite": 0.2
+      },
+      {
+        "name": "beurre",
+        "unite": "kg",
+        "quantite": 0.2
+      }
+    ],
+    "assaisonnement": [
+      {
+        "name": "sel fin",
+        "unite": "PM",
+        "quantite": "PM"
+      },
+      {
+        "name": "piment de cayenne (facultatif)",
+        "unite": "PM",
+        "quantite": "PM"
+      },
+      {
+        "name": "jus de citron (facultatif)",
+        "unite": "PM",
+        "quantite": "PM"
+      },
+      {
+        "name": "muscade râpée (facultatif)",
+        "unite": "PM",
+        "quantite": "PM"
+      }
+    ]
+  },
+  "preparation_steps": [
+    {
+      "step": 1,
+      "action": "Réduire légèrement le velouté."
+    },
+    {
+      "step": 2,
+      "action": "Ajouter la crème et laisser réduire à consistance et ajouter l’assaisonnement."
+    },
+    {
+      "step": 3,
+      "action": "Monter au beurre hors du feu."
+    },
+    {
+      "step": 4,
+      "action": "Rectifier l’assaisonnement et ajouter éventuellement un filet de citron."
+    }
+  ],
+  "timing": {
+    "duree_moyenne_realisation": "10 à 15 min",
+    "duree_moyenne_cuisson": "15 à 20 min"
+  },
+  "notes": [
+    "Ne pas faire bouillir après montage au beurre.",
+    "Utilisée pour poissons, volailles et légumes."
+  ],
+  "storage_recommendations": {
+    "cooling": "Refroidir rapidement.",
+    "storage_temp": "+3°C maximum"
+  },
+  "version": "1.0"
+}

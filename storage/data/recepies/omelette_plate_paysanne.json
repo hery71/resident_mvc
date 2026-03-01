@@ -1,0 +1,108 @@
+{
+    "titre": "Omelette plate paysanne",
+    "type": "Hors-d'œuvre chauds à base d'œufs",
+    "description": "Omelette plate épaisse de style paysan, garnie de pommes de terre rissolées, lardons, oignons et fines herbes (persil, cerfeuil, ciboulette). Cuisson à la poêle avec retournement, texture moelleuse et dorée, servie chaude.",
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "œufs extra-frais",
+                "quantite": "24",
+                "unite": "pièces"
+            }
+        ],
+        "garniture_paysanne": [
+            {
+                "nom": "pommes de terre (à chair ferme, type Charlotte ou Bintje)",
+                "quantite": "0,800",
+                "unite": "kg"
+            },
+            {
+                "nom": "lardons (ou poitrine fumée)",
+                "quantite": "0,200",
+                "unite": "kg"
+            },
+            {
+                "nom": "oignons",
+                "quantite": "0,200",
+                "unite": "kg"
+            },
+            {
+                "nom": "beurre ou huile (pour rissoler)",
+                "quantite": "0,060",
+                "unite": "kg"
+            }
+        ],
+        "fines_herbes": [
+            {
+                "nom": "persil plat haché",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "cerfeuil haché",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "ciboulette hachée",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ],
+        "finition": [
+            {
+                "nom": "beurre (pour cuisson et lustrage)",
+                "quantite": "0,040",
+                "unite": "kg"
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel fin",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "poivre du moulin",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ]
+    },
+    "duree_moyenne_preparation": "50 min",
+    "duree_moyenne_cuisson": "10 à 15 min (garniture) + 2 à 4 min par omelette",
+    "technique": [
+        "1. Mettre en place le poste de travail – 5 min",
+        "Denrées, matériels de préparation, de cuisson et de dressage.",
+        "2. Préparer la garniture paysanne – 20 min",
+        "Éplucher et tailler les pommes de terre en dés ou rondelles fines (5 mm).",
+        "Blanchir 5 min dans eau bouillante salée, rafraîchir, égoutter.",
+        "Blanchir les lardons 2 min, rafraîchir, égoutter.",
+        "Éplucher et ciseler finement les oignons.",
+        "Faire rissoler les pommes de terre dans beurre ou huile jusqu'à coloration dorée.",
+        "Ajouter les lardons et oignons, continuer la cuisson 8–10 min jusqu'à tendreté et coloration uniforme.",
+        "Assaisonner sel et poivre, ajouter les fines herbes hachées en fin de cuisson.",
+        "Réserver au chaud.",
+        "3. Confectionner les omelettes plates – 10 min (à la commande)",
+        "Casser 3 œufs par omelette dans un bol, battre légèrement à la fourchette avec sel et poivre.",
+        "Incorporer 2–3 cuillères de garniture paysanne chaude dans les œufs battus.",
+        "Chauffer une poêle antiadhésive (20–24 cm) avec beurre.",
+        "Verser le mélange, laisser prendre 1 min sur feu moyen.",
+        "Remuer légèrement pour homogénéiser, laisser cuire 1–2 min jusqu'à ce que le dessous soit doré.",
+        "Retourner l'omelette (ou finir au four 180 °C 2 min si épaisse).",
+        "Cuire encore 1 min de l'autre côté pour une texture uniforme mais encore moelleuse.",
+        "Glisser sur assiette chaude.",
+        "4. Dresser les omelettes plates paysanne – 2 min",
+        "Dresser chaque omelette sur assiette chaude.",
+        "Lustrer légèrement avec beurre fondu.",
+        "Parsemer de persil haché frais ou fines herbes supplémentaires.",
+        "Servir immédiatement très chaud."
+    ],
+    "remarques": [
+        "Les omelettes plates paysannes sont plus épaisses que les omelettes fines ; cuisson douce pour intérieur moelleux.",
+        "La garniture doit être réchauffée à la commande pour éviter que les œufs ne cuisent trop.",
+        "Variante : ajouter des herbes fraîches (ciboulette, persil) directement dans les œufs battus.",
+        "En restauration, servir une omelette par personne (3 œufs) ou couper en parts si plus grande.",
+        "Accompagnement possible : salade verte ou tomates cerises pour équilibrer."
+    ]
+}

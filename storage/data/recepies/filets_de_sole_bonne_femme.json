@@ -1,0 +1,100 @@
+{
+    "titre": "Filets de sole bonne femme",
+    "type": "Hors-d'œuvre chauds à base de poisson",
+    "description": "Filets de sole pochés court-mouillement avec échalotes ciselées, champignons émincés et persil haché, au vin blanc et fumet de poisson. Sauce obtenue par réduction du liquide de cuisson, addition de crème, montée au beurre et glacée au four. Dressage nappé, parsemé de persil.",
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "filets de sole (4 à 5 filets par sole, soit 0,500 à 0,600 kg par sole)",
+                "quantite": "2,400",
+                "unite": "kg"
+            }
+        ],
+        "garniture_aromatique": [
+            {
+                "nom": "échalotes ciselées",
+                "quantite": "0,040",
+                "unite": "kg"
+            },
+            {
+                "nom": "champignons de Paris émincés",
+                "quantite": "0,200",
+                "unite": "kg"
+            },
+            {
+                "nom": "persil haché",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ],
+        "court_mouillement": [
+            {
+                "nom": "vin blanc sec",
+                "quantite": "0,100",
+                "unite": "l"
+            },
+            {
+                "nom": "fumet de poisson",
+                "quantite": "0,400",
+                "unite": "l"
+            }
+        ],
+        "sauce": [
+            {
+                "nom": "crème liquide",
+                "quantite": "0,400",
+                "unite": "l"
+            },
+            {
+                "nom": "beurre",
+                "quantite": "0,140",
+                "unite": "kg"
+            }
+        ],
+        "finition": [
+            {
+                "nom": "persil haché (pour parsemer)",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel fin",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "poivre du moulin",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ]
+    },
+    "duree_moyenne_preparation": "1 h 40 min",
+    "duree_moyenne_cuisson": "5 à 6 min (pochage) + réduction et glaçage",
+    "technique": [
+        "1. Mettre en place le poste de travail – 5 min",
+        "Rassembler denrées, matériels de préparation, cuisson et dressage.",
+        "2. Habiller les soles et lever les filets – 30 min",
+        "Écailler, vider, lever les filets (4 par sole environ), retirer la peau, parer. Réserver au frais.",
+        "3. Préparer la garniture aromatique et réaliser le fumet – 20 min",
+        "Ciseler les échalotes, émincer les champignons. Préparer un fumet de poisson classique (ou utiliser prêt). Faire suer échalotes + champignons au beurre sans coloration, ajouter persil haché. Réserver.",
+        "4. Marquer les filets en cuisson – 5 min",
+        "Beurrer un plat à poisson ou sauteuse. Disposer les filets pliés en deux ou à plat. Parsemer de la garniture aromatique (échalotes, champignons, persil). Mouiller avec vin blanc + fumet de poisson (à hauteur). Poivrer, saler légèrement. Couvrir d'une feuille de papier sulfurisé beurré.",
+        "5. Pocher les filets – 5 à 6 min",
+        "Porter à frémissement sur le feu ou au four à 170-180 °C. Cuire 5-6 min (filets opaques et se détachant facilement). Égoutter délicatement les filets, réserver au chaud. Conserver le liquide de cuisson.",
+        "6. Réaliser la sauce – 10 min",
+        "Réduire le liquide de pochage jusqu'à consistance sirupeuse. Ajouter la crème, réduire légèrement pour obtenir une sauce nappante. Monter au beurre froid hors du feu en fouettant vigoureusement. Assaisonner (sel, poivre). Passer au chinois fin si nécessaire. Vérifier liaison (ne pas bouillir).",
+        "7. Dresser les filets de sole – 8 min",
+        "Disposer les filets bien égouttés et épongés dans un plat à gratin ou assiettes à four. Napper généreusement de sauce. Glacer rapidement sous salamandre ou au four chaud (200-220 °C) jusqu'à coloration légère et brillante. Parsemer de persil haché. Servir immédiatement très chaud."
+    ],
+    "remarques": [
+        "Pochage à frémissement doux uniquement pour garder les filets nacrés et tendres.",
+        "La sauce doit être brillante et légèrement glacée ; monter au beurre hors du feu pour éviter la séparation.",
+        "Variante classique : ajouter un trait de jus de citron dans la sauce pour plus de fraîcheur.",
+        "Glaçage à la salamandre ou four chaud pour obtenir la surface caramélisée typique.",
+        "Accompagnements suggérés : pommes à l'anglaise, riz pilaf, champignons supplémentaires ou légumes vapeur.",
+        "Utiliser un vin blanc sec et fruité (type Muscadet ou Sauvignon) pour équilibrer l'acidité."
+    ]
+}

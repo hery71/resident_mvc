@@ -1,0 +1,75 @@
+{
+  "title": "Sauce velouté",
+  "category": "Sauces mères",
+  "type": "Sauce blanche liée au roux",
+  "pages": [
+    284,
+    285
+  ],
+  "yield": "1 litre",
+  "ingredients": {
+    "base": [
+      {
+        "name": "fond blanc (veau, volaille ou poisson selon utilisation)",
+        "unite": "litre",
+        "quantite": 1.0
+      },
+      {
+        "name": "roux blanc ou blond",
+        "unite": "kg",
+        "quantite": 0.08
+      }
+    ],
+    "assaisonnement": [
+      {
+        "name": "sel fin",
+        "unite": "PM",
+        "quantite": "PM"
+      },
+      {
+        "name": "poivre blanc",
+        "unite": "PM",
+        "quantite": "PM"
+      }
+    ]
+  },
+  "preparation_steps": [
+    {
+      "step": 1,
+      "action": "Porter le fond blanc à ébullition."
+    },
+    {
+      "step": 2,
+      "action": "Incorporer progressivement le roux en fouettant."
+    },
+    {
+      "step": 3,
+      "action": "Porter à frémissement et cuire 30 à 40 minutes."
+    },
+    {
+      "step": 4,
+      "action": "Écumer et dégraisser régulièrement."
+    },
+    {
+      "step": 5,
+      "action": "Passer au chinois sans fouler."
+    },
+    {
+      "step": 6,
+      "action": "Rectifier l’assaisonnement."
+    }
+  ],
+  "timing": {
+    "duree_moyenne_realisation": "10 à 15 min",
+    "duree_moyenne_cuisson": "30 à 40 min"
+  },
+  "notes": [
+    "Base de nombreuses sauces dérivées.",
+    "La cuisson lente évite le goût farineux."
+  ],
+  "storage_recommendations": {
+    "cooling": "Refroidir rapidement.",
+    "storage_temp": "+3°C maximum"
+  },
+  "version": "1.0"
+}

@@ -1,0 +1,133 @@
+{
+    "titre": "Gnocchi à la parisienne",
+    "type": "Hors-d'œuvre chauds à base de pâte à choux pochée",
+    "page": 680,
+    "fiche": "31",
+    "description": "Hors-d'œuvre chaud à base de pâte à choux fromage, les gnocchi sont pochés en forme de petits bouchons. Ils sont dressés en plat à gratin, nappés de sauce Béchamel, puis saupoudrés de gruyère et gratinés au four.",
+    "denrees_pour_8_couverts": {
+        "pate_a_choux": [
+            {
+                "nom": "eau ou lait",
+                "quantite": "0,500",
+                "unite": "l"
+            },
+            {
+                "nom": "beurre",
+                "quantite": "0,250",
+                "unite": "kg"
+            },
+            {
+                "nom": "farine",
+                "quantite": "0,250",
+                "unite": "kg"
+            },
+            {
+                "nom": "œufs (entiers)",
+                "quantite": "8",
+                "unite": "pièces"
+            },
+            {
+                "nom": "gruyère râpé et tamisé",
+                "quantite": "0,050",
+                "unite": "kg"
+            }
+        ],
+        "sauce_bechamel": [
+            {
+                "nom": "beurre",
+                "quantite": "0,090",
+                "unite": "kg"
+            },
+            {
+                "nom": "farine",
+                "quantite": "0,090",
+                "unite": "kg"
+            },
+            {
+                "nom": "lait",
+                "quantite": "1,500",
+                "unite": "l"
+            }
+        ],
+        "beurre_pour_tamponner": [
+            {
+                "nom": "beurre",
+                "quantite": "0,020",
+                "unite": "kg"
+            }
+        ],
+        "beurre_pour_plat_a_gratin": [
+            {
+                "nom": "beurre",
+                "quantite": "0,020",
+                "unite": "kg"
+            }
+        ],
+        "finition": [
+            {
+                "nom": "gruyère râpé et tamisé",
+                "quantite": "0,100",
+                "unite": "kg"
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel fin",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "poivre du moulin",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "piment de Cayenne",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "noix de muscade",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ]
+    },
+    "duree_moyenne_preparation": "1 h 10 min",
+    "duree_moyenne_cuisson": "5 à 6 min (pochage) + gratinage",
+    "technique": [
+        "1. Mettre en place le poste de travail – 5 min",
+        "Denrées, matériels de préparation, de cuisson et de dressage.",
+        "2. Préparer le gruyère – 5 min",
+        "Râper et tamiser le gruyère. Réserver.",
+        "3. Confectionner la pâte à choux – 20 min (voir p. 503)",
+        "Tamiser et réserver 225 g de fromage pour le gratin.",
+        "Ajouter le reste (50 g) dans la panade chaude hors du feu.",
+        "Incorporer les œufs progressivement.",
+        "4. Confectionner la sauce Béchamel – 15 min (voir p. 286)",
+        "Confectionner le roux blanc et le refroidir rapidement.",
+        "Mettre le lait à bouillir et le verser sur le roux froid.",
+        "Remettre sur le feu, porter à ébullition en remuant, cuire 4 à 5 min.",
+        "Assaisonner sel, poivre, piment de Cayenne et noix de muscade.",
+        "Tamponner la surface avec du beurre pour éviter la formation de croûte.",
+        "Débarasser et réserver.",
+        "5. Pocher les gnocchi – 20 min",
+        "Porter une grande casserole d’eau salée à ébullition.",
+        "Pousser la pâte à choux en petits bouchons (1,2 cm de diamètre environ) à l’aide d’une poche munie d’une douille unie de 1,2 à 1,5 cm.",
+        "Sectionner à 2–3 cm de longueur avec un couteau mouillé.",
+        "Pocher sans ébullition forte pendant 5 à 6 min (les gnocchi doivent remonter à la surface et être élastiques).",
+        "Égoutter soigneusement sur une grille ou torchon propre.",
+        "6. Dresser et gratiner les gnocchi – 5 min",
+        "Beurrer un plat à gratin.",
+        "Disposer les gnocchi pochés dans le plat.",
+        "Napper uniformément de sauce Béchamel chaude.",
+        "Saupoudrer généreusement de gruyère râpé tamisé.",
+        "Arroser d’un filet de beurre fondu.",
+        "Gratiner au four chaud (200–220 °C) ou sous salamandre jusqu’à coloration dorée.",
+        "Servir immédiatement."
+    ],
+    "remarques": [
+        "La pâte à choux des gnocchi peut éventuellement être additionnée de jambon haché ou de dés de fromage.",
+        "Variante : remplacer une partie du lait par de la crème pour une sauce plus onctueuse."
+    ]
+}

@@ -1,0 +1,120 @@
+{
+  "page": "662",
+  "fiche": "23",
+  "titre": "TARTARE DE SAUMON",
+  "type": "Hors-d’œuvre froids à base de poisson cru",
+  "denrees_pour_8_couverts": {
+    "elements_de_base": [
+      {
+        "nom": "filet de saumon",
+        "unite": "kg",
+        "quantite": "1"
+      }
+    ],
+    "assaisonnement": [
+      {
+        "nom": "œufs (2 jaunes)",
+        "unite": "kg",
+        "quantite": "0,010"
+      },
+      {
+        "nom": "moutarde",
+        "unite": "kg",
+        "quantite": "0,020"
+      },
+      {
+        "nom": "citron (1 pièce)",
+        "unite": "kg",
+        "quantite": "0,120"
+      },
+      {
+        "nom": "huile d’olive",
+        "unite": "l",
+        "quantite": "0,20"
+      },
+      {
+        "nom": "sauce anglaise",
+        "quantite": "PM"
+      },
+      {
+        "nom": "tabasco",
+        "quantite": "PM"
+      },
+      {
+        "nom": "sel fin",
+        "quantite": "PM"
+      },
+      {
+        "nom": "poivre du moulin",
+        "quantite": "PM"
+      }
+    ],
+    "garniture": [
+      {
+        "nom": "échalotes grises",
+        "unite": "kg",
+        "quantite": "0,080"
+      },
+      {
+        "nom": "câpres fines",
+        "unite": "kg",
+        "quantite": "0,080"
+      },
+      {
+        "nom": "ciboulette",
+        "unite": "botte",
+        "quantite": "1"
+      },
+      {
+        "nom": "persil plat",
+        "unite": "kg",
+        "quantite": "0,040"
+      }
+    ],
+    "presentation": [
+      {
+        "nom": "concombre",
+        "unite": "kg",
+        "quantite": "0,400"
+      },
+      {
+        "nom": "ciboulette",
+        "unite": "botte",
+        "quantite": "1"
+      },
+      {
+        "nom": "aneth",
+        "unite": "botte",
+        "quantite": "1/2"
+      }
+    ]
+  },
+  "technique": [
+    "1. Mettre en place le poste de travail - 5 min",
+    "• Denrées, matériels de préparation et de dressage.",
+    "• Laver, désinfecter le plan de travail, la planche à découper et le matériel nécessaire.",
+    "2. Préparer la garniture et la réserver en enceinte réfrigérée - 10 min",
+    "• Éplucher, laver, ciseler finement les échalotes et un bottillon de ciboulette.",
+    "• Laver, équeuter, essorer et hacher le persil plat.",
+    "• Hacher les câpres.",
+    "3. Préparer les éléments de décor et les réserver en enceinte réfrigérée - 5 min",
+    "• Laver, citronner et émincer finement le tronçon de concombre. Le tailler légèrement en rondelles.",
+    "• Tailler 1/2 bottillon de ciboulette en tronçons de 4 cm de longueur.",
+    "4. Réaliser la sauce de base - 10 min",
+    "• Réunir dans une sauce mayonnaise avec les jaunes d’œufs, le jus de citron et l’huile d’olive. Ajouter les échalotes et la ciboulette ciselées, le persil et les câpres hachés.",
+    "• Assaisonner avec le sel, le poivre, le tabasco et la sauce anglaise.",
+    "5. Hacher le saumon (à la commande) - 5 min",
+    "• Ôter la peau, les arêtes et toutes les parties noires du filet (gras).",
+    "• Hacher la chair finement à l’aide d’un gros couteau. Utiliser la planche parfaitement désinfectée (si la chair est hachée quelques minutes à l’avance, la filmer et la réserver en enceinte réfrigérée).",
+    "6. Réaliser le mélange - 4 min",
+    "• Mélanger intimement le saumon haché, la sauce et la garniture.",
+    "• Vérifier l’assaisonnement.",
+    "7. Dresser les tartares de saumon - 10 min",
+    "• Disposer un petit cercle à entremets au centre de chaque assiette.",
+    "• Garnir le centre avec le tartare de saumon.",
+    "• Lisser soigneusement la surface.",
+    "• Entourer le rond uniformément des assiettes avec les demi-lamelles de concombre.",
+    "• Décorer avec les brins de ciboulette et les pluches d’aneth."
+  ],
+  "duree_moyenne_de_preparation": "50 min"
+}

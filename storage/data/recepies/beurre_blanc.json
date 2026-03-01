@@ -1,0 +1,60 @@
+{
+    "titre": "Beurre blanc",
+    "type": "Sauce émulsionnée instable chaude",
+    "page": 306,
+    "duree_moyenne_realisation": "12 à 15 min",
+    "denrees": {
+        "base": [
+            {
+                "nom": "Beurre d’excellente qualité (A.O.C.)",
+                "quantite": "1,000",
+                "unite": "kg"
+            }
+        ],
+        "reduction": [
+            {
+                "nom": "Échalotes grises de Jersey",
+                "quantite": "0,150 à 0,200",
+                "unite": "kg"
+            },
+            {
+                "nom": "Vin blanc sec",
+                "quantite": "0,20",
+                "unite": "l"
+            },
+            {
+                "nom": "Vinaigre de vin blanc",
+                "quantite": "0,10",
+                "unite": "l"
+            },
+            {
+                "nom": "Crème (facultatif)",
+                "quantite": "0,10 à 0,20",
+                "unite": "l"
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "Sel fin",
+                "quantite": "PM"
+            },
+            {
+                "nom": "Piment de Cayenne",
+                "quantite": "PM"
+            }
+        ]
+    },
+    "technique": [
+        "Mettre en place le poste de travail.",
+        "Peser, mesurer et contrôler les denrées.",
+        "Éplucher, laver et ciseler finement les échalotes.",
+        "Réunir les échalotes ciselées, le vinaigre de vin blanc et le vin blanc dans une sauteuse de grandeur appropriée.",
+        "Ajouter la crème s’il y a lieu.",
+        "Porter à ébullition, puis réduire très lentement.",
+        "Dès qu’il n’en reste plus qu’environ 5 cl, arrêter la réduction.",
+        "Réduire le feu ou placer la sauteuse sur le côté de la plaque du fourneau.",
+        "Incorporer progressivement le beurre ramolli et découpé en petites parcelles, tout en fouettant énergiquement.",
+        "Deuxième méthode : placer la sauteuse sur un feu vif.",
+        "Ajouter le beurre découpé en parcelles et raffermi en enceinte réfrigérée : procéder en une seule fois."
+    ]
+}

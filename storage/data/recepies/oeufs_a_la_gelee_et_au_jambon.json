@@ -1,0 +1,139 @@
+{
+    "titre": "Œufs à la gelée et au jambon",
+    "type": "Hors-d'œuvre froids à base d'œufs pochés",
+    "description": "Œufs pochés servis froids dans une gelée aromatisée au madère ou porto, avec jambon blanc panaché, décorée de légumes taillés et herbes, accompagnée d'une chiffonnade de laitue et sauce vinaigrette.",
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "œufs extra-frais",
+                "quantite": "8",
+                "unite": "pièces"
+            }
+        ],
+        "gelée_aromatisee": [
+            {
+                "nom": "consommé de volaille ou bouillon clair",
+                "quantite": "1,5",
+                "unite": "l"
+            },
+            {
+                "nom": "feuilles de gélatine (ou gélatine en poudre)",
+                "quantite": "14",
+                "unite": "feuilles"
+            },
+            {
+                "nom": "madère ou porto",
+                "quantite": "0,050",
+                "unite": "l"
+            }
+        ],
+        "garniture_et_decoration": [
+            {
+                "nom": "jambon blanc (tranches fines ou dés)",
+                "quantite": "0,200",
+                "unite": "kg"
+            },
+            {
+                "nom": "carottes (en brunoise ou losanges)",
+                "quantite": "0,080",
+                "unite": "kg"
+            },
+            {
+                "nom": "vert de poireau (ou ciboulette)",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "estragon frais",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "cerfeuil frais",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "blancs d'œufs durs (pour motifs)",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "tomates (ou tomates cerises)",
+                "quantite": "0,100",
+                "unite": "kg"
+            }
+        ],
+        "chiffonnade_et_presentation": [
+            {
+                "nom": "laitue (chiffonnade fine)",
+                "quantite": "0,150",
+                "unite": "kg"
+            },
+            {
+                "nom": "huile d'olive (vinaigrette)",
+                "quantite": "0,100",
+                "unite": "l"
+            },
+            {
+                "nom": "vinaigre (ou citron)",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel fin",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "poivre en grains ou du moulin",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ]
+    },
+    "duree_moyenne_preparation": "1 h 45 min",
+    "duree_moyenne_cuisson": "2 min 30 à 3 min (pochage œufs)",
+    "technique": [
+        "1. Mettre en place le poste de travail – 5 min",
+        "Denrées, matériels de préparation, de cuisson et de dressage.",
+        "2. Clarifier le consommé et préparer la gelée – 30 min",
+        "Mettre le consommé froid à clarifier si nécessaire (avec blanc d'œuf, mirepoix, etc.).",
+        "Ramollir les feuilles de gélatine dans eau froide, les égoutter.",
+        "Chauffer une partie du consommé, y dissoudre la gélatine, ajouter le reste du consommé froid.",
+        "Ajouter madère ou porto, rectifier assaisonnement, passer au chinois fin.",
+        "Réserver au frais pour prise partielle (gelée tremblante).",
+        "3. Pocher les œufs – 15 min",
+        "Porter une grande casserole d'eau vinaigrée à frémissement doux.",
+        "Casser les œufs un par un, pocher 2 min 30 à 3 min pour jaune coulant.",
+        "Rafraîchir dans eau glacée, égoutter, parer les bords irréguliers.",
+        "Réserver au frais dans eau froide.",
+        "4. Préparer les éléments de décoration – 15 min",
+        "Tailler carottes, vert de poireau, tomates en brunoise ou motifs fins.",
+        "Blanchir rapidement les légumes si nécessaire (carottes, vert de poireau).",
+        "Hacher finement estragon, cerfeuil, préparer pluches.",
+        "Tailler le jambon en fine julienne ou dés.",
+        "5. Réaliser le montage dans les ramequins – 30 min",
+        "Verser une fine couche de gelée tremblante au fond de 8 ramequins ou moules individuels.",
+        "Laisser prendre au frais 5–10 min.",
+        "Disposer harmonieusement : motifs de légumes, pluches d'herbes, dés de jambon, œuf poché centré.",
+        "Verser délicatement la gelée restante jusqu'à recouvrir complètement les œufs.",
+        "Réserver au réfrigérateur au moins 2–3 h (idéalement 4–6 h) pour prise complète.",
+        "6. Préparer la chiffonnade de laitue et vinaigrette – 5 min",
+        "Laver, essorer et tailler la laitue en chiffonnade fine.",
+        "Préparer une vinaigrette classique (huile, vinaigre, sel, poivre).",
+        "7. Dresser les œufs à la gelée – 5 min",
+        "Démouler les œufs en gelée sur assiettes froides (plonger brièvement le moule dans eau chaude si besoin).",
+        "Disposer la chiffonnade de laitue assaisonnée autour ou dessous.",
+        "Décorer avec pluches de cerfeuil ou estragon, éventuellement un cordon de sauce tomate ou madère réduit.",
+        "Servir très frais."
+    ],
+    "remarques": [
+        "Les œufs pochés doivent être cuits à la commande si possible ; pour gelée, les rafraîchir immédiatement après pochage.",
+        "La gelée doit être tremblante mais ferme : trop liquide = démoulage difficile ; trop ferme = aspect caoutchouteux.",
+        "Variante : remplacer madère par porto ou xérès ; ajouter une pointe de cognac pour plus de profondeur.",
+        "Servir avec toast Melba ou pain de mie grillé à part."
+    ]
+}

@@ -1,0 +1,46 @@
+{
+    "fiche": "Sauce vinaigrette",
+    "page": "298",
+    "denrees_pour_1_l_d_huile": {
+        "base": [
+            {
+                "produit": "huile",
+                "unite": "l",
+                "quantite": 1
+            },
+            {
+                "produit": "vinaigre",
+                "unite": "l",
+                "quantite": 0.3
+            },
+            {
+                "produit": "moutarde (facultatif)",
+                "unite": "kg",
+                "quantite": 0.04
+            }
+        ],
+        "assaisonnement": [
+            {
+                "produit": "sel fin",
+                "quantite": "PM"
+            },
+            {
+                "produit": "poivre du moulin",
+                "quantite": "PM"
+            }
+        ]
+    },
+    "duree": {
+        "realisation": "5 min"
+    },
+    "technique": [
+        "Mettre en place le poste de travail.",
+        "Mesurer et contrôler les denrées.",
+        "Mettre la moutarde dans une calotte à fond étroit (la moutarde est facultative).",
+        "Ajouter le sel et le poivre du moulin.",
+        "Verser le vinaigre et mélanger à l’aide d’un petit fouet (bien dissoudre le sel).",
+        "Ajouter progressivement l’huile et bien l’émulsionner.",
+        "Vérifier l’assaisonnement."
+    ],
+    "remarque": "Sauce émulsionnée instable, froide ou parfois tiède, réalisée au garde-manger."
+}

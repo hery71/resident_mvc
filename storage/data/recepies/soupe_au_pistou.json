@@ -1,0 +1,142 @@
+{
+    "fiche": 8,
+    "titre": "Soupe au pistou",
+    "type": "potage taille",
+    "page": 626,
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "carottes",
+                "quantite": "0,400",
+                "unite": "kg"
+            },
+            {
+                "nom": "courgettes",
+                "quantite": "0,400",
+                "unite": "kg"
+            },
+            {
+                "nom": "céleri",
+                "quantite": "0,200",
+                "unite": "kg"
+            },
+            {
+                "nom": "poireaux",
+                "quantite": "0,200",
+                "unite": "kg"
+            },
+            {
+                "nom": "gros oignons",
+                "quantite": "0,200",
+                "unite": "kg"
+            },
+            {
+                "nom": "haricots verts",
+                "quantite": "0,400",
+                "unite": "kg"
+            },
+            {
+                "nom": "haricots blancs frais",
+                "quantite": "0,100",
+                "unite": "kg"
+            },
+            {
+                "nom": "haricots rouges frais",
+                "quantite": "0,100",
+                "unite": "kg"
+            },
+            {
+                "nom": "pommes de terre (Bintje)",
+                "quantite": "0,400",
+                "unite": "kg"
+            },
+            {
+                "nom": "pâtes (coquillettes)",
+                "quantite": "0,100",
+                "unite": "kg"
+            }
+        ],
+        "pistou": [
+            {
+                "nom": "ail",
+                "quantite": "0,050",
+                "unite": "kg"
+            },
+            {
+                "nom": "basilic",
+                "quantite": "1/2",
+                "unite": "botte"
+            },
+            {
+                "nom": "huile d’olive",
+                "quantite": "0,20",
+                "unite": "l"
+            },
+            {
+                "nom": "tomate",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "pommes de terre",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "parmesan",
+                "quantite": "0,040",
+                "unite": "kg"
+            }
+        ],
+        "garniture": [
+            {
+                "nom": "parmesan",
+                "quantite": "0,080",
+                "unite": "kg"
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel gros",
+                "quantite": "PM"
+            },
+            {
+                "nom": "sel fin",
+                "quantite": "PM"
+            },
+            {
+                "nom": "poivre du moulin",
+                "quantite": "PM"
+            }
+        ]
+    },
+    "duree_preparation": "1 h 30",
+    "duree_cuisson": "25 min",
+    "technique": [
+        "1. Mettre en place le poste de travail – 5 min",
+        "Denrées, matériels de préparation, de cuisson et de dressage.",
+        "2. Préparer tous les légumes – 20 min",
+        "Éplucher et laver très soigneusement tous les légumes.",
+        "Réserver les pommes de terre dans de l’eau froide.",
+        "Ne pas éplucher les courgettes, les ébouillanter et les laver seulement.",
+        "Dégermer l’ail.",
+        "3. Monder, épépiner, concasser et réserver les tomates – 10 min",
+        "4. Cuire les haricots verts, les haricots frais blancs et rouges séparément à l’anglaise – 10 min (ou les utiliser appertisés, dans ce cas ils sont ajoutés quelques minutes avant la fin de la cuisson du potage)",
+        "5. Tailler tous les légumes – 20 min",
+        "Les tailler en dés réguliers d’1 cm de côté.",
+        "6. Marquer le potage en cuisson – 10 min",
+        "Porter 1,5 l d’eau à ébullition, saler au gros sel.",
+        "Ajouter les légumes par ordre de durée de cuisson (carottes, navets, céleri, oignons, poireaux, courgettes).",
+        "Terminer par les pommes de terre et les tomates (les coquillettes peuvent être ajoutées environ 12 min avant la fin de la cuisson).",
+        "7. Réaliser le pistou – 10 min",
+        "Piler dans un mortier l’ail et les feuilles de basilic.",
+        "Incorporer petit à petit l’huile d’olive, puis ajouter quelques petits dés de tomate et de pommes de terre relevés dans le potage.",
+        "Travailler à l’aide du pilon afin d’obtenir une pâte homogène.",
+        "Ajouter un peu de parmesan et assaisonner.",
+        "8. Dresser la soupe au pistou – 5 min",
+        "Vérifier la cuisson et l’assaisonnement.",
+        "Dresser la soupe brûlante dans une soupière.",
+        "Servir à part en saucière le pistou et le parmesan râpé.",
+        "Le pistou peut être ajouté dans le potage au moment de l’envoi."
+    ]
+}

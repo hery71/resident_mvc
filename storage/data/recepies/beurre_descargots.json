@@ -1,0 +1,20 @@
+{
+    "titre": "Beurre d’escargots",
+    "type": "beurre compose",
+    "genre": "a froid",
+    "ingredients": [
+        "Beurre",
+        "persil fraîchement haché",
+        "échalotes finement ciselées",
+        "ail haché",
+        "sel",
+        "poivre du moulin",
+        "éventuellement un peu de mie de pain ou de poudre d’amandes"
+    ],
+    "technique": [
+        "Mélanger tous les ingrédients avec le beurre en pommade"
+    ],
+    "utilisation": [
+        "Escargots, praires, moules, palourdes farcies, etc."
+    ]
+}

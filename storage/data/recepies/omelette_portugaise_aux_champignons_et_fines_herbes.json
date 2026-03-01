@@ -1,0 +1,122 @@
+{
+    "titre": "Omelette portugaise aux champignons et fines herbes",
+    "type": "Hors-d'œuvre chauds à base d'œufs",
+    "description": "Omelette roulée ou pliée garnie d'une fondue de tomates à la portugaise (tomates concassées, oignons, ail), agrémentée de champignons sautés et de fines herbes fraîches. Servie chaude avec un cordon de sauce tomate et persil haché.",
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "œufs extra-frais",
+                "quantite": "24",
+                "unite": "pièces"
+            }
+        ],
+        "fondue_de_tomates_portugaise": [
+            {
+                "nom": "tomates (fraîches, mûres)",
+                "quantite": "0,800",
+                "unite": "kg"
+            },
+            {
+                "nom": "oignons",
+                "quantite": "0,200",
+                "unite": "kg"
+            },
+            {
+                "nom": "ail (gousses)",
+                "quantite": "2",
+                "unite": "gousses"
+            },
+            {
+                "nom": "huile d'olive ou beurre",
+                "quantite": "0,050",
+                "unite": "l"
+            }
+        ],
+        "champignons": [
+            {
+                "nom": "champignons de Paris",
+                "quantite": "0,300",
+                "unite": "kg"
+            },
+            {
+                "nom": "beurre (pour sauter)",
+                "quantite": "0,040",
+                "unite": "kg"
+            }
+        ],
+        "fines_herbes": [
+            {
+                "nom": "persil plat haché",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "cerfeuil haché (facultatif)",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "ciboulette hachée (facultatif)",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ],
+        "finition": [
+            {
+                "nom": "beurre (pour cuisson omelettes)",
+                "quantite": "0,060",
+                "unite": "kg"
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel fin",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "poivre du moulin",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ]
+    },
+    "duree_moyenne_preparation": "40 min",
+    "duree_moyenne_cuisson": "2 min par omelette + 15 min (fondue tomates)",
+    "technique": [
+        "1. Mettre en place le poste de travail – 5 min",
+        "Denrées, matériels de préparation, de cuisson et de dressage.",
+        "2. Confectionner la fondue de tomates – 15 min",
+        "Éplucher, laver et concasser les tomates (monder si désiré).",
+        "Éplucher, laver et ciseler finement les oignons et l'ail.",
+        "Faire suer oignons et ail dans l'huile d'olive sans coloration.",
+        "Ajouter les tomates concassées, assaisonner sel et poivre.",
+        "Cuire à découvert à feu moyen jusqu'à évaporation complète de l'eau et obtention d'une fondue épaisse.",
+        "Rectifier assaisonnement, réserver au chaud.",
+        "3. Préparer les champignons – 10 min",
+        "Nettoyer et émincer finement les champignons.",
+        "Les faire sauter au beurre à feu vif 4–5 min pour évaporer l'eau et obtenir une légère coloration.",
+        "Assaisonner sel et poivre, ajouter une partie des fines herbes hachées en fin de cuisson.",
+        "Égoutter si nécessaire, réserver au chaud.",
+        "4. Confectionner les omelettes – 10 min (à la commande)",
+        "Casser 3 œufs par omelette dans un bol, battre légèrement à la fourchette avec sel et poivre.",
+        "Chauffer une poêle antiadhésive (20–24 cm) avec beurre.",
+        "Verser les œufs, remuer vigoureusement au début, laisser prendre sur feu moyen-vif.",
+        "Répartir une cuillerée de fondue de tomates et de champignons sautés sur la moitié de l'omelette quand le dessus commence à prendre.",
+        "Saupoudrer de fines herbes fraîches hachées.",
+        "Plier en deux ou rouler délicatement l'omelette.",
+        "Glisser sur assiette chaude.",
+        "5. Dresser les omelettes – 2 min",
+        "Disposer chaque omelette sur assiette chaude.",
+        "Napper légèrement du reste de fondue de tomates chaude autour.",
+        "Décorer avec persil haché frais et éventuellement un cordon de crème ou une pointe de beurre noisette.",
+        "Servir immédiatement très chaud."
+    ],
+    "remarques": [
+        "Les omelettes doivent être confectionnées à la commande pour conserver texture moelleuse et garniture chaude.",
+        "La fondue de tomates doit être bien réduite (pas trop liquide) pour ne pas détremper l'omelette.",
+        "Variante espagnole/portugaise : ajouter des poivrons rouges ou verts sautés dans la fondue.",
+        "Pour une version plus légère : réduire le beurre et utiliser un peu moins de crème si ajoutée.",
+        "Servir avec pain grillé ou toast à part pour saucer la fondue."
+    ]
+}

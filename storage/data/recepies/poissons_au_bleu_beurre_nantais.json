@@ -1,0 +1,140 @@
+{
+    "titre": "Poissons au bleu, beurre nantais",
+    "type": "Hors-d'œuvre chauds à base de poisson",
+    "description": "Poissons entiers (truites, petites carpes, brochets ou saumons de fontaine) cuits au bleu dans un court-bouillon au vinaigre, servis chauds avec beurre nantais (beurre monté sur réduction de vin blanc et échalotes). Dressage avec garniture aromatique (carottes, oignons, persil) et éventuellement pommes vapeur ou légumes.",
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "poissons entiers (truites, carpes, brochets ou saumons de fontaine)",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ],
+        "nage_au_vinaigre": [
+            {
+                "nom": "eau",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "vinaigre blanc",
+                "quantite": "0,200",
+                "unite": "l"
+            },
+            {
+                "nom": "carottes",
+                "quantite": "0,200",
+                "unite": "kg"
+            },
+            {
+                "nom": "oignons",
+                "quantite": "0,200",
+                "unite": "kg"
+            },
+            {
+                "nom": "bouquet garni",
+                "quantite": "1",
+                "unite": "pièce"
+            },
+            {
+                "nom": "poivre en grains",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "gros sel",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ],
+        "beurre_nantais": [
+            {
+                "nom": "beurre extra-fin",
+                "quantite": "0,300",
+                "unite": "kg"
+            },
+            {
+                "nom": "vin blanc sec",
+                "quantite": "0,150",
+                "unite": "l"
+            },
+            {
+                "nom": "échalotes",
+                "quantite": "0,040",
+                "unite": "kg"
+            },
+            {
+                "nom": "vinaigre de vin blanc",
+                "quantite": "0,020",
+                "unite": "l"
+            }
+        ],
+        "garniture_et_decoration": [
+            {
+                "nom": "persil plat frais (pluches ou haché)",
+                "quantite": "0,040",
+                "unite": "kg"
+            },
+            {
+                "nom": "citrons (en quartiers)",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "légumes vapeur (pommes à l'anglaise, carottes, asperges…)",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel fin",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "poivre du moulin",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ]
+    },
+    "duree_moyenne_preparation": "50 min",
+    "duree_moyenne_cuisson": "8 à 12 min (pochage poissons) + 10 min (beurre nantais)",
+    "technique": [
+        "1. Mettre en place le poste de travail – 5 min",
+        "Denrées, matériels de préparation, de cuisson et de dressage.",
+        "2. Préparer les éléments de la nage (court-bouillon au vinaigre) – 20 min",
+        "Éplucher, laver et émincer les carottes et oignons.",
+        "Préparer le bouquet garni.",
+        "Mettre tous les éléments dans un grand rondeau, couvrir d'eau, ajouter vinaigre, gros sel et poivre en grains.",
+        "Porter à ébullition, écumer, cuire 15–20 min à frémissement.",
+        "Passer au chinois, réserver chaud.",
+        "3. Habiller les poissons – 15 min",
+        "Écailler, vider, laver et égoutter les poissons entiers.",
+        "Retirer les ouïes et les nageoires si nécessaire.",
+        "Réserver au frais.",
+        "4. Marquer les poissons en cuisson – 5 min",
+        "Porter la nage à frémissement.",
+        "Plonger les poissons délicatement (tête en premier), cuire 8 à 12 min selon taille (chair se détachant facilement).",
+        "Maintenir au chaud dans la nage.",
+        "5. Confectionner le beurre nantais – 10 min",
+        "Ciseler finement les échalotes.",
+        "Réduire vin blanc + vinaigre + échalotes jusqu'à presque sec.",
+        "Incorporer progressivement le beurre froid en petits morceaux au fouet sur feu très doux ou bain-marie.",
+        "Monter jusqu'à consistance nappante, assaisonner sel et poivre.",
+        "Passer au chinois fin, réserver au chaud (bain-marie 60 °C).",
+        "6. Dresser les poissons pochés et beurre nantais – 5 min",
+        "Égoutter les poissons, les disposer sur assiettes chaudes ou plat rond recouvert de papier gaufré.",
+        "Napper harmonieusement de beurre nantais chaud.",
+        "Disposer les éléments de décoration : quartiers de citron, persil en branches.",
+        "Servir immédiatement très chaud, avec le reste de sauce en saucière."
+    ],
+    "remarques": [
+        "La technique 'au bleu' donne une peau bleutée caractéristique grâce au vinaigre dans la nage.",
+        "Les poissons doivent être très frais ; le pochage à frémissement évite qu'ils ne se défassent.",
+        "Le beurre nantais est fragile : ne pas faire bouillir, maintenir au chaud sans excès.",
+        "Variante : servir avec légumes vapeur (pommes à l'anglaise, carottes, asperges) ou persillade.",
+        "Accompagnement classique : pommes de terre vapeur ou riz pilaf."
+    ]
+}

@@ -1,0 +1,132 @@
+{
+    "titre": "Potage julienne Darblay",
+    "type": "potage purée de légumes frais",
+    "page": 622,
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "beurre",
+                "quantite": "0,040",
+                "unite": "kg"
+            },
+            {
+                "nom": "blancs de poireaux",
+                "quantite": "0,400",
+                "unite": "kg"
+            },
+            {
+                "nom": "pommes de terre (Bintje)",
+                "quantite": "0,800",
+                "unite": "kg"
+            }
+        ],
+        "mouillement": [
+            {
+                "nom": "eau",
+                "quantite": "1,8 à 2",
+                "unite": "l"
+            }
+        ],
+        "finition": [
+            {
+                "nom": "crème double",
+                "quantite": "0,20",
+                "unite": "l"
+            },
+            {
+                "nom": "cerfeuil",
+                "quantite": "1/4",
+                "unite": "botte"
+            },
+            {
+                "nom": "beurre pour tamponner",
+                "quantite": "0,020",
+                "unite": "kg"
+            }
+        ],
+        "garniture": [
+            {
+                "nom": "carottes",
+                "quantite": "0,160",
+                "unite": "kg"
+            },
+            {
+                "nom": "blancs de poireaux",
+                "quantite": "0,160",
+                "unite": "kg"
+            },
+            {
+                "nom": "céleri",
+                "quantite": "0,080",
+                "unite": "kg"
+            },
+            {
+                "nom": "navets",
+                "quantite": "0,080",
+                "unite": "kg"
+            },
+            {
+                "nom": "beurre",
+                "quantite": "0,020",
+                "unite": "kg"
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel gros",
+                "quantite": "PM"
+            },
+            {
+                "nom": "sel fin",
+                "quantite": "PM"
+            },
+            {
+                "nom": "sucre semoule",
+                "quantite": "PM"
+            }
+        ]
+    },
+    "duree_preparation": "1 h 15 min",
+    "duree_cuisson": {
+        "plat_principal": "30 min",
+        "garniture": "15 min"
+    },
+    "technique": [
+        "1. Mettre en place le poste de travail – 5 min",
+        "Denrées, matériels de préparation, de cuisson et de dressage.",
+        "2. Préparer les légumes – 20 min",
+        "Éplucher, laver tous les légumes.",
+        "Émincer finement les blancs de poireaux.",
+        "Tailler en quartiers les pommes de terre.",
+        "Réserver les pommes de terre dans un bac d’eau.",
+        "3. Marquer en cuisson le potage Parmentier – 10 min",
+        "Suer au beurre les blancs de poireaux.",
+        "Mouiller à l’eau froide (1,8 à 2 l).",
+        "Saler au gros sel.",
+        "Ajouter les pommes de terre.",
+        "Cuire doucement à couvert, écumer si nécessaire.",
+        "4. Préparer la garniture – 20 min (voir « les légumes »)",
+        "Tailler en fine julienne les carottes, les navets, les blancs de poireaux et le céleri.",
+        "Étuver la julienne.",
+        "Réserver les pluches dans un ramequin avec de l’eau froide.",
+        "5. Marquer en cuisson la garniture – 5 min (voir p. 39)",
+        "Placer une petite sauteuse sur un feu très doux.",
+        "Ajouter le beurre, et très peu d’eau pour former un peu de vapeur.",
+        "Verser la julienne.",
+        "Assaisonner avec un peu de sel fin et une pincée de sucre semoule.",
+        "Couvrir avec un papier sulfurisé et un couvercle.",
+        "Cuire très lentement en surveillant et minutant.",
+        "6. Passer et terminer le potage – 12 min",
+        "Passer le potage Parmentier au moulin à légumes ou au mixeur, puis au chinois fin.",
+        "Ajouter la crème.",
+        "Remettre le potage à bouillir, écumer si nécessaire.",
+        "Vérifier l’assaisonnement.",
+        "Ajouter délicatement la julienne.",
+        "Débarrasser le potage au bain-marie.",
+        "Tamponner en surface.",
+        "Couvrir le bain-marie.",
+        "7. Dresser le potage (voir présentation) – 5 min",
+        "Dresser le potage brûlant dans la soupière en répartissant équitablement la garniture.",
+        "Au dernier moment ajouter les pluches de cerfeuil bien égouttées."
+    ]
+}

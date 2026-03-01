@@ -1,0 +1,148 @@
+{
+    "titre": "Œufs mollets Masséna",
+    "type": "Hors-d'œuvre chauds à base d'œufs",
+    "description": "Œufs mollets dressés sur fonds d'artichauts, nappés de sauce béarnaise, accompagnés d'une garniture de moelle de bœuf poêlée et de sauce tomate ou béarnaise. Dressage classique avec persil ou pointe de sauce.",
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "œufs mollets",
+                "quantite": "16",
+                "unite": "pièces"
+            }
+        ],
+        "fonds_d_artichauts": [
+            {
+                "nom": "artichauts (fonds préparés ou crus)",
+                "quantite": "8",
+                "unite": "pièces"
+            },
+            {
+                "nom": "citron (jus pour cuisson artichauts)",
+                "quantite": "1",
+                "unite": "pièce"
+            },
+            {
+                "nom": "bouquet garni",
+                "quantite": "1",
+                "unite": "pièce"
+            }
+        ],
+        "moelle_de_boeuf": [
+            {
+                "nom": "moelle de bœuf (os à moelle)",
+                "quantite": "0,350",
+                "unite": "kg"
+            }
+        ],
+        "sauce_bearnaise": [
+            {
+                "nom": "beurre clarifié",
+                "quantite": "0,300",
+                "unite": "kg"
+            },
+            {
+                "nom": "estragon frais",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "cerfeuil",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "échalotes",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "vinaigre d'estragon",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "poivre en grains",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "œufs (jaunes)",
+                "quantite": "4",
+                "unite": "pièces"
+            }
+        ],
+        "finition": [
+            {
+                "nom": "beurre (pour poêler la moelle)",
+                "quantite": "0,020",
+                "unite": "kg"
+            },
+            {
+                "nom": "persil plat (pluches ou haché)",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "sauce tomate (facultatif, en accompagnement)",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel fin",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "poivre du moulin",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ]
+    },
+    "duree_moyenne_preparation": "1 h 15 min",
+    "duree_moyenne_cuisson": "15 à 20 min (artichauts + œufs mollets + moelle)",
+    "technique": [
+        "1. Mettre en place le poste de travail – 5 min",
+        "Denrées, matériels de préparation, de cuisson et de dressage.",
+        "2. Détailler et cuire les fonds d'artichauts – 20 min",
+        "Tourner les artichauts pour obtenir les fonds, citronner immédiatement.",
+        "Cuire les fonds dans un blanc (eau + farine + citron + bouquet garni) jusqu'à tendreté (15–20 min selon taille).",
+        "Rafraîchir, égoutter, réserver au chaud.",
+        "3. Cuire les œufs mollets – 15 min",
+        "Porter une casserole d'eau vinaigrée à frémissement doux.",
+        "Casser les œufs un par un, cuire 5 à 6 min pour jaune coulant.",
+        "Rafraîchir dans eau glacée, égoutter délicatement, réserver.",
+        "4. Préparer la moelle de bœuf – 10 min",
+        "Détailler la moelle en rondelles régulières (1 cm d'épaisseur).",
+        "Plonger 1 min dans eau frémissante pour dégorger, rafraîchir, égoutter.",
+        "Réserver au frais.",
+        "5. Confectionner la sauce béarnaise – 15 min",
+        "Réduire échalotes, estragon, cerfeuil, poivre en grains et vinaigre d'estragon.",
+        "Monter au beurre clarifié avec les jaunes d'œufs au bain-marie.",
+        "Assaisonner sel, poivre, ajouter herbes hachées en finition.",
+        "Réserver au chaud (bain-marie tiède).",
+        "6. Sauter la moelle – 5 min",
+        "Poêler les rondelles de moelle dans un peu de beurre à feu vif 1–2 min de chaque côté.",
+        "Égoutter sur papier absorbant, assaisonner sel et poivre.",
+        "Réserver au chaud.",
+        "7. Réchauffer les œufs et artichauts – 5 min",
+        "Réchauffer les fonds d'artichauts dans beurre ou bouillon.",
+        "Plonger les œufs mollets 30 secondes dans eau frémissante pour réchauffer sans recuire.",
+        "Égoutter soigneusement.",
+        "8. Dresser les œufs mollets Masséna – 5 min",
+        "Disposer un fond d'artichaut au centre de chaque assiette chaude.",
+        "Poser un œuf mollet sur chaque fond.",
+        "Napper généreusement de sauce béarnaise chaude.",
+        "Déposer 1 ou 2 rondelles de moelle poêlée sur l'œuf ou à côté.",
+        "Décorer avec pluches de persil ou estragon frais.",
+        "Servir immédiatement très chaud, avec éventuellement un cordon de sauce tomate à part."
+    ],
+    "remarques": [
+        "Les œufs mollets doivent être cuits à la commande pour conserver le jaune coulant.",
+        "La sauce béarnaise est fragile : maintenir au chaud sans excès de température pour éviter qu'elle tranche.",
+        "Variante classique : ajouter une pointe de sauce tomate ou un filet de réduction de vin rouge pour accentuer le goût.",
+        "Utiliser des artichauts très frais ; si fonds en conserve, bien les rincer et les réchauffer doucement."
+    ]
+}

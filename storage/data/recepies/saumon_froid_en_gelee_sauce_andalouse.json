@@ -1,0 +1,181 @@
+{
+    "titre": "Saumon froid en gelée, sauce andalouse (ou sauce bellevue)",
+    "type": "Hors-d'œuvre froids à base de poisson",
+    "description": "Saumon entier poché au court-bouillon, refroidi, débarrassé de sa peau et arêtes, puis lustré et décoré dans une gelée de poisson claire et brillante. Servi froid avec une sauce andalouse (mayonnaise à l'huile d'olive, poivrons, tomates) ou bellevue (mayonnaise collée à la gelée). Décoration classique avec éléments de légumes taillés, œufs durs, truffes et persil.",
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "saumon entier (frais, vidé et écaillé)",
+                "quantite": "2",
+                "unite": "kg"
+            }
+        ],
+        "court_bouillon": [
+            {
+                "nom": "carottes",
+                "quantite": "0,400",
+                "unite": "kg"
+            },
+            {
+                "nom": "oignons",
+                "quantite": "0,400",
+                "unite": "kg"
+            },
+            {
+                "nom": "bouquet garni",
+                "quantite": "1",
+                "unite": "pièce"
+            },
+            {
+                "nom": "poivre en grains",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "gros sel",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ],
+        "gelée_de_poisson": [
+            {
+                "nom": "fumet de poisson blanc (ou bouillon clair)",
+                "quantite": "1,600",
+                "unite": "l"
+            },
+            {
+                "nom": "feuilles de gélatine (ou en poudre)",
+                "quantite": "20",
+                "unite": "feuilles"
+            }
+        ],
+        "garniture_et_decoration": [
+            {
+                "nom": "carottes (tournées ou brunoise)",
+                "quantite": "0,050",
+                "unite": "kg"
+            },
+            {
+                "nom": "vert de poireau ou ciboulette",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "cerfeuil frais",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "estragon frais",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "truffes (facultatif, lamelles)",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "œufs durs (pour motifs ou dés)",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "tomates (pelées, concassées ou dés)",
+                "quantite": "0,100",
+                "unite": "kg"
+            },
+            {
+                "nom": "poivrons rouges (brunoise ou dés)",
+                "quantite": "0,050",
+                "unite": "kg"
+            }
+        ],
+        "sauce_andalouse": [
+            {
+                "nom": "mayonnaise",
+                "quantite": "0,300",
+                "unite": "kg"
+            },
+            {
+                "nom": "huile d'olive",
+                "quantite": "0,050",
+                "unite": "l"
+            },
+            {
+                "nom": "poivrons rouges (cuits ou crus)",
+                "quantite": "0,050",
+                "unite": "kg"
+            },
+            {
+                "nom": "tomates concassées",
+                "quantite": "0,050",
+                "unite": "kg"
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel fin",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "poivre du moulin",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "piment de Cayenne",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ]
+    },
+    "duree_moyenne_preparation": "1 h 50 min",
+    "duree_moyenne_cuisson": "18 à 20 min (pochage saumon) + prise gelée",
+    "technique": [
+        "1. Mettre en place le poste de travail – 5 min",
+        "Denrées, matériels de préparation, de cuisson et de dressage.",
+        "2. Réaliser le court-bouillon – 20 min",
+        "Éplucher, laver et émincer carottes et oignons.",
+        "Préparer le bouquet garni.",
+        "Mettre tous les éléments dans un grand rondeau, couvrir d'eau, porter à ébullition, écumer, cuire 15–20 min à frémissement.",
+        "Passer au chinois, réserver chaud.",
+        "3. Pocher le saumon – 15 min",
+        "Plonger le saumon entier dans le court-bouillon frémissant.",
+        "Cuire 18 à 20 min selon taille (chair se détachant facilement).",
+        "Rafraîchir dans le liquide, puis refroidir complètement.",
+        "4. Préparer la gelée de poisson – 20 min",
+        "Ramollir les feuilles de gélatine dans eau froide.",
+        "Chauffer le fumet ou bouillon clair, y dissoudre la gélatine essorée.",
+        "Clarifier si nécessaire (avec blanc d'œuf et mirepoix), passer au chinois fin.",
+        "Ajouter madère ou porto si désiré, rectifier sel et poivre.",
+        "Réserver à température ambiante pour gelée tremblante.",
+        "5. Préparer la garniture et décoration – 20 min",
+        "Cuire les carottes, poireaux, tomates, œufs durs, etc., selon formes souhaitées (brunoise, losanges, motifs).",
+        "Blanchir rapidement les légumes pour garder couleur et croquant.",
+        "Tailler truffes (facultatif) en lamelles fines.",
+        "6. Détailler et décorer le saumon – 30 min",
+        "Débarrasser le saumon de sa peau et arêtes, lever les filets propres.",
+        "Disposer les filets dans un plat ou moule, décorer harmonieusement avec éléments (carottes, poireaux, œufs, truffes, herbes).",
+        "Verser progressivement la gelée tremblante pour fixer les décorations, puis recouvrir complètement.",
+        "Réserver au réfrigérateur 4–6 h minimum pour prise complète.",
+        "7. Réaliser la sauce andalouse – 10 min",
+        "Préparer une mayonnaise classique.",
+        "Ajouter huile d'olive, dés de poivrons rouges et tomates concassées, ajuster assaisonnement.",
+        "Réserver au frais.",
+        "8. Dresser le saumon froid en gelée – 10 min",
+        "Démouler le saumon en gelée sur plat de service froid.",
+        "Lustrer avec gelée fondue si besoin.",
+        "Disposer autour ou dessous : chiffonnade de laitue, sauce andalouse en saucière.",
+        "Décorer avec pluches de cerfeuil, estragon, citrons.",
+        "Servir très frais."
+    ],
+    "remarques": [
+        "Le saumon doit être très frais ; le pochage au court-bouillon citronné préserve la chair.",
+        "La gelée doit être limpide et tremblante : trop ferme = aspect caoutchouteux ; trop liquide = démoulage impossible.",
+        "La sauce andalouse peut être remplacée par sauce bellevue (mayonnaise collée à la gelée).",
+        "Variante : ajouter crevettes décortiquées ou œufs de saumon pour plus de luxe.",
+        "Servir avec pain de mie grillé ou toast Melba à part."
+    ]
+}

@@ -1,0 +1,123 @@
+{
+    "titre": "Truites au riesling",
+    "type": "Hors-d'œuvre chauds à base de poisson",
+    "description": "Truites pochées dans un court-mouillement au riesling, crème et fumet de poisson, servies nappées de la sauce réduite montée au beurre. Garniture classique avec têtes de champignons tournées, fleurons de feuilletage, et décor de persil ou citron.",
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "truites entières (portion 0,250 kg chacune)",
+                "quantite": "8",
+                "unite": "pièces"
+            }
+        ],
+        "court_mouillement": [
+            {
+                "nom": "riesling (vin blanc sec alsacien)",
+                "quantite": "0,200",
+                "unite": "l"
+            },
+            {
+                "nom": "fumet de poisson",
+                "quantite": "0,400",
+                "unite": "l"
+            },
+            {
+                "nom": "crème liquide",
+                "quantite": "0,200",
+                "unite": "l"
+            }
+        ],
+        "garniture": [
+            {
+                "nom": "champignons de Paris (têtes tournées)",
+                "quantite": "0,400",
+                "unite": "kg"
+            },
+            {
+                "nom": "fleurons de feuilletage",
+                "quantite": "0,160",
+                "unite": "kg"
+            }
+        ],
+        "sauce_reduction": [
+            {
+                "nom": "beurre extra-fin",
+                "quantite": "0,200",
+                "unite": "kg"
+            },
+            {
+                "nom": "crème",
+                "quantite": "0,400",
+                "unite": "l"
+            }
+        ],
+        "finition_et_decoration": [
+            {
+                "nom": "persil plat frais (pluches ou haché)",
+                "quantite": "0,040",
+                "unite": "kg"
+            },
+            {
+                "nom": "citrons (en quartiers)",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel fin",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "poivre du moulin",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "piment de Cayenne",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ]
+    },
+    "duree_moyenne_preparation": "1 h 55 min",
+    "duree_moyenne_cuisson": "8 à 10 min (pochage truites) + réduction sauce",
+    "technique": [
+        "1. Mettre en place le poste de travail – 5 min",
+        "Denrées, matériels de préparation, de cuisson et de dressage.",
+        "2. Habiller et détailler les truites – 15 min",
+        "Écailler, vider, laver et égoutter les truites.",
+        "Retirer les ouïes et nageoires, réserver au frais.",
+        "3. Réaliser le court-mouillement – 20 min",
+        "Préparer un court-bouillon avec carottes, oignons, bouquet garni, vin riesling et fumet.",
+        "Cuire 15–20 min à frémissement, passer au chinois, réserver chaud.",
+        "4. Préparer la garniture – 25 min",
+        "Tourner les têtes de champignons, les cuire au beurre et citron.",
+        "Cuire les fleurons de feuilletage au four (200 °C, 8–10 min).",
+        "Réserver au chaud.",
+        "5. Pocher les truites – 10 min",
+        "Plonger les truites dans le court-mouillement frémissant.",
+        "Cuire 8 à 10 min selon taille (chair se détachant facilement).",
+        "Rafraîchir légèrement si besoin, mais garder chaud.",
+        "6. Confectionner la sauce riesling – 15 min",
+        "Réduire le liquide de pochage jusqu'à consistance sirupeuse.",
+        "Incorporer crème, réduire encore légèrement.",
+        "Monter au beurre froid en fouettant vigoureusement.",
+        "Assaisonner sel, poivre, piment de Cayenne.",
+        "Passer au chinois fin, réserver au chaud (bain-marie).",
+        "7. Dresser les truites au riesling – 5 min",
+        "Disposer les truites sur assiettes chaudes ou plat rond recouvert de papier gaufré.",
+        "Napper harmonieusement de sauce riesling chaude.",
+        "Disposer les têtes de champignons tournées et fleurons autour.",
+        "Décorer avec pluches de persil et quartiers de citron.",
+        "Servir immédiatement très chaud, avec le reste de sauce en saucière."
+    ],
+    "remarques": [
+        "Le riesling apporte une acidité fine et florale : choisir un vin sec et aromatique (Alsace).",
+        "Les truites doivent être pochées à frémissement très doux pour garder la chair nacrée.",
+        "La sauce doit être montée hors du feu pour éviter la séparation du beurre.",
+        "Variante : ajouter une pointe de crème ou de fumet réduit pour plus d'onctuosité.",
+        "Accompagnement classique : pommes à l'anglaise, carottes, asperges ou brocolis vapeur."
+    ]
+}

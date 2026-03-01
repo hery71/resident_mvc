@@ -1,0 +1,60 @@
+{
+    "fiche": "Sauce mayonnaise",
+    "page": "300",
+    "denrees_pour_1_l_d_huile": {
+        "base": [
+            {
+                "produit": "huile pour assaisonnement",
+                "unite": "l",
+                "quantite": 1
+            },
+            {
+                "produit": "œufs (jaunes)",
+                "unite": "piece",
+                "quantite": 6
+            },
+            {
+                "produit": "moutarde",
+                "unite": "kg",
+                "quantite": 0.05
+            },
+            {
+                "produit": "vinaigre d’alcool coloré",
+                "unite": "l",
+                "quantite": "PM"
+            }
+        ],
+        "assaisonnement": [
+            {
+                "produit": "sel fin",
+                "quantite": "PM"
+            },
+            {
+                "produit": "poivre blanc du moulin",
+                "quantite": "PM"
+            },
+            {
+                "produit": "ou piment de Cayenne",
+                "quantite": "PM"
+            }
+        ]
+    },
+    "duree": {
+        "realisation": "10 à 15 min"
+    },
+    "technique": [
+        "Mettre en place le poste de travail.",
+        "Mesurer et contrôler les denrées.",
+        "Clarifier les œufs (réserver les blancs pour une autre utilisation).",
+        "Mettre les jaunes dans une petite calotte à fond étroit de façon à ce que chaque coup de fouet ait un maximum d’efficacité.",
+        "Ajouter la moutarde, le sel, le poivre blanc du moulin ou le piment de Cayenne et un peu de vinaigre pour favoriser l’émulsion (phase eau).",
+        "Incorporer progressivement l’huile, en tournant énergiquement la sauce à l’aide d’un petit fouet très souple.",
+        "Verser l’huile doucement et par petite quantité au début ; puis, verser l’huile plus rapidement au fur et à mesure que la quantité de sauce mayonnaise augmente.",
+        "Ajouter le reste du vinaigre pendant et après la réalisation de la sauce.",
+        "Bien la serrer en la fouettant tout en tournant très énergiquement.",
+        "Vérifier l’assaisonnement.",
+        "Corner les bords de la calotte, la couvrir d’un film en plastique alimentaire et la réserver.",
+        "Elles doivent être utilisées à la température ambiante de la cuisine."
+    ],
+    "remarque": "Sauce émulsionnée froide réalisée au garde-manger. Elle doit être réalisée juste avant le service et en quantité nécessaire au service uniquement. (1) La quantité de jaunes d’œufs représente une moyenne courante. Elle peut varier de 5 à 8."
+}

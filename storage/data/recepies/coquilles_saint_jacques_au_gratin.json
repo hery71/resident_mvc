@@ -1,0 +1,210 @@
+{
+  "titre": "COQUILLES SAINT-JACQUES AU GRATIN",
+  "type": "Coquilles Saint-Jacques pochées, sauce vin blanc à glacer",
+  "page": 766,
+  "denrees_pour_8_couverts": {
+    "Éléments de base": [
+      {
+        "nom": "coquilles Saint-Jacques (16 x 0,250 kg)",
+        "unite": "kg",
+        "quantite": "4"
+      },
+      {
+        "nom": "échalotes",
+        "unite": "kg",
+        "quantite": "0,040"
+      },
+      {
+        "nom": "vin blanc",
+        "unite": "l",
+        "quantite": "0,10"
+      },
+      {
+        "nom": "fumet de poisson",
+        "unite": "l",
+        "quantite": "0,50"
+      },
+      {
+        "nom": "cuisson de champignons",
+        "unite": "l",
+        "quantite": "PM"
+      },
+      {
+        "nom": "bouquet garni",
+        "unite": "pièce",
+        "quantite": "1"
+      }
+    ],
+    "Fumet de poisson": [
+      {
+        "nom": "beurre",
+        "unite": "kg",
+        "quantite": "0,040"
+      },
+      {
+        "nom": "échalotes",
+        "unite": "kg",
+        "quantite": "0,040"
+      },
+      {
+        "nom": "oignons",
+        "unite": "kg",
+        "quantite": "0,080"
+      },
+      {
+        "nom": "carottes",
+        "unite": "kg",
+        "quantite": "0,080"
+      },
+      {
+        "nom": "arêtes de poissons maigres",
+        "unite": "kg",
+        "quantite": "0,800"
+      },
+      {
+        "nom": "parures de champignons",
+        "unite": "kg",
+        "quantite": "PM"
+      },
+      {
+        "nom": "vin blanc",
+        "unite": "l",
+        "quantite": "0,10"
+      },
+      {
+        "nom": "bouquet garni",
+        "unite": "pièce",
+        "quantite": "1"
+      },
+      {
+        "nom": "poivre en grains",
+        "unite": "kg",
+        "quantite": "PM"
+      }
+    ],
+    "Sauce gratin (Duxelles)": [
+      {
+        "nom": "beurre",
+        "unite": "kg",
+        "quantite": "0,040"
+      },
+      {
+        "nom": "échalotes",
+        "unite": "kg",
+        "quantite": "0,040"
+      },
+      {
+        "nom": "vin blanc",
+        "unite": "l",
+        "quantite": "0,10"
+      },
+      {
+        "nom": "champignons de Paris",
+        "unite": "kg",
+        "quantite": "0,600"
+      },
+      {
+        "nom": "persil",
+        "unite": "kg",
+        "quantite": "0,020"
+      },
+      {
+        "nom": "sauce vin blanc",
+        "unite": "l",
+        "quantite": "0,20"
+      }
+    ],
+    "Sauce vin blanc": [
+      {
+        "nom": "beurre",
+        "unite": "kg",
+        "quantite": "0,020"
+      },
+      {
+        "nom": "échalotes grises",
+        "unite": "kg",
+        "quantite": "0,040"
+      },
+      {
+        "nom": "vin blanc",
+        "unite": "l",
+        "quantite": "0,10"
+      },
+      {
+        "nom": "cuisson des coquilles",
+        "unite": "l",
+        "quantite": "PM"
+      },
+      {
+        "nom": "fumet de poisson",
+        "unite": "l",
+        "quantite": "PM"
+      },
+      {
+        "nom": "velouté de poisson",
+        "unite": "l",
+        "quantite": "PM"
+      },
+      {
+        "nom": "crème",
+        "unite": "l",
+        "quantite": "0,20"
+      },
+      {
+        "nom": "beurre",
+        "unite": "kg",
+        "quantite": "0,050"
+      }
+    ],
+    "Sauce hollandaise": [
+      {
+        "nom": "œufs (jaunes)",
+        "unite": "pièce",
+        "quantite": "2"
+      },
+      {
+        "nom": "beurre",
+        "unite": "kg",
+        "quantite": "0,125"
+      },
+      {
+        "nom": "citron (1/2 pièce)",
+        "unite": "kg",
+        "quantite": "0,050"
+      }
+    ],
+    "Finition": [
+      {
+        "nom": "crème fleurette",
+        "unite": "l",
+        "quantite": "0,10"
+      }
+    ],
+    "Assaisonnement": [
+      {
+        "nom": "sel",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "poivre du moulin",
+        "quantite": "PM",
+        "unite": ""
+      }
+    ]
+  },
+  "technique_de_realisation": [
+    "1. Mettre en place le poste de travail - 5 min",
+    "2. Préparer tous les légumes - 20 min",
+    "3. Réaliser le fumet de poisson - 15 min (voir p. 266/267)",
+    "4. Ouvrir les coquilles Saint-Jacques - 15 min (voir p. 183/184)",
+    "5. Pocher les coquilles Saint-Jacques - 10 min",
+    "6. Brosser, laver soigneusement et stériliser les coquilles - 10 min",
+    "7. Réaliser la sauce gratin - 15 min",
+    "8. Réaliser la sauce vin blanc - 10 min",
+    "9. Détendre la Duxelles de champignons - 15 min",
+    "10. Confectionner la sauce hollandaise (voir p. 306)",
+    "11. Terminer les coquilles Saint-Jacques au gratin et les glacer - 10 min",
+    "12. Dresser les coquilles Saint-Jacques - 5 min"
+  ]
+}

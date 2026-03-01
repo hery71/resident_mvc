@@ -1,0 +1,185 @@
+{
+  "titre": "POT-AU-FEU",
+  "type": "Viandes pochées",
+  "page": 776,
+  "denrees_pour_8_couverts": {
+    "Éléments de base": [
+      {
+        "nom": "jumeau",
+        "quantite": "0,400",
+        "unite": "kg"
+      },
+      {
+        "nom": "gîte-gîte",
+        "quantite": "0,400",
+        "unite": "kg"
+      },
+      {
+        "nom": "macreuse",
+        "quantite": "0,800",
+        "unite": "kg"
+      },
+      {
+        "nom": "plat de côtes",
+        "quantite": "0,800",
+        "unite": "kg"
+      },
+      {
+        "nom": "queue de bœuf",
+        "quantite": "0,800",
+        "unite": "kg"
+      },
+      {
+        "nom": "os de bœuf",
+        "quantite": "1,5",
+        "unite": "kg"
+      },
+      {
+        "nom": "os à moelle",
+        "quantite": "8",
+        "unite": "tronçons"
+      }
+    ],
+    "Garniture aromatique": [
+      {
+        "nom": "carottes",
+        "quantite": "0,200",
+        "unite": "kg"
+      },
+      {
+        "nom": "oignons",
+        "quantite": "0,200",
+        "unite": "kg"
+      },
+      {
+        "nom": "clous de girofle",
+        "quantite": "2",
+        "unite": "pièces"
+      },
+      {
+        "nom": "poireaux",
+        "quantite": "0,200",
+        "unite": "kg"
+      },
+      {
+        "nom": "céleri en branches",
+        "quantite": "0,100",
+        "unite": "kg"
+      },
+      {
+        "nom": "bouquet garni",
+        "quantite": "1",
+        "unite": "pièce"
+      },
+      {
+        "nom": "ail",
+        "quantite": "2",
+        "unite": "gousses"
+      }
+    ],
+    "Garniture d’accompagnement": [
+      {
+        "nom": "carottes",
+        "quantite": "0,800",
+        "unite": "kg"
+      },
+      {
+        "nom": "navets",
+        "quantite": "0,800",
+        "unite": "kg"
+      },
+      {
+        "nom": "blancs de poireaux",
+        "quantite": "0,400",
+        "unite": "kg"
+      },
+      {
+        "nom": "céleri en branches",
+        "quantite": "0,400",
+        "unite": "kg"
+      },
+      {
+        "nom": "pommes de terre",
+        "quantite": "1",
+        "unite": "kg"
+      },
+      {
+        "nom": "chou ferme",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "chou de Milan (facultatif)",
+        "quantite": "PM",
+        "unite": ""
+      }
+    ],
+    "Assaisonnement": [
+      {
+        "nom": "gros sel",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "sel fin",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "poivre du moulin",
+        "quantite": "PM",
+        "unite": ""
+      }
+    ],
+    "Condiments": [
+      {
+        "nom": "moutardes",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "cornichons",
+        "quantite": "PM",
+        "unite": ""
+      }
+    ]
+  },
+  "technique_de_realisation": [
+    "1. Mettre en place le poste de travail - 5 min",
+    "2. Concasser et blanchir les os de bœuf - 10 min",
+    "Couvrir d’eau froide, porter à ébullition.",
+    "Écumer soigneusement et rafraîchir.",
+    "3. Éplucher et laver tous les légumes - 20 min",
+    "4. Préparer les légumes de la garniture aromatique - 5 min",
+    "Tailler les carottes et les oignons en gros morceaux.",
+    "Clouter les oignons.",
+    "Confectionner un bouquet garni.",
+    "5. Réaliser le fond de cuisson (bouillon d’os) - 15 min",
+    "Placer les os blanchis dans une grande marmite.",
+    "Les couvrir d’eau froide et porter à ébullition.",
+    "Écumer et ajouter la garniture aromatique.",
+    "Cuire lentement durant 1 h environ.",
+    "6. Préparer les viandes du pot-au-feu - 20 min",
+    "Parer, dégraisser si nécessaire et ficeler les morceaux.",
+    "7. Dégermer les os à moelle - 5 min",
+    "Les placer dans une calotte avec de l’eau glacée vinaigrée.",
+    "8. Marquer le pot-au-feu en cuisson - 5 min",
+    "Plonger les viandes dans le fond bouillant.",
+    "Maintenir comme un frémissement doux durant 3 h à 3 h 30.",
+    "9. Préparer les légumes d’accompagnement - 20 min",
+    "Tourner les légumes.",
+    "Réserver les pommes de terre dans l’eau froide.",
+    "10. Marquer les légumes en cuisson - 10 min",
+    "Cuire séparément les légumes.",
+    "11. Pocher les os à moelle - 5 min",
+    "Les plonger dans le bouillon frémissant.",
+    "12. Vérifier la cuisson",
+    "S’assurer de la tendreté des viandes et légumes.",
+    "13. Dresser le pot-au-feu - 5 min",
+    "Disposer viandes et légumes harmonieusement.",
+    "Servir le bouillon en soupière.",
+    "Présenter avec moutardes et cornichons."
+  ],
+  "duree_moyenne_preparation": "2 h",
+  "duree_moyenne_cuisson": "3 h à 3 h 30"
+}

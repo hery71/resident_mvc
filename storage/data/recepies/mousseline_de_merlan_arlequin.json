@@ -1,0 +1,136 @@
+{
+    "titre": "Mousseline de merlan arlequin",
+    "type": "Hors-d'œuvre chauds à base de poisson",
+    "description": "Farce mousseline de merlan additionnée de brunoise de carottes, courgettes et poivrons, cuite à la vapeur en ramequins ou papillotes, servie avec une sauce vin blanc réduite au fumet de poisson, crème et montée au beurre. Présentation en darnes ou paupiettes avec décor harmonieux.",
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "merlan (filets ou chair nette)",
+                "quantite": "1,600",
+                "unite": "kg"
+            },
+            {
+                "nom": "crème fleurette",
+                "quantite": "0,600",
+                "unite": "l"
+            }
+        ],
+        "brunoise_de_legumes": [
+            {
+                "nom": "carottes",
+                "quantite": "0,200",
+                "unite": "kg"
+            },
+            {
+                "nom": "courgettes",
+                "quantite": "0,250",
+                "unite": "kg"
+            },
+            {
+                "nom": "poivrons rouges",
+                "quantite": "0,100",
+                "unite": "kg"
+            },
+            {
+                "nom": "beurre (pour étuver)",
+                "quantite": "0,020",
+                "unite": "kg"
+            }
+        ],
+        "sauce_vin_blanc": [
+            {
+                "nom": "fumet de poisson",
+                "quantite": "0,400",
+                "unite": "l"
+            },
+            {
+                "nom": "vin blanc sec",
+                "quantite": "0,100",
+                "unite": "l"
+            },
+            {
+                "nom": "échalotes",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "crème",
+                "quantite": "0,100",
+                "unite": "l"
+            },
+            {
+                "nom": "beurre (monté)",
+                "quantite": "0,200",
+                "unite": "kg"
+            }
+        ],
+        "finition_et_decoration": [
+            {
+                "nom": "cerfeuil frais (pluches)",
+                "quantite": "1/4",
+                "unite": "botte"
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel fin",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "poivre du moulin",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "piment de Cayenne",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ]
+    },
+    "duree_moyenne_preparation": "1 h 30 min",
+    "duree_moyenne_cuisson": "12 à 14 min (cuisson vapeur mousseline)",
+    "technique": [
+        "1. Mettre en place le poste de travail – 5 min",
+        "Denrées, matériels de préparation, de cuisson et de dressage.",
+        "2. Habiller et lever les filets de merlan – 15 min",
+        "Lever les filets de merlan, retirer peau et arêtes.",
+        "Réserver au frais.",
+        "3. Préparer la brunoise de légumes – 15 min",
+        "Éplucher, laver et tailler carottes, courgettes et poivrons rouges en brunoise très fine (2 mm).",
+        "Étuvés séparément au beurre avec sel et poivre jusqu'à tendreté sans coloration.",
+        "Refroidir rapidement, égoutter, réserver.",
+        "4. Réaliser la farce mousseline de merlan – 15 min",
+        "Mixer la chair de merlan avec sel, poivre, pointe de muscade.",
+        "Incorporer progressivement la crème très froide en filet tout en mixant.",
+        "Passer au tamis fin pour texture lisse.",
+        "Réserver au frais.",
+        "5. Mélanger la farce et la brunoise – 5 min",
+        "Incorporer délicatement la brunoise refroidie à la farce mousseline.",
+        "Vérifier assaisonnement, réserver au frais.",
+        "6. Chemiser et cuire les ramequins ou paupiettes – 15 min",
+        "Beurrer 8 ramequins individuels ou préparer des papillotes.",
+        "Remplir de farce mousseline (150–200 g par portion).",
+        "Cuire à la vapeur ou au four à 160 °C 12 à 14 min (cœur à 65 °C).",
+        "Maintenir au chaud.",
+        "7. Confectionner la sauce vin blanc – 15 min",
+        "Réduire vin blanc et fumet avec échalotes jusqu'à 1/3.",
+        "Incorporer crème, réduire légèrement.",
+        "Monter au beurre froid en fouettant sur feu doux.",
+        "Assaisonner sel, poivre, piment de Cayenne.",
+        "Passer au chinois fin, réserver au chaud (bain-marie).",
+        "8. Dresser les mousselines de merlan arlequin – 5 min",
+        "Démouler les mousselines sur assiettes chaudes ou plat rond.",
+        "Napper harmonieusement de sauce vin blanc chaude.",
+        "Décorer avec pluches de cerfeuil frais.",
+        "Servir immédiatement très chaud."
+    ],
+    "remarques": [
+        "La farce mousseline doit être très froide pour une texture fine et légère.",
+        "La cuisson vapeur préserve l'humidité ; température cœur 65 °C pour éviter surcuisson.",
+        "La sauce vin blanc peut être légèrement citronnée pour plus de fraîcheur.",
+        "Variante : ajouter une pointe d'anis ou fenouil dans la sauce pour accentuer le côté arlequin.",
+        "Accompagnement classique : légumes vapeur (carottes, courgettes, brocolis) ou pommes à l'anglaise."
+    ]
+}

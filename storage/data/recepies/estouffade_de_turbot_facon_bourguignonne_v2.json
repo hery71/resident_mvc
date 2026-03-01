@@ -1,0 +1,120 @@
+{
+  "titre": "«ESTOUFFADE» DE TURBOT, FAÇON BOURGUIGNONNE",
+  "type": "les poissons fermes : esturgeon, requin-taupe, ...",
+  "page": 743,
+  "denrees_pour_8_couverts": {
+    "elements_de_base": [
+      {
+        "nom": "turbot (2,800 kg à 3 kg)",
+        "quantite": "1",
+        "unite": "pièce"
+      }
+    ],
+    "garniture_bourguignonne": [
+      {
+        "nom": "petits oignons",
+        "quantite": "0,250",
+        "unite": "kg"
+      },
+      {
+        "nom": "poitrine demi-sel",
+        "quantite": "0,250",
+        "unite": "kg"
+      },
+      {
+        "nom": "champignons escalopés",
+        "quantite": "0,250",
+        "unite": "kg"
+      },
+      {
+        "nom": "pain de mie",
+        "quantite": "0,160",
+        "unite": "kg"
+      },
+      {
+        "nom": "croûtons en dents de loup",
+        "quantite": "8",
+        "unite": "pièces"
+      },
+      {
+        "nom": "gousse d’ail",
+        "quantite": "1",
+        "unite": "pièce"
+      }
+    ],
+    "sauce": [
+      {
+        "nom": "beurre",
+        "quantite": "0,080",
+        "unite": "kg"
+      },
+      {
+        "nom": "échalotes ciselées",
+        "quantite": "0,40",
+        "unite": "kg"
+      },
+      {
+        "nom": "vin rouge de Bourgogne",
+        "quantite": "0,40",
+        "unite": "l"
+      },
+      {
+        "nom": "sauce espagnole maigre",
+        "quantite": "0,40",
+        "unite": "l"
+      },
+      {
+        "nom": "beurre",
+        "quantite": "0,040",
+        "unite": "kg"
+      }
+    ],
+    "assaisonnement": [
+      {
+        "nom": "sel",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "poivre",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "farine",
+        "quantite": "PM",
+        "unite": ""
+      }
+    ]
+  },
+  "technique": [
+    "1. Mettre en place le poste de travail",
+    "2. Habiller un turbot de 2,800 kg à 3 kg",
+    "• Lever les filets, les dépouiller et les détailler en cubes réguliers de 4 cm de côté.",
+    "• Les réserver en enceinte réfrigérée.",
+    "3. Réaliser une sauce espagnole maigre avec les arêtes et la tête du turbot (voir «sauces brunes»)",
+    "4. Préparer la garniture bourguignonne",
+    "• Glacer à brun 0,250 kg de petits oignons.",
+    "• Détailler 0,250 kg de poitrine demi-sel en lardons. Les blanchir et les faire sauter à l’huile sans les dessécher.",
+    "• Faire sauter 0,250 kg de champignons escalopés dans la graisse des lardons.",
+    "• Détailler 8 croûtons en dents de loup dans 0,160 kg de pain de mie. Les beurrer et les dorer sous la salamandre, puis les frotter avec une gousse d’ail.",
+    "5. Marquer l’estouffade en cuisson",
+    "• Saler, poivrer et fariner les morceaux de turbot. Bien les tapoter sur un tamis afin d’ôter l’excédent de farine.",
+    "• Les faire revenir vivement avec 0,080 kg de beurre légèrement noisette. Les morceaux doivent être colorés sur toutes les faces. Les débarrasser et les réserver.",
+    "6. Réaliser la sauce",
+    "• Dégraisser la sauteuse si nécessaire.",
+    "• Ajouter 0,40 kg d’échalotes ciselées et les faire suer durant quelques secondes.",
+    "• Déglacer avec 0,40 l de vin rouge de Bourgogne. Le réduire des 2/3.",
+    "• Ajouter 0,40 l de sauce espagnole maigre. Réunir sans fouetter, amener uniquement. Vérifier l’onctuosité et l’assaisonnement.",
+    "• Passer la sauce au chinois étamine dans une autre sauteuse.",
+    "• Ajouter les morceaux de turbot, les champignons et les lardons.",
+    "• Laisser mijoter durant quelques minutes.",
+    "• Monter la sauce avec 0,040 kg de beurre.",
+    "7. Dresser «l’estouffade» de turbot",
+    "• Disposer les morceaux de turbot en dôme au centre de l’assiette.",
+    "• Répartir uniformément les champignons et les lardons.",
+    "• Napper soigneusement.",
+    "• Disposer délicatement les petits oignons glacés et les croûtons.",
+    "• Parsemer sans excès de persil haché."
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "titre": "SOLES COLBERT",
+  "type": "Poissons panés et frits",
+  "page": 750,
+  "fiche": null,
+  "denrees_pour_8_couverts": {
+    "Éléments de base": [
+      {
+        "nom": "soles portions (8 x 0,250 kg)",
+        "unite": "kg",
+        "quantite": "2"
+      },
+      {
+        "nom": "farine",
+        "unite": "kg",
+        "quantite": "0,160"
+      },
+      {
+        "nom": "œufs entiers",
+        "unite": "pièce",
+        "quantite": "3"
+      },
+      {
+        "nom": "huile",
+        "unite": "l",
+        "quantite": "0,04"
+      },
+      {
+        "nom": "sel et poivre",
+        "unite": "kg",
+        "quantite": "PM"
+      },
+      {
+        "nom": "mie de pain",
+        "unite": "kg",
+        "quantite": "0,400"
+      }
+    ],
+    "Friture": [
+      {
+        "nom": "friture",
+        "unite": "",
+        "quantite": "PM"
+      }
+    ],
+    "Beurre Maître d’hôtel": [
+      {
+        "nom": "beurre",
+        "unite": "kg",
+        "quantite": "0,160"
+      },
+      {
+        "nom": "citron (1/2 pièce)",
+        "unite": "kg",
+        "quantite": "0,050"
+      },
+      {
+        "nom": "persil",
+        "unite": "kg",
+        "quantite": "0,040"
+      },
+      {
+        "nom": "sel et poivre",
+        "unite": "kg",
+        "quantite": "PM"
+      }
+    ],
+    "Finition": [
+      {
+        "nom": "citrons (4 pièces)",
+        "unite": "kg",
+        "quantite": "0,400"
+      },
+      {
+        "nom": "persil",
+        "unite": "kg",
+        "quantite": "0,080"
+      }
+    ],
+    "Assaisonnement": [
+      {
+        "nom": "sel fin",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "poivre du moulin",
+        "quantite": "PM",
+        "unite": ""
+      }
+    ]
+  },
+  "technique_de_realisation": [
+    "1. Mettre en place le poste de travail - 5 min",
+    "Denrées, matériels de préparation, de cuisson et de dressage.",
+    "2. Habiller et désarêter les soles - 25 min (voir p. 155/166 et 169/170)",
+    "Ébarber, arracher la peau grise et écailler la peau blanche.",
+    "Éliminer les ouïes et vider soigneusement les soles.",
+    "Laver et égoutter.",
+    "Inciser sur toute la longueur du côté où adhérait la peau grise, sans les détacher des bords.",
+    "Sectionner l’arête aux deux extrémités, afin de pouvoir l’extraire sans mutiler après cuisson.",
+    "Réserver les soles en enceinte réfrigérée.",
+    "3. Préparer les éléments pour paner les soles - 10 min",
+    "Assaisonner et battre les œufs à l’aide d’une fourchette.",
+    "Ajouter l’huile et réserver l’anglaise dans une deuxième plaque à débarrasser.",
+    "Répartir la farine dans une troisième plaque.",
+    "4. Paner les soles - 15 min",
+    "Passer successivement les soles dans la farine, dans l’anglaise et dans la mie de pain tamisée (veiller à ce que la mie de pain n’adhère pas entre les deux filets repliés : l’anglaise plaque à la cuisson et fixe ainsi les deux filets).",
+    "Égaliser l’épaisseur des soles et les quadriller à l’intérieur à l’aide du dos d’un couteau éminceur.",
+    "Réserver les soles jusqu’au moment de la cuisson en enceinte réfrigérée.",
+    "5. Préparer les éléments de décor et confectionner le beurre Maître d’hôtel - 10 min",
+    "Laver, équeuter, concasser, hacher et essorer la moitié du persil en branches.",
+    "Réserver la 2ème moitié du persil en branches sur du papier absorbant.",
+    "Presser un demi-citron et réserver le jus dans un petit ramequin.",
+    "Confectionner le beurre Maître d’hôtel à l’aide d’une spatule.",
+    "Ajouter le jus du demi-citron et le persil haché.",
+    "Assaisonner avec le sel fin et le poivre du moulin.",
+    "Réserver le beurre en pommade à la température ambiante.",
+    "Historer les citrons en dents de loup.",
+    "6. Marquer les soles en cuisson - 15 min",
+    "Plonger les soles dans un bain de friture à 180 °C pendant 5 à 7 min environ.",
+    "Égoutter sur du papier absorbant.",
+    "Extraire délicatement l’arête à l’aide de la pointe d’un couteau d’office.",
+    "Saler légèrement.",
+    "Finir le passage à 180 °C pendant quelques secondes ; l’égoutter et les saler sans excès.",
+    "7. Dresser les soles - 5 min",
+    "Disposer les soles en diagonale sur le plat de service, la peau blanche quadrillée en premier sur le dessus.",
+    "Disposer les soles, la tête vers l’extrémité du plat et la queue vers l’extrémité opposée.",
+    "Lustrer les soles au beurre fondu.",
+    "Du côté de la tête des soles, disposer le persil frit en bouquet et les citrons historiés côté queue."
+  ]
+}

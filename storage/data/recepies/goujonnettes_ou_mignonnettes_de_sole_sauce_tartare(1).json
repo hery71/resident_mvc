@@ -1,0 +1,142 @@
+{
+  "titre": "GOUJONNETTES OU MIGNONNETTES DE SOLE, SAUCE TARTARE",
+  "page": 751,
+  "denrees_pour_8_couverts": {
+    "Éléments de base": [
+      {
+        "nom": "soles",
+        "quantite": "4",
+        "unite": "pièces"
+      },
+      {
+        "nom": "poids par sole",
+        "quantite": "0,600",
+        "unite": "kg chacune"
+      }
+    ],
+    "Panure": [
+      {
+        "nom": "farine",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "œufs",
+        "quantite": "3",
+        "unite": "pièces"
+      },
+      {
+        "nom": "huile",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "mie de pain tamisée",
+        "quantite": "PM",
+        "unite": ""
+      }
+    ],
+    "Friture": [
+      {
+        "nom": "bain de friture",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "température de friture",
+        "quantite": "180",
+        "unite": "°C"
+      }
+    ],
+    "Sauce tartare": [
+      {
+        "nom": "cerfeuil",
+        "quantite": "1/6",
+        "unite": "botte"
+      },
+      {
+        "nom": "ciboulette",
+        "quantite": "1/6",
+        "unite": "botte"
+      },
+      {
+        "nom": "cornichons",
+        "quantite": "0,040",
+        "unite": "kg"
+      },
+      {
+        "nom": "câpres",
+        "quantite": "0,040",
+        "unite": "kg"
+      },
+      {
+        "nom": "moutarde",
+        "quantite": "0,020",
+        "unite": "kg"
+      },
+      {
+        "nom": "mayonnaise",
+        "quantite": "PM",
+        "unite": ""
+      }
+    ],
+    "Finition": [
+      {
+        "nom": "persil",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "citrons",
+        "quantite": "4",
+        "unite": "pièces"
+      }
+    ],
+    "Assaisonnement": [
+      {
+        "nom": "sel",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "poivre",
+        "quantite": "PM",
+        "unite": ""
+      }
+    ]
+  },
+  "technique_de_realisation": [
+    "1. Mettre en place le poste de travail",
+    "2. Habiller 4 soles filets de 0,600 kg chacune et arracher la peau blanche et la peau grise.",
+    "3. Lever les filets (voir p. 167/168)",
+    "Les dénerver soigneusement.",
+    "Régulariser l’épaisseur des filets en les aplatissant légèrement entre deux feuilles de matière plastique alimentaire, à l’aide d’une batte à côtelettes.",
+    "4. Détailler les goujonnettes",
+    "Allonger les filets sur la planche à découper.",
+    "Détailler en diagonale des lanières (grosse julienne) très régulières d’environ 1,5 à 2 cm d’épaisseur sur 8 à 10 cm de longueur.",
+    "5. Paner les goujonnettes à l’anglaise",
+    "Les assaisonner, puis passer successivement les goujonnettes dans la farine, dans l’anglaise et dans la mie de pain tamisée.",
+    "Saupoudrer le plan de travail de mie de pain tamisée, et rouler les goujonnettes avec la paume de la main, de manière à leur donner une forme cylindrique régulière.",
+    "Réserver les goujonnettes sur une plaque recouverte d’un papier sulfurisé.",
+    "6. Frire les éléments du décor",
+    "Laver, équeuter 0,080 kg de persil et le sécher sur du papier absorbant.",
+    "Historer 4 citrons en dents de loup.",
+    "7. Confectionner la sauce tartare",
+    "Hacher et essorer 0,020 kg de persil.",
+    "Laver, équeuter, éponger et hacher 1/6ème de botte de cerfeuil ainsi que 1/6ème de botte d’estragon.",
+    "Laver et égoutter 1/6ème de botte de ciboulette.",
+    "Hacher 0,040 kg de câpres et 0,040 kg de cornichons.",
+    "Confectionner la sauce mayonnaise, utiliser 2 jaunes d’œufs, 0,015 kg de moutarde, 0,2 l de vinaigre et 0,30 l d’huile.",
+    "Juste avant l’envoi des goujonnettes, mélanger la garniture à la sauce mayonnaise (risque de fermentation).",
+    "Vérifier l’assaisonnement. (Certains professionnels ajoutent de l’oignon finement ciselé).",
+    "8. Frire le persil",
+    "Le saler et l’égoutter sur du papier absorbant.",
+    "9. Frire les goujonnettes",
+    "Les plonger par petites quantités dans un bain de friture à 180 °C.",
+    "Les retirer à l’aide d’une araignée et les égoutter soigneusement. Les saler sans excès.",
+    "10. Dresser les goujonnettes",
+    "Les dresser en «buisson» sur serviette ou papier gaufré.",
+    "Disposer harmonieusement le persil frit et les citrons historiés.",
+    "Dresser la sauce tartare en saucière."
+  ]
+}

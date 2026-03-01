@@ -1,0 +1,112 @@
+{
+    "fiche": "Sauce tomate",
+    "page": "289-291",
+    "denrees_pour_1_l": {
+        "base": [
+            {
+                "produit": "beurre",
+                "unite": "kg",
+                "quantite": 0.06
+            },
+            {
+                "produit": "poitrine de porc demi-sel",
+                "unite": "kg",
+                "quantite": 0.1
+            },
+            {
+                "produit": "carottes",
+                "unite": "kg",
+                "quantite": 0.1
+            },
+            {
+                "produit": "oignons",
+                "unite": "kg",
+                "quantite": 0.1
+            },
+            {
+                "produit": "farine",
+                "unite": "kg",
+                "quantite": 0.05
+            },
+            {
+                "produit": "concentré de tomates",
+                "unite": "kg",
+                "quantite": 0.2
+            },
+            {
+                "produit": "ou concentré de tomates",
+                "unite": "kg",
+                "quantite": 0.1
+            },
+            {
+                "produit": "et tomates fraîches",
+                "unite": "kg",
+                "quantite": 1.0
+            },
+            {
+                "produit": "fond blanc de veau",
+                "unite": "l",
+                "quantite": 1
+            },
+            {
+                "produit": "ou eau",
+                "unite": "l",
+                "quantite": 1
+            },
+            {
+                "produit": "ail",
+                "unite": "kg",
+                "quantite": 0.02
+            },
+            {
+                "produit": "bouquet garni dominante en thym",
+                "unite": "piece",
+                "quantite": 1
+            }
+        ],
+        "finition": [
+            {
+                "produit": "beurre (pour tamponner)",
+                "unite": "kg",
+                "quantite": 0.02
+            }
+        ],
+        "assaisonnement": [
+            {
+                "produit": "sel fin",
+                "quantite": "PM"
+            },
+            {
+                "produit": "poivre du moulin",
+                "quantite": "PM"
+            },
+            {
+                "produit": "sucre semoule",
+                "quantite": "PM"
+            }
+        ]
+    },
+    "duree": {
+        "preparation": "20 à 25 min",
+        "cuisson": "1 h à 1 h 30 min selon la quantité"
+    },
+    "technique": [
+        "Mettre en place le poste de travail.",
+        "Préparer la poitrine de porc : ôter la couenne et les cartilages, détailler en petits lardons, blanchir 1 à 2 min départ eau froide.",
+        "Préparer la garniture aromatique : éplucher et laver carottes, oignons, ail et persil. Tailler en petite mirepoix (5 mm). Écraser l’ail. Confectionner le bouquet garni. Concasser les tomates fraîches.",
+        "Marquer la sauce : faire fondre le beurre, ajouter les lardons blanchis et faire fondre doucement.",
+        "Ajouter carottes et oignons, suer sans coloration.",
+        "Ajouter le concentré de tomates et cuire le roux tomaté quelques minutes.",
+        "Refroidir le roux.",
+        "Mouiller avec le fond blanc bouillant ou l’eau.",
+        "Ajouter le liquide progressivement en fouettant jusqu’à mélange lisse.",
+        "Ajouter tomates fraîches, ail et bouquet garni.",
+        "Assaisonner sel, poivre et pincée de sucre.",
+        "Porter à ébullition en remuant.",
+        "Couvrir et cuire au four doux (160°C) pendant 1 h à 1 h 30.",
+        "Remuer pendant la cuisson.",
+        "Passer au chinois étamine sans fouler fortement.",
+        "Tamponner en surface.",
+        "Réserver au bain-marie > 63°C ou refroidir rapidement."
+    ]
+}

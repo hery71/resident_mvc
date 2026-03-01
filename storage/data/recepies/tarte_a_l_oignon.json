@@ -1,0 +1,155 @@
+{
+  "page": "670",
+  "fiche": "26",
+  "titre": "TARTE À L’OIGNON",
+  "type": "Hors-d’œuvre chauds à base de pâte brisée",
+  "denrees_pour_8_couverts": {
+    "pate_brisee": [
+      {
+        "nom": "farine type 55",
+        "unite": "kg",
+        "quantite": "0,250"
+      },
+      {
+        "nom": "sel fin",
+        "unite": "kg",
+        "quantite": "0,005"
+      },
+      {
+        "nom": "beurre",
+        "unite": "kg",
+        "quantite": "0,125"
+      },
+      {
+        "nom": "œuf (jaune)",
+        "unite": "pièce",
+        "quantite": "1"
+      },
+      {
+        "nom": "eau",
+        "unite": "l",
+        "quantite": "0,05"
+      },
+      {
+        "nom": "farine (pour abaisser)",
+        "unite": "kg",
+        "quantite": "0,040"
+      },
+      {
+        "nom": "beurre pour les cercles",
+        "unite": "kg",
+        "quantite": "0,010"
+      }
+    ],
+    "garniture": [
+      {
+        "nom": "oignons",
+        "unite": "kg",
+        "quantite": "0,800"
+      },
+      {
+        "nom": "beurre",
+        "unite": "kg",
+        "quantite": "0,080"
+      },
+      {
+        "nom": "poitrine de porc fumée",
+        "unite": "kg",
+        "quantite": "0,160"
+      },
+      {
+        "nom": "huile",
+        "unite": "l",
+        "quantite": "0,02"
+      }
+    ],
+    "appareil_a_creme_prise_salee": [
+      {
+        "nom": "œufs (entiers)",
+        "unite": "pièce",
+        "quantite": "2"
+      },
+      {
+        "nom": "œuf (jaune)",
+        "unite": "pièce",
+        "quantite": "1"
+      },
+      {
+        "nom": "lait",
+        "unite": "l",
+        "quantite": "0,10"
+      },
+      {
+        "nom": "crème",
+        "unite": "l",
+        "quantite": "0,20"
+      }
+    ],
+    "finition": [
+      {
+        "nom": "oignon parfaitement rond",
+        "unite": "kg",
+        "quantite": "0,100"
+      }
+    ],
+    "dorure": [
+      {
+        "nom": "œuf (entier)",
+        "unite": "pièce",
+        "quantite": "PM"
+      }
+    ],
+    "decor": [
+      {
+        "nom": "persil frisé",
+        "unite": "kg",
+        "quantite": "0,040"
+      }
+    ],
+    "assaisonnement": [
+      {
+        "nom": "sel fin",
+        "quantite": "PM"
+      },
+      {
+        "nom": "poivre du moulin",
+        "quantite": "PM"
+      },
+      {
+        "nom": "piment de Cayenne",
+        "quantite": "PM"
+      },
+      {
+        "nom": "noix de muscade",
+        "quantite": "PM"
+      }
+    ]
+  },
+  "technique": [
+    "1. Mettre en place le poste de travail - 5 min",
+    "• Denrées, matériels de préparation, de cuisson et de dressage.",
+    "2. Confectionner la pâte brisée - 15 min (voir p. 481)",
+    "3. Préparer la garniture - 20 min",
+    "• Éplucher, laver et émincer finement les oignons (en réserver un ou deux pour la présentation). Ils peuvent être éventuellement blanchis.",
+    "• Cuire au beurre (compoter) les oignons pendant une trentaine de minutes environ.",
+    "• Remuer fréquemment afin d’obtenir une coloration blonde et uniforme.",
+    "• Éliminer la couenne ainsi que les cartilages de la poitrine fumée et la détailler en tranches fines au trancheur universel.",
+    "• Détailler les tranches ainsi obtenues en lamelles de 2 cm de longueur.",
+    "• Sauter rapidement à l’huile les lamelles de poitrine fumée sans les dessécher, puis les égoutter.",
+    "4. Foncer les tartes à l’oignon - 15 min (voir p. 489)",
+    "5. Confectionner l’appareil à crème prise salée - 10 min",
+    "6. Marquer les tartes à l’oignon en cuisson - 3 min",
+    "• Répartir équitablement les oignons et la poitrine fumée à l’intérieur des fonds de tarte.",
+    "• Verser l’appareil sur la garniture. Le verser à l’entrée du four au moment d’enfourner.",
+    "• Détailler l’oignon réservé en rondelles très fines.",
+    "• Les disposer harmonieusement en surface.",
+    "• Cuire à four chaud (220 °C sole et 180 °C voûte) pendant 30 à 35 min environ.",
+    "• Retirer les cercles 5 min avant la fin de la cuisson afin de colorer la pâte et les crêtes à l’aide d’un pinceau.",
+    "• Débarrasser les tartes à l’oignon sur une grille à pâtisserie et les réserver au chaud.",
+    "7. Dresser les tartes à l’oignon - 2 min",
+    "• Disposer la tarte à l’oignon sur un grand plat rond recouvert d’un papier gaufré.",
+    "• Décorer avec le persil en branches (facultatif)."
+  ],
+  "duree_moyenne_de_preparation": "1 h 10 min",
+  "duree_moyenne_de_cuisson": "25 à 30 min"
+}

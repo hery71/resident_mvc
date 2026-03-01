@@ -1,0 +1,114 @@
+{
+  "titre": "SOLES GRILLÉES, BEURRE D'ANCHOIS",
+  "type": "Poisson grillés",
+  "page": 746,
+  "fiche": 62,
+  "denrees_pour_8_couverts": {
+    "Éléments de base": [
+      {
+        "nom": "soles portions (8 x 0,250 kg)",
+        "unite": "kg",
+        "quantite": "2"
+      },
+      {
+        "nom": "farine (facultatif)",
+        "unite": "kg",
+        "quantite": "PM"
+      },
+      {
+        "nom": "huile pour le gril",
+        "unite": "l",
+        "quantite": "0,04"
+      }
+    ],
+    "Marinade": [
+      {
+        "nom": "huile",
+        "unite": "l",
+        "quantite": "0,10"
+      },
+      {
+        "nom": "citron (1 pièce)",
+        "unite": "kg",
+        "quantite": "0,100"
+      },
+      {
+        "nom": "thym et laurier",
+        "unite": "kg",
+        "quantite": "PM"
+      }
+    ],
+    "Beurre d'anchois": [
+      {
+        "nom": "beurre",
+        "unite": "kg",
+        "quantite": "0,160"
+      },
+      {
+        "nom": "anchois à l'huile",
+        "unite": "kg",
+        "quantite": "0,080"
+      }
+    ],
+    "Décor": [
+      {
+        "nom": "citrons (4 x 2)",
+        "unite": "kg",
+        "quantite": "0,500"
+      },
+      {
+        "nom": "persil",
+        "unite": "kg",
+        "quantite": "0,040"
+      }
+    ],
+    "Assaisonnement": [
+      {
+        "nom": "sel fin",
+        "quantite": "PM"
+      },
+      {
+        "nom": "poivre du moulin",
+        "quantite": "PM"
+      }
+    ]
+  },
+  "technique_de_realisation": [
+    "1. Mettre en place le poste de travail - 5 min",
+    "Denrées, matériels de préparation, de cuisson et de dressage.",
+    "2. Habiller les soles - 30 min (voir p. 155/166)",
+    "Arracher la peau grise et écailler la peau blanche.",
+    "Les dégorger, les égoutter et les éponger, puis les réserver en enceinte réfrigérée.",
+    "3. Préparer la marinade instantanée - 7 min",
+    "Réunir dans une plaque à débarrasser l’huile, le citron pelé à vif et découpé en tranches, le thym et le laurier broyé finement.",
+    "4. Préparer les éléments de décor - 10 min",
+    "Laver, équeuter et réserver le persil en branches.",
+    "Laver, canneléer, partager en deux et émincer les deux autres citrons pour festonner le plat de service.",
+    "5. Confectionner le beurre d’anchois - 10 min",
+    "Passer les filets d’anchois et le beurre au tamis ou au mixer.",
+    "Mélanger intimement le beurre à la spatule.",
+    "Réserver le beurre en pommade à la température ambiante.",
+    "6. Marquer les soles en cuisson - 20 min (voir p. 247/248)",
+    "Brosser, nettoyer soigneusement et huiler les barreaux du gril.",
+    "Séchér soigneusement les soles avec du papier absorbant.",
+    "Assaisonner avec le sel fin et le poivre du moulin.",
+    "1ère méthode",
+    "Passer les soles dans la marinade et les poser sur le gril en diagonale, côté peau blanche en contact avec le gril en premier.",
+    "Faire pivoter les soles d’un quart de tour pour les quadriller.",
+    "Les retourner et quadriller l’autre face.",
+    "Disposer les soles sur une plaque huilée et les badigeonner avec le reste de la marinade.",
+    "Terminer la cuisson au four pendant quelques minutes.",
+    "2ème méthode",
+    "Fariner les soles et les secouer pour éliminer l’excédent de farine.",
+    "Les poser «sec» sur le gril, dans le sens de la diagonale, côté peau blanche en contact avec le gril.",
+    "Faire pivoter les soles d’un quart de tour afin de les quadriller.",
+    "Les retourner à l’aide d’une fourchette et quadriller l’autre face.",
+    "Les débarrasser sur une plaque huilée et les badigeonner avec la marinade.",
+    "Terminer la cuisson au four pendant quelques minutes.",
+    "7. Dresser les soles grillées - 8 min",
+    "Disposer les soles en diagonale sur le plat de service, la peau blanche quadrillée en premier sur le dessus, les têtes des soles dirigées vers l’extrémité gauche du plat.",
+    "Disposer les éléments de décor (bouquets de persil en branches et citrons historiés).",
+    "Lustrer au pinceau les soles grillées avec du beurre fondu.",
+    "Dresser le beurre d’anchois en saucière."
+  ]
+}

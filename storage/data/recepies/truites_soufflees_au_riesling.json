@@ -1,0 +1,107 @@
+{
+    "titre": "Truites soufflées au riesling",
+    "type": "Hors-d'œuvre chauds à base de poisson",
+    "description": "Truites désarêtées par le dos, farcies d'une mousseline de poisson (colin ou similaire), pochées dans un fumet au riesling, puis nappées d'une sauce vin blanc montée au beurre. Dressage avec truffes et noisettes de beurre, tête et queue conservées pour présentation.",
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "truites portion (0,250 kg chacune)",
+                "quantite": "8",
+                "unite": "pièces"
+            }
+        ],
+        "farce_mousseline": [
+            {
+                "nom": "filet de colin (ou poisson maigre à chair blanche)",
+                "quantite": "0,400",
+                "unite": "kg"
+            },
+            {
+                "nom": "blanc d'œuf",
+                "quantite": "1",
+                "unite": "pièce"
+            },
+            {
+                "nom": "crème fleurette",
+                "quantite": "0,300",
+                "unite": "l"
+            }
+        ],
+        "court_mouillement": [
+            {
+                "nom": "fumet de poisson",
+                "quantite": "1,000",
+                "unite": "l"
+            },
+            {
+                "nom": "riesling",
+                "quantite": "0,300",
+                "unite": "l"
+            }
+        ],
+        "sauce": [
+            {
+                "nom": "beurre",
+                "quantite": "0,300",
+                "unite": "kg"
+            },
+            {
+                "nom": "crème (pour liaison si besoin)",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ],
+        "finition_et_decoration": [
+            {
+                "nom": "truffes (lamelles ou brunoise)",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "noisettes de beurre",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel fin",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "poivre du moulin",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ]
+    },
+    "duree_moyenne_preparation": "1 h 45 min à 2 h",
+    "duree_moyenne_cuisson": "10 min",
+    "technique": [
+        "1. Mettre en place le poste de travail",
+        "Rassembler denrées, matériels de préparation, cuisson et dressage.",
+        "2. Habiller les truites",
+        "Écailler, vider par le dos, désarêter complètement (retirer l'arête centrale par incision dorsale sans ouvrir le ventre). Laver, égoutter, réserver au frais.",
+        "3. Réaliser le fumet de poisson",
+        "Préparer un fumet classique avec arêtes de poisson, mirepoix, bouquet garni. Cuire 20-30 min, passer au chinois, réserver.",
+        "4. Réaliser la farce mousseline",
+        "Mixer le poisson paré (colin ou équivalent) avec le blanc d'œuf, sel, poivre. Incorporer progressivement la crème fleurette bien froide en mixant jusqu'à obtention d'une texture fine et onctueuse. Rectifier l'assaisonnement. Réserver au frais.",
+        "5. Farcir les truites",
+        "Ouvrir légèrement les truites par le dos. Garnir généreusement de farce mousseline. Refermer en reformant la truite (la farce va gonfler à la cuisson = effet « soufflé »). Réserver au frais.",
+        "6. Pocher les truites",
+        "Beurrer un plat à poisson ou plaque à bords hauts. Disposer les truites farcies dans le sens de la longueur. Mouiller avec fumet de poisson + riesling (à hauteur ou presque). Poivrer, saler légèrement. Couvrir d'une feuille de papier sulfurisé beurré. Cuire au four à 160-170 °C pendant 8 à 10 min (farce gonflée, chair ferme mais nacrée).",
+        "7. Réaliser la sauce",
+        "Réduire le liquide de pochage jusqu'à consistance sirupeuse. Monter au beurre froid hors du feu en fouettant. Rectifier l'assaisonnement. Passer au chinois fin si nécessaire. Réserver au chaud (bain-marie).",
+        "8. Dépouiller et dresser les truites",
+        "Égoutter les truites. Retirer délicatement la peau dorsale (sous la tête et à 3 cm de la queue). Ôter toute la peau de la partie ventrale. Disposer sur plat ou assiettes chaudes recouverts de papier gaufré. Napper de sauce riesling chaude. Décorer avec lamelles de truffe et noisettes de beurre. Servir immédiatement très chaud."
+    ],
+    "remarques": [
+        "La farce mousseline doit être très froide pour bien monter et donner l'effet soufflé léger à la cuisson.",
+        "Pochage doux au four (160-170 °C) pour éviter que la farce ne se sépare ou ne durcisse.",
+        "Le riesling apporte acidité et arômes floraux qui équilibrent la richesse de la mousseline et du beurre.",
+        "Désarêtage par le dos : technique précise pour garder la présentation entière avec tête et queue.",
+        "Variante classique : ajouter des lamelles de truffe dans la farce ou en décoration pour version luxe.",
+        "Servir avec accompagnements simples : pommes vapeur, riz pilaf ou légumes glacés."
+    ]
+}

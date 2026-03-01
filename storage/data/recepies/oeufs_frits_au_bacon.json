@@ -1,0 +1,76 @@
+{
+    "titre": "Œufs frits au bacon",
+    "type": "Hors-d'œuvre chauds à base d'œufs",
+    "description": "Œufs frits à l'huile dans une poêle, servis sur des croûtons de pain de mie frits, accompagnés de tranches de bacon grillé et de persil frit. Présentation classique avec bouquet de persil au centre.",
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "œufs extra-frais",
+                "quantite": "16",
+                "unite": "pièces"
+            }
+        ],
+        "garniture": [
+            {
+                "nom": "bacon (tranches fines, 0,020 kg chacune)",
+                "quantite": "0,320",
+                "unite": "kg"
+            },
+            {
+                "nom": "pain de mie (tranches 0,030 kg)",
+                "quantite": "0,480",
+                "unite": "kg"
+            },
+            {
+                "nom": "huile (pour friture des œufs et croûtons)",
+                "quantite": "0,400",
+                "unite": "l"
+            }
+        ],
+        "finition": [
+            {
+                "nom": "persil en branches (pour friture)",
+                "quantite": "0,080",
+                "unite": "kg"
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel fin",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ]
+    },
+    "duree_moyenne_preparation": "40 min",
+    "duree_moyenne_cuisson": "20 à 40 sec (œufs) + 5 à 10 min (garniture)",
+    "technique": [
+        "1. Mettre en place le poste de travail – 5 min",
+        "Denrées, matériels de préparation, de cuisson et de dressage.",
+        "2. Préparer les éléments de la garniture – 15 min",
+        "Détailler le pain de mie en tranches rondes ou carrées (8 à 10 cm de diamètre).",
+        "Frire les croûtons dans l'huile chaude (160–180 °C) jusqu'à doré et croustillant, égoutter sur papier absorbant.",
+        "Griller les tranches de bacon dans une poêle sèche ou au four jusqu'à croustillant, dégraisser sur papier absorbant.",
+        "Laver, équeuter et sécher le persil en branches.",
+        "Frire le persil quelques secondes dans l'huile chaude (attention aux projections), égoutter sur papier absorbant.",
+        "Réserver tous les éléments au chaud.",
+        "3. Frire les œufs – 15 min",
+        "Chauffer une grande quantité d'huile dans une poêle profonde ou friteuse à 170–180 °C.",
+        "Casser les œufs un par un dans l'huile chaude, laisser prendre le blanc, frire 20 à 40 sec selon degré de cuisson (jaune coulant ou à peine pris).",
+        "Égoutter sur papier absorbant, saler légèrement.",
+        "Répéter pour tous les œufs (cuire par lots si nécessaire).",
+        "4. Dresser les œufs frits au bacon – 5 min",
+        "Disposer un croûton frit au centre de chaque assiette chaude ou sur un grand plat rond.",
+        "Poser un œuf frit par croûton (ou deux selon portion).",
+        "Disposer harmonieusement 2 tranches de bacon grillé autour ou sur l'œuf.",
+        "Placer un bouquet de persil frit au centre du plat.",
+        "Servir immédiatement très chaud."
+    ],
+    "remarques": [
+        "En restauration, servir deux œufs par personne ; ajuster selon appétit.",
+        "La friture des œufs doit être très chaude pour obtenir une bordure croustillante et un jaune coulant.",
+        "Attention aux projections d'huile lors de la friture du persil : utiliser une passoire ou couvercle.",
+        "Variante : remplacer le bacon par du jambon cru ou de la poitrine fumée grillée.",
+        "Ne pas réutiliser l'huile trop longtemps pour éviter le goût rance."
+    ]
+}

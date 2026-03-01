@@ -1,0 +1,125 @@
+{
+  "titre": "ROULADES D’HUÎTRES ET SAUMON FRAIS AU POMMEAU",
+  "page": 769,
+  "denrees_pour_8_couverts": {
+    "Éléments de base": [
+      {
+        "nom": "huîtres creuses du Cotentin (calibre G2)",
+        "quantite": "48",
+        "unite": "pièce"
+      },
+      {
+        "nom": "filet de saumon",
+        "quantite": "1",
+        "unite": "kg"
+      }
+    ],
+    "Beurre au pommeau": [
+      {
+        "nom": "échalotes grises finement ciselées",
+        "quantite": "0,050",
+        "unite": "kg"
+      },
+      {
+        "nom": "pommes taillées en fine brunoise",
+        "quantite": "0,050",
+        "unite": "kg"
+      },
+      {
+        "nom": "vinaigre de cidre",
+        "quantite": "0,05",
+        "unite": "l"
+      },
+      {
+        "nom": "pommeau",
+        "quantite": "0,20",
+        "unite": "l"
+      },
+      {
+        "nom": "eau des huîtres",
+        "quantite": "0,20",
+        "unite": "l"
+      },
+      {
+        "nom": "crème fleurette",
+        "quantite": "0,20",
+        "unite": "l"
+      },
+      {
+        "nom": "beurre extra-fin",
+        "quantite": "0,200",
+        "unite": "kg"
+      }
+    ],
+    "Garniture": [
+      {
+        "nom": "céleri-rave",
+        "quantite": "0,200",
+        "unite": "kg"
+      },
+      {
+        "nom": "panais",
+        "quantite": "0,080",
+        "unite": "kg"
+      },
+      {
+        "nom": "pommes (fruit)",
+        "quantite": "0,300",
+        "unite": "kg"
+      },
+      {
+        "nom": "citron",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "beurre",
+        "quantite": "PM",
+        "unite": ""
+      }
+    ],
+    "Assaisonnement": [
+      {
+        "nom": "poivre",
+        "quantite": "PM",
+        "unite": ""
+      }
+    ]
+  },
+  "technique_de_realisation": [
+    "1. Mettre en place le poste de travail",
+    "2. Ouvrir 48 huîtres creuses du Cotentin (calibre G2).",
+    "Les réserver dans leur eau soigneusement décantée et filtrée.",
+    "3. Préparer le filet de saumon",
+    "Choisir un filet de saumon épais d’1 kg environ.",
+    "Ôter toutes les petites arêtes à l’aide d’une pince et supprimer la peau.",
+    "Envelopper le filet dépouillé dans un film en plastique alimentaire et le raffermir en enceinte réfrigérée.",
+    "4. Détailler le saumon",
+    "Détailler le filet de saumon en 48 tranches fines d’environ 2 mm d’épaisseur dans le sens de la largeur.",
+    "5. Enrober les huîtres",
+    "Les égoutter soigneusement.",
+    "Disposer les «lanières» de saumon sur le plan de travail. Poivrer, ne pas saler.",
+    "Placer une huître sur chaque tranche de saumon et l’enrouler délicatement.",
+    "Remettre les huîtres à l’aide d’un piqueur et les réserver.",
+    "6. Réaliser le beurre au pommeau",
+    "Faire suer au beurre 0,050 kg d’échalotes grises finement ciselées et 0,050 kg de pommes taillées en fine brunoise.",
+    "Déglacer avec 0,05 l de vinaigre de cidre et 0,20 l de pommeau. Réduire des 2/3.",
+    "Ajouter 0,20 l d’eau des huîtres et 0,20 l de crème fleurette. Réduire à nouveau jusqu’à consistance nappante.",
+    "Monter la réduction avec 0,200 kg de beurre extra-fin découpé en petites parcelles.",
+    "Poivrer simplement, ne pas saler.",
+    "Réserver le beurre au pommeau dans un endroit tiède de 45 à 50 °C.",
+    "7. Préparer la garniture",
+    "Détailler 0,200 kg de céleri-rave en julienne.",
+    "Tailler 0,080 kg de panais en bâtonnets légèrement ferme.",
+    "Tailler 0,300 kg de pommes (fruit) en petits bâtonnets grosse julienne.",
+    "La citronner et la faire sauter rapidement au beurre avec une légère coloration.",
+    "Mélanger délicatement les deux juliennes.",
+    "8. Marquer les huîtres en cuisson",
+    "Disposer les huîtres enrobées de saumon sur un grand plat beurré.",
+    "Le placer dans un four très chaud durant 2 min environ sous la salamandre. Le saumon doit être juste cuit, légèrement croustillant en surface et les huîtres tièdes à l’intérieur.",
+    "9. Dresser les roulades",
+    "Répartir la sauce au fond des assiettes.",
+    "Disposer les huîtres en rosace à raison de 6 pièces par personne.",
+    "Garnir le centre de la rosace avec la julienne de pommes et de céleri."
+  ]
+}

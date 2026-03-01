@@ -1,0 +1,130 @@
+{
+    "titre": "Spaghetti bolognaise",
+    "type": "Hors-d'œuvre chauds à base de pâtes industrielles",
+    "description": "Spaghetti industriels cuits al dente, servis avec une sauce bolognaise maison à base de viande hachée, tomates concassées, légumes aromatiques et fond de veau, accompagnés de fromage râpé (gruyère ou parmesan).",
+    "denrees_pour_8_couverts": {
+        "pates": [
+            {
+                "nom": "spaghetti (pâtes industrielles)",
+                "quantite": "0,800",
+                "unite": "kg"
+            }
+        ],
+        "sauce_bolognaise": [
+            {
+                "nom": "viande hachée (bœuf ou mélange bœuf/porc)",
+                "quantite": "0,640",
+                "unite": "kg"
+            },
+            {
+                "nom": "oignons",
+                "quantite": "0,100",
+                "unite": "kg"
+            },
+            {
+                "nom": "carottes",
+                "quantite": "0,100",
+                "unite": "kg"
+            },
+            {
+                "nom": "céleri branche",
+                "quantite": "0,050",
+                "unite": "kg"
+            },
+            {
+                "nom": "tomates concassées (ou pulpe de tomate)",
+                "quantite": "1,000",
+                "unite": "kg"
+            },
+            {
+                "nom": "fond de veau ou bouillon",
+                "quantite": "0,500",
+                "unite": "l"
+            },
+            {
+                "nom": "vin rouge (facultatif)",
+                "quantite": "0,100",
+                "unite": "l"
+            },
+            {
+                "nom": "concentré de tomate",
+                "quantite": "0,050",
+                "unite": "kg"
+            },
+            {
+                "nom": "bouquet garni",
+                "quantite": "1",
+                "unite": "pièce"
+            },
+            {
+                "nom": "ail",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ],
+        "finition": [
+            {
+                "nom": "beurre (pour lier les pâtes)",
+                "quantite": "0,040",
+                "unite": "kg"
+            },
+            {
+                "nom": "gruyère ou parmesan râpé",
+                "quantite": "0,160",
+                "unite": "kg"
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel fin",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "poivre du moulin",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "herbes (thym, origan, basilic séché ou frais)",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ]
+    },
+    "duree_moyenne_preparation": "1 h 10 min",
+    "duree_moyenne_cuisson": "8 à 10 min (pâtes) + 45 min à 1 h (sauce bolognaise)",
+    "technique": [
+        "1. Mettre en place le poste de travail – 5 min",
+        "Denrées, matériels de préparation, de cuisson et de dressage.",
+        "2. Préparer les légumes pour la sauce – 10 min",
+        "Éplucher, laver et émincer finement oignons, carottes, céleri et ail.",
+        "3. Marquer la sauce bolognaise en cuisson – 45 min à 1 h",
+        "Faire suer les légumes dans un peu d'huile ou beurre sans coloration.",
+        "Ajouter la viande hachée, colorer légèrement en remuant pour l'émietter.",
+        "Déglacer au vin rouge si utilisé, laisser réduire.",
+        "Ajouter le concentré de tomate, cuire 2 min, puis mouiller avec les tomates concassées et le fond de veau.",
+        "Ajouter le bouquet garni, assaisonner sel, poivre, herbes.",
+        "Cuire à couvert à petit frémissement 45 min à 1 h, remuer de temps en temps.",
+        "Retirer le bouquet garni, rectifier assaisonnement (éventuellement sucre pour corriger l'acidité).",
+        "Réserver au chaud ou réchauffer à la commande.",
+        "4. Cuire les spaghetti – 8 à 10 min",
+        "Porter une grande quantité d'eau salée à ébullition (10 g sel/litre).",
+        "Plonger les spaghetti, cuire al dente selon indication du paquet (8 à 10 min).",
+        "Égoutter rapidement sans rincer.",
+        "5. Lier les pâtes – 2 min",
+        "Remettre les spaghetti dans le sautoir chaud avec le beurre, mélanger pour enrober.",
+        "Vérifier l'assaisonnement.",
+        "6. Dresser les spaghetti – 4 min",
+        "Dresser les spaghetti en dôme ou en nid au centre des assiettes chaudes.",
+        "Napper généreusement de sauce bolognaise chaude.",
+        "Saupoudrer de fromage râpé (gruyère ou parmesan).",
+        "Servir immédiatement très chaud, avec le reste de sauce et fromage en saucière et ravier à part."
+    ],
+    "remarques": [
+        "La sauce bolognaise gagne en saveur si préparée à l'avance et réchauffée doucement.",
+        "Traditionnellement, on ne mélange pas la sauce aux pâtes dans le plat : la sauce est nappée dessus.",
+        "Variante authentique : ajouter un peu de lait en fin de cuisson pour attendrir la viande.",
+        "Servir avec parmesan fraîchement râpé à table."
+    ]
+}

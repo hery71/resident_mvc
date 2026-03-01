@@ -1,0 +1,161 @@
+{
+    "titre": "Fritots d'ailes d'ailerons de volaille",
+    "type": "Hors-d'œuvre chauds à base de pâte à frire",
+    "page": 685,
+    "fiche": "34",
+    "description": "Ailerons de volaille (ou ailes de poulet) pochés, marinés, enrobés de pâte à frire et frits. Servis avec une sauce aigre-douce ou vinaigrette tomate, accompagnés de persil frit.",
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "ailerons de volaille (ailes de poulet)",
+                "quantite": "2,000",
+                "unite": "kg"
+            }
+        ],
+        "court_bouillon_pour_pochage": [
+            {
+                "nom": "fond blanc de volaille",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "vinaigre",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "carottes, oignons, bouquet garni",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ],
+        "farce_mousseline_de_volaille": [
+            {
+                "nom": "farce mousseline de volaille",
+                "quantite": "0,100",
+                "unite": "kg"
+            },
+            {
+                "nom": "crème fraîche liquide",
+                "quantite": "0,100",
+                "unite": "l"
+            },
+            {
+                "nom": "œuf",
+                "quantite": "1",
+                "unite": "pièce"
+            }
+        ],
+        "marinade": [
+            {
+                "nom": "huile",
+                "quantite": "0,080",
+                "unite": "l"
+            },
+            {
+                "nom": "vinaigre",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "herbes (persil, estragon, thym)",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ],
+        "pate_a_frire": [
+            {
+                "nom": "farine type 55",
+                "quantite": "0,200",
+                "unite": "kg"
+            },
+            {
+                "nom": "œufs (blancs)",
+                "quantite": "3",
+                "unite": "pièces"
+            },
+            {
+                "nom": "huile",
+                "quantite": "0,040",
+                "unite": "l"
+            },
+            {
+                "nom": "eau ou bière",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "sel fin",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ],
+        "sauce_aigre_douce_ou_tomate": [
+            {
+                "nom": "sauce aigre-douce (ou sauce tomate)",
+                "quantite": "0,400",
+                "unite": "l"
+            }
+        ],
+        "finition": [
+            {
+                "nom": "persil en branches",
+                "quantite": "0,040",
+                "unite": "kg"
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel fin",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "poivre du moulin",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ]
+    },
+    "duree_moyenne_preparation": "1 h 10 min",
+    "duree_moyenne_cuisson": "7 à 10 min (friture)",
+    "technique": [
+        "1. Mettre en place le poste de travail – 5 min",
+        "Denrées, matériels de préparation, de cuisson et de dressage.",
+        "2. Parer et désosser les ailerons de volaille",
+        "Retirer la première phalange si nécessaire, désosser partiellement pour faciliter la farce.",
+        "Nuggeter la chair en retirant les nerfs et cartilages.",
+        "3. Réaliser la farce mousseline de volaille (voir p. 325)",
+        "Mixer la chair de volaille avec l'œuf, assaisonner sel, poivre, muscade.",
+        "Incorporer la crème fraîche très froide en filet pour obtenir une texture fine et onctueuse.",
+        "4. Farcer les ailerons de farce mousseline",
+        "Utiliser une poche à douille fine pour introduire la farce dans les ailerons.",
+        "Refermer avec une ficelle ou un cure-dent si nécessaire.",
+        "5. Pocher les ailerons de volaille",
+        "Pocher dans un fond blanc de volaille frémissant pendant 15 min environ.",
+        "Rafraîchir rapidement, égoutter et éponger soigneusement.",
+        "6. Mettre les ailerons à mariner",
+        "Mariner avec huile, vinaigre, herbes hachées, persil, estragon, thym pendant 30 min minimum au frais.",
+        "7. Réaliser la sauce aigre-douce (ou tomate)",
+        "Préparer une sauce aigre-douce : sucrer légèrement, vinaigrer, lier avec fécule ou réduction, ajouter aromates.",
+        "Réserver au chaud.",
+        "8. Préparer la pâte à frire",
+        "Tamiser la farine, ajouter sel, huile, eau/bière pour obtenir une pâte fluide.",
+        "Monter les blancs en neige ferme, les incorporer délicatement au dernier moment.",
+        "9. Frire les fritots d'ailerons",
+        "Tremper les ailerons marinés dans la pâte à frire.",
+        "Frire dans bain d'huile à 175–180 °C jusqu'à belle coloration dorée et croustillante (7 à 10 min).",
+        "Égoutter sur papier absorbant.",
+        "10. Frire le persil et dresser",
+        "Frire les bouquets de persil quelques secondes dans la même huile.",
+        "Dresser les fritots sur un plat rond recouvert de papier gaufré ou serviette.",
+        "Décorer avec bouquets de persil frit tout autour.",
+        "Servir la sauce aigre-douce (ou tomate) en saucière à part.",
+        "Servir très chaud."
+    ],
+    "remarques": [
+        "Les ailerons peuvent être pochés à l'avance et frits à la commande.",
+        "Variante : servir avec une sauce barbecue ou une mayonnaise épicée.",
+        "Assurer une friture à température constante pour un croustillant parfait."
+    ]
+}

@@ -1,0 +1,177 @@
+{
+    "titre": "Ravioli aux langoustines",
+    "type": "Hors-d'œuvre chauds à base de pâte à ravioli",
+    "description": "Ravioli frais farcis d'une farce fine de langoustines, pochés puis servis avec une sauce américaine crémeuse, sautés rapidement à l'huile d'olive. Dressage harmonieux avec croûte de parmesan ou herbes fraîches.",
+    "denrees_pour_8_couverts": {
+        "pate_a_ravioli": [
+            {
+                "nom": "farine type 45",
+                "quantite": "0,400",
+                "unite": "kg"
+            },
+            {
+                "nom": "œufs entiers",
+                "quantite": "4",
+                "unite": "pièces"
+            },
+            {
+                "nom": "sel fin",
+                "quantite": "0,010",
+                "unite": "kg"
+            },
+            {
+                "nom": "huile d'olive (facultatif)",
+                "quantite": "0,010",
+                "unite": "l"
+            }
+        ],
+        "farce_langoustines": [
+            {
+                "nom": "langoustines (queues décortiquées)",
+                "quantite": "0,800",
+                "unite": "kg"
+            },
+            {
+                "nom": "crème fraîche",
+                "quantite": "0,100",
+                "unite": "l"
+            },
+            {
+                "nom": "œuf (blanc ou entier pour liaison)",
+                "quantite": "1",
+                "unite": "pièce"
+            }
+        ],
+        "sauce_americaine": [
+            {
+                "nom": "carcasses ou parures de langoustines",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "huile d'olive",
+                "quantite": "0,040",
+                "unite": "l"
+            },
+            {
+                "nom": "oignons / échalotes",
+                "quantite": "0,100",
+                "unite": "kg"
+            },
+            {
+                "nom": "carottes",
+                "quantite": "0,080",
+                "unite": "kg"
+            },
+            {
+                "nom": "cognac",
+                "quantite": "0,050",
+                "unite": "l"
+            },
+            {
+                "nom": "vin blanc",
+                "quantite": "0,150",
+                "unite": "l"
+            },
+            {
+                "nom": "tomates concassées",
+                "quantite": "0,300",
+                "unite": "kg"
+            },
+            {
+                "nom": "fond de poisson ou fumet",
+                "quantite": "0,500",
+                "unite": "l"
+            },
+            {
+                "nom": "crème liquide",
+                "quantite": "0,200",
+                "unite": "l"
+            },
+            {
+                "nom": "cerfeuil / estragon",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ],
+        "finition": [
+            {
+                "nom": "beurre (pour sauter ou lier)",
+                "quantite": "0,040",
+                "unite": "kg"
+            },
+            {
+                "nom": "huile d'olive (pour finir)",
+                "quantite": "0,020",
+                "unite": "l"
+            },
+            {
+                "nom": "cerfeuil frais (pluches)",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "parmesan ou gruyère râpé (facultatif)",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel fin",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "poivre du moulin",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ]
+    },
+    "duree_moyenne_preparation": "1 h 30 min",
+    "duree_moyenne_cuisson": "2 à 3 min (pochage ravioli) + 30 min (sauce)",
+    "technique": [
+        "1. Mettre en place le poste de travail – 5 min",
+        "Denrées, matériels de préparation, de cuisson et de dressage.",
+        "2. Confectionner la pâte à ravioli – 15 min",
+        "Tamiser la farine et le sel, faire une fontaine, incorporer les œufs, pétrir jusqu'à pâte lisse et élastique.",
+        "Filmer et laisser reposer au frais 30 min minimum.",
+        "3. Décortiquer et préparer les langoustines – 20 min",
+        "Décortiquer 24 langoustines (queues), réserver les carcasses pour la sauce.",
+        "Détailler les queues en morceaux, réserver au frais.",
+        "4. Réaliser la sauce américaine – 30 min",
+        "Faire colorer les carcasses dans l'huile d'olive, ajouter légumes (oignons, carottes), flamber au cognac.",
+        "Déglacer au vin blanc, ajouter tomates, fond de poisson, bouquet garni.",
+        "Réduire, cuire 20–30 min, passer au chinois fin, lier à la crème, rectifier assaisonnement.",
+        "Réserver au chaud.",
+        "5. Confectionner la farce – 10 min",
+        "Mixer les queues de langoustines avec crème, œuf, assaisonnement (sel, poivre).",
+        "Passer au tamis fin pour texture lisse, réserver au frais.",
+        "6. Confectionner les ravioli – 20 min",
+        "Abaisser la pâte très finement (1 mm) en bandes.",
+        "Déposer des noix de farce (environ 15–20 g) espacées sur une bande.",
+        "Humidifier les bords, recouvrir d'une seconde bande, chasser l'air et souder.",
+        "Détailler avec emporte-pièce rond ou roulette dentelée (environ 24 ravioli).",
+        "Réserver sur plaque farinée ou torchon.",
+        "7. Sauter les langoustines – 5 min",
+        "Sauter rapidement les queues de langoustines restantes dans beurre et huile d'olive.",
+        "Assaisonner, réserver au chaud.",
+        "8. Cuire les ravioli – 2 à 3 min",
+        "Porter une grande quantité d'eau salée à frémissement (pas ébullition forte).",
+        "Pocher les ravioli 2 à 3 min jusqu'à ce qu'ils remontent à la surface.",
+        "Égoutter délicatement, réserver sur grille ou torchon.",
+        "9. Dresser les ravioli aux langoustines – 5 min",
+        "Disposer 3 ravioli par assiette chaude.",
+        "Napper harmonieusement de sauce américaine crémeuse chaude.",
+        "Ajouter les langoustines sautées sur le dessus.",
+        "Décorer avec pluches de cerfeuil, un filet d'huile d'olive et éventuellement parmesan râpé.",
+        "Servir immédiatement très chaud."
+    ],
+    "remarques": [
+        "Préparer la pâte et la farce à l'avance, mais cuire les ravioli à la commande pour éviter qu'ils collent ou ramollissent.",
+        "La sauce américaine peut être réalisée avec des carcasses de homard ou de crevettes pour intensifier le goût.",
+        "Variante : ajouter une pointe d'estragon ou d'aneth dans la farce pour une note fraîche.",
+        "Servir avec un vin blanc sec ou un champagne pour équilibrer la richesse de la sauce."
+    ]
+}

@@ -1,0 +1,103 @@
+{
+  "titre": "SOLES OU TRUITES «MEUNIÈRE»",
+  "type": "Poissons sautés «meunière»",
+  "page": 752,
+  "denrees_pour_8_couverts": {
+    "Éléments de base": [
+      {
+        "nom": "soles ou truites portions (8 x 0,250 kg)",
+        "unite": "kg",
+        "quantite": "2"
+      },
+      {
+        "nom": "farine (1)",
+        "unite": "kg",
+        "quantite": "0,160"
+      },
+      {
+        "nom": "beurre",
+        "unite": "kg",
+        "quantite": "0,080"
+      },
+      {
+        "nom": "huile",
+        "unite": "l",
+        "quantite": "0,08"
+      }
+    ],
+    "Beurre meunière": [
+      {
+        "nom": "citron (1 pièce)",
+        "unite": "kg",
+        "quantite": "0,100"
+      },
+      {
+        "nom": "beurre",
+        "unite": "kg",
+        "quantite": "0,160"
+      }
+    ],
+    "Décor": [
+      {
+        "nom": "citrons (2x2 pièces)",
+        "unite": "kg",
+        "quantite": "0,400"
+      },
+      {
+        "nom": "persil",
+        "unite": "kg",
+        "quantite": "0,040"
+      }
+    ],
+    "Assaisonnement": [
+      {
+        "nom": "sel fin",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "poivre du moulin",
+        "quantite": "PM",
+        "unite": ""
+      }
+    ]
+  },
+  "technique_de_realisation": [
+    "1. Mettre en place le poste de travail - 5 min",
+    "Denrées, matériels de préparation, de cuisson et de dressage.",
+    "2. Habiller les soles ou les truites - 20 min (voir p. 155/156 et 165/166)",
+    "Casser des soles.",
+    "Arracher la peau grise et écailler la peau blanche.",
+    "Les dégorger rapidement, les égoutter soigneusement.",
+    "Ébarber les soles en enceinte réfrigérée.",
+    "Casser des truites.",
+    "Les ébarber et les vider soigneusement.",
+    "Éliminer les ouïes.",
+    "Gratter les caillots de sang sous un filet d’eau à l’aide du manche d’une cuillère ou d’une fourchette.",
+    "Rincer abondamment et laisser dégorger les truites durant quelques minutes dans de l’eau glacée.",
+    "Les égoutter et les réserver en enceinte réfrigérée.",
+    "3. Préparer les éléments de décor - 30 min",
+    "Laver, équeuter, concasser, hacher et essorer le persil.",
+    "Presser un demi-citron et réserver le jus dans un petit ramequin.",
+    "Canneler et émincer en demi-rondelles les deux derniers citrons destinés au décor du plat.",
+    "4. Marquer les soles ou les truites en cuisson - 20 min (voir p. 412/414)",
+    "Égoutter soigneusement et essuyer les soles ou les truites sur du papier absorbant.",
+    "Les assaisonner avec du sel fin et du poivre du moulin.",
+    "Fariner les poissons au dernier moment et les secouer en les tapotant pour enlever l’excédent de farine.",
+    "Chauffer le beurre et l’huile dans les poêles à poissons.",
+    "Lorsque le beurre mousse et devient légèrement blond, y déposer les soles côté peau blanche en premier.",
+    "Les truites sont disposées dans la poêle dans le sens opposé au dressage : retournées après coloration, elles seront ainsi dans le sens de la présentation.",
+    "S’assurer de la bonne coloration des poissons et les retourner délicatement à l’aide d’une spatule.",
+    "Terminer doucement la cuisson sur le côté de la plaque du fourneau, et surveiller attentivement le beurre qui ne doit pas brûler.",
+    "Arroser fréquemment avec le beurre de cuisson.",
+    "5. Débarrasser les poissons et les dresser - 5 min",
+    "S’assurer de leur cuisson : à la pression du doigt à la base de la tête et au niveau des opercules, les filets des poissons cuits s’écartent légèrement.",
+    "Disposer les soles sur le plat de service, dans le sens de la diagonale, côté peau blanche sur le dessus, la tête vers l’extrémité du plat et à gauche.",
+    "Disposer les truites sur le plat de service, dans le sens de la diagonale, la tête vers l’extrémité du plat et à gauche, le ventre vers soi.",
+    "Retourner les poissons avec les demi-rondelles de citrons historiés.",
+    "Arroser les poissons avec le jus de citron.",
+    "Passer le beurre noisette et napper les poissons uniformément.",
+    "Saupoudrer (sans excès) de persil haché.",
+    "Disposer sur chaque poisson une ou deux rondelles de citron pelé à vif."
+  ]
+}

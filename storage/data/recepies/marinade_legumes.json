@@ -1,0 +1,22 @@
+{
+    "titre": "Marinade Légumes",
+    "type": "marinade",
+    "base": "Légumes",
+    "type_de_viande": "achards, variantes, piments",
+    "ingredients": [
+        "dégorger au sel durant 24 heures",
+        "huile",
+        "vinaigre",
+        "petits oignons",
+        "échalotes",
+        "ail",
+        "piment",
+        "poivre en grains"
+    ],
+    "technique": [
+        "Ranger les éléments dans une plaque en acier inoxydable de grandeur appropriée.",
+        "Arroser légèrement d’huile et de jus de citron si nécessaire.",
+        "Ajouter la garniture aromatique, les aromates ou les condiments.",
+        "Laisser mariner selon la nature et la taille des pièces."
+    ]
+}

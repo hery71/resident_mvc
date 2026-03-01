@@ -1,0 +1,128 @@
+{
+    "titre": "Tarte fine aux sardines, tomates et oignons confits",
+    "type": "Hors-d'œuvre chauds à base de pâte feuilletée",
+    "page": 674,
+    "fiche": "28",
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "pâte feuilletée (fraîche, plaque)",
+                "quantite": "1",
+                "unite": "plaque"
+            },
+            {
+                "nom": "sardines (fraîches ou au naturel, 32 pièces)",
+                "quantite": "2,500",
+                "unite": "kg"
+            }
+        ],
+        "fondue_oignons_et_tomates": [
+            {
+                "nom": "huile d'olive",
+                "quantite": "0,040",
+                "unite": "l"
+            },
+            {
+                "nom": "oignons",
+                "quantite": "0,800",
+                "unite": "kg"
+            },
+            {
+                "nom": "tomates",
+                "quantite": "0,400",
+                "unite": "kg"
+            },
+            {
+                "nom": "sel fin",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "poivre du moulin",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "bouquet garni (thym, laurier…)",
+                "quantite": "1",
+                "unite": "pièce"
+            }
+        ],
+        "marinade_et_finition": [
+            {
+                "nom": "huile d'olive de Provence (ou huile d'olive)",
+                "quantite": "0,050",
+                "unite": "l"
+            },
+            {
+                "nom": "herbes de Provence",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ],
+        "presentation": [
+            {
+                "nom": "huile d'olive",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "feuilles de basilic frais",
+                "quantite": "8 à 12",
+                "unite": "feuilles"
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel fin",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "poivre du moulin",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ]
+    },
+    "duree_moyenne_preparation": "1 h 30 min",
+    "duree_moyenne_cuisson": "15 à 18 min",
+    "technique": [
+        "1. Mettre en place le poste de travail – 5 min",
+        "Denrées, matériels de préparation, de cuisson et de dressage.",
+        "2. Réaliser la fondue d’oignons et de tomates – 20 min",
+        "Éplucher, laver et émincer les oignons.",
+        "Épépiner, laver et concasser les tomates.",
+        "Monder, épépiner et concasser les tomates.",
+        "Faire suer les oignons avec une partie de l’huile d’olive et le bouquet garni.",
+        "Ajouter les tomates concassées, assaisonner sel et poivre.",
+        "Cuire à couvert jusqu’à complète évaporation de l’eau de constitution.",
+        "Débarasser et réserver après cuisson.",
+        "3. Habiller les sardines – 30 min",
+        "Écailler, vider, lever les filets et désarêter les sardines.",
+        "Les mariner avec un peu d’huile d’olive et herbes de Provence.",
+        "Réserver au frais.",
+        "4. Détailler la pâte feuilletée – 5 min",
+        "Abaisser la pâte feuilletée à 3 mm d’épaisseur.",
+        "Détailler des disques de 14 à 16 cm de diamètre (selon le format désiré).",
+        "5. Réaliser le montage des tartes fines – 10 min",
+        "Disposer les disques de feuilletage sur une plaque à pâtisserie.",
+        "Étaler une couche régulière de fondue d’oignons et tomates au centre.",
+        "Disposer les filets de sardines marinées en rosace, partie caudale dirigée vers le centre.",
+        "6. Marquer les tartes en cuisson – 5 min",
+        "Passer au four préchauffé à 240 °C durant 15 à 18 minutes environ.",
+        "Les tartes doivent être bien dorées et croustillantes.",
+        "7. Frire les feuilles de basilic – 10 min",
+        "Frire les feuilles de basilic dans l’huile chaude jusqu’à ce qu’elles soient croustillantes et bien vertes.",
+        "Égoutter sur papier absorbant.",
+        "8. Dresser les tartes – 5 min",
+        "Dresser les tartes sur assiettes chaudes.",
+        "Lustrer avec un peu d’huile d’olive.",
+        "Disposer sur chaque tarte une ou deux feuilles de basilic frites."
+    ],
+    "remarques": [
+        "La fondue d’oignons et de tomates peut être remplacée par une fondue de poivrons, fenouil, anisette, poireaux…",
+        "Utiliser des sardines fraîches de préférence ; si surgelées ou en conserve, bien égoutter et retirer les arêtes.",
+        "Variante possible avec anchois marinés ou filets de maquereau."
+    ]
+}

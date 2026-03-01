@@ -1,0 +1,128 @@
+{
+  "titre": "DOS DE SAUMON SUR PEAU À L’UNILATÉRALE, FONDUE DE POIREAUX AUX LARDONS",
+  "page": 755,
+  "denrees_pour_8_couverts": {
+    "Éléments de base": [
+      {
+        "nom": "dos de saumon",
+        "quantite": "8",
+        "unite": "pièces"
+      },
+      {
+        "nom": "poids total",
+        "quantite": "2,200",
+        "unite": "kg"
+      }
+    ],
+    "Fondue de poireaux": [
+      {
+        "nom": "poireaux émincés finement",
+        "quantite": "0,800",
+        "unite": "kg"
+      },
+      {
+        "nom": "beurre",
+        "quantite": "0,060",
+        "unite": "kg"
+      },
+      {
+        "nom": "crème",
+        "quantite": "0,10",
+        "unite": "l"
+      }
+    ],
+    "Garniture lardons": [
+      {
+        "nom": "lardons",
+        "quantite": "0,060",
+        "unite": "kg"
+      }
+    ],
+    "Sauce": [
+      {
+        "nom": "beurre blanc",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "échalotes grises",
+        "quantite": "0,040",
+        "unite": "kg"
+      },
+      {
+        "nom": "Noilly",
+        "quantite": "0,05",
+        "unite": "l"
+      },
+      {
+        "nom": "vin blanc",
+        "quantite": "0,10",
+        "unite": "l"
+      },
+      {
+        "nom": "crème",
+        "quantite": "0,200",
+        "unite": "l"
+      }
+    ],
+    "Cuisson": [
+      {
+        "nom": "beurre",
+        "quantite": "0,020",
+        "unite": "kg"
+      },
+      {
+        "nom": "huile",
+        "quantite": "0,02",
+        "unite": "l"
+      }
+    ],
+    "Assaisonnement": [
+      {
+        "nom": "sel",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "poivre",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "fleur de sel",
+        "quantite": "PM",
+        "unite": ""
+      }
+    ]
+  },
+  "technique_de_realisation": [
+    "1. Mettre en place le poste de travail",
+    "2. Habiller un petit saumon de 2 kg à 2,200 kg, l’écailler soigneusement.",
+    "3. Lever les filets du saumon et les détailler",
+    "Les parer, ne pas les dépouiller, ôter toutes les petites arêtes.",
+    "Détailler les filets en «pavés» rectangulaires réguliers de 130 kg chacun (conserver les parures pour une autre utilisation).",
+    "4. Réaliser la fondue de poireaux",
+    "Émincer finement 0,800 kg de blancs de poireaux.",
+    "Les étuver avec 0,060 kg de beurre et les assaisonner.",
+    "Ajouter 0,10 l de crème aux 3/4 de la cuisson.",
+    "5. Préparer les lardons",
+    "Détailler 0,060 kg de poitrine fumée en petits lardons.",
+    "Les blanchir et les faire sauter à l’huile sans les dessécher.",
+    "6. Réaliser la sauce",
+    "Réaliser un beurre blanc avec 0,040 kg d’échalotes grises, 0,05 l de Noilly, 0,05 l de vin blanc, 0,10 l de crème et 0,200 kg de beurre.",
+    "7. Terminer les poireaux",
+    "S’assurer de leur cuisson et de la réduction de la crème.",
+    "Les lier avec le tiers de beurre blanc crème, et les réserver.",
+    "8. Marquer les dos de saumon en cuisson",
+    "Faire chauffer 0,020 kg de beurre et 0,02 l d’huile dans une poêle.",
+    "Assaisonner les dos de saumon et les placer côté peau dans la poêle.",
+    "Les cuire sur la plaque du fourneau durant 4 à 5 minutes, puis placer la poêle dans un four très chaud pour finir la cuisson du poisson.",
+    "Ne pas les retourner, ils doivent cuire uniquement sur le côté peau (le côté peau doit être croustillant et le centre moelleux).",
+    "9. Dresser les dos de saumon",
+    "Disposer un lit de poireaux aux lardons au fond de chaque assiette.",
+    "Placer un «dos de saumon» par assiette sur les poireaux, côté peau croustillante sur le dessus.",
+    "Lustrer le saumon au beurre clarifié.",
+    "Saupoudrer d’une petite pincée de fleur de sel.",
+    "Entourer d’un cordon de sauce."
+  ]
+}

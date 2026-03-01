@@ -1,0 +1,186 @@
+{
+  "page": "645",
+  "titre": "BISQUE DE CRUSTACÉS",
+  "type": "Bisques",
+  "denrees_pour_8_couverts": {
+    "elements_de_base": [
+      {
+        "nom": "beurre",
+        "unite": "kg",
+        "quantite": "0,040"
+      },
+      {
+        "nom": "carapaces de crustacés",
+        "unite": "kg",
+        "quantite": "0,800"
+      },
+      {
+        "nom": "étrilles, tourteaux, araignées, langoustines, ...",
+        "unite": "kg",
+        "quantite": "0,800"
+      },
+      {
+        "nom": "carottes",
+        "unite": "kg",
+        "quantite": "0,080"
+      },
+      {
+        "nom": "oignons",
+        "unite": "kg",
+        "quantite": "0,080"
+      },
+      {
+        "nom": "échalotes",
+        "unite": "kg",
+        "quantite": "0,040"
+      },
+      {
+        "nom": "cognac",
+        "unite": "l",
+        "quantite": "0,05"
+      },
+      {
+        "nom": "vin blanc",
+        "unite": "l",
+        "quantite": "0,15"
+      },
+      {
+        "nom": "fumet de poisson",
+        "unite": "l",
+        "quantite": "2"
+      },
+      {
+        "nom": "arêtes de sole",
+        "unite": "kg",
+        "quantite": "0,300"
+      },
+      {
+        "nom": "tomates",
+        "unite": "kg",
+        "quantite": "0,400"
+      },
+      {
+        "nom": "concentré de tomates",
+        "unite": "kg",
+        "quantite": "0,040"
+      },
+      {
+        "nom": "ail (3 gousses)",
+        "unite": "kg",
+        "quantite": "0,020"
+      },
+      {
+        "nom": "bouquet garni",
+        "unite": "pièce",
+        "quantite": "1"
+      },
+      {
+        "nom": "cerfeuil",
+        "unite": "botte",
+        "quantite": "1/8"
+      },
+      {
+        "nom": "estragon",
+        "unite": "botte",
+        "quantite": "1/8"
+      }
+    ],
+    "liaison": [
+      {
+        "nom": "riz rond",
+        "unite": "kg",
+        "quantite": "0,150"
+      },
+      {
+        "nom": "fumet de poisson",
+        "unite": "l",
+        "quantite": "1"
+      },
+      {
+        "nom": "crème de riz",
+        "unite": "kg",
+        "quantite": "0,100"
+      }
+    ],
+    "finition": [
+      {
+        "nom": "beurre",
+        "unite": "kg",
+        "quantite": "0,040"
+      },
+      {
+        "nom": "crème double",
+        "unite": "l",
+        "quantite": "0,20"
+      },
+      {
+        "nom": "fine champagne",
+        "unite": "l",
+        "quantite": "0,05"
+      }
+    ],
+    "garniture": [
+      {
+        "nom": "brunoise de chair de crustacés (langoustines, homard, crabe, ...)",
+        "quantite": "PM"
+      }
+    ],
+    "assaisonnement": [
+      {
+        "nom": "sel fin",
+        "quantite": "PM"
+      },
+      {
+        "nom": "poivre du moulin",
+        "quantite": "PM"
+      },
+      {
+        "nom": "piment de Cayenne",
+        "quantite": "PM"
+      }
+    ]
+  },
+  "technique": [
+    "1. Mettre en place le poste de travail - 5 min",
+    "• Denrées, matériels de préparation, de cuisson et de dressage.",
+    "2. Rincer et dégorger les étrilles (si utilisation) - 5 min",
+    "• Brosser les tourteaux et les araignées.",
+    "3. Préparer les légumes - 15 min",
+    "• Éplucher et laver tous les légumes.",
+    "• Tailler en fine Mirepoix les carottes et les oignons (petits dés).",
+    "• Ciseler les échalotes.",
+    "• Monder, concasser les tomates.",
+    "• Émincer le germe et écraser les gousses d’ail.",
+    "• Confectionner le bouquet garni, y ajouter de l’estragon et du cerfeuil.",
+    "4. Marquer la bisque en cuisson - 15 min",
+    "• Sauter vivement les carapaces de crustacés jusqu’à ce qu’elles deviennent bien rouges.",
+    "• Ajouter la garniture aromatique (carottes, oignons, échalotes).",
+    "• Suer doucement durant quelques minutes.",
+    "• Flamber avec le cognac.",
+    "• Ajouter le vin blanc et le réduire de moitié.",
+    "• Mouiller avec le fumet de poisson ou ajouter simplement des arêtes (dans ce cas mouiller à l’eau).",
+    "• Ajouter l’ail, les tomates concassées, le concentré et le bouquet garni.",
+    "• Assaisonner.",
+    "• Cuire à couvert en écumant si nécessaire durant quelques minutes (selon les crustacés utilisés).",
+    "• Égoutter les crustacés, les décortiquer, garder la chair pour la garniture.",
+    "• Broyer au pilon les carapaces et les remettre en cuisson.",
+    "• Cuire à nouveau la bisque durant 20 à 30 min.",
+    "5. Préparer la liaison - 5 min",
+    "• Laver le riz et le cuire dans le fumet (ou à l’eau à défaut de fumet).",
+    "• La bisque peut être liée avec de la crème de riz diluée dans un peu de fumet froid.",
+    "6. Terminer et lier la bisque - 15 min",
+    "• Passer la bisque (fond de sauce américaine) au chinois métallique en foulant fortement.",
+    "• Ajouter le riz soigneusement égoutté ou la crème de riz diluée.",
+    "• Faire reprendre l’ébullition et cuire à nouveau la bisque durant quelques minutes.",
+    "• Mixer puis passer la bisque au chinois étamine.",
+    "• Crémer puis reporter à ébullition.",
+    "• Vérifier l’assaisonnement.",
+    "• Débarrasser la bisque dans un bain-marie, la beurrer en surface et couvrir le bain-marie.",
+    "7. Dresser la bisque - 5 min",
+    "• Chauffer légèrement la chair des crustacés taillée en dés avec un peu de beurre et de fine champagne.",
+    "• Verser le potage brûlant dans la soupière.",
+    "• Répartir équitablement la garniture."
+  ],
+  "duree_moyenne_de_preparation": "1 h 05 min",
+  "duree_moyenne_de_cuisson": "20 à 30 min"
+}

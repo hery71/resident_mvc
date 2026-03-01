@@ -1,0 +1,116 @@
+{
+    "titre": "Omelettes roulées aux fines herbes, aux champignons, au jambon et aux oignons",
+    "type": "Hors-d'œuvre chauds à base d'œufs",
+    "description": "Omelettes fines préparées à la commande, garnies séparément de fines herbes, champignons, jambon ou oignons, roulées et servies chaudes. Chaque variante est confectionnée individuellement pour préserver les saveurs distinctes.",
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "œufs extra-frais",
+                "quantite": "24",
+                "unite": "pièces"
+            },
+            {
+                "nom": "beurre (pour cuisson omelettes)",
+                "quantite": "0,100",
+                "unite": "kg"
+            },
+            {
+                "nom": "huile (facultatif pour cuisson)",
+                "quantite": "0,050",
+                "unite": "l"
+            }
+        ],
+        "omelette_aux_fines_herbes": [
+            {
+                "nom": "cerfeuil haché",
+                "quantite": "1/4",
+                "unite": "botte"
+            },
+            {
+                "nom": "estragon haché",
+                "quantite": "1/4",
+                "unite": "botte"
+            },
+            {
+                "nom": "persil haché",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ],
+        "omelette_aux_champignons": [
+            {
+                "nom": "champignons de Paris",
+                "quantite": "0,300",
+                "unite": "kg"
+            },
+            {
+                "nom": "beurre (pour sauter champignons)",
+                "quantite": "0,040",
+                "unite": "kg"
+            }
+        ],
+        "omelette_au_jambon": [
+            {
+                "nom": "jambon de Paris (ou blanc cuit)",
+                "quantite": "0,250",
+                "unite": "kg"
+            }
+        ],
+        "omelette_aux_oignons": [
+            {
+                "nom": "oignons",
+                "quantite": "0,400",
+                "unite": "kg"
+            },
+            {
+                "nom": "beurre (pour suer oignons)",
+                "quantite": "0,040",
+                "unite": "kg"
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel fin",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "poivre du moulin",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ]
+    },
+    "duree_moyenne_preparation": "35 min",
+    "duree_moyenne_cuisson": "2 min par omelette (à la commande)",
+    "technique": [
+        "1. Mettre en place le poste de travail – 5 min",
+        "Denrées, matériels de préparation, de cuisson et de dressage.",
+        "2. Préparer les garnitures – 15 min",
+        "Fines herbes : laver, effeuiller, hacher finement cerfeuil, estragon et persil. Réserver au frais.",
+        "Champignons : nettoyer, émincer finement, sauter rapidement au beurre, assaisonner sel et poivre, égoutter.",
+        "Jambon : détailler en petits dés ou lamelles fines.",
+        "Oignons : éplucher, laver, émincer finement, suer doucement au beurre jusqu'à légère coloration blonde, assaisonner.",
+        "Réserver chaque garniture au chaud ou à température ambiante selon besoin.",
+        "3. Confectionner les omelettes – 10 min (à la commande)",
+        "Casser 3 œufs par omelette dans un bol, battre légèrement avec fourchette (sel et poivre).",
+        "Chauffer une poêle antiadhésive avec beurre ou huile, verser les œufs battus.",
+        "Remuer vigoureusement au début pour homogénéiser, laisser prendre sur feu vif puis moyen.",
+        "Répartir la garniture choisie sur une moitié de l'omelette quand le dessus commence à prendre.",
+        "Plier en deux ou rouler délicatement l'omelette sur elle-même.",
+        "Glisser sur assiette chaude, former une belle roulade uniforme.",
+        "Répéter pour chaque variante et portion.",
+        "4. Dresser les omelettes roulées – 2 min",
+        "Dresser chaque omelette sur assiette chaude.",
+        "Lustrer légèrement avec beurre fondu si désiré.",
+        "Décorer avec pluches de persil frais ou herbes de la garniture.",
+        "Servir immédiatement très chaud."
+    ],
+    "remarques": [
+        "Les omelettes doivent être préparées à la commande pour garder texture moelleuse et garniture chaude.",
+        "En restauration, servir une omelette par personne (ajuster à 2–3 œufs selon appétit).",
+        "Les garnitures peuvent être préparées à l'avance et réchauffées doucement.",
+        "Variante : ajouter une pointe de crème ou fromage râpé dans la garniture pour plus d'onctuosité.",
+        "Respecter une cuisson rapide sur feu vif pour éviter que l'omelette ne sèche."
+    ]
+}

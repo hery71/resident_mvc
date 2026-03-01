@@ -1,0 +1,131 @@
+{
+    "titre": "Œufs pochés façon bourguignonne",
+    "type": "Hors-d'œuvre chauds à base d'œufs pochés",
+    "description": "Œufs pochés servis chauds sur croûtons, nappés d'une sauce bourguignonne au vin rouge réduit, accompagnés de champignons, oignons grelots, lardons et persil haché. Garniture classique à la bourguignonne.",
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "œufs extra-frais",
+                "quantite": "8",
+                "unite": "pièces"
+            }
+        ],
+        "garniture_bourguignonne": [
+            {
+                "nom": "oignons grelots (ou petits oignons)",
+                "quantite": "0,250",
+                "unite": "kg"
+            },
+            {
+                "nom": "champignons de Paris (ou sauvages)",
+                "quantite": "0,250",
+                "unite": "kg"
+            },
+            {
+                "nom": "lardons (ou poitrine fumée)",
+                "quantite": "0,150",
+                "unite": "kg"
+            },
+            {
+                "nom": "beurre",
+                "quantite": "0,020",
+                "unite": "kg"
+            }
+        ],
+        "sauce_bourguignonne": [
+            {
+                "nom": "vin rouge (bourgogne ou bon vin corsé)",
+                "quantite": "0,500",
+                "unite": "l"
+            },
+            {
+                "nom": "fond de veau lié ou demi-glace",
+                "quantite": "0,400",
+                "unite": "l"
+            },
+            {
+                "nom": "échalotes",
+                "quantite": "0,040",
+                "unite": "kg"
+            },
+            {
+                "nom": "beurre manié (pour liaison)",
+                "quantite": "0,020",
+                "unite": "kg"
+            }
+        ],
+        "croûtons": [
+            {
+                "nom": "pain de mie (ou baguette)",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "beurre (pour toaster)",
+                "quantite": "0,020",
+                "unite": "kg"
+            }
+        ],
+        "decoration": [
+            {
+                "nom": "persil plat haché ou pluches",
+                "quantite": "0,020",
+                "unite": "kg"
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel fin",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "poivre du moulin",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ]
+    },
+    "duree_moyenne_preparation": "1 h 15 min",
+    "duree_moyenne_cuisson": "3 min (pochage œufs) + 20 à 30 min (sauce)",
+    "technique": [
+        "1. Mettre en place le poste de travail – 5 min",
+        "Denrées, matériels de préparation, de cuisson et de dressage.",
+        "2. Préparer la garniture bourguignonne – 20 min",
+        "Éplucher les oignons grelots, les glacer à brun avec beurre et sucre.",
+        "Nettoyer et tourner les champignons (ou les laisser entiers s'ils sont petits), les sauter au beurre avec échalotes.",
+        "Blanchir les lardons, les rissoler jusqu'à croustillant, égoutter.",
+        "Réserver chaque élément séparément au chaud.",
+        "3. Préparer les croûtons – 10 min",
+        "Tailler le pain en rondelles ou cœurs de 6–8 cm de diamètre.",
+        "Beurrer légèrement, toaster au four ou à la poêle jusqu'à doré et croustillant.",
+        "Réserver au chaud.",
+        "4. Confectionner la sauce bourguignonne – 20 à 30 min",
+        "Faire réduire le vin rouge avec échalotes hachées jusqu'à 1/3 du volume.",
+        "Mouiller avec le fond de veau lié, réduire à consistance nappante.",
+        "Lier au beurre manié si nécessaire, passer au chinois fin.",
+        "Rectifier assaisonnement (sel, poivre), ajouter une pointe de sucre si trop acide.",
+        "Réserver au bain-marie.",
+        "5. Pocher les œufs – 10 min",
+        "Porter eau vinaigrée à frémissement doux.",
+        "Casser les œufs un par un, pocher 2 min 30 à 3 min (jaune coulant).",
+        "Rafraîchir dans eau glacée, égoutter, parer les bords irréguliers.",
+        "Réserver au chaud dans eau tiède salée.",
+        "6. Réchauffer la garniture – 5 min",
+        "Réchauffer oignons glacés, champignons et lardons ensemble dans un peu de beurre.",
+        "Vérifier assaisonnement.",
+        "7. Dresser les œufs pochés Toupinel – 5 min",
+        "Disposer un croûton chaud au centre de chaque assiette chaude.",
+        "Poser un œuf poché sur chaque croûton.",
+        "Répartir harmonieusement la garniture bourguignonne autour et sur l'œuf.",
+        "Napper généreusement de sauce bourguignonne chaude.",
+        "Décorer avec persil haché ou pluches.",
+        "Servir immédiatement très chaud."
+    ],
+    "remarques": [
+        "Les œufs pochés doivent être préparés à la commande pour conserver le jaune coulant.",
+        "Utiliser un vin rouge de qualité (Bourgogne, Pinot Noir) pour une sauce authentique.",
+        "Variante : ajouter une pointe de beurre rouge ou de réduction de vin pour intensifier la saveur.",
+        "Pour une présentation plus raffinée, dresser sur assiette chaude avec un cordon de sauce autour et garniture centrée."
+    ]
+}

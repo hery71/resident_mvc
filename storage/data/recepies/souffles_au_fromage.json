@@ -1,0 +1,119 @@
+{
+    "titre": "Soufflés au fromage",
+    "type": "Hors-d'œuvre chauds à base d'appareil à soufflé",
+    "page": 688,
+    "fiche": "36",
+    "description": "Hors-d'œuvre chaud réalisé à partir d'une sauce Mornay (sauce Béchamel additionnée de jaunes d'œufs et de gruyère râpé), montée avec blancs d'œufs en neige. Servi avec des blancs montés et cuit à la commande. Doit être servi aussitôt.",
+    "denrees_pour_8_couverts": {
+        "appareil_souffle_sauce_mornay": [
+            {
+                "nom": "beurre",
+                "quantite": "0,060",
+                "unite": "kg"
+            },
+            {
+                "nom": "farine",
+                "quantite": "0,060",
+                "unite": "kg"
+            },
+            {
+                "nom": "lait (ou crème)",
+                "quantite": "0,500",
+                "unite": "l"
+            },
+            {
+                "nom": "œufs (jaunes)",
+                "quantite": "4",
+                "unite": "pièces"
+            },
+            {
+                "nom": "gruyère râpé et tamisé",
+                "quantite": "0,150",
+                "unite": "kg"
+            }
+        ],
+        "chemisage_et_moulage": [
+            {
+                "nom": "beurre (pour chemiser les moules)",
+                "quantite": "0,020",
+                "unite": "kg"
+            },
+            {
+                "nom": "gruyère râpé (pour chemiser les moules)",
+                "quantite": "0,020",
+                "unite": "kg"
+            }
+        ],
+        "blancs_en_neige": [
+            {
+                "nom": "blancs d'œufs",
+                "quantite": "8 à 10",
+                "unite": "pièces"
+            }
+        ],
+        "finition_et_decoration": [
+            {
+                "nom": "gruyère en lamelles ou râpé (pour décorer)",
+                "quantite": "0,040",
+                "unite": "kg"
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel fin",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "piment de Cayenne",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "noix de muscade",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ]
+    },
+    "duree_moyenne_preparation": "1 h",
+    "duree_moyenne_cuisson": "20 à 25 min",
+    "technique": [
+        "1. Mettre en place le poste de travail – 5 min",
+        "Denrées, matériels de préparation, de cuisson et de dressage.",
+        "2. Chemiser les moules à soufflé – 3 min (voir p. 353)",
+        "Beurrer soigneusement l'intérieur des moules (ramequins individuels ou grand moule).",
+        "Saupoudrer de gruyère râpé finement, tapoter pour enlever l'excédent. Réserver au frais.",
+        "3. Confectionner le roux blanc – 5 min (voir p. 286)",
+        "Faire fondre le beurre, ajouter la farine, cuire 1 min sans coloration.",
+        "Retirer du feu, laisser refroidir légèrement.",
+        "4. Préparer le gruyère – 5 min",
+        "Râper et tamiser le gruyère. Réserver 30 g pour chemisage et décoration.",
+        "5. Confectionner l'appareil à soufflé – 15 min",
+        "Remettre le roux sur feu doux, verser le lait bouillant en fouettant vivement.",
+        "Porter à ébullition en remuant constamment, cuire 4 min pour obtenir une sauce épaisse.",
+        "Hors du feu, incorporer les jaunes d'œufs un à un en fouettant.",
+        "Ajouter le gruyère râpé tamisé, assaisonner sel, piment de Cayenne, noix de muscade.",
+        "Tamponner la surface au beurre, filmer au contact et réserver à +63 °C ou tiède.",
+        "6. Terminer l'appareil à soufflé – 10 min",
+        "Monter les blancs d'œufs en neige très ferme avec une pincée de sel.",
+        "Incorporer délicatement 1/3 des blancs en neige dans l'appareil chaud pour détendre.",
+        "Incorporer le reste des blancs en neige en soulevant la masse avec une spatule, sans retomber.",
+        "7. Mouler les soufflés – 3 min",
+        "Remplir les moules chemisés aux 3/4 de l'appareil à soufflé.",
+        "Lisser la surface avec une spatule, passer le pouce sur le bord intérieur pour faciliter la montée.",
+        "8. Marquer les soufflés en cuisson – 4 min",
+        "Disposer les moules sur une plaque, saupoudrer éventuellement de gruyère râpé ou de lamelles.",
+        "Cuire au four préchauffé à 180–190 °C (thermostat 6) pendant 20 à 25 min selon taille.",
+        "Les soufflés doivent monter haut, dorer uniformément et être fermes au centre.",
+        "9. Dresser les soufflés – 2 min",
+        "Servir immédiatement sur plat rond recouvert de papier gaufré.",
+        "Nettoyer les bords des moules, présenter tels quels ou démouler avec précaution si grand moule.",
+        "Servir sans attendre pour éviter que le soufflé retombe."
+    ],
+    "remarques": [
+        "Les soufflés doivent être cuits à la commande ; prévoir 20 à 25 min de cuisson selon la taille.",
+        "Pour 4 couverts, diviser les quantités par 2 et utiliser des moules plus petits.",
+        "Variantes possibles : ajouter jambon haché, épinards, fruits de mer ou fromage supplémentaire dans l'appareil."
+    ]
+}

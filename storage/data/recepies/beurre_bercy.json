@@ -1,0 +1,22 @@
+{
+    "titre": "Beurre Bercy",
+    "type": "beurre compose",
+    "genre": "a froid",
+    "ingredients": [
+        "Beurre",
+        "échalotes ciselées",
+        "vin blanc",
+        "persil haché",
+        "dés de moelle (dégorgée",
+        "pochée",
+        "soigneusement épongée)",
+        "sel",
+        "poivre du moulin"
+    ],
+    "technique": [
+        "Réduire le vin blanc avec l’échalote ciselée, refroidir, mélanger avec le beurre en pommade, le persil et les dés de moelle"
+    ],
+    "utilisation": [
+        "Viandes et poissons grillés"
+    ]
+}

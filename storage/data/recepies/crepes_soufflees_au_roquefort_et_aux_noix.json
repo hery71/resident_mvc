@@ -1,0 +1,127 @@
+{
+    "titre": "Crêpes soufflées au roquefort et aux noix",
+    "type": "Hors-d'œuvre chauds à base d'appareil à soufflé",
+    "page": 689,
+    "fiche": "37",
+    "description": "Crêpes fines garnies d'un appareil à soufflé au roquefort et noix concassées, pliées ou roulées, puis passées au four pour obtenir une montée et une coloration dorée. Servies très chaudes à raison de 2 crêpes par personne.",
+    "denrees_pour_8_couverts": {
+        "pate_a_crepes": [
+            {
+                "nom": "pâte à crêpes (salée ou neutre)",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ],
+        "appareil_souffle_roquefort": [
+            {
+                "nom": "roquefort (ou fromage bleu)",
+                "quantite": "0,100",
+                "unite": "kg"
+            },
+            {
+                "nom": "noix concassées (ou hachées grossièrement)",
+                "quantite": "0,100",
+                "unite": "kg"
+            },
+            {
+                "nom": "beurre",
+                "quantite": "0,040",
+                "unite": "kg"
+            },
+            {
+                "nom": "farine",
+                "quantite": "0,030",
+                "unite": "kg"
+            },
+            {
+                "nom": "lait",
+                "quantite": "0,250",
+                "unite": "l"
+            },
+            {
+                "nom": "œufs (jaunes)",
+                "quantite": "3",
+                "unite": "pièces"
+            },
+            {
+                "nom": "blancs d'œufs",
+                "quantite": "5",
+                "unite": "pièces"
+            }
+        ],
+        "finition": [
+            {
+                "nom": "beurre (pour le plat ou les assiettes)",
+                "quantite": "0,020",
+                "unite": "kg"
+            },
+            {
+                "nom": "noix concassées supplémentaires (décoration facultative)",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel fin",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "poivre du moulin",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "noix de muscade (facultatif)",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ]
+    },
+    "duree_moyenne_preparation": "environ 50 min",
+    "duree_moyenne_cuisson": "8 à 10 min",
+    "technique": [
+        "1. Mettre en place le poste de travail – 5 min",
+        "Denrées, matériels de préparation, de cuisson et de dressage.",
+        "2. Réaliser ou réchauffer les crêpes – 10 min",
+        "Préparer une demi-litre d'appareil à crêpes si pas déjà fait (voir p. 355/357).",
+        "Cuire des crêpes fines et souples (environ 16 crêpes de 20 cm).",
+        "Réserver au chaud ou couvertes.",
+        "3. Préparer la garniture roquefort/noix – 5 min",
+        "Émietter finement le roquefort.",
+        "Hacher grossièrement les noix (garder quelques morceaux pour décoration).",
+        "Réserver.",
+        "4. Confectionner l'appareil à soufflé au roquefort – 15 min",
+        "Confectionner une sauce Mornay allégée ou un roux blanc avec beurre et farine.",
+        "Mouiller avec le lait chaud, cuire 4 min en remuant.",
+        "Hors du feu, incorporer les jaunes d'œufs un à un.",
+        "Ajouter le roquefort émietté et les noix concassées, mélanger jusqu'à obtention d'une texture homogène.",
+        "Assaisonner poivre (peu de sel car le roquefort est salé), pointe de muscade si désiré.",
+        "Tamponner la surface et réserver tiède.",
+        "5. Monter les blancs en neige et terminer l'appareil – 5 min",
+        "Monter les blancs d'œufs en neige très ferme avec une pincée de sel.",
+        "Incorporer délicatement 1/3 des blancs dans l'appareil tiède pour détendre.",
+        "Incorporer le reste des blancs en neige en soulevant la masse avec une spatule (mouvement enveloppant).",
+        "6. Garnir les crêpes – 10 min",
+        "Disposer les crêpes sur le plan de travail recouvert d'une feuille de papier sulfurisé ou film.",
+        "Répartir l'appareil à soufflé sur chaque crêpe (couche fine et régulière).",
+        "Plier en deux (demi-lune) ou rouler légèrement pour former des crêpes épaisses.",
+        "7. Marquer les crêpes soufflées en cuisson – 5 min",
+        "Beurrer un grand plat à gratin ou des assiettes individuelles allant au four.",
+        "Disposer les crêpes pliées ou roulées en diagonale ou côte à côte.",
+        "Parsemer éventuellement de noix concassées supplémentaires.",
+        "8. Cuire les crêpes soufflées – 8 min",
+        "Enfourner au four préchauffé à 200 °C (thermostat 6-7) pendant 8 à 10 min.",
+        "Les crêpes doivent gonfler, dorer légèrement et rester moelleuses à l'intérieur.",
+        "9. Dresser les crêpes – 2 min",
+        "Dresser sur assiettes très chaudes à raison de 2 crêpes par personne.",
+        "Servir immédiatement pour profiter de la montée du soufflé.",
+        "Accompagner éventuellement d'une petite salade ou de fruits secs grillés."
+    ],
+    "remarques": [
+        "Préparer les crêpes et l'appareil à l'avance, mais monter les blancs et cuire à la commande pour un maximum de gonflement.",
+        "Variante : remplacer le roquefort par du gorgonzola, fourme d'Ambert ou un mélange de fromages bleus.",
+        "Ne pas trop charger les crêpes en appareil pour éviter qu'elles ne retombent trop vite."
+    ]
+}

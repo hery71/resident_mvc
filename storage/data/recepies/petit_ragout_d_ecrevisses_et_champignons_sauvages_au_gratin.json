@@ -1,0 +1,108 @@
+{
+  "titre": "PETIT RAGOÛT D’ÉCREVISSES ET CHAMPIGNONS SAUVAGES AU GRATIN",
+  "type": "Crustacés gratinés",
+  "page": 773,
+  "denrees_pour_8_couverts": {
+    "elements_de_base": [
+      {
+        "nom": "écrevisses",
+        "quantite": "1",
+        "unite": "kg"
+      },
+      {
+        "nom": "champignons sauvages (chanterelles, girolles, cèpes, morilles)",
+        "quantite": "0,500",
+        "unite": "kg"
+      }
+    ],
+    "sauce_nantua": [
+      {
+        "nom": "beurre clarifié",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "carottes (brunoise)",
+        "quantite": "0,100",
+        "unite": "kg"
+      },
+      {
+        "nom": "oignons (brunoise)",
+        "quantite": "0,100",
+        "unite": "kg"
+      },
+      {
+        "nom": "échalotes (brunoise)",
+        "quantite": "0,050",
+        "unite": "kg"
+      },
+      {
+        "nom": "cognac",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "fumet de poisson",
+        "quantite": "0,05",
+        "unite": "l"
+      },
+      {
+        "nom": "vin blanc",
+        "quantite": "0,20",
+        "unite": "l"
+      },
+      {
+        "nom": "crème",
+        "quantite": "0,10",
+        "unite": "l"
+      },
+      {
+        "nom": "beurre pour monter",
+        "quantite": "0,125",
+        "unite": "kg"
+      }
+    ],
+    "assaisonnement": [
+      {
+        "nom": "sel fin",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "poivre du moulin",
+        "quantite": "PM",
+        "unite": ""
+      }
+    ]
+  },
+  "technique_de_realisation": [
+    "1. Mettre en place le poste de travail",
+    "2. Réaliser la sauce Nantua",
+    "Laver, brosser et châtrer les écrevisses.",
+    "Les faire revenir vivement au beurre clarifié.",
+    "Ajouter les carottes, oignons et échalotes en brunoise.",
+    "Flamber au cognac.",
+    "Mouiller avec le fumet de poisson et le vin blanc.",
+    "Réduire des 2/3.",
+    "Ajouter la crème et porter à ébullition.",
+    "Passer au chinois.",
+    "3. Égoutter et décortiquer les écrevisses",
+    "Réserver quelques queues pour la présentation.",
+    "Broyer les têtes et carapaces et les remettre en cuisson dans le fond de sauce durant 15 min.",
+    "4. Terminer la sauce Nantua à glacer",
+    "Passer à l’étamine.",
+    "Réduire à nouveau.",
+    "Monter au beurre.",
+    "5. Préparer les champignons sauvages",
+    "Nettoyer soigneusement.",
+    "Les faire sauter au beurre avec échalotes ciselées.",
+    "6. Terminer le ragoût",
+    "Réunir queues d’écrevisses et champignons.",
+    "Ajouter la sauce Nantua.",
+    "Laisser frémir quelques minutes.",
+    "7. Dresser et glacer",
+    "Répartir en cassolettes ou plats à gratin.",
+    "Glacer sous la salamandre.",
+    "Décorer avec quelques écrevisses lustrées."
+  ]
+}

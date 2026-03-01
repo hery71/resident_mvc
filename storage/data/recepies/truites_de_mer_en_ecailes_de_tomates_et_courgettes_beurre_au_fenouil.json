@@ -1,0 +1,131 @@
+{
+    "titre": "Truites de mer en écailles de tomates et courgettes, beurre au fenouil",
+    "type": "Hors-d'œuvre chauds à base de poisson",
+    "description": "Filets de truites de mer ouverts en portefeuille, pochés à la vapeur, garnis de rondelles de tomates et courgettes en écailles, servis avec un beurre fondu aromatisé au fenouil. Dressage harmonieux avec réduction de fumet, fines herbes et accompagnement léger.",
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "truites de mer (entières ou filets, 0,300 kg pièce)",
+                "quantite": "2,400",
+                "unite": "kg"
+            }
+        ],
+        "marinade": [
+            {
+                "nom": "huile d'olive",
+                "quantite": "0,040",
+                "unite": "l"
+            },
+            {
+                "nom": "fenouil frais ou aneth",
+                "quantite": "1",
+                "unite": "botte"
+            },
+            {
+                "nom": "citron (jus et zeste)",
+                "quantite": "1",
+                "unite": "pièce"
+            }
+        ],
+        "garniture_ecaille": [
+            {
+                "nom": "tomates (fermes, moyennes)",
+                "quantite": "0,500",
+                "unite": "kg"
+            },
+            {
+                "nom": "courgettes (longues)",
+                "quantite": "0,500",
+                "unite": "kg"
+            }
+        ],
+        "beurre_au_fenouil": [
+            {
+                "nom": "beurre extra-fin",
+                "quantite": "0,400",
+                "unite": "kg"
+            },
+            {
+                "nom": "fenouil frais (bulbe ou graines)",
+                "quantite": "0,040",
+                "unite": "kg"
+            },
+            {
+                "nom": "fumet de poisson ou badiane",
+                "quantite": "0,100",
+                "unite": "l"
+            },
+            {
+                "nom": "anis étoilé (facultatif)",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ],
+        "finition_et_decoration": [
+            {
+                "nom": "persil frais (pluches ou haché)",
+                "quantite": "0,040",
+                "unite": "kg"
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel fin",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "poivre du moulin",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "piment de Cayenne",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ]
+    },
+    "duree_moyenne_preparation": "1 h 15 min",
+    "duree_moyenne_cuisson": "8 à 12 min (vapeur truites)",
+    "technique": [
+        "1. Mettre en place le poste de travail – 5 min",
+        "Denrées, matériels de préparation, de cuisson et de dressage.",
+        "2. Habiller et ouvrir les truites – 15 min",
+        "Écailler, vider, laver et sécher les truites.",
+        "Ouvrir en portefeuille (incision dorsale, retirer arête centrale sans séparer les filets).",
+        "Retirer les nageoires et ouïes, réserver au frais.",
+        "3. Réaliser la marinade – 10 min",
+        "Mélanger huile d'olive, jus et zeste de citron, fenouil/aneth haché, sel et poivre.",
+        "Badigeonner l'intérieur des truites, laisser mariner 10–15 min au frais.",
+        "4. Préparer la garniture en écailles – 15 min",
+        "Laver et détailler les tomates et courgettes en rondelles fines et régulières (2–3 mm).",
+        "Réserver au frais.",
+        "5. Réaliser le beurre au fenouil – 15 min",
+        "Faire infuser le fenouil (bulbe haché ou graines) dans le fumet ou badiane.",
+        "Réduire légèrement, passer au chinois.",
+        "Monter au beurre froid en fouettant sur feu doux jusqu'à consistance nappante.",
+        "Ajouter crème si désiré, rectifier sel, poivre, piment de Cayenne.",
+        "Tamponner, réserver au chaud (bain-marie 60 °C).",
+        "6. Cuire les truites à la vapeur – 10 min",
+        "Disposer les truites ouvertes sur plaques perforées ou panier vapeur.",
+        "Cuire à la vapeur 8 à 12 min selon taille (chair opaque et nacrée).",
+        "Maintenir au chaud.",
+        "7. Monter les truites en écailles – 10 min",
+        "Disposer les rondelles de tomates et courgettes en écailles superposées sur les filets cuits.",
+        "Badigeonner légèrement d'huile ou beurre fondu.",
+        "Passer rapidement sous salamandre ou au four chaud (200 °C) 2–3 min pour colorer légèrement.",
+        "8. Dresser les truites – 5 min",
+        "Disposer les truites sur assiettes chaudes ou plat rond recouvert de papier gaufré.",
+        "Napper harmonieusement de beurre au fenouil chaud.",
+        "Décorer avec pluches de persil ou fenouil frais.",
+        "Servir immédiatement très chaud, avec le reste de beurre en saucière."
+    ],
+    "remarques": [
+        "Les truites doivent être pochées/vapeur très doucement pour garder la chair nacrée et humide.",
+        "Les écailles de tomates et courgettes doivent être fines et régulières pour un effet visuel esthétique.",
+        "Le beurre au fenouil peut être légèrement infusé à l'anis étoilé pour accentuer l'arôme.",
+        "Variante : ajouter une pointe de crème ou de fumet réduit dans le beurre pour plus d'onctuosité.",
+        "Accompagnement classique : pommes vapeur, carottes, asperges ou fenouil braisé."
+    ]
+}

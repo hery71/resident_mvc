@@ -1,0 +1,145 @@
+{
+    "titre": "Truites pochées au court-bouillon, beurre blanc",
+    "type": "Hors-d'œuvre chauds à base de poisson",
+    "description": "Truites entières pochées dans un court-bouillon citronné aromatisé, servies chaudes accompagnées d'une sauce beurre blanc émulsionnée. Dressage classique avec légumes vapeur ou persillade, citrons et persil frais.",
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "truites entières (frais, vidées et écaillées)",
+                "quantite": "2,000",
+                "unite": "kg"
+            }
+        ],
+        "court_bouillon": [
+            {
+                "nom": "carottes",
+                "quantite": "0,400",
+                "unite": "kg"
+            },
+            {
+                "nom": "oignons",
+                "quantite": "0,200",
+                "unite": "kg"
+            },
+            {
+                "nom": "bouquet garni",
+                "quantite": "1",
+                "unite": "pièce"
+            },
+            {
+                "nom": "poivre en grains",
+                "quantite": "0,010",
+                "unite": "kg"
+            },
+            {
+                "nom": "gros sel",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "vin blanc sec",
+                "quantite": "0,400",
+                "unite": "l"
+            }
+        ],
+        "beurre_blanc": [
+            {
+                "nom": "beurre extra-fin",
+                "quantite": "0,400",
+                "unite": "kg"
+            },
+            {
+                "nom": "échalotes grises",
+                "quantite": "0,040",
+                "unite": "kg"
+            },
+            {
+                "nom": "vinaigre de vin blanc",
+                "quantite": "0,020",
+                "unite": "l"
+            },
+            {
+                "nom": "vin blanc",
+                "quantite": "0,200",
+                "unite": "l"
+            },
+            {
+                "nom": "crème fraîche (facultatif)",
+                "quantite": "0,100",
+                "unite": "l"
+            }
+        ],
+        "decoration_et_accompagnement": [
+            {
+                "nom": "persil plat frais (pluches ou haché)",
+                "quantite": "0,040",
+                "unite": "kg"
+            },
+            {
+                "nom": "citrons (en quartiers)",
+                "quantite": "4",
+                "unite": "pièces"
+            },
+            {
+                "nom": "légumes vapeur (pommes, carottes, asperges…)",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel fin",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "poivre du moulin",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "piment de Cayenne",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ]
+    },
+    "duree_moyenne_preparation": "1 h 40 min",
+    "duree_moyenne_cuisson": "8 à 10 min (pochage truites) + 10 min (sauce)",
+    "technique": [
+        "1. Mettre en place le poste de travail – 5 min",
+        "Denrées, matériels de préparation, de cuisson et de dressage.",
+        "2. Habiller et détailler les truites – 15 min",
+        "Écailler, vider, laver et égoutter les truites.",
+        "Retirer les ouïes et les nageoires si nécessaire.",
+        "Réserver au frais.",
+        "3. Préparer le court-bouillon – 20 min",
+        "Éplucher, laver et émincer les carottes et oignons.",
+        "Préparer le bouquet garni.",
+        "Mettre tous les éléments dans un grand rondeau, couvrir d'eau, ajouter vin blanc, gros sel et poivre en grains.",
+        "Porter à ébullition, écumer, cuire 15–20 min à frémissement.",
+        "Passer au chinois, refroidir si besoin, réserver.",
+        "4. Confectionner le beurre blanc – 15 min",
+        "Ciseler finement les échalotes.",
+        "Réduire vin blanc + vinaigre + échalotes jusqu'à presque sec.",
+        "Incorporer progressivement le beurre froid en petits morceaux au fouet sur feu très doux ou bain-marie.",
+        "Monter jusqu'à consistance nappante, ajouter éventuellement crème pour liaison.",
+        "Assaisonner sel et piment de Cayenne, passer au chinois fin, réserver au chaud (bain-marie 60 °C).",
+        "5. Marquer les truites en cuisson – 5 min",
+        "Porter le court-bouillon à frémissement.",
+        "Plonger les truites délicatement, cuire 8 à 10 min selon taille (chair se détachant facilement).",
+        "Maintenir au chaud dans le liquide.",
+        "6. Dresser les truites pochées et beurre blanc – 5 min",
+        "Égoutter les truites, les disposer sur assiettes chaudes ou plat rond recouvert de papier gaufré.",
+        "Napper harmonieusement de beurre blanc chaud.",
+        "Disposer les éléments de décoration : quartiers de citron, persil en branches.",
+        "Servir immédiatement très chaud, avec le reste de sauce en saucière."
+    ],
+    "remarques": [
+        "Les truites doivent être pochées à frémissement très doux pour éviter qu'elles ne se défassent.",
+        "Le lait peut être ajouté au court-bouillon pour blanchir la chair (classique pour poissons blancs).",
+        "La sauce beurre blanc est fragile : ne pas faire bouillir, maintenir au chaud sans excès.",
+        "Variante : servir avec légumes vapeur (pommes à l'anglaise, carottes, brocolis) ou persillade.",
+        "Accompagnement classique : pommes de terre vapeur ou riz pilaf."
+    ]
+}

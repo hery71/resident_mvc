@@ -1,0 +1,90 @@
+{
+  "titre": "MOULES POULETTE",
+  "page": 763,
+  "denrees_pour_8_couverts": {
+    "Sauce poulette de base": [
+      {
+        "nom": "échalotes ciselées",
+        "quantite": "0,040",
+        "unite": "kg"
+      },
+      {
+        "nom": "champignons de Paris émincés",
+        "quantite": "0,200",
+        "unite": "kg"
+      },
+      {
+        "nom": "beurre",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "bouillon de poisson non salé",
+        "quantite": "0,10",
+        "unite": "l"
+      },
+      {
+        "nom": "crème",
+        "quantite": "0,10",
+        "unite": "l"
+      },
+      {
+        "nom": "persil haché",
+        "quantite": "PM",
+        "unite": ""
+      }
+    ],
+    "Liaison": [
+      {
+        "nom": "jaunes d’œufs",
+        "quantite": "2",
+        "unite": "pièces"
+      },
+      {
+        "nom": "crème",
+        "quantite": "0,10",
+        "unite": "l"
+      }
+    ],
+    "Moules": [
+      {
+        "nom": "moules",
+        "quantite": "PM",
+        "unite": ""
+      }
+    ],
+    "Assaisonnement": [
+      {
+        "nom": "sel",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "poivre",
+        "quantite": "PM",
+        "unite": ""
+      }
+    ]
+  },
+  "technique_de_realisation": [
+    "1. Mettre en place le poste de travail",
+    "2. Préparer la sauce poulette de base",
+    "Faire suer au beurre 0,040 kg d’échalotes ciselées et 0,200 kg de champignons de Paris émincés.",
+    "Ajouter 0,40 l de velouté de poisson non salé et 0,10 l de crème. Laisser réduire durant une dizaine de minutes.",
+    "Rectifier avec quelques gouttes de jus de citron.",
+    "Passer au chinois étamine, tamponner et réserver au bain-marie.",
+    "3. Préparer et ouvrir les moules",
+    "Les ouvrir selon la méthode ci-contre.",
+    "4. Terminer la sauce poulette",
+    "Débarrasser les moules et enlever la coquille du dessus.",
+    "Décanter délicatement et filtrer très finement la cuisson.",
+    "Réduire de moitié 0,20 l de cuisson.",
+    "Ajouter la base de la sauce poulette.",
+    "Réduire à nouveau.",
+    "Ajouter une liaison composée de 2 jaunes d’œufs et de 0,10 l de crème.",
+    "Reporter à ébullition durant quelques secondes et, hors du feu, monter la sauce au beurre.",
+    "Vérifier l’assaisonnement.",
+    "Passer la sauce au chinois étamine sur les moules.",
+    "Saupoudrer de persil haché."
+  ]
+}

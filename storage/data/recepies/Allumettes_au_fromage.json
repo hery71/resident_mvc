@@ -1,0 +1,142 @@
+{
+    "titre": "Allumettes au fromage",
+    "type": "Hors-d'œuvre chauds à base de pâte feuilletée",
+    "page": 672,
+    "denrees_pour_8_couverts": {
+        "pate_feuilletee": [
+            {
+                "nom": "pâte feuilletée type 55",
+                "quantite": "0,400",
+                "unite": "kg"
+            },
+            {
+                "nom": "sel fin",
+                "quantite": "0,008",
+                "unite": "kg"
+            },
+            {
+                "nom": "farine (pour le façonnage)",
+                "quantite": "0,080",
+                "unite": "kg"
+            },
+            {
+                "nom": "beurre (pour le façonnage)",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ],
+        "sauce_mornay": [
+            {
+                "nom": "beurre",
+                "quantite": "0,020",
+                "unite": "kg"
+            },
+            {
+                "nom": "farine",
+                "quantite": "0,020",
+                "unite": "kg"
+            },
+            {
+                "nom": "lait (ou demi-crème)",
+                "quantite": "0,240",
+                "unite": "l"
+            },
+            {
+                "nom": "gruyère râpé et tamisé",
+                "quantite": "0,040",
+                "unite": "kg"
+            }
+        ],
+        "dorure": [
+            {
+                "nom": "œuf (entier)",
+                "quantite": "1/2",
+                "unite": "pièce"
+            }
+        ],
+        "garniture": [
+            {
+                "nom": "bâtonnets de gruyère (16 x 0,010 kg)",
+                "quantite": "0,160",
+                "unite": "kg"
+            }
+        ],
+        "finition": [
+            {
+                "nom": "bâtonnets de gruyère",
+                "quantite": "0,010",
+                "unite": "kg"
+            }
+        ],
+        "decoration": [
+            {
+                "nom": "losanges de gruyère (16 x 0,005 kg)",
+                "quantite": "0,080",
+                "unite": "kg"
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "persil en branches",
+                "quantite": "0,040",
+                "unite": "kg"
+            },
+            {
+                "nom": "sel",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "piment de Cayenne",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "noix de muscade",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ]
+    },
+    "duree_moyenne_preparation": "1 h 40 min",
+    "duree_moyenne_cuisson": "20 à 25 min",
+    "technique": [
+        "1. Mettre en place le poste de travail – 5 min",
+        "Denrées, matériels de préparation, de cuisson et de dressage.",
+        "2. Confectionner la pâte feuilletée – 45 min (voir p. 288)",
+        "Confectionner le roux blanc et le refroidir rapidement.",
+        "Mettre le lait à bouillir et le verser sur le roux froid.",
+        "Porter la sauce Béchamel à ébullition pendant 3 à 4 min.",
+        "Assaisonner sans le sel fin, le piment de Cayenne et quelques râpures de noix de muscade.",
+        "Ajouter hors du feu le jaune d’œuf et remuer à l’aide d’un fouet.",
+        "Incorporer délicatement le gruyère râpé à l’aide d’une spatule.",
+        "Débarasser la sauce Mornay dans une petite calotte en inox.",
+        "Tamponner la surface.",
+        "3. Confectionner les allumettes – 30 min",
+        "Abaisser le pâton d’environ 3 mm d’épaisseur.",
+        "Abaisser l’abaisse dans les sens de la longueur pour obtenir un rectangle de 24 cm environ.",
+        "Couper l’abaisse en deux, dans les 4 cm, dans le sens de la longueur pour obtenir une double bande.",
+        "Appliquer l’abaisse à la sauce Mornay à l’aide d’un pinceau.",
+        "Déposer les bâtonnets de gruyère sur une moitié de l’abaisse.",
+        "Mouiller l’abaisse à l’eau froide ou au jaune d’un pinceau.",
+        "4. Rouler l’abaisse sur elle-même en veillant à ne pas déformer le métal.",
+        "Recouvrir avec le thème abaissé en veillant à ne pas déformer le métal.",
+        "Manger le tout avec une aiguille à brider (détailler l’abaisse supérieure à l’emplacement du fromage pour diminuer la pression).",
+        "Dorer sur toute la surface.",
+        "Détailler les allumettes à l’aide d’un couteau à lame lisse (elles peuvent être réfrigérées puis quantités à l’aide d’une fourchette).",
+        "Disposer les allumettes sur une plaque à pâtisserie.",
+        "Réserver au frais pendant une dizaine de minutes.",
+        "5. Préparer le persil en branches – 5 min",
+        "6. Cuire les allumettes (240 °C) au départ – 3 min",
+        "Cuire au four chaud (240 °C) pendant 20 à 25 min.",
+        "Débarasser les allumettes sur une grille à pâtisserie.",
+        "Réserver au chaud.",
+        "7. Dresser les allumettes – 2 min",
+        "Disposer harmonieusement les allumettes sur un grand plat long.",
+        "Décorer avec le persil en branches."
+    ],
+    "remarques": [
+        "Le gruyère peut être remplacé par d’autres fromages.",
+        "La pâte feuilletée surgelée en plaque peut être utilisée."
+    ]
+}

@@ -1,0 +1,141 @@
+{
+  "page": "641",
+  "titre": "SOUPE DE POISSONS FAÇON BOUILLABAISSE",
+  "type": "Soupes de poissons",
+  "denrees_pour_8_couverts": {
+    "fond_de_base_ou_soupe_de_poissons": [
+      {
+        "nom": "petits poissons de roches (galinette, vives, rascasses, etc.)",
+        "unite": "kg",
+        "quantite": "0,800"
+      },
+      {
+        "nom": "filets de grondin",
+        "unite": "kg",
+        "quantite": "0,400"
+      },
+      {
+        "nom": "parures des poissons",
+        "unite": "kg",
+        "quantite": "PM"
+      },
+      {
+        "nom": "oignons",
+        "unite": "kg",
+        "quantite": "0,200"
+      },
+      {
+        "nom": "carottes",
+        "unite": "kg",
+        "quantite": "0,200"
+      },
+      {
+        "nom": "concentré de tomate",
+        "unite": "kg",
+        "quantite": "0,020"
+      },
+      {
+        "nom": "tomates",
+        "unite": "kg",
+        "quantite": "0,400"
+      },
+      {
+        "nom": "ail",
+        "unite": "kg",
+        "quantite": "0,020"
+      },
+      {
+        "nom": "bouquet garni",
+        "quantite": "PM"
+      },
+      {
+        "nom": "huile d’olive",
+        "unite": "l",
+        "quantite": "0,20"
+      }
+    ],
+    "garniture": [
+      {
+        "nom": "tronçons de rascasse",
+        "unite": "kg",
+        "quantite": "0,600"
+      },
+      {
+        "nom": "filets de Saint-Pierre",
+        "unite": "kg",
+        "quantite": "0,600"
+      },
+      {
+        "nom": "filets de congre",
+        "unite": "kg",
+        "quantite": "0,600"
+      },
+      {
+        "nom": "moules",
+        "unite": "kg",
+        "quantite": "0,600"
+      },
+      {
+        "nom": "crevettes",
+        "unite": "kg",
+        "quantite": "0,400"
+      }
+    ],
+    "rouille": [
+      {
+        "nom": "jaunes d’œufs",
+        "unite": "pièce",
+        "quantite": "2"
+      },
+      {
+        "nom": "ail",
+        "unite": "kg",
+        "quantite": "0,010"
+      },
+      {
+        "nom": "moutarde",
+        "quantite": "PM"
+      },
+      {
+        "nom": "safran",
+        "quantite": "PM"
+      },
+      {
+        "nom": "huile d’olive",
+        "unite": "l",
+        "quantite": "0,20"
+      },
+      {
+        "nom": "piment de Cayenne",
+        "quantite": "PM"
+      }
+    ],
+    "assaisonnement": [
+      {
+        "nom": "gros sel",
+        "quantite": "PM"
+      },
+      {
+        "nom": "sel fin",
+        "quantite": "PM"
+      },
+      {
+        "nom": "poivre du moulin",
+        "quantite": "PM"
+      }
+    ]
+  },
+  "technique": [
+    "1. Mettre en place le poste de travail - 5 min",
+    "2. Habiller les poissons - 20 min",
+    "3. Éplucher, laver et tailler tous les légumes - 20 min",
+    "4. Réaliser la marinade et mettre les poissons de la bouillabaisse à mariner - 15 min",
+    "5. Marquer la soupe de poissons en cuisson - 15 min",
+    "6. Préparer les garnitures - 10 min",
+    "7. Préparer la rouille - 5 min",
+    "8. Marquer à la commande la bouillabaisse en cuisson - 12 min",
+    "9. Dresser la bouillabaisse - 3 min"
+  ],
+  "duree_moyenne_de_preparation": "1 h 50 min",
+  "duree_moyenne_de_cuisson": "15 à 18 min\n12 min"
+}

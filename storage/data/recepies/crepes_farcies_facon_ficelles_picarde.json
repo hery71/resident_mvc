@@ -1,0 +1,184 @@
+{
+    "titre": "Crêpes farcies façon ficelles picarde",
+    "type": "Hors-d'œuvre chauds à base de pâte à crêpes",
+    "page": 686,
+    "fiche": "34",
+    "description": "Crêpes fines farcies d'une duxelles de champignons, d'une sauce crème au jambon de Paris, roulées en ficelles fines, gratinées au four avec gruyère râpé.",
+    "denrees_pour_8_couverts": {
+        "pate_a_crepes": [
+            {
+                "nom": "farine",
+                "quantite": "0,250",
+                "unite": "kg"
+            },
+            {
+                "nom": "sel fin",
+                "quantite": "0,005",
+                "unite": "kg"
+            },
+            {
+                "nom": "œufs entiers",
+                "quantite": "3",
+                "unite": "pièces"
+            },
+            {
+                "nom": "lait",
+                "quantite": "0,500",
+                "unite": "l"
+            },
+            {
+                "nom": "beurre (fondu)",
+                "quantite": "0,050",
+                "unite": "kg"
+            }
+        ],
+        "huile_pour_poeles": [
+            {
+                "nom": "huile",
+                "quantite": "0,050",
+                "unite": "l"
+            }
+        ],
+        "duxelles_de_champignons": [
+            {
+                "nom": "champignons de Paris (ou mélange gris et blancs)",
+                "quantite": "0,400",
+                "unite": "kg"
+            },
+            {
+                "nom": "échalotes",
+                "quantite": "0,040",
+                "unite": "kg"
+            },
+            {
+                "nom": "beurre",
+                "quantite": "0,040",
+                "unite": "kg"
+            },
+            {
+                "nom": "citron (facultatif, jus)",
+                "quantite": "1/2",
+                "unite": "pièce"
+            },
+            {
+                "nom": "persil haché",
+                "quantite": "1",
+                "unite": "botte"
+            }
+        ],
+        "sauce_creme": [
+            {
+                "nom": "crème fraîche",
+                "quantite": "0,400",
+                "unite": "l"
+            },
+            {
+                "nom": "farine",
+                "quantite": "0,040",
+                "unite": "kg"
+            },
+            {
+                "nom": "lait",
+                "quantite": "0,400",
+                "unite": "l"
+            }
+        ],
+        "beurre_pour_tamponner": [
+            {
+                "nom": "beurre",
+                "quantite": "0,020",
+                "unite": "kg"
+            }
+        ],
+        "garniture": [
+            {
+                "nom": "jambon de Paris (D.D., désossé et détaillé en fines tranches ou julienne)",
+                "quantite": "0,400",
+                "unite": "kg"
+            }
+        ],
+        "finition_et_gratin": [
+            {
+                "nom": "gruyère râpé (pour gratiner)",
+                "quantite": "0,080",
+                "unite": "kg"
+            },
+            {
+                "nom": "beurre (pour le plat à gratin)",
+                "quantite": "0,040",
+                "unite": "kg"
+            },
+            {
+                "nom": "beurre (pour lustrer)",
+                "quantite": "0,020",
+                "unite": "kg"
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel fin",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "piment de Cayenne",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "noix de muscade",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ]
+    },
+    "duree_moyenne_preparation": "1 h 25 min",
+    "duree_moyenne_cuisson": "17 à 25 min (gratinage)",
+    "technique": [
+        "1. Mettre en place le poste de travail – 5 min",
+        "Denrées, matériels de préparation, de cuisson et de dressage.",
+        "2. Réaliser la pâte à crêpes – 20 min (voir p. 355/357)",
+        "Tamiser la farine et le sel, faire une fontaine, incorporer les œufs, puis le lait progressivement, ajouter le beurre fondu.",
+        "Laisser reposer 1 h minimum.",
+        "Cuire 16 crêpes fines et salées de 20 cm de diamètre environ.",
+        "Réserver sur assiette couverte ou film alimentaire.",
+        "3. Réaliser la duxelles de champignons – 20 min (voir p. 288)",
+        "Éplucher, laver, émincer finement les échalotes.",
+        "Nettoyer, hacher les champignons (ou les passer au cutter).",
+        "Faire suer les échalotes au beurre, ajouter les champignons, cuire à feu vif pour évaporer l'eau, assaisonner sel, poivre, muscade, piment de Cayenne.",
+        "Ajouter le persil haché en fin de cuisson.",
+        "Débarasser et refroidir.",
+        "4. Réaliser la sauce crème – 15 min",
+        "Confectionner un roux blanc avec farine et beurre, mouiller avec lait et crème, porter à ébullition en fouettant.",
+        "Cuire 5 à 8 min, assaisonner sel, poivre, muscade, piment de Cayenne.",
+        "Tamponner la surface au beurre pour éviter la croûte.",
+        "5. Préparer la garniture – 5 min",
+        "Laver, équeuter, essorer et hacher le persil.",
+        "Couper le jambon en fines lanières ou julienne.",
+        "Mélanger la duxelles refroidie avec la sauce crème, ajouter le jambon et le persil haché.",
+        "Vérifier l'assaisonnement.",
+        "6. Réaliser le montage des ficelles – 10 min",
+        "Déposer une crêpe sur le plan de travail.",
+        "Étaler une couche régulière de garniture sur toute la surface.",
+        "Rouler la crêpe très serrée en cigare fin (ficelle).",
+        "Couper les extrémités si nécessaire pour uniformiser.",
+        "Répéter pour les 16 crêpes.",
+        "7. Gratter les ficelles – 3 min",
+        "Beurrer un plat à gratin.",
+        "Disposer les ficelles côte à côte en diagonale dans le plat.",
+        "Napper légèrement du reste de sauce crème.",
+        "Parsemer généreusement de gruyère râpé.",
+        "8. Gratiner les ficelles – 20 à 25 min",
+        "Passer au four chaud (200–220 °C) pendant 20 à 25 min jusqu'à ce que le gratin soit bien doré et bouillonnant.",
+        "9. Dresser les ficelles – 2 min",
+        "Dresser les ficelles sur assiettes chaudes ou plat de service.",
+        "Lustrer avec un peu de beurre clarifié.",
+        "Nettoyer les bords du plat, disposer sur papier gaufré si servi en plat.",
+        "Servir très chaud."
+    ],
+    "remarques": [
+        "Les ficelles peuvent être préparées à l'avance, filmées et réfrigérées avant le gratinage.",
+        "Variante : remplacer le jambon par du jambon cru, du saumon fumé ou des fruits de mer.",
+        "Servir avec une petite salade verte ou des légumes vapeur en accompagnement."
+    ]
+}

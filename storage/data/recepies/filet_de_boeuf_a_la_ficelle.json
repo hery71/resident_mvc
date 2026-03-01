@@ -1,0 +1,97 @@
+{
+  "titre": "FILET DE BŒUF À LA FICELLE",
+  "type": "Viandes pochées",
+  "page": 777,
+  "denrees_pour_8_couverts": {
+    "Éléments de base": [
+      {
+        "nom": "cœur de filet de bœuf",
+        "quantite": "1,800",
+        "unite": "kg"
+      },
+      {
+        "nom": "consommé de bœuf corsé",
+        "quantite": "1,50",
+        "unite": "l"
+      },
+      {
+        "nom": "os à moelle",
+        "quantite": "8",
+        "unite": "tronçons"
+      }
+    ],
+    "Garniture": [
+      {
+        "nom": "carottes",
+        "quantite": "0,500",
+        "unite": "kg"
+      },
+      {
+        "nom": "navets",
+        "quantite": "0,300",
+        "unite": "kg"
+      },
+      {
+        "nom": "poireaux",
+        "quantite": "0,400",
+        "unite": "kg"
+      },
+      {
+        "nom": "haricots verts",
+        "quantite": "0,150",
+        "unite": "kg"
+      },
+      {
+        "nom": "céleri en branches",
+        "quantite": "0,150",
+        "unite": "kg"
+      }
+    ],
+    "Assaisonnement": [
+      {
+        "nom": "sel fin",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "poivre du moulin",
+        "quantite": "PM",
+        "unite": ""
+      }
+    ],
+    "Accompagnement": [
+      {
+        "nom": "crème fouettée",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "raifort râpé",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "jus de citron",
+        "quantite": "PM",
+        "unite": ""
+      }
+    ]
+  },
+  "technique_de_realisation": [
+    "1. Préparer les tournedos (voir p. 222)",
+    "Parer 1,800 kg de cœur de filet et y découper 8 tournedos réguliers.",
+    "Les maintenir par un croisillon de ficelle et laisser dépasser la ficelle de 10 cm.",
+    "2. Préparer les légumes",
+    "Éplucher et laver les carottes, navets, poireaux, haricots verts et céleri en branches.",
+    "Tailler tous les légumes en longs bâtonnets de l’épaisseur des haricots verts.",
+    "Les cuire séparément à l’anglaise.",
+    "3. Ajouter les légumes dans 1,50 l de consommé de bœuf corsé.",
+    "Laisser frémir durant 5 min.",
+    "Y faire cuire les tournedos de 5 à 10 min suivant l’appoint de cuisson désiré.",
+    "4. Dresser les tournedos",
+    "Disposer les tournedos dans des assiettes creuses en laissant dépasser la ficelle sur le bord.",
+    "Les napper à mi-hauteur avec le consommé et les légumes.",
+    "Disposer une lamelle de moelle sur chaque tournedos.",
+    "REMARQUE : Accompagner d’une sauce crème fouettée additionnée de raifort râpé et de jus de citron."
+  ]
+}

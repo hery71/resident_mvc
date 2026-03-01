@@ -1,0 +1,131 @@
+{
+    "titre": "Œufs cocotte à la parisienne",
+    "type": "Hors-d'œuvre chauds à base d'œufs",
+    "description": "Œufs cuits en cocotte au bain-marie, garnis d'une farce fine de volaille (farce mousseline) et de champignons, nappés de sauce suprême ou crème, terminés au four ou gratinés légèrement.",
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "œufs extra-frais",
+                "quantite": "16",
+                "unite": "pièces"
+            }
+        ],
+        "farce_mousseline_de_volaille": [
+            {
+                "nom": "volaille (blanc ou suprême de volaille)",
+                "quantite": "0,150",
+                "unite": "kg"
+            },
+            {
+                "nom": "crème fleurette",
+                "quantite": "0,100",
+                "unite": "l"
+            },
+            {
+                "nom": "œuf (blanc pour liaison)",
+                "quantite": "1",
+                "unite": "pièce"
+            }
+        ],
+        "garniture_champignons": [
+            {
+                "nom": "champignons de Paris",
+                "quantite": "0,080",
+                "unite": "kg"
+            },
+            {
+                "nom": "beurre",
+                "quantite": "0,030",
+                "unite": "kg"
+            },
+            {
+                "nom": "jus de citron (facultatif)",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ],
+        "sauce_liaison": [
+            {
+                "nom": "sauce suprême ou crème liquide",
+                "quantite": "0,200",
+                "unite": "l"
+            },
+            {
+                "nom": "beurre (pour tamponner)",
+                "quantite": "0,020",
+                "unite": "kg"
+            }
+        ],
+        "beurre_pour_cocottes": [
+            {
+                "nom": "beurre (pour beurrer les cocottes)",
+                "quantite": "0,040",
+                "unite": "kg"
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel fin",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "poivre blanc du moulin",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "noix de muscade",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ]
+    },
+    "duree_moyenne_preparation": "1 h",
+    "duree_moyenne_cuisson": "5 à 8 min (cuisson cocotte au bain-marie)",
+    "technique": [
+        "1. Mettre en place le poste de travail – 5 min",
+        "Denrées, matériels de préparation, de cuisson et de dressage.",
+        "2. Réaliser la farce mousseline de volaille – 15 min",
+        "Détailler le blanc de volaille en morceaux, mixer finement avec sel, poivre, muscade.",
+        "Incorporer progressivement la crème très froide en filet tout en mixant.",
+        "Ajouter le blanc d'œuf pour liaison, passer au tamis fin.",
+        "Réserver au frais.",
+        "3. Préparer les champignons – 10 min",
+        "Nettoyer, émincer finement les champignons.",
+        "Les faire suer au beurre avec un filet de citron, assaisonner sel et poivre.",
+        "Égoutter l'excédent d'eau, hacher grossièrement ou laisser en brunoise fine.",
+        "Réserver au chaud.",
+        "4. Mélanger la farce et les champignons – 5 min",
+        "Incorporer les champignons égouttés à la farce mousseline.",
+        "Vérifier assaisonnement et consistance (doit être ferme mais souple).",
+        "Réserver au frais.",
+        "5. Préparer les cocottes – 5 min",
+        "Beurrer généreusement l'intérieur de 16 petites cocottes en porcelaine.",
+        "Déposer une fine couche de farce au fond de chaque cocotte.",
+        "Casser délicatement un œuf par cocotte (sans crever le jaune).",
+        "Assaisonner légèrement sel et poivre sur le blanc.",
+        "6. Cuire les œufs cocotte – 5 à 8 min",
+        "Disposer les cocottes dans un sautoir ou plat à bain-marie.",
+        "Verser eau bouillante autour jusqu'à mi-hauteur.",
+        "Couvrir d'une feuille de papier sulfurisé ou couvercle.",
+        "Cuire au four à 150–160 °C ou sur feu doux 5 à 8 min : blanc à peine coagulé, jaune coulant.",
+        "Surveiller attentivement.",
+        "7. Réduire la crème (liaison) – 5 min",
+        "Réduire la crème d'un tiers jusqu'à consistance nappante.",
+        "Rectifier sel et poivre, réserver au chaud.",
+        "8. Terminer et napper – 3 min",
+        "Sortir les cocottes du bain-marie, essuyer les bords.",
+        "Napper chaque œuf d'un cordon de crème réduite chaude.",
+        "9. Dresser les œufs cocotte à la parisienne – 3 min",
+        "Disposer les cocottes sur un grand plat rond recouvert de papier gaufré.",
+        "Décorer avec pluches de persil ou cerfeuil frais.",
+        "Servir immédiatement très chaud (les convives cassent le jaune à table)."
+    ],
+    "remarques": [
+        "En restauration, les œufs cocotte sont servis deux par personne ; ajuster le nombre de cocottes selon portion.",
+        "La cuisson doit être très douce pour garder le jaune coulant ; trop chaud = jaune durci.",
+        "Variante : ajouter une pointe de truffe hachée ou de champignons sauvages dans la farce.",
+        "Servir avec toast Melba ou pain de mie grillé à part pour saucer."
+    ]
+}

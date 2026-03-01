@@ -1,0 +1,91 @@
+{
+    "titre": "Sauce béarnaise",
+    "type": "Sauce émulsionnée semi-coagulée chaude",
+    "page": "312-314",
+    "duree_moyenne_realisation": "20 à 25 min",
+    "denrees": {
+        "base": [
+            {
+                "nom": "Œufs",
+                "quantite": "16",
+                "unite": "pièce"
+            },
+            {
+                "nom": "Beurre",
+                "quantite": "1,000",
+                "unite": "kg"
+            }
+        ],
+        "reduction": [
+            {
+                "nom": "Vin blanc",
+                "quantite": "0,15",
+                "unite": "l"
+            },
+            {
+                "nom": "Vinaigre d’alcool ou vinaigre d’estragon",
+                "quantite": "0,15",
+                "unite": "l"
+            },
+            {
+                "nom": "Échalotes",
+                "quantite": "0,150",
+                "unite": "kg"
+            },
+            {
+                "nom": "Poivre concassé (mignonnette)",
+                "quantite": "0,015",
+                "unite": "kg"
+            },
+            {
+                "nom": "Estragon",
+                "quantite": "1/2",
+                "unite": "botte"
+            },
+            {
+                "nom": "Cerfeuil",
+                "quantite": "1/4",
+                "unite": "botte"
+            }
+        ],
+        "finition": [
+            {
+                "nom": "Estragon",
+                "quantite": "1/2",
+                "unite": "botte"
+            },
+            {
+                "nom": "Cerfeuil",
+                "quantite": "1/4",
+                "unite": "botte"
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "Sel fin",
+                "quantite": "PM"
+            }
+        ]
+    },
+    "technique": [
+        "Mettre en place le poste de travail.",
+        "Peser, mesurer et contrôler les denrées.",
+        "Clarifier le beurre et le décanter.",
+        "Le découper en petites parcelles et le laisser fondre lentement au bain-marie sans y toucher.",
+        "Lorsqu’il est clarifié, le décanter : séparer l’écume et le petit lait.",
+        "Éplucher, laver et ciseler finement les échalotes.",
+        "Laver, effeuiller et hacher l’estragon et le cerfeuil.",
+        "Concasser le poivre en grains.",
+        "Réunir dans une sauteuse le vin blanc, le vinaigre, les échalotes ciselées, la moitié de l’estragon et du cerfeuil hachés et le poivre concassé.",
+        "Laisser réduire des trois quarts très doucement.",
+        "Refroidir la réduction et la laisser infuser.",
+        "Ajouter les jaunes à la réduction refroidie (ajouter un peu d’eau froide).",
+        "Monter le sabayon en fouettant vigoureusement.",
+        "Retirer du feu lorsque la température approche 60 °C et que chaque coup de fouet laisse apercevoir le fond de la sauteuse.",
+        "Incorporer progressivement le beurre clarifié et décanté en tournant la sauce au fouet.",
+        "Vérifier l’assaisonnement.",
+        "Si la sauce s’épaissit trop, ajouter un peu d’eau tiède.",
+        "Ajouter le reste de l’estragon et du cerfeuil fraîchement hachés.",
+        "Réserver à couvert dans un endroit tiède de +40 à +50 °C maximum."
+    ]
+}

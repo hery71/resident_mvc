@@ -1,0 +1,58 @@
+{
+    "titre": "Sauce hollandaise",
+    "type": "Sauce émulsionnée instable chaude",
+    "page": 307,
+    "duree_moyenne_realisation": "12 à 15 min",
+    "denrees": {
+        "base": [
+            {
+                "nom": "Jaunes d’œufs",
+                "quantite": "8",
+                "unite": "pièces"
+            },
+            {
+                "nom": "Beurre clarifié",
+                "quantite": "1,000",
+                "unite": "kg"
+            }
+        ],
+        "reduction": [
+            {
+                "nom": "Eau",
+                "quantite": "0,10",
+                "unite": "l"
+            },
+            {
+                "nom": "Vinaigre",
+                "quantite": "0,10",
+                "unite": "l"
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "Sel fin",
+                "quantite": "PM"
+            },
+            {
+                "nom": "Poivre blanc ou piment de Cayenne",
+                "quantite": "PM"
+            },
+            {
+                "nom": "Jus de citron",
+                "quantite": "PM"
+            }
+        ]
+    },
+    "technique": [
+        "Mettre en place le poste de travail.",
+        "Peser, mesurer et contrôler les denrées.",
+        "Réaliser la réduction avec l’eau et le vinaigre.",
+        "Réduire de moitié.",
+        "Réunir les jaunes d’œufs et la réduction.",
+        "Monter au bain-marie en fouettant énergiquement.",
+        "Incorporer progressivement le beurre clarifié tiède.",
+        "Maintenir l’émulsion onctueuse.",
+        "Assaisonner et rectifier l’acidité avec le jus de citron.",
+        "Réserver à 45 °C maximum."
+    ]
+}

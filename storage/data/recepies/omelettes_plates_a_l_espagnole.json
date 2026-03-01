@@ -1,0 +1,110 @@
+{
+    "titre": "Omelettes plates à l'espagnole",
+    "type": "Hors-d'œuvre chauds à base d'œufs",
+    "description": "Omelettes plates (type tortilla espagnole) enrichies d'un appareil de poivrons, oignons et tomates concassées étuvés à l'huile d'olive. Cuites à la poêle, retournées et servies chaudes, souvent en portions individuelles ou à partager.",
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "œufs extra-frais",
+                "quantite": "24",
+                "unite": "pièces"
+            },
+            {
+                "nom": "huile d'arachide ou neutre (pour cuisson omelettes)",
+                "quantite": "0,080",
+                "unite": "kg"
+            }
+        ],
+        "garniture_espagnole": [
+            {
+                "nom": "poivrons (rouges et/ou verts)",
+                "quantite": "0,200",
+                "unite": "kg"
+            },
+            {
+                "nom": "oignons",
+                "quantite": "0,200",
+                "unite": "kg"
+            },
+            {
+                "nom": "tomates (fraîches, mûres)",
+                "quantite": "0,800",
+                "unite": "kg"
+            },
+            {
+                "nom": "huile d'olive",
+                "quantite": "0,040",
+                "unite": "l"
+            },
+            {
+                "nom": "ail (gousses)",
+                "quantite": "2",
+                "unite": "gousses"
+            },
+            {
+                "nom": "bouquet garni",
+                "quantite": "1",
+                "unite": "pièce"
+            }
+        ],
+        "finition": [
+            {
+                "nom": "beurre (facultatif pour finir)",
+                "quantite": "0,020",
+                "unite": "kg"
+            },
+            {
+                "nom": "persil haché",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel fin",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "poivre du moulin",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ]
+    },
+    "duree_moyenne_preparation": "1 h",
+    "duree_moyenne_cuisson": "1 à 2 min par omelette + 30 min (garniture)",
+    "technique": [
+        "1. Mettre en place le poste de travail – 5 min",
+        "Denrées, matériels de préparation, de cuisson et de dressage.",
+        "2. Préparer la garniture espagnole – 30 min",
+        "Laver, éplucher et éliminer le pédoncule des tomates, les concasser grossièrement.",
+        "Éplucher, laver et tailler les oignons en julienne fine ou dés.",
+        "Laver, épépiner et tailler les poivrons en julienne ou dés.",
+        "Éplucher et hacher l'ail.",
+        "Faire suer oignons, poivrons et ail dans l'huile d'olive sans coloration excessive.",
+        "Ajouter les tomates concassées, bouquet garni, assaisonner sel et poivre.",
+        "Cuire à couvert à feu moyen 20–25 min jusqu'à évaporation de l'eau et fondue homogène.",
+        "Retirer le bouquet garni, rectifier assaisonnement, réserver au chaud.",
+        "3. Confectionner les omelettes – 10 min (à la commande)",
+        "Casser 3 œufs par omelette dans un bol, battre légèrement à la fourchette avec sel et poivre.",
+        "Incorporer 2–3 cuillères de garniture espagnole chaude dans les œufs battus, mélanger.",
+        "Chauffer une poêle antiadhésive (20–22 cm) avec un peu d'huile.",
+        "Verser le mélange œufs + garniture, laisser prendre 30–40 s sur feu moyen.",
+        "Remuer légèrement pour homogénéiser, laisser cuire 1 min jusqu'à ce que le dessous soit pris.",
+        "Retourner l'omelette (ou la plier en deux si préférence), cuire 30–40 s de l'autre côté.",
+        "Glisser sur assiette chaude.",
+        "4. Dresser les omelettes plates à l'espagnole – 2 min",
+        "Dresser chaque omelette sur assiette chaude.",
+        "Napper légèrement du reste de fondue de tomates chaude autour.",
+        "Parsemer de persil haché frais.",
+        "Servir immédiatement très chaud."
+    ],
+    "remarques": [
+        "Les omelettes doivent être préparées à la commande pour conserver texture moelleuse et garniture chaude.",
+        "En restauration, servir une omelette par personne (ajuster à 2–3 œufs selon appétit).",
+        "La garniture peut être préparée à l'avance et réchauffée doucement.",
+        "Variante authentique espagnole (tortilla) : cuire plus lentement et plus épais, sans retourner si désiré.",
+        "Ajouter éventuellement des dés de chorizo ou poivrons grillés pour une touche plus ibérique."
+    ]
+}

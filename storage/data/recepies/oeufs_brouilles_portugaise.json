@@ -1,0 +1,112 @@
+{
+    "titre": "Œufs brouillés portugaise",
+    "type": "Hors-d'œuvre chauds à base d'œufs",
+    "description": "Œufs brouillés cuits doucement au bain-marie jusqu'à consistance crémeuse, servis sur une fondue de tomates à la portugaise (tomates concassées, oignons, ail, bouquet garni), finis avec beurre et crème, décorés de persil haché.",
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "œufs extra-frais",
+                "quantite": "24",
+                "unite": "pièces"
+            }
+        ],
+        "fondue_de_tomates_portugaise": [
+            {
+                "nom": "tomates (fraîches, mûres)",
+                "quantite": "0,800",
+                "unite": "kg"
+            },
+            {
+                "nom": "oignons",
+                "quantite": "0,200",
+                "unite": "kg"
+            },
+            {
+                "nom": "ail (gousses)",
+                "quantite": "2",
+                "unite": "gousses"
+            },
+            {
+                "nom": "bouquet garni",
+                "quantite": "1",
+                "unite": "pièce"
+            },
+            {
+                "nom": "huile d'olive ou beurre",
+                "quantite": "0,040",
+                "unite": "kg"
+            },
+            {
+                "nom": "concentré de tomate (facultatif)",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ],
+        "brouillage_et_finition": [
+            {
+                "nom": "beurre (pour cuisson brouillés)",
+                "quantite": "0,080",
+                "unite": "kg"
+            },
+            {
+                "nom": "crème double",
+                "quantite": "0,040",
+                "unite": "l"
+            },
+            {
+                "nom": "persil haché",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel fin",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "poivre du moulin",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ]
+    },
+    "duree_moyenne_preparation": "45 min",
+    "duree_moyenne_cuisson": "6 à 8 min (brouillage) + 15 min (fondue tomates)",
+    "technique": [
+        "1. Mettre en place le poste de travail – 5 min",
+        "Denrées, matériels de préparation, de cuisson et de dressage.",
+        "2. Marquer la fondue de tomates en cuisson – 15 min",
+        "Éplucher, laver et concasser les tomates (monder si désiré).",
+        "Éplucher, laver et ciseler finement les oignons et l'ail.",
+        "Faire suer oignons et ail dans l'huile ou beurre sans coloration.",
+        "Ajouter les tomates concassées, bouquet garni, assaisonner sel et poivre.",
+        "Cuire à découvert à feu moyen jusqu'à évaporation complète de l'eau et obtention d'une fondue épaisse.",
+        "Retirer le bouquet garni, rectifier assaisonnement, réserver au chaud.",
+        "3. Préparer le persil – 5 min",
+        "Laver, équeuter, essorer et hacher finement le persil.",
+        "Réserver.",
+        "4. Préparer et cuire les œufs brouillés – 18 min",
+        "Casser les œufs dans une calotte, battre légèrement avec une fourchette (ne pas trop battre).",
+        "Assaisonner sel et poivre.",
+        "Beurrer une sauteuse ou cocotte à fond épais, verser les œufs.",
+        "Cuire à feu très doux ou au bain-marie en remuant constamment avec une spatule (forme 8 pour éviter grumeaux).",
+        "Arrêter la cuisson quand la consistance est crémeuse (encore un peu liquide car finira hors du feu).",
+        "Ajouter le beurre en pommade et la crème double hors du feu, mélanger vigoureusement.",
+        "Vérifier assaisonnement, rectifier si besoin.",
+        "5. Dresser les œufs brouillés portugaise – 2 min",
+        "Beurrer légèrement le fond d'un plat à gratin ou assiettes chaudes.",
+        "Disposer une couche de fondue de tomates chaude au centre.",
+        "Napper harmonieusement les œufs brouillés crémeux par-dessus.",
+        "Saupoudrer de persil haché.",
+        "Servir immédiatement très chaud, avec éventuellement un cordon de crème ou une pointe de sauce tomate autour."
+    ],
+    "remarques": [
+        "Les œufs brouillés doivent être cuits à la commande pour conserver leur onctuosité.",
+        "En restauration, servir deux œufs par personne (ajuster à 2–3 personnes par œuf selon appétit).",
+        "La fondue de tomates peut être préparée à l'avance et réchauffée doucement.",
+        "Variante portugaise : ajouter une pointe d'ail ou de piment d'Espelette pour relever le goût.",
+        "Éviter une cuisson trop longue des œufs pour ne pas obtenir une texture caoutchouteuse."
+    ]
+}

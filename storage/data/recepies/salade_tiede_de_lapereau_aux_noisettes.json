@@ -1,0 +1,130 @@
+{
+  "page": "666",
+  "fiche": "24",
+  "titre": "SALADE TIÈDE DE LAPEREAU AUX NOISETTES",
+  "type": "Salades composées servies tièdes",
+  "denrees_pour_8_couverts": {
+    "elements_de_base": [
+      {
+        "nom": "râble de lapereaux farcis*",
+        "unite": "pièce",
+        "quantite": "4"
+      },
+      {
+        "nom": "huile de noisette",
+        "unite": "l",
+        "quantite": "0,05"
+      }
+    ],
+    "elements_de_la_salade": [
+      {
+        "nom": "frisée",
+        "unite": "kg",
+        "quantite": "1/2"
+      },
+      {
+        "nom": "trévise",
+        "unite": "kg",
+        "quantite": "0,200"
+      },
+      {
+        "nom": "mâche",
+        "unite": "kg",
+        "quantite": "0,200"
+      },
+      {
+        "nom": "pissenlit",
+        "unite": "kg",
+        "quantite": "0,200"
+      },
+      {
+        "nom": "cerfeuil",
+        "unite": "botte",
+        "quantite": "1/2"
+      },
+      {
+        "nom": "ciboulette",
+        "unite": "botte",
+        "quantite": "1/2"
+      },
+      {
+        "nom": "estragon",
+        "unite": "botte",
+        "quantite": "1/2"
+      },
+      {
+        "nom": "persil plat",
+        "unite": "kg",
+        "quantite": "0,050"
+      }
+    ],
+    "sauce_vinaigrette": [
+      {
+        "nom": "vinaigre de Xérès",
+        "unite": "l",
+        "quantite": "0,05"
+      },
+      {
+        "nom": "huile de noisette",
+        "unite": "l",
+        "quantite": "0,20"
+      },
+      {
+        "nom": "glace blonde de lapereau",
+        "unite": "kg",
+        "quantite": "0,10"
+      }
+    ],
+    "finition": [
+      {
+        "nom": "noisettes mondées",
+        "unite": "kg",
+        "quantite": "0,100"
+      }
+    ],
+    "assaisonnement": [
+      {
+        "nom": "sel fin",
+        "quantite": "PM"
+      },
+      {
+        "nom": "poivre du moulin",
+        "quantite": "PM"
+      }
+    ]
+  },
+  "technique": [
+    "1. Mettre en place le poste de travail - 5 min",
+    "• Denrées, matériels de préparation, de cuisson et de dressage.",
+    "• Réserver les râbles jusqu’à leur mise en cuisson en enceinte réfrigérée.",
+    "2. Éplucher et laver soigneusement les salades - 10 min (voir p. 137)",
+    "• Les égoutter et les réserver.",
+    "3. Trier et laver soigneusement les herbes (voir p. 98)",
+    "• Les égoutter sur du papier absorbant.",
+    "4. Préparer les éléments de présentation - 10 min",
+    "• Concasser et colorer légèrement les noisettes sous la salamandre.",
+    "• Ciseler la ciboulette.",
+    "• Effeuiller le persil plat, l’estragon et réaliser les pluches de cerfeuil.",
+    "A LA COMMANDE :",
+    "5. Cuire les râbles - 12 min",
+    "• Les cuire à 110 °C durant 12 min environ dans un polycuiseur à vapeur faible ou à 65/67 °C à cœur.",
+    "6. Réaliser la sauce - 5 min",
+    "• Développer les râbles et les faire rissoler uniformément dans une grande poêle antiadhésive avec l’huile de noisette.",
+    "• Enlever la crépine, les assaisonner et les débarrasser.",
+    "• Dégraisser la poêle si nécessaire.",
+    "• Déglacer avec le vinaigre de Xérès.",
+    "• Ajouter la glace blonde de lapereau. Laisser réduire légèrement.",
+    "• Ajouter l’huile de noisette.",
+    "• Vérifier l’assaisonnement.",
+    "7. Dresser les salades - 5 min",
+    "• Prélever un peu de sauce et assaisonner rapidement les salades et les herbes.",
+    "• Dresser les salades en dôme au centre des assiettes.",
+    "• Escaloper les râbles et disposer harmonieusement les tranches tout autour des dômes de salade.",
+    "• Mettre en évidence les herbes en les plaçant sur le dessus.",
+    "• Verser un cordon de sauce autour des escalopes de râbles.",
+    "• Parsemer de noisettes concassées.",
+    "• Envoyer immédiatement."
+  ],
+  "duree_moyenne_de_preparation": "45 min",
+  "duree_moyenne_de_remise_en_temperature_des_rables": "5 à 6 min"
+}

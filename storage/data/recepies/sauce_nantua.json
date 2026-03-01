@@ -1,0 +1,129 @@
+{
+    "fiche": "Sauce Nantua",
+    "page": "296",
+    "denrees_pour_1_l": {
+        "base": [
+            {
+                "produit": "écrevisses",
+                "unite": "kg",
+                "quantite": 1.0
+            },
+            {
+                "produit": "beurre",
+                "unite": "kg",
+                "quantite": 0.05
+            }
+        ],
+        "garniture_aromatique": [
+            {
+                "produit": "carottes",
+                "unite": "kg",
+                "quantite": 0.1
+            },
+            {
+                "produit": "oignons",
+                "unite": "kg",
+                "quantite": 0.1
+            },
+            {
+                "produit": "échalotes",
+                "unite": "kg",
+                "quantite": 0.04
+            },
+            {
+                "produit": "tomates",
+                "unite": "kg",
+                "quantite": 0.4
+            },
+            {
+                "produit": "concentré de tomates",
+                "unite": "kg",
+                "quantite": 0.04
+            },
+            {
+                "produit": "bouquet garni",
+                "unite": "piece",
+                "quantite": 1
+            },
+            {
+                "produit": "Cognac",
+                "unite": "l",
+                "quantite": 0.05
+            },
+            {
+                "produit": "vin blanc",
+                "unite": "l",
+                "quantite": 0.2
+            }
+        ],
+        "mouillement": [
+            {
+                "produit": "fumet de poisson",
+                "unite": "l",
+                "quantite": 0.8
+            }
+        ],
+        "liaison": [
+            {
+                "produit": "velouté de poisson",
+                "unite": "l",
+                "quantite": 0.5
+            },
+            {
+                "produit": "ou sauce crème (éventuellement)",
+                "unite": "l",
+                "quantite": 0.5
+            }
+        ],
+        "finition": [
+            {
+                "produit": "crème",
+                "unite": "l",
+                "quantite": 0.2
+            },
+            {
+                "produit": "beurre",
+                "unite": "kg",
+                "quantite": 0.05
+            }
+        ],
+        "assaisonnement": [
+            {
+                "produit": "sel fin",
+                "quantite": "PM"
+            },
+            {
+                "produit": "piment de Cayenne",
+                "quantite": "PM"
+            }
+        ]
+    },
+    "duree": {
+        "preparation": "40 à 45 min",
+        "cuisson": "20 à 25 min"
+    },
+    "technique": [
+        "Mettre en place le poste de travail : peser, mesurer, contrôler les denrées.",
+        "Laver, brosser et châtrer les écrevisses. Les égoutter soigneusement.",
+        "Eplucher, laver et tailler les légumes de la garniture aromatique.",
+        "Dans une sauteuse ou un rondeau, faire revenir vivement les écrevisses au beurre clarifié. Elles doivent devenir rouge vif.",
+        "Ajouter la garniture aromatique et la laisser suer durant quelques minutes.",
+        "Flamber avec le Cognac.",
+        "Déglacer avec le vin blanc et le faire réduire de deux tiers.",
+        "Mouiller avec le fumet de poisson.",
+        "Ajouter les tomates concassées, le concentré et le bouquet garni.",
+        "Assaisonner et porter à ébullition.",
+        "Ecumer et laisser cuire le fond de sauce Nantua durant quelques minutes (selon la grosseur des écrevisses).",
+        "Egoutter les écrevisses et les décortiquer. Réserver les queues décortiquées pour une autre utilisation.",
+        "Broyer les carapaces à l’aide d’un pilon et les remettre en cuisson.",
+        "Laisser réduire doucement le fond de sauce Nantua durant une quinzaine de minutes.",
+        "Passer le fond de sauce au chinois ordinaire en foulant fortement.",
+        "Remettre le fond de sauce dans une sauteuse et réduire si nécessaire.",
+        "Ajouter le velouté et laisser réduire.",
+        "Crémer, réduire à nouveau.",
+        "Monter la sauce au beurre ou au beurre d’écrevisses.",
+        "Vérifier l’onctuosité et l’assaisonnement.",
+        "Passer au chinois étamine.",
+        "Tamponner en surface et réserver à couvert au bain-marie à +63°C ou refroidir rapidement."
+    ]
+}

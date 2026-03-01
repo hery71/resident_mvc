@@ -1,0 +1,92 @@
+{
+  "title": "Sauce béchamel",
+  "category": "Sauces mères",
+  "type": "Sauce blanche au lait liée au roux",
+  "pages": [
+    286,
+    287
+  ],
+  "yield": "1 litre",
+  "ingredients": {
+    "base": [
+      {
+        "name": "lait entier",
+        "unite": "litre",
+        "quantite": 1.0
+      },
+      {
+        "name": "roux blanc",
+        "unite": "kg",
+        "quantite": 0.08
+      }
+    ],
+    "garniture_aromatique": [
+      {
+        "name": "oignon piqué de clous de girofle",
+        "unite": "piece",
+        "quantite": 1
+      },
+      {
+        "name": "feuille de laurier",
+        "unite": "piece",
+        "quantite": 1
+      },
+      {
+        "name": "muscade râpée",
+        "unite": "PM",
+        "quantite": "PM"
+      }
+    ],
+    "assaisonnement": [
+      {
+        "name": "sel fin",
+        "unite": "PM",
+        "quantite": "PM"
+      },
+      {
+        "name": "poivre blanc",
+        "unite": "PM",
+        "quantite": "PM"
+      }
+    ]
+  },
+  "preparation_steps": [
+    {
+      "step": 1,
+      "action": "Porter le lait à ébullition avec l’oignon piqué et le laurier."
+    },
+    {
+      "step": 2,
+      "action": "Retirer les aromates."
+    },
+    {
+      "step": 3,
+      "action": "Incorporer progressivement le roux blanc en fouettant."
+    },
+    {
+      "step": 4,
+      "action": "Cuire à frémissement 20 à 30 minutes."
+    },
+    {
+      "step": 5,
+      "action": "Remuer régulièrement pour éviter l’attachement."
+    },
+    {
+      "step": 6,
+      "action": "Rectifier l’assaisonnement et ajouter une pointe de muscade."
+    }
+  ],
+  "timing": {
+    "duree_moyenne_realisation": "10 à 15 min",
+    "duree_moyenne_cuisson": "20 à 30 min"
+  },
+  "notes": [
+    "La cuisson permet d’éliminer le goût farineux.",
+    "Base des sauces Mornay et dérivées."
+  ],
+  "storage_recommendations": {
+    "cooling": "Refroidir rapidement.",
+    "storage_temp": "+3°C maximum"
+  },
+  "version": "1.0"
+}

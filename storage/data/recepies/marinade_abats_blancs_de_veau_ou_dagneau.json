@@ -1,0 +1,19 @@
+{
+    "titre": "Marinade Abats blancs de veau ou d’agneau",
+    "type": "marinade",
+    "base": "Abats blancs de veau ou d’agneau",
+    "type_de_viande": "cervelles, amourettes, morceaux de pied et de fraise de veau",
+    "ingredients": [
+        "huile",
+        "jus de citron",
+        "sel",
+        "poivre",
+        "herbes fraîches hachées"
+    ],
+    "technique": [
+        "Ranger les éléments dans une plaque en acier inoxydable de grandeur appropriée.",
+        "Arroser légèrement d’huile et de jus de citron si nécessaire.",
+        "Ajouter la garniture aromatique, les aromates ou les condiments.",
+        "Laisser mariner selon la nature et la taille des pièces."
+    ]
+}

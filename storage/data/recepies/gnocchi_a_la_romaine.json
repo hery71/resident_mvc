@@ -1,0 +1,98 @@
+{
+    "titre": "Gnocchi à la romaine",
+    "type": "Hors-d'œuvre chauds à base de semoule",
+    "page": 681,
+    "fiche": "32",
+    "description": "Hors-d'œuvre chaud à base de semoule cuite, détaillée en losanges, nappée de beurre et gratinée au four avec du gruyère râpé.",
+    "denrees_pour_8_couverts": {
+        "appareil_a_gnocchi": [
+            {
+                "nom": "lait",
+                "quantite": "1",
+                "unite": "l"
+            },
+            {
+                "nom": "semoule fine",
+                "quantite": "0,250",
+                "unite": "kg"
+            },
+            {
+                "nom": "œufs entiers",
+                "quantite": "2",
+                "unite": "pièces"
+            },
+            {
+                "nom": "beurre",
+                "quantite": "0,050",
+                "unite": "kg"
+            },
+            {
+                "nom": "gruyère râpé et tamisé",
+                "quantite": "0,100",
+                "unite": "kg"
+            },
+            {
+                "nom": "sel fin",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "poivre du moulin",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "noix de muscade râpée",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ],
+        "finition_et_gratin": [
+            {
+                "nom": "beurre",
+                "quantite": "0,100",
+                "unite": "kg"
+            },
+            {
+                "nom": "gruyère râpé et tamisé (pour gratiner)",
+                "quantite": "0,100",
+                "unite": "kg"
+            }
+        ]
+    },
+    "duree_moyenne_preparation": "environ 1 h",
+    "duree_moyenne_cuisson": "20 à 25 min (gratinage)",
+    "technique": [
+        "1. Mettre en place le poste de travail – 5 min",
+        "Denrées, matériels de préparation, de cuisson et de dressage.",
+        "2. Râper et tamiser 110 g de gruyère pour l'appareil et 100 g pour le gratin. Réserver.",
+        "3. Confectionner l'appareil à gnocchi",
+        "Réunir dans une casserole 1 l de lait, 50 g de beurre, sel fin, poivre du moulin, piment de Cayenne et râpures de noix de muscade.",
+        "Porter à ébullition (veiller à obtenir simultanément l'ébullition du lait et la fusion du beurre).",
+        "Verser en pluie 250 g de semoule fine en remuant vivement à la spatule.",
+        "Remettre sur le feu doux et cuire en remuant sans discontinuer jusqu'à épaississement complet (6 à 8 min environ).",
+        "Ajouter hors du feu les 2 œufs entiers battus en omelette.",
+        "Ajouter 50 g de gruyère râpé et tamisé.",
+        "Mélanger énergiquement pour obtenir un appareil homogène.",
+        "4. Débarrasser l'appareil et le refroidir rapidement",
+        "Étaler l'appareil sur une plaque huilée à 2 cm d'épaisseur environ.",
+        "Recouvrir d'un papier sulfurisé huilé.",
+        "Réserver au réfrigérateur à +3 °C jusqu'à complet refroidissement et raffermissement.",
+        "5. Détailler les gnocchi",
+        "Démouler l'appareil sur une feuille de papier sulfurisé.",
+        "Détailler à l'emporte-pièce rond ou au couteau en losanges / carrés / rectangles (environ 5 cm de côté).",
+        "Rassembler et utiliser les chutes en les ré-étalant si nécessaire.",
+        "6. Dresser et gratiner les gnocchi",
+        "Beurrer un grand plat à gratin avec 100 g de beurre.",
+        "Disposer les gnocchi en rosace ou en écailles dans le plat.",
+        "Parsemer uniformément avec 100 g de gruyère râpé tamisé.",
+        "Napper avec le beurre fondu restant (ou beurre clarifié).",
+        "Gratiner au four chaud (220 °C) pendant 20 à 25 min jusqu'à ce que le gratin soit bien doré et croustillant.",
+        "Servir immédiatement bien chaud."
+    ],
+    "remarques": [
+        "L'appareil peut être préparé à l'avance et conservé au réfrigérateur 24 h.",
+        "Variante : ajouter un peu de crème ou de fromage supplémentaire dans l'appareil pour plus d'onctuosité.",
+        "Le gratin doit être servi dès la sortie du four pour conserver le croustillant."
+    ]
+}

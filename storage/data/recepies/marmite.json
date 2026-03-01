@@ -1,0 +1,130 @@
+{
+  "title": "Marquer une marmite",
+  "category": "Fonds",
+  "type": "Technique de base",
+  "pages": [
+    269,
+    271
+  ],
+  "yield": null,
+  "ingredients": {
+    "base": [
+      {
+        "name": "viande de bœuf (macreuse, paleron, plat de côte)",
+        "unite": "kg",
+        "quantite": 1.0
+      },
+      {
+        "name": "os à moelle",
+        "unite": "kg",
+        "quantite": 0.5
+      }
+    ],
+    "garniture_aromatique": [
+      {
+        "name": "carottes",
+        "unite": "kg",
+        "quantite": 0.2
+      },
+      {
+        "name": "poireaux",
+        "unite": "kg",
+        "quantite": 0.2
+      },
+      {
+        "name": "navets",
+        "unite": "kg",
+        "quantite": 0.2
+      },
+      {
+        "name": "céleri",
+        "unite": "kg",
+        "quantite": 0.1
+      },
+      {
+        "name": "oignons",
+        "unite": "kg",
+        "quantite": 0.1
+      },
+      {
+        "name": "clous de girofle",
+        "unite": "PM",
+        "quantite": "PM"
+      },
+      {
+        "name": "bouquet garni",
+        "unite": "piece",
+        "quantite": 1
+      }
+    ],
+    "mouillement": [
+      {
+        "name": "eau froide",
+        "unite": "litre",
+        "quantite": 3.0
+      }
+    ],
+    "assaisonnement": [
+      {
+        "name": "gros sel",
+        "unite": "PM",
+        "quantite": "PM"
+      }
+    ]
+  },
+  "preparation_steps": [
+    {
+      "step": 1,
+      "action": "Mettre en place le poste de travail."
+    },
+    {
+      "step": 2,
+      "action": "Blanchir les viandes et les os."
+    },
+    {
+      "step": 3,
+      "action": "Rafraîchir et nettoyer soigneusement."
+    },
+    {
+      "step": 4,
+      "action": "Replacer en marmite et mouiller à l’eau froide."
+    },
+    {
+      "step": 5,
+      "action": "Porter à ébullition puis écumer."
+    },
+    {
+      "step": 6,
+      "action": "Ajouter la garniture aromatique."
+    },
+    {
+      "step": 7,
+      "action": "Cuire à frémissement 3 à 4 heures."
+    },
+    {
+      "step": 8,
+      "action": "Dégraisser régulièrement."
+    },
+    {
+      "step": 9,
+      "action": "Passer sans troubler."
+    },
+    {
+      "step": 10,
+      "action": "Refroidir rapidement et réserver à +3°C."
+    }
+  ],
+  "timing": {
+    "duree_moyenne_realisation": "25 à 30 min",
+    "duree_moyenne_cuisson": "3 à 4 h"
+  },
+  "notes": [
+    "Ne jamais faire bouillir fortement.",
+    "Écumer et dégraisser régulièrement pour obtenir un bouillon clair."
+  ],
+  "storage_recommendations": {
+    "cooling": "Refroidir rapidement.",
+    "storage_temp": "+3°C maximum"
+  },
+  "version": "1.1"
+}

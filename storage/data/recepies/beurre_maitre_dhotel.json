@@ -1,0 +1,18 @@
+{
+    "titre": "Beurre Maître d’hôtel",
+    "type": "beurre compose",
+    "genre": "a froid",
+    "ingredients": [
+        "Beurre",
+        "jus de citron",
+        "persil fraîchement haché et essoré",
+        "sel",
+        "poivre du moulin"
+    ],
+    "technique": [
+        "Mélanger tous les ingrédients avec le beurre en pommade"
+    ],
+    "utilisation": [
+        "Viandes et poissons grillés"
+    ]
+}

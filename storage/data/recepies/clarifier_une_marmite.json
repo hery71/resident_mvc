@@ -1,0 +1,127 @@
+{
+  "title": "Clarifier une marmite",
+  "category": "Fonds",
+  "type": "Technique de base",
+  "pages": [
+    272,
+    274
+  ],
+  "yield": "1 litre de consommé clarifié",
+  "ingredients": {
+    "elements_clarifiants": [
+      {
+        "name": "maigre de bœuf haché (paleron, basses côtes)",
+        "unite": "kg",
+        "quantite": 0.2
+      },
+      {
+        "name": "blancs d'œufs",
+        "unite": "piece",
+        "quantite": 1
+      }
+    ],
+    "garniture_aromatique": [
+      {
+        "name": "carottes",
+        "unite": "kg",
+        "quantite": 0.05
+      },
+      {
+        "name": "vert de poireau",
+        "unite": "kg",
+        "quantite": 0.05
+      },
+      {
+        "name": "céleri en branche",
+        "unite": "kg",
+        "quantite": 0.02
+      },
+      {
+        "name": "tomates",
+        "unite": "kg",
+        "quantite": 0.08
+      },
+      {
+        "name": "concentré de tomates",
+        "unite": "kg",
+        "quantite": 0.01
+      },
+      {
+        "name": "cerfeuil",
+        "unite": "botte",
+        "quantite": "PM"
+      }
+    ],
+    "mouillement": [
+      {
+        "name": "marmite ou fond de base",
+        "unite": "litre",
+        "quantite": 1.2
+      }
+    ],
+    "assaisonnement": [
+      {
+        "name": "sel fin",
+        "unite": "PM",
+        "quantite": "PM"
+      },
+      {
+        "name": "poivre en grains",
+        "unite": "PM",
+        "quantite": "PM"
+      }
+    ]
+  },
+  "preparation_steps": [
+    {
+      "step": 1,
+      "action": "Mettre en place le poste de travail."
+    },
+    {
+      "step": 2,
+      "action": "Hacher la viande maigre et préparer la garniture aromatique."
+    },
+    {
+      "step": 3,
+      "action": "Mélanger viande hachée, blancs d'œufs et garniture."
+    },
+    {
+      "step": 4,
+      "action": "Incorporer progressivement la marmite froide."
+    },
+    {
+      "step": 5,
+      "action": "Porter doucement à ébullition en remuant."
+    },
+    {
+      "step": 6,
+      "action": "Laisser cuire à frémissement 45 min à 1 h sans remuer."
+    },
+    {
+      "step": 7,
+      "action": "Percer un trou au centre du chapeau pour faciliter la circulation."
+    },
+    {
+      "step": 8,
+      "action": "Passer délicatement sans troubler le consommé."
+    },
+    {
+      "step": 9,
+      "action": "Rectifier l’assaisonnement si nécessaire."
+    }
+  ],
+  "timing": {
+    "duree_moyenne_realisation": "15 à 20 min",
+    "duree_moyenne_cuisson": "45 min à 1 h"
+  },
+  "notes": [
+    "Ne jamais faire bouillir fortement.",
+    "La clarification doit se faire à partir d’un liquide froid.",
+    "Ne pas remuer pendant la cuisson après formation du chapeau."
+  ],
+  "storage_recommendations": {
+    "cooling": "Refroidir rapidement.",
+    "storage_temp": "+3°C maximum"
+  },
+  "version": "1.1"
+}

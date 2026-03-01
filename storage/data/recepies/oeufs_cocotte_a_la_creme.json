@@ -1,0 +1,80 @@
+{
+    "titre": "Œufs cocotte à la crème",
+    "type": "Hors-d'œuvre chauds à base d'œufs",
+    "description": "Œufs cuits au bain-marie dans des petites cocottes en porcelaine beurrées, avec un blanc à peine coagulé et un jaune coulant et crémeux, entourés d'un cordon de crème réduite. Servis très chauds avec persil frais.",
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "œufs extra-frais",
+                "quantite": "16",
+                "unite": "pièces"
+            }
+        ],
+        "creme_reduite": [
+            {
+                "nom": "crème liquide entière",
+                "quantite": "0,400",
+                "unite": "l"
+            }
+        ],
+        "beurre_pour_cocottes": [
+            {
+                "nom": "beurre (pour beurrer les cocottes)",
+                "quantite": "0,040",
+                "unite": "kg"
+            }
+        ],
+        "decoration": [
+            {
+                "nom": "persil en branches (ou haché)",
+                "quantite": "0,040",
+                "unite": "kg"
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel fin",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "poivre blanc du moulin",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ]
+    },
+    "duree_moyenne_preparation": "environ 30 min",
+    "duree_moyenne_cuisson": "5 à 6 min (selon épaisseur des cocottes)",
+    "technique": [
+        "1. Mettre en place le poste de travail – 5 min",
+        "Denrées, matériels de préparation, de cuisson et de dressage.",
+        "2. Préparer les cocottes et les œufs – 10 min",
+        "Beurrer soigneusement l'intérieur de 16 petites cocottes en porcelaine (ramequins individuels).",
+        "Casser délicatement 1 œuf par cocotte (ou 2 selon taille), sans crever le jaune.",
+        "Assaisonner légèrement sel et poivre blanc sur le blanc (éviter sur le jaune).",
+        "3. Réduire la crème – 5 à 10 min",
+        "Verser la crème dans une petite casserole, porter à frémissement, réduire d'un tiers environ jusqu'à consistance nappante.",
+        "Rectifier sel et poivre, réserver au chaud.",
+        "4. Cuire les œufs cocotte – 5 à 6 min",
+        "Disposer les cocottes dans un sautoir ou plat à bain-marie.",
+        "Verser eau bouillante autour jusqu'à mi-hauteur des cocottes.",
+        "Couvrir d'une feuille de papier sulfurisé ou couvercle, cuire au four à 150–160 °C (ou sur plaque à feu doux) 5 à 6 min.",
+        "Surveiller : le blanc doit être à peine coagulé, le jaune rester coulant et crémeux.",
+        "5. Préparer le persil – 3 min",
+        "Laver, équeuter et essorer le persil en branches.",
+        "Réserver au frais.",
+        "6. Dresser les œufs cocotte – 3 min",
+        "Sortir les cocottes du bain-marie, essuyer les bords extérieurs.",
+        "Verser un cordon de crème réduite chaude autour de chaque œuf.",
+        "Disposer les cocottes sur un grand plat rond recouvert de papier gaufré.",
+        "Placer un bouquet de persil en branches au centre du plat.",
+        "Servir immédiatement très chaud (les convives cassent le jaune à table)."
+    ],
+    "remarques": [
+        "En restauration, les œufs cocotte sont souvent servis deux par personne ; pour une cuisson collective, utiliser des cocottes plus grandes.",
+        "La crème peut être infusée avec ail, thym ou muscade pour plus de saveur.",
+        "Ne pas surcuire : le jaune doit rester coulant ; ajuster temps selon épaisseur des cocottes et puissance du four.",
+        "Variante : ajouter une pointe de crème fraîche ou de fromage râpé sur le dessus avant cuisson pour un effet gratiné léger."
+    ]
+}

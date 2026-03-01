@@ -1,0 +1,143 @@
+{
+    "titre": "Crêpes farcies aux fruits de mer, sauce vin blanc au curry",
+    "type": "Hors-d'œuvre chauds à base de pâte à crêpes",
+    "page": 687,
+    "fiche": "35",
+    "description": "Crêpes salées farcies d'une garniture de fruits de mer (moules, coques, crevettes) et champignons, liées à une sauce vin blanc au curry, dressées pliées ou roulées, servies chaudes avec un accompagnement de salade ou persil.",
+    "denrees_pour_8_couverts": {
+        "pate_a_crepes_salees": [
+            {
+                "nom": "farine",
+                "quantite": "0,250",
+                "unite": "kg"
+            },
+            {
+                "nom": "œufs entiers",
+                "quantite": "3",
+                "unite": "pièces"
+            },
+            {
+                "nom": "lait",
+                "quantite": "0,500",
+                "unite": "l"
+            },
+            {
+                "nom": "beurre (fondu)",
+                "quantite": "0,050",
+                "unite": "kg"
+            }
+        ],
+        "garniture_fruits_de_mer": [
+            {
+                "nom": "moules (coquillages nettoyés)",
+                "quantite": "0,800",
+                "unite": "kg"
+            },
+            {
+                "nom": "coques",
+                "quantite": "0,800",
+                "unite": "kg"
+            },
+            {
+                "nom": "crevettes décortiquées (ou gambas)",
+                "quantite": "0,400",
+                "unite": "kg"
+            },
+            {
+                "nom": "champignons de Paris",
+                "quantite": "0,250",
+                "unite": "kg"
+            }
+        ],
+        "sauce_vin_blanc_au_curry": [
+            {
+                "nom": "vin blanc sec",
+                "quantite": "0,200",
+                "unite": "l"
+            },
+            {
+                "nom": "échalotes (ou oignons)",
+                "quantite": "0,050",
+                "unite": "kg"
+            },
+            {
+                "nom": "beurre",
+                "quantite": "0,100",
+                "unite": "kg"
+            },
+            {
+                "nom": "curry en poudre (ou pâte de curry)",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "crème fraîche",
+                "quantite": "0,200",
+                "unite": "l"
+            }
+        ],
+        "finition": [
+            {
+                "nom": "persil haché",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "beurre (pour poêler ou tamponner)",
+                "quantite": "0,040",
+                "unite": "kg"
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel fin",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "poivre du moulin",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ]
+    },
+    "duree_moyenne_preparation": "1 h 20 min",
+    "duree_moyenne_cuisson": "15 à 20 min",
+    "technique": [
+        "1. Mettre en place le poste de travail – 5 min",
+        "Denrées, matériels de préparation, de cuisson et de dressage.",
+        "2. Réaliser la pâte à crêpes salées – 20 min",
+        "Tamiser la farine, faire une fontaine, incorporer les œufs, le lait progressivement, le beurre fondu, assaisonner légèrement sel.",
+        "Laisser reposer 30 min à 1 h.",
+        "Cuire 16 crêpes fines de 20 à 22 cm de diamètre, réserver au chaud ou couvertes.",
+        "3. Ouvrir et décoquiller les moules et coques – 15 min",
+        "Cuire les moules et coques à la marinière (vin blanc, échalotes, persil, beurre), jusqu'à ouverture.",
+        "Égoutter, décoquiller, filtrer et réserver le jus de cuisson.",
+        "Réserver les chairs au frais.",
+        "4. Décortiquer les crevettes si nécessaire – 5 min",
+        "5. Préparer les champignons – 10 min",
+        "Nettoyer, émincer les champignons de Paris, les cuire au beurre avec échalotes, citron pour éviter oxydation, assaisonner.",
+        "Réserver.",
+        "6. Réaliser la sauce vin blanc au curry – 15 min",
+        "Faire suer les échalotes au beurre, ajouter le curry, déglacer avec le vin blanc et le jus de cuisson des coquillages réduit.",
+        "Réduire légèrement, ajouter la crème, laisser mijoter 5 min.",
+        "Rectifier assaisonnement (sel, poivre), passer au chinois si besoin.",
+        "Incorporer les fruits de mer (moules, coques, crevettes) et les champignons dans la sauce chaude hors du feu.",
+        "7. Monter les crêpes farcies – 10 min",
+        "Déposer une crêpe sur le plan de travail.",
+        "Répartir une portion de garniture fruits de mer à la sauce curry au centre.",
+        "Plier en portefeuille (carré) ou rouler en cigare serré.",
+        "Répéter pour toutes les crêpes.",
+        "8. Dresser les crêpes – 5 min",
+        "Dresser sur assiettes chaudes ou plat de service (2 crêpes par personne).",
+        "Napper légèrement du reste de sauce si désiré.",
+        "Accompagner d'une petite salade assaisonnée à l'huile de pépins de raisin et vinaigre de cidre.",
+        "Parsemer de persil haché ou pluches.",
+        "Servir immédiatement bien chaud."
+    ],
+    "remarques": [
+        "La sauce peut être légèrement relevée avec une pointe de piment ou gingembre selon goût.",
+        "Préférer des fruits de mer très frais ; possibilité d'ajouter des noix de Saint-Jacques ou queues de langoustines.",
+        "Les crêpes peuvent être préparées à l'avance et réchauffées au four doux avant service."
+    ]
+}

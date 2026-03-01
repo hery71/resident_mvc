@@ -1,0 +1,140 @@
+{
+    "titre": "Potage cultivateur",
+    "type": "potage taille",
+    "page": 620,
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "beurre",
+                "quantite": "0,040",
+                "unite": "kg"
+            },
+            {
+                "nom": "poitrine de porc demi-sel",
+                "quantite": "0,080",
+                "unite": "kg"
+            },
+            {
+                "nom": "poireaux",
+                "quantite": "0,160",
+                "unite": "kg"
+            },
+            {
+                "nom": "carottes",
+                "quantite": "0,160",
+                "unite": "kg"
+            },
+            {
+                "nom": "navets",
+                "quantite": "0,160",
+                "unite": "kg"
+            },
+            {
+                "nom": "céleri en branches",
+                "quantite": "0,080",
+                "unite": "kg"
+            },
+            {
+                "nom": "chou vert",
+                "quantite": "0,080",
+                "unite": "kg"
+            },
+            {
+                "nom": "pommes de terre (type Bintje)",
+                "quantite": "0,400",
+                "unite": "kg"
+            },
+            {
+                "nom": "haricots verts frais",
+                "quantite": "0,040",
+                "unite": "kg"
+            },
+            {
+                "nom": "petits pois surgelés",
+                "quantite": "0,040",
+                "unite": "kg"
+            }
+        ],
+        "mouillement": [
+            {
+                "nom": "eau",
+                "quantite": "1,8 à 2",
+                "unite": "l"
+            }
+        ],
+        "finition": [
+            {
+                "nom": "cerfeuil",
+                "quantite": "1/4",
+                "unite": "botte"
+            }
+        ],
+        "garniture_facultative": [
+            {
+                "nom": "pain (baguette ou ficelle)",
+                "quantite": "0,160 ou 24 rondelles",
+                "unite": "kg"
+            },
+            {
+                "nom": "gruyère râpé",
+                "quantite": "0,080",
+                "unite": "kg"
+            },
+            {
+                "nom": "beurre (facultatif)",
+                "quantite": "0,040",
+                "unite": "kg"
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel gros",
+                "quantite": "PM"
+            },
+            {
+                "nom": "sel fin",
+                "quantite": "PM"
+            }
+        ]
+    },
+    "duree_preparation": "1 h 15 min",
+    "duree_cuisson": "20 à 25 min",
+    "technique": [
+        "1. Mettre en place le poste de travail – 5 min",
+        "Denrées, matériels de préparation, de cuisson et de dressage.",
+        "2. Préparer les légumes – 30 min",
+        "Éplucher, laver tous les légumes.",
+        "Émincer finement les poireaux et le céleri.",
+        "Tailler en paysanne les carottes, les navets et le chou.",
+        "Tailler les haricots verts en petits dés.",
+        "3. Marquer le potage en cuisson – 20 min",
+        "Éliminer la couenne et détailler la poitrine de porc en petits lardons.",
+        "Blanchir fortement les lardons (départ eau froide), égoutter.",
+        "Les raidir (revenir sans coloration) dans le beurre.",
+        "Ajouter les poireaux, les carottes, les navets et le céleri.",
+        "Suer lentement en évitant toute coloration.",
+        "Mouiller à l’eau froide (1,8 à 2 l).",
+        "Saler légèrement au gros sel.",
+        "Ajouter le chou.",
+        "Porter lentement à ébullition et cuire pendant 10 min.",
+        "Ajouter les pommes de terre taillées en paysanne.",
+        "Cuire à nouveau pendant 10 min.",
+        "Vérifier l’assaisonnement.",
+        "Débarrasser le potage au bain-marie, couvrir.",
+        "4. Cuire la garniture – 5 min",
+        "Blanchir les petits pois et les haricots verts.",
+        "Rafraîchir, égoutter.",
+        "5. Préparer la garniture (pendant la cuisson du potage) – 10 min",
+        "Détailler la baguette en tranches.",
+        "Sécher au four doux (sans coloration).",
+        "Tamisser le gruyère.",
+        "Équeuter le cerfeuil.",
+        "Réserver les pluches dans un ramequin avec de l’eau froide.",
+        "6. Dresser le potage et la garniture (pour présentation) – 5 min",
+        "Disposer le gruyère tamisé en dôme au centre de l’assiette ou du ravier.",
+        "Disposer les lamelles de pain autour du gruyère (en couronne).",
+        "Ajouter les petits pois et les haricots verts au potage.",
+        "Dresser le potage brûlant dans la soupière en répartissant les légumes équitablement.",
+        "Au dernier moment ajouter les pluches de cerfeuil bien égouttées."
+    ]
+}

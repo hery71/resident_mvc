@@ -1,0 +1,100 @@
+{
+    "titre": "Filets de barbue Dugléré",
+    "type": "Hors-d'œuvre chauds à base de poisson",
+    "description": "Filets de barbue pochés à court-mouillement sur un lit de tomates concassées, oignons et échalotes ciselées, avec fumet de barbue et vin blanc. Sauce obtenue par réduction du liquide de cuisson montée au beurre, nappée sur les filets. Dressage avec persil concassé et accompagnement classique (pommes vapeur, riz, tagliatelles vertes aux herbes).",
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "barbues (ou filets levés, 2 pièces d'environ 1,600 kg chacune)",
+                "quantite": "2",
+                "unite": "pièces"
+            },
+            {
+                "nom": "filets de barbue levés (environ 0,140-0,150 kg par personne)",
+                "quantite": "2,400",
+                "unite": "kg"
+            }
+        ],
+        "garniture_aromatique_et_légumes": [
+            {
+                "nom": "tomates concassées (mondées, épépinées)",
+                "quantite": "0,800",
+                "unite": "kg"
+            },
+            {
+                "nom": "oignons ciselés",
+                "quantite": "0,040",
+                "unite": "kg"
+            },
+            {
+                "nom": "échalotes ciselées",
+                "quantite": "0,040",
+                "unite": "kg"
+            },
+            {
+                "nom": "persil concassé",
+                "quantite": "0,040",
+                "unite": "kg"
+            }
+        ],
+        "court_mouillement": [
+            {
+                "nom": "fumet de barbue (ou fumet de poisson)",
+                "quantite": "0,400",
+                "unite": "l"
+            },
+            {
+                "nom": "vin blanc sec",
+                "quantite": "0,100",
+                "unite": "l"
+            }
+        ],
+        "sauce": [
+            {
+                "nom": "beurre",
+                "quantite": "0,080",
+                "unite": "kg"
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel fin",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "poivre du moulin",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ]
+    },
+    "duree_moyenne_preparation": "1 h 20 min",
+    "duree_moyenne_cuisson": "5 à 6 min (pochage filets) + réduction sauce",
+    "technique": [
+        "1. Mettre en place le poste de travail – 5 min",
+        "Rassembler denrées, matériels de préparation, cuisson et dressage.",
+        "2. Habiller les barbues – 10 min",
+        "Ébarber, vider, éliminer ouïes, écailler si nécessaire, dégorger à l'eau courante. Égoutter et éponger.",
+        "3. Lever les filets de barbue – 15 min",
+        "Lever les filets, éliminer la peau, parer. Réserver au frais. Conserver arêtes et têtes pour le fumet.",
+        "4. Préparer la garniture aromatique et réaliser le fumet – 20 min",
+        "Ciseler échalotes et oignons. Mondées, épépiner et concasser les tomates. Réaliser le fumet avec arêtes/têtes de barbue, mirepoix, bouquet garni. Cuire 20 min, passer au chinois, réserver.",
+        "5. Placer les filets en cuisson – 15 min",
+        "Beurrer un plat à poisson ou sautoir. Disposer un lit de tomates concassées, oignons et échalotes ciselées, persil concassé. Saler, poivrer légèrement. Déposer les filets dessus. Mouiller avec vin blanc + fumet (à hauteur ou presque). Couvrir d'une feuille de papier sulfurisé beurré.",
+        "6. Cuire les filets – 5 à 6 min",
+        "Pocher au four à 170-180 °C ou à frémissement doux jusqu'à ce que les filets soient opaques et se détachent facilement. Égoutter délicatement les filets, réserver au chaud. Conserver le liquide de cuisson avec les légumes.",
+        "7. Réaliser la sauce Dugléré – 10 min",
+        "Réduire le liquide de cuisson (avec tomates/oignons/échalotes) jusqu'à consistance sirupeuse. Monter au beurre froid hors du feu en fouettant vigoureusement pour obtenir une sauce onctueuse et rosée. Rectifier l'assaisonnement. Passer au chinois fin si désiré (ou garder texture avec légumes). Réserver au chaud (bain-marie).",
+        "8. Dresser les filets de barbue Dugléré – 5 min",
+        "Disposer les filets sur plat ou assiettes chaudes recouverts de papier gaufré. Napper uniformément de sauce chaude (incluant les tomates/oignons pour texture). Parsemer de persil concassé supplémentaire si besoin. Servir immédiatement très chaud."
+    ],
+    "remarques": [
+        "La sauce Dugléré est typique : rosée grâce aux tomates, texture légèrement granuleuse avec légumes ciselés, montée au beurre pour brillance et onctuosité.",
+        "Pochage doux à frémissement pour garder les filets nacrés et tendres ; ne pas bouillir.",
+        "Le lit de tomates/oignons/échalotes cuit avec le poisson infuse les arômes directement.",
+        "Variante : ajouter un trait de jus de citron ou persil haché à la fin pour fraîcheur.",
+        "Accompagnements classiques : pommes à l'anglaise, riz pilaf, tagliatelles vertes aux herbes ou légumes vapeur.",
+        "Vin blanc sec et fruité (type Sauvignon ou Chardonnay léger) pour le court-mouillement."
+    ]
+}

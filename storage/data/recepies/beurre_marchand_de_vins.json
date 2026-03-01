@@ -1,0 +1,23 @@
+{
+    "titre": "Beurre marchand de vins",
+    "type": "beurre compose",
+    "genre": "a froid",
+    "ingredients": [
+        "Beurre",
+        "échalotes ciselées",
+        "vin rouge",
+        "thym",
+        "laurier",
+        "mignonnette",
+        "glace de viande",
+        "citron",
+        "persil haché",
+        "sel (peut comporter des dés de moelle dégorgée et pochée)"
+    ],
+    "technique": [
+        "Réduire le vin rouge avec l’échalote ciselée, le thym, le laurier et la mignonnette. Ajouter la glace de viande. Refroidir, puis mélanger avec le beurre en pommade, le jus de citron et le persil haché. Saler"
+    ],
+    "utilisation": [
+        "Viandes de bœuf grillées (entrecôtes, pavés, côtes à l’os, par exemple)"
+    ]
+}

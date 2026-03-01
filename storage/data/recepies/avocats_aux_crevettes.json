@@ -1,0 +1,120 @@
+{
+  "page": "656",
+  "titre": "AVOCATS AUX CREVETTES",
+  "type": "Hors-d’œuvre froids à base de légumes farcis",
+  "denrees_pour_8_couverts": {
+    "elements_de_base": [
+      {
+        "nom": "avocats mûrs à point",
+        "unite": "pièce",
+        "quantite": "4"
+      },
+      {
+        "nom": "citron",
+        "unite": "pièce",
+        "quantite": "1"
+      },
+      {
+        "nom": "crevettes roses décortiquées",
+        "unite": "kg",
+        "quantite": "0,400"
+      }
+    ],
+    "sauce_cocktail": [
+      {
+        "nom": "œufs (jaunes)",
+        "unite": "pièce",
+        "quantite": "2"
+      },
+      {
+        "nom": "moutarde",
+        "unite": "kg",
+        "quantite": "0,020"
+      },
+      {
+        "nom": "huile",
+        "unite": "l",
+        "quantite": "0,20"
+      },
+      {
+        "nom": "vinaigre",
+        "quantite": "PM"
+      },
+      {
+        "nom": "cognac",
+        "unite": "l",
+        "quantite": "0,02"
+      },
+      {
+        "nom": "tomato ketchup",
+        "unite": "kg",
+        "quantite": "0,04"
+      },
+      {
+        "nom": "sauce anglaise (facultatif)",
+        "quantite": "PM"
+      }
+    ],
+    "decor": [
+      {
+        "nom": "olives noires",
+        "unite": "pièce",
+        "quantite": "8"
+      },
+      {
+        "nom": "tomates «garniture»",
+        "unite": "pièce",
+        "quantite": "2"
+      },
+      {
+        "nom": "persil",
+        "unite": "kg",
+        "quantite": "0,020"
+      },
+      {
+        "nom": "pluches de cerfeuil",
+        "quantite": "PM"
+      }
+    ],
+    "assaisonnement": [
+      {
+        "nom": "sel fin",
+        "quantite": "PM"
+      },
+      {
+        "nom": "piment de Cayenne",
+        "quantite": "PM"
+      }
+    ]
+  },
+  "technique": [
+    "1. Mettre en place le poste de travail - 5 min",
+    "• Denrées, matériels de préparation, de cuisson et de dressage.",
+    "2. Confectionner la sauce cocktail - 10 min",
+    "• Réunir dans une petite calotte en inox les jaunes d’œufs, le sel, le piment de Cayenne, la moutarde et le vinaigre.",
+    "• Incorporer l’huile progressivement en remuant à l’aide d’un petit fouet à main.",
+    "• Serrer fermement la sauce mayonnaise.",
+    "• Ajouter le cognac, le tomato ketchup et un trait de sauce anglaise (Worcestershire sauce).",
+    "• Relever facultativement avec quelques gouttes de tabasco.",
+    "• Vérifier l’assaisonnement.",
+    "3. Préparer les crevettes et les avocats - 15 min",
+    "• Découper la moitié des crevettes en «salpicon».",
+    "• Réserver la seconde moitié pour le décor.",
+    "• Laver, essuyer et couper les avocats en deux dans le sens de la longueur.",
+    "• Éliminer les noyaux.",
+    "• Extraire délicatement la chair à l’aide d’une cuillère à potage.",
+    "• Découper en petits dés d’1 cm de section (ou lever des boules de chair à l’aide d’une cuillère à pommes noisettes).",
+    "• Assaisonner et citronner afin de limiter l’oxydation.",
+    "4. Lier les avocats - 5 min",
+    "• Réunir dans une calotte la chair des avocats, le salpicon des crevettes et les 2/3 de la sauce cocktail.",
+    "• Mélanger délicatement.",
+    "• Vérifier l’assaisonnement.",
+    "5. Dresser les avocats - 5 min",
+    "• Remplir les moitiés d’avocats avec le mélange.",
+    "• Napper avec le reste de sauce cocktail.",
+    "• Décorer avec le reste de crevettes, les quartiers de tomates mondées, les olives noires et le persil.",
+    "• Disposer harmonieusement les demi-avocats sur un plat rond recouvert d’un papier gaufré.",
+    "• Placer un bouquet de persil en branches au centre du plat."
+  ],
+  "duree_moyenne_de_preparation": "40 min"
+}

@@ -1,0 +1,108 @@
+{
+    "titre": "Œufs sur le plat aux foies de volaille",
+    "type": "Hors-d'œuvre chauds à base d'œufs",
+    "description": "Œufs cuits sur le plat dans de petits plats individuels, accompagnés d'un ragoût de foies de volaille au madère, nappés légèrement et terminés avec persil haché. Jaunes doivent rester coulants, blancs bien pris.",
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "œufs extra-frais",
+                "quantite": "16",
+                "unite": "pièces"
+            }
+        ],
+        "garniture_foies_de_volaille": [
+            {
+                "nom": "foies de volaille (frais ou décongelés)",
+                "quantite": "0,400",
+                "unite": "kg"
+            },
+            {
+                "nom": "beurre",
+                "quantite": "0,040",
+                "unite": "kg"
+            },
+            {
+                "nom": "échalotes",
+                "quantite": "0,040",
+                "unite": "kg"
+            },
+            {
+                "nom": "madère",
+                "quantite": "0,040",
+                "unite": "l"
+            },
+            {
+                "nom": "fond de veau lié",
+                "quantite": "0,200",
+                "unite": "l"
+            }
+        ],
+        "beurre_pour_plats_et_tamponnage": [
+            {
+                "nom": "beurre (pour beurrer les plats)",
+                "quantite": "0,020",
+                "unite": "kg"
+            },
+            {
+                "nom": "beurre (pour tamponner la sauce)",
+                "quantite": "0,020",
+                "unite": "kg"
+            }
+        ],
+        "finition_et_decoration": [
+            {
+                "nom": "persil haché",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel fin",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "poivre du moulin",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ]
+    },
+    "duree_moyenne_preparation": "45 min",
+    "duree_moyenne_cuisson": "5 à 6 min (œufs sur le plat) + 10 min (ragoût foies)",
+    "technique": [
+        "1. Mettre en place le poste de travail – 5 min",
+        "Denrées, matériels de préparation, de cuisson et de dressage.",
+        "2. Vérifier les foies de volaille – 10 min",
+        "Éliminer les parties vertes (vésicules biliaires), parer les foies, les couper en morceaux réguliers.",
+        "Les laver, éponger et réserver au frais.",
+        "3. Préparer les échalotes – 5 min",
+        "Éplucher, laver et ciseler finement les échalotes.",
+        "4. Réaliser la garniture aux foies – 10 min",
+        "Faire fondre le beurre dans une sauteuse, ajouter les échalotes, suer sans coloration.",
+        "Ajouter les foies de volaille, les saisir vivement 2–3 min pour les colorer légèrement.",
+        "Flamber au madère, laisser réduire.",
+        "Mouiller avec le fond de veau lié, porter à frémissement, cuire 4–5 min (foies rosés à l'intérieur).",
+        "Dégraisser si nécessaire, rectifier assaisonnement sel et poivre.",
+        "Tamponner au beurre, réserver au chaud (bain-marie).",
+        "5. Marquer les œufs sur le plat – 10 min",
+        "Beurrer généreusement 8 petits plats individuels allant au four.",
+        "Casser 2 œufs par plat, sans crever les jaunes.",
+        "Assaisonner légèrement sel et poivre sur les blancs uniquement.",
+        "Cuire au four à 180–200 °C ou sur plaque douce 5 à 6 min : blancs pris, jaunes coulants.",
+        "Surveiller attentivement pour ne pas surcuire les jaunes.",
+        "6. Dresser les œufs sur le plat – 5 min",
+        "Disposer les plats chauds sur assiettes de service ou plat rond.",
+        "Napper harmonieusement les œufs avec le ragoût de foies chaud.",
+        "Parsemer de persil haché.",
+        "Entourer éventuellement d'un cordon de sauce réduite ou de jus de cuisson.",
+        "Servir immédiatement très chaud."
+    ],
+    "remarques": [
+        "Ne jamais assaisonner directement sur les jaunes des œufs (risque de taches ou de coagulation prématurée).",
+        "Les foies doivent rester rosés à cœur pour éviter qu'ils ne deviennent secs et granuleux.",
+        "Variante : ajouter une pointe de cognac ou de porto dans la sauce pour plus de profondeur.",
+        "Servir avec pain grillé ou toast Melba à part pour saucer."
+    ]
+}

@@ -1,0 +1,94 @@
+{
+  "titre": "PAVÉ DE SAUMON MI-FUMÉ, LENTILLES VERTES AU LARD, JUS DE VOLAILLE À L’HUILE D’OLIVE",
+  "page": 757,
+  "denrees_pour_8_couverts": {
+    "Éléments de base": [
+      {
+        "nom": "pavés épais de saumon avec la peau",
+        "quantite": "8",
+        "unite": "pièces"
+      },
+      {
+        "nom": "poids par pièce",
+        "quantite": "0,150",
+        "unite": "kg"
+      }
+    ],
+    "Lentilles vertes au lard": [
+      {
+        "nom": "lentilles vertes",
+        "quantite": "0,400",
+        "unite": "kg"
+      },
+      {
+        "nom": "carottes",
+        "quantite": "0,080",
+        "unite": "kg"
+      },
+      {
+        "nom": "oignon",
+        "quantite": "0,080",
+        "unite": "kg"
+      },
+      {
+        "nom": "lardons taillés en brunoise",
+        "quantite": "0,160",
+        "unite": "kg"
+      },
+      {
+        "nom": "poitrine fumée en petits lardons",
+        "quantite": "0,080",
+        "unite": "kg"
+      }
+    ],
+    "Jus de volaille": [
+      {
+        "nom": "jus de rôti de poulet",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "huile d’olive",
+        "quantite": "0,20",
+        "unite": "l"
+      },
+      {
+        "nom": "vinaigre balsamique",
+        "quantite": "0,20",
+        "unite": "l"
+      }
+    ],
+    "Finition": [
+      {
+        "nom": "cerfeuil",
+        "quantite": "PM",
+        "unite": ""
+      }
+    ],
+    "Assaisonnement": [
+      {
+        "nom": "sel",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "poivre",
+        "quantite": "PM",
+        "unite": ""
+      }
+    ]
+  },
+  "technique_de_realisation": [
+    "Détailler 8 pavés épais de saumon avec la peau de 0,150 kg chacun.",
+    "Les saupoudrer de gros sel et les réserver en enceinte réfrigérée durant 2 heures.",
+    "Les rincer et les éponger soigneusement.",
+    "Les fumer à froid durant 2 heures également.",
+    "Cuire 0,400 kg de lentilles vertes avec 0,080 kg de carottes, 0,080 kg d’oignons taillés en brunoise et 0,160 kg de poitrine fumée taillée en petits lardons (voir p. 375).",
+    "Lier les lentilles avec 0,080 kg de beurre en fin de cuisson et les réserver au chaud.",
+    "Sauter les pavés de saumon dans une poêle et terminer la cuisson au four durant quelques minutes.",
+    "Faire réduire à glace 0,40 l de jus de rôti de poulet et l’émulsionner avec 0,20 l d’huile d’olive et un filet de vinaigre balsamique.",
+    "Dresser les pavés de saumon sur assiette, sur un lit de lentilles vertes au lard.",
+    "Les entourer d’un cordon de jus de volaille émulsionné à l’huile d’olive.",
+    "Lustrer les pavés et disposer une belle pluche de cerfeuil sur le dessus."
+  ]
+}

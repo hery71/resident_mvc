@@ -1,0 +1,81 @@
+{
+    "fiche": "Coulis de tomates",
+    "page": "299",
+    "denrees_pour_1_kg_de_tomates": {
+        "base": [
+            {
+                "produit": "tomates bien mûres",
+                "unite": "kg",
+                "quantite": 1.0
+            },
+            {
+                "produit": "concentré de tomates",
+                "unite": "kg",
+                "quantite": 0.05
+            },
+            {
+                "produit": "tomato ketchup",
+                "unite": "l",
+                "quantite": 0.2
+            },
+            {
+                "produit": "vinaigre de vin",
+                "unite": "l",
+                "quantite": 0.05
+            },
+            {
+                "produit": "huile d’olive",
+                "unite": "l",
+                "quantite": 0.2
+            }
+        ],
+        "finition_facultatif": [
+            {
+                "produit": "basilic",
+                "unite": "botte",
+                "quantite": "1/2"
+            },
+            {
+                "produit": "cerfeuil",
+                "unite": "botte",
+                "quantite": "1/2"
+            },
+            {
+                "produit": "estragon",
+                "unite": "botte",
+                "quantite": 1
+            },
+            {
+                "produit": "ciboulette",
+                "unite": "botte",
+                "quantite": 1
+            }
+        ],
+        "assaisonnement": [
+            {
+                "produit": "sel fin",
+                "quantite": "PM"
+            },
+            {
+                "produit": "poivre du moulin",
+                "quantite": "PM"
+            }
+        ]
+    },
+    "duree": {
+        "preparation": "15 à 20 min"
+    },
+    "technique": [
+        "Mettre en place le poste de travail.",
+        "Peser, mesurer et contrôler les denrées.",
+        "Laver, monder les tomates sans les épépiner.",
+        "Dans la cuve du mixeur, ajouter les tomates, le concentré, le tomato ketchup, le sel et le poivre.",
+        "Mixer d’abord lentement, puis accélérer progressivement.",
+        "Ajouter le vinaigre de vin.",
+        "Monter le coulis avec l’huile d’olive.",
+        "Vérifier l’assaisonnement, la couleur et l’onctuosité.",
+        "Passer le coulis au chinois étamine.",
+        "Le réserver en enceinte réfrigérée."
+    ],
+    "remarque": "Le coulis de tomates réalisé à partir de tomates crues ne se conserve pas, il doit être utilisé pendant la durée du service."
+}

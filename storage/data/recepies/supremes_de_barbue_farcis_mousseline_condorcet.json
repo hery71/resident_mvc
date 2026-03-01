@@ -1,0 +1,107 @@
+{
+    "titre": "Suprêmes de barbue farcis mousseline Condorcet",
+    "type": "Hors-d'œuvre chauds à base de poisson",
+    "description": "Suprêmes de barbue levés, farcis d'une mousseline de colin légère, pochés dans un fumet de poisson au vin blanc. Sauce obtenue par réduction du liquide de cuisson montée au beurre, nappée sur les suprêmes. Dressage avec pluches de cerfeuil ou persil plat, présentation élégante.",
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "barbues (2,300 à 2,400 kg chacune pour lever 8 suprêmes)",
+                "quantite": "2",
+                "unite": "pièces"
+            },
+            {
+                "nom": "suprêmes de barbue levés (environ 0,120 à 0,140 kg pièce)",
+                "quantite": "8",
+                "unite": "pièces"
+            }
+        ],
+        "farce_mousseline": [
+            {
+                "nom": "filet de colin (ou poisson maigre à chair blanche)",
+                "quantite": "0,400",
+                "unite": "kg"
+            },
+            {
+                "nom": "crème fleurette",
+                "quantite": "0,200",
+                "unite": "l"
+            },
+            {
+                "nom": "blanc d'œuf",
+                "quantite": "1",
+                "unite": "pièce"
+            }
+        ],
+        "court_mouillement": [
+            {
+                "nom": "fumet de poisson",
+                "quantite": "0,800",
+                "unite": "l"
+            },
+            {
+                "nom": "vin blanc sec",
+                "quantite": "0,100",
+                "unite": "l"
+            }
+        ],
+        "sauce": [
+            {
+                "nom": "beurre",
+                "quantite": "0,150",
+                "unite": "kg"
+            },
+            {
+                "nom": "crème liquide (pour liaison si besoin)",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ],
+        "finition_et_decoration": [
+            {
+                "nom": "cerfeuil ou persil plat (pluches)",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel fin",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "poivre du moulin",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ]
+    },
+    "duree_moyenne_preparation": "1 h 45 min à 2 h",
+    "duree_moyenne_cuisson": "8 à 12 min (pochage suprêmes farcis)",
+    "technique": [
+        "1. Mettre en place le poste de travail",
+        "Rassembler denrées, matériels de préparation, cuisson et dressage.",
+        "2. Habiller la barbue et lever les suprêmes",
+        "Écailler, vider, parer les barbues. Lever les filets, retirer la peau, parer en suprêmes réguliers (environ 120-140 g pièce). Réserver au frais.",
+        "3. Réaliser la farce mousseline",
+        "Mixer le colin paré avec le blanc d'œuf, sel, poivre. Incorporer progressivement la crème fleurette très froide en mixant jusqu'à texture fine et onctueuse. Rectifier l'assaisonnement. Réserver au frais (mousseline doit être ferme).",
+        "4. Farcir les suprêmes",
+        "Inciser les suprêmes sur l'épaisseur pour créer une poche. Garnir généreusement de farce mousseline (environ 50 g par suprême). Refermer soigneusement pour reformer le suprême (la farce gonflera à la cuisson pour effet soufflé). Réserver au frais.",
+        "5. Préparer le fumet et marquer en cuisson",
+        "Beurrer un plat à poisson ou plaque à bords hauts. Disposer les suprêmes farcis en une seule couche. Saler, poivrer légèrement. Mouiller avec fumet de poisson + vin blanc (à hauteur ou presque). Couvrir d'une feuille de papier sulfurisé beurré.",
+        "6. Pocher les suprêmes farcis",
+        "Pocher au four à 170-180 °C ou à frémissement très doux pendant 8-12 min (farce gonflée, chair nacrée, suprêmes fermes mais moelleux). Égoutter délicatement, réserver au chaud. Conserver le liquide de cuisson.",
+        "7. Réaliser la sauce",
+        "Réduire le liquide de pochage jusqu'à consistance sirupeuse. Monter au beurre froid hors du feu en fouettant vigoureusement pour une sauce brillante et onctueuse. Rectifier l'assaisonnement. Passer au chinois fin si nécessaire. Réserver au chaud (bain-marie).",
+        "8. Dresser les suprêmes de barbue farcis",
+        "Disposer un suprême par assiette chaude ou sur plat de service. Napper uniformément de sauce chaude. Décorer avec pluches de cerfeuil ou persil plat. Servir immédiatement très chaud."
+    ],
+    "remarques": [
+        "La farce mousseline doit être très froide et bien mixée pour gonfler légèrement à la cuisson (effet soufflé léger sans excès).",
+        "Pochage très doux (frémissement) pour éviter que la farce ne se sépare ou ne durcisse.",
+        "Vin blanc sec et aromatique (type Chablis ou Muscadet) pour le court-mouillement et la sauce.",
+        "Variante Condorcet : souvent présentée avec une julienne fine de légumes ou truffes en décoration pour version plus raffinée.",
+        "Accompagnements classiques : pommes vapeur, riz pilaf ou légumes glacés.",
+        "Servir avec la sauce en saucière pour les convives qui souhaitent en ajouter."
+    ]
+}

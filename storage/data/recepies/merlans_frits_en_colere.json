@@ -1,0 +1,77 @@
+{
+  "titre": "MERLANS FRITS EN COLÈRE",
+  "page": 749,
+  "denrees_pour_8_couverts": {
+    "Éléments de base": [
+      {
+        "nom": "merlans",
+        "quantite": "16",
+        "unite": "pièces"
+      },
+      {
+        "nom": "portion",
+        "quantite": "0,250",
+        "unite": "kg chacun"
+      }
+    ],
+    "Cuisson": [
+      {
+        "nom": "bière ou lait salé",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "farine",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "huile de friture",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "température de friture",
+        "quantite": "180",
+        "unite": "°C"
+      }
+    ],
+    "Finition": [
+      {
+        "nom": "persil",
+        "quantite": "0,080",
+        "unite": "kg"
+      },
+      {
+        "nom": "citrons",
+        "quantite": "4",
+        "unite": "pièces"
+      }
+    ],
+    "Assaisonnement": [
+      {
+        "nom": "sel",
+        "quantite": "PM",
+        "unite": ""
+      }
+    ]
+  },
+  "technique_de_realisation": [
+    "1. Mettre en place le poste de travail",
+    "2. Habiller 8 merlans de 0,250 kg chacun",
+    "Essuyer soigneusement les merlans avec du papier absorbant. Les saler intérieurement.",
+    "Maintenir la queue des merlans dans la gueule à l’aide d’un stick en bois ou d’une ficelle.",
+    "3. Préparer les éléments de finition",
+    "Laver, équeuter 0,080 kg de persil ; l’égoutter soigneusement sur du papier absorbant pour frire.",
+    "Historer 4 citrons en demi-lune.",
+    "4. Frire le persil",
+    "5. Frire les merlans",
+    "Les passer dans la bière ou dans du lait salé, puis dans la farine.",
+    "Les tapoter afin d’éliminer l’excédent de farine. Les frire dans un bain de friture à 180 °C durant 5 à 6 min (ils doivent être dorés et remonter à la surface du bain de friture).",
+    "Les débarrasser délicatement sur du papier absorbant et les saler à nouveau.",
+    "Ôter le stick en bois ou le morceau de ficelle.",
+    "6. Dresser les merlans en colère",
+    "Les disposer en couronne sur un grand plat rond recouvert d’un papier gaufré.",
+    "Disposer harmonieusement le persil frit et les citrons historiés."
+  ]
+}

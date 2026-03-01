@@ -1,0 +1,112 @@
+{
+    "titre": "Brioches aux fruits de mer",
+    "type": "Hors-d'œuvre chauds à base de pâte à brioche",
+    "page": 684,
+    "fiche": "33",
+    "description": "Brioches individuelles garnies d'une crème aux fruits de mer (coquilles Saint-Jacques, crevettes, champignons), pochées puis gratinées au four avec une sauce légère.",
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "pâte à brioche (voir recette précédente ou p. 332)",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ],
+        "garniture": [
+            {
+                "nom": "noix de coquilles Saint-Jacques (ou pétoncles)",
+                "quantite": "0,500",
+                "unite": "kg"
+            },
+            {
+                "nom": "crevettes décortiquées (ou gambas)",
+                "quantite": "0,300",
+                "unite": "kg"
+            },
+            {
+                "nom": "champignons de Paris (ou de culture)",
+                "quantite": "0,400",
+                "unite": "kg"
+            },
+            {
+                "nom": "beurre",
+                "quantite": "0,021",
+                "unite": "kg"
+            }
+        ],
+        "sauce": [
+            {
+                "nom": "fumet de poisson ou court-bouillon",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "crème fraîche",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ],
+        "finition_et_decoration": [
+            {
+                "nom": "œuf (pour dorure)",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "persil haché ou pluches",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel fin",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "poivre du moulin",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ]
+    },
+    "duree_moyenne_preparation": "environ 1 h 30 min (incluant pousse de la pâte)",
+    "duree_moyenne_cuisson": "15 à 20 min",
+    "technique": [
+        "1. Mettre en place le poste de travail – 5 min",
+        "Denrées, matériels de préparation, de cuisson et de dressage.",
+        "2. Préparer la garniture crémeuse",
+        "Pocher séparément les noix de Saint-Jacques et les crevettes dans un court-bouillon ou fumet de poisson aromatisé (environ 3–5 min selon taille).",
+        "Égoutter, réserver les liquides de cuisson.",
+        "Nettoyer, émincer et suer les champignons au beurre sans coloration excessive.",
+        "Réunir les fruits de mer et les champignons, lier avec une partie du liquide de cuisson réduit et de la crème pour obtenir une garniture crémeuse onctueuse.",
+        "Assaisonner sel, poivre. Réserver au chaud ou au frais si préparé à l'avance.",
+        "3. Confectionner les bouchées / brioches",
+        "Abaisser la pâte à brioche à environ 5–6 mm d'épaisseur.",
+        "Détailler des cercles ou ovales pour former des petites brioches individuelles (taille bouchée ou mini-pain).",
+        "Façonner en forme de petits pains ronds ou allongés, inciser légèrement le dessus si désiré.",
+        "Dorer à l'œuf battu.",
+        "Laisser pousser dans un endroit tiède jusqu'à doublement de volume.",
+        "4. Cuire les brioches",
+        "Cuire au four préchauffé à 200 °C pendant 12 à 18 min selon taille, jusqu'à belle coloration dorée.",
+        "Laisser refroidir légèrement sur grille.",
+        "5. Ouvrir et garnir les brioches",
+        "Découper un chapeau sur le dessus de chaque brioche.",
+        "Évider légèrement l'intérieur si nécessaire pour faire de la place.",
+        "Garnir généreusement avec la préparation crémeuse aux fruits de mer chaude.",
+        "Remettre le chapeau ou le laisser à côté.",
+        "6. Terminer et gratiner (optionnel)",
+        "Napper légèrement de sauce restante ou de crème.",
+        "Parsemer de gruyère râpé si désiré et gratiner rapidement sous salamandre ou au four chaud.",
+        "7. Dresser les brioches",
+        "Disposer les brioches garnies sur un plat de service chaud.",
+        "Décorer avec pluches de persil ou persil haché.",
+        "Servir immédiatement bien chaud, éventuellement avec le reste de sauce en saucière."
+    ],
+    "remarques": [
+        "La garniture peut être préparée à l'avance et réchauffée doucement.",
+        "Variante : ajouter des dés de homard, langoustines ou moules décortiquées.",
+        "Pour une version plus légère, remplacer une partie de la crème par du fumet réduit."
+    ]
+}

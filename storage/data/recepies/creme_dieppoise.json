@@ -1,0 +1,144 @@
+{
+  "page": "638",
+  "titre": "CRÈME DIEPPOISE",
+  "type": "Crèmes et veloutés à base de poisson ou de crustacés",
+  "denrees_pour_8_couverts": {
+    "elements_de_base": [
+      {
+        "nom": "beurre",
+        "unite": "kg",
+        "quantite": "0,100"
+      },
+      {
+        "nom": "blanc de poireau",
+        "unite": "kg",
+        "quantite": "0,160"
+      },
+      {
+        "nom": "parures de champignons (pieds)",
+        "unite": "kg",
+        "quantite": "0,200"
+      },
+      {
+        "nom": "citron (facultatif)",
+        "quantite": "PM"
+      },
+      {
+        "nom": "farine",
+        "unite": "kg",
+        "quantite": "0,080"
+      },
+      {
+        "nom": "fumet de poisson",
+        "unite": "l",
+        "quantite": "1,80"
+      },
+      {
+        "nom": "cuisson de moules",
+        "unite": "l",
+        "quantite": "0,20"
+      }
+    ],
+    "moules_mariniere": [
+      {
+        "nom": "moules de bouchot",
+        "unite": "kg",
+        "quantite": "1"
+      },
+      {
+        "nom": "beurre",
+        "unite": "kg",
+        "quantite": "0,040"
+      },
+      {
+        "nom": "échalotes",
+        "unite": "kg",
+        "quantite": "0,040"
+      },
+      {
+        "nom": "vin blanc sec",
+        "unite": "l",
+        "quantite": "0,10"
+      },
+      {
+        "nom": "persil",
+        "unite": "kg",
+        "quantite": "0,010"
+      },
+      {
+        "nom": "au défaut : moules décortiquées",
+        "unite": "kg",
+        "quantite": "0,250"
+      }
+    ],
+    "finition": [
+      {
+        "nom": "crème double",
+        "unite": "l",
+        "quantite": "0,20"
+      },
+      {
+        "nom": "beurre",
+        "unite": "kg",
+        "quantite": "0,020"
+      }
+    ],
+    "garniture": [
+      {
+        "nom": "moules décortiquées",
+        "unite": "kg",
+        "quantite": "PM"
+      },
+      {
+        "nom": "crevettes décortiquées",
+        "unite": "kg",
+        "quantite": "0,160"
+      }
+    ],
+    "assaisonnement": [
+      {
+        "nom": "gros sel",
+        "quantite": "PM"
+      },
+      {
+        "nom": "sel fin",
+        "quantite": "PM"
+      },
+      {
+        "nom": "poivre du moulin",
+        "quantite": "PM"
+      }
+    ]
+  },
+  "technique": [
+    "1. Mettre en place le poste de travail - 5 min",
+    "• Denrées, matériels de préparation, de cuisson et de dressage.",
+    "2. Nettoyer puis ouvrir les moules - 20 min",
+    "• Les décortiquer, les ébarber et les réserver dans un peu de cuisson.",
+    "• Décortiquer et réserver soigneusement le reste de la cuisson.",
+    "3. Préparer les légumes de la garniture aromatique - 10 min",
+    "• Éplucher et laver soigneusement les poireaux et les champignons.",
+    "• Les émincer finement.",
+    "4. Marquer le velouté en cuisson - 10 min",
+    "• Porter le fumet et la cuisson des moules à ébullition.",
+    "• Suer au beurre (sans coloration) les blancs de poireaux et les champignons.",
+    "• Ajouter la farine et cuire doucement le roux blanc durant 3 à 4 min.",
+    "• Refroidir le roux.",
+    "• Verser progressivement le fumet et la cuisson des moules sur le roux en remuant sans discontinuer jusqu’à la reprise de l’ébullition.",
+    "• Ne pas saler maintenant (à cause de la cuisson des moules).",
+    "• Cuire doucement et régulièrement le velouté durant 30 à 35 min.",
+    "• Remuer à l’aide d’une spatule à réduction.",
+    "5. Passer et terminer la crème - 7 min",
+    "• La passer au chinois étamine en foulant fortement.",
+    "• Crémer et reporter la crème à ébullition.",
+    "• Vérifier l’assaisonnement (saler si nécessaire).",
+    "• Débarrasser la crème au bain-marie.",
+    "• Tamponner (beurrer en surface).",
+    "• Couvrir le bain-marie.",
+    "6. Dresser la crème dieppoise - 3 min",
+    "• Répartir les moules bien égouttées et les crevettes soigneusement rincées dans la soupière.",
+    "• Verser la crème brûlante et la mélanger délicatement à la garniture."
+  ],
+  "duree_moyenne_de_preparation": "30 min",
+  "duree_moyenne_de_cuisson": "30 à 35 min"
+}

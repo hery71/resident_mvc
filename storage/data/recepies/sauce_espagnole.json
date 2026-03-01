@@ -1,0 +1,109 @@
+{
+  "title": "Sauce espagnole",
+  "category": "Sauces mères",
+  "type": "Sauce brune de base",
+  "pages": [
+    288,
+    289
+  ],
+  "yield": "1 litre",
+  "ingredients": {
+    "base": [
+      {
+        "name": "fond brun de veau",
+        "unite": "litre",
+        "quantite": 1.0
+      },
+      {
+        "name": "roux brun",
+        "unite": "kg",
+        "quantite": 0.08
+      }
+    ],
+    "garniture_aromatique": [
+      {
+        "name": "mirepoix (carottes, oignons)",
+        "unite": "kg",
+        "quantite": 0.15
+      },
+      {
+        "name": "concentré de tomates",
+        "unite": "kg",
+        "quantite": 0.02
+      },
+      {
+        "name": "ail",
+        "unite": "kg",
+        "quantite": 0.01
+      },
+      {
+        "name": "bouquet garni",
+        "unite": "piece",
+        "quantite": 1
+      }
+    ],
+    "assaisonnement": [
+      {
+        "name": "sel fin",
+        "unite": "PM",
+        "quantite": "PM"
+      },
+      {
+        "name": "poivre du moulin",
+        "unite": "PM",
+        "quantite": "PM"
+      }
+    ]
+  },
+  "preparation_steps": [
+    {
+      "step": 1,
+      "action": "Faire suer la mirepoix dans un peu de matière grasse sans coloration excessive."
+    },
+    {
+      "step": 2,
+      "action": "Ajouter le concentré de tomates et cuire légèrement."
+    },
+    {
+      "step": 3,
+      "action": "Incorporer le roux brun."
+    },
+    {
+      "step": 4,
+      "action": "Mouiller progressivement avec le fond brun chaud en fouettant."
+    },
+    {
+      "step": 5,
+      "action": "Ajouter l’ail et le bouquet garni."
+    },
+    {
+      "step": 6,
+      "action": "Porter à frémissement et cuire doucement 1 h 30 à 2 h."
+    },
+    {
+      "step": 7,
+      "action": "Écumer et dégraisser régulièrement."
+    },
+    {
+      "step": 8,
+      "action": "Passer au chinois sans fouler."
+    },
+    {
+      "step": 9,
+      "action": "Rectifier l’assaisonnement."
+    }
+  ],
+  "timing": {
+    "duree_moyenne_realisation": "20 à 25 min",
+    "duree_moyenne_cuisson": "1 h 30 à 2 h"
+  },
+  "notes": [
+    "Base des sauces brunes dérivées.",
+    "Cuisson lente indispensable pour obtenir une sauce limpide et sans goût farineux."
+  ],
+  "storage_recommendations": {
+    "cooling": "Refroidir rapidement.",
+    "storage_temp": "+3°C maximum"
+  },
+  "version": "1.0"
+}

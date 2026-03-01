@@ -1,0 +1,15 @@
+{
+    "titre": "Beurre hôtelier",
+    "type": "beurre compose",
+    "genre": "a froid",
+    "ingredients": [
+        "Beurre Maître d’hôtel",
+        "Duxelles sèche"
+    ],
+    "technique": [
+        "Mélanger la Duxelles sèche au beurre Maître d’hôtel en pommade"
+    ],
+    "utilisation": [
+        "Poissons grillés ou poissons panés et sautés"
+    ]
+}

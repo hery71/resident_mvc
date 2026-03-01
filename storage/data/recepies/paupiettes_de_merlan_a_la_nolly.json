@@ -1,0 +1,151 @@
+{
+    "titre": "Paupiettes de merlan à la Nolly",
+    "type": "Hors-d'œuvre chauds à base de poisson",
+    "description": "Paupiettes de filets de merlan farcies d'une farce mousseline, roulées et cuites au court-bouillon ou vapeur, nappées de sauce Nolly (sauce vin blanc au fumet de poisson, crème et montée au beurre), servies avec brunoise de légumes (carottes, courgettes) et décor de tomates étuvées.",
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "merlan (filets ou chair nette)",
+                "quantite": "2,500",
+                "unite": "kg"
+            }
+        ],
+        "farce_mousseline": [
+            {
+                "nom": "chair de merlan",
+                "quantite": "0,500",
+                "unite": "kg"
+            },
+            {
+                "nom": "crème fleurette",
+                "quantite": "0,200",
+                "unite": "l"
+            },
+            {
+                "nom": "œuf (blanc pour liaison)",
+                "quantite": "1",
+                "unite": "pièce"
+            }
+        ],
+        "brunoise_de_legumes": [
+            {
+                "nom": "carottes",
+                "quantite": "0,200",
+                "unite": "kg"
+            },
+            {
+                "nom": "courgettes",
+                "quantite": "0,200",
+                "unite": "kg"
+            },
+            {
+                "nom": "beurre (pour étuver)",
+                "quantite": "0,020",
+                "unite": "kg"
+            }
+        ],
+        "sauce_nolly": [
+            {
+                "nom": "fumet de poisson",
+                "quantite": "0,400",
+                "unite": "l"
+            },
+            {
+                "nom": "vin blanc sec",
+                "quantite": "0,100",
+                "unite": "l"
+            },
+            {
+                "nom": "échalotes",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "crème",
+                "quantite": "0,100",
+                "unite": "l"
+            },
+            {
+                "nom": "beurre (monté)",
+                "quantite": "0,200",
+                "unite": "kg"
+            }
+        ],
+        "finition_et_decoration": [
+            {
+                "nom": "tomates (étuvées ou concassées)",
+                "quantite": "0,150",
+                "unite": "kg"
+            },
+            {
+                "nom": "persil frais (pluches ou haché)",
+                "quantite": "0,040",
+                "unite": "kg"
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel fin",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "poivre du moulin",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "piment de Cayenne",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ]
+    },
+    "duree_moyenne_preparation": "1 h 30 min",
+    "duree_moyenne_cuisson": "12 à 15 min (cuisson paupiettes)",
+    "technique": [
+        "1. Mettre en place le poste de travail – 5 min",
+        "Denrées, matériels de préparation, de cuisson et de dressage.",
+        "2. Habiller et lever les filets de merlan – 15 min",
+        "Lever les filets du merlan, retirer peau et arêtes.",
+        "Aplatir légèrement les filets entre deux feuilles de film plastique pour obtenir des rectangles fins.",
+        "Réserver au frais.",
+        "3. Réaliser la farce mousseline de merlan – 15 min",
+        "Mixer la chair de merlan avec sel, poivre, pointe de muscade.",
+        "Incorporer progressivement la crème très froide en filet tout en mixant.",
+        "Ajouter le blanc d'œuf pour liaison, passer au tamis fin.",
+        "Réserver au frais.",
+        "4. Préparer la brunoise de légumes – 15 min",
+        "Éplucher, laver et tailler carottes et courgettes en brunoise très fine (2 mm).",
+        "Étuvés séparément au beurre avec sel et poivre jusqu'à tendreté sans coloration.",
+        "Refroidir rapidement, égoutter, réserver.",
+        "5. Farcir et rouler les paupiettes – 15 min",
+        "Étaler les filets aplatis, déposer une couche de farce mousseline.",
+        "Ajouter une fine couche de brunoise de légumes au centre.",
+        "Rouler fermement en paupiette (cigare serré), envelopper dans film plastique alimentaire.",
+        "Ficeler ou fixer avec cure-dents si nécessaire.",
+        "Réserver au frais.",
+        "6. Cuire les paupiettes – 12 à 15 min",
+        "Cuire à la vapeur ou pocher dans court-bouillon léger 12 à 15 min (cœur à 65 °C).",
+        "Maintenir au chaud.",
+        "7. Confectionner la sauce Nolly – 15 min",
+        "Réduire vin blanc et fumet avec échalotes jusqu'à 1/3.",
+        "Incorporer crème, réduire légèrement.",
+        "Monter au beurre froid en fouettant sur feu doux.",
+        "Assaisonner sel, poivre, piment de Cayenne.",
+        "Passer au chinois fin, réserver au chaud (bain-marie).",
+        "8. Dresser les paupiettes de merlan à la Nolly – 5 min",
+        "Retirer le film des paupiettes, couper en tronçons obliques si désiré.",
+        "Disposer sur assiettes chaudes ou plat rond.",
+        "Napper harmonieusement de sauce Nolly chaude.",
+        "Décorer avec pluches de persil et éventuellement tomates étuvées.",
+        "Servir immédiatement très chaud."
+    ],
+    "remarques": [
+        "La farce mousseline doit être très froide et fine pour une texture homogène.",
+        "Les paupiettes doivent être roulées serrées et bien filmées pour conserver la forme à la cuisson.",
+        "La sauce Nolly peut être légèrement citronnée ou infusée au fenouil pour accentuer le goût.",
+        "Variante : ajouter une pointe d'aneth ou estragon dans la farce.",
+        "Accompagnement classique : pommes à l'anglaise, carottes, brocolis ou courgettes vapeur."
+    ]
+}

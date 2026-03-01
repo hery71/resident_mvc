@@ -1,0 +1,151 @@
+{
+    "titre": "Petits pâtés feuilletés",
+    "type": "Hors-d'œuvre chauds à base de pâte feuilletée",
+    "page": 676,
+    "fiche": "29",
+    "description": "Hors-d'œuvre chaud à base de feuilletage garni d'une farce ordinaire à pâte aux herbes. Il peut se servir accompagné de différentes sauces brunes et d'une petite salade composée. La farce peut être additionnée de jambon ou de foies de volaille.",
+    "denrees_pour_8_couverts": {
+        "pate_feuilletee": [
+            {
+                "nom": "farine type 55",
+                "quantite": "0,400",
+                "unite": "kg"
+            },
+            {
+                "nom": "sel fin",
+                "quantite": "0,008",
+                "unite": "kg"
+            },
+            {
+                "nom": "eau",
+                "quantite": "0,200",
+                "unite": "l"
+            },
+            {
+                "nom": "beurre - margarine (pour le tourage)",
+                "quantite": "0,300",
+                "unite": "kg"
+            },
+            {
+                "nom": "farine (pour le tourage)",
+                "quantite": "0,060",
+                "unite": "kg"
+            }
+        ],
+        "dorure": [
+            {
+                "nom": "œuf (entier)",
+                "quantite": "1",
+                "unite": "pièce"
+            }
+        ],
+        "farce": [
+            {
+                "nom": "chair à saucisse",
+                "quantite": "0,300",
+                "unite": "kg"
+            },
+            {
+                "nom": "noix de veau",
+                "quantite": "0,100",
+                "unite": "kg"
+            },
+            {
+                "nom": "œuf (entier)",
+                "quantite": "1",
+                "unite": "pièce"
+            },
+            {
+                "nom": "beurre",
+                "quantite": "0,010",
+                "unite": "kg"
+            },
+            {
+                "nom": "madère",
+                "quantite": "0,010",
+                "unite": "l"
+            },
+            {
+                "nom": "cognac",
+                "quantite": "0,020",
+                "unite": "l"
+            },
+            {
+                "nom": "échalotes",
+                "quantite": "1",
+                "unite": "pièce"
+            },
+            {
+                "nom": "persil",
+                "quantite": "1/4",
+                "unite": "botte"
+            },
+            {
+                "nom": "estragon",
+                "quantite": "1/4",
+                "unite": "botte"
+            }
+        ],
+        "decoration": [
+            {
+                "nom": "persil en branches",
+                "quantite": "0,040",
+                "unite": "kg"
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel fin",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "poivre du moulin",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "noix de muscade / quatre-épices",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ]
+    },
+    "duree_moyenne_preparation": "1 h 40 min",
+    "duree_moyenne_cuisson": "20 à 25 min",
+    "technique": [
+        "1. Mettre en place le poste de travail – 5 min",
+        "Denrées, matériels de préparation, de cuisson et de dressage.",
+        "2. Confectionner la pâte feuilletée – 45 min (voir p. 434)",
+        "Confectionner le détrempe et le tourage.",
+        "3. Amener le pâton à farce – 15 min",
+        "Éplucher, laver et ciseler les échalotes.",
+        "Laver, équeuter, essorer et hacher le persil et l'estragon.",
+        "Faire suer les échalotes et hacher la chair fine avec la mirepoix rapidement.",
+        "Hacher le menu de veau à la grille fine.",
+        "Mélanger la chair à saucisse, le veau haché, les herbes hachées, l'œuf, le cognac, le madère et l'assaisonnement.",
+        "Diviser la farce en petites boules d'environ 0,040 kg chacune.",
+        "Réserver au frais.",
+        "4. Confectionner les petits pâtés – 30 min",
+        "Abaisser le pâton de forme ronde et caraméliser 8 cercles de 12 mm d'épaisseur.",
+        "Détailler à l'emporte-pièce rond et caraméliser 8 cercles de 12 cm de diamètre.",
+        "Réunir, superposer et abaisser les chutes, détailler à nouveau 8 cercles.",
+        "Retrousser ces cercles et éliminer l'excédent de farine.",
+        "Appliquer les abaisses sur les précédentes, border les bords à l'aide d'un emporte-pièce.",
+        "Dorer uniformément.",
+        "Ménager une petite cheminée pour l'évacuation de la vapeur.",
+        "5. Réserver les petits pâtés pendant une dizaine de minutes.",
+        "6. Cuire les petits pâtés en cuisson – 3 min",
+        "Dorer au four chaud uniformément, cuire à four chaud (230 °C) au départ, puis terminer la cuisson à 200 °C.",
+        "Débarasser les petits pâtés sur une grille à pâtisserie.",
+        "Maintenir au chaud.",
+        "7. Dresser les petits pâtés – 2 min",
+        "Disposer les petits pâtés sur un grand plat rond recouvert d'une feuille de papier gaufré.",
+        "Lustrer avec beurre clarifié.",
+        "Décorer avec le persil en branches."
+    ],
+    "remarques": [
+        "La pâte feuilletée surgelée en plaque peut être utilisée.",
+        "Variantes possibles : ajout de jambon, foies de volaille, ou autres garnitures dans la farce."
+    ]
+}

@@ -1,0 +1,130 @@
+{
+    "fiche": 10,
+    "titre": "Potage Conti",
+    "type": "potage purée de légumes secs",
+    "page": 629,
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "lentilles vertes ou blondes",
+                "quantite": "0,700",
+                "unite": "kg"
+            }
+        ],
+        "garniture_aromatique": [
+            {
+                "nom": "beurre",
+                "quantite": "0,040",
+                "unite": "kg"
+            },
+            {
+                "nom": "poitrine de porc demi-sel",
+                "quantite": "0,160",
+                "unite": "kg"
+            },
+            {
+                "nom": "vert de poireau",
+                "quantite": "0,080",
+                "unite": "kg"
+            },
+            {
+                "nom": "carottes",
+                "quantite": "0,080",
+                "unite": "kg"
+            },
+            {
+                "nom": "oignons",
+                "quantite": "0,080",
+                "unite": "kg"
+            },
+            {
+                "nom": "bouquet garni",
+                "quantite": "1",
+                "unite": "pièce"
+            },
+            {
+                "nom": "ail",
+                "quantite": "2",
+                "unite": "gousses"
+            }
+        ],
+        "mouillement": [
+            {
+                "nom": "eau",
+                "quantite": "2",
+                "unite": "l"
+            }
+        ],
+        "finition": [
+            {
+                "nom": "beurre",
+                "quantite": "0,040",
+                "unite": "kg"
+            },
+            {
+                "nom": "cerfeuil",
+                "quantite": "1/4",
+                "unite": "botte"
+            }
+        ],
+        "garniture": [
+            {
+                "nom": "poitrine de porc demi-sel",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "huile",
+                "quantite": "0,02",
+                "unite": "l"
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "gros sel",
+                "quantite": "PM"
+            },
+            {
+                "nom": "sel fin",
+                "quantite": "PM"
+            }
+        ]
+    },
+    "duree_preparation": "1 h",
+    "duree_cuisson": "30 à 40 min",
+    "technique": [
+        "1. Mettre en place le poste de travail – 5 min",
+        "Denrées, matériels de préparation, de cuisson et de dressage.",
+        "2. Laver soigneusement les lentilles – 3 min",
+        "Ne pas laisser tremper.",
+        "3. Préparer les légumes de la garniture aromatique – 20 min",
+        "Éplucher, laver le vert de poireaux, les carottes, les oignons, le persil et les gousses d’ail.",
+        "Émincer finement les légumes de la garniture aromatique (Mirepoix).",
+        "Confectionner le bouquet garni.",
+        "Dégermer et écraser les gousses d’ail.",
+        "4. Blanchir fortement la poitrine de porc – 5 min minimum",
+        "5. Marquer le potage Conti en cuisson – 10 min",
+        "Suer au beurre les légumes de la garniture aromatique.",
+        "Ajouter les lentilles.",
+        "Mouiller avec 2 l d’eau froide.",
+        "Ajouter l’ail écrasé, le bouquet garni et le morceau de poitrine de porc.",
+        "Porter à ébullition.",
+        "Cuire doucement et régulièrement à couvert durant 30 à 40 min selon la qualité des lentilles.",
+        "Saler au gros sel aux 2/3 de la cuisson.",
+        "6. Passer le potage – 15 min",
+        "Éliminer le bouquet garni et la poitrine de porc.",
+        "Passer le potage Conti au moulin à légumes ou au mixeur puis au chinois métallique en foulant fortement.",
+        "Remettre le potage à bouillir, écumer si nécessaire.",
+        "Vérifier l’onctuosité et l’assaisonnement.",
+        "Débarrasser le potage au bain-marie.",
+        "Tamponner en surface.",
+        "7. Préparer la garniture – 5 min",
+        "Découenner et tailler la poitrine de porc en petits lardons.",
+        "Les faire sauter rapidement sans les faire sécher avec un peu d’huile.",
+        "Les égoutter sur du papier absorbant.",
+        "8. Dresser le potage – 2 min",
+        "Dresser le potage brûlant dans la soupière.",
+        "Répartir uniformément les lardons.",
+        "Disposer les pluches de cerfeuil bien égouttées."
+    ]
+}

@@ -1,0 +1,85 @@
+{
+    "titre": "Soupe à l’oignon gratinée",
+    "type": "potage",
+    "page": 613,
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "beurre",
+                "quantite": "0,100",
+                "unite": "kg"
+            },
+            {
+                "nom": "oignons",
+                "quantite": "0,800",
+                "unite": "kg"
+            },
+            {
+                "nom": "farine (facultatif)",
+                "quantite": "0,020",
+                "unite": "kg"
+            },
+            {
+                "nom": "marmite ou consommé",
+                "quantite": "2",
+                "unite": "l"
+            }
+        ],
+        "garniture": [
+            {
+                "nom": "baguette",
+                "quantite": "0,160",
+                "unite": "kg"
+            },
+            {
+                "nom": "gruyère",
+                "quantite": "0,240",
+                "unite": "kg"
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel fin",
+                "quantite": "PM"
+            },
+            {
+                "nom": "poivre du moulin",
+                "quantite": "PM"
+            }
+        ]
+    },
+    "duree_preparation": "1 h 15 min",
+    "duree_cuisson": {
+        "oignons": "30 min",
+        "soupe": "20 min"
+    },
+    "technique": [
+        "1. Mettre en place le poste de travail – 5 min",
+        "Denrées, matériels de préparation, de cuisson et de dressage.",
+        "2. Préparer les légumes – 10 min",
+        "Éplucher, laver soigneusement les oignons.",
+        "Émincer finement (voir p. 113).",
+        "3. Marquer les oignons en cuisson – 5 min",
+        "Cuire lentement dans un récipient à fond épais.",
+        "Les oignons avec le beurre pendant 30 min environ.",
+        "Saler au sel fin.",
+        "Remuer fréquemment afin d’obtenir une coloration blonde et uniforme.",
+        "Singer éventuellement (saupoudrer de farine).",
+        "4. Marquer la soupe à l’oignon en cuisson – 5 min",
+        "Ajouter les 2 l de marmite ou de consommé.",
+        "Cuire à nouveau à feu faible pendant 20 min.",
+        "Vérifier l’assaisonnement.",
+        "Ajouter quelques tours de poivre du moulin.",
+        "5. Préparer la garniture – 10 min",
+        "Détailler la baguette en tranches.",
+        "Sécher les rondelles sur les 2 faces au four doux.",
+        "Débarrasser sur une grille à pâtisserie.",
+        "Râper le gruyère.",
+        "6. Dresser la soupe à l’oignon gratinée – 5 min",
+        "Mélanger la soupe pour répartir la garniture.",
+        "Remplir les bols à gratinée.",
+        "Disposer les lamelles de pain.",
+        "Recouvrir de gruyère râpé.",
+        "Gratiner d’abord au four, puis terminer sous la salamandre."
+    ]
+}

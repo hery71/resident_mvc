@@ -1,0 +1,206 @@
+{
+  "titre": "PILAF DE FRUITS DE MER",
+  "type": "Ragoût de fruits de mer, sauce américaine crémée",
+  "page": 772,
+  "denrees_pour_8_couverts": {
+    "elements_de_base": [
+      {
+        "nom": "coquilles Saint-Jacques (8 x 0,250 kg)",
+        "quantite": "2",
+        "unite": "kg"
+      },
+      {
+        "nom": "beurre",
+        "quantite": "0,020",
+        "unite": "kg"
+      },
+      {
+        "nom": "échalotes grises",
+        "quantite": "0,040",
+        "unite": "kg"
+      },
+      {
+        "nom": "vin blanc",
+        "quantite": "0,10",
+        "unite": "l"
+      },
+      {
+        "nom": "fumet de poisson",
+        "quantite": "0,20",
+        "unite": "l"
+      },
+      {
+        "nom": "bouquet garni",
+        "quantite": "1",
+        "unite": "pièce"
+      },
+      {
+        "nom": "langoustines (16 x 0,050 kg)",
+        "quantite": "0,800",
+        "unite": "kg"
+      },
+      {
+        "nom": "moules",
+        "quantite": "1",
+        "unite": "kg"
+      },
+      {
+        "nom": "crevettes décortiquées",
+        "quantite": "0,250",
+        "unite": "kg"
+      },
+      {
+        "nom": "champignons de Paris",
+        "quantite": "0,250",
+        "unite": "kg"
+      }
+    ],
+    "sauce_americaine": [
+      {
+        "nom": "beurre",
+        "quantite": "0,020",
+        "unite": "kg"
+      },
+      {
+        "nom": "carapaces de langoustines",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "oignons",
+        "quantite": "0,080",
+        "unite": "kg"
+      },
+      {
+        "nom": "carottes",
+        "quantite": "0,080",
+        "unite": "kg"
+      },
+      {
+        "nom": "échalotes",
+        "quantite": "0,040",
+        "unite": "kg"
+      },
+      {
+        "nom": "vin blanc",
+        "quantite": "0,10",
+        "unite": "l"
+      },
+      {
+        "nom": "cognac",
+        "quantite": "0,05",
+        "unite": "l"
+      },
+      {
+        "nom": "fumet de poisson",
+        "quantite": "1,5",
+        "unite": "l"
+      },
+      {
+        "nom": "tomates concassées",
+        "quantite": "0,400",
+        "unite": "kg"
+      },
+      {
+        "nom": "ail",
+        "quantite": "2",
+        "unite": "gousses"
+      },
+      {
+        "nom": "bouquet garni",
+        "quantite": "1",
+        "unite": "pièce"
+      },
+      {
+        "nom": "roux blond",
+        "quantite": "0,040",
+        "unite": "kg"
+      },
+      {
+        "nom": "crème",
+        "quantite": "0,20",
+        "unite": "l"
+      }
+    ],
+    "riz_pilaf": [
+      {
+        "nom": "riz long",
+        "quantite": "0,400",
+        "unite": "kg"
+      },
+      {
+        "nom": "beurre",
+        "quantite": "0,080",
+        "unite": "kg"
+      },
+      {
+        "nom": "oignons",
+        "quantite": "0,160",
+        "unite": "kg"
+      },
+      {
+        "nom": "bouquet garni",
+        "quantite": "1",
+        "unite": "pièce"
+      },
+      {
+        "nom": "fumet de poisson",
+        "quantite": "0,80",
+        "unite": "l"
+      }
+    ],
+    "assaisonnement": [
+      {
+        "nom": "gros sel",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "poivre du moulin",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "piment de Cayenne",
+        "quantite": "PM",
+        "unite": ""
+      }
+    ],
+    "finition": [
+      {
+        "nom": "pluches de cerfeuil",
+        "quantite": "PM",
+        "unite": ""
+      }
+    ]
+  },
+  "technique_de_realisation": [
+    "1. Mettre en place le poste de travail - 5 min",
+    "2. Éplucher et laver les légumes des garnitures aromatiques - 15 min",
+    "3. Préparer les garnitures - 45 min",
+    "Coquilles Saint-Jacques : ouvrir, parer et réserver.",
+    "Langoustines : laver, pocher 2 à 3 min, décortiquer.",
+    "Moules : gratter, laver, marquer en cuisson au vin blanc.",
+    "Champignons : éplucher, laver et escaloper.",
+    "4. Réaliser la sauce américaine - 30 min",
+    "Suer la garniture aromatique au beurre.",
+    "Ajouter les carapaces, flamber au cognac.",
+    "Mouiller au vin blanc et au fumet.",
+    "Ajouter tomates, ail et bouquet garni.",
+    "Cuire 20 min, passer au chinois.",
+    "Lier au roux blond, crémer, réduire.",
+    "5. Marquer le riz pilaf en cuisson - 10 min",
+    "Suer oignons au beurre, nacrer le riz.",
+    "Mouiller au fumet, ajouter bouquet garni.",
+    "Cuire à couvert au four 18 min.",
+    "6. Terminer la garniture - 5 min",
+    "Réunir fruits de mer et champignons.",
+    "Ajouter sauce américaine, rectifier l’assaisonnement.",
+    "7. Dresser le pilaf de fruits de mer - 5 min",
+    "Dresser le riz pilaf en dôme.",
+    "Napper de sauce et disposer harmonieusement les fruits de mer.",
+    "Décorer de pluches de cerfeuil."
+  ],
+  "duree_moyenne_preparation": "2 h 05 min",
+  "duree_moyenne_cuisson": "variable selon éléments"
+}

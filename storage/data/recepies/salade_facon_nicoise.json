@@ -1,0 +1,142 @@
+{
+  "page": "654",
+  "titre": "SALADE FAÇON NIÇOISE",
+  "type": "Hors-d’œuvre froids à base de légumes crus et cuits de poissons et de viandes",
+  "denrees_pour_8_couverts": {
+    "elements_de_base": [
+      {
+        "nom": "pommes de terre à chair ferme",
+        "unite": "kg",
+        "quantite": "0,600"
+      },
+      {
+        "nom": "haricots verts fins",
+        "unite": "kg",
+        "quantite": "0,600"
+      },
+      {
+        "nom": "tomates «garniture»",
+        "unite": "kg",
+        "quantite": "0,600"
+      },
+      {
+        "nom": "poivrons",
+        "unite": "kg",
+        "quantite": "0,200"
+      },
+      {
+        "nom": "thon à l’huile",
+        "unite": "kg",
+        "quantite": "0,200"
+      }
+    ],
+    "sauce_vinaigrette": [
+      {
+        "nom": "vinaigre de vin",
+        "unite": "l",
+        "quantite": "0,08"
+      },
+      {
+        "nom": "huile d’olive",
+        "unite": "l",
+        "quantite": "0,20"
+      }
+    ],
+    "decor": [
+      {
+        "nom": "laitue",
+        "unite": "pièce",
+        "quantite": "1/2"
+      },
+      {
+        "nom": "mesclun",
+        "unite": "kg",
+        "quantite": "0,200"
+      },
+      {
+        "nom": "œufs",
+        "unite": "pièce",
+        "quantite": "2"
+      },
+      {
+        "nom": "olives (violettes de Nice)",
+        "unite": "pièce",
+        "quantite": "16"
+      },
+      {
+        "nom": "filets d’anchois à l’huile",
+        "unite": "pièce",
+        "quantite": "16"
+      }
+    ],
+    "fines_herbes_facultatif": [
+      {
+        "nom": "persil",
+        "quantite": "PM"
+      },
+      {
+        "nom": "cerfeuil",
+        "quantite": "PM"
+      },
+      {
+        "nom": "estragon",
+        "quantite": "PM"
+      },
+      {
+        "nom": "basilic",
+        "quantite": "PM"
+      }
+    ],
+    "assaisonnement": [
+      {
+        "nom": "gros sel",
+        "quantite": "PM"
+      },
+      {
+        "nom": "sel fin",
+        "quantite": "PM"
+      },
+      {
+        "nom": "poivre du moulin",
+        "quantite": "PM"
+      }
+    ]
+  },
+  "technique": [
+    "1. Mettre en place le poste de travail - 5 min",
+    "• Denrées, matériels de préparation, de cuisson et de dressage.",
+    "2. Préparer les éléments de base de la salade - 30 min",
+    "• Laver, brosser et rincer soigneusement les pommes de terre. Les marquer en cuisson, à couvert, pendant 25 à 30 min (départ eau froide). Saler au gros sel. Rafraîchir légèrement et éliminer la peau des pommes de terre.",
+    "• Émincer, laver et tronçonner les haricots verts en bâtonnets de 3 cm de longueur. Les cuire à l’anglaise, rafraîchir à l’eau glacée et égoutter.",
+    "• Éliminer le pédoncule, monder, rafraîchir et peler les tomates.",
+    "• Laver et éliminer le pédoncule et les graines des poivrons.",
+    "3. Préparer les éléments de décor et de finition - 20 min",
+    "• Durcir, rafraîchir et écaler les œufs.",
+    "• Éplucher et laver soigneusement la laitue ou trier et laver le mesclun.",
+    "• Dénoyauter les olives.",
+    "• Si nécessaire, séparer en deux les filets d’anchois trop larges.",
+    "• Laver, égoutter, ciseler et hacher le persil.",
+    "• Éventuellement hacher les fines herbes.",
+    "4. Découper les éléments de base et de décor - 10 min",
+    "• Émincer les pommes de terre en rondelles de 3 mm d’épaisseur.",
+    "• Émincer finement les poivrons en julienne.",
+    "• Découper les tomates en quartiers et les faire dégorger (saupoudrer de sel fin).",
+    "• Découper les œufs en quartiers.",
+    "• Émietter légèrement le thon.",
+    "5. Confectionner la sauce vinaigrette - 5 min (voir p. 298)",
+    "• Verser le vinaigre dans une petite calotte.",
+    "• Dissoudre le sel et ajouter le poivre du moulin.",
+    "• Ajouter progressivement l’huile en remuant à l’aide d’un petit fouet.",
+    "• Vérifier l’assaisonnement.",
+    "6. Assaisonner séparément tous les éléments de base de la salade - 5 min",
+    "7. Dresser la salade niçoise - 10 min",
+    "• Chemiser le ou les saladiers avec des feuilles de laitue.",
+    "• Ranger séparément les éléments de base de la salade en variant les couleurs.",
+    "• Quadriller la salade avec des filets d’anchois.",
+    "• Disposer harmonieusement les quartiers d’œufs durs assaisonnés.",
+    "• Intercaler les éléments de décor avec les olives.",
+    "• Parsemer de fines herbes (facultatif)."
+  ],
+  "duree_moyenne_de_preparation": "1 h 20 min",
+  "duree_moyenne_de_cuisson": "25 à 30 min"
+}

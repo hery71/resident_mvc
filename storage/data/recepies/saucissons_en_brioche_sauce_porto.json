@@ -1,0 +1,167 @@
+{
+    "titre": "Saucissons en brioche sauce porto",
+    "type": "Hors-d'œuvre chauds à base de pâte à brioche",
+    "page": 682,
+    "fiche": "32",
+    "description": "Saucissons pochés, enveloppés de pâte à brioche et cuits au four. Ils sont servis avec une sauce brune parfumée au porto.",
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "saucisson à pocher (saucisses de Morteau ou saucisses pistachées et truffées)",
+                "quantite": "0,800",
+                "unite": "kg"
+            }
+        ],
+        "pate_a_brioche": [
+            {
+                "nom": "farine type 45",
+                "quantite": "0,250",
+                "unite": "kg"
+            },
+            {
+                "nom": "sel fin",
+                "quantite": "0,005",
+                "unite": "kg"
+            },
+            {
+                "nom": "sucre de boulanger (facultatif)",
+                "quantite": "0,010",
+                "unite": "kg"
+            },
+            {
+                "nom": "levure de boulanger (levure déshydratée)",
+                "quantite": "0,012",
+                "unite": "kg"
+            },
+            {
+                "nom": "œufs",
+                "quantite": "3",
+                "unite": "pièces"
+            },
+            {
+                "nom": "beurre",
+                "quantite": "0,150",
+                "unite": "kg"
+            },
+            {
+                "nom": "eau ou lait",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ],
+        "farine_pour_abaisser": [
+            {
+                "nom": "farine",
+                "quantite": "0,040",
+                "unite": "kg"
+            }
+        ],
+        "dorure": [
+            {
+                "nom": "œuf",
+                "quantite": "1",
+                "unite": "pièce"
+            }
+        ],
+        "sauce_porto": [
+            {
+                "nom": "beurre",
+                "quantite": "0,020",
+                "unite": "kg"
+            },
+            {
+                "nom": "oignons",
+                "quantite": "0,040",
+                "unite": "kg"
+            },
+            {
+                "nom": "champignons (ou parures)",
+                "quantite": "0,040",
+                "unite": "kg"
+            },
+            {
+                "nom": "échalotes",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "fond de veau lié",
+                "quantite": "0,400",
+                "unite": "l"
+            },
+            {
+                "nom": "porto",
+                "quantite": "0,040",
+                "unite": "l"
+            }
+        ],
+        "finition": [
+            {
+                "nom": "beurre (pour tamponner)",
+                "quantite": "0,040",
+                "unite": "kg"
+            },
+            {
+                "nom": "persil en branches",
+                "quantite": "0,020",
+                "unite": "kg"
+            },
+            {
+                "nom": "beurre (pour lustrer)",
+                "quantite": "0,020",
+                "unite": "kg"
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel fin",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "poivre du moulin",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ]
+    },
+    "duree_moyenne_preparation": "1 h 15 min",
+    "duree_moyenne_cuisson": "20 à 25 min (au four) + pochage 20 à 30 min",
+    "technique": [
+        "1. Mettre en place le poste de travail – 5 min",
+        "Denrées, matériels de préparation, de cuisson et de dressage.",
+        "2. Confectionner la pâte à brioche (méthode directe) – 20 min",
+        "3. Pocher les saucissons – 5 min",
+        "Pocher délicatement les saucissons (sauf s'ils sont truffés).",
+        "Égoutter, laisser refroidir et retirer la peau si nécessaire.",
+        "4. Confectionner la sauce porto – 15 min",
+        "Éplucher, laver et ciseler les oignons et les échalotes.",
+        "Faire suer les oignons et échalotes avec le beurre.",
+        "Ajouter les parures de champignons, déglacer avec le porto réduit légèrement.",
+        "Mouiller avec le fond de veau lié, réduire légèrement.",
+        "Vérifier l'assaisonnement, passer au chinois et réserver.",
+        "5. Enrober les saucissons – 20 min",
+        "Abaisser la pâte à brioche en rectangle d'environ 1 cm d'épaisseur.",
+        "Détailler des bandes de pâte adaptées à la taille des saucissons.",
+        "Envelopper chaque saucisson dans la pâte en soudant bien les bords.",
+        "Dorer la surface avec l'œuf battu.",
+        "Débarasser sur plaque huilée ou papier sulfurisé.",
+        "Laisser pousser dans un endroit tiède jusqu'à doublement de volume.",
+        "6. Cuire les saucissons en brioche – 20 à 25 min",
+        "Cuire au four à 200 °C pendant 20 à 25 min environ.",
+        "Les saucissons en brioche doivent être bien dorés.",
+        "Débarasser sur grille, maintenir au chaud.",
+        "7. Préparer le persil en branches – 5 min",
+        "Laver, équeuter et réserver le persil.",
+        "8. Dresser les saucissons – 5 min",
+        "Dresser chaque saucisson en brioche sur un grand plat ovale.",
+        "Lustrer avec du beurre clarifié.",
+        "Disposer un bouquet de persil en branches à chaque extrémité.",
+        "Servir la sauce porto en saucière à part."
+    ],
+    "remarques": [
+        "Les saucissons pochés doivent être pochés doucement pour éviter qu'ils éclatent.",
+        "La pâte à brioche peut être préparée à l'avance et conservée au frais.",
+        "Variante : utiliser des saucisses cocktail ou des chipolatas pour des portions individuelles."
+    ]
+}

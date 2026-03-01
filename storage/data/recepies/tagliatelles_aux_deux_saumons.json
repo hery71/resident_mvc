@@ -1,0 +1,118 @@
+{
+    "titre": "Tagliatelles aux deux saumons",
+    "type": "Hors-d'œuvre chauds à base de pâtes fraîches",
+    "description": "Pâtes fraîches maison taillées en tagliatelles, servies avec une sauce légèrement crémeuse, garnies de dés de saumon frais et saumon fumé, le tout relevé d'huile d'olive et persil.",
+    "denrees_pour_8_couverts": {
+        "pate_a_nouilles": [
+            {
+                "nom": "farine type 45 (ou T45)",
+                "quantite": "0,400",
+                "unite": "kg"
+            },
+            {
+                "nom": "œufs entiers",
+                "quantite": "4",
+                "unite": "pièces"
+            },
+            {
+                "nom": "sel fin",
+                "quantite": "0,008",
+                "unite": "kg"
+            },
+            {
+                "nom": "huile d'olive (facultatif)",
+                "quantite": "0,020",
+                "unite": "l"
+            },
+            {
+                "nom": "farine pour fleurer le tour",
+                "quantite": "0,050",
+                "unite": "kg"
+            }
+        ],
+        "garniture_et_sauce": [
+            {
+                "nom": "saumon frais (filet sans peau)",
+                "quantite": "0,300",
+                "unite": "kg"
+            },
+            {
+                "nom": "saumon fumé (tranché fin ou dés)",
+                "quantite": "0,100",
+                "unite": "kg"
+            },
+            {
+                "nom": "beurre",
+                "quantite": "0,040",
+                "unite": "kg"
+            },
+            {
+                "nom": "huile d'olive (pour cuisson et finition)",
+                "quantite": "0,040",
+                "unite": "l"
+            },
+            {
+                "nom": "crème liquide",
+                "quantite": "0,200",
+                "unite": "l"
+            },
+            {
+                "nom": "persil plat (haché)",
+                "quantite": "1",
+                "unite": "botte"
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel fin",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "poivre du moulin",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ]
+    },
+    "duree_moyenne_preparation": "1 h 20 min",
+    "duree_moyenne_cuisson": "1 à 2 min (pâtes fraîches) + 10 min (sauce/garniture)",
+    "technique": [
+        "1. Mettre en place le poste de travail – 5 min",
+        "Denrées, matériels de préparation, de cuisson et de dressage.",
+        "2. Confectionner la pâte à nouilles – 15 min (voir p. 515/517)",
+        "Tamiser la farine et le sel, faire une fontaine, casser les œufs au centre.",
+        "Incorporer progressivement la farine aux œufs, pétrir jusqu'à obtention d'une pâte homogène et lisse (environ 10 min).",
+        "Diviser en 8 boules d'environ 0,080 kg chacune, filmer et laisser reposer au frais 30 min minimum.",
+        "3. Abaisser et détailler les tagliatelles – 15 min",
+        "Abaisser chaque boule de pâte au laminoir ou au rouleau jusqu'à 1–2 mm d'épaisseur.",
+        "Fariner légèrement, plier en portefeuille, détailler en bandes de 1 cm de large (tagliatelles).",
+        "Déposer sur grille ou torchon fariné, laisser sécher légèrement 10 min.",
+        "4. Préparer le saumon – 10 min",
+        "Détailler le saumon frais en petits dés ou bâtonnets de 1 cm.",
+        "Émincer ou détailler le saumon fumé en petits morceaux.",
+        "Réserver séparément au frais.",
+        "5. Préparer la sauce/garniture – 10 min",
+        "Faire fondre le beurre avec un filet d'huile d'olive dans une grande sauteuse.",
+        "Faire revenir rapidement les dés de saumon frais (30 s à 1 min) sans coloration excessive.",
+        "Ajouter le saumon fumé, déglacer avec un peu de crème, laisser réduire légèrement.",
+        "Incorporer le reste de crème, assaisonner sel et poivre, ajouter persil haché.",
+        "Réserver au chaud (ne pas faire bouillir fortement).",
+        "6. Cuire les tagliatelles – 1 à 2 min",
+        "Porter une grande quantité d'eau salée à gros bouillon.",
+        "Plonger les tagliatelles fraîches, cuire 1 à 2 min (al dente).",
+        "Égoutter soigneusement sans rincer, remettre dans la sauteuse avec la garniture.",
+        "Mélanger délicatement pour enrober les pâtes de sauce, rectifier l'assaisonnement.",
+        "7. Dresser les tagliatelles – 5 min",
+        "Dresser les tagliatelles aux deux saumons dans des assiettes chaudes.",
+        "Mettre en évidence les morceaux de saumon frais et fumé sur le dessus.",
+        "Parsemer de persil haché et arroser d'un filet d'huile d'olive.",
+        "Servir immédiatement très chaud."
+    ],
+    "remarques": [
+        "Cuire les pâtes fraîches à la commande pour un résultat optimal (texture et gonflement).",
+        "Ne pas trop cuire le saumon frais pour qu'il reste moelleux et rosé.",
+        "Variante : ajouter une pointe d'aneth frais ou de zeste de citron pour relever le goût.",
+        "Si besoin, rafraîchir la pâte au réfrigérateur si elle devient trop collante pendant l'abaissage."
+    ]
+}
