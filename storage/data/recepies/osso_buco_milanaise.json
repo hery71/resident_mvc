@@ -1,0 +1,243 @@
+{
+    "file_name": "osso_buco_milanaise.json",
+    "titre": "OSSO-BUCO MILANAISE",
+    "bandeau": "Viandes braisées à brun",
+    "page": 830,
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "osso-buco (8 x 0,250 kg)",
+                "unite": "kg",
+                "quantite": 2
+            },
+            {
+                "nom": "farine",
+                "unite": "kg",
+                "quantite": 0.08
+            },
+            {
+                "nom": "huile",
+                "unite": "l",
+                "quantite": 0.08
+            },
+            {
+                "nom": "carottes",
+                "unite": "kg",
+                "quantite": 0.2
+            },
+            {
+                "nom": "oignons",
+                "unite": "kg",
+                "quantite": 0.2
+            },
+            {
+                "nom": "céleri en branches",
+                "unite": "kg",
+                "quantite": 0.08
+            },
+            {
+                "nom": "bouquet garni",
+                "unite": "pièce",
+                "quantite": 1
+            },
+            {
+                "nom": "ail (4 gousses)",
+                "unite": "kg",
+                "quantite": 0.02
+            },
+            {
+                "nom": "vin blanc",
+                "unite": "l",
+                "quantite": 0.2
+            },
+            {
+                "nom": "fond brun de veau",
+                "unite": "l",
+                "quantite": 1.4
+            },
+            {
+                "nom": "sauce tomate",
+                "unite": "l",
+                "quantite": 0.2
+            }
+        ],
+        "finition_de_la_sauce": [
+            {
+                "nom": "citron (zestes)",
+                "unite": "kg",
+                "quantite": "PM"
+            },
+            {
+                "nom": "orange (zestes)",
+                "unite": "kg",
+                "quantite": "PM"
+            },
+            {
+                "nom": "persil",
+                "unite": "kg",
+                "quantite": 0.02
+            },
+            {
+                "nom": "décor (facultatif)",
+                "unite": "",
+                "quantite": "PM"
+            }
+        ],
+        "fondue_de_tomates": [
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": 0.04
+            },
+            {
+                "nom": "échalotes",
+                "unite": "kg",
+                "quantite": 0.04
+            },
+            {
+                "nom": "tomates (grosses)",
+                "unite": "kg",
+                "quantite": 0.8
+            },
+            {
+                "nom": "bouquet garni",
+                "unite": "pièce",
+                "quantite": 1
+            },
+            {
+                "nom": "ail (2 gousses)",
+                "unite": "kg",
+                "quantite": 0.015
+            }
+        ],
+        "garniture_milanaise": [
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": 0.04
+            },
+            {
+                "nom": "champignons de Paris",
+                "unite": "kg",
+                "quantite": 0.08
+            },
+            {
+                "nom": "jambon de Paris",
+                "unite": "kg",
+                "quantite": 0.08
+            },
+            {
+                "nom": "langue écarlate",
+                "unite": "kg",
+                "quantite": 0.08
+            },
+            {
+                "nom": "truffe (facultative)",
+                "unite": "kg",
+                "quantite": 0.04
+            },
+            {
+                "nom": "madère",
+                "unite": "l",
+                "quantite": 0.04
+            },
+            {
+                "nom": "fond brun de veau lié tomaté",
+                "unite": "l",
+                "quantite": 0.04
+            },
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": 0.02
+            }
+        ],
+        "garniture_d_accompagnement": [
+            {
+                "nom": "spaghettis",
+                "unite": "kg",
+                "quantite": 0.5
+            },
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": 0.08
+            },
+            {
+                "nom": "parmesan ou gruyère",
+                "unite": "kg",
+                "quantite": 0.14
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "gros sel",
+                "unite": "",
+                "quantite": "PM"
+            },
+            {
+                "nom": "sel fin",
+                "unite": "",
+                "quantite": "PM"
+            },
+            {
+                "nom": "poivre du moulin",
+                "unite": "",
+                "quantite": "PM"
+            },
+            {
+                "nom": "sucre",
+                "unite": "",
+                "quantite": "PM"
+            }
+        ]
+    },
+    "technique": [
+        "1. Mettre en place le poste de travail - 5 min",
+        "• Denrées, matériels de préparation, de cuisson et de dressage.",
+        "2. Vérifier et réserver les osso-buco en enceinte réfrigérée",
+        "3. Préparer la garniture aromatique - 20 min",
+        "• Éplucher, laver les carottes, les oignons, le céleri et les gousses d’ail.",
+        "• Tailler les carottes et le céleri en fine brunoise (petits dés de 2 à 3 mm de section).",
+        "• Ciseler finement les oignons.",
+        "• Laver, égoutter le persil et confectionner deux petits bouquets garnis.",
+        "• Éliminer le germe, écraser et hacher les 4 gousses d’ail.",
+        "4. Marquer les osso-buco en cuisson - 15 min",
+        "• Mettre de l’huile à chauffer dans un grand rondeau plat.",
+        "• Saler, poivrer et fariner les osso-buco.",
+        "• Les rissoler régulièrement sur les 2 faces.",
+        "• Déglacer et réduire le vin blanc.",
+        "• Mouiller avec le fond brun de veau et la sauce tomate.",
+        "• Ajouter l’ail haché et le bouquet garni.",
+        "• Vérifier l’assaisonnement et laisser cuire doucement à couvert au four à 200 °C durant 1 h 20 à 1 h 30 environ.",
+        "5. Marquer la fondue de tomates en cuisson - 15 min (voir p. 320)",
+        "6. Confectionner la « milanaise » - 15 min",
+        "• Éplucher, laver soigneusement et tailler les champignons en julienne.",
+        "• Parer, dégraisser si nécessaire et tailler le jambon et la langue écarlate en fine julienne.",
+        "• Suer légèrement au beurre.",
+        "• Ajouter le madère et laisser réduire.",
+        "• Ajouter le fond brun de veau lié tomaté et réduire la sauce durant quelques minutes.",
+        "• Vérifier l’assaisonnement puis monter la sauce légèrement au beurre.",
+        "• Tamponner puis réserver la sauce au bain-marie.",
+        "7. Marquer les spaghettis en cuisson - 10 min (voir p. 384/385)",
+        "• Cuire les spaghettis à découvert (à 10 min avant l’envoi du plat) dans une grande quantité d’eau bouillante salée.",
+        "• Les égoutter puis les lier rapidement à l’eau bouillante.",
+        "• Les saupoudrer de parmesan et réserver.",
+        "8. Effectuer les finitions - 10 min",
+        "• Laver les zestes d’orange et d’un demi-citron et les tailler en brunoise.",
+        "• Les blanchir quelques secondes puis les égoutter.",
+        "• Laver, canneler et détailler une orange en huit tranches régulières.",
+        "• Concasser, hacher et essorer le persil.",
+        "• Tamiser et réserver le parmesan saucière.",
+        "9. Terminer les osso-buco - 5 min",
+        "• S’assurer de leur cuisson et ajouter la brunoise de zestes d’orange et de citron dans le fond de braisage.",
+        "• Éliminer le bouquet garni.",
+        "• Dégraisser la sauce si nécessaire et vérifier l’assaisonnement.",
+        "10. Dresser les osso-buco milanaise - 5 min",
+        "• Dresser les osso-buco dans le plat de service.",
+        "• Les napper soigneusement avec la sauce.",
+        "• Disposer une tranche d’orange cannelée sur chaque osso-buco.",
+        "• Dresser les spaghettis légèrement en dôme dans un légumier.",
+        "• Servir à part la fondue de tomates, la sauce milanaise et le parmesan."
+    ]
+}

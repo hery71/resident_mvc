@@ -1,0 +1,185 @@
+{
+  "titre": "TRAVERS DE PORC LAQUÉ AU MIEL ET AU GINGEMBRE",
+  "type": "Viandes blanches pochées",
+  "page": 780,
+  "fiche": "77",
+  "denrees_pour_8_couverts": {
+    "Élément de base": [
+      {
+        "nom": "travers de porc frais",
+        "unite": "kg",
+        "quantite": "2"
+      }
+    ],
+    "Fond blanc": [
+      {
+        "nom": "eau",
+        "unite": "l",
+        "quantite": "PM"
+      },
+      {
+        "nom": "carottes",
+        "unite": "kg",
+        "quantite": "0,200"
+      },
+      {
+        "nom": "oignons",
+        "unite": "kg",
+        "quantite": "0,200"
+      },
+      {
+        "nom": "céleri en branches",
+        "unite": "kg",
+        "quantite": "0,100"
+      },
+      {
+        "nom": "blancs de poireaux",
+        "unite": "kg",
+        "quantite": "0,200"
+      },
+      {
+        "nom": "bouquet garni",
+        "unite": "P",
+        "quantite": "1"
+      },
+      {
+        "nom": "clous de girofle",
+        "unite": "P",
+        "quantite": "PM"
+      },
+      {
+        "nom": "ou",
+        "unite": "",
+        "quantite": ""
+      },
+      {
+        "nom": "fond blanc déshydraté",
+        "unite": "kg",
+        "quantite": "0,160"
+      }
+    ],
+    "Marinade": [
+      {
+        "nom": "miel toutes fleurs",
+        "unite": "kg",
+        "quantite": "0,040"
+      },
+      {
+        "nom": "oranges (2 pièces)",
+        "unite": "kg",
+        "quantite": "0,400"
+      },
+      {
+        "nom": "gingembre frais",
+        "unite": "kg",
+        "quantite": "0,040"
+      },
+      {
+        "nom": "quatre-épices (f)",
+        "unite": "kg",
+        "quantite": "PM"
+      },
+      {
+        "nom": "cardamome (f)",
+        "unite": "kg",
+        "quantite": "PM"
+      },
+      {
+        "nom": "gingembre poudre",
+        "unite": "kg",
+        "quantite": "0,005"
+      },
+      {
+        "nom": "fond blanc de la cuisson des travers",
+        "unite": "l",
+        "quantite": "1"
+      }
+    ],
+    "Finition de la sauce": [
+      {
+        "nom": "marinade",
+        "unite": "l",
+        "quantite": "PM"
+      },
+      {
+        "nom": "fond brun de veau lié et tomate",
+        "unite": "l",
+        "quantite": "0,50"
+      },
+      {
+        "nom": "ou",
+        "unite": "",
+        "quantite": ""
+      },
+      {
+        "nom": "fond brun lié déshydraté",
+        "unite": "kg",
+        "quantite": "0,040"
+      },
+      {
+        "nom": "tomato ketchup",
+        "unite": "l",
+        "quantite": "0,10"
+      },
+      {
+        "nom": "moutarde blanche",
+        "unite": "kg",
+        "quantite": "0,20"
+      }
+    ],
+    "Assaisonnement": [
+      {
+        "nom": "gros sel",
+        "unite": "",
+        "quantite": "PM"
+      },
+      {
+        "nom": "sel fin",
+        "unite": "",
+        "quantite": "PM"
+      },
+      {
+        "nom": "poivre du moulin",
+        "unite": "",
+        "quantite": "PM"
+      }
+    ]
+  },
+  "technique_de_realisation": [
+    "1. Mettre en place le poste de travail - 5 min",
+    "Denrées, matériels de préparation, de cuisson et de dressage.",
+    "2. Blanchir les morceaux de travers - 5 min",
+    "Les parer puis les détailler à raison de deux à trois morceaux par personne.",
+    "Les plonger dans l’eau froide et les blanchir durant 2 à 3 min. Écumer si nécessaire, les rafraîchir puis les égoutter.",
+    "3. Marquer les travers en cuisson - 10 min",
+    "Les pocher dans un fond blanc (voir p. 264/266).",
+    "Saler au gros sel, écumer et laisser frémir durant 1 h 20 à 1 h 30 min.",
+    "4. Préparer les zestes d’oranges et le gingembre - 10 min",
+    "Lever les zestes des oranges et réserver le jus.",
+    "Éplucher et tailler le gingembre en julienne fine.",
+    "Blanchir les zestes d’oranges et la julienne de gingembre.",
+    "5. Réaliser la base de la sauce et mettre les travers de porc en mar-",
+    "nade - 10 min",
+    "Réaliser un caramel blond avec le miel.",
+    "Déglacer avec le jus d’orange.",
+    "Ajouter les zestes d’oranges, la julienne de gingembre et les épices.",
+    "Verser 1 litre de la cuisson des travers.",
+    "Laisser refroidir rapidement.",
+    "Ranger les travers dans une plaque et les recouvrir avec la marinade.",
+    "Filmer et réserver les travers en enceinte réfrigérée durant quelques heures.",
+    "6. Terminer la sauce des travers - 10 min",
+    "Les égoutter et verser la marinade dans une grande sauteuse, la réduire et la lier avec le fond brun de veau lié ou le fond brun déshydraté.",
+    "Réduire à nouveau.",
+    "Ajouter le tomato ketchup et une pointe de moutarde.",
+    "Vérifier l’assaisonnement.",
+    "Passer la sauce au chinois étamine et la réserver au bain-marie à couvert, à plus de + 63 °C.",
+    "7. Glacer les travers - 6 min",
+    "Les glacer sous la salamandre en les arrosant sans discontinuar avec la sauce. Ils doivent être bien caramélisés et brillants.",
+    "8. Dresser les travers de porc - 4 min",
+    "Les dresser sur un grand plat long en les chevauchant légèrement.",
+    "Passer le plat à l’entrée du four.",
+    "Napper avec le reste de la sauce."
+  ],
+  "duree_moyenne_preparation": "1 h",
+  "duree_moyenne_cuisson": "1 h 20 à 1 h 30 min"
+}

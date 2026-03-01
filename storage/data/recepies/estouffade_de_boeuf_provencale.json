@@ -1,0 +1,84 @@
+{
+    "file_name": "estouffade_de_boeuf_provencale.json",
+    "titre": "ESTOUFFADE DE BŒUF PROVENÇALE",
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "viande de bœuf (morceaux de 0,050 kg)",
+                "quantite": 0.05,
+                "unite": "kg"
+            },
+            {
+                "nom": "vin blanc réduit et flambé",
+                "quantite": 0.75,
+                "unite": "l"
+            },
+            {
+                "nom": "fond brun de veau clair",
+                "quantite": 0.8,
+                "unite": "l"
+            }
+        ],
+        "garniture_provencale": [
+            {
+                "nom": "huile",
+                "quantite": 0.04,
+                "unite": "l"
+            },
+            {
+                "nom": "oignons ciselés",
+                "quantite": 0.4,
+                "unite": "kg"
+            },
+            {
+                "nom": "tomates mondées, épépinées et concassées",
+                "quantite": 0.8,
+                "unite": "kg"
+            },
+            {
+                "nom": "ail",
+                "quantite": 4,
+                "unite": "gousses"
+            },
+            {
+                "nom": "bouquet garni",
+                "quantite": 1,
+                "unite": "pièce"
+            },
+            {
+                "nom": "olives vertes",
+                "quantite": 0.2,
+                "unite": "kg"
+            }
+        ]
+    },
+    "technique": [
+        "1. Mettre en place le poste de travail",
+        "2. Vérifier et parer la viande si nécessaire",
+        "• La détailler en morceaux de 0,050 kg.",
+        "• Préparer la garniture aromatique.",
+        "• Voir ci-contre (estouffade de bœuf bourguignonne).",
+        "4. Marquer l’estouffade en cuisson",
+        "• Rissoler la viande sur toutes ses faces dans une grande sauteuse avec de l’huile d’olive.",
+        "• Dégraisser soigneusement, singer puis torréfier la farine en plaçant la sauteuse au four durant quelques minutes.",
+        "• Ajouter 0,400 kg d’oignons ciselés et les mélanger à l’aide d’une petite écumoire.",
+        "• Mouiller avec 0,75 l de vin blanc réduit et flambé, et 0,80 l de fond brun de veau clair.",
+        "• Ajouter 8 gousses d’ail écrasées et le bouquet garni.",
+        "• Saler et poivrer, puis cuire l’estouffade à couvert au four à 200 °C pendant 1 h 30 min suivant la qualité de la viande (surveiller attentivement la réduction de la sauce et remuer de temps en temps pendant la cuisson).",
+        "5. Préparer la garniture",
+        "• Réaliser une fondue de tomates (voir p. 320/327) avec 0,04 l d’huile, 0,400 kg d’oignons ciselés, 0,800 kg de tomates mondées, épépinées et concassées, 4 gousses d’ail et un bouquet garni.",
+        "• Dénoyauter 0,200 kg d’olives vertes et les blanchir départ eau froide durant quelques minutes.",
+        "6. Décanter l’estouffade",
+        "• Passer les lardons à la viande.",
+        "• Décanter les morceaux dans une autre sauteuse.",
+        "• Dégraisser la sauce, vérifier sa liaison et son assaisonnement, puis la passer au chinois étamine sur les morceaux de viande.",
+        "• Ajouter les 3/4 de la fondue de tomates et laisser mijoter l’estouffade durant quelques minutes.",
+        "• Ajouter en dernier des olives et réserver l’estouffade à couvert au bain-marie.",
+        "7. Concasser, essorer et hacher le persil",
+        "8. Dresser l’estouffade de bœuf provençale",
+        "• Dresser la viande légèrement en dôme dans une cocotte ou dans un légumier.",
+        "• Répartir la garniture sur le dessus. Recouvrir de sauce.",
+        "• Placer une pointe de persil haché au centre de la fondue de tomates.",
+        "• Servir avec un risotto milanaise, des pâtes fraîches à la tomate, de la polenta ou de la semoule de blé."
+    ]
+}

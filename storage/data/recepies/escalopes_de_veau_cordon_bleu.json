@@ -1,0 +1,84 @@
+{
+  "titre": "ESCALOPES DE VEAU « CORDON BLEU »",
+  "type": "Viandes sautées et panées",
+  "denrees_pour_8_couverts": {
+    "elements_de_base": [
+      {
+        "nom": "escalopes de veau (8 pièces de 0,060 à 0,070 kg)",
+        "quantite": "8",
+        "unite": "pièce"
+      },
+      {
+        "nom": "jambon de Paris (tranches)",
+        "quantite": "8",
+        "unite": "pièce"
+      },
+      {
+        "nom": "fromage en tranches",
+        "quantite": "8",
+        "unite": "pièce"
+      },
+      {
+        "nom": "beurre",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "huile",
+        "quantite": "PM",
+        "unite": ""
+      }
+    ],
+    "panure_a_l_anglaise": [
+      {
+        "nom": "farine",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "œufs",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "mie de pain",
+        "quantite": "PM",
+        "unite": ""
+      }
+    ],
+    "assaisonnement": [
+      {
+        "nom": "sel fin",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "poivre du moulin",
+        "quantite": "PM",
+        "unite": ""
+      }
+    ]
+  },
+  "technique_de_realisation": [
+    "1. Préparer les escalopes.",
+    "Détailler 16 petites escalopes de 0,060 à 0,070 kg.",
+    "Les aplatir entre 2 feuilles de papier plastifié légèrement humidifiées.",
+    "Leur donner une forme ovale et très régulière.",
+    "2. Réaliser le montage des escalopes.",
+    "Recouvrir la planche à découper d’une feuille de papier sulfurisé humide ou d’un film plastique alimentaire.",
+    "Disposer 8 escalopes (choisir les plus petites s’il y a lieu).",
+    "Les badigeonner avec de l’œuf entier battu et les assaisonner.",
+    "Les recouvrir d’une fine tranche de jambon très légèrement fumé et sous salé.",
+    "Parer les tranches de jambon de manière à ce qu’elles soient légèrement plus petites que les escalopes.",
+    "Placer une fine tranche de gruyère sur chaque tranche de jambon.",
+    "Recouvrir d’une autre fine tranche de jambon, puis badigeonner à nouveau d’œuf battu à l’aide d’un pinceau.",
+    "Recouvrir avec les autres escalopes (plus grandes de préférence) et bien souder les bords en appuyant fortement.",
+    "3. Paner les escalopes à l’anglaise.",
+    "Bien faire adhérer la mie de pain et les quadriller avec le dos d’un gros couteau.",
+    "4. Marquer les escalopes en cuisson.",
+    "Sauter les escalopes dans un mélange de beurre et d’huile.",
+    "Placer le côté quadrillé en premier, le laisser bien dorer, puis retourner les escalopes et finir la cuisson à feu plus modéré.",
+    "5. Dresser les escalopes.",
+    "Les arroser de beurre noisette et de jus de citron, disposer une lamelle de citron pelé à vif sur chaque escalope."
+  ]
+}

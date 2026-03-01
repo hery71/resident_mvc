@@ -1,0 +1,138 @@
+{
+  "titre": "MÉDAILLONS DE VEAU DUROC",
+  "type": "Viandes blanches sautées, sauce brune par déglaçage",
+  "page": 798,
+  "denrees_pour_8_couverts": {
+    "elements_de_base": [
+      {
+        "nom": "médaillons de veau (8 x 0,150 kg)",
+        "quantite": "1,200",
+        "unite": "kg"
+      },
+      {
+        "nom": "farine",
+        "quantite": "0,080",
+        "unite": "kg"
+      },
+      {
+        "nom": "beurre",
+        "quantite": "0,080",
+        "unite": "kg"
+      }
+    ],
+    "sauce": [
+      {
+        "nom": "échalotes",
+        "quantite": "0,040",
+        "unite": "kg"
+      },
+      {
+        "nom": "champignons de Paris",
+        "quantite": "0,250",
+        "unite": "kg"
+      },
+      {
+        "nom": "cognac",
+        "quantite": "0,05",
+        "unite": "l"
+      },
+      {
+        "nom": "vin blanc",
+        "quantite": "0,10",
+        "unite": "l"
+      },
+      {
+        "nom": "fond brun de veau lié",
+        "quantite": "0,40",
+        "unite": "l"
+      },
+      {
+        "nom": "estragon",
+        "quantite": "1/4",
+        "unite": "botte"
+      },
+      {
+        "nom": "cerfeuil",
+        "quantite": "1/4",
+        "unite": "botte"
+      }
+    ],
+    "fondue_de_tomates": [
+      {
+        "nom": "beurre",
+        "quantite": "0,040",
+        "unite": "kg"
+      },
+      {
+        "nom": "échalotes",
+        "quantite": "0,040",
+        "unite": "kg"
+      },
+      {
+        "nom": "tomates (grosses)",
+        "quantite": "0,800",
+        "unite": "kg"
+      },
+      {
+        "nom": "bouquet garni",
+        "quantite": "1",
+        "unite": "pièce"
+      },
+      {
+        "nom": "ail",
+        "quantite": "2",
+        "unite": "gousses"
+      }
+    ],
+    "assaisonnement": [
+      {
+        "nom": "sel fin",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "poivre du moulin",
+        "quantite": "PM",
+        "unite": ""
+      }
+    ]
+  },
+  "technique_de_realisation": [
+    "1. Mettre en place le poste de travail - 5 min",
+    "Denrées, matériels de préparation, de cuisson et de dressage.",
+    "2. Préparer la viande - 10 min (voir p. 225/226)",
+    "Régulariser l’épaisseur des médaillons à l’aide d’une batte à côtelettes.",
+    "Les ficeler pour leur donner une forme bien ronde, puis les réserver en enceinte réfrigérée.",
+    "3. Préparer les légumes - 30 min",
+    "Laver et réserver les fines herbes au frais.",
+    "Émincer les pédoncules, monder, rafraîchir et égoutter les tomates.",
+    "Éplucher, laver et ciseler finement les échalotes.",
+    "Laver, équeuter, essorer, concasser et hacher le persil.",
+    "Confectionner un petit bouquet garni.",
+    "Éplucher, dégermer et ciseler les 2 gousses d’ail.",
+    "Suer les échalotes avec le beurre et ajouter les tomates et l’ail.",
+    "4. Marquer la fondue de tomates en cuisson - 10 min (voir p. 320)",
+    "5. Marquer les médaillons de veau en cuisson - 15 min",
+    "Saler, poivrer et fariner les médaillons. Bien les tapoter pour enlever l’excédent de farine.",
+    "Les faire sauter doucement dans un sautoir avec le beurre (surveiller attentivement la cuisson, les sucs doivent être caramélisés mais sans excès).",
+    "Cuire les médaillons durant 6 à 7 min sur chaque face puis les débarrasser sur une plaque munie d’une petite grille ou d’une assiette retournée.",
+    "6. Laver soigneusement et émincer les champignons - 5 min",
+    "7. Confectionner la sauce - 10 min",
+    "Dégraisser partiellement le sautoir.",
+    "Ajouter les champignons émincés et les sauter rapidement en évitant de faire pincer exagérément les sucs au fond du sautoir.",
+    "Ajouter les échalotes ciselées et les suer légèrement sans coloration.",
+    "Flamber avec le cognac.",
+    "Déglacer avec le vin blanc et le laisser réduire.",
+    "Ajouter le fond brun de veau lié et réduire à nouveau la sauce à feu doux pendant quelques minutes.",
+    "Incorporer un peu de fondue de tomates à la sauce puis la monter au beurre hors du feu.",
+    "8. Préparer les herbes - 5 min",
+    "Effleurer et hacher le cerfeuil et l’estragon.",
+    "9. Dresser les médaillons de veau - 5 min",
+    "Ajouter les herbes hachées à la sauce.",
+    "Disposer les médaillons dans un grand plat rond.",
+    "Les napper uniformément avec la sauce.",
+    "Disposer sur chaque médaillon un petit bouquet de fondue de tomates et leur ajouter une petite pointe de persil haché."
+  ],
+  "duree_moyenne_preparation": "1 h 45 min",
+  "duree_moyenne_cuisson": "12 à 14 min"
+}

@@ -1,0 +1,98 @@
+{
+    "file_name": "poulet_saute_facon_basquaise.json",
+    "titre": "POULET SAUTÉ FAÇON BASQUAISE",
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "poulet",
+                "quantite": 1,
+                "unite": "pièce"
+            }
+        ],
+        "garniture_basquaise": [
+            {
+                "nom": "oignons",
+                "quantite": 0.25,
+                "unite": "kg"
+            },
+            {
+                "nom": "tomates",
+                "quantite": 0.6,
+                "unite": "kg"
+            },
+            {
+                "nom": "poivrons d’Espagne verts et rouges",
+                "quantite": 0.4,
+                "unite": "kg"
+            },
+            {
+                "nom": "ail",
+                "quantite": 4,
+                "unite": "gousses"
+            },
+            {
+                "nom": "jambon de Bayonne",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "bouquet garni",
+                "quantite": 1,
+                "unite": "pièce"
+            }
+        ],
+        "cuisson": [
+            {
+                "nom": "huile d’olive",
+                "quantite": 0.05,
+                "unite": "l"
+            },
+            {
+                "nom": "fond brun de volaille légèrement lié et tomaté",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "vin blanc",
+                "quantite": 0.1,
+                "unite": "l"
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel fin",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "poivre du moulin",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ]
+    },
+    "technique": [
+        "1. Habiller, découper les poulets à cru",
+        "2. Marquer un fond de volaille légèrement lié et tomaté (comme il est indiqué pour le «poulet sauté chasseur»).",
+        "3. Préparer la garniture basquaise",
+        "• Éplucher, laver et émincer finement 0,250 kg d’oignons.",
+        "• Monder, épépiner et concasser 0,600 kg de tomates.",
+        "• Monder, épépiner et détailler 0,400 kg de piments d’Espelette en grosses julienne (ou 0,400 kg de poivrons doux verts et rouges).",
+        "• Éplucher, laver et dégermer 4 gousses d’ail. Confectionner un petit bouquet garni avec une dominante en thym.",
+        "• Tailler une tranche épaisse de jambon de Bayonne en lardons (en gardant de préférence le gras), les blanchir départ eau froide.",
+        "4. Réaliser la garniture basquaise",
+        "• Chauffer 0,05 l d’huile d’olive dans une sauteuse, y ajouter le jambon de Bayonne, le faire revenir légèrement.",
+        "• Ajouter les oignons, les laisser pincer.",
+        "• Ajouter les piments, la tomate concassée, l’ail, le bouquet garni et l’assaisonnement.",
+        "• Cuire la garniture basquaise jusqu’à l’évaporation complète de l’eau de constitution des légumes.",
+        "5. Marquer le poulet sauté en cuisson",
+        "• Observer les mêmes précautions que pour le «poulet sauté chasseur». Débarrasser les ailes en premier.",
+        "6. Terminer la sauce du poulet",
+        "• S’assurer de sa cuisson et débarrasser les morceaux.",
+        "• Dégraisser le récipient de cuisson.",
+        "• Déglacer avec 0,10 l de vin blanc et le laisser réduire des 3/4.",
+        "• Ajouter le fond brun de volaille et le laisser réduire à nouveau.",
+        "• Ajouter la garniture basquaise et laisser mijoter durant quelques minutes.",
+        "• Placer les morceaux de poulet sur la garniture afin de les parfumer et de les remettre en température."
+    ]
+}

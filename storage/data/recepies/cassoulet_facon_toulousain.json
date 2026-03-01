@@ -1,0 +1,184 @@
+{
+    "file_name": "cassoulet_facon_toulousain.json",
+    "titre": "CASSOULET «FAÇON» TOULOUSAIN",
+    "bandeau": "Ragoût à brun",
+    "fiche": 103,
+    "page": 832,
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "tarbais, lingots ou cocos",
+                "unite": "kg",
+                "quantite": 0.4
+            },
+            {
+                "nom": "carottes",
+                "unite": "kg",
+                "quantite": 0.16
+            },
+            {
+                "nom": "oignons",
+                "unite": "kg",
+                "quantite": 0.16
+            },
+            {
+                "nom": "clous de girofle",
+                "unite": "pièce",
+                "quantite": 2
+            },
+            {
+                "nom": "bouquet garni",
+                "unite": "pièce",
+                "quantite": 1
+            },
+            {
+                "nom": "ail (2 gousses)",
+                "unite": "kg",
+                "quantite": 0.015
+            },
+            {
+                "nom": "poitrine de porc demi-sel",
+                "unite": "kg",
+                "quantite": 0.2
+            },
+            {
+                "nom": "couenne grasse de porc",
+                "unite": "kg",
+                "quantite": 0.16
+            },
+            {
+                "nom": "graisse d’oie à pocher",
+                "unite": "kg",
+                "quantite": 0.2
+            }
+        ],
+        "garniture": [
+            {
+                "nom": "cuisses de canard confites (4 pièces)",
+                "unite": "kg",
+                "quantite": 0.6
+            },
+            {
+                "nom": "graisse d’oie ou de canard",
+                "unite": "kg",
+                "quantite": 0.04
+            }
+        ],
+        "ragout_d_agneau": [
+            {
+                "nom": "épaule d’agneau désossée",
+                "unite": "kg",
+                "quantite": 0.8
+            },
+            {
+                "nom": "collier détaillé en morceaux de 0,050 kg",
+                "unite": "kg",
+                "quantite": 0.8
+            },
+            {
+                "nom": "oignons",
+                "unite": "kg",
+                "quantite": 0.16
+            },
+            {
+                "nom": "ail (4 gousses)",
+                "unite": "kg",
+                "quantite": 0.03
+            },
+            {
+                "nom": "tomates grossières",
+                "unite": "kg",
+                "quantite": 0.4
+            },
+            {
+                "nom": "bouquet garni",
+                "unite": "pièce",
+                "quantite": 1
+            },
+            {
+                "nom": "cuisson des haricots",
+                "unite": "l",
+                "quantite": "PM"
+            },
+            {
+                "nom": "fond blanc de volaille",
+                "unite": "l",
+                "quantite": "PM"
+            }
+        ],
+        "saucisses_de_toulouse": [
+            {
+                "nom": "saucisses de Toulouse (4 pièces)",
+                "unite": "kg",
+                "quantite": 0.4
+            }
+        ],
+        "finition": [
+            {
+                "nom": "ail (2 gousses)",
+                "unite": "kg",
+                "quantite": 0.015
+            },
+            {
+                "nom": "mie de pain",
+                "unite": "kg",
+                "quantite": 0.04
+            },
+            {
+                "nom": "graisse de confit",
+                "unite": "kg",
+                "quantite": "PM"
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "gros sel",
+                "unite": "",
+                "quantite": "PM"
+            },
+            {
+                "nom": "sel fin",
+                "unite": "",
+                "quantite": "PM"
+            },
+            {
+                "nom": "poivre du moulin",
+                "unite": "",
+                "quantite": "PM"
+            }
+        ]
+    },
+    "technique": [
+        "1. Mettre en place le poste de travail - 5 min",
+        "• Denrées, matériels de préparation, de cuisson et de dressage.",
+        "2. Préparer les haricots - 15 min",
+        "• Laver et tremper les haricots blancs durant quelques heures, les rincer et les blanchir éventuellement si nécessaire.",
+        "• Les marquer en cuisson avec les carottes, les oignons piqués, le bouquet garni, la poitrine de porc demi-sel blanchie et les couennes de porc blanchies, ficelées en paquet.",
+        "• Mener la cuisson des haricots très lentement afin qu’ils restent entiers, 20 min avant la fin de la cuisson, assaisonner et ajouter un petit saucisson à l’ail blanchi.",
+        "3. Marquer le cassoulet en cuisson - 15 min",
+        "• Dans un grand rondeau, faire revenir les cuisses de canard confites dans leur graisse.",
+        "• Les débarrasser et les réserver à couvert.",
+        "• Rissoler ensuite dans la graisse du confit l’épaule et le collier détaillés en morceaux de 0,050 kg.",
+        "• Débarrasser partiellement et ajouter les oignons ciselés, suer sans coloration, puis ajouter 4 gousses d’ail écrasées et les tomates mondées, épépinées et concassées.",
+        "• Mouiller avec 1,50 l de la cuisson des haricots ou à défaut du fond blanc de volaille.",
+        "• Assaisonner et ajouter le bouquet garni.",
+        "• Cuire lentement au four et à couvert durant 1 h à 1 h 20 min.",
+        "4. Terminer les éléments du cassoulet - 15 min",
+        "• Égoutter les haricots et réserver au chaud.",
+        "• Décanter la viande et ajouter les haricots, passer la sauce au chinois et laisser réduire durant environ 20 min.",
+        "• Détailler le lard et le saucisson en tranches d’1 cm d’épaisseur, et les dorer en poêle dans la graisse.",
+        "• Sauter les morceaux de confit.",
+        "• Griller les saucisses de Toulouse seulement sur 1 côté.",
+        "5. Réaliser le montage - 12 min",
+        "• Frotter à l’ail 2 grands plats creux en terre (cassoles).",
+        "• Passer un peu de graisse de confit sur les parois et tapisser le fond et les côtés avec les couennes de porc.",
+        "• Disposer une couche de haricots, puis la viande en alternant le mouton, le confit et les tranches de saucisson, un peu de sauce et une autre couche de haricots.",
+        "• Saupoudrer de mie de pain tamisée et arroser de graisse de confit.",
+        "• Placer les plats dans un four doux (120 °C) durant 1 h 30 à 2 h.",
+        "• Briser et reformer la croûte (6 gratins) dans le cassoulet lorsqu’elle est bien dorée et rajouter un peu de cuisson si nécessaire.",
+        "• Recommencer le gratin et le briser une 2e fois.",
+        "• Disposer les cassoles et servir bien croustillantes, le cassoulet est prêt.",
+        "6. Dresser le cassoulet - 3 min",
+        "• Disposer le plat brûlant sur un dessous de plat rond recouvert d’un papier gaufré."
+    ]
+}

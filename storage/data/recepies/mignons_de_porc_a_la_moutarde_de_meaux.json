@@ -1,0 +1,79 @@
+{
+  "titre": "MIGNONS DE PORC À LA MOUTARDE DE MEAUX",
+  "type": "Viandes blanches sautées",
+  "denrees_pour_8_couverts": {
+    "elements_de_base": [
+      {
+        "nom": "filets mignons de porc",
+        "quantite": "1,200",
+        "unite": "kg"
+      }
+    ],
+    "sauce": [
+      {
+        "nom": "échalotes ciselées",
+        "quantite": "0,050",
+        "unite": "kg"
+      },
+      {
+        "nom": "vin blanc",
+        "quantite": "0,10",
+        "unite": "l"
+      },
+      {
+        "nom": "fond brun de veau lié ou fond brun de veau",
+        "quantite": "0,40",
+        "unite": "l"
+      },
+      {
+        "nom": "crème",
+        "quantite": "0,10",
+        "unite": "l"
+      },
+      {
+        "nom": "moutarde blanche",
+        "quantite": "0,020",
+        "unite": "kg"
+      },
+      {
+        "nom": "moutarde en grains (à l’ancienne)",
+        "quantite": "0,040",
+        "unite": "kg"
+      }
+    ],
+    "assaisonnement": [
+      {
+        "nom": "sel fin",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "poivre du moulin",
+        "quantite": "PM",
+        "unite": ""
+      }
+    ]
+  },
+  "technique_de_realisation": [
+    "1. Préparer les filets mignons de porc.",
+    "Les dégraisser, les dénerver et les détailler en noisettes de 0,050 kg chacune à raison de 3 par personne.",
+    "2. Marquer les mignons de porc en cuisson.",
+    "Les assaisonner et les sauter au beurre clarifié.",
+    "Surveiller attentivement la cuisson, ils doivent être cuits mais sans excès car ils sèchent très facilement.",
+    "Les débarrasser et les réserver au chaud à couvert.",
+    "3. Réaliser la sauce.",
+    "Dégraisser partiellement le sautoir.",
+    "Ajouter 0,050 kg d’échalotes ciselées.",
+    "Les suer sans coloration.",
+    "Déglacer avec 0,10 l de vin blanc et le réduire des 2/3.",
+    "Ajouter 0,40 l de sauce espagnole ou de fond brun de veau lié, puis 0,10 l de crème.",
+    "Réduire et vérifier l’assaisonnement.",
+    "4. Terminer la sauce.",
+    "Ajouter hors du feu 0,020 kg de moutarde blanche et ne plus faire bouillir.",
+    "Passer la sauce au chinois étamine dans un petit bain-marie.",
+    "Lui ajouter 0,020 kg de moutarde en grains “à l’ancienne” et la monter avec 0,040 kg de beurre.",
+    "5. Dresser les mignons de porc.",
+    "Les disposer en couronne et les napper uniformément.",
+    "Servir avec des pâtes fraîches liées au beurre."
+  ]
+}

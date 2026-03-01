@@ -1,0 +1,88 @@
+{
+  "titre": "MÉDAILLONS DE VEAU CRESSONNIÈRE",
+  "type": "Viandes blanches sautées",
+  "page": 799,
+  "denrees_pour_8_couverts": {
+    "elements_de_base": [
+      {
+        "nom": "filet de veau",
+        "quantite": "1,200 (pour 24 médaillons de 0,050 kg)",
+        "unite": "kg"
+      }
+    ],
+    "garniture": [
+      {
+        "nom": "carottes",
+        "quantite": "0,800",
+        "unite": "kg"
+      },
+      {
+        "nom": "navets",
+        "quantite": "0,800",
+        "unite": "kg"
+      },
+      {
+        "nom": "petits pois écossés",
+        "quantite": "1,200",
+        "unite": "kg"
+      },
+      {
+        "nom": "cresson",
+        "quantite": "1",
+        "unite": "botte"
+      }
+    ],
+    "sauce": [
+      {
+        "nom": "échalote",
+        "quantite": "1",
+        "unite": "pièce"
+      },
+      {
+        "nom": "vin blanc",
+        "quantite": "0,05",
+        "unite": "l"
+      },
+      {
+        "nom": "fond brun de veau lié",
+        "quantite": "0,10",
+        "unite": "l"
+      },
+      {
+        "nom": "crème",
+        "quantite": "0,10",
+        "unite": "l"
+      },
+      {
+        "nom": "beurre",
+        "quantite": "0,025",
+        "unite": "kg"
+      }
+    ]
+  },
+  "technique_de_realisation": [
+    "1. Préparer la viande.",
+    "Parer la longe et tailler 24 petits médaillons réguliers de 0,050 kg chacun.",
+    "2. Préparer les garnitures.",
+    "Éplucher, laver et tourner 0,800 kg de carottes et 0,800 kg de navets.",
+    "Les cuire séparément par glaçage à blanc.",
+    "Éplucher, laver et cuire 1,200 kg de petits pois écossés à l’anglaise.",
+    "3. Préparer le cresson.",
+    "Laver et trier les feuilles d’une botte de cresson.",
+    "Les blanchir dans une grande quantité d’eau bouillante salée et les rafraîchir aussitôt.",
+    "Passer le cresson au mixeur.",
+    "4. Marquer les médaillons en cuisson.",
+    "Procéder comme dans la recette ci-contre, mais ne les laisser cuire que 3 min sur chaque face.",
+    "Les réserver au chaud.",
+    "5. Confectionner la sauce.",
+    "Dégraisser le sautoir, ajouter l’échalote ciselée et la laisser suer.",
+    "Déglacer avec 0,05 l de vin blanc et le laisser réduire.",
+    "Ajouter 0,10 l de fond brun de veau lié et 0,25 l de crème.",
+    "Réduire et ajouter la purée de cresson. Ôter la sauteuse du feu pour préserver la couleur et monter la sauce au beurre.",
+    "Vérifier l’onctuosité et l’assaisonnement.",
+    "6. Dresser les médaillons de veau.",
+    "Disposer 3 médaillons par assiette.",
+    "Napper de sauce, poser une feuille de cresson blanchie sur chaque médaillon.",
+    "Disposer harmonieusement les légumes autour."
+  ]
+}

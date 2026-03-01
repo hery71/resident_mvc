@@ -1,0 +1,209 @@
+{
+    "file_name": "poulets_sautes_facon_vallee_d_auge.json",
+    "titre": "POULETS SAUTÉS FAÇON VALLÉE D’AUGE",
+    "bandeau": "Volailles sautées à blanc",
+    "fiche": 110,
+    "page": 848,
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "poulets labellisés (P.A.C.) (2 x 1,200 à 1,400 kg)",
+                "unite": "kg",
+                "quantite": 2.4
+            },
+            {
+                "nom": "farine",
+                "unite": "kg",
+                "quantite": 0.1
+            },
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": 0.08
+            }
+        ],
+        "fond_blanc_de_volaille": [
+            {
+                "nom": "carcasses et abattis",
+                "unite": "",
+                "quantite": "PM"
+            },
+            {
+                "nom": "carottes",
+                "unite": "kg",
+                "quantite": 0.2
+            },
+            {
+                "nom": "oignons",
+                "unite": "kg",
+                "quantite": 0.2
+            },
+            {
+                "nom": "clous de girofle",
+                "unite": "pièce",
+                "quantite": 2
+            },
+            {
+                "nom": "céleri en branches",
+                "unite": "kg",
+                "quantite": 0.1
+            },
+            {
+                "nom": "blancs de poireaux",
+                "unite": "kg",
+                "quantite": 0.2
+            },
+            {
+                "nom": "bouquet garni",
+                "unite": "pièce",
+                "quantite": 1
+            }
+        ],
+        "sauce": [
+            {
+                "nom": "échalotes grises de Jersey (2 pièces)",
+                "unite": "kg",
+                "quantite": 0.05
+            },
+            {
+                "nom": "pommes",
+                "unite": "kg",
+                "quantite": "PM"
+            },
+            {
+                "nom": "calvados",
+                "unite": "l",
+                "quantite": 0.05
+            },
+            {
+                "nom": "cidre sec",
+                "unite": "l",
+                "quantite": 0.5
+            },
+            {
+                "nom": "fond blanc de volaille",
+                "unite": "l",
+                "quantite": 0.2
+            },
+            {
+                "nom": "velouté de volaille (facultatif)",
+                "unite": "l",
+                "quantite": 0.2
+            },
+            {
+                "nom": "crème épaisse",
+                "unite": "l",
+                "quantite": 0.3
+            },
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": 0.02
+            }
+        ],
+        "garniture": [
+            {
+                "nom": "pommes (reine des reinettes ou caville blanche)",
+                "unite": "kg",
+                "quantite": 1.6
+            },
+            {
+                "nom": "citron",
+                "unite": "kg",
+                "quantite": 0.1
+            },
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": 0.1
+            },
+            {
+                "nom": "sucre",
+                "unite": "kg",
+                "quantite": 0.1
+            },
+            {
+                "nom": "petits oignons",
+                "unite": "kg",
+                "quantite": 0.2
+            },
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": 0.01
+            },
+            {
+                "nom": "sucre",
+                "unite": "kg",
+                "quantite": 0.01
+            },
+            {
+                "nom": "champignons de Paris",
+                "unite": "kg",
+                "quantite": 0.2
+            },
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": 0.02
+            },
+            {
+                "nom": "citron (1/2 pièce)",
+                "unite": "kg",
+                "quantite": 0.05
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel fin",
+                "unite": "",
+                "quantite": "PM"
+            },
+            {
+                "nom": "poivre blanc",
+                "unite": "",
+                "quantite": "PM"
+            }
+        ]
+    },
+    "technique": [
+        "(Voir p. 406/407)",
+        "1. Mettre en place le poste de travail - 5 min",
+        "• Denrées, matériels de préparation, de cuisson et de dressage.",
+        "2. Habiller et découper les volailles à cru - 30 min (voir p. 237/402 et 426/426)",
+        "3. Réaliser un fond blanc de volaille avec les carcasses et les abattis - 15 min (voir p. 264/265)",
+        "4. Marquer le poulet sauté en cuisson - 10 min",
+        "• Saler, poivrer et fariner les morceaux de poulet.",
+        "• Faire blondir très légèrement le beurre dans un rondeau.",
+        "• Disposer les morceaux de volaille côté peau en premier et les faire raidir très lentement.",
+        "• Retourner les morceaux et laisser blondir l’autre face.",
+        "• Couvrir le récipient et terminer la cuisson au four durant une quinzaine de minutes (retirer les ailes quelques minutes avant les cuisses).",
+        "5. Préparer la garniture - 20 min",
+        "• Éplucher, laver et glacer les petits oignons à blanc (voir p. 395).",
+        "• Éplucher, laver, escaloper et cuire les champignons à blanc (voir p. 390).",
+        "• Éplucher, laver et ciseler finement les échalotes.",
+        "• Éplucher, évider et citronner les pommes.",
+        "• Les détailler en tranches régulières d’1 cm d’épaisseur.",
+        "• Les faire sauter au beurre et les réserver pour la sauce.",
+        "6. Sauter les tranches de pommes - 10 min",
+        "• Les sauter au beurre noisette, les caraméliser légèrement et les maintenir fermes.",
+        "7. Réaliser la sauce - 15 min",
+        "• S’assurer de la cuisson des morceaux de poulet, les débarrasser et les maintenir au chaud.",
+        "• Dégraisser partiellement le récipient de cuisson.",
+        "• Ajouter les échalotes grises ciselées et la brunoise de pommes.",
+        "• Les faire suer délicatement quelques minutes.",
+        "• Déglacer avec le calvados et le laisser réduire des 2/3.",
+        "• Ajouter le fond blanc de volaille corsé.",
+        "• Mouiller le velouté de volaille (facultatif).",
+        "• Réduire à nouveau et monter légèrement à la crème.",
+        "• Passer la sauce au chinois étamine.",
+        "• Monter la sauce au beurre en la vannant légèrement (pour un velouté nappant).",
+        "• Vérifier l’assaisonnement.",
+        "• Verser la sauce sur les morceaux.",
+        "8. Dresser - 5 min",
+        "• Disposer les morceaux de poulet en dirigeant les manches des ailes et des pilons vers le centre du plat.",
+        "• Disposer les tranches de pommes sautées.",
+        "• Répartir uniformément la garniture sur les morceaux de volaille.",
+        "• Napper légèrement."
+    ]
+}

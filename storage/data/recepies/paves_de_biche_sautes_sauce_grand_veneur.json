@@ -1,0 +1,162 @@
+{
+  "titre": "PAVÉS DE BICHE SAUTÉS, SAUCE GRAND VENEUR",
+  "type": "Viande de gibier sautée",
+  "denrees_pour_8_couverts": {
+    "elements_de_base": [
+      {
+        "nom": "pavés de biche (8 x 0,150 kg)",
+        "quantite": "1,200",
+        "unite": "kg"
+      },
+      {
+        "nom": "parures maigres de gibier",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "huile",
+        "quantite": "0,040",
+        "unite": "l"
+      },
+      {
+        "nom": "beurre",
+        "quantite": "0,020",
+        "unite": "kg"
+      }
+    ],
+    "marinade": [
+      {
+        "nom": "vin rouge",
+        "quantite": "1",
+        "unite": "bouteille"
+      },
+      {
+        "nom": "vinaigre de vin",
+        "quantite": "0,04",
+        "unite": "l"
+      },
+      {
+        "nom": "cognac",
+        "quantite": "0,04",
+        "unite": "l"
+      },
+      {
+        "nom": "carottes",
+        "quantite": "0,200",
+        "unite": "kg"
+      },
+      {
+        "nom": "oignons",
+        "quantite": "0,200",
+        "unite": "kg"
+      },
+      {
+        "nom": "bouquet garni avec céleri",
+        "quantite": "1",
+        "unite": "pièce"
+      },
+      {
+        "nom": "baies de genièvre",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "clous de girofle",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "poivre en grains",
+        "quantite": "PM",
+        "unite": ""
+      }
+    ],
+    "sauce_pour_parure": [
+      {
+        "nom": "beurre",
+        "quantite": "0,020",
+        "unite": "kg"
+      },
+      {
+        "nom": "parures de gibier",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "garniture aromatique de la marinade",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "fond brun de veau lié ou sauce espagnole",
+        "quantite": "1,5",
+        "unite": "l"
+      }
+    ],
+    "finition_sauce": [
+      {
+        "nom": "crème liquide",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "gelée de groseille",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "beurre",
+        "quantite": "PM",
+        "unite": ""
+      }
+    ],
+    "assaisonnement": [
+      {
+        "nom": "sel fin",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "poivre du moulin",
+        "quantite": "PM",
+        "unite": ""
+      }
+    ]
+  },
+  "technique_de_realisation": [
+    "1. Mettre en place le poste de travail - 5 min.",
+    "Denrées, matériels de préparation, de cuisson et de dressage.",
+    "2. Détailler et parer les pavés de biche - 5 min.",
+    "3. Les larder en marinade au vin rouge - 5 min (voir p. 332).",
+    "Filmer et réserver en enceinte réfrigérée.",
+    "4. Réaliser la sauce bordelaise - 20 min (voir p. 263).",
+    "Faire revenir les parures de gibier.",
+    "Ajouter la garniture aromatique de la marinade.",
+    "Déglacer avec les 2/3 de la marinade.",
+    "Réduire des 2/3.",
+    "Ajouter le fond brun de veau lié ou la sauce espagnole.",
+    "Cuire lentement durant une trentaine de minutes.",
+    "Dépouiller si nécessaire.",
+    "Passer la sauce poivrade au chinois étamine.",
+    "La beurrer en surface et la réserver à couvert au bain-marie.",
+    "5. Sauter les pavés de biche - 10 min.",
+    "Les éponger soigneusement et les assaisonner.",
+    "Les saisir dans un sautoir avec de l’huile et du beurre clarifié.",
+    "Les maintenir « rosés » et les débarrasser sur une plaque munie d’une grille.",
+    "6. Réaliser la sauce grand veneur - 8 min.",
+    "Faire pincer les sucs si nécessaire et dégraisser le sautoir.",
+    "Déglacer avec le reste de la marinade.",
+    "La filtrer et la presser.",
+    "Ajouter la sauce poivrade, réduire légèrement.",
+    "Crémer, réduire à nouveau.",
+    "Vérifier la couleur, l’onctuosité et l’assaisonnement.",
+    "Passer la sauce au chinois étamine dans une petite saucière.",
+    "Ajouter la gelée de groseille.",
+    "Tamponner et réserver la sauce à couvert au bain-marie.",
+    "7. Dresser les pavés de biche.",
+    "Les dresser en couronne sur un grand plat rond (ils peuvent être disposés sur des croûtons de pain de mie frits et lustrés à la glace de viande).",
+    "Passer le plat durant quelques secondes dans un four.",
+    "Napper uniformément.",
+    "Dresser la garniture d’accompagnement à part."
+  ]
+}

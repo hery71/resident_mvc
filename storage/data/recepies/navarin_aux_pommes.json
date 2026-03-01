@@ -1,0 +1,128 @@
+{
+  "titre": "NAVARIN AUX POMMES",
+  "type": "Ragoût à brun",
+  "denrees_pour_8_couverts": {
+    "elements_de_base": [
+      {
+        "nom": "épaule d’agneau parée et désossée (morceaux de 0,050 kg)",
+        "quantite": "1,600 à 1,800",
+        "unite": "kg"
+      },
+      {
+        "nom": "collier (morceaux de 0,050 kg)",
+        "quantite": "1,200",
+        "unite": "kg"
+      },
+      {
+        "nom": "huile",
+        "quantite": "0,08",
+        "unite": "l"
+      },
+      {
+        "nom": "oignons",
+        "quantite": "0,200",
+        "unite": "kg"
+      },
+      {
+        "nom": "carottes (facultatif)",
+        "quantite": "0,200",
+        "unite": "kg"
+      },
+      {
+        "nom": "farine",
+        "quantite": "0,060",
+        "unite": "kg"
+      },
+      {
+        "nom": "concentré de tomate",
+        "quantite": "0,040",
+        "unite": "kg"
+      },
+      {
+        "nom": "bouquet garni",
+        "quantite": "1",
+        "unite": "pièce"
+      },
+      {
+        "nom": "ail (4 gousses)",
+        "quantite": "0,030",
+        "unite": "kg"
+      }
+    ],
+    "garniture": [
+      {
+        "nom": "petits oignons",
+        "quantite": "0,250",
+        "unite": "kg"
+      },
+      {
+        "nom": "beurre",
+        "quantite": "0,020",
+        "unite": "kg"
+      },
+      {
+        "nom": "sucre semoule",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "pommes de terre à chair ferme",
+        "quantite": "1,600",
+        "unite": "kg"
+      }
+    ],
+    "assaisonnement": [
+      {
+        "nom": "sel fin",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "poivre du moulin",
+        "quantite": "PM",
+        "unite": ""
+      }
+    ]
+  },
+  "technique_de_realisation": [
+    "1. Mettre en place le poste de travail - 5 min.",
+    "Denrées, matériels de préparation, de cuisson et de dressage.",
+    "2. Vérifier et parer la viande si nécessaire - 5 min.",
+    "La réserver en enceinte réfrigérée.",
+    "3. Préparer la garniture aromatique - 10 min.",
+    "Éplucher, laver et tailler les oignons.",
+    "Les détailler en mirepoix (petits dés).",
+    "Laver, équeuter et concasser les tiges du bouquet garni.",
+    "Éplucher, laver et écraser les gousses d’ail.",
+    "4. Marquer le navarin en cuisson - 15 min.",
+    "Rissoler la viande dans une grande sauteuse avec de l’huile.",
+    "Ajouter la garniture aromatique et la laisser suer à feu doux pendant quelques minutes.",
+    "Singer soigneusement.",
+    "Ajouter le concentré de tomate et mélanger à l’aide d’une petite écumoire.",
+    "Mouiller avec de l’eau froide et porter à ébullition.",
+    "Ajouter l’ail et le bouquet garni.",
+    "Assaisonner, couvrir soigneusement les bords du plat et cuire le navarin à couvert au four à 200 °C pendant 35 à 40 min environ.",
+    "5. Préparer la garniture - 25 min (voir p. 132/135 et 397).",
+    "Éplucher, laver et tourner les pommes de terre (elles sont de taille intermédiaire et une pomme cocotte est la pomme à l’anglaise).",
+    "Les blanchir puis les égoutter sans les rafraîchir.",
+    "Éplucher, laver et écaler les petits oignons.",
+    "6. Décanter le navarin et terminer sa cuisson - 5 min.",
+    "Sortir le navarin du four aux 3/4 de sa cuisson.",
+    "Le décanter dans un récipient identique.",
+    "Ajouter les pommes de terre blanchies.",
+    "Passer la sauce au chinois étamine sur le navarin.",
+    "Vérifier l’assaisonnement et dégraisser si nécessaire.",
+    "Terminer la cuisson à couvert pendant environ 20 min.",
+    "7. Vérifier et terminer le navarin - 5 min.",
+    "S’assurer de la cuisson de la viande et des pommes de terre.",
+    "Dégraisser la sauce si nécessaire.",
+    "Ajouter les petits oignons glacés.",
+    "Vérifier l’onctuosité et l’assaisonnement.",
+    "Débarrasser le navarin dans un haut et le réserver à couvert au bain-marie.",
+    "8. Dresser le navarin aux pommes - 5 min.",
+    "Dresser la viande légèrement en dôme dans un légumier ou dans une cocotte.",
+    "Disposer harmonieusement les pommes de terre et les petits oignons sur le dessus.",
+    "Ajouter la sauce et saupoudrer sans excès de persil haché.",
+    "Disposer le légumier ou la cocotte sur un dessous de plat recouvert d’un papier gaufré."
+  ]
+}

@@ -1,0 +1,96 @@
+{
+    "file_name": "cervelles_d_agneaux_meuniere.json",
+    "titre": "CERVELLES D’AGNEAUX «MEUNIÈRE»",
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "cervelles d’agneau",
+                "quantite": 16,
+                "unite": "pièces"
+            },
+            {
+                "nom": "farine",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "beurre",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ],
+        "court_bouillon": [
+            {
+                "nom": "eau",
+                "quantite": 1.5,
+                "unite": "l"
+            },
+            {
+                "nom": "vinaigre",
+                "quantite": 0.05,
+                "unite": "l"
+            },
+            {
+                "nom": "carottes",
+                "quantite": 0.2,
+                "unite": "kg"
+            },
+            {
+                "nom": "oignons",
+                "quantite": 0.2,
+                "unite": "kg"
+            },
+            {
+                "nom": "bouquet garni",
+                "quantite": 1,
+                "unite": "pièce"
+            },
+            {
+                "nom": "sel",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ],
+        "finition": [
+            {
+                "nom": "citron",
+                "quantite": 1,
+                "unite": "pièce"
+            },
+            {
+                "nom": "persil",
+                "quantite": 0.02,
+                "unite": "kg"
+            }
+        ]
+    },
+    "technique": [
+        "(Selon la réglementation)",
+        "1. Préparer les cervelles (voir p. 235)",
+        "• Dégorger 16 cervelles d’agneau à l’eau courante très froide.",
+        "• Les limoner sous son filet d’eau pour éliminer toutes les adhérences sanguinolentes, puis les faire dégorger à nouveau dans de l’eau glacée légèrement vinaigrée.",
+        "• Les vérifier soigneusement et les rincer.",
+        "2. Préparer un court-bouillon",
+        "• Réunir dans 1,50 l d’eau, 0,05 l de vinaigre, 0,200 kg de carottes et 0,200 kg d’oignons émincés, ajouter 1 bouquet garni et saler au gros sel.",
+        "• Cuire le court-bouillon très lentement durant 15 min, ajouter quelques grains de poivre, les laisser infuser et passer le court-bouillon au chinois.",
+        "3. Pocher les cervelles",
+        "• Les plonger dans le court-bouillon bouillant et les laisser pocher à très faible ébullition durant environ 10 min.",
+        "• Les refroidir rapidement dans la cuisson.",
+        "4. Préparer les éléments de la garniture",
+        "• Peler 4 œufs durs et les détailler en 16 tranches régulières.",
+        "• Presser le jus d’un citron et réserver le jus dans un récipient en acier inoxydable.",
+        "• Laver, égoutter, essorer, concasser et hacher 0,020 kg de persil.",
+        "5. Sauter les cervelles",
+        "• Les égoutter soigneusement sur du papier absorbant.",
+        "• Diviser transversalement chaque cervelle en 2 escalopes.",
+        "• Les assaisonner et les passer dans la farine, bien tapoter pour enlever l’excédent de farine.",
+        "• Les faire sauter très délicatement dans du beurre légèrement noisette.",
+        "• Utiliser de préférence une poêle antiadhésive et bien surveiller la température afin d’obtenir une belle coloration blonde.",
+        "• Les retourner et faire colorer l’autre face.",
+        "6. Dresser les cervelles",
+        "• Les disposer en couronne sur un grand plat rond.",
+        "• Les arroser du jus de citron et les napper avec 0,080 kg de beurre noisette (juste blond) réalisé dans la poêle de cuisson.",
+        "• Disposer harmonieusement les rondelles de citron pelé à vif.",
+        "• Saupoudrer de persil haché."
+    ]
+}

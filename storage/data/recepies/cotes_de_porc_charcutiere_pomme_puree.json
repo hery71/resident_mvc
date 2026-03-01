@@ -1,0 +1,145 @@
+{
+  "titre": "CÔTES DE PORC CHARCUTIÈRE, POMME PURÉE",
+  "type": "Viandes blanches sautées, sauce brune par déglaçage",
+  "page": 802,
+  "denrees_pour_8_couverts": {
+    "elements_de_base": [
+      {
+        "nom": "côtes de porc (carré couvert – côtes premières ou secondes) (8 x 0,200 à 0,250 kg)",
+        "quantite": "1,600 à 2",
+        "unite": "kg"
+      },
+      {
+        "nom": "beurre",
+        "quantite": "0,040",
+        "unite": "kg"
+      },
+      {
+        "nom": "huile",
+        "quantite": "0,04",
+        "unite": "l"
+      }
+    ],
+    "sauce": [
+      {
+        "nom": "oignons",
+        "quantite": "0,100",
+        "unite": "kg"
+      },
+      {
+        "nom": "vin blanc",
+        "quantite": "0,02",
+        "unite": "l"
+      },
+      {
+        "nom": "fond brun de veau lié ou sauce espagnole",
+        "quantite": "0,40",
+        "unite": "l"
+      },
+      {
+        "nom": "moutarde",
+        "quantite": "0,020",
+        "unite": "kg"
+      },
+      {
+        "nom": "beurre",
+        "quantite": "0,040",
+        "unite": "kg"
+      },
+      {
+        "nom": "cornichons",
+        "quantite": "0,100",
+        "unite": "kg"
+      }
+    ],
+    "garniture": [
+      {
+        "nom": "pommes de terre Bintje",
+        "quantite": "2",
+        "unite": "kg"
+      },
+      {
+        "nom": "lait",
+        "quantite": "0,80",
+        "unite": "l"
+      },
+      {
+        "nom": "lait",
+        "quantite": "0,40",
+        "unite": "l"
+      },
+      {
+        "nom": "crème liquide",
+        "quantite": "0,40",
+        "unite": "l"
+      },
+      {
+        "nom": "beurre",
+        "quantite": "0,100",
+        "unite": "kg"
+      }
+    ],
+    "assaisonnement": [
+      {
+        "nom": "sel fin",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "poivre du moulin",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "noix de muscade",
+        "quantite": "PM",
+        "unite": ""
+      }
+    ]
+  },
+  "technique_de_realisation": [
+    "(Voir p. 404/405)",
+    "1. Mettre en place le poste de travail - 5 min",
+    "Denrées, matériels de préparation, de cuisson et de dressage.",
+    "2. Préparer les côtes de porc - 10 min (voir p. 224)",
+    "Supprimer les os des vertèbres et le nerf des côtes de porc.",
+    "Les dégager et les aplatir légèrement (si nécessaire) puis les manchonner.",
+    "Réserver les côtes de porc en enceinte réfrigérée.",
+    "3. Marquer les pommes de terre en cuisson - 15 min",
+    "Éplucher, laver et découper les pommes de terre en gros quartiers, puis les rincer à l’eau froide.",
+    "Marquer les pommes de terre en cuisson dans une grande sauteuse en démarrant la cuisson à l’eau froide.",
+    "Saler au gros sel, couvrir et laisser cuire à couvert à faible ébullition durant 25 à 30 min.",
+    "4. Préparer la garniture de la sauce charcutière - 10 min",
+    "Éplucher, laver et ciseler finement les oignons.",
+    "Émincer et tailler les cornichons en fine julienne.",
+    "Blanchir, rafraîchir et égoutter la julienne si les cornichons sont trop acides.",
+    "5. Confectionner la pomme purée - 15 min",
+    "Mettre le lait à bouillir ou le mélanger au lait et à la crème.",
+    "Passer les pommes de terre au moulin à légumes, puis remettre la purée dans la sauteuse.",
+    "Ajouter le beurre en parcelles et incorporer progressivement le lait bouillant ou le mélange lait/crème jusqu’à la consistance désirée.",
+    "Vérifier l’assaisonnement et ajouter la noix de muscade.",
+    "Répartir la purée sur le plat, beurrer et couvrir d’un papier sulfurisé.",
+    "Faire réserver la purée au chaud au bain-marie.",
+    "6. Marquer les côtes en cuisson - 15 min",
+    "Saler, poivrer et sauter les côtes de porc dans un sautoir avec le beurre et l’huile.",
+    "Cuire doucement les côtes de porc pendant 5 à 6 min sur chaque face, puis les débarrasser sur une plaque munie d’une petite grille ou d’une assiette retournée.",
+    "Réserver les côtes de porc au chaud.",
+    "REMARQUE : À la pointe de cuisson des côtes se reconnaît à la pression du doigt : elles doivent être fermes au toucher.",
+    "7. Confectionner la sauce - 10 min",
+    "Dégraisser partiellement le sautoir.",
+    "Ajouter les oignons ciselés et les suer doucement sans coloration.",
+    "Déglacer avec le vin blanc et le laisser réduire.",
+    "Ajouter le fond brun de veau lié et terminer la cuisson de la sauce à feu doux durant quelques minutes.",
+    "Ajouter la moutarde hors du feu (ne plus faire bouillir) et passer la sauce au chinois étamine dans un petit bain-marie.",
+    "Incorporer la julienne de cornichons blanchie, puis monter la sauce au beurre.",
+    "Vérifier l’assaisonnement et réserver la sauce à couvert au bain-marie.",
+    "8. Dresser les côtes de porc et la pomme purée - 5 min",
+    "Disposer les côtes en couronne sur un grand plat rond.",
+    "Placer le plat à l’entrée du four.",
+    "Mélanger légèrement la pomme purée, puis la dresser en dôme dans un légumier.",
+    "Napper uniformément les côtes de porc avec la sauce charcutière.",
+    "Disposer le légumier sur un dessous de plat rond recouvert d’un papier gaufré."
+  ],
+  "duree_moyenne_preparation": "1 h 25 min",
+  "duree_moyenne_cuisson": "Côtes : 10 à 12 min"
+}

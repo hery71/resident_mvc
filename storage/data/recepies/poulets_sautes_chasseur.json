@@ -1,0 +1,157 @@
+{
+    "file_name": "poulets_sautes_chasseur.json",
+    "titre": "POULETS SAUTÉS CHASSEUR",
+    "bandeau": "Volailles sautées à brun",
+    "fiche": 109,
+    "page": 846,
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "poulets labellisés (P.A.C.) (2 x 1,200 à 1,400 kg)",
+                "unite": "kg",
+                "quantite": 2.4
+            },
+            {
+                "nom": "farine",
+                "unite": "kg",
+                "quantite": 0.1
+            },
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": 0.08
+            },
+            {
+                "nom": "huile",
+                "unite": "l",
+                "quantite": 0.04
+            }
+        ],
+        "fond_brun_de_volaille": [
+            {
+                "nom": "carcasses et abattis",
+                "unite": "",
+                "quantite": "PM"
+            },
+            {
+                "nom": "carottes",
+                "unite": "kg",
+                "quantite": 0.1
+            },
+            {
+                "nom": "oignons",
+                "unite": "kg",
+                "quantite": 0.1
+            },
+            {
+                "nom": "fond brun de veau lié",
+                "unite": "l",
+                "quantite": 1
+            },
+            {
+                "nom": "concentré de tomate",
+                "unite": "kg",
+                "quantite": 0.02
+            },
+            {
+                "nom": "ail",
+                "unite": "gousse",
+                "quantite": 2
+            },
+            {
+                "nom": "bouquet garni",
+                "unite": "pièce",
+                "quantite": "PM"
+            }
+        ],
+        "sauce": [
+            {
+                "nom": "échalotes grises (2 pièces)",
+                "unite": "kg",
+                "quantite": 0.05
+            },
+            {
+                "nom": "champignons de Paris",
+                "unite": "kg",
+                "quantite": 0.25
+            },
+            {
+                "nom": "cognac",
+                "unite": "l",
+                "quantite": 0.05
+            },
+            {
+                "nom": "vin blanc sec",
+                "unite": "l",
+                "quantite": 0.1
+            },
+            {
+                "nom": "fond brun de volaille lié et tomaté",
+                "unite": "l",
+                "quantite": "PM"
+            },
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": 0.02
+            },
+            {
+                "nom": "estragon",
+                "unite": "botte",
+                "quantite": "1/5"
+            },
+            {
+                "nom": "cerfeuil",
+                "unite": "botte",
+                "quantite": "1/5"
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel fin",
+                "unite": "",
+                "quantite": "PM"
+            },
+            {
+                "nom": "poivre du moulin",
+                "unite": "",
+                "quantite": "PM"
+            }
+        ]
+    },
+    "technique": [
+        "(Voir p. 408/409)",
+        "1. Mettre en place le poste de travail - 5 min",
+        "• Denrées, matériels de préparation, de cuisson et de dressage.",
+        "2. Habiller et découper les volailles à cru - 30 min (voir p. 237/402 et 426/426)",
+        "3. Marquer un fond brun de volaille lié et tomaté avec les carcasses et les abattis - 10 min (voir p. 260/261)",
+        "4. Préparer les légumes - 10 min",
+        "• Réserver le cerfeuil et l’estragon au frais dans un petit bocal avec de l’eau.",
+        "• Éplucher, laver et émincer finement les échalotes.",
+        "• Éplucher, laver et émincer les champignons.",
+        "• Laver, égoutter, essorer, concasser et hacher le persil.",
+        "5. Marquer le poulet sauté en cuisson - 10 min",
+        "• Saler, poivrer et fariner les morceaux de poulet.",
+        "• Faire chauffer du beurre dans un sautoir.",
+        "• Disposer les quarts de poulet, côté peau en premier, et les laisser colorer doucement pendant quelques minutes.",
+        "• Retourner les morceaux et laisser colorer l’autre face.",
+        "• Couvrir le sautoir et terminer la cuisson au four durant une quinzaine de minutes (retirer les ailes quelques minutes avant les cuisses).",
+        "6. Réaliser la sauce du poulet sauté - 10 min",
+        "• Laver soigneusement et émincer les champignons.",
+        "• S’assurer de la cuisson des quarts de poulet, les débarrasser et les maintenir au chaud.",
+        "• Ajouter les champignons émincés dans le récipient de cuisson et les faire sauter durant 1 à 2 min.",
+        "• Déglacer et ajouter les échalotes ciselées, puis les laisser suer doucement.",
+        "• Flamber avec le cognac.",
+        "• Déglacer avec le vin blanc et le laisser réduire.",
+        "• Ajouter le fond brun de volaille et laisser réduire doucement la sauce pendant quelques minutes.",
+        "7. Terminer la sauce chasseur - 5 min",
+        "• Laver, effeuiller et hacher le cerfeuil et l’estragon.",
+        "• Vérifier l’onctuosité et l’assaisonnement, puis monter la sauce au beurre hors du feu.",
+        "• Ajouter la moitié du cerfeuil et de l’estragon haché.",
+        "• Placer les morceaux de poulet sur la sauce et les maintenir au chaud (la sauce ne doit pas bouillir).",
+        "8. Dresser le poulet sauté chasseur - 5 min",
+        "• Dresser le poulet sauté en dirigeant les manches des ailes et des pilons vers le centre du plat.",
+        "• Napper uniformément avec la sauce.",
+        "• Saupoudrer avec le reste des fines herbes hachées."
+    ]
+}

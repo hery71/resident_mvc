@@ -1,0 +1,177 @@
+{
+  "titre": "BLANQUETTE DE VEAU À L’ANCIENNE",
+  "type": "Viandes pochées",
+  "page": 778,
+  "denrees_pour_8_couverts": {
+    "elements_de_base": [
+      {
+        "nom": "épaule ou collier de veau",
+        "quantite": "1,400",
+        "unite": "kg"
+      },
+      {
+        "nom": "morceaux sans os de veau (éventuellement tendrons et flanchet)",
+        "quantite": "1,600",
+        "unite": "kg"
+      }
+    ],
+    "garniture_aromatique": [
+      {
+        "nom": "carottes",
+        "quantite": "0,200",
+        "unite": "kg"
+      },
+      {
+        "nom": "oignons",
+        "quantite": "0,200",
+        "unite": "kg"
+      },
+      {
+        "nom": "clous de girofle",
+        "quantite": "2",
+        "unite": "pièces"
+      },
+      {
+        "nom": "blancs de poireaux",
+        "quantite": "0,200",
+        "unite": "kg"
+      },
+      {
+        "nom": "céleri en branches",
+        "quantite": "0,100",
+        "unite": "kg"
+      },
+      {
+        "nom": "bouquet garni",
+        "quantite": "1",
+        "unite": "pièce"
+      },
+      {
+        "nom": "ail (facultatif)",
+        "quantite": "2",
+        "unite": "gousses"
+      }
+    ],
+    "mouillement": [
+      {
+        "nom": "fond blanc de veau",
+        "quantite": "2",
+        "unite": "l"
+      }
+    ],
+    "veloute": [
+      {
+        "nom": "beurre",
+        "quantite": "0,060",
+        "unite": "kg"
+      },
+      {
+        "nom": "farine",
+        "quantite": "0,060",
+        "unite": "kg"
+      },
+      {
+        "nom": "fond blanc de cuisson",
+        "quantite": "1",
+        "unite": "l"
+      },
+      {
+        "nom": "crème épaisse",
+        "quantite": "0,20",
+        "unite": "l"
+      },
+      {
+        "nom": "œufs (jaunes)",
+        "quantite": "2",
+        "unite": "pièces"
+      }
+    ],
+    "garniture_a_l_ancienne": [
+      {
+        "nom": "champignons de Paris",
+        "quantite": "0,250",
+        "unite": "kg"
+      },
+      {
+        "nom": "beurre",
+        "quantite": "0,020",
+        "unite": "kg"
+      },
+      {
+        "nom": "citron (1/2 pièce)",
+        "quantite": "0,050",
+        "unite": "kg"
+      },
+      {
+        "nom": "petits oignons",
+        "quantite": "0,250",
+        "unite": "kg"
+      },
+      {
+        "nom": "sucre semoule",
+        "quantite": "PM",
+        "unite": ""
+      }
+    ],
+    "assaisonnement": [
+      {
+        "nom": "gros sel",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "sel fin",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "poivre blanc",
+        "quantite": "PM",
+        "unite": ""
+      }
+    ]
+  },
+  "technique_de_realisation": [
+    "1. Mettre en place le poste de travail - 5 min",
+    "Denrées, matériels de préparation, de cuisson et de dressage.",
+    "2. Préparer la viande - 5 min",
+    "Vérifier, parer et dégraisser les morceaux si nécessaire.",
+    "3. Blanchir la viande - 5 min",
+    "Placer les morceaux dans une russe et mouiller à l’eau froide.",
+    "Porter à ébullition et blanchir durant quelques minutes.",
+    "Écumer soigneusement, puis rafraîchir et égoutter les morceaux.",
+    "Rincer et réserver la russe pour la cuisson.",
+    "4. Préparer la garniture aromatique - 15 min",
+    "Éplucher et laver soigneusement les carottes, oignons, poireaux, céleri et ail.",
+    "Tailler les carottes en gros bâtonnets et les oignons en quartiers.",
+    "Clouter l’oignon.",
+    "Confectionner le bouquet garni avec les tiges de persil, le thym, le laurier, les poireaux et le céleri.",
+    "5. Marquer la blanquette en cuisson - 5 min",
+    "Placer les morceaux de viande blanchis dans la russe.",
+    "Mouiller avec le fond blanc de veau à 2 ou 3 cm au-dessus des morceaux.",
+    "Saler au gros sel et porter à ébullition.",
+    "Écumer soigneusement et ajouter la garniture aromatique.",
+    "Cuire doucement à couvert durant 40 à 50 min.",
+    "6. Réaliser le roux blanc et le refroidir rapidement - 5 min",
+    "7. Préparer la garniture à l’ancienne - 20 min",
+    "Éplucher et laver les petits oignons.",
+    "Les marquer en cuisson à blanc et à couvert avec un peu d’eau bouillante salée, le beurre et le jus d’un demi-citron.",
+    "8. Décanter la viande et confectionner le velouté - 10 min",
+    "Passer le fond de cuisson sans fouler au chinois étamine.",
+    "Verser un litre de fond bouillant sur le roux froid.",
+    "Laisser cuire doucement le velouté durant environ 10 min.",
+    "9. Préparer la liaison - 5 min",
+    "Clarifier les œufs et mélanger les jaunes à la crème.",
+    "10. Terminer la sauce de la blanquette - 5 min",
+    "Ajouter progressivement hors du feu la liaison au velouté.",
+    "Remettre à ébullition quelques secondes.",
+    "Passer la sauce au chinois étamine.",
+    "Rectifier l’assaisonnement.",
+    "Ajouter les champignons blanchis et les petits oignons.",
+    "11. Dresser la blanquette - 5 min",
+    "Dresser la blanquette légèrement en dôme dans le légumier.",
+    "Répartir la garniture sur le dessus et napper sans excès de sauce."
+  ],
+  "duree_moyenne_preparation": "1 h 25 min",
+  "duree_moyenne_cuisson": "40 à 50 min"
+}

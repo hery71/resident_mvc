@@ -1,0 +1,168 @@
+{
+  "titre": "CARRÉ DE VEAU POÊLÉ CHOISY",
+  "type": "Viandes blanches poêlées",
+  "page": 788,
+  "fiche": 81,
+  "denrees_pour_8_couverts": {
+    "elements_de_base": [
+      {
+        "nom": "carré de veau non paré (4 côtes premières ou secondes)",
+        "quantite": "2,400",
+        "unite": "kg"
+      },
+      {
+        "nom": "beurre",
+        "quantite": "0,050",
+        "unite": "kg"
+      }
+    ],
+    "garniture_aromatique": [
+      {
+        "nom": "carottes",
+        "quantite": "0,200",
+        "unite": "kg"
+      },
+      {
+        "nom": "oignons",
+        "quantite": "0,200",
+        "unite": "kg"
+      },
+      {
+        "nom": "tomate (1 pièce)",
+        "quantite": "0,100",
+        "unite": "kg"
+      },
+      {
+        "nom": "bouquet garni",
+        "quantite": "1",
+        "unite": "pièce"
+      }
+    ],
+    "fond_de_poelage": [
+      {
+        "nom": "vin blanc",
+        "quantite": "0,10",
+        "unite": "l"
+      },
+      {
+        "nom": "madère",
+        "quantite": "0,05",
+        "unite": "l"
+      },
+      {
+        "nom": "fond brun de veau légèrement lié et corsé",
+        "quantite": "0,80",
+        "unite": "l"
+      }
+    ],
+    "garniture_choisy": [
+      {
+        "nom": "laitues braisées (8 petites de 0,200 kg)",
+        "quantite": "1,600",
+        "unite": "kg"
+      },
+      {
+        "nom": "carottes",
+        "quantite": "0,150",
+        "unite": "kg"
+      },
+      {
+        "nom": "oignons",
+        "quantite": "0,150",
+        "unite": "kg"
+      },
+      {
+        "nom": "bouquet garni",
+        "quantite": "1",
+        "unite": "pièce"
+      },
+      {
+        "nom": "couenne de porc",
+        "quantite": "0,200",
+        "unite": "kg"
+      },
+      {
+        "nom": "fond blanc de veau",
+        "quantite": "0,80",
+        "unite": "l"
+      }
+    ],
+    "pommes_chateau": [
+      {
+        "nom": "pommes de terre à chair ferme",
+        "quantite": "1,600",
+        "unite": "kg"
+      },
+      {
+        "nom": "huile d’arachide",
+        "quantite": "0,08",
+        "unite": "l"
+      },
+      {
+        "nom": "beurre",
+        "quantite": "0,040",
+        "unite": "kg"
+      },
+      {
+        "nom": "persil",
+        "quantite": "PM",
+        "unite": ""
+      }
+    ],
+    "assaisonnement": [
+      {
+        "nom": "sel fin",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "poivre du moulin",
+        "quantite": "PM",
+        "unite": ""
+      }
+    ]
+  },
+  "technique_de_realisation": [
+    "1. Mettre en place le poste de travail - 5 min",
+    "Denrées, matériels de préparation, de cuisson et de dressage.",
+    "2. Préparer les garnitures aromatiques - 10 min",
+    "Éplucher, laver et émincer grossièrement la moitié des carottes et la moitié des oignons pour la garniture aromatique du carré.",
+    "Émincer finement le reste en paysanne pour les laitues braisées.",
+    "Laver, équeuter le persil et confectionner deux petits bouquets garnis.",
+    "3. Préparer le carré de veau - 15 min (voir p. 226/228)",
+    "4. Marquer le carré en cuisson - 5 min (voir p. 434/435)",
+    "Assaisonner le carré et le placer dans un récipient creux.",
+    "Le faire revenir très lentement avec le beurre.",
+    "Ajouter les carottes en morceaux et les parures maigres, puis les oignons et les carottes émincées grossièrement.",
+    "Couvrir hermétiquement.",
+    "Cuire au four à 200-220 °C durant 1 h 10 à 1 h 20 min environ.",
+    "Arroser fréquemment le carré durant sa cuisson.",
+    "5. Préparer et blanchir les laitues - 20 min",
+    "Porter une eau salée à ébullition dans un rond plat ou dans une russe.",
+    "Éliminer les feuilles abîmées des laitues et araser légèrement le pied.",
+    "Laver soigneusement les laitues dans plusieurs eaux.",
+    "Les blanchir en les plongeant dans l’eau bouillante pendant 2 à 3 min.",
+    "Les rafraîchir, puis les égoutter et les presser en forme de fuseau.",
+    "6. Marquer les laitues en cuisson - 10 min (voir p. 475)",
+    "Suer au beurre les carottes et les oignons émincés en paysanne.",
+    "Disposer les laitues en couronne (côté talon vers l’extérieur du récipient).",
+    "Ajouter le fond blanc de veau, saler et poivrer, puis ajouter le bouquet garni et les couennes de porc (côté gras vers les laitues).",
+    "Porter à ébullition, couvrir d’un papier sulfurisé et d’un couvercle.",
+    "Cuire au four à 200 °C pendant 1 h 20 à 1 h 30 min.",
+    "7. Tourner les pommes château et les marquer en cuisson - 25 min (voir p. 418/419)",
+    "Éplucher, laver et tourner les pommes de terre.",
+    "Les blanchir, puis les rissoler à l’huile pendant quelques minutes jusqu’à coloration.",
+    "Terminer la cuisson au four à 220-230 °C pendant environ 15 min.",
+    "8. Concasser, hacher et essorer le persil - 5 min",
+    "9. S’assurer de la bonne coloration et de la cuisson du carré - 5 min",
+    "Ajouter la tomate concassée et ôter le couvercle pour parfaire la coloration si nécessaire.",
+    "10. Confectionner le fond de poêlage - 10 min (voir p. 444/445)",
+    "Débarrasser le carré dans une plaque et le réserver au chaud à couvert.",
+    "Faire pincer les sucs si nécessaire, puis dégraisser ou alors en fin de réalisation.",
+    "Déglacer avec le vin blanc et un peu de madère et laisser réduire.",
+    "Ajouter le fond brun de veau légèrement lié et réduire à nouveau.",
+    "Vérifier l’assaisonnement et passer le fond de poêlage sans fouler au chinois étamine dans un petit bain-marie."
+  ],
+  "duree_moyenne_preparation": "2 h 10 min",
+  "duree_moyenne_cuisson": "Carré : 1 h 10 à 1 h 20 min / Laitues : 1 h 20 à 1 h 30 min"
+}

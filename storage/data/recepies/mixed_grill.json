@@ -1,0 +1,160 @@
+{
+  "titre": "MIXED-GRILL",
+  "type": "Viandes grillées",
+  "denrees_pour_8_couverts": {
+    "elements_de_base": [
+      {
+        "nom": "côtes d’agneau (8 x 0,100 kg)",
+        "quantite": "0,800",
+        "unite": "kg"
+      },
+      {
+        "nom": "rognons d’agneau (8 x 0,050 kg)",
+        "quantite": "0,400",
+        "unite": "kg"
+      },
+      {
+        "nom": "chipolatas (8 x 0,050 kg)",
+        "quantite": "0,400",
+        "unite": "kg"
+      },
+      {
+        "nom": "bacon (8 tranches de 0,025 kg)",
+        "quantite": "0,200",
+        "unite": "kg"
+      },
+      {
+        "nom": "petits médaillons de veau (8 x 0,050 kg)",
+        "quantite": "0,400",
+        "unite": "kg"
+      },
+      {
+        "nom": "filet de bœuf",
+        "quantite": "0,400",
+        "unite": "kg"
+      }
+    ],
+    "garniture": [
+      {
+        "nom": "champignons (8 x 0,025 kg)",
+        "quantite": "0,200",
+        "unite": "kg"
+      },
+      {
+        "nom": "tomates « garniture » (8 x 0,050 kg)",
+        "quantite": "0,400",
+        "unite": "kg"
+      },
+      {
+        "nom": "huile d’arachide",
+        "quantite": "0,02",
+        "unite": "l"
+      }
+    ],
+    "pommes_paille": [
+      {
+        "nom": "pommes de terre Bintje",
+        "quantite": "1,600",
+        "unite": "kg"
+      },
+      {
+        "nom": "friture",
+        "quantite": "PM",
+        "unite": ""
+      }
+    ],
+    "finition": [
+      {
+        "nom": "beurre",
+        "quantite": "0,020",
+        "unite": "kg"
+      },
+      {
+        "nom": "cresson",
+        "quantite": "1/2",
+        "unite": "botte"
+      }
+    ],
+    "beurre_maitre_d_hotel": [
+      {
+        "nom": "beurre",
+        "quantite": "0,160",
+        "unite": "kg"
+      },
+      {
+        "nom": "persil",
+        "quantite": "0,020",
+        "unite": "kg"
+      },
+      {
+        "nom": "citron (1/2 pièce)",
+        "quantite": "0,060",
+        "unite": "kg"
+      }
+    ],
+    "assaisonnement": [
+      {
+        "nom": "sel fin",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "poivre du moulin",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "fleur de thym",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "herbes de Provence",
+        "quantite": "PM",
+        "unite": ""
+      }
+    ]
+  },
+  "technique_de_realisation": [
+    "1. Mettre en place le poste de travail - 5 min.",
+    "Denrées, matériels de préparation, de cuisson et de dressage.",
+    "2. Préparer la viande - 20 min (voir p. 215/216 et 222 à 226).",
+    "Vérifier et parer si nécessaire les petits médaillons de veau et le filet de bœuf.",
+    "Supprimer les os des vertèbres et le nerf, dégraisser puis manchonner les côtes d’agneau.",
+    "Éliminer la peau et ouvrir les rognons du côté arrondi.",
+    "Éliminer le bassinet (parties blanchâtres) et maintenir les rognons ouverts à l’aide d’une brochette.",
+    "Piquer délicatement les chipolatas à l’aide d’une fourchette.",
+    "Réserver l’ensemble des viandes en enceinte réfrigérée.",
+    "3. Préparer les garnitures - 25 min.",
+    "Éplucher, laver et tailler les pommes paille à l’aide d’une mandoline.",
+    "Laver et éliminer le pédoncule des tomates.",
+    "Les huiler et les réserver sur une petite plaque.",
+    "Éplucher, laver et supprimer les pieds des champignons.",
+    "Huiler les têtes et les réserver avec les tomates.",
+    "Laver, trier, égoutter le cresson et le réserver au frais dans une plaque avec un peu d’eau.",
+    "4. Confectionner le beurre Maître d’hôtel - 10 min.",
+    "Laver, égoutter, essorer, concasser et hacher le persil.",
+    "Dans une petite calotte, mélanger le beurre en pommade, le persil haché et le jus d’un demi-citron.",
+    "Assaisonner et réserver le beurre Maître d’hôtel à la température ambiante.",
+    "5. Marquer les garnitures en cuisson - 20 min (voir p. 431 et 456/457).",
+    "Rincer et égoutter soigneusement les pommes paille.",
+    "Les égoutter puis les quantités dans un bain de friture à 170 °C.",
+    "Les égoutter soigneusement sur du papier absorbant.",
+    "Saler au sel fin et réserver au chaud les pommes paille sur une plaque à débarrasser.",
+    "Nettoyer, brosser et huiler le gril si nécessaire.",
+    "Quadriller les têtes de champignons et les tomates.",
+    "Les sauter, puis terminer leur cuisson au four durant quelques minutes.",
+    "6. Marquer les « mixed-grill » en cuisson - 10 min (voir p. 420 à 423).",
+    "Brosser et huiler le gril à nouveau.",
+    "Enduire très légèrement d’huile les différentes viandes de base du « mixed-grill » et les quadriller sur les deux faces (commencer par les éléments nécessitant une cuisson plus longue : médaillons de veau, chipolatas, puis ajouter les côtes d’agneau, les filets de bœuf et les rognons, terminer par le bacon).",
+    "Assaisonner de sel fin et de poivre du moulin (sauf le bacon).",
+    "Débarrasser les viandes sur une plaque munie d’une grille (ou d’une assiette retournée).",
+    "7. Dresser les « mixed-grill » - 5 min.",
+    "Disposer les pommes paille en buisson, au centre du plat.",
+    "Placer tout autour, et en les intercalant, les différents éléments du « mixed-grill ».",
+    "Disposer harmonieusement les tomates grillées surmontées d’une tête de champignon grillée.",
+    "Lustrer au beurre clarifié.",
+    "Placer un bouquet de cresson à chaque extrémité du plat.",
+    "Dresser le beurre Maître d’hôtel en saucière."
+  ]
+}

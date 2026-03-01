@@ -1,0 +1,75 @@
+{
+  "titre": "BLANQUETTE DE DINDONNEAU AUX PRIMEURS",
+  "type": "Viandes pochées",
+  "denrees_pour_8_couverts": {
+    "elements_de_base": [
+      {
+        "nom": "rouelles de dindonneau",
+        "quantite": "1,600",
+        "unite": "kg"
+      }
+    ],
+    "mouillement": [
+      {
+        "nom": "fond blanc de volaille",
+        "quantite": "PM",
+        "unite": ""
+      }
+    ],
+    "garniture_accompagnement": [
+      {
+        "nom": "navets tournés (4 cm)",
+        "quantite": "0,800",
+        "unite": "kg"
+      },
+      {
+        "nom": "carottes tournées",
+        "quantite": "0,800",
+        "unite": "kg"
+      },
+      {
+        "nom": "petits oignons glacés",
+        "quantite": "0,800",
+        "unite": "kg"
+      },
+      {
+        "nom": "champignons de Paris (petites têtes)",
+        "quantite": "24",
+        "unite": "pièces"
+      },
+      {
+        "nom": "beurre",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "jus de citron",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "sel",
+        "quantite": "PM",
+        "unite": ""
+      }
+    ]
+  },
+  "technique_de_realisation": [
+    "1. Réaliser une blanquette selon la recette de base ci‑contre.",
+    "Utiliser 1,600 kg de rouelles de dindonneau.",
+    "2. Les marquer en cuisson comme ci‑contre.",
+    "Mouiller au fond blanc de volaille et ajouter la garniture aromatique.",
+    "Laisser cuire environ 40 minutes.",
+    "3. Réaliser le velouté.",
+    "4. Préparer la garniture d’accompagnement.",
+    "Couper 0,800 kg de courgettes en tronçons de 4 cm de long et les tourner.",
+    "Éplucher, laver et tourner 0,800 kg de carottes.",
+    "Éplucher, laver et tourner 0,800 kg de navets.",
+    "Glacer séparément tous ces éléments à blanc.",
+    "Éplucher, laver et cuire 24 petites têtes de champignons avec un peu d’eau salée, du jus de citron et un petit morceau de beurre.",
+    "5. Dresser la blanquette.",
+    "Disposer les rouelles de dindonneau dans les assiettes.",
+    "Poser une tête de champignon sur chacune et napper le tout de sauce.",
+    "Disposer harmonieusement les légumes tout autour."
+  ]
+}

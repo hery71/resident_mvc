@@ -1,0 +1,179 @@
+{
+  "titre": "TOURNEDOS SAUTÉS CHÂTELAINE",
+  "type": "Viandes rouges sautées, sauce brune par déglaçage",
+  "page": 794,
+  "denrees_pour_8_couverts": {
+    "elements_de_base": [
+      {
+        "nom": "cœur de filet de bœuf paré",
+        "quantite": "1,200",
+        "unite": "kg"
+      },
+      {
+        "nom": "8 tournedos de 0,150 kg",
+        "quantite": "1,200",
+        "unite": "kg"
+      },
+      {
+        "nom": "huile d’arachide",
+        "quantite": "0,04",
+        "unite": "l"
+      },
+      {
+        "nom": "beurre",
+        "quantite": "0,040",
+        "unite": "kg"
+      }
+    ],
+    "croutons": [
+      {
+        "nom": "pain de mie (8 tranches de 0,040 kg)",
+        "quantite": "0,320",
+        "unite": "kg"
+      },
+      {
+        "nom": "huile d’arachide",
+        "quantite": "0,02",
+        "unite": "l"
+      },
+      {
+        "nom": "beurre",
+        "quantite": "0,040",
+        "unite": "kg"
+      },
+      {
+        "nom": "glace de viande (facultatif)",
+        "quantite": "PM",
+        "unite": ""
+      }
+    ],
+    "sauce": [
+      {
+        "nom": "vin blanc",
+        "quantite": "0,10",
+        "unite": "l"
+      },
+      {
+        "nom": "fond brun de veau lié ou sauce espagnole",
+        "quantite": "0,40",
+        "unite": "l"
+      },
+      {
+        "nom": "glace de viande",
+        "quantite": "PM",
+        "unite": ""
+      }
+    ],
+    "fonds_d_artichauts": [
+      {
+        "nom": "artichauts (8 x 0,250 à 0,300 kg)",
+        "quantite": "2 à 2,400",
+        "unite": "kg"
+      },
+      {
+        "nom": "citron (3 pièces)",
+        "quantite": "0,300",
+        "unite": "kg"
+      },
+      {
+        "nom": "huile",
+        "quantite": "0,04",
+        "unite": "l"
+      },
+      {
+        "nom": "beurre",
+        "quantite": "0,040",
+        "unite": "kg"
+      }
+    ],
+    "pommes_noisettes": [
+      {
+        "nom": "pommes de terre Bintje très grosses",
+        "quantite": "2",
+        "unite": "kg"
+      },
+      {
+        "nom": "huile d’arachide",
+        "quantite": "0,08",
+        "unite": "l"
+      },
+      {
+        "nom": "beurre",
+        "quantite": "0,040",
+        "unite": "kg"
+      },
+      {
+        "nom": "persil",
+        "quantite": "0,020",
+        "unite": "kg"
+      }
+    ],
+    "assaisonnement": [
+      {
+        "nom": "gros sel",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "sel fin",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "poivre du moulin",
+        "quantite": "PM",
+        "unite": ""
+      }
+    ]
+  },
+  "technique_de_realisation": [
+    "1. Mettre en place le poste de travail - 5 min",
+    "Denrées, matériels de préparation, de cuisson et de dressage.",
+    "2. Préparer les tournedos - 10 min",
+    "Vérifier et parer les tournedos si nécessaire.",
+    "Les ficeler, puis les réserver en enceinte réfrigérée.",
+    "3. Préparer la garniture châtelaine - 40 min",
+    "Tourner soigneusement et citronner les fonds d’artichauts.",
+    "Éliminer le foin à l’aide d’une cuillère à pommes noisettes.",
+    "Les marquer en cuisson dans de l’eau bouillante salée et citronnée.",
+    "Ajouter un peu d’huile et couvrir d’une feuille de papier sulfurisé.",
+    "Éplucher, laver, puis lever les pommes noisettes à l’aide d’une cuillère à légumes.",
+    "Les rincer soigneusement à l’eau courante.",
+    "Tailler les 8 croûtons de pain de mie à l’aide d’un emporte-pièce.",
+    "Tailler le persil en chiffonnade.",
+    "Les frire dans une petite poêle avec de l’huile et un peu de beurre.",
+    "Réserver les croûtons frits au chaud sur du papier absorbant.",
+    "Laver, équeuter, essorer, concasser et hacher le persil.",
+    "4. Terminer les fonds d’artichauts - 5 min (voir p. 42 à 44)",
+    "S’assurer de leur cuisson, puis les égoutter.",
+    "Les disposer dans une plaque beurrée, les assaisonner, puis les recouvrir d’une feuille de papier sulfurisé beurrée.",
+    "5. Marquer les pommes noisettes en cuisson - 10 min (voir p. 131)",
+    "Blanchir les pommes.",
+    "Les placer dans une sauteuse de grandeur appropriée afin qu’elles ne se superposent pas.",
+    "Mouiller à hauteur et porter à ébullition.",
+    "Laisser blanchir durant quelques secondes puis les égoutter les pommes sans les rafraîchir.",
+    "Rissoler les pommes à l’huile durant quelques minutes sur le feu vif, puis terminer la cuisson au four chaud (230 à 240 °C) durant 5 à 6 min.",
+    "Égoutter les pommes, ajouter le beurre, puis assaisonner de sel fin.",
+    "Réserver les pommes au chaud.",
+    "6. Marquer les tournedos en cuisson - 10 min",
+    "Assaisonner les tournedos de sel fin et de poivre du moulin, puis les saisir dans un sautoir avec du beurre et un peu d’huile (surveiller attentivement la cuisson, les sucs doivent être caramélisés mais sans excès).",
+    "Cuire les tournedos à l’à-point de cuisson demandé (bleu, saignant, à point, bien cuit), puis les débarrasser sur une plaque munie d’une petite grille ou d’une assiette retournée.",
+    "7. Étuvé au four les fonds d’artichauts - 5 min",
+    "8. Confectionner la sauce des tournedos - 10 min",
+    "Dégraisser le sautoir.",
+    "Déglacer avec le vin blanc et le laisser réduire.",
+    "Ajouter le fond brun de veau lié et éventuellement un peu de glace de viande fondue.",
+    "Réduire à nouveau la sauce jusqu’à la consistance souhaitée.",
+    "Monter la sauce au beurre hors du feu.",
+    "Vérifier l’assaisonnement, puis passer la sauce au chinois étamine dans un petit bain-marie.",
+    "9. Dresser les tournedos - 5 min",
+    "Lustrer (imperméabiliser) les croûtons avec un peu de glace de viande (facultatif) et les disposer sur le fond du plat.",
+    "Placer un tournedos défait sur chaque croûton.",
+    "Intercaler les tournedos avec les fonds d’artichauts garnis de pommes noisettes.",
+    "Napper uniformément les tournedos avec la sauce.",
+    "Disposer une petite pointe de persil haché sur les pommes noisettes.",
+    "(rester un complément de pommes noisettes à part en légumier)."
+  ],
+  "duree_moyenne_preparation": "1 h 40 min",
+  "duree_moyenne_cuisson": "variable selon la cuisson désirée par le client"
+}

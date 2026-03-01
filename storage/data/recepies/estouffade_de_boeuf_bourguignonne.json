@@ -1,0 +1,138 @@
+{
+    "file_name": "estouffade_de_boeuf_bourguignonne.json",
+    "titre": "ESTOUFFADE DE BŒUF BOURGUIGNONNE",
+    "bandeau": "Ragoût à brun",
+    "page": 823,
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "bœuf paré sans os (morceaux de 0,050 kg environ) (gîte, macreuse, paleron, cotes découvertes, joue à la noix)",
+                "unite": "kg",
+                "quantite": 1.6
+            },
+            {
+                "nom": "huile",
+                "unite": "l",
+                "quantite": 0.05
+            },
+            {
+                "nom": "carottes",
+                "unite": "kg",
+                "quantite": 0.2
+            },
+            {
+                "nom": "oignons",
+                "unite": "kg",
+                "quantite": 0.2
+            },
+            {
+                "nom": "farine",
+                "unite": "kg",
+                "quantite": 0.06
+            },
+            {
+                "nom": "bouquet garni",
+                "unite": "pièce",
+                "quantite": 1
+            },
+            {
+                "nom": "ail (2 gousses)",
+                "unite": "kg",
+                "quantite": 0.015
+            },
+            {
+                "nom": "vin rouge",
+                "unite": "l",
+                "quantite": 0.75
+            },
+            {
+                "nom": "fond brun de veau (clair non lié)",
+                "unite": "l",
+                "quantite": 0.8
+            }
+        ],
+        "garniture_bourguignonne": [
+            {
+                "nom": "poitrine de porc demi-sel",
+                "unite": "kg",
+                "quantite": 0.25
+            },
+            {
+                "nom": "huile",
+                "unite": "l",
+                "quantite": 0.02
+            },
+            {
+                "nom": "champignons de Paris",
+                "unite": "kg",
+                "quantite": 0.25
+            },
+            {
+                "nom": "petits oignons",
+                "unite": "kg",
+                "quantite": 0.25
+            },
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": 0.02
+            },
+            {
+                "nom": "sucre semoule",
+                "unite": "",
+                "quantite": "PM"
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel fin",
+                "unite": "",
+                "quantite": "PM"
+            },
+            {
+                "nom": "poivre du moulin",
+                "unite": "",
+                "quantite": "PM"
+            }
+        ]
+    },
+    "technique": [
+        "(Voir p. 462 à 466, sans la liaison au sang)",
+        "1. Mettre en place le poste de travail - 5 min",
+        "• Denrées, matériels de préparation, de cuisson et de dressage.",
+        "2. Vérifier et parer la viande si nécessaire - 5 min",
+        "• La réserver en enceinte réfrigérée.",
+        "3. Préparer la garniture aromatique - 10 min",
+        "• Éplucher et laver les carottes et les oignons.",
+        "• Les détailler en petits dés réguliers.",
+        "• Éplucher, laver et écraser les gousses d’ail.",
+        "• Laver, égoutter et confectionner un petit bouquet garni.",
+        "4. Marquer l’estouffade en cuisson - 20 min",
+        "• Rissoler la viande sur toutes ses faces dans une grande sauteuse avec de l’huile.",
+        "• Ajouter la garniture aromatique et la laisser suer durant quelques minutes.",
+        "• Singer, puis torréfier la farine en plaçant la sauteuse dans un four très chaud quelques minutes.",
+        "• Remuer les morceaux à l’aide d’une écumoire.",
+        "• Mouiller avec le vin rouge réduit et flamber, et le fond brun de veau.",
+        "• Ajouter l’ail et le bouquet garni.",
+        "• Saler et poivrer, puis cuire l’estouffade à couvert au four à 200 °C pendant 2 h à 2 h 30 min suivant la qualité de la viande (surveiller attentivement la réduction de la sauce et remuer de temps en temps pendant la cuisson).",
+        "5. Préparer la garniture bourguignonne - 20 min",
+        "• Éplucher, laver et cuire les petits oignons par glaçage à blanc.",
+        "• Éliminer la couenne et détailler la poitrine de porc en petits lardons.",
+        "• Les blanchir (départ eau froide), puis les égoutter sans les rafraîchir.",
+        "• Éplucher, laver soigneusement et escaloper les champignons.",
+        "• Sauter les lardons et les oignons avec le beurre, et les réserver.",
+        "• Sauter les champignons dans la graisse de cuisson des lardons, assaisonner et les réserver séparément.",
+        "6. Sauter et terminer l’estouffade - 5 min",
+        "• Décanter les morceaux dans une autre sauteuse.",
+        "• Dégraisser la sauce, vérifier la liaison et son assaisonnement.",
+        "• La faire réduire si nécessaire et la passer au chinois étamine sur les morceaux de viande.",
+        "• Ajouter les lardons et les champignons, et laisser mijoter l’estouffade durant quelques minutes.",
+        "7. Hacher et essorer le persil - 5 min",
+        "8. Dresser l’estouffade - 5 min",
+        "• Dresser la viande légèrement en dôme dans la cocotte ou dans le légumier.",
+        "• Répartir uniformément la garniture sur le dessus.",
+        "• Recouvrir de sauce.",
+        "• Disposer harmonieusement les petits oignons glacés.",
+        "• Saupoudrer légèrement de persil haché."
+    ]
+}

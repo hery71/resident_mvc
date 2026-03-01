@@ -1,0 +1,146 @@
+{
+    "file_name": "canetons_aux_navets.json",
+    "titre": "CANETONS AUX NAVETS",
+    "bandeau": "Volailles poêlées",
+    "page": 858,
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "2 canards de 2 kg chacun",
+                "unite": "kg",
+                "quantite": 4
+            },
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": 0.05
+            },
+            {
+                "nom": "huile",
+                "unite": "l",
+                "quantite": 0.02
+            },
+            {
+                "nom": "sel",
+                "unite": "kg",
+                "quantite": 0.02
+            },
+            {
+                "nom": "beurre (cuisson)",
+                "unite": "kg",
+                "quantite": 0.02
+            }
+        ],
+        "garniture_aromatique": [
+            {
+                "nom": "carottes",
+                "unite": "kg",
+                "quantite": 0.1
+            },
+            {
+                "nom": "oignons",
+                "unite": "kg",
+                "quantite": 0.1
+            }
+        ],
+        "fond_de_poelage": [
+            {
+                "nom": "vin blanc",
+                "unite": "l",
+                "quantite": 0.1
+            },
+            {
+                "nom": "madère",
+                "unite": "l",
+                "quantite": 0.1
+            },
+            {
+                "nom": "fond brun de canard légèrement lié et corsé ou à défaut fond brun de veau/fond déshydraté",
+                "unite": "l",
+                "quantite": 1.5
+            }
+        ],
+        "garniture": [
+            {
+                "nom": "navets",
+                "unite": "kg",
+                "quantite": 2.5
+            },
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": 0.05
+            },
+            {
+                "nom": "sucre semoule",
+                "unite": "kg",
+                "quantite": "PM"
+            },
+            {
+                "nom": "petits oignons",
+                "unite": "kg",
+                "quantite": 0.25
+            },
+            {
+                "nom": "beurre (glaçage)",
+                "unite": "kg",
+                "quantite": 0.02
+            },
+            {
+                "nom": "sucre (glaçage)",
+                "unite": "kg",
+                "quantite": "PM"
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel fin",
+                "quantite": "PM"
+            },
+            {
+                "nom": "poivre du moulin",
+                "quantite": "PM"
+            }
+        ]
+    },
+    "technique": [
+        "1. Mettre en place le poste de travail - 5 min",
+        "2. Habiller et brider les canetons - 30 min (voir p. 250/252)",
+        "3. Marquer les canetons en cuisson - 10 min",
+        "• Saler et poivrer intérieurement et extérieurement les canetons.",
+        "• Faire blondir très lentement le beurre ou un mélange de beurre et d’huile dans un récipient creux de grandeur appropriée.",
+        "• Surveiller attentivement en arrosant dès le début de la cuisson.",
+        "• Disposer les canetons sur un côté, les laisser légèrement colorer, puis les retourner pour colorer l’autre face.",
+        "• Ajouter les abattis.",
+        "• Placer les canetons sur le dos.",
+        "• Ajouter la garniture aromatique.",
+        "• Couvrir le récipient puis le placer au four à 200 °C durant environ 50 min à 1 h.",
+        "• Arroser fréquemment.",
+        "• Ôter le couvercle 10 min avant la fin de la cuisson pour terminer la coloration des canetons.",
+        "4. Préparer les légumes de la garniture - 35 min",
+        "• Éplucher, laver et tourner les navets (voir p. 111).",
+        "• Éplucher et laver les petits oignons.",
+        "5. Marquer la garniture en cuisson - 10 min",
+        "• Glacer les petits oignons à brun (voir p. 397).",
+        "• Glacer les navets à blanc. S’ils sont nouveaux, les glacer en direct, hors saison, il est nécessaire de les blanchir (voir p. 395).",
+        "6. Confectionner le fond de poêlage - 15 min",
+        "• S’assurer de la cuisson des canetons (le jus qui s’écoule de l’intérieur doit être limpide et ne doit pas présenter de traces sanguinolentes).",
+        "• Les débarrasser et les maintenir au chaud à couvert.",
+        "• Faire pincer les sucs si nécessaire.",
+        "• Déglacer avec le vin blanc et le laisser réduire.",
+        "• Ajouter le madère et le fond brun de volaille ou à défaut de veau légèrement lié.",
+        "• Laisser réduire le fond de poêlage et vérifier l’assaisonnement, le passer au chinois étamine.",
+        "• Dégraisser soigneusement.",
+        "• Réserver le fond de poêlage à couvert au bain-marie.",
+        "7. Terminer la cuisson des navets - 5 min",
+        "• Ajouter un peu de fond de poêlage sur les navets, les laisser mijoter durant quelques minutes.",
+        "8. Débrider et glacer les canetons - 5 min",
+        "• Débrider et arroser constamment les canetons avec le fond de poêlage à l’entrée du four très chaud ou sous la salamandre jusqu’à ce qu’ils soient recouverts d’une pellicule brillante.",
+        "9. Dresser les canetons - 5 min",
+        "• Verser un peu de fond de poêlage au fond de la cocotte.",
+        "• Placer les canetons sur le dos dans la cocotte.",
+        "• Disposer harmonieusement les navets et les petits oignons autour des canetons.",
+        "• Napper légèrement.",
+        "• Dresser le reste du fond de poêlage dans une saucière."
+    ]
+}

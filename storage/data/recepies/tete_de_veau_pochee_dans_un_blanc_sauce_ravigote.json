@@ -1,0 +1,119 @@
+{
+    "file_name": "tete_de_veau_pochee_dans_un_blanc_sauce_ravigote.json",
+    "titre": "TÊTE DE VEAU POCHÉE DANS UN BLANC SAUCE RAVIGOTE",
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "tête de veau",
+                "quantite": 1,
+                "unite": "pièce"
+            }
+        ],
+        "blanc_de_cuisson": [
+            {
+                "nom": "eau froide",
+                "quantite": 2.0,
+                "unite": "l"
+            },
+            {
+                "nom": "farine",
+                "quantite": 0.2,
+                "unite": "kg"
+            },
+            {
+                "nom": "jus d’un citron",
+                "quantite": 1,
+                "unite": "pièce"
+            },
+            {
+                "nom": "sel",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ],
+        "garniture_aromatique": [
+            {
+                "nom": "carottes en tronçons",
+                "quantite": 0.2,
+                "unite": "kg"
+            },
+            {
+                "nom": "oignons piqués de 2 clous de girofle",
+                "quantite": 2,
+                "unite": "pièces"
+            },
+            {
+                "nom": "huile",
+                "quantite": 0.05,
+                "unite": "l"
+            },
+            {
+                "nom": "graisse de veau hachée",
+                "quantite": 0.15,
+                "unite": "kg"
+            },
+            {
+                "nom": "bouquet garni",
+                "quantite": 1,
+                "unite": "pièce"
+            }
+        ],
+        "finition": [
+            {
+                "nom": "œuf",
+                "quantite": 1,
+                "unite": "pièce"
+            },
+            {
+                "nom": "persil haché",
+                "quantite": 0.03,
+                "unite": "kg"
+            },
+            {
+                "nom": "oignon haché",
+                "quantite": 0.015,
+                "unite": "kg"
+            },
+            {
+                "nom": "moutarde",
+                "quantite": 0.01,
+                "unite": "l"
+            },
+            {
+                "nom": "huile",
+                "quantite": 0.1,
+                "unite": "l"
+            },
+            {
+                "nom": "vinaigre",
+                "quantite": 0.02,
+                "unite": "l"
+            }
+        ]
+    },
+    "technique": [
+        "1. Blanchir la tête de veau",
+        "• La placer dans un rondeau haut ou dans une grande russe.",
+        "• Couvrir d’eau froide, porter à ébullition et blanchir durant quelques minutes.",
+        "• Rafraîchir et égoutter.",
+        "2. Réaliser la cuisson",
+        "• Rincer le récipient et porter environ 3 l d’eau à ébullition.",
+        "• Dans une petite calotte, délayer 0,060 kg de farine, 0,20 l d’eau froide et le jus d’un citron (0,020 kg de farine par litre d’eau).",
+        "• Verser le « blanc » ainsi réalisé au travers d’un chinois placé sur l’eau en ébullition.",
+        "• Remuer à l’aide d’un fouet afin d’éviter la formation de grumeaux.",
+        "3. Pocher la tête de veau",
+        "• La citronner et la placer dans la cuisson.",
+        "• Saler au gros sel.",
+        "• Ajouter 0,200 kg de carottes en tronçons, 0,200 kg d’oignons piqués de 2 clous de girofle et un fort bouquet garni, 0,05 l d’huile ou 0,150 kg de graisse de veau hachée.",
+        "• Couvrir d’un papier sulfurisé troué au centre pour laisser s’échapper la vapeur.",
+        "• Cuire à très faible ébullition durant 2 h environ.",
+        "4. Confectionner la sauce ravigote",
+        "• Réaliser une sauce vinaigrette avec 0,10 l de vinaigre et 0,30 l d’huile, saler, poivrer et ajouter des câpres hachées, de l’oignon haché et rincé sous un filet d’eau froide, et des fines herbes fraîchement hachées.",
+        "5. Dresser",
+        "• Détailler et détailler la tête de veau en tranches régulières.",
+        "• Détailler la langue en tranches et escaloper la cervelle.",
+        "• Dresser à raison de 2 tranches de tête de veau brûlantes par personne, une tranche de langue et une escalope de cervelle.",
+        "• Napper de sauce ravigote.",
+        "• Disposer une tranche de citron pelé à vif et quelques pluches de cerfeuil (la tête de veau servie brûlante peut être accompagnée de sauces froides : gribiche, à la moelle, ravigote, rémoulade, tartare, Vincent, ou de sauces chaudes : charcutière, piquante, diable, Robert, chasseur, tomate, poulette…)."
+    ]
+}

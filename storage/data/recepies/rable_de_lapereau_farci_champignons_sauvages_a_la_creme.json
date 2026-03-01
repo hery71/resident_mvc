@@ -1,0 +1,186 @@
+{
+    "file_name": "rable_de_lapereau_farci_champignons_sauvages_a_la_creme.json",
+    "titre": "RÂBLE DE LAPEREAU FARCI, CHAMPIGNONS SAUVAGES À LA CRÈME",
+    "bandeau": "Lapereaux poêlés et rôtis",
+    "page": 856,
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "râbles de lapin (4 x 0,400 kg)",
+                "unite": "kg",
+                "quantite": 1.6
+            },
+            {
+                "nom": "crépine de porc",
+                "unite": "kg",
+                "quantite": 0.2
+            },
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": 0.04
+            }
+        ],
+        "farce_mousseline": [
+            {
+                "nom": "blanc de volaille",
+                "unite": "kg",
+                "quantite": 0.25
+            },
+            {
+                "nom": "œuf (1/2 blanc)",
+                "unite": "kg",
+                "quantite": 0.015
+            },
+            {
+                "nom": "crème liquide",
+                "unite": "l",
+                "quantite": 0.2
+            },
+            {
+                "nom": "poivron rouge (1/2 pièce)",
+                "unite": "kg",
+                "quantite": 0.1
+            },
+            {
+                "nom": "poivron vert (1/2 pièce)",
+                "unite": "kg",
+                "quantite": 0.1
+            }
+        ],
+        "fond_de_poelage": [
+            {
+                "nom": "carottes",
+                "unite": "kg",
+                "quantite": 0.1
+            },
+            {
+                "nom": "oignons",
+                "unite": "kg",
+                "quantite": 0.1
+            },
+            {
+                "nom": "vin blanc",
+                "unite": "l",
+                "quantite": 0.04
+            },
+            {
+                "nom": "fond brun de lapin corsé légèrement lié",
+                "unite": "",
+                "quantite": "PM"
+            },
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": 0.02
+            }
+        ],
+        "fond_de_lapin": [
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": 0.02
+            },
+            {
+                "nom": "os et parures de lapin",
+                "unite": "kg",
+                "quantite": "PM"
+            },
+            {
+                "nom": "carottes",
+                "unite": "kg",
+                "quantite": 0.05
+            },
+            {
+                "nom": "oignons",
+                "unite": "kg",
+                "quantite": 0.05
+            },
+            {
+                "nom": "céleri en branches",
+                "unite": "kg",
+                "quantite": 0.04
+            },
+            {
+                "nom": "ail (1 belle gousse)",
+                "unite": "kg",
+                "quantite": 0.01
+            },
+            {
+                "nom": "thym",
+                "unite": "pièce",
+                "quantite": 1
+            },
+            {
+                "nom": "bouquet garni avec romarin et sarriette",
+                "unite": "pièce",
+                "quantite": 1
+            },
+            {
+                "nom": "vin blanc",
+                "unite": "l",
+                "quantite": 0.1
+            },
+            {
+                "nom": "fond brun de volaille légèrement lié (dégraissé)",
+                "unite": "l",
+                "quantite": 0.06
+            }
+        ],
+        "garniture": [
+            {
+                "nom": "girolles",
+                "unite": "kg",
+                "quantite": 0.4
+            },
+            {
+                "nom": "petits cèpes bouchons",
+                "unite": "kg",
+                "quantite": 0.2
+            },
+            {
+                "nom": "chanterelles",
+                "unite": "kg",
+                "quantite": 0.1
+            },
+            {
+                "nom": "trompettes de la mort",
+                "unite": "kg",
+                "quantite": 0.1
+            },
+            {
+                "nom": "échalotes",
+                "unite": "kg",
+                "quantite": 0.02
+            },
+            {
+                "nom": "crème liquide",
+                "unite": "l",
+                "quantite": 0.2
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel fin",
+                "quantite": "PM"
+            },
+            {
+                "nom": "poivre du moulin",
+                "quantite": "PM"
+            }
+        ]
+    },
+    "technique": [
+        "1. Mettre en place le poste de travail - 5 min",
+        "2. Désosser les râbles - 20 min",
+        "3. Monder les poivrons - 5 min",
+        "4. Réaliser la farce mousseline de volaille - 15 min (voir p. 325/328)",
+        "5. Farcir les râbles - 10 min",
+        "6. Éplucher, laver et tailler les légumes - 10 min",
+        "7. Poêler les râbles - 10 min",
+        "8. Marquer un fond brun de lapin - 10 min",
+        "9. Préparer la garniture - 10 min",
+        "10. Sauter les champignons - 10 min",
+        "11. Terminer la cuisson des râbles - 10 min"
+    ]
+}

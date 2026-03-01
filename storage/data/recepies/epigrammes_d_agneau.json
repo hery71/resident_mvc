@@ -1,0 +1,73 @@
+{
+  "titre": "ÉPIGRAMMES D’AGNEAU",
+  "type": "Viandes sautées",
+  "denrees_pour_8_couverts": {
+    "elements_de_base": [
+      {
+        "nom": "morceaux de poitrine parés d’agneau",
+        "quantite": "1,500",
+        "unite": "kg"
+      }
+    ],
+    "panure": [
+      {
+        "nom": "farine",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "œufs",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "mie de pain",
+        "quantite": "PM",
+        "unite": ""
+      }
+    ],
+    "cuisson_et_finition": [
+      {
+        "nom": "beurre",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "fond de braisage ou de poêlage",
+        "quantite": "PM",
+        "unite": ""
+      }
+    ],
+    "assaisonnement": [
+      {
+        "nom": "sel fin",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "poivre du moulin",
+        "quantite": "PM",
+        "unite": ""
+      }
+    ]
+  },
+  "technique_de_realisation": [
+    "1. Préparer les épigrammes.",
+    "Cuire longuement par braisage à blanc 1,500 kg de morceaux de poitrine et de collier d’agneau avec un pied de veau concassé ou pocher les morceaux à court-mouillement dans un fond blanc corsé.",
+    "Égoutter et désosser soigneusement les morceaux.",
+    "Concasser la chair et la débarrasser sur 2 cm d’épaisseur environ dans une plaque huilée.",
+    "Couvrir, mettre sous presse et laisser raffermir en enceinte réfrigérée (l’appareil doit prendre en gelée).",
+    "2. Réaliser les épigrammes et les parer.",
+    "Détailler les épigrammes à l’aide d’un emporte-pièce en forme de cœur allongé.",
+    "Paner les épigrammes à l’anglaise.",
+    "3. Paner en même temps 8 côtelettes d’agneau découvertes parées et manchonnées.",
+    "4. Marquer les épigrammes et les côtes en cuisson.",
+    "Sauter les côtes et les épigrammes dans 0,080 kg de beurre clarifié (ou éventuellement les griller à feu doux).",
+    "Surveiller attentivement la cuisson, la mie de pain colorée très légèrement.",
+    "5. Dresser les épigrammes.",
+    "Dresser la garniture au centre d’un grand plat rond (petits pois au lard, jardinière de légumes…).",
+    "Disposer les épigrammes en couronne en alternant une côte et un épigramme.",
+    "Dresser la garniture aux manches des côtes.",
+    "Lustrer au beurre clarifié et verser tout autour un cordon de sauce demi-glace réduite, additionnée de fond de braisage ou de poêlage de la viande."
+  ]
+}

@@ -1,0 +1,113 @@
+{
+    "file_name": "rognons_de_veau_sautes_aux_champignons_et_au_madere.json",
+    "titre": "ROGNONS DE VEAU SAUTÉS AUX CHAMPIGNONS ET AU MADÈRE",
+    "bandeau": "Abats sautés",
+    "fiche": 105,
+    "page": 836,
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "rognons de veau dégrossis (4 x 0,300 kg)",
+                "unite": "kg",
+                "quantite": 1.2
+            },
+            {
+                "nom": "huile d’arachide",
+                "unite": "l",
+                "quantite": 0.08
+            },
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": 0.08
+            }
+        ],
+        "sauce": [
+            {
+                "nom": "échalotes",
+                "unite": "kg",
+                "quantite": 0.05
+            },
+            {
+                "nom": "madère",
+                "unite": "l",
+                "quantite": 0.1
+            },
+            {
+                "nom": "fond brun de veau lié",
+                "unite": "l",
+                "quantite": 0.5
+            },
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": 0.05
+            }
+        ],
+        "garniture": [
+            {
+                "nom": "champignons de Paris",
+                "unite": "kg",
+                "quantite": 0.25
+            },
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": 0.04
+            }
+        ],
+        "finition": [
+            {
+                "nom": "persil",
+                "unite": "kg",
+                "quantite": 0.02
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel fin",
+                "unite": "",
+                "quantite": "PM"
+            },
+            {
+                "nom": "poivre du moulin",
+                "unite": "",
+                "quantite": "PM"
+            }
+        ]
+    },
+    "technique": [
+        "1. Mettre en place le poste de travail - 5 min",
+        "• Denrées, matériels de préparation, de cuisson et de dressage.",
+        "2. Préparer les rognons - 10 min (voir p. 233/234)",
+        "• Éliminer la « peau » qui les recouvre, puis les séparer en 2 dans le sens de la longueur.",
+        "• Supprimer le bassinet (toutes les parties blanchâtres, nerveuses et les canaux rénaux).",
+        "• Détailler les demi-rognons en lamelles d’1 cm d’épaisseur environ et les réserver en enceinte réfrigérée.",
+        "3. Préparer la garniture des rognons - 10 min",
+        "• Éplucher, laver et ciseler finement les échalotes.",
+        "• Laver, égoutter, concasser et hacher le persil.",
+        "• Éplucher, laver soigneusement et escaloper les champignons.",
+        "4. Marquer les champignons en cuisson - 5 min",
+        "• Sauter les champignons au beurre dans une poêle pendant 4 à 5 min, les saler légèrement, puis les égoutter.",
+        "• Réserver les champignons sautés au chaud (voir p. 416).",
+        "5. Marquer les rognons en cuisson - 15 min",
+        "• Mettre de l’huile à chauffer fortement dans un grand sautoir.",
+        "• Saisir vivement et rapidement les rognons pendant quelques secondes, puis les égoutter dans une passoire placée sur un bain-marie.",
+        "• Remettre le sautoir sur le feu avec le beurre.",
+        "• Assaisonner les rognons, puis les faire sauter durant 2 à 3 min dans le beurre noisette.",
+        "• Les maintenir rosés (légèrement blondis).",
+        "• Les débarrasser à nouveau dans la passoire et les laisser égoutter.",
+        "6. Réaliser la sauce - 10 min",
+        "• Dégraisser le sautoir.",
+        "• Ajouter les échalotes ciselées et les suer doucement sans coloration.",
+        "• Déglacer avec le madère et le laisser réduire.",
+        "• Ajouter le fond brun de veau lié et laisser réduire doucement pendant quelques minutes.",
+        "• Vérifier l’assaisonnement et ajouter les rognons bien égouttés ainsi que les champignons (la sauce ne doit pas bouillir).",
+        "• Retirer le sautoir du feu et monter la sauce légèrement au beurre.",
+        "• Rectifier l’assaisonnement si nécessaire.",
+        "7. Dresser les rognons - 5 min",
+        "• Dresser immédiatement les rognons légèrement en dôme dans un légumier.",
+        "• Saupoudrer sans excès de persil haché.",
+        "• Disposer le légumier sur un dessous de plat recouvert de papier gaufré."
+    ]
+}

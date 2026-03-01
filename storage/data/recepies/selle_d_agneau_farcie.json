@@ -1,0 +1,72 @@
+{
+  "titre": "SELLE D’AGNEAU FARCIE",
+  "type": "Viandes rouges rôties",
+  "denrees_pour_8_couverts": {
+    "elements_de_base": [
+      {
+        "nom": "selle d’agneau (désossée en selle anglaise)",
+        "quantite": "PM",
+        "unite": ""
+      }
+    ],
+    "farce_mousseline": [
+      {
+        "nom": "viande de veau",
+        "quantite": "0,250",
+        "unite": "kg"
+      },
+      {
+        "nom": "noix de veau",
+        "quantite": "0,250",
+        "unite": "kg"
+      },
+      {
+        "nom": "blanc d’œuf",
+        "quantite": "0,20",
+        "unite": "l"
+      },
+      {
+        "nom": "herbes fraîches ou truffes hachées ou pistaches ou truffes (basilic)",
+        "quantite": "PM",
+        "unite": ""
+      }
+    ],
+    "autres": [
+      {
+        "nom": "crépine de porc",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "beurre",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "cresson",
+        "quantite": "PM",
+        "unite": ""
+      }
+    ]
+  },
+  "technique_de_realisation": [
+    "1. Désosser la selle anglaise (voir p. 219/220)",
+    "2. Réaliser la farce mousseline (voir p. 325)",
+    "Réaliser une farce mousseline avec 0,250 kg de noix de veau, un demi-blanc d’œuf et 0,20 l de crème.",
+    "L’additionner de duxelles sèche ou de truffes hachées ou de pistaches ou d’herbes fraîches (basilic).",
+    "3. Farcir la selle",
+    "La masquer avec la farce.",
+    "La refermer, fermer les extrémités avec les panouilles et l’envelopper dans une crépine de porc.",
+    "La ficeler soigneusement.",
+    "4. Rôtir la selle",
+    "La rôtir au four à 220 °C durant 50 min environ.",
+    "La débrasser et la laisser reposer au chaud durant 1/2 h.",
+    "5. Confectionner le jus de rôti",
+    "6. Dresser",
+    "Ôter la ficelle et la crépine de porc.",
+    "Parer la selle (ôter les entames).",
+    "Dresser. Verser un peu de jus de rôti au fond du plat.",
+    "Lustrer au beurre clarifié ou napper de beurre noisette.",
+    "Disposer un ou deux bouquets de cresson aux extrémités du plat."
+  ]
+}

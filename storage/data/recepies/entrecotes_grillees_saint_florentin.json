@@ -1,0 +1,98 @@
+{
+  "titre": "ENTRECÔTES GRILLÉES SAINT-FLORENTIN",
+  "type": "Viandes rouges grillées",
+  "denrees_pour_8_couverts": {
+    "elements_de_base": [
+      {
+        "nom": "entrecôtes",
+        "quantite": "4 x 0,400",
+        "unite": "kg"
+      },
+      {
+        "nom": "huile",
+        "quantite": "PM",
+        "unite": ""
+      }
+    ],
+    "garniture_saint_florentin": [
+      {
+        "nom": "pommes de terre",
+        "quantite": "2,00",
+        "unite": "kg"
+      },
+      {
+        "nom": "beurre",
+        "quantite": "PM",
+        "unite": ""
+      }
+    ],
+    "sauce_bordelaise": [
+      {
+        "nom": "vin blanc",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "fond brun de veau",
+        "quantite": "PM",
+        "unite": ""
+      }
+    ],
+    "finition": [
+      {
+        "nom": "échalotes ciselées",
+        "quantite": "0,020",
+        "unite": "kg"
+      },
+      {
+        "nom": "jus d’un demi-citron",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "beurre clarifié",
+        "quantite": "PM",
+        "unite": ""
+      }
+    ],
+    "assaisonnement": [
+      {
+        "nom": "sel fin",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "poivre du moulin",
+        "quantite": "PM",
+        "unite": ""
+      }
+    ]
+  },
+  "technique_de_realisation": [
+    "1. Préparer les entrecôtes et la moelle.",
+    "Parer 4 entrecôtes de 0,400 kg et les réserver en enceinte réfrigérée.",
+    "Détailler 0,150 kg de moelle en petits dés et les dégorger dans de l’eau glacée légèrement vinaigrée.",
+    "2. Réaliser les pommes Saint-Florentin.",
+    "Réaliser une pomme Duchesse selon la technique et les proportions ci-contre.",
+    "Y ajouter 0,200 kg de jambon taillé en fine brunoise ou paille.",
+    "Façonner les pommes en forme de petits bouchons.",
+    "Les paner au vermicelle, puis les aplatir pour leur donner une forme rectangulaire.",
+    "Les réserver en enceinte réfrigérée.",
+    "3. Réaliser la sauce bordelaise au vin blanc.",
+    "Voir fiche ci-contre, remplacer le vin rouge par du vin blanc.",
+    "4. Réaliser les cèpes à la bordelaise.",
+    "Sauter 0,400 kg de cèpes dans de l’huile très chaude.",
+    "Les assaisonner et leur ajouter 0,040 kg d’échalotes ciselées, 0,020 kg de persil haché et le jus d’un demi-citron.",
+    "5. Griller les entrecôtes.",
+    "Les huiler très légèrement et les poser sur le gril dans le sens de la diagonale pour les quadriller.",
+    "Les griller à l’à point de cuisson demandé, puis les débarrasser sur une plaque munie d’une grille ou d’une assiette retournée.",
+    "Assaisonner les entrecôtes de sel fin et de poivre du moulin.",
+    "Frire les pommes Saint-Florentin.",
+    "Les plonger dans un bain de friture à 170 °C.",
+    "Lorsqu’elles sont dorées et croustillantes, les égoutter sur du papier absorbant et les saler.",
+    "6. Dresser les entrecôtes.",
+    "Les disposer sur un grand plat ovale en les chevauchant légèrement puis les lustrer au beurre clarifié.",
+    "Disposer harmonieusement les cèpes à la bordelaise et les pommes Saint-Florentin.",
+    "Verser un cordon de sauce tout autour des entrecôtes ou la servir à part en saucière."
+  ]
+}

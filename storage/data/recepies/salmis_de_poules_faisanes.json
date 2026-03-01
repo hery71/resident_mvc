@@ -1,0 +1,93 @@
+{
+    "file_name": "salmis_de_poules_faisanes.json",
+    "titre": "SALMIS DE POULES FAISANES",
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "poules faisanes",
+                "quantite": 2,
+                "unite": "pièces"
+            }
+        ],
+        "cuisson_initiale": [
+            {
+                "nom": "beurre",
+                "quantite": 0.05,
+                "unite": "kg"
+            }
+        ],
+        "mirepoix": [
+            {
+                "nom": "carottes",
+                "quantite": 0.1,
+                "unite": "kg"
+            },
+            {
+                "nom": "oignons",
+                "quantite": 0.1,
+                "unite": "kg"
+            },
+            {
+                "nom": "champignons",
+                "quantite": 0.05,
+                "unite": "kg"
+            }
+        ],
+        "sauce": [
+            {
+                "nom": "sauce demi-glace ou sauce espagnole liée et réalisée à base de parures de gibiers à plumes",
+                "quantite": 0.8,
+                "unite": "l"
+            },
+            {
+                "nom": "vin blanc sec",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "jus de truffes ou de cuisson de champignons",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "truffes",
+                "quantite": 8,
+                "unite": "lamelles"
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel fin",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "poivre du moulin",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ]
+    },
+    "technique": [
+        "(Peut être réalisé avec canetons, pintadeaux…)",
+        "1. Habiller, brider et barder soigneusement les poules faisanes",
+        "2. Rôtir les poules faisanes",
+        "• Les rôtir dans un four très chaud (250 °C) durant environ 20 à 25 min. Les maintenir un peu saignantes (vert-cuit).",
+        "3. Débrider et découper les faisanes en quartiers",
+        "• Les découper soigneusement, parer les ailes et les cuisses, manchonner, ôter la peau et le maximum de carcasses.",
+        "• Ranger les morceaux ainsi parés dans une sauteuse beurrée avec un peu de cognac flambé, du jus de truffe et quelques cuillères de glace de viande blonde et fondue.",
+        "• Couvrir hermétiquement la sauteuse et réserver au chaud.",
+        "4. Réaliser la sauce salmis",
+        "• Concasser et broyer les carcasses, la peau et toutes les parures.",
+        "• Les faire revenir au beurre et y ajouter une fine mirepoix composée de 0,100 kg de carottes, 0,100 kg d’oignons et 0,050 kg de champignons.",
+        "• Déglacer avec 0,05 l de vin blanc sec, ajouter quelques grains de poivre écrasés et laisser réduire des 2/3.",
+        "• Compléter le mouillement avec 0,80 l de sauce demi-glace ou de sauce espagnole peu liée et réalisée à base de parures de gibiers à plumes.",
+        "• Laisser cuire lentement durant une vingtaine de minutes.",
+        "• Passer la sauce au chinois en foulant fortement.",
+        "• La laisser réduire à nouveau, la détendre si nécessaire avec un peu de jus de truffes ou de cuisson de champignons.",
+        "• Écumer et dépouiller soigneusement.",
+        "• Monter la sauce avec 0,010 kg de beurre.",
+        "• Vérifier l’assaisonnement et verser la sauce sur les morceaux.",
+        "• Dresser et garnir de 8 têtes de champignons tournés et sautés et de 8 belles lamelles de truffes."
+    ]
+}

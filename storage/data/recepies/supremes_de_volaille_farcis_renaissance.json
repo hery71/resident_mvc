@@ -1,0 +1,86 @@
+{
+    "file_name": "supremes_de_volaille_farcis_renaissance.json",
+    "titre": "SUPRÊMES DE VOLAILLE FARCIS RENAISSANCE",
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "suprêmes de volaille «label rouge» de 0,250 kg chacun",
+                "quantite": 0.25,
+                "unite": "kg"
+            },
+            {
+                "nom": "sel",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "poivre",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ],
+        "farce": [
+            {
+                "nom": "mousseline de volaille réalisée à partir de 0,250 kg de blanc de volaille",
+                "quantite": 0.25,
+                "unite": "kg"
+            },
+            {
+                "nom": "fond de volaille",
+                "quantite": 0.2,
+                "unite": "l"
+            },
+            {
+                "nom": "crème",
+                "quantite": 0.2,
+                "unite": "l"
+            },
+            {
+                "nom": "griottes",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "poivrons rouges (mondés, cuits à l’anglaise)",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "truffes",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ],
+        "sauce": [
+            {
+                "nom": "fond blanc de volaille très corsé",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "crème",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ]
+    },
+    "technique": [
+        "1. Préparer 8 suprêmes de volaille «label rouge» de 0,250 kg chacun",
+        "• Les parer, les désosser entièrement et ôter la peau.",
+        "• Les inciser transversalement pour les ouvrir en portefeuille.",
+        "• Les aplatir légèrement et les assaisonner.",
+        "2. Farcir les suprêmes",
+        "• Les masquer avec une épaisse couche de farce mousseline de volaille réalisée à partir de 0,250 kg de blanc de volaille, un demi-blanc d’œuf et 0,20 l de crème.",
+        "• Disposer sur la farce des bâtonnets de carottes, de courgettes, de poivrons rouges (mondés, cuits à l’anglaise) et de truffes.",
+        "• Rouler les suprêmes et maintenir les rouleaux à l’aide de papier film.",
+        "3. Pocher les suprêmes",
+        "• Les pocher délicatement entre cuits à la vapeur.",
+        "4. Réaliser la sauce",
+        "• Réaliser un fond blanc de volaille très corsé selon la technique du fumet de poisson, y ajouter des parures de champignons.",
+        "• Réduire le fond blanc ainsi obtenu, le crémer et réduire à nouveau. La consistance doit être légèrement nappante.",
+        "5. Dresser les suprêmes",
+        "• Les escaloper.",
+        "• Napper le fond des assiettes avec la sauce.",
+        "• Disposer les tranches de suprême en les faisant se chevaucher et disposer harmonieusement la garniture Renaissance (tous les légumes nouveaux glacés à blanc : carottes, navets, petits oignons, courgettes, 6 pointes d’asperges, des haricots verts et des choux-fleurs nappés de sauce hollandaise)."
+    ]
+}

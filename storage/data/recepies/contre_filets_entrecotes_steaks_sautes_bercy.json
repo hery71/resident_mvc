@@ -1,0 +1,106 @@
+{
+  "titre": "CONTRE-FILETS, ENTRECÔTES OU STEAKS SAUTÉS BERCY",
+  "type": "Viandes rouges sautées, sauce brune par déglaçage",
+  "page": 792,
+  "denrees_pour_8_couverts": {
+    "elements_de_base": [
+      {
+        "nom": "contre-filets parés (4 x 0,300 à 0,400 kg)",
+        "quantite": "1,200 à 1,600",
+        "unite": "kg"
+      },
+      {
+        "nom": "entrecôtes pour 2 personnes (4 x 0,300 à 0,400 kg)",
+        "quantite": "1,200 à 1,600",
+        "unite": "kg"
+      },
+      {
+        "nom": "8 steaks de 0,150 kg",
+        "quantite": "1,200",
+        "unite": "kg"
+      },
+      {
+        "nom": "huile d’arachide",
+        "quantite": "0,04",
+        "unite": "l"
+      },
+      {
+        "nom": "beurre",
+        "quantite": "0,040",
+        "unite": "kg"
+      }
+    ],
+    "sauce_bercy": [
+      {
+        "nom": "échalotes",
+        "quantite": "0,080",
+        "unite": "kg"
+      },
+      {
+        "nom": "vin blanc",
+        "quantite": "0,10",
+        "unite": "l"
+      },
+      {
+        "nom": "fond brun de veau lié (glace de viande facultatif)",
+        "quantite": "0,40",
+        "unite": "l"
+      },
+      {
+        "nom": "beurre",
+        "quantite": "0,040",
+        "unite": "kg"
+      },
+      {
+        "nom": "persil",
+        "quantite": "0,020",
+        "unite": "kg"
+      }
+    ],
+    "assaisonnement": [
+      {
+        "nom": "sel fin",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "poivre du moulin",
+        "quantite": "PM",
+        "unite": ""
+      }
+    ]
+  },
+  "technique_de_realisation": [
+    "(Voir p. 398 à 399)",
+    "1. Mettre en place le poste de travail - 5 min",
+    "Denrées, matériels de préparation, de cuisson et de dressage.",
+    "2. Vérifier et parer la viande - 5 min (voir p. 223/224)",
+    "Ôter les nerfs, les aponévroses et la graisse si nécessaire.",
+    "La réserver en enceinte réfrigérée.",
+    "3. Préparer les éléments de la sauce Bercy - 10 min",
+    "Éplucher, laver et ciseler finement les échalotes.",
+    "Laver, équeuter, essorer, concasser et hacher le persil.",
+    "4. Marquer les steaks en cuisson - 5 min",
+    "Assaisonner les steaks de sel fin et de poivre du moulin, puis les faire sauter dans un sautoir avec de l’huile et du beurre (surveiller attentivement la cuisson, les sucs doivent être caramélisés mais sans excès).",
+    "Cuire les steaks à l’à-point de cuisson souhaité (bleu, saignant, à point, bien cuit), puis les débarrasser sur une plaque munie d’une petite grille ou d’une assiette retournée.",
+    "5. Réaliser la sauce Bercy - 10 min",
+    "Dégraisser le sautoir de cuisson en basculant partiellement la graisse dans un récipient.",
+    "Ajouter les échalotes ciselées et les laisser suer doucement sans coloration.",
+    "Déglacer avec le vin blanc et le laisser réduire.",
+    "Ajouter le fond brun de veau lié, éventuellement un peu de glace de viande fondue et réduire la sauce à nouveau pendant quelques minutes.",
+    "Monter la sauce au beurre hors du feu en vannant (ne pas utiliser de fouet).",
+    "Vérifier l’onctuosité et l’assaisonnement.",
+    "6. Dresser la viande - 5 min",
+    "Dresser les contre-filets, les entrecôtes ou les steaks, sur un grand plat long dans le sens de la diagonale et en les chevauchant légèrement.",
+    "Dans le cas de 4 cuissons différentes, placer le plus cuit à plat en premier, puis l’à-point, le saignant et terminer par le « bleu ».",
+    "Napper uniformément avec la sauce.",
+    "Parsemer sans excès de persil haché.",
+    "REMARQUES :",
+    "Assaisonner les viandes rouges juste avant ou sitôt après la cuisson, pas à l’avance. Le sel fait ressortir le sang.",
+    "Retourner les pièces de viande à l’aide d’une spatule, ne pas les piquer avec une fourchette.",
+    "Ne pas fouetter la sauce, elle risquerait de blanchir, la vanner hors du feu.",
+    "Certains professionnels passent la sauce au chinois étamine."
+  ],
+  "duree_moyenne_preparation": "40 min",
+  "duree_moyenne_cuisson": "variable selon la cuisson désirée par le client"
+}

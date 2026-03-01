@@ -1,0 +1,144 @@
+{
+  "titre": "ESCALOPES DE VEAU VIENNOISE",
+  "type": "Viandes sautées et panées",
+  "denrees_pour_8_couverts": {
+    "elements_de_base": [
+      {
+        "nom": "escalopes de veau (8 x 0,150 kg)",
+        "quantite": "1,200",
+        "unite": "kg"
+      },
+      {
+        "nom": "beurre",
+        "quantite": "0,040",
+        "unite": "kg"
+      },
+      {
+        "nom": "huile d’arachide",
+        "quantite": "0,08",
+        "unite": "l"
+      }
+    ],
+    "panure_a_l_anglaise": [
+      {
+        "nom": "farine",
+        "quantite": "0,150",
+        "unite": "kg"
+      },
+      {
+        "nom": "œufs (entiers)",
+        "quantite": "3",
+        "unite": "pièce"
+      },
+      {
+        "nom": "huile d’arachide",
+        "quantite": "0,04",
+        "unite": "l"
+      },
+      {
+        "nom": "mie de pain",
+        "quantite": "0,300",
+        "unite": "kg"
+      }
+    ],
+    "garniture_viennoise": [
+      {
+        "nom": "œufs",
+        "quantite": "3",
+        "unite": "pièce"
+      },
+      {
+        "nom": "câpres",
+        "quantite": "0,080",
+        "unite": "kg"
+      },
+      {
+        "nom": "persil",
+        "quantite": "0,040",
+        "unite": "kg"
+      },
+      {
+        "nom": "citron (1 pièce)",
+        "quantite": "0,120",
+        "unite": "kg"
+      },
+      {
+        "nom": "filets d’anchois à l’huile (8 pièces)",
+        "quantite": "0,120",
+        "unite": "kg"
+      },
+      {
+        "nom": "olives vertes (8 pièces)",
+        "quantite": "0,080",
+        "unite": "kg"
+      }
+    ],
+    "finition": [
+      {
+        "nom": "fond brun de veau lié",
+        "quantite": "0,20",
+        "unite": "l"
+      },
+      {
+        "nom": "beurre",
+        "quantite": "0,080",
+        "unite": "kg"
+      }
+    ],
+    "decor_facultatif": [
+      {
+        "nom": "citrons (2 pièces)",
+        "quantite": "0,200",
+        "unite": "kg"
+      }
+    ],
+    "assaisonnement": [
+      {
+        "nom": "sel fin",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "poivre du moulin",
+        "quantite": "PM",
+        "unite": ""
+      }
+    ]
+  },
+  "technique_de_realisation": [
+    "1. Mettre en place le poste de travail - 5 min.",
+    "Denrées, matériels de préparation, de cuisson et de dressage.",
+    "2. Préparer la panure à l’anglaise - 5 min.",
+    "Tamiser et réserver la mie de pain dans une plaque à débarrasser.",
+    "Casser, assaisonner et battre les œufs avec une fourchette ou un petit fouet.",
+    "Ajouter l’huile et réserver l’anglaise dans une 2ème plaque à débarrasser.",
+    "Répartir la farine dans une 3ème plaque.",
+    "3. Parer les escalopes - 15 min (voir p. 342/343).",
+    "Vérifier et parer les escalopes si nécessaire.",
+    "Les aplatir entre 2 feuilles de papier plastifié à l’aide d’une batte à côtelettes.",
+    "Passer successivement les escalopes dans la farine, dans l’anglaise, puis dans la mie de pain.",
+    "Bien faire adhérer la mie de pain et quadriller les escalopes à l’aide du dos d’une couteau d’office.",
+    "Réserver les escalopes panées en enceinte réfrigérée.",
+    "4. Préparer les éléments de la garniture viennoise - 20 min.",
+    "Durcir les œufs (10 min environ à partir de l’ébullition).",
+    "Les égoutter, les écaler et les refroidir.",
+    "Hacher finement les œufs durs, puis passer légèrement les jaunes et les blancs au travers d’un gros tamis.",
+    "Dénoyauter les olives et les tailler en rondelles.",
+    "Couper sur chaque tranche de citron pelé à vif.",
+    "Disposer la garniture (câpres, œufs, olives, anchois et persil haché) au centre du plat.",
+    "Égoutter et réserver les câpres (les concasser éventuellement si elles sont trop grosses).",
+    "5. Chauffer, réduire légèrement et assaisonner le fond brun de veau lié - 5 min.",
+    "Le tamponner et le réserver à couvert.",
+    "6. Marquer les escalopes en cuisson - 15 min.",
+    "Sauter les escalopes (côté quadrillé en premier) dans un grand rondeau avec de l’huile et du beurre.",
+    "Surveiller attentivement la coloration, puis les retourner.",
+    "Finir la cuisson à feu doux durant quelques minutes.",
+    "Les débarrasser et les assaisonner légèrement à nouveau.",
+    "7. Dresser les escalopes - 5 min.",
+    "Disposer aux extrémités du plat, en arc de cercle, les éléments de la garniture viennoise (câpres, blancs d’œufs, persil haché, jaunes et filets d’anchois).",
+    "Disposer les escalopes légèrement en biais (dans le sens de la diagonale du plat), le côté quadrillé sur le dessus, en les chevauchant légèrement.",
+    "Verser délicatement autour des escalopes un cordon de fond brun de veau lié, puis les arroser de beurre noisette au moment de l’envoi du plat.",
+    "Placer une tranche de citron surmontée d’une olive et d’un filet d’anchois sur chaque escalope.",
+    "Décorer facultativement les bords du plat avec des demi-lamelles de citron."
+  ]
+}

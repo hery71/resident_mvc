@@ -1,0 +1,122 @@
+{
+  "titre": "FILET DE BŒUF EN BRIOCHE, SAUCE PÉRIGOURDINE",
+  "type": "Viandes rouges rôties",
+  "denrees_pour_8_couverts": {
+    "elements_de_base": [
+      {
+        "nom": "filet de bœuf",
+        "quantite": "1,500",
+        "unite": "kg"
+      },
+      {
+        "nom": "tranche de lard",
+        "quantite": "PM",
+        "unite": ""
+      }
+    ],
+    "enrobage": [
+      {
+        "nom": "duxelles sèche",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "farce mousseline de volaille et de foie gras",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "pâte à brioche",
+        "quantite": "0,500",
+        "unite": "kg"
+      },
+      {
+        "nom": "œufs (dorure)",
+        "quantite": "1",
+        "unite": "pièce"
+      }
+    ],
+    "sauce_perigourdine": [
+      {
+        "nom": "jus de cuisson du filet",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "fond brun de veau lié",
+        "quantite": "0,60",
+        "unite": "l"
+      },
+      {
+        "nom": "madère",
+        "quantite": "0,10",
+        "unite": "l"
+      },
+      {
+        "nom": "glace de viande",
+        "quantite": "0,60",
+        "unite": "kg"
+      },
+      {
+        "nom": "ou sauce espagnole",
+        "quantite": "0,60",
+        "unite": "l"
+      },
+      {
+        "nom": "truffes taillées en brunoise",
+        "quantite": "0,050",
+        "unite": "kg"
+      },
+      {
+        "nom": "foie gras en petits dés",
+        "quantite": "0,100",
+        "unite": "kg"
+      },
+      {
+        "nom": "beurre",
+        "quantite": "PM",
+        "unite": ""
+      }
+    ],
+    "assaisonnement": [
+      {
+        "nom": "sel fin",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "poivre du moulin",
+        "quantite": "PM",
+        "unite": ""
+      }
+    ]
+  },
+  "technique_de_realisation": [
+    "1. Préparer le filet (voir p. 221/222)",
+    "Parer, dégraisser et dénerver un tronçon de cœur de filet d’1,500 kg.",
+    "Ôter la chaînette, le clou et les nerfs (facultatif) et le ficeler (réserver les parures pour la sauce).",
+    "2. Rissoler le filet",
+    "L’assaisonner et le faire revenir au beurre très vivement.",
+    "Le colorer uniformément sur toutes ses faces, puis le débrasser sur grille et le refroidir complètement.",
+    "3. Enrober le filet",
+    "L’envelopper dans de grandes crêpes aux fines herbes masquées d’une farce composée de duxelles sèche, de farce mousseline de volaille et de foie gras (les crêpes évitent à la pâte de se détremper durant la cuisson).",
+    "Badigeonner la surface d’œuf battu à l’aide d’un pinceau (dorure).",
+    "L’enrober dans 0,500 kg de pâte à brioche raffermie en enceinte réfrigérée.",
+    "Bien souder les extrémités. Ménager deux petites cheminées pour laisser la vapeur s’échapper.",
+    "Décorer la surface et dorer à l’œuf détendu avec un peu de lait.",
+    "4. Laisser pousser la brioche",
+    "Placer le filet enrobé dans une étuve ou dans un endroit tiède (35 à 40 °C maximum) et à l’abri des courants d’air.",
+    "5. Marquer le filet de bœuf en cuisson",
+    "Le dorer à nouveau, puis le cuire au four à 220 °C durant 25 à 30 min.",
+    "La brioche doit être dorée et cuite, et la température au cœur du filet doit atteindre 48 à 52 °C.",
+    "Débrasser le filet et le laisser reposer sur grille durant environ 20 min.",
+    "6. Réaliser la sauce périgourdine",
+    "Rissoler les parures maigres du filet dans une sauteuse.",
+    "Ajouter une faible quantité de garniture aromatique et la laisser pincer.",
+    "Déglacer soigneusement.",
+    "Ajouter 0,60 l de glace demi-glace ou de sauce espagnole.",
+    "Réduire lentement.",
+    "Ajouter 0,10 kg de truffes taillées en brunoise et 0,100 kg de foie gras en petits dés ou passés au tamis.",
+    "Beurrer en surface."
+  ]
+}

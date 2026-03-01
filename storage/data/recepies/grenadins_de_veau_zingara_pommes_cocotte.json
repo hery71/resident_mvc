@@ -1,0 +1,175 @@
+{
+    "file_name": "grenadins_de_veau_zingara_pommes_cocotte.json",
+    "titre": "GRENADINS DE VEAU ZINGARA POMMES COCOTTE",
+    "bandeau": "Viandes braisées à brun",
+    "page": 828,
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "grenadins de veau (8 x 0,150 kg) ou noix de veau",
+                "unite": "kg",
+                "quantite": 1.2
+            },
+            {
+                "nom": "lard gras",
+                "unite": "kg",
+                "quantite": 0.2
+            },
+            {
+                "nom": "huile",
+                "unite": "l",
+                "quantite": 0.04
+            },
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": 0.04
+            }
+        ],
+        "garniture_aromatique": [
+            {
+                "nom": "carottes",
+                "unite": "kg",
+                "quantite": 0.2
+            },
+            {
+                "nom": "oignons",
+                "unite": "kg",
+                "quantite": 0.2
+            },
+            {
+                "nom": "bouquet garni",
+                "unite": "pièce",
+                "quantite": 1
+            },
+            {
+                "nom": "ail (2 gousses)",
+                "unite": "kg",
+                "quantite": 0.02
+            },
+            {
+                "nom": "vin blanc",
+                "unite": "l",
+                "quantite": 0.1
+            },
+            {
+                "nom": "fond brun de veau lié et tomaté",
+                "unite": "l",
+                "quantite": 1
+            }
+        ],
+        "garniture_zingara": [
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": 0.04
+            },
+            {
+                "nom": "gros champignons de Paris",
+                "unite": "kg",
+                "quantite": 0.08
+            },
+            {
+                "nom": "jambon blanc",
+                "unite": "kg",
+                "quantite": 0.08
+            },
+            {
+                "nom": "langue écarlate",
+                "unite": "kg",
+                "quantite": 0.08
+            },
+            {
+                "nom": "truffe",
+                "unite": "kg",
+                "quantite": 0.04
+            },
+            {
+                "nom": "madère",
+                "unite": "l",
+                "quantite": 0.04
+            },
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": 0.02
+            }
+        ],
+        "garniture_d_accompagnement": [
+            {
+                "nom": "pommes de terre à chair ferme",
+                "unite": "kg",
+                "quantite": 2.5
+            },
+            {
+                "nom": "huile d’arachide",
+                "unite": "l",
+                "quantite": 0.08
+            },
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": 0.04
+            },
+            {
+                "nom": "persil",
+                "unite": "kg",
+                "quantite": 0.02
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel fin",
+                "unite": "",
+                "quantite": "PM"
+            },
+            {
+                "nom": "poivre du moulin",
+                "unite": "",
+                "quantite": "PM"
+            }
+        ]
+    },
+    "technique": [
+        "1. Mettre en place le poste de travail - 5 min",
+        "• Denrées, matériels de préparation, de cuisson et de dressage.",
+        "2. Préparer les bâtonnets de lard gras - 5 min",
+        "• Détailler le lard gras en petits bâtonnets réguliers de 3 à 4 cm de longueur sur 3 mm de section.",
+        "• Les raffermir dans une petite sauteuse avec de l’eau glacée.",
+        "3. Préparer la viande - 5 min",
+        "• Parer, dégraisser et enlever les membranes superficielles.",
+        "• Vérifier, passer si nécessaire et régulariser l’épaisseur des grenadins à l’aide d’une lame à filet.",
+        "4. Piquer les grenadins à l’aide d’une aiguille à piquer - 20 min (voir p. 229)",
+        "• Piquer régulièrement les grenadins avec les bâtonnets de lard.",
+        "• Éplucher, laver et émincer les oignons.",
+        "• Laver, égoutter, écosser et hacher le persil.",
+        "5. Marquer les grenadins en cuisson - 15 min",
+        "• Assaisonner et saisir les grenadins dans un sautoir avec l’huile et le beurre.",
+        "• Les colorer sur les deux faces, puis les débarrasser.",
+        "• Ajouter la garniture aromatique et la laisser suer doucement quelques minutes.",
+        "• Déglacer et replacer les grenadins sur la garniture aromatique.",
+        "• Ajouter le fond brun de veau lié tomaté, le bouquet garni et les gousses d’ail écrasées.",
+        "• Assaisonner, couvrir hermétiquement le sautoir et braiser au four à 200 °C pendant 40 à 45 min.",
+        "6. Préparer les pommes cocotte - 20 min",
+        "• Éplucher, laver et tourner les pommes de terre.",
+        "• Les blanchir et les rissoler.",
+        "7. Préparer la garniture zingara - 10 min",
+        "• Éplucher, laver soigneusement et tailler les champignons en julienne.",
+        "• Détailler également le jambon blanc et la langue écarlate en julienne.",
+        "• Faire suer les juliennes au beurre.",
+        "• Déglacer avec le madère et réduire légèrement.",
+        "• Ajouter la truffe en julienne.",
+        "8. Confectionner la sauce zingara - 10 min",
+        "• Réserver les grenadins au chaud.",
+        "• Passer le fond de braisage au chinois étamine dans un bain-marie.",
+        "• Ajouter les juliennes au fond de braisage et laisser mijoter quelques minutes.",
+        "• Rectifier l’assaisonnement.",
+        "9. Glacer les grenadins - 5 min",
+        "• Glacer les grenadins à l’entrée d’un four très chaud ou sous la salamandre en les arrosant du jus de braisage.",
+        "10. Dresser les grenadins de veau zingara et les pommes cocotte - 5 min",
+        "• Dresser les grenadins en couronne avec la garniture zingara au centre.",
+        "• Disposer les pommes cocotte autour.",
+        "• Napper les grenadins d’un peu de jus de braisage.",
+        "• Décorer avec le persil haché."
+    ]
+}

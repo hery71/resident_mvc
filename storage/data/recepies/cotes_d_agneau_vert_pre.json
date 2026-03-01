@@ -1,0 +1,114 @@
+{
+  "titre": "CÔTES D’AGNEAU VERT-PRÉ",
+  "type": "Viandes grillées",
+  "denrees_pour_8_couverts": {
+    "elements_de_base": [
+      {
+        "nom": "2 carrés d’agneau couverts de 8 côtes chacun",
+        "quantite": "2",
+        "unite": "pièce"
+      },
+      {
+        "nom": "huile",
+        "quantite": "0,08",
+        "unite": "l"
+      }
+    ],
+    "finition": [
+      {
+        "nom": "beurre",
+        "quantite": "0,020",
+        "unite": "kg"
+      },
+      {
+        "nom": "cresson",
+        "quantite": "1/4",
+        "unite": "botte"
+      }
+    ],
+    "garniture": [
+      {
+        "nom": "pommes de terre Bintje",
+        "quantite": "1,600",
+        "unite": "kg"
+      },
+      {
+        "nom": "friture",
+        "quantite": "PM",
+        "unite": ""
+      }
+    ],
+    "beurre_maitre_d_hotel": [
+      {
+        "nom": "beurre",
+        "quantite": "0,160",
+        "unite": "kg"
+      },
+      {
+        "nom": "persil",
+        "quantite": "0,040",
+        "unite": "kg"
+      },
+      {
+        "nom": "citron (1/2 pièce)",
+        "quantite": "0,060",
+        "unite": "kg"
+      }
+    ],
+    "assaisonnement": [
+      {
+        "nom": "sel fin",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "poivre du moulin",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "fleur de thym",
+        "quantite": "PM",
+        "unite": ""
+      }
+    ]
+  },
+  "technique_de_realisation": [
+    "1. Mettre en place le poste de travail - 5 min.",
+    "Denrées, matériels de préparation, de cuisson et de dressage.",
+    "2. Préparer les côtes d’agneau - 20 min (voir p. 217/218).",
+    "Arracher la peau parcheminée, supprimer les os des vertèbres et le nerf des carrés d’agneau.",
+    "Dégraisser si nécessaire et détailler les côtes.",
+    "Les manchonner, puis régulariser leur épaisseur à l’aide d’une batte à côtelettes.",
+    "Réserver les côtes d’agneau en enceinte réfrigérée.",
+    "3. Éplucher et tailler les pommes paille - 20 min (voir p. 128/129).",
+    "Éplucher et laver les pommes de terre.",
+    "Les tailler en pommes paille à l’aide d’une mandoline.",
+    "Les rincer puis les réserver dans un bain d’eau froide.",
+    "4. Laver, trier et égoutter le cresson - 5 min (voir p. 88/89).",
+    "Le réserver au frais sur une plaque avec de l’eau.",
+    "5. Confectionner le beurre Maître d’hôtel - 10 min.",
+    "Laver, égoutter, essorer, concasser et hacher le persil.",
+    "Mélanger dans une petite calotte le beurre en pommade avec le persil haché et le jus d’un demi-citron.",
+    "Assaisonner et réserver le beurre Maître d’hôtel à la température ambiante.",
+    "6. Marquer les pommes paille en cuisson - 15 min (voir p. 456/457).",
+    "Rincer à nouveau les pommes de terre, puis les égoutter soigneusement.",
+    "Les frire par petites quantités dans un bain de friture chauffé à 170 °C.",
+    "Les égoutter soigneusement sur du papier absorbant.",
+    "Saler au sel fin et réserver les pommes paille au chaud sur une plaque à débarrasser.",
+    "7. Marquer les côtes en cuisson - 10 min.",
+    "Nettoyer, brosser et huiler le gril si nécessaire.",
+    "Enduire les côtes d’agneau d’une fine couche d’huile, puis les poser sur le gril dans le sens de la diagonale.",
+    "Quadriller les côtes en les faisant pivoter d’un quart de tour, puis les retourner (sans demander particulièrement de « marquage »).",
+    "Débarrasser les côtes d’agneau sur une plaque munie d’une grille (ou d’une assiette retournée).",
+    "Assaisonner les côtes de sel fin et de poivre du moulin.",
+    "8. Dresser les côtes d’agneau vert-pré - 5 min.",
+    "Dresser les côtes d’agneau sur un grand plat long beurré.",
+    "Croiser les manches et disposer la face des côtes quadrillée en premier sur le dessus.",
+    "Les lustrer au beurre clarifié.",
+    "Disposer un bouquet de cresson aux extrémités du plat.",
+    "Dresser les pommes paille en buisson sur un plat rond recouvert d’une feuille de papier gaufré.",
+    "Dresser le beurre Maître d’hôtel en saucière, il doit être à la température ambiante."
+  ],
+  "remarque": "Les côtes d’agneau peuvent être placées dans une marinade instantanée composée d’huile et d’herbes de Provence ou de fleurs de thym pulvérisées."
+}

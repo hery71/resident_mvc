@@ -1,0 +1,158 @@
+{
+  "titre": "GIGOT D’AGNEAU RÔTI, GRATIN DE POMMES DE TERRE",
+  "type": "Viandes rouges rôties",
+  "page": 786,
+  "fiche": 80,
+  "denrees_pour_8_couverts": {
+    "elements_de_base": [
+      {
+        "nom": "gigot raccourci non paré*",
+        "quantite": "2",
+        "unite": "kg"
+      },
+      {
+        "nom": "beurre",
+        "quantite": "0,040",
+        "unite": "kg"
+      },
+      {
+        "nom": "ou huile",
+        "quantite": "0,04",
+        "unite": "l"
+      }
+    ],
+    "jus_de_roti": [
+      {
+        "nom": "carottes",
+        "quantite": "0,080",
+        "unite": "kg"
+      },
+      {
+        "nom": "oignons",
+        "quantite": "0,080",
+        "unite": "kg"
+      },
+      {
+        "nom": "thym",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "ail",
+        "quantite": "2",
+        "unite": "gousses"
+      }
+    ],
+    "finition": [
+      {
+        "nom": "beurre",
+        "quantite": "0,040",
+        "unite": "kg"
+      },
+      {
+        "nom": "cresson",
+        "quantite": "1/2",
+        "unite": "botte"
+      }
+    ],
+    "garniture": [
+      {
+        "nom": "pommes de terre",
+        "quantite": "2",
+        "unite": "kg"
+      },
+      {
+        "nom": "lait",
+        "quantite": "1",
+        "unite": "l"
+      },
+      {
+        "nom": "crème",
+        "quantite": "0,40",
+        "unite": "l"
+      },
+      {
+        "nom": "gruyère",
+        "quantite": "0,200",
+        "unite": "kg"
+      },
+      {
+        "nom": "beurre",
+        "quantite": "0,040",
+        "unite": "kg"
+      },
+      {
+        "nom": "ail",
+        "quantite": "1",
+        "unite": "gousse"
+      }
+    ],
+    "assaisonnement": [
+      {
+        "nom": "sel fin",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "poivre du moulin",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "noix de muscade",
+        "quantite": "PM",
+        "unite": ""
+      }
+    ]
+  },
+  "technique_de_realisation": [
+    "1. Mettre en place le poste de travail - 5 min",
+    "Denrées, matériels de préparation, de cuisson et de dressage.",
+    "2. Préparer le gigot - 10 min (voir p. 210/212)",
+    "3. Préparer la garniture aromatique - 5 min",
+    "Éplucher et laver les carottes et les oignons.",
+    "Les tailler en brunoise (petits dés) et les réserver.",
+    "Éplucher, laver et écraser les gousses d’ail.",
+    "Prévoir une brindille de thym.",
+    "4. Marquer le gigot en cuisson - 5 min (voir p. 437/438)",
+    "Assaisonner le gigot.",
+    "Le placer dans une plaque à rôtir de grandeur appropriée sur les os concassés et les parures.",
+    "Arroser de beurre fondu ou d’huile.",
+    "Saisir à four très chaud 220 à 230 °C pendant 10 min, puis terminer la cuisson à 200 °C pendant 40 à 45 min.",
+    "5. Préparer le gratin de pommes de terre - 25 min",
+    "Éplucher, laver et essuyer soigneusement les pommes de terre.",
+    "Les émincer finement à l’aide d’une mandoline.",
+    "Beurrer le fond et les parois d’un plat à gratin.",
+    "Frotter le plat à l’ail.",
+    "Disposer une couche mince de pommes de terre dans le plat à gratin.",
+    "Napper copieusement les pommes de terre avec la crème.",
+    "Ajouter un peu de gruyère râpé.",
+    "Recouvrir d’une deuxième couche mince de pommes de terre.",
+    "Napper à nouveau avec la crème.",
+    "Ajouter uniformément le reste de gruyère râpé et quelques noisettes de beurre.",
+    "Enfourner dans un four à 200 °C durant environ 30 à 35 min afin d’obtenir un gratin bien doré et régulier.",
+    "6. Laver, trier et équeuter le cresson - 5 min (voir p. 89)",
+    "Le réserver dans une plaque avec un peu d’eau.",
+    "7. Vérifier la cuisson et débrasser le gigot - 2 min",
+    "Le réserver au chaud sur une plaque munie d’une grille.",
+    "REMARQUE : Les viandes rouges rôties doivent être dressées au chaud durant quelques minutes avant d’être servies en salle (voir cours de technologie sur les cuissons).",
+    "8. Confectionner le jus de rôti - 10 min (voir p. 438)",
+    "Mettre la garniture aromatique dans la plaque de cuisson et faire pincer les sucs si nécessaire.",
+    "Dégraisser.",
+    "Déglacer à l’eau.",
+    "Ajouter l’ail écrasé et le thym.",
+    "Laisser réduire, puis vérifier l’assaisonnement.",
+    "Passer au chinois étamine.",
+    "Réserver le jus de rôti au bain-marie à une température supérieure à + 65 °C.",
+    "9. Dresser le gigot - 5 min",
+    "Découper le gigot, puis le disposer dans un plat de service dans le sens de la diagonale.",
+    "Le plat peut être réchauffé à l’entrée du four.",
+    "Verser un peu de jus de rôti au fond du plat.",
+    "Arroser le gigot de beurre noisette au moment de l’envoi du plat.",
+    "Disposer un bouquet de cresson du côté du manche du gigot.",
+    "Placer le plat de gratin sur un dessous de plat recouvert d’un papier gaufré.",
+    "Dresser le jus de rôti dans une saucière préalablement chauffée."
+  ],
+  "duree_moyenne_preparation": "1 h 10 min",
+  "duree_moyenne_cuisson": "40 à 45 min (gigot raccourci) / 55 min à 1 h (gigot complet avec os et selle)"
+}

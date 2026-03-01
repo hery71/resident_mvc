@@ -1,0 +1,80 @@
+{
+    "file_name": "poulet_saute_au_paprika.json",
+    "titre": "POULET SAUTÉ AU PAPRIKA",
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "poulet",
+                "quantite": 1,
+                "unite": "pièce"
+            }
+        ],
+        "cuisson": [
+            {
+                "nom": "mélange de farine et de paprika",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "huile",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "fond brun de volaille légèrement lié et corsé",
+                "quantite": 0.5,
+                "unite": "l"
+            },
+            {
+                "nom": "crème épaisse",
+                "quantite": 0.2,
+                "unite": "l"
+            },
+            {
+                "nom": "beurre",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ],
+        "garniture": [
+            {
+                "nom": "brunoise de poivrons (des 3 couleurs) étuvés au beurre",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel fin",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "poivre du moulin",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ]
+    },
+    "technique": [
+        "1. Habiller et découper les poulets à cru",
+        "2. Marquer un fond brun de volaille légèrement lié et corsé",
+        "3. Marquer les morceaux de poulet en cuisson",
+        "• Saler, poivrer et passer les morceaux dans un mélange de farine et de paprika.",
+        "• Les faire raidir au beurre avec une légère coloration blonde.",
+        "• Terminer la cuisson à couvert et de préférence au four.",
+        "4. Réaliser la sauce au paprika",
+        "• S’assurer de la cuisson des morceaux de poulet.",
+        "• Les débarrasser et les maintenir au chaud.",
+        "• Dégraisser partiellement le récipient de cuisson.",
+        "• Y ajouter 0,20 kg d’oignons finement ciselés et les laisser suer doucement quelques minutes.",
+        "• Déglacer avec 0,10 l de vin blanc et le réduire des 2/3.",
+        "• Ajouter 0,50 l de fond brun de volaille légèrement lié et corsé, 0,20 l de crème épaisse et une peu de paprika doux très parfumé.",
+        "• Laisser réduire de manière à obtenir une consistance nappante.",
+        "• Passer la sauce au chinois étamine en foulant fortement.",
+        "• Vérifier l’assaisonnement.",
+        "• Monter légèrement la sauce au beurre en la vannant.",
+        "• Napper uniformément les morceaux.",
+        "• Servir avec un riz pilaf additionné d’une brunoise de poivrons (des 3 couleurs) étuvés au beurre."
+    ]
+}

@@ -1,0 +1,190 @@
+{
+    "file_name": "curry_de_volaille_riz_madras.json",
+    "titre": "CURRY DE VOLAILLE RIZ MADRAS",
+    "bandeau": "Ragoûts de volaille aux épices",
+    "page": 866,
+    "description": "Morceaux de volaille cuits dans une sauce relevée, parfumée au curry et à la noix de coco. Le curry est accompagné de riz pilaf agrémenté d’une brunoise de fruits exotiques, de raisins secs et d’amandes grillées.",
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "poulets labellisés (2 x 1,200 à 1,400 kg)",
+                "unite": "kg",
+                "quantite": 2.4
+            }
+        ],
+        "marinade_facultatif": [
+            {
+                "nom": "huile d’arachide",
+                "unite": "l",
+                "quantite": 0.08
+            },
+            {
+                "nom": "citron (1 pièce)",
+                "unite": "kg",
+                "quantite": 0.1
+            },
+            {
+                "nom": "piment",
+                "quantite": "PM"
+            },
+            {
+                "nom": "gingembre en poudre",
+                "quantite": "PM"
+            },
+            {
+                "nom": "cumin en poudre",
+                "quantite": "PM"
+            },
+            {
+                "nom": "coriandre",
+                "quantite": "PM"
+            }
+        ],
+        "cuisson": [
+            {
+                "nom": "huile d’arachide",
+                "unite": "l",
+                "quantite": 0.08
+            },
+            {
+                "nom": "oignons",
+                "unite": "kg",
+                "quantite": 0.16
+            },
+            {
+                "nom": "curry en poudre (doux ou médium)",
+                "unite": "kg",
+                "quantite": 0.04
+            },
+            {
+                "nom": "farine",
+                "unite": "kg",
+                "quantite": 0.04
+            },
+            {
+                "nom": "fond blanc de volaille",
+                "unite": "l",
+                "quantite": 1.2
+            },
+            {
+                "nom": "tomates (grosses)",
+                "unite": "kg",
+                "quantite": 0.4
+            },
+            {
+                "nom": "concentré de tomate",
+                "unite": "kg",
+                "quantite": 0.02
+            },
+            {
+                "nom": "ail (3 gousses)",
+                "quantite": 3,
+                "unite": "gousses"
+            },
+            {
+                "nom": "bouquet garni",
+                "quantite": 1,
+                "unite": "pièce"
+            }
+        ],
+        "finition": [
+            {
+                "nom": "pommes (fruits)",
+                "unite": "kg",
+                "quantite": 0.2
+            },
+            {
+                "nom": "bananes",
+                "unite": "kg",
+                "quantite": 0.2
+            },
+            {
+                "nom": "citron (1/2 pièce)",
+                "unite": "kg",
+                "quantite": 0.05
+            },
+            {
+                "nom": "lait de noix de coco",
+                "unite": "l",
+                "quantite": 0.2
+            }
+        ],
+        "riz_madras_aux_fruits": [
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": 0.08
+            },
+            {
+                "nom": "oignons",
+                "unite": "kg",
+                "quantite": 0.16
+            },
+            {
+                "nom": "riz long ou Basmati",
+                "unite": "kg",
+                "quantite": 0.4
+            },
+            {
+                "nom": "fond blanc de volaille",
+                "unite": "l",
+                "quantite": 0.6
+            },
+            {
+                "nom": "bouquet garni",
+                "quantite": 1,
+                "unite": "pièce"
+            },
+            {
+                "nom": "bâton de cannelle",
+                "quantite": "PM"
+            }
+        ],
+        "garniture": [
+            {
+                "nom": "raisins de Smyrne",
+                "unite": "kg",
+                "quantite": 0.04
+            },
+            {
+                "nom": "ananas ou papaye",
+                "unite": "kg",
+                "quantite": 0.2
+            },
+            {
+                "nom": "amandes effilées",
+                "unite": "kg",
+                "quantite": 0.04
+            },
+            {
+                "nom": "noix de cajou crues concassées",
+                "unite": "kg",
+                "quantite": 0.04
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel fin",
+                "quantite": "PM"
+            },
+            {
+                "nom": "poivre",
+                "quantite": "PM"
+            }
+        ]
+    },
+    "technique": [
+        "1. Mettre en place le poste de travail - 5 min",
+        "2. Habiller et découper les poulets - 30 min (voir p. 237/240 et 246/248)",
+        "3. Marquer un fond blanc de volaille avec les os et les abattis - 10 min (voir p. 264/266)",
+        "4. Préparer les éléments de la garniture du curry - 15 min",
+        "5. Marquer le curry en cuisson - 15 min",
+        "6. Terminer le curry - 5 min",
+        "7. Préparer le riz madras et la garniture - 10 min",
+        "8. Marquer le riz madras en cuisson - 10 min (voir p. 379/380)",
+        "9. Dégraisser le curry - 5 min",
+        "10. Dresser le curry et le riz madras - 5 min"
+    ],
+    "duree_moyenne_preparation": "1 h 45 min",
+    "duree_moyenne_cuisson": "18 à 22 min"
+}

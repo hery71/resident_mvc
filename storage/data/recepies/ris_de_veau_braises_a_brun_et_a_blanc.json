@@ -1,0 +1,116 @@
+{
+    "file_name": "ris_de_veau_braises_a_brun_et_a_blanc.json",
+    "titre": "RIS DE VEAU BRAISÉS À BRUN ET À BLANC (selon la réglementation)",
+    "bandeau": "Abats braisés",
+    "fiche": 107,
+    "page": 840,
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "ris de veau non parés : 8 pommes ou noix de ris de veau de 0,250 kg",
+                "unite": "kg",
+                "quantite": 2
+            },
+            {
+                "nom": "lard gras",
+                "unite": "kg",
+                "quantite": 0.15
+            },
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": 0.08
+            }
+        ],
+        "garniture_aromatique": [
+            {
+                "nom": "carottes",
+                "unite": "kg",
+                "quantite": 0.15
+            },
+            {
+                "nom": "oignons",
+                "unite": "kg",
+                "quantite": 0.15
+            },
+            {
+                "nom": "bouquet garni",
+                "unite": "pièce",
+                "quantite": 1
+            }
+        ],
+        "fond_de_braisage": [
+            {
+                "nom": "vin blanc",
+                "unite": "l",
+                "quantite": 0.1
+            },
+            {
+                "nom": "madère ou porto",
+                "unite": "l",
+                "quantite": 0.15
+            },
+            {
+                "nom": "fond brun de veau lié",
+                "unite": "l",
+                "quantite": 0.8
+            }
+        ],
+        "finition": [
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": 0.02
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel fin",
+                "unite": "",
+                "quantite": "PM"
+            },
+            {
+                "nom": "poivre du moulin",
+                "unite": "",
+                "quantite": "PM"
+            }
+        ]
+    },
+    "technique": [
+        "(voir p. 470 à 473)",
+        "1. Mettre en place le poste de travail - 5 min",
+        "• Denrées, matériels de préparation, de cuisson et de dressage.",
+        "2. Préparer les ris de veau (la veille de préférence) - 15 min (voir p. 232/233)",
+        "• Faire dégorger les ris de veau à l’eau glacée en la changeant fréquemment (elle peut être légèrement salée).",
+        "• Les blanchir durant 3 à 4 min (départ eau froide), les rafraîchir puis les égoutter.",
+        "• Éliminer les parties grasses, nerveuses, cartilagineuses et parer les noix de ris de veau si nécessaire.",
+        "• Placer les noix de ris de veau sous presse : les disposer dans une plaque à débarrasser recouverte d’un torchon, d’un film alimentaire ou d’une plaque dessus et les réserver au froid.",
+        "• Les protéger avec une feuille de papier sulfurisé et les remettre au froid durant 12 h environ.",
+        "3. Détailler le lard gras en bâtonnets de 3 cm de long sur 3 cm de section - 5 min",
+        "• Les raffermir dans de l’eau glacée.",
+        "4. Préparer la garniture aromatique - 5 min",
+        "• Éplucher, laver et émincer les carottes et les oignons.",
+        "• Laver, égoutter le persil et confectionner un petit bouquet garni.",
+        "5. Piquer les ris de veau - 30 min (voir p. 229 et 471)",
+        "• Piquer légèrement en quinconce la surface des noix de ris de veau à l’aide d’une aiguille à piquer.",
+        "6. Marquer les ris de veau en cuisson - 15 min",
+        "• Saler, poivrer et faire raidir les ris de veau au beurre dans un sautoir, la partie piquée en premier.",
+        "• Laisser colorer légèrement et débarrasser les ris de veau.",
+        "• Ajouter la garniture aromatique, les parures de ris, et laisser suer sans coloration durant quelques minutes.",
+        "• Dégraisser et placer les ris de veau sur la garniture.",
+        "• Déglacer avec le vin blanc et le laisser réduire.",
+        "• Ajouter le madère ou le porto et réduire à nouveau légèrement.",
+        "• Mouiller avec le fond brun de veau lié.",
+        "• Vérifier l’assaisonnement et ajouter le bouquet garni.",
+        "• Cuire les ris de veau à couvert au four à 200 °C durant 35 à 40 min environ (surveiller attentivement la réduction de la sauce et arroser fréquemment les ris de veau pendant la cuisson).",
+        "7. Terminer et glacer les ris de veau - 5 min",
+        "• S’assurer de leur cuisson et les débarrasser.",
+        "• Passer la sauce au chinois étamine sans la fouler.",
+        "• Dégraisser si nécessaire, vérifier l’onctuosité et l’assaisonnement.",
+        "• Glacer les ris de veau à l’entrée d’un four très chaud ou sous la salamandre en les arrosant sans discontinuer avec le fond de braisage.",
+        "• Tamponner et réserver à couvert le reste de la sauce au bain-marie.",
+        "8. Dresser les ris de veau braisés - 5 min",
+        "• Disposer les ris de veau dans le sens de la diagonale du plat de service.",
+        "• Napper soigneusement et uniformément les ris de veau avec la sauce."
+    ]
+}

@@ -1,0 +1,95 @@
+{
+  "titre": "STEAKS AU POIVRE",
+  "type": "Viandes rouges sautées, sauce brune crémée",
+  "page": 796,
+  "denrees_pour_8_couverts": {
+    "elements_de_base": [
+      {
+        "nom": "contre-filets",
+        "quantite": "1,200 à 1,400",
+        "unite": "kg"
+      },
+      {
+        "nom": "rumstecks parés (8 x 0,150 à 0,180 kg ou 4 x 0,300 à 0,360 kg)",
+        "quantite": "1,200 à 1,440",
+        "unite": "kg"
+      },
+      {
+        "nom": "huile d’arachide",
+        "quantite": "0,080",
+        "unite": "l"
+      },
+      {
+        "nom": "beurre",
+        "quantite": "0,040",
+        "unite": "kg"
+      }
+    ],
+    "sauce": [
+      {
+        "nom": "cognac",
+        "quantite": "0,04",
+        "unite": "l"
+      },
+      {
+        "nom": "vin blanc",
+        "quantite": "0,10",
+        "unite": "l"
+      },
+      {
+        "nom": "fond brun de veau lié",
+        "quantite": "0,40",
+        "unite": "l"
+      },
+      {
+        "nom": "crème double",
+        "quantite": "0,10",
+        "unite": "l"
+      },
+      {
+        "nom": "beurre",
+        "quantite": "0,040",
+        "unite": "kg"
+      }
+    ],
+    "assaisonnement": [
+      {
+        "nom": "sel fin",
+        "quantite": "PM",
+        "unite": ""
+      }
+    ]
+  },
+  "technique_de_realisation": [
+    "(Voir p. 400/401)",
+    "1. Mettre en place le poste de travail - 5 min",
+    "Denrées, matériels de préparation, de cuisson et de dressage.",
+    "2. Réaliser la mignonnette - 5 min",
+    "3. Préparer et parer les steaks - 10 min",
+    "Vérifier et parer les steaks si nécessaire.",
+    "Faire adhérer le poivre fraîchement concassé sur les steaks (mignonnette) en pressant délicatement.",
+    "Réserver les steaks en enceinte réfrigérée.",
+    "4. Marquer les steaks en cuisson - 5 min",
+    "Assaisonner de sel fin, puis sauter les steaks dans un sautoir avec de l’huile et du beurre (surveiller attentivement la cuisson, les sucs doivent être caramélisés mais sans excès).",
+    "Cuire les steaks à l’à-point de cuisson demandé (bleu, saignant, à point, bien cuit), puis les débarrasser sur une plaque munie d’une petite grille ou d’une assiette retournée.",
+    "5. Réaliser la sauce - 10 min",
+    "Dégraisser le sautoir.",
+    "Ajouter le cognac, puis le flamber.",
+    "Déglacer avec le vin blanc et le laisser réduire.",
+    "Ajouter le fond brun de veau lié et réduire à nouveau.",
+    "Crémer et réduire la sauce jusqu’à la consistance souhaitée.",
+    "Vérifier l’assaisonnement, puis la passer au chinois étamine dans un petit bain-marie.",
+    "Monter la sauce au beurre hors du feu.",
+    "6. Dresser les steaks au poivre - 5 min",
+    "1ère solution :",
+    "Dresser les steaks sur un grand plat en les nappant uniformément avec la sauce.",
+    "2ème solution :",
+    "Les steaks sont simplement cuits en cuisine à l’à-point de cuisson souhaité par les clients.",
+    "Les steaks sont dressés dans un sautoir de service accompagné d’une saucière de fond brun de veau lié et d’une saucière de crème. La sauce est dans ce cas réalisée devant les clients.",
+    "REMARQUES :",
+    "Saler la viande juste avant ou sitôt après la cuisson, jamais à l’avance, ne pas la poivrer.",
+    "Les steaks peuvent être flambés avant d’être retirés du sautoir."
+  ],
+  "duree_moyenne_preparation": "40 min",
+  "duree_moyenne_cuisson": "variable selon l’à-point de cuisson désiré par le client"
+}

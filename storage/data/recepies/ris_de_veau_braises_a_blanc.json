@@ -1,0 +1,115 @@
+{
+    "file_name": "ris_de_veau_braises_a_blanc.json",
+    "titre": "RIS DE VEAU BRAISÉS À BLANC",
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "noix de ris de veau",
+                "quantite": 2.0,
+                "unite": "kg"
+            }
+        ],
+        "garniture_aromatique": [
+            {
+                "nom": "carottes",
+                "quantite": 0.15,
+                "unite": "kg"
+            },
+            {
+                "nom": "oignons",
+                "quantite": 0.15,
+                "unite": "kg"
+            },
+            {
+                "nom": "céleri en branches",
+                "quantite": 0.05,
+                "unite": "kg"
+            },
+            {
+                "nom": "pied de veau",
+                "quantite": 1,
+                "unite": "pièce"
+            },
+            {
+                "nom": "parures de champignons",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "bouquet garni",
+                "quantite": 1,
+                "unite": "pièce"
+            }
+        ],
+        "cuisson": [
+            {
+                "nom": "beurre",
+                "quantite": 0.04,
+                "unite": "kg"
+            },
+            {
+                "nom": "fond blanc de veau très corsé et gélatineux",
+                "quantite": 0.4,
+                "unite": "l"
+            },
+            {
+                "nom": "beurre",
+                "quantite": 0.05,
+                "unite": "kg"
+            },
+            {
+                "nom": "fond brun de veau",
+                "quantite": 0.1,
+                "unite": "l"
+            },
+            {
+                "nom": "crème",
+                "quantite": 0.1,
+                "unite": "l"
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel fin",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "poivre du moulin",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "jus de citron",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ]
+    },
+    "technique": [
+        "1. Dégorger, blanchir, rafraîchir, parer et mettre sous presse 8 noix de ris de veau de 0,250 kg chacune",
+        "2. Piquer les ris de veau",
+        "• Selon la préparation, les ris de veau peuvent être laissés dans leur état naturel ou piqués de petits bâtonnets de lard gras, de langue écarlate ou de truffe.",
+        "3. Préparer la garniture aromatique du fond de braisage",
+        "• Éplucher, laver et émincer 0,150 kg de carottes, 0,150 kg d’oignons et 0,050 kg de céleri en branches.",
+        "• Confectionner un petit bouquet garni.",
+        "4. Marquer les ris de veau en cuisson",
+        "• Assaisonner et faire raidir les ris de veau dans 0,040 kg de beurre très chaud. Placer la face piquée en premier et les retourner très délicatement.",
+        "• Débarrasser les ris de veau.",
+        "• Ajouter la garniture aromatique dans la sauteuse et la suer sans coloration durant quelques minutes.",
+        "• Placer les ris de veau sur la garniture aromatique.",
+        "• Déglacer avec 0,20 l de vin blanc ou du porto.",
+        "• Ajouter 0,40 l de fond blanc de veau très corsé et gélatineux.",
+        "• Ajouter le bouquet garni, placer une feuille de papier sulfurisé beurrée sur les ris, couvrir la sauteuse et cuire au four durant 35 à 40 min.",
+        "• Arroser fréquemment durant la cuisson.",
+        "5. Terminer les ris de veau",
+        "• Les débarrasser et les glacer légèrement.",
+        "• Passer le fond de braisage au chinois étamine, le réduire si nécessaire et vérifier l’assaisonnement.",
+        "• Ajouter 0,10 l de fond brun de veau et 0,10 l de crème, laisser réduire doucement.",
+        "• Monter la sauce au beurre et la citronner.",
+        "6. Dresser les ris de veau",
+        "• Dresser les ris de veau sur un plat chaud.",
+        "• Napper délicatement de sauce.",
+        "• Accompagner de légumes braisés ou de petits pois à la française."
+    ]
+}

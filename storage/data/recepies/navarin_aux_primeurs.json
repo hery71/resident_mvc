@@ -1,0 +1,76 @@
+{
+    "file_name": "navarin_aux_primeurs.json",
+    "titre": "NAVARIN «AUX PRIMEURS»",
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "collier",
+                "quantite": 1.8,
+                "unite": "kg"
+            },
+            {
+                "nom": "épaule d’agneau désossée et détaillée en morceaux de 0,050 kg chacun",
+                "quantite": 0.8,
+                "unite": "kg"
+            },
+            {
+                "nom": "beurre",
+                "quantite": 0.05,
+                "unite": "kg"
+            },
+            {
+                "nom": "sucre",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "petits pois",
+                "quantite": 0.25,
+                "unite": "kg"
+            },
+            {
+                "nom": "petits oignons nouveaux",
+                "quantite": 0.04,
+                "unite": "kg"
+            },
+            {
+                "nom": "navets",
+                "quantite": 0.15,
+                "unite": "kg"
+            },
+            {
+                "nom": "carottes",
+                "quantite": 0.08,
+                "unite": "kg"
+            }
+        ]
+    },
+    "technique": [
+        "1. Mettre en place le poste de travail",
+        "",
+        "2. Marquer le navarin de base en cuisson",
+        "• Voir I-ciotrel., Utiliser 1,800 kg d’épaule d’agneau désossée et détaillée en morceaux de 0,050 kg chacun (il n’est pas nécessaire d’ajouter des carottes à la garniture aromatique).",
+        "• Le décanter au bout de 35 à 40 min et lui ajouter 1 kg de pommes de terre à chair ferme tournées en grosses olives et blanchies.",
+        "• Poursuivre la cuisson durant une vingtaine de minutes supplémentaires.",
+        "",
+        "3. Préparer et cuire la garniture «aux primeurs»",
+        "• Éplucher, laver et tourner de la grosseur de pommes cocotte (grosses olives) 0,400 kg de carottes et 0,400 kg de navets nouveaux.",
+        "• Les glacer à blanc séparément avec 0,050 kg de beurre et une pincée de sucre.",
+        "• Éplucher, laver et glacer à brun 0,250 kg de petits oignons nouveaux (0,025 kg de beurre et une pincée de sucre).",
+        "• Écosser 0,400 kg de petits pois (ou utiliser 0,100 kg de petits pois surgelés extra-fins), en garder 0,150 kg de haricots verts extra-fins, les compenser en morceaux de 4 à 5 cm de long.",
+        "• Cuire et les cuire séparément à l’anglaise.",
+        "• Les rafraîchir et les égoutter.",
+        "",
+        "4. Vérifier et terminer le navarin «aux primeurs»",
+        "• S’assurer de la cuisson de la viande et des pommes de terre, vérifier l’assaisonnement, la couleur et l’onctuosité de la sauce.",
+        "• La dégraisser soigneusement si nécessaire.",
+        "• Ajouter les carottes et les navets glacés et laisser mijoter durant quelques minutes.",
+        "• Les haricots verts et les petits pois sont réchauffés au dernier moment en chauffante (eau bouillante salée), afin qu’ils puissent garder leur couleur initiale.",
+        "",
+        "5. Dresser le navarin «aux primeurs»",
+        "• Chauffer les petits pois et les haricots verts, bien les égoutter et les ajouter au navarin.",
+        "• Dresser en légumiers ou en cocottes mi-légal.",
+        "• Répartir harmonieusement quelques légumes sur le dessus en variant les couleurs.",
+        "• Disposer les petits oignons glacés à brun et saupoudrer sans excès de persil haché."
+    ]
+}

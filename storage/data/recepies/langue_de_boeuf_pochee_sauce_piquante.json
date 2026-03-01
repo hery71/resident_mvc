@@ -1,0 +1,148 @@
+{
+    "file_name": "langue_de_boeuf_pochee_sauce_piquante.json",
+    "titre": "LANGUE DE BŒUF POCHÉE SAUCE PIQUANTE",
+    "bandeau": "Abats pochés",
+    "page": 838,
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "langue de bœuf fraîche* présentée avec la coupe dite « coupe suisse » ou « coupe short »",
+                "unite": "kg",
+                "quantite": 1.8
+            },
+            {
+                "nom": "carottes",
+                "unite": "kg",
+                "quantite": 0.2
+            },
+            {
+                "nom": "oignons",
+                "unite": "kg",
+                "quantite": 0.2
+            },
+            {
+                "nom": "clous de girofle",
+                "unite": "pièce",
+                "quantite": 2
+            },
+            {
+                "nom": "bouquet garni",
+                "unite": "pièce",
+                "quantite": 1
+            },
+            {
+                "nom": "céleri en branches",
+                "unite": "kg",
+                "quantite": 0.1
+            },
+            {
+                "nom": "poireaux",
+                "unite": "kg",
+                "quantite": 0.1
+            }
+        ],
+        "sauce_piquante": [
+            {
+                "nom": "échalotes",
+                "unite": "kg",
+                "quantite": 0.05
+            },
+            {
+                "nom": "vin blanc coloré",
+                "unite": "l",
+                "quantite": 0.1
+            },
+            {
+                "nom": "vinaigre d’alcool",
+                "unite": "l",
+                "quantite": 0.05
+            },
+            {
+                "nom": "fond brun de veau tomaté",
+                "unite": "l",
+                "quantite": 0.8
+            },
+            {
+                "nom": "sauce espagnole",
+                "unite": "kg",
+                "quantite": 0.8
+            },
+            {
+                "nom": "cornichons",
+                "unite": "kg",
+                "quantite": 0.08
+            },
+            {
+                "nom": "persil",
+                "unite": "kg",
+                "quantite": "PM"
+            },
+            {
+                "nom": "cerfeuil",
+                "unite": "botte",
+                "quantite": "PM"
+            },
+            {
+                "nom": "estragon",
+                "unite": "botte",
+                "quantite": "PM"
+            },
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": 0.04
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "gros sel",
+                "unite": "",
+                "quantite": "PM"
+            },
+            {
+                "nom": "sel fin",
+                "unite": "",
+                "quantite": "PM"
+            },
+            {
+                "nom": "poivre du moulin",
+                "unite": "",
+                "quantite": "PM"
+            }
+        ]
+    },
+    "technique": [
+        "1. Mettre en place le poste de travail - 5 min",
+        "• Denrées, matériels de préparation, de cuisson et de dressage.",
+        "2. Dégorger la langue à l’eau courante - 5 min",
+        "• La laisser dégorger dans de l’eau courante très froide durant 2 h environ (certains professionnels la mettent à macérer dans du gros sel durant 24 h).",
+        "3. Blanchir la langue - 10 min",
+        "• La placer dans un rondeau haut ou dans une grande russe.",
+        "• La recouvrir d’eau froide, porter à ébullition et laisser blanchir durant quelques minutes.",
+        "• La rafraîchir et l’égoutter.",
+        "• Les langues congelées provenant obligatoirement d’abattoirs ou d’ateliers de découpe agréés sont blanchies dans de l’eau bouillante sans décongélation préalable ou éventuellement une semi-décongélation réalisée durant quelques heures en enceinte réfrigérée à +3 °C maximum.",
+        "4. Préparer les légumes de la garniture aromatique - 10 min",
+        "• Éplucher et laver les carottes.",
+        "• Éplucher, laver et piquer les oignons avec les clous de girofle.",
+        "• Confectionner un bouquet garni, ajouter le poireau et le céleri en branches.",
+        "5. Pocher la langue - 10 min",
+        "• Rincer la langue à l’eau froide et la blanchir.",
+        "• Y plonger la langue de bœuf, couvrir d’eau froide, saler au gros sel et porter à ébullition.",
+        "• Écumer soigneusement.",
+        "• Ajouter la garniture aromatique.",
+        "• Cuire très lentement dans le récipient semi-couvert durant 1 h 30 à 2 h suivant la qualité de la langue.",
+        "6. Réaliser la sauce piquante - 15 min",
+        "• Dans une sauteuse moyenne, réduire de 4/5ème le vin blanc, le vinaigre, les échalotes et quelques grains de poivre écrasés (mignonnette).",
+        "• Ajouter le fond brun de veau lié et tomaté et la sauce demi-glace.",
+        "• Laisser frémir durant environ 10 min.",
+        "• Passer au chinois étamine.",
+        "• Ajouter les cornichons taillés en julienne et blanchis.",
+        "• Monter la sauce au beurre.",
+        "• Ajouter à la fin les herbes fraîches hachées.",
+        "7. Dresser la langue de bœuf - 10 min",
+        "• S’assurer de sa cuisson, une aiguille à brider piquée au centre du muscle doit ressortir sans difficulté.",
+        "• L’égoutter et la monder (ôter la peau qui la recouvre).",
+        "• La parer si nécessaire et la détailler en 16 tranches régulières.",
+        "• Dresser les tranches sur un plat long et napper uniformément avec la sauce piquante."
+    ]
+}

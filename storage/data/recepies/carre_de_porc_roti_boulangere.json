@@ -1,0 +1,148 @@
+{
+  "titre": "CARRÉ DE PORC RÔTI BOULANGÈRE",
+  "type": "Viandes blanches rôties",
+  "fiche": 82,
+  "page": 790,
+  "denrees_pour_8_couverts": {
+    "elements_de_base": [
+      {
+        "nom": "carré de porc non paré",
+        "quantite": "2,400",
+        "unite": "kg"
+      },
+      {
+        "nom": "beurre",
+        "quantite": "0,040",
+        "unite": "kg"
+      },
+      {
+        "nom": "huile d’arachide",
+        "quantite": "0,04",
+        "unite": "l"
+      }
+    ],
+    "jus_de_roti": [
+      {
+        "nom": "carottes",
+        "quantite": "0,080",
+        "unite": "kg"
+      },
+      {
+        "nom": "oignon (1 demi)",
+        "quantite": "0,080",
+        "unite": "kg"
+      },
+      {
+        "nom": "ail (1 gousse)",
+        "quantite": "0,010",
+        "unite": "kg"
+      },
+      {
+        "nom": "thym et laurier",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "fond brun clair",
+        "quantite": "0,50",
+        "unite": "l"
+      }
+    ],
+    "finition": [
+      {
+        "nom": "beurre",
+        "quantite": "0,040",
+        "unite": "kg"
+      },
+      {
+        "nom": "cresson",
+        "quantite": "1/4",
+        "unite": "botte"
+      }
+    ],
+    "pommes_boulangere": [
+      {
+        "nom": "pommes de terre à chair ferme",
+        "quantite": "2",
+        "unite": "kg"
+      },
+      {
+        "nom": "ail (1 gousse)",
+        "quantite": "0,010",
+        "unite": "kg"
+      },
+      {
+        "nom": "beurre",
+        "quantite": "0,080",
+        "unite": "kg"
+      },
+      {
+        "nom": "oignons",
+        "quantite": "0,800",
+        "unite": "kg"
+      },
+      {
+        "nom": "fond blanc",
+        "quantite": "0,20",
+        "unite": "l"
+      },
+      {
+        "nom": "ail (2 gousses)",
+        "quantite": "0,020",
+        "unite": "kg"
+      },
+      {
+        "nom": "bouquet garni",
+        "quantite": "1",
+        "unite": "pièce"
+      }
+    ],
+    "assaisonnement": [
+      {
+        "nom": "sel fin",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "poivre du moulin",
+        "quantite": "PM",
+        "unite": ""
+      }
+    ]
+  },
+  "technique_de_realisation": [
+    "1. Mettre en place le poste de travail - 5 min",
+    "Denrées, matériels de préparation, de cuisson et de dressage.",
+    "2. Préparer le carré de porc - 15 min (voir p. 226/228)",
+    "Ôter les demi-vertèbres, le filet dorsal et manchonner les os des côtes.",
+    "Ficeler, concasser les os et réserver.",
+    "3. Éplucher, laver et tailler les légumes - 30 min",
+    "Éplucher et laver la carotte et les oignons.",
+    "Tailler la carotte et le demi-oignon en fine Mirepoix pour le jus de rôti.",
+    "Émincer finement le reste des oignons pour les pommes boulangère.",
+    "Éplucher, laver et dégermer l’ail.",
+    "Éplucher, laver et tailler les pommes de terre à la mandoline en tranches régulières de 2 à 3 mm d’épaisseur.",
+    "4. Marquer le carré de porc en cuisson - 5 min",
+    "Assaisonner et le placer dans une plaque à rôtir de grandeur appropriée.",
+    "Disposer les os concassés et les parures maigres tout autour.",
+    "Le napper avec le beurre fondu ou avec l’huile.",
+    "Le cuire dans un four à 200 °C durant 1 h 20 à 1 h 30 min selon son épaisseur.",
+    "Le retourner et l’arroser fréquemment durant la cuisson. Le rôti de porc doit être bien cuit.",
+    "5. Marquer les pommes boulangère en cuisson - 20 min",
+    "Compoter les oignons avec le beurre durant une quinzaine de minutes.",
+    "Les égoutter pour enlever l’excédent de matière grasse.",
+    "Frotter le plat à gratin avec la gousse d’ail.",
+    "Répartir les oignons et les pommes de terre par couches successives.",
+    "Mouiller à hauteur avec le fond blanc assaisonné.",
+    "Glisser deux gousses d’ail et un bouquet garni sous les pommes de terre.",
+    "Enfourner et cuire au four à 200 °C durant 45 à 50 min, les pommes de terre doivent avoir absorbé le fond et être légèrement dorées en surface.",
+    "6. Dresser le carré de porc boulangère - 5 min",
+    "Retirer le carré de porc et le laisser reposer sur une grille.",
+    "Disposer le carré sur un plat de service long, verser un peu de jus de rôti au fond du plat.",
+    "Disposer les pommes boulangère en dôme aux extrémités du plat.",
+    "Dresser le reste du jus de rôti en saucière.",
+    "REMARQUE : Il est d’usage de cuire le carré de porc sur les pommes de terre boulangère lorsque celles-ci font partie de la cuisson et s’écoulent au four."
+  ],
+  "duree_moyenne_preparation": "1 h 20 min",
+  "duree_moyenne_cuisson": "Carré : 1 h 20 à 1 h 30 min / Pommes : 45 à 50 min"
+}

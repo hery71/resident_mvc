@@ -1,0 +1,123 @@
+{
+    "file_name": "canetons_a_l_orange.json",
+    "titre": "CANETONS À L'ORANGE",
+    "bandeau": "Volailles poêlées",
+    "page": 860,
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "2 canards de 2 kg chacun",
+                "unite": "kg",
+                "quantite": 4
+            },
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": 0.05
+            },
+            {
+                "nom": "huile",
+                "unite": "l",
+                "quantite": 0.02
+            },
+            {
+                "nom": "sel",
+                "unite": "kg",
+                "quantite": 0.02
+            }
+        ],
+        "garniture_aromatique": [
+            {
+                "nom": "carottes",
+                "unite": "kg",
+                "quantite": 0.1
+            },
+            {
+                "nom": "oignons",
+                "unite": "kg",
+                "quantite": 0.1
+            }
+        ],
+        "sauce_bigarrade": [
+            {
+                "nom": "sucre",
+                "unite": "kg",
+                "quantite": 0.05
+            },
+            {
+                "nom": "vinaigre de vin",
+                "unite": "l",
+                "quantite": 0.05
+            },
+            {
+                "nom": "fond brun de canard très corsé non lié",
+                "unite": "l",
+                "quantite": 1
+            },
+            {
+                "nom": "arrow-root ou fécule de pomme de terre",
+                "unite": "kg",
+                "quantite": 0.02
+            },
+            {
+                "nom": "fond brun de canard ou de veau lié",
+                "unite": "l",
+                "quantite": 1
+            },
+            {
+                "nom": "oranges pour les zestes",
+                "unite": "",
+                "quantite": "PM"
+            },
+            {
+                "nom": "citron (1 pièce)",
+                "unite": "pièce",
+                "quantite": 1
+            },
+            {
+                "nom": "jus d’orange",
+                "unite": "l",
+                "quantite": "PM"
+            },
+            {
+                "nom": "liqueur à base d’orange",
+                "unite": "l",
+                "quantite": 0.1
+            }
+        ],
+        "garniture": [
+            {
+                "nom": "oranges (8 x 0,200 kg) segments zestés",
+                "unite": "kg",
+                "quantite": 1.6
+            }
+        ],
+        "decor": [
+            {
+                "nom": "oranges (2 x 0,200 kg)",
+                "unite": "kg",
+                "quantite": 0.4
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel fin",
+                "quantite": "PM"
+            },
+            {
+                "nom": "poivre du moulin",
+                "quantite": "PM"
+            }
+        ]
+    },
+    "technique": [
+        "1. Mettre en place le poste de travail - 5 min",
+        "2. Habiller les canetons puis les brider - 30 min (voir p. 250/252)",
+        "3. Zester 2 ou 3 oranges et 1 citron - 5 min",
+        "4. Poêler les canetons - 10 min",
+        "5. Préparer les oranges de la garniture et de la présentation - 20 min",
+        "6. Confectionner la gastrique - 5 min",
+        "7. Réaliser la sauce à l’orange - 15 min",
+        "8. Dresser les canetons - 5 min"
+    ]
+}

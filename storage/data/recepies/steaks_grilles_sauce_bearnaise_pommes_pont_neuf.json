@@ -1,0 +1,172 @@
+{
+  "titre": "STEAKS GRILLÉS, SAUCE BÉARNAISE, POMMES PONT-NEUF",
+  "type": "Viandes rouges grillées",
+  "denrees_pour_8_couverts": {
+    "elements_de_base": [
+      {
+        "nom": "contre-filets parés (4 x 0,300 à 0,400 kg)",
+        "quantite": "1,200",
+        "unite": "kg"
+      },
+      {
+        "nom": "rumstecks (4 x 0,300 à 0,400 kg)",
+        "quantite": "1,600",
+        "unite": "kg"
+      },
+      {
+        "nom": "entrecôtes (4 x 0,400 kg)",
+        "quantite": "1,600",
+        "unite": "kg"
+      },
+      {
+        "nom": "huile",
+        "quantite": "0,08",
+        "unite": "l"
+      }
+    ],
+    "finition": [
+      {
+        "nom": "beurre",
+        "quantite": "0,020",
+        "unite": "kg"
+      },
+      {
+        "nom": "cresson",
+        "quantite": "0,5",
+        "unite": "botte"
+      }
+    ],
+    "sauce_bearnaise_reduction": [
+      {
+        "nom": "vinaigre d’alcool",
+        "quantite": "0,04",
+        "unite": "l"
+      },
+      {
+        "nom": "vin blanc",
+        "quantite": "0,04",
+        "unite": "l"
+      },
+      {
+        "nom": "poivre en grains (concassé)",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "échalotes grises",
+        "quantite": "0,040",
+        "unite": "kg"
+      },
+      {
+        "nom": "cerfeuil",
+        "quantite": "1/8",
+        "unite": "botte"
+      },
+      {
+        "nom": "estragon",
+        "quantite": "1/4",
+        "unite": "botte"
+      }
+    ],
+    "sabayon": [
+      {
+        "nom": "œufs (jaunes)",
+        "quantite": "4",
+        "unite": "pièce"
+      },
+      {
+        "nom": "eau",
+        "quantite": "PM",
+        "unite": ""
+      }
+    ],
+    "finition_bearnaise": [
+      {
+        "nom": "beurre",
+        "quantite": "0,250",
+        "unite": "kg"
+      },
+      {
+        "nom": "cerfeuil",
+        "quantite": "1/8",
+        "unite": "botte"
+      },
+      {
+        "nom": "estragon",
+        "quantite": "1/8",
+        "unite": "botte"
+      },
+      {
+        "nom": "persil (facultatif)",
+        "quantite": "PM",
+        "unite": ""
+      }
+    ],
+    "garniture": [
+      {
+        "nom": "pommes de terre Bintje",
+        "quantite": "2,500",
+        "unite": "kg"
+      },
+      {
+        "nom": "friteuse (huile)",
+        "quantite": "PM",
+        "unite": ""
+      }
+    ],
+    "assaisonnement": [
+      {
+        "nom": "sel fin",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "poivre du moulin",
+        "quantite": "PM",
+        "unite": ""
+      }
+    ]
+  },
+  "technique_de_realisation": [
+    "1. Mettre en place le poste de travail - 5 min.",
+    "Denrées, matériels de préparation, de cuisson et de dressage.",
+    "2. Vérifier et parer les steaks si nécessaire - 5 min.",
+    "Les réserver en enceinte réfrigérée.",
+    "3. Mettre le beurre à clarifier pour la sauce béarnaise - 2 min.",
+    "Découper le beurre en petits morceaux et le laisser fondre doucement au bain-marie.",
+    "4. Éplucher et tailler les pommes Pont-Neuf - 20 min (voir p. 128).",
+    "Éplucher et laver les pommes de terre.",
+    "Les parer sans exagération et tailler les pommes Pont-Neuf (bâtonnets de 6 cm de long sur 1 cm de section environ).",
+    "Rincer soigneusement les pommes et les réserver dans un bain d’eau froide.",
+    "5. Laver, trier et égoutter le cresson - 5 min (voir p. 88/89).",
+    "Le réserver au frais dans une plaque avec de l’eau.",
+    "6. Préparer la réduction de la sauce béarnaise - 10 min.",
+    "Éplucher, laver et ciseler les échalotes.",
+    "Laver, effeuiller et hacher le cerfeuil et l’estragon.",
+    "Laver, égoutter, essorer, concasser et hacher le persil.",
+    "Concasser le poivre en grains.",
+    "Réunir dans une petite sauteuse les échalotes ciselées, la moitié de l’estragon haché, la mignonnette et un peu de cerfeuil.",
+    "Ajouter le vinaigre et le vin blanc, laisser réduire presque jusqu’à sec.",
+    "Laisser refroidir la réduction.",
+    "7. Pocher les pommes Pont-Neuf - 10 min (voir p. 445/5).",
+    "Les pocher ou les blanchir sans coloration dans un bain de friture à 155-160 °C.",
+    "Contrôler l’onctuosité du sabayon.",
+    "8. Confectionner la sauce béarnaise - 10 min.",
+    "Clarifier les œufs et ajouter les jaunes à la réduction refroidie.",
+    "Ajouter 0,02 l d’eau froide et fouetter énergiquement sur feu doux.",
+    "Retirer la sauteuse du feu lorsque les œufs ont atteint une consistance mousseuse et que chaque coup de fouet laisse apercevoir le fond de la sauteuse.",
+    "Saler et incorporer progressivement le beurre clarifié.",
+    "Passer la sauce au chinois étamine dans un petit bain-marie en aidant avec une louche.",
+    "Ajouter le cerfeuil et l’estragon haché (éventuellement un peu de jus de citron).",
+    "Vérifier l’assaisonnement et réserver la sauce à couvert dans un bain-marie (40/50 °C maximum).",
+    "9. Marquer les steaks en cuisson - 10 min (voir p. 342/343).",
+    "Nettoyer, brosser et huiler le gril si nécessaire.",
+    "Enduire les steaks d’une fine couche d’huile, puis les poser sur le gril dans le sens de la diagonale.",
+    "Quadriller la face, retourner, cuire selon la cuisson souhaitée (bleu, saignant, à point).",
+    "Les débarrasser et les assaisonner légèrement.",
+    "10. Terminer la cuisson des pommes Pont-Neuf - 5 min.",
+    "Les plonger à nouveau dans un bain de friture à 180 °C.",
+    "Les laisser dorer, puis les égoutter soigneusement sur du papier absorbant.",
+    "Saler au sel fin."
+  ]
+}

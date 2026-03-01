@@ -1,0 +1,122 @@
+{
+    "file_name": "cailles_roties_farcies_au_foie_gras_et_aux_raisins.json",
+    "titre": "CAILLES RÔTIES FARCIES AU FOIE GRAS ET AUX RAISINS",
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "cailles",
+                "quantite": 8,
+                "unite": "pièces"
+            },
+            {
+                "nom": "foie gras",
+                "quantite": 0.3,
+                "unite": "kg"
+            }
+        ],
+        "farce_mousseline": [
+            {
+                "nom": "blanc de poulet",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "demi-blanc d’œuf",
+                "quantite": 1,
+                "unite": "pièce"
+            },
+            {
+                "nom": "crème",
+                "quantite": 0.1,
+                "unite": "l"
+            }
+        ],
+        "garniture": [
+            {
+                "nom": "raisin à gros grains",
+                "quantite": 0.8,
+                "unite": "kg"
+            },
+            {
+                "nom": "beurre",
+                "quantite": 0.04,
+                "unite": "kg"
+            },
+            {
+                "nom": "cognac",
+                "quantite": 0.04,
+                "unite": "l"
+            }
+        ],
+        "cuisson": [
+            {
+                "nom": "beurre",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "jus de cuisson",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "fond brun de volaille très légèrement lié",
+                "quantite": 0.5,
+                "unite": "l"
+            },
+            {
+                "nom": "vin blanc",
+                "quantite": 0.1,
+                "unite": "l"
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel fin",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "poivre du moulin",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ]
+    },
+    "technique": [
+        "1. Habiller 8 cailles de 0,350 kg chacune.",
+        "• Les désosser par le bréchet sans les ouvrir.",
+        "• Réserver les os et les abattis pour le jus de rôti.",
+        "2. Parer et déveiner un lobe de foie gras de 0,300 kg",
+        "• Le séparer en huit morceaux réguliers.",
+        "• Assaisonner les morceaux et les mettre à macérer avec un peu de porto et quelques parures de truffes.",
+        "• Filmer hermétiquement et réserver.",
+        "3. Réaliser la farce mousseline de volaille truffée",
+        "• Utiliser un blanc de poulet, un demi-blanc d’œuf, 0,10 l de crème et 0,020 kg de parures de truffes hachées.",
+        "4. Farcir les cailles",
+        "• Les assaisonner à l’intérieur, introduire le 8ème de la farce et un morceau de foie gras.",
+        "• Refermer l’ouverture en rabattant la peau du cou.",
+        "• Envelopper chaque caille dans un petit morceau de crépine de porc et la maintenir avec deux tours de ficelle.",
+        "5. Préparer les raisins",
+        "• Monder et épépiner 0,800 kg de raisin à gros grains.",
+        "• Les citronner légèrement, les arroser de porto et les réserver.",
+        "6. Rôtir les cailles",
+        "• Les assaisonner et les faire revenir sur toutes les faces dans un sautoir avec 0,040 kg de beurre et un peu d’huile.",
+        "• Disposer les os et les abattis tout autour.",
+        "• Rôtir à 220/230 °C durant une douzaine de minutes.",
+        "• Les arroser avec le beurre et les retourner durant la cuisson.",
+        "• Contrôler la cuisson, dégraisser et les flamber avec 0,04 l de cognac ou d’armagnac.",
+        "• Les débarrasser et les réserver au chaud.",
+        "7. Réaliser le jus de rôti",
+        "• Déglacer le sautoir avec le jus de macération des grains de raisin et le laisser réduire.",
+        "• Ajouter 0,50 l de fond brun de volaille très légèrement lié.",
+        "• Réduire de moitié et vérifier l’assaisonnement.",
+        "• Passer le jus de rôti au chinois étamine sur les grains de raisin.",
+        "• Les laisser chauffer sans bouillir durant quelques minutes.",
+        "8. Dresser les cailles",
+        "• Les débrider, enlever toutes les traces de crépine.",
+        "• Les disposer sur un plat de service ou sur les assiettes.",
+        "• Les arroser avec les grains de raisin.",
+        "• Napper avec le jus de rôti et disposer un petit bouquet de cresson à l’arrière des cailles."
+    ]
+}

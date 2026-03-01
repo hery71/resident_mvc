@@ -1,0 +1,158 @@
+{
+    "file_name": "pintadeaux_rotis_sur_canapes.json",
+    "titre": "PINTADEAUX RÔTIS SUR CANAPÉS",
+    "bandeau": "Volailles et gibiers à plumes rôtis",
+    "fiche": 112,
+    "page": 852,
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "pintadeaux (4 x 0,600 kg ou 2 x 1,200 kg)",
+                "unite": "kg",
+                "quantite": 2.4
+            },
+            {
+                "nom": "barde de lard gras",
+                "unite": "kg",
+                "quantite": 0.16
+            },
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": 0.04
+            },
+            {
+                "nom": "huile d’arachide",
+                "unite": "l",
+                "quantite": 0.04
+            }
+        ],
+        "jus_de_roti": [
+            {
+                "nom": "carottes",
+                "unite": "kg",
+                "quantite": 0.08
+            },
+            {
+                "nom": "oignons",
+                "unite": "kg",
+                "quantite": 0.08
+            },
+            {
+                "nom": "thym, laurier",
+                "unite": "",
+                "quantite": "PM"
+            },
+            {
+                "nom": "fond brun de volaille non lié (facultatif)",
+                "unite": "l",
+                "quantite": 0.5
+            },
+            {
+                "nom": "eau",
+                "unite": "l",
+                "quantite": 0.5
+            }
+        ],
+        "finition": [
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": 0.04
+            },
+            {
+                "nom": "cresson",
+                "unite": "botte",
+                "quantite": "1/2"
+            }
+        ],
+        "canapes": [
+            {
+                "nom": "pain de mie",
+                "unite": "kg",
+                "quantite": 0.4
+            },
+            {
+                "nom": "huile d’arachide",
+                "unite": "l",
+                "quantite": 0.04
+            },
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": 0.04
+            }
+        ],
+        "farce_a_gratin": [
+            {
+                "nom": "lard gras",
+                "unite": "kg",
+                "quantite": 0.1
+            },
+            {
+                "nom": "foies de volaille",
+                "unite": "kg",
+                "quantite": 0.2
+            },
+            {
+                "nom": "échalotes",
+                "unite": "kg",
+                "quantite": 0.02
+            },
+            {
+                "nom": "cognac",
+                "unite": "l",
+                "quantite": 0.04
+            },
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": 0.04
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel fin",
+                "unite": "",
+                "quantite": "PM"
+            },
+            {
+                "nom": "poivre du moulin",
+                "unite": "",
+                "quantite": "PM"
+            }
+        ]
+    },
+    "technique": [
+        "(Voir p. 439/442)",
+        "1. Mettre en place le poste de travail - 5 min",
+        "• Denrées, matériels de préparation, de cuisson et de dressage.",
+        "2. Habiller, brider et barder les pintadeaux - 30 min (voir p. 237/245)",
+        "• Flamber, éliminer le reste des duvets.",
+        "• Parer et brider (pattes allongées, protégées par du papier aluminium).",
+        "• Barder les pintadeaux de fines tranches de lard gras.",
+        "• Réserver les pintadeaux et les abattis en enceinte réfrigérée.",
+        "3. Éplucher, laver et tailler les légumes - 15 min",
+        "• Éplucher, laver et tailler les carottes et les oignons en mirepoix.",
+        "• Placer les légumes autour des pintadeaux dans une plaque à rôtir.",
+        "4. Marquer les pintadeaux en cuisson - 5 min (voir p. 444/442)",
+        "• Saler et poivrer intérieurement et extérieurement les pintadeaux.",
+        "• Disposer les pintadeaux sur le côté, sur une plaque à rôtir de grandeur appropriée.",
+        "• Placer autour les abattis concassés.",
+        "• Arroser les pintadeaux de beurre fondu ou d’huile.",
+        "• Rôtir au four à 200 °C durant environ 30 min pour des pintadeaux de 0,600 kg et 45 à 50 min pour des pintadeaux de 1,200 kg (cuire les pintadeaux durant 10 min sur un côté, puis les retourner sur l’autre côté et les cuire à nouveau 10 min).",
+        "• Placer les pintadeaux sur le dos, côté la barde, et les réserver puis terminer la cuisson en les arrosant fréquemment.",
+        "5. Confectionner les canapés - 15 min (voir p. 34)",
+        "6. Confectionner la farce à gratin - 10 min (voir p. 30)",
+        "• Il est possible d’y ajouter un peu de foie gras.",
+        "7. Confectionner le jus de rôti - 5 min (voir fiche précédente)",
+        "• Les sucs peuvent être déglacés avec du fond brun de volaille non lié (diluer) ou avec de l’eau afin de préserver la saveur spécifique des pintadeaux.",
+        "8. Dresser les pintadeaux - 5 min",
+        "• Masquer les canapés de farce à gratin, les tenir au chaud.",
+        "• Débrider les pintadeaux et les monter au four durant 1 à 2 min.",
+        "• Disposer les pintadeaux sur les canapés et replacer les bardes de lard.",
+        "• Verser un peu de jus de rôti au fond du plat, puis arroser les pintadeaux de beurre noisette.",
+        "• Disposer 1 ou 2 bouquets de cresson soit à l’arrière des pintadeaux, soit aux extrémités du plat.",
+        "• Dresser le reste du jus en saucière."
+    ]
+}

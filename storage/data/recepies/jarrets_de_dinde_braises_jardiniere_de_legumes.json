@@ -1,0 +1,72 @@
+{
+    "file_name": "jarrets_de_dinde_braises_jardiniere_de_legumes.json",
+    "titre": "«JARRETS» DE DINDE BRAISÉS, JARDINIÈRE DE LÉGUMES",
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "rouelles de cuisses de dinde",
+                "quantite": 0.8,
+                "unite": "kg"
+            },
+            {
+                "nom": "zestes d’orange",
+                "quantite": 2,
+                "unite": "pièces"
+            },
+            {
+                "nom": "zestes de citron",
+                "quantite": 1,
+                "unite": "pièce"
+            },
+            {
+                "nom": "fond rapidement de dinde",
+                "quantite": 0.45,
+                "unite": "l"
+            }
+        ],
+        "garniture": [
+            {
+                "nom": "carottes",
+                "quantite": 0.8,
+                "unite": "kg"
+            },
+            {
+                "nom": "navets",
+                "quantite": 0.8,
+                "unite": "kg"
+            },
+            {
+                "nom": "haricots verts",
+                "quantite": 0.4,
+                "unite": "kg"
+            },
+            {
+                "nom": "petits pois frais",
+                "quantite": 0.5,
+                "unite": "kg"
+            },
+            {
+                "nom": "beurre",
+                "quantite": 0.04,
+                "unite": "kg"
+            }
+        ]
+    },
+    "technique": [
+        "1. Mettre en place le poste de travail",
+        "2. Braisser à brun les rouelles de cuisses de dinde de 0,100 kg chacune",
+        "• Ne pas ajouter de brunoise de zestes d’orange, ni de citron.",
+        "• Les braiser durant 40 à 45 min (les jarrets se défont rapidement dès lors).",
+        "3. Préparer les légumes",
+        "• Éplucher, laver et tailler en bâtonnets 0,800 kg de carottes et 0,800 kg de navets longs.",
+        "• Effiler et tronçonner en morceaux de 5 cm de longueur 0,400 kg de haricots verts.",
+        "• Écosser 0,500 kg de petits pois frais.",
+        "4. Cuire séparément les légumes à l’anglaise",
+        "• Présenter les carottes, les navets et les haricots verts en petits fagots réguliers, les assaisonner, les beurrer avec 0,040 kg de beurre et les étuver au four à couvert.",
+        "• Ajouter les petits pois à la sauce.",
+        "5. Dresser les rouelles de cuisse de dinde",
+        "• Les dresser sur assiette, napper soigneusement avec la sauce.",
+        "• Disposer les fagots de légumes en alternant les couleurs.",
+        "• Placer une belle pluche de cerfeuil au centre de chaque assiette."
+    ]
+}

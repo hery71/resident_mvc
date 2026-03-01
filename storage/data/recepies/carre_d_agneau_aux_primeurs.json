@@ -1,0 +1,186 @@
+{
+  "titre": "CARRÉ D’AGNEAU AUX PRIMEURS",
+  "type": "Viandes rouges rôties",
+  "page": 784,
+  "fiche": 79,
+  "denrees_pour_8_couverts": {
+    "elements_de_base": [
+      {
+        "nom": "carrés d’agneau couverts (8 côtes chacun)",
+        "quantite": "2",
+        "unite": "kg"
+      },
+      {
+        "nom": "beurre",
+        "quantite": "0,040",
+        "unite": "kg"
+      },
+      {
+        "nom": "ou huile d’arachide",
+        "quantite": "0,04",
+        "unite": "l"
+      }
+    ],
+    "jus_de_roti": [
+      {
+        "nom": "carottes",
+        "quantite": "0,080",
+        "unite": "kg"
+      },
+      {
+        "nom": "oignons",
+        "quantite": "0,080",
+        "unite": "kg"
+      },
+      {
+        "nom": "thym",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "ail",
+        "quantite": "2",
+        "unite": "gousses"
+      }
+    ],
+    "finition": [
+      {
+        "nom": "beurre",
+        "quantite": "0,040",
+        "unite": "kg"
+      },
+      {
+        "nom": "cresson",
+        "quantite": "1/2",
+        "unite": "botte"
+      }
+    ],
+    "garniture_proposee": [
+      {
+        "nom": "carottes nouvelles",
+        "quantite": "0,800",
+        "unite": "kg"
+      },
+      {
+        "nom": "navets nouveaux",
+        "quantite": "0,800",
+        "unite": "kg"
+      },
+      {
+        "nom": "beurre",
+        "quantite": "0,040",
+        "unite": "kg"
+      },
+      {
+        "nom": "sucre semoule",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "petits pois écossés extra-fins",
+        "quantite": "0,200",
+        "unite": "kg"
+      },
+      {
+        "nom": "haricots verts extra-fins",
+        "quantite": "0,200",
+        "unite": "kg"
+      },
+      {
+        "nom": "beurre",
+        "quantite": "0,040",
+        "unite": "kg"
+      },
+      {
+        "nom": "pommes de terre à chair ferme",
+        "quantite": "1",
+        "unite": "kg"
+      },
+      {
+        "nom": "huile d’arachide",
+        "quantite": "0,04",
+        "unite": "l"
+      },
+      {
+        "nom": "beurre",
+        "quantite": "0,020",
+        "unite": "kg"
+      },
+      {
+        "nom": "persil",
+        "quantite": "PM",
+        "unite": ""
+      }
+    ],
+    "assaisonnement": [
+      {
+        "nom": "gros sel",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "sel fin",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "poivre du moulin",
+        "quantite": "PM",
+        "unite": ""
+      }
+    ]
+  },
+  "technique_de_realisation": [
+    "1. Mettre en place le poste de travail - 5 min",
+    "Denrées, matériels de préparation, de cuisson et de dressage.",
+    "2. Parer les carrés - 15 min (voir p. 214/216)",
+    "3. Préparer la garniture aromatique du jus de rôti - 5 min",
+    "Éplucher et laver l’ail, les carottes et les oignons.",
+    "Dégermer et écraser les gousses d’ail.",
+    "Tailler les carottes et les oignons en fine brunoise.",
+    "Prévoir une brindille de thym.",
+    "4. Préparer la garniture aux primeurs - 30 min",
+    "Écosser et laver les petits pois.",
+    "Effiler et laver les haricots verts.",
+    "Éplucher, laver et tourner les carottes, les navets et les pommes de terre.",
+    "Trier et équeuter le cresson.",
+    "5. Marquer les légumes en cuisson - 5 min",
+    "Cuire à l’anglaise, rafraîchir, puis égoutter les petits pois et les haricots verts.",
+    "Glacer à blanc les carottes et les navets (voir p. 395/396).",
+    "6. Marquer les carrés en cuisson - 5 min (voir p. 434/435)",
+    "Assaisonner les carrés.",
+    "Les placer dans une plaque à rôtir, sur les os et les parures, en protégeant les manches.",
+    "Arroser de beurre fondu ou d’huile.",
+    "Répartir quelques fragments de fleur de thym sur les carrés.",
+    "Saisir à four très chaud (250 °C) pendant 10 min.",
+    "Terminer la cuisson à 200 °C durant environ 10 min selon la grosseur des carrés.",
+    "S’assurer de la cuisson des carrés (chair rosée).",
+    "Les débrasser sur une plaque munie d’une grille et les réserver au chaud.",
+    "7. Marquer les pommes cocotte en cuisson - 5 min (voir p. 419)",
+    "Blanchir les pommes, égoutter.",
+    "Les rissoler à l’huile.",
+    "Les égoutter, les beurrer, les saler et les réserver au chaud.",
+    "8. Confectionner le jus de rôti - 10 min (voir p. 438)",
+    "Mettre la garniture aromatique dans la plaque de cuisson et faire pincer les sucs si nécessaire.",
+    "Dégraisser.",
+    "Déglacer à l’eau.",
+    "Ajouter l’ail écrasé et le thym.",
+    "Laisser réduire, puis vérifier l’assaisonnement.",
+    "Passer au chinois étamine.",
+    "Réserver le jus de rôti au bain-marie à une température supérieure à + 65 °C.",
+    "REMARQUE : Pour une grande tablée, il est préférable de déglacer la plaque de cuisson avec un fond d’agneau réalisé à l’avance.",
+    "9. Chauffer les légumes - 5 min",
+    "Plonger les petits pois et les haricots verts durant quelques secondes dans une eau fortement bouillante et salée.",
+    "Égoutter, puis les beurrer.",
+    "10. Dresser les carrés - 5 min",
+    "Disposer harmonieusement les légumes par petits bouquets autour des carrés en variant les couleurs.",
+    "Lustrer les légumes au beurre.",
+    "Verser un peu de jus de rôti au fond du plat.",
+    "Arroser les carrés de beurre noisette.",
+    "Saupoudrer légèrement les pommes de terre de persil haché.",
+    "Disposer un ou deux bouquets de cresson aux extrémités des plats.",
+    "Dresser le reste du jus de rôti dans une saucière préalablement chauffée."
+  ],
+  "duree_moyenne_preparation": "1 h 30 min",
+  "duree_moyenne_cuisson": "20 à 22 min"
+}

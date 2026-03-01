@@ -1,0 +1,165 @@
+{
+    "file_name": "poulets_grilles_a_l_americaine.json",
+    "titre": "POULETS GRILLÉS À L'AMÉRICAINE",
+    "bandeau": "Volailles et gibiers à plumes grillés",
+    "page": 862,
+    "description": "Poulets fendus en deux et aplatis, grillés, puis moutardés et panés en fin de cuisson, servis avec des tomates, des têtes de champignons et du bacon grillés, des pommes paille et une sauce brune très relevée, réalisée à partir de fond brun de volaille tomaté et d’une réduction d’échalotes, de poivre concassé, de vin blanc et de vinaigre.",
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "poulets 4/4 labellisés (2 x 1,200 kg)",
+                "unite": "kg",
+                "quantite": 2.4
+            },
+            {
+                "nom": "huile",
+                "unite": "l",
+                "quantite": 0.04
+            },
+            {
+                "nom": "moutarde",
+                "unite": "kg",
+                "quantite": 0.04
+            },
+            {
+                "nom": "mie de pain",
+                "unite": "kg",
+                "quantite": 0.1
+            }
+        ],
+        "fond_brun_de_volaille_pour_sauce_diable": [
+            {
+                "nom": "carcasses et abattis",
+                "quantite": "PM"
+            },
+            {
+                "nom": "carottes",
+                "unite": "kg",
+                "quantite": 0.05
+            },
+            {
+                "nom": "oignons",
+                "unite": "kg",
+                "quantite": 0.05
+            },
+            {
+                "nom": "ail (2 gousses)",
+                "quantite": 2,
+                "unite": "gousses"
+            },
+            {
+                "nom": "bouquet garni",
+                "quantite": 1,
+                "unite": "pièce"
+            },
+            {
+                "nom": "fond brun de volaille lié tomaté",
+                "unite": "l",
+                "quantite": 0.8
+            }
+        ],
+        "garniture": [
+            {
+                "nom": "tomates (8 pièces de 0,050 kg)",
+                "unite": "kg",
+                "quantite": 0.4
+            },
+            {
+                "nom": "champignons de Paris (8 têtes de 0,025 kg)",
+                "unite": "kg",
+                "quantite": 0.2
+            },
+            {
+                "nom": "bacon (8 tranches de 0,025 kg)",
+                "unite": "kg",
+                "quantite": 0.2
+            },
+            {
+                "nom": "huile d’arachide",
+                "unite": "l",
+                "quantite": 0.04
+            },
+            {
+                "nom": "pommes de terre (Bintje)",
+                "unite": "kg",
+                "quantite": 1.4
+            },
+            {
+                "nom": "friture",
+                "quantite": "PM"
+            }
+        ],
+        "sauce_diable": [
+            {
+                "nom": "échalotes",
+                "unite": "kg",
+                "quantite": 0.04
+            },
+            {
+                "nom": "poivre en grains",
+                "quantite": "PM"
+            },
+            {
+                "nom": "vin blanc",
+                "unite": "l",
+                "quantite": 0.08
+            },
+            {
+                "nom": "vinaigre d’alcool",
+                "unite": "l",
+                "quantite": 0.04
+            },
+            {
+                "nom": "fond brun de volaille tomaté",
+                "unite": "l",
+                "quantite": 0.5
+            },
+            {
+                "nom": "cerfeuil",
+                "unite": "botte",
+                "quantite": 0.2
+            },
+            {
+                "nom": "estragon",
+                "unite": "botte",
+                "quantite": 0.2
+            }
+        ],
+        "finition": [
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": 0.04
+            },
+            {
+                "nom": "cresson",
+                "unite": "botte",
+                "quantite": 0.25
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel fin",
+                "quantite": "PM"
+            },
+            {
+                "nom": "poivre du moulin",
+                "quantite": "PM"
+            }
+        ]
+    },
+    "technique": [
+        "1. Mettre en place le poste de travail - 5 min",
+        "2. Habiller et parer les poulets pour griller - 20 min (voir p. 248/249 et page suivante)",
+        "3. Marquer un fond brun de volaille - 15 min (voir p. 260/261)",
+        "4. Marquer les poulets en cuisson - 15 min (voir p. 444/442)",
+        "5. Confectionner la sauce diable - 15 min",
+        "6. Frire les pommes paille - 10 min (voir p. 456/457)",
+        "7. Terminer la cuisson du poulet - 10 min",
+        "8. Terminer la garniture - 5 min (voir p. 431)",
+        "9. Terminer la sauce - 5 min",
+        "10. Dresser les poulets grillés à l’américaine - 5 min"
+    ],
+    "duree_moyenne_preparation": "2 h 15 min",
+    "duree_moyenne_cuisson": "20 à 25 min"
+}

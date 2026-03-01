@@ -1,0 +1,153 @@
+{
+    "file_name": "canetons_a_l_orange_complet.json",
+    "titre": "CANETONS À L'ORANGE",
+    "bandeau": "Volailles poêlées",
+    "page": 860,
+    "description": "Canetons cuits à l’étouffée dans une cocotte hermétiquement fermée, servis avec une sauce aigre-douce réalisée à partir de fond brun de volaille, de jus d’orange et de zestes d’orange et de citron macérés dans une liqueur à base d’orange.",
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "2 canards de 2 kg chacun",
+                "unite": "kg",
+                "quantite": 4
+            },
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": 0.05
+            },
+            {
+                "nom": "huile",
+                "unite": "l",
+                "quantite": 0.02
+            },
+            {
+                "nom": "beurre (cuisson)",
+                "unite": "kg",
+                "quantite": 0.02
+            }
+        ],
+        "garniture_aromatique": [
+            {
+                "nom": "carottes",
+                "unite": "kg",
+                "quantite": 0.1
+            },
+            {
+                "nom": "oignons",
+                "unite": "kg",
+                "quantite": 0.1
+            }
+        ],
+        "sauce_bigarrade": [
+            {
+                "nom": "sucre",
+                "unite": "kg",
+                "quantite": 0.05
+            },
+            {
+                "nom": "vinaigre de vin",
+                "unite": "l",
+                "quantite": 0.05
+            },
+            {
+                "nom": "fond brun de canard très corsé non lié",
+                "unite": "l",
+                "quantite": 1
+            },
+            {
+                "nom": "arrow-root ou fécule de pomme de terre",
+                "unite": "kg",
+                "quantite": 0.02
+            },
+            {
+                "nom": "fond brun de canard ou de veau lié",
+                "unite": "l",
+                "quantite": 1
+            },
+            {
+                "nom": "oranges pour les zestes",
+                "unite": "",
+                "quantite": "PM"
+            },
+            {
+                "nom": "citron (1 pièce)",
+                "unite": "pièce",
+                "quantite": 1
+            },
+            {
+                "nom": "jus d’orange",
+                "unite": "l",
+                "quantite": "PM"
+            },
+            {
+                "nom": "liqueur à base d’orange",
+                "unite": "l",
+                "quantite": 0.1
+            }
+        ],
+        "garniture": [
+            {
+                "nom": "oranges (8 x 0,200 kg) segments zestés",
+                "unite": "kg",
+                "quantite": 1.6
+            }
+        ],
+        "decor": [
+            {
+                "nom": "oranges (2 x 0,200 kg)",
+                "unite": "kg",
+                "quantite": 0.4
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel fin",
+                "quantite": "PM"
+            },
+            {
+                "nom": "poivre du moulin",
+                "quantite": "PM"
+            }
+        ]
+    },
+    "technique": [
+        "1. Mettre en place le poste de travail - 5 min",
+        "2. Habiller les canetons puis les brider - 30 min (voir p. 250/252)",
+        "3. Zester 2 ou 3 oranges et 1 citron - 5 min",
+        "   • Laver soigneusement, lever les zestes et les tailler en fine julienne (voir p. 146).",
+        "   • Blanchir la julienne départ eau froide durant quelques minutes.",
+        "   • Recommencer l’opération une 2ème fois puis l’égoutter, la rafraîchir et la débarrasser dans une petite calotte en inox.",
+        "   • Recouvrir la julienne blanchie de liqueur à base d’orange, la couvrir et la laisser macérer durant quelques heures en enceinte réfrigérée.",
+        "4. Poêler les canetons - 10 min (voir p. 454/457 et fiche précédente « Canetons aux navets »)",
+        "5. Préparer les oranges de la garniture et de la présentation - 20 min",
+        "   • Les laver soigneusement.",
+        "   • Les peler à vif, y compris les 2 ou 3 oranges zestées (voir p. 143/145).",
+        "   • Lever les segments et les réserver à couvert en enceinte réfrigérée.",
+        "   • Réserver 2 oranges pour la présentation.",
+        "   • En canneler une, la partager en deux et terminer en demi-lamelles régulières pour festonner le plat.",
+        "   • En lustrer une seconde en forme de panier pour le décor du plat (facultatif).",
+        "6. Confectionner la gastrique - 5 min",
+        "   • Réunir dans une sauteuse le sucre et le vinaigre, laisser caraméliser très légèrement sur un feu doux.",
+        "   • Ajouter le fond brun de canard corsé s’il est clair, le lier après réduction avec l’arrow-root délayé dans un peu de jus d’orange (attention, l’acidité peut le lier).",
+        "   • Laisser réduire jusqu’à la consistance souhaitée.",
+        "7. Réaliser la sauce à l’orange - 15 min",
+        "   • S’assurer de la cuisson des canetons, les débarrasser puis les maintenir au chaud à couvert.",
+        "   • Faire pincer les sucs si nécessaire.",
+        "   • Déglacer soigneusement et dégraisser avec un peu de jus d’orange.",
+        "   • Ajouter le fond de canard et le laisser réduire à nouveau durant quelques minutes.",
+        "   • Vérifier l’onctuosité, la couleur et l’assaisonnement (rectifier si nécessaire).",
+        "   • Passer la sauce au chinois étamine dans une petite sauteuse, la dépouiller et y ajouter un peu de jus d’orange, la julienne blanchie et la liqueur.",
+        "   • Réduire la sauce (l’équilibrer en acidité, sucrer et saler).",
+        "   • Tamponner.",
+        "   • Réserver la sauce à couvert au bain-marie.",
+        "8. Dresser les canetons - 5 min",
+        "   • Chauffer doucement les segments dans un peu de sauce.",
+        "   • Débiter les canetons et les disposer au centre des plats.",
+        "   • Disposer harmonieusement les segments d’oranges tout autour des canetons.",
+        "   • Festonner le bord des plats avec les demi-lamelles d’oranges cannelées.",
+        "   • Napper uniformément les canetons avec la sauce en répartissant soigneusement la julienne zestée."
+    ],
+    "duree_moyenne_preparation": "1 h 35 min",
+    "duree_moyenne_cuisson": "50 min à 1 h"
+}

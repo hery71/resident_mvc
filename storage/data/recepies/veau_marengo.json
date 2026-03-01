@@ -1,0 +1,157 @@
+{
+    "file_name": "veau_marengo.json",
+    "titre": "VEAU MARENGO",
+    "bandeau": "Ragoût à brun",
+    "page": 822,
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "épaule de veau parée et désossée ou épaule et collier (morceaux de 0,050 à 0,060 kg)",
+                "unite": "kg",
+                "quantite": 1.6
+            },
+            {
+                "nom": "huile d’arachide",
+                "unite": "l",
+                "quantite": 0.08
+            },
+            {
+                "nom": "oignons",
+                "unite": "kg",
+                "quantite": 0.2
+            },
+            {
+                "nom": "vin blanc",
+                "unite": "l",
+                "quantite": 0.1
+            },
+            {
+                "nom": "farine",
+                "unite": "kg",
+                "quantite": 0.06
+            },
+            {
+                "nom": "concentré de tomate",
+                "unite": "kg",
+                "quantite": 0.08
+            },
+            {
+                "nom": "bouquet garni",
+                "unite": "pièce",
+                "quantite": 1
+            },
+            {
+                "nom": "ail (4 gousses)",
+                "unite": "kg",
+                "quantite": 0.03
+            },
+            {
+                "nom": "fond brun de veau clair (non lié)",
+                "unite": "l",
+                "quantite": 1.5
+            }
+        ],
+        "garniture": [
+            {
+                "nom": "champignons de Paris",
+                "unite": "kg",
+                "quantite": 0.25
+            },
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": 0.02
+            },
+            {
+                "nom": "petits oignons",
+                "unite": "kg",
+                "quantite": 0.25
+            },
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": 0.02
+            },
+            {
+                "nom": "sucre semoule",
+                "unite": "",
+                "quantite": "PM"
+            },
+            {
+                "nom": "pain de mie (4 tranches de 0,040 kg ou un morceau entier)",
+                "unite": "kg",
+                "quantite": 0.16
+            },
+            {
+                "nom": "huile d’arachide",
+                "unite": "l",
+                "quantite": 0.04
+            },
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": 0.02
+            }
+        ],
+        "finition": [
+            {
+                "nom": "persil",
+                "unite": "kg",
+                "quantite": "PM"
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel fin",
+                "unite": "",
+                "quantite": "PM"
+            },
+            {
+                "nom": "poivre du moulin",
+                "unite": "",
+                "quantite": "PM"
+            }
+        ]
+    },
+    "technique": [
+        "(Voir p. 459/462)",
+        "1. Mettre en place le poste de travail - 5 min",
+        "• Denrées, matériels de préparation, de cuisson et de dressage.",
+        "2. Vérifier et parer la viande si nécessaire - 5 min",
+        "• La réserver en enceinte réfrigérée.",
+        "3. Préparer la garniture aromatique - 10 min",
+        "• Éplucher, laver et ciseler les oignons.",
+        "• Éplucher, dégermer et écraser l’ail.",
+        "• Confectionner un bouquet garni.",
+        "4. Marquer le veau Marengo en cuisson - 15 min",
+        "• Mettre de l’huile à chauffer dans un sautoir ou dans un petit rondeau.",
+        "• Rissoler vivement les morceaux de viande.",
+        "• Dégraisser et ajouter les oignons ciselés.",
+        "• Suer doucement sans coloration.",
+        "• Ajouter le vin blanc et le laisser réduire.",
+        "• Singer et torréfier la farine en plaçant le sautoir dans un four très chaud durant quelques minutes.",
+        "• Ajouter le concentré de tomate et mélanger.",
+        "• Mouiller avec le fond brun de veau non lié et porter le veau Marengo à ébullition.",
+        "• Assaisonner, ajouter l’ail et le bouquet garni.",
+        "• Cuire doucement et régulièrement à couvert au four à 200 °C pendant 1 h environ (surveiller attentivement la réduction de la sauce et mélanger de temps en temps durant la cuisson).",
+        "5. Préparer la garniture - 20 min",
+        "• Éplucher, laver et glacer les petits oignons par glaçage à blanc (voir p. 356/357).",
+        "• Éplucher, laver, escaloper et sauter au beurre les champignons de Paris.",
+        "• Détailler le pain de mie en forme de croûtes (voir p. 345).",
+        "• Les dorer dans un mélange huile et beurre, et les réserver sur du papier absorbant.",
+        "• Concasser, écosser et blanchir le persil.",
+        "6. Décanter et terminer le veau Marengo - 5 min",
+        "• Décanter la viande dans un autre sautoir.",
+        "• Vérifier l’onctuosité, la couleur et l’assaisonnement de la sauce.",
+        "• La dégraisser si nécessaire et la passer au chinois étamine sur les morceaux de viande.",
+        "• Ajouter la garniture et laisser mijoter durant quelques minutes.",
+        "• Débarrasser et réserver le veau Marengo au bain-marie.",
+        "7. Dresser le veau Marengo - 5 min",
+        "• Disposer les morceaux légèrement en dôme dans la cocotte.",
+        "• Répartir uniformément la garniture sur les morceaux de viande.",
+        "• Napper légèrement avec la sauce.",
+        "• Tremper la pointe des croûtes dans la sauce, puis dans le persil haché.",
+        "• Les disposer autour de la viande, la pointe dirigée vers le haut.",
+        "• Saupoudrer sans excès de persil haché."
+    ]
+}

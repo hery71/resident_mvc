@@ -1,0 +1,159 @@
+{
+  "titre": "NOISETTES D’AGNEAU À LA CRÈME D’AIL",
+  "type": "Viandes sautées, sauce crémée",
+  "denrees_pour_8_couverts": {
+    "elements_de_base": [
+      {
+        "nom": "selles anglaises d’agneau (2 x 2 kg)",
+        "quantite": "4",
+        "unite": "pièce"
+      },
+      {
+        "nom": "carrés d’agneau",
+        "quantite": "3,200",
+        "unite": "kg"
+      },
+      {
+        "nom": "beurre",
+        "quantite": "0,040",
+        "unite": "kg"
+      },
+      {
+        "nom": "huile d’olive",
+        "quantite": "0,04",
+        "unite": "l"
+      }
+    ],
+    "fond_d_agneau": [
+      {
+        "nom": "os et parures maigres des selles ou des carrés",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "carottes",
+        "quantite": "0,200",
+        "unite": "kg"
+      },
+      {
+        "nom": "oignons",
+        "quantite": "0,200",
+        "unite": "kg"
+      },
+      {
+        "nom": "ail (2 gousses)",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "thym",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "tomates",
+        "quantite": "0,100",
+        "unite": "kg"
+      },
+      {
+        "nom": "fond brun de veau lié déshydraté",
+        "quantite": "0,060",
+        "unite": "kg"
+      },
+      {
+        "nom": "jus de rôti d’agneau",
+        "quantite": "1",
+        "unite": "l"
+      },
+      {
+        "nom": "fond brun d’agneau lié",
+        "quantite": "1",
+        "unite": "l"
+      }
+    ],
+    "creme_d_ail": [
+      {
+        "nom": "ail rose de Lautrec (1 tête)",
+        "quantite": "0,100",
+        "unite": "kg"
+      },
+      {
+        "nom": "beurre",
+        "quantite": "0,020",
+        "unite": "kg"
+      },
+      {
+        "nom": "crème liquide",
+        "quantite": "0,20",
+        "unite": "l"
+      },
+      {
+        "nom": "fond brun d’agneau lié",
+        "quantite": "PM",
+        "unite": ""
+      }
+    ],
+    "finition": [
+      {
+        "nom": "vin blanc",
+        "quantite": "0,08",
+        "unite": "l"
+      },
+      {
+        "nom": "crème liquide",
+        "quantite": "0,20",
+        "unite": "l"
+      },
+      {
+        "nom": "beurre",
+        "quantite": "0,020",
+        "unite": "kg"
+      }
+    ],
+    "assaisonnement": [
+      {
+        "nom": "sel fin",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "poivre du moulin",
+        "quantite": "PM",
+        "unite": ""
+      }
+    ]
+  },
+  "technique_de_realisation": [
+    "1. Mettre en place le poste de travail - 5 min.",
+    "Denrées, matériels de préparation, de cuisson et de dressage.",
+    "2. Préparer les selles anglaises ou les carrés - 20 min.",
+    "Les désosser entièrement, dénerver soigneusement les filets et détailler les noisettes à raison de 3 pièces par personne.",
+    "Les réserver en enceinte réfrigérée.",
+    "3. Éplucher et laver les légumes - 5 min.",
+    "Tailler les carottes et les oignons en fine mirepoix pour le fond d’agneau.",
+    "Dégerminer les gousses d’ail.",
+    "4. Marquer un fond brun d’agneau - 10 min.",
+    "Utiliser les os et les parures maigres.",
+    "Les faire légèrement pincer en cuisson avec le fond brun de veau lié ou le fond déshydraté.",
+    "Le passer et le réserver à couvert au bain-marie.",
+    "5. Réaliser la crème d’ail - 10 min.",
+    "Blanchir à deux reprises les gousses d’ail.",
+    "Les étuver avec le beurre puis les cuire lentement avec un peu de fond brun d’agneau.",
+    "Crémer, réduire à nouveau et assaisonner.",
+    "Passer au mixeur, beurrer en surface et réserver.",
+    "6. Marquer les noisettes en cuisson - 12 min.",
+    "Les assaisonner puis les sauter avec l’huile et le beurre, les saisir puis réduire le feu.",
+    "Les maintenir rosées avec une légère coloration.",
+    "Les débarrasser sur grille et les réserver au chaud.",
+    "7. Réaliser la sauce - 8 min.",
+    "Dégraisser le sautoir.",
+    "Déglacer avec le vin blanc et laisser réduire des 2/3.",
+    "Ajouter le fond d’agneau légèrement réduit.",
+    "Incorporer la crème d’ail et les 0,20 l de crème.",
+    "Réduire, vérifier la consistance et l’assaisonnement.",
+    "Passer la sauce au chinois étamine et la monter au beurre.",
+    "8. Dresser les noisettes - 5 min.",
+    "Les dresser en couronne sur plats ronds ou sur assiettes.",
+    "Napper uniformément."
+  ]
+}

@@ -1,0 +1,172 @@
+{
+    "file_name": "poularde_pochee_sauce_supreme_riz_pilaf.json",
+    "titre": "POULARDE POCHÉE SAUCE SUPRÊME, RIZ PILAF",
+    "bandeau": "Volailles pochées",
+    "page": 844,
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "poularde labellisée ou éventuellement 2 poulets (4/4 de 1,200 à 1,400 kg)",
+                "unite": "kg",
+                "quantite": 2.4
+            },
+            {
+                "nom": "citron",
+                "unite": "pièce",
+                "quantite": 1
+            },
+            {
+                "nom": "fond blanc de volaille corsé",
+                "unite": "l",
+                "quantite": 4
+            }
+        ],
+        "garniture_aromatique": [
+            {
+                "nom": "carottes",
+                "unite": "kg",
+                "quantite": 0.2
+            },
+            {
+                "nom": "oignons",
+                "unite": "kg",
+                "quantite": 0.2
+            },
+            {
+                "nom": "clous de girofle",
+                "unite": "pièce",
+                "quantite": 2
+            },
+            {
+                "nom": "blancs de poireaux",
+                "unite": "kg",
+                "quantite": 0.2
+            },
+            {
+                "nom": "céleri en branches",
+                "unite": "kg",
+                "quantite": 0.1
+            },
+            {
+                "nom": "bouquet garni",
+                "unite": "pièce",
+                "quantite": 1
+            }
+        ],
+        "sauce_supreme": [
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": 0.08
+            },
+            {
+                "nom": "farine",
+                "unite": "kg",
+                "quantite": 0.08
+            },
+            {
+                "nom": "fond blanc de cuisson",
+                "unite": "l",
+                "quantite": 1.5
+            },
+            {
+                "nom": "crème épaisse",
+                "unite": "kg",
+                "quantite": 0.3
+            },
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": 0.04
+            }
+        ],
+        "riz_pilaf": [
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": 0.08
+            },
+            {
+                "nom": "oignons",
+                "unite": "kg",
+                "quantite": 0.16
+            },
+            {
+                "nom": "riz long",
+                "unite": "kg",
+                "quantite": 0.4
+            },
+            {
+                "nom": "fond blanc de volaille",
+                "unite": "l",
+                "quantite": "PM"
+            },
+            {
+                "nom": "bouquet garni",
+                "unite": "pièce",
+                "quantite": 1
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "gros sel",
+                "unite": "",
+                "quantite": "PM"
+            },
+            {
+                "nom": "sel fin",
+                "unite": "",
+                "quantite": "PM"
+            },
+            {
+                "nom": "poivre blanc",
+                "unite": "",
+                "quantite": "PM"
+            }
+        ]
+    },
+    "technique": [
+        "1. Mettre en place le poste de travail - 5 min",
+        "• Denrées, matériels de préparation, de cuisson et de dressage.",
+        "2. Habiller la poularde - 20 min (voir p. 237 et 245)",
+        "• Flamber, éliminer le duvet et les plumes.",
+        "• Parer, vider, trancher le bout des ailes et les pattes.",
+        "• Vérifier l’intérieur (lavicule ou bréchet).",
+        "• Brider et parer les abats.",
+        "3. Blanchir la poularde - 5 min",
+        "• Placer la poularde dans une grande russe et mouiller à l’eau froide.",
+        "• Porter à ébullition, écumer et blanchir la poularde durant 2 à 3 min.",
+        "• La rafraîchir, puis l’égoutter.",
+        "4. Préparer la garniture aromatique - 10 min",
+        "• Éplucher et laver soigneusement les légumes.",
+        "• Tailler les carottes en gros bâtonnets et les oignons en quartiers.",
+        "• Réserver également 0,160 kg d’oignons pour le riz pilaf.",
+        "• Laver et ficeler le persil et confectionner 2 bouquets garnis dont un avec les abats de la poularde.",
+        "5. Marquer la poularde en cuisson - 5 min",
+        "• Colorer la poularde et la placer avec les abats dans la russe.",
+        "• Mouiller avec le fond blanc de volaille froid et saler très légèrement au gros sel.",
+        "• Porter à ébullition et écumer soigneusement.",
+        "• Ajouter la garniture aromatique et cuire à faible ébullition et à couvert pendant 30 à 35 min pour une poularde et 1 h 15 min pour une vieille poule.",
+        "6. Confectionner le roux blanc - 5 min (voir p. 281)",
+        "7. Marquer le riz pilaf en cuisson - 10 min (voir p. 379)",
+        "• Le mouiller avec du fond blanc de volaille bouillant.",
+        "8. Confectionner la sauce suprême - 10 min (voir p. 281)",
+        "• Passer le fond blanc de cuisson.",
+        "• Mouiller le roux froid avec 1,5 l de fond bouillant.",
+        "• Laisser réduire doucement le velouté durant 15 à 20 min.",
+        "9. Terminer le riz pilaf - 5 min",
+        "• Vérifier la cuisson, puis le sortir du four et le laisser gonfler quelques minutes à couvert.",
+        "• Ajouter le beurre en parcelles et l’égrener délicatement à l’aide d’une fourchette.",
+        "10. Terminer le velouté de volaille - 5 min",
+        "• Ajouter la crème et laisser réduire à nouveau durant une quinzaine de minutes.",
+        "• Écumer si nécessaire.",
+        "• Passer la sauce au chinois étamine dans un bain-marie et la monter au beurre.",
+        "• Tamponner et réserver la sauce suprême à couvert au bain-marie.",
+        "11. Dresser la poularde - 5 min",
+        "• Dresser la poularde délicatement la peau vers le haut.",
+        "• Dresser le riz en forme de socle dans un grand plat long et beurré.",
+        "• Disposer la poularde sur le socle de riz.",
+        "• Napper légèrement et uniformément la poularde avec la sauce suprême.",
+        "• Dresser le reste de la sauce en saucière."
+    ]
+}

@@ -1,0 +1,50 @@
+{
+  "titre": "CARRÉ D’AGNEAU PERSILLÉ (S’APPLIQUE ÉGALEMENT AU GIGOT)",
+  "type": "Viandes rouges rôties",
+  "page": 785,
+  "denrees_pour_8_couverts": {
+    "elements_de_base": [
+      {
+        "nom": "carrés d’agneau",
+        "quantite": "PM",
+        "unite": ""
+      }
+    ],
+    "persillade": [
+      {
+        "nom": "persil plat",
+        "quantite": "0,080",
+        "unite": "kg"
+      },
+      {
+        "nom": "ail",
+        "quantite": "4",
+        "unite": "gousses"
+      },
+      {
+        "nom": "beurre",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "mie de pain",
+        "quantite": "PM",
+        "unite": ""
+      }
+    ]
+  },
+  "technique_de_realisation": [
+    "1. Parer les carrés et les marquer en cuisson (voir ci-contre)",
+    "Les débrasser et réaliser le jus de rôti.",
+    "2. Réaliser la persillade",
+    "Laver, équeuter, essorer, concasser et hacher 0,080 kg de persil.",
+    "Tamiser 0,100 kg de mie de pain.",
+    "Éplucher, laver, dégermer 4 gousses d’ail, puis les écraser et les hacher finement.",
+    "Mélanger 0,080 kg de beurre en pommade dans une petite calotte avec le persil, l’ail et la mie de pain.",
+    "Salter, poivrer légèrement et ajouter un peu d’herbes de Provence ou de fleur de thym tamisée.",
+    "3. Persiller les carrés (voir p. 214/216 et 436)",
+    "Appliquer régulièrement la persillade sur les carrés et les placer sous la salamandre afin d’obtenir une légère coloration uniforme.",
+    "4. Dresser",
+    "Dresser sur plat ovale avec bouquet de cresson et jus de rôti à part en saucière."
+  ]
+}

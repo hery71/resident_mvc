@@ -1,0 +1,120 @@
+{
+  "titre": "NOISETTES DE CHEVREUIL, SAUCE DIANE",
+  "type": "Viande de gibier sautée",
+  "denrees_pour_8_couverts": {
+    "elements_de_base": [
+      {
+        "nom": "filet de chevreuil en noisettes",
+        "quantite": "1,200",
+        "unite": "kg"
+      },
+      {
+        "nom": "huile",
+        "quantite": "0,04",
+        "unite": "l"
+      },
+      {
+        "nom": "beurre clarifié",
+        "quantite": "0,020",
+        "unite": "kg"
+      },
+      {
+        "nom": "beurre",
+        "quantite": "0,040",
+        "unite": "kg"
+      }
+    ],
+    "marinade": [
+      {
+        "nom": "huile",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "jus de citron",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "baies de genièvre",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "poivre en grains",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "fleur de thym",
+        "quantite": "PM",
+        "unite": ""
+      }
+    ],
+    "sauce_diane": [
+      {
+        "nom": "fond brun de veau lié",
+        "quantite": "0,04",
+        "unite": "l"
+      },
+      {
+        "nom": "cognac",
+        "quantite": "0,04",
+        "unite": "l"
+      },
+      {
+        "nom": "sauce poivrade",
+        "quantite": "0,50",
+        "unite": "l"
+      },
+      {
+        "nom": "crème",
+        "quantite": "0,10",
+        "unite": "l"
+      }
+    ],
+    "assaisonnement": [
+      {
+        "nom": "sel fin",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "poivre du moulin",
+        "quantite": "PM",
+        "unite": ""
+      }
+    ]
+  },
+  "technique_de_realisation": [
+    "1. Mettre en place le poste de travail.",
+    "2. Détailler 1,200 kg de filets de chevreuil en noisettes régulières (à raison de 3 par personne).",
+    "3. Les placer dans une marinade instantanée à base d’huile, de jus de citron, de baies de genièvre, de poivre en grains et de fleurs de thym.",
+    "Filmer et réserver en enceinte réfrigérée.",
+    "4. Marquer les noisettes en cuisson.",
+    "Égoutter soigneusement et assaisonner les noisettes.",
+    "Les saisir dans un sautoir avec 0,04 l d’huile et 0,020 kg de beurre clarifié.",
+    "Les maintenir « rosées » et les débarrasser dans une plaque munie d’une grille.",
+    "5. Tailler 8 tranches de pain de mie et les sauter avec 0,040 kg de beurre clarifié.",
+    "6. Réaliser la sauce Diane.",
+    "Si nécessaire, faire pincer les sucs.",
+    "Dégraisser.",
+    "Déglacer avec 0,04 l de cognac et le faire flamber.",
+    "Ajouter 0,50 l de sauce poivrade.",
+    "Réduire à la consistance souhaitée.",
+    "Ajouter 0,10 l de crème et réduire à nouveau.",
+    "S’assurer de la consistance et de l’assaisonnement.",
+    "Passer la sauce au chinois étamine et la monter avec 0,040 kg de beurre.",
+    "7. Dresser les noisettes.",
+    "Disposer les croûtons sur le plat de service.",
+    "Placer les noisettes sur les croûtons.",
+    "Napper uniformément avec la sauce Diane."
+  ],
+  "garnitures_d_accompagnement": [
+    "Coffrets de pomme ou de poire garnis d’airelles ou de canneberges.",
+    "Champignons sautés.",
+    "Mousseline de marrons, de céleri, de potimarron.",
+    "Pommes cocotte, noisettes, parisienne.",
+    "Gratin de pommes fruit et de céleri-rave à la diane."
+  ]
+}

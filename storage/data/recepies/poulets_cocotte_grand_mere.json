@@ -1,0 +1,164 @@
+{
+    "file_name": "poulets_cocotte_grand_mere.json",
+    "titre": "POULETS COCOTTE GRAND-MÈRE",
+    "bandeau": "Volailles et gibiers à plumes poêlés",
+    "page": 854,
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "poulets labellisés 4/4 (2 x 1,200 à 1,400 kg)",
+                "unite": "kg",
+                "quantite": 2.4
+            },
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": 0.04
+            }
+        ],
+        "fond_de_poelage": [
+            {
+                "nom": "carottes",
+                "unite": "kg",
+                "quantite": 0.1
+            },
+            {
+                "nom": "oignons",
+                "unite": "kg",
+                "quantite": 0.1
+            },
+            {
+                "nom": "vin blanc",
+                "unite": "l",
+                "quantite": 0.1
+            },
+            {
+                "nom": "fond brun de volaille très légèrement lié et corsé",
+                "unite": "l",
+                "quantite": 0.4
+            },
+            {
+                "nom": "fond brun de veau légèrement lié",
+                "unite": "l",
+                "quantite": 0.4
+            }
+        ],
+        "garniture": [
+            {
+                "nom": "poitrine de porc demi-sel",
+                "unite": "kg",
+                "quantite": 0.25
+            },
+            {
+                "nom": "champignons de Paris",
+                "unite": "kg",
+                "quantite": 0.25
+            },
+            {
+                "nom": "huile d’arachide",
+                "unite": "l",
+                "quantite": 0.02
+            },
+            {
+                "nom": "petits oignons",
+                "unite": "kg",
+                "quantite": 0.25
+            },
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": 0.02
+            },
+            {
+                "nom": "sucre",
+                "unite": "kg",
+                "quantite": "PM"
+            },
+            {
+                "nom": "pommes de terre à chair ferme",
+                "unite": "kg",
+                "quantite": 2
+            },
+            {
+                "nom": "huile",
+                "unite": "l",
+                "quantite": 0.08
+            },
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": 0.04
+            }
+        ],
+        "finition": [
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": 0.04
+            },
+            {
+                "nom": "persil",
+                "unite": "kg",
+                "quantite": "PM"
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel fin",
+                "unite": "",
+                "quantite": "PM"
+            },
+            {
+                "nom": "poivre du moulin",
+                "unite": "",
+                "quantite": "PM"
+            }
+        ]
+    },
+    "technique": [
+        "1. Mettre en place le poste de travail - 5 min",
+        "• Denrées, matériels de préparation, de cuisson et de dressage.",
+        "2. Habiller les poulets - 20 min (voir p. 237/402)",
+        "3. Brider les poulets en arrière - 5 min (voir p. 241/242)",
+        "4. Préparer les légumes - 30 min",
+        "• Éplucher et réserver les champignons au frais.",
+        "• Éplucher, laver et tourner les pommes cocotte, puis les réserver dans un bain d’eau.",
+        "• Éplucher et laver les oignons et les carottes de la garniture aromatique.",
+        "• Éplucher et laver les petits oignons.",
+        "• Laver et équeuter le persil.",
+        "5. Marquer les poulets en cuisson - 10 min",
+        "• Saler et poivrer les poulets intérieurement et extérieurement.",
+        "• Faire blondir lentement le beurre dans un récipient creux de grandeur appropriée (rondeau ou cocotte).",
+        "• Disposer les poulets sur le côté, les laisser légèrement colorer, puis les retourner pour colorer l’autre face.",
+        "• Ajouter la garniture aromatique.",
+        "• Couvrir le récipient, puis cuire les poulets au four à 200 °C durant 40 à 45 min en les arrosant fréquemment.",
+        "• Ôter le couvercle 10 min avant la fin de la cuisson des poulets pour terminer la coloration et la cuisson.",
+        "6. Marquer la garniture en cuisson - 15 min (voir p. 397)",
+        "• Cuire les petits oignons par glaçage à brun.",
+        "• Émincer la poitrine et détailler la poitrine de porc en petits lardons.",
+        "• Les blanchir puis les sauter à l’huile dans une petite poêle sans les dessécher.",
+        "• Laver soigneusement et escaloper les champignons.",
+        "• Les sauter vivement dans la graisse de fonte des lardons.",
+        "• Les égoutter puis les réserver avec les lardons.",
+        "• Blanchir les pommes cocotte (départ eau froide).",
+        "7. Rissoler les pommes cocotte - 10 min (voir p. 418)",
+        "• Les saisir à l’huile dans un grand sautoir, puis terminer la cuisson au four à 240 °C.",
+        "• Les égoutter, puis ajouter le beurre en parcelles et saler légèrement.",
+        "8. Confectionner le fond de poêlage - 15 min (voir p. 446/447)",
+        "• S’assurer de la cuisson des poulets (le jus qui s’écoule de l’intérieur doit être limpide et ne présenter aucune trace sanguinolente).",
+        "• Réserver les poulets au chaud à couvert.",
+        "• Faire pincer les sucs si nécessaire.",
+        "• Déglacer avec le vin blanc et laisser réduire.",
+        "• Ajouter le fond brun de volaille légèrement lié et laisser réduire le fond de poêlage durant une dizaine de minutes.",
+        "• Vérifier l’assaisonnement et le passer au chinois étamine dans un petit bain-marie.",
+        "• Dégraisser soigneusement le fond de poêlage.",
+        "• Le réserver à couvert au bain-marie.",
+        "9. Concasser, hacher et essorer le persil - 5 min",
+        "10. Dresser les poulets cocotte grand-mère - 5 min",
+        "• Verser un peu de fond de poêlage au fond de la cocotte.",
+        "• Placer le poulet débardé sur le dos dans la cocotte.",
+        "• Chauffer la garniture en la faisant sauter dans une poêle avec du beurre, puis la répartir uniformément autour du poulet.",
+        "• Saupoudrer sans excès la garniture de persil haché.",
+        "• Dresser le reste du fond de poêlage en saucière."
+    ]
+}

@@ -1,0 +1,72 @@
+{
+    "file_name": "foie_de_veau_a_l_anglaise.json",
+    "titre": "FOIE DE VEAU À L'ANGLAISE",
+    "bandeau": "Abats sautés",
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "foie de veau (8 tranches de 0,150 kg)",
+                "unite": "kg",
+                "quantite": 1.2
+            },
+            {
+                "nom": "poitrine de porc fumée ou bacon (8 tranches de 0,025 kg)",
+                "unite": "kg",
+                "quantite": 0.2
+            },
+            {
+                "nom": "farine",
+                "unite": "kg",
+                "quantite": 0.1
+            },
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": 0.08
+            }
+        ],
+        "finition": [
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": 0.08
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel fin",
+                "unite": "",
+                "quantite": "PM"
+            },
+            {
+                "nom": "poivre du moulin",
+                "unite": "",
+                "quantite": "PM"
+            }
+        ]
+    },
+    "technique": [
+        "1. Mettre en place le poste de travail - 5 min",
+        "• Denrées, matériels de préparation, de cuisson et de dressage.",
+        "2. Parer la poitrine de porc - 5 min",
+        "• La découenner, ôter l’excès de gras et les cartilages s’il y a lieu.",
+        "• Réserver les tranches en enceinte réfrigérée.",
+        "3. Préparer le foie de veau - 10 min",
+        "• Vérifier les tranches.",
+        "• S’il est livré en lobes, ôter la fine pellicule transparente qui le recouvre juste au moment de le détailler en tranches régulières d’1 cm d’épaisseur.",
+        "• Filmer et réserver les tranches en enceinte réfrigérée.",
+        "4. Marquer les tranches de poitrine fumée ou de bacon en cuisson - 5 min",
+        "• Les tranches de poitrine de porc peuvent être blanchies au préalable.",
+        "• Mettre du beurre à chauffer dans un sautoir.",
+        "• Sauter les tranches de poitrine fumée sans les dessécher, puis les réserver au chaud (veiller attentivement à ne pas faire brûler le beurre).",
+        "5. Marquer les tranches de foie de veau en cuisson - 10 min",
+        "• Saler, poivrer et fariner les tranches de foie de veau.",
+        "• Les tapoter pour éliminer l’excédent de farine.",
+        "• Remettre le sautoir ayant servi à cuire les tranches de poitrine fumée sur le feu.",
+        "• Rajouter un peu de beurre si nécessaire.",
+        "• Sauter doucement les tranches de foie de veau en les maintenant roses (un point de cuisson particulier n’a pas été précisé).",
+        "6. Dresser le foie de veau - 5 min",
+        "• Disposer les tranches de foie dans le sens de la diagonale du plat en les intercalant avec les tranches de poitrine fumée.",
+        "• Arroser de beurre noisette."
+    ]
+}

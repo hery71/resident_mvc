@@ -1,0 +1,138 @@
+{
+    "file_name": "fricassee_de_volaille_a_l_ancienne.json",
+    "titre": "FRICASSÉE DE VOLAILLE À L'ANCIENNE",
+    "bandeau": "Ragoûts de volaille à blanc",
+    "page": 864,
+    "description": "Morceaux de poulet cuits dans une sauce crémée à base de fond blanc de volaille, accompagnés d’une garniture composée de petits oignons glacés à blanc et de petits champignons cuits à blanc.",
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "poulets labellisés (2 x 1,200 à 1,400 kg)",
+                "unite": "kg",
+                "quantite": 2.4
+            },
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": 0.08
+            },
+            {
+                "nom": "farine",
+                "unite": "kg",
+                "quantite": 0.06
+            },
+            {
+                "nom": "oignon (1 pièce)",
+                "unite": "kg",
+                "quantite": 0.12
+            },
+            {
+                "nom": "fond blanc de volaille",
+                "quantite": "PM"
+            }
+        ],
+        "fond_blanc_de_volaille": [
+            {
+                "nom": "carcasses et abattis",
+                "quantite": "PM"
+            },
+            {
+                "nom": "carottes",
+                "unite": "kg",
+                "quantite": 0.2
+            },
+            {
+                "nom": "oignons",
+                "unite": "kg",
+                "quantite": 0.2
+            },
+            {
+                "nom": "blancs de poireaux",
+                "unite": "kg",
+                "quantite": 0.2
+            },
+            {
+                "nom": "céleri en branches",
+                "unite": "kg",
+                "quantite": 0.1
+            },
+            {
+                "nom": "bouquet garni",
+                "quantite": 1,
+                "unite": "pièce"
+            },
+            {
+                "nom": "clous de girofle",
+                "quantite": 2,
+                "unite": "pièces"
+            }
+        ],
+        "finition_de_la_sauce": [
+            {
+                "nom": "crème double",
+                "unite": "l",
+                "quantite": 0.3
+            }
+        ],
+        "garniture_a_l_ancienne": [
+            {
+                "nom": "champignons de Paris",
+                "unite": "kg",
+                "quantite": 0.25
+            },
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": 0.02
+            },
+            {
+                "nom": "citron (1/2 pièce)",
+                "unite": "kg",
+                "quantite": 0.05
+            },
+            {
+                "nom": "petits oignons",
+                "unite": "kg",
+                "quantite": 0.25
+            },
+            {
+                "nom": "beurre (glaçage)",
+                "unite": "kg",
+                "quantite": 0.02
+            },
+            {
+                "nom": "sucre semoule",
+                "quantite": "PM"
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "gros sel",
+                "quantite": "PM"
+            },
+            {
+                "nom": "sel fin",
+                "quantite": "PM"
+            },
+            {
+                "nom": "poivre du moulin",
+                "quantite": "PM"
+            }
+        ]
+    },
+    "technique": [
+        "1. Mettre en place le poste de travail - 5 min",
+        "2. Habiller et découper les poulets - 30 min (voir p. 237/240 et 246/248)",
+        "3. Marquer le fond blanc de volaille - 10 min",
+        "4. Préparer la garniture - 10 min",
+        "5. Marquer la fricassée en cuisson - 15 min",
+        "6. Terminer la fricassée - 10 min",
+        "7. Dresser la fricassée de volaille - 5 min"
+    ],
+    "duree_moyenne_preparation": "1 h 25 min",
+    "duree_moyenne_cuisson": {
+        "ailes": "15 à 18 min",
+        "cuisses": "18 à 22 min"
+    },
+    "remarque": "Si la sauce est trop épaisse, la détendre avec un peu de fond blanc de veau ou de cuisson des champignons. Les petits oignons glacés peuvent être ajoutés au moment du dressage."
+}

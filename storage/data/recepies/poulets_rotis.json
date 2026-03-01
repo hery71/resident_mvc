@@ -1,0 +1,112 @@
+{
+    "file_name": "poulets_rotis.json",
+    "titre": "POULETS RÔTIS",
+    "bandeau": "Volailles rôties",
+    "fiche": 111,
+    "page": 850,
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "poulets labellisés effilés (2 x 1,400 à 1,500 kg)",
+                "unite": "kg",
+                "quantite": 2.8
+            },
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": 0.04
+            },
+            {
+                "nom": "huile d’arachide",
+                "unite": "l",
+                "quantite": 0.04
+            }
+        ],
+        "jus_de_roti": [
+            {
+                "nom": "carottes",
+                "unite": "kg",
+                "quantite": 0.08
+            },
+            {
+                "nom": "oignons",
+                "unite": "kg",
+                "quantite": 0.08
+            },
+            {
+                "nom": "thym, laurier",
+                "unite": "",
+                "quantite": "PM"
+            },
+            {
+                "nom": "fond brun de volaille non lié (facultatif)",
+                "unite": "l",
+                "quantite": 0.5
+            },
+            {
+                "nom": "eau",
+                "unite": "l",
+                "quantite": 0.5
+            }
+        ],
+        "finition": [
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": 0.04
+            },
+            {
+                "nom": "cresson",
+                "unite": "botte",
+                "quantite": "1/2"
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel fin",
+                "unite": "",
+                "quantite": "PM"
+            },
+            {
+                "nom": "poivre du moulin",
+                "unite": "",
+                "quantite": "PM"
+            }
+        ]
+    },
+    "technique": [
+        "(Voir p. 439/440)",
+        "1. Mettre en place le poste de travail - 5 min",
+        "• Denrées, matériels de préparation, de cuisson et de dressage.",
+        "2. Habiller les poulets - 25 min (voir p. 237/245)",
+        "• Flamber, éliminer le reste des duvets.",
+        "• Parer, vider et brider (pattes allongées, protégées par du papier aluminium).",
+        "• Préparer les abattis et réserver les foies pour une autre utilisation.",
+        "3. Marquer les poulets en cuisson - 10 min",
+        "• Saler et poivrer intérieurement et extérieurement les poulets.",
+        "• Disposer les poulets côté dos sur une plaque à rôtir de grandeur appropriée.",
+        "• Placer autour les abattis concassés.",
+        "• Arroser les poulets de beurre fondu ou d’huile.",
+        "• Rôtir au four à 200 °C pendant 45 à 50 min environ pour des poulets de 1,400 kg (tourner les poulets durant 15 min sur un côté, les retourner sur l’autre côté et les cuire à nouveau 15 autres min).",
+        "• Placer les poulets sur une grille et terminer leur cuisson en les arrosant fréquemment.",
+        "4. Préparer les légumes - 30 min",
+        "• Éplucher les carottes et les oignons de la garniture aromatique et les tailler en petits dés (mirepoix).",
+        "• Laver, trier et équeuter le cresson, le réserver au frais sur une plaque avec un peu d’eau (voir p. 889).",
+        "5. Confectionner le jus de rôti - 10 min",
+        "• Sortir les poulets du four et s’assurer de leur cuisson (le jus qui s’écoule de l’intérieur doit être limpide et ne doit pas présenter de traces sanguinolentes).",
+        "• Réserver les poulets au chaud sur une plaque à débarrasser.",
+        "• Mettre la garniture aromatique dans la plaque de cuisson et faire pincer les sucs si nécessaire.",
+        "• Déglacer et dégraisser avec de l’eau (ou éventuellement du fond brun de volaille non lié).",
+        "• Ajouter éventuellement un fragment de feuille de laurier et une brindille de thym.",
+        "• Laisser réduire puis vérifier l’assaisonnement.",
+        "• Passer le jus de rôti au chinois étamine, le réserver au chaud et à couvert au bain-marie.",
+        "6. Dresser les poulets rôtis - 5 min",
+        "• Débrider le poulet et le placer sur le dos sur le plat de service.",
+        "• Placer le plat à l’entrée d’un four très chaud durant 1 à 2 min.",
+        "• Verser un peu de jus de rôti au fond du plat (pas sur le poulet).",
+        "• L’arroser avec le beurre noisette.",
+        "• Disposer un bouquet de cresson bien égoutté, les tiges raccourcies à l’arrière du poulet.",
+        "• Dresser le reste du jus de rôti en saucière.",
+        "• Dresser la garniture à part."
+    ]
+}

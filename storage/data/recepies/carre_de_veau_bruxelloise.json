@@ -1,0 +1,79 @@
+{
+  "titre": "CARRÉ DE VEAU BRUXELLOISE",
+  "type": "Viandes blanches poêlées",
+  "denrees_pour_8_couverts": {
+    "elements_de_base": [
+      {
+        "nom": "carré de veau",
+        "quantite": "2,400",
+        "unite": "kg"
+      }
+    ],
+    "garniture_aromatique": [
+      {
+        "nom": "carottes",
+        "quantite": "0,200",
+        "unite": "kg"
+      },
+      {
+        "nom": "oignons",
+        "quantite": "0,200",
+        "unite": "kg"
+      },
+      {
+        "nom": "tomate",
+        "quantite": "1",
+        "unite": "pièce"
+      },
+      {
+        "nom": "bouquet garni",
+        "quantite": "1",
+        "unite": "pièce"
+      }
+    ],
+    "garniture_legumes": [
+      {
+        "nom": "endives",
+        "quantite": "1,500",
+        "unite": "kg"
+      },
+      {
+        "nom": "beurre",
+        "quantite": "0,080",
+        "unite": "kg"
+      },
+      {
+        "nom": "pommes château",
+        "quantite": "8",
+        "unite": "pièces"
+      },
+      {
+        "nom": "huile",
+        "quantite": "0,08",
+        "unite": "l"
+      }
+    ]
+  },
+  "technique_de_realisation": [
+    "1. Préparer un carré de veau de 2,400 kg comme dans la recette de base ci-contre.",
+    "2. Préparer la garniture aromatique.",
+    "0,200 kg de carottes, 0,200 kg d’oignons, 1 tomate et 1 bouquet garni.",
+    "3. Poêler le carré dans la recette ci-contre.",
+    "4. Préparer la garniture de légumes.",
+    "Parer, laver et braiser 1,500 kg d’endives (voir p. 437/438).",
+    "Éplucher et cuire 1 kg de choux de Bruxelles à l’anglaise.",
+    "Éplucher, laver, tourner et rissoler 8 pièces de pommes château avec 0,08 l d’huile.",
+    "5. Glacer le carré.",
+    "Confectionner le fond de poêlage.",
+    "Défier et glacer le carré comme dans la recette ci-contre.",
+    "6. Terminer la garniture de légumes.",
+    "Faire revenir les choux de Bruxelles avec 0,080 kg de beurre.",
+    "Égoutter les endives et les faire dorer à la poêle avec 0,080 kg de beurre.",
+    "Égoutter et lier les pommes château avec 0,040 kg de beurre.",
+    "7. Dresser le carré.",
+    "Découper le carré en tranches.",
+    "Napper le fond du plat ou des assiettes avec le fond de poêlage.",
+    "Ranger les tranches de carré et les entourer avec les endives, les noix de Bruxelles et les pommes château.",
+    "REMARQUE : Les pièces poêlées et découpées en cuisine ne sont pas nécessairement glacées avec le fond de poêlage. Elles ne sont jamais nappées, le fond de poêlage étant servi à part."
+  ]
+}

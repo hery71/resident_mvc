@@ -1,0 +1,84 @@
+{
+    "file_name": "saute_de_veau_aux_poivrons.json",
+    "titre": "SAUTÉ DE VEAU AUX POIVRONS",
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "veau détaillé en morceaux",
+                "quantite": 1.8,
+                "unite": "kg"
+            },
+            {
+                "nom": "huile",
+                "quantite": 0.08,
+                "unite": "l"
+            },
+            {
+                "nom": "oignons ciselés",
+                "quantite": 0.1,
+                "unite": "kg"
+            },
+            {
+                "nom": "porto",
+                "quantite": 0.1,
+                "unite": "l"
+            },
+            {
+                "nom": "fond brun de veau tomaté",
+                "quantite": 0.1,
+                "unite": "l"
+            },
+            {
+                "nom": "sauce espagnole",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ],
+        "garniture": [
+            {
+                "nom": "petits oignons glacés à blanc",
+                "quantite": 0.2,
+                "unite": "kg"
+            },
+            {
+                "nom": "poivrons rouges",
+                "quantite": 0.2,
+                "unite": "kg"
+            },
+            {
+                "nom": "poivrons verts",
+                "quantite": 0.2,
+                "unite": "kg"
+            },
+            {
+                "nom": "poivrons jaunes",
+                "quantite": 0.2,
+                "unite": "kg"
+            }
+        ]
+    },
+    "technique": [
+        "1. Vérifier, dégraisser et parer les morceaux si nécessaire.",
+        "",
+        "2. Marquer le ragoût en cuisson",
+        "• Rissoler 1,800 kg d’épaule de veau détaillée en morceaux avec 0,080 l d’huile.",
+        "• Dégraisser et ajouter 0,100 kg d’oignons ciselés.",
+        "• Les suer sans coloration.",
+        "• Déglacer avec 0,10 l de porto et le réduire des 2/3.",
+        "• Mouiller avec 0,10 l de fond brun de veau tomaté et de la sauce espagnole.",
+        "• Cuire lentement au four et à couvert durant 1 h à 1 h 20 min.",
+        "",
+        "3. Préparer la garniture",
+        "• Laver, éplucher et cuire 0,200 kg de petits oignons par glaçage à blanc.",
+        "• Griller au four 0,200 kg de poivrons rouges, 0,200 kg de poivrons verts et 0,200 kg de poivrons jaunes et les monder.",
+        "• Épépinier les poivrons, les tailler en petits bâtonnets, les cuire tout doucement et séparément avec un peu d’huile d’olive.",
+        "",
+        "4. Décanter et terminer le sauté",
+        "• Procéder comme dans la recette ci-contre.",
+        "",
+        "5. Dresser le sauté de veau",
+        "• Disposer harmonieusement la viande dans l’assiette.",
+        "• Répartir les petits oignons autour.",
+        "• Dresser les poivrons en croisillons sur la viande en alternant les couleurs."
+    ]
+}

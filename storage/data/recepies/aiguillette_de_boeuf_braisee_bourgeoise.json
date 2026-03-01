@@ -1,0 +1,182 @@
+{
+    "file_name": "aiguillette_de_boeuf_braisee_bourgeoise.json",
+    "titre": "AIGUILLETTE DE BŒUF BRAISÉE BOURGEOISE",
+    "bandeau": "Viandes braisées à brun",
+    "page": 826,
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "aiguillette de rumsteck",
+                "unite": "kg",
+                "quantite": 2.4
+            },
+            {
+                "nom": "huile d’arachide",
+                "unite": "l",
+                "quantite": 0.08
+            },
+            {
+                "nom": "lard gras de bardière",
+                "unite": "kg",
+                "quantite": 0.3
+            },
+            {
+                "nom": "cognac",
+                "unite": "l",
+                "quantite": 0.02
+            },
+            {
+                "nom": "persil",
+                "unite": "kg",
+                "quantite": 0.02
+            }
+        ],
+        "marinade_et_fond_de_braisage": [
+            {
+                "nom": "carottes",
+                "unite": "kg",
+                "quantite": 0.2
+            },
+            {
+                "nom": "oignons",
+                "unite": "kg",
+                "quantite": 0.2
+            },
+            {
+                "nom": "vin blanc",
+                "unite": "l",
+                "quantite": 1
+            },
+            {
+                "nom": "bouquet garni",
+                "unite": "pièce",
+                "quantite": 1
+            },
+            {
+                "nom": "huile d’arachide",
+                "unite": "l",
+                "quantite": 0.05
+            },
+            {
+                "nom": "ail (4 gousses)",
+                "unite": "kg",
+                "quantite": 0.03
+            },
+            {
+                "nom": "fond brun de veau clair",
+                "unite": "l",
+                "quantite": 1
+            },
+            {
+                "nom": "fond brun de veau lié",
+                "unite": "l",
+                "quantite": 1
+            },
+            {
+                "nom": "tomate",
+                "unite": "kg",
+                "quantite": 0.2
+            },
+            {
+                "nom": "parures de champignons",
+                "unite": "",
+                "quantite": "PM"
+            }
+        ],
+        "garniture_bourgeoise": [
+            {
+                "nom": "pied de veau",
+                "unite": "kg",
+                "quantite": 1
+            },
+            {
+                "nom": "carottes",
+                "unite": "kg",
+                "quantite": 0.8
+            },
+            {
+                "nom": "petits oignons",
+                "unite": "kg",
+                "quantite": 0.25
+            },
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": 0.04
+            },
+            {
+                "nom": "sucre semoule",
+                "unite": "",
+                "quantite": "PM"
+            },
+            {
+                "nom": "poitrine de porc demi-sel (facultatif)",
+                "unite": "kg",
+                "quantite": 0.25
+            },
+            {
+                "nom": "huile d’arachide",
+                "unite": "l",
+                "quantite": 0.02
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel fin",
+                "unite": "",
+                "quantite": "PM"
+            },
+            {
+                "nom": "poivre du moulin",
+                "unite": "",
+                "quantite": "PM"
+            },
+            {
+                "nom": "noix de muscade (facultatif)",
+                "unite": "",
+                "quantite": "PM"
+            }
+        ]
+    },
+    "technique": [
+        "1. Mettre en place le poste de travail - 5 min",
+        "• Denrées, matériels de préparation, de cuisson et de dressage.",
+        "2. Préparer les bâtonnets de lard gras - 5 min (voir p. 231)",
+        "• Détailler le lard gras en bâtonnets d’environ 2 cm de long sur 1 cm de section.",
+        "• Les assaisonner, les arroser de cognac et les raffermir en enceinte réfrigérée (voir p. 229 à 231).",
+        "3. Préparer les éléments aromatiques du fond de braisage - 30 min",
+        "• Dégorger, désosser, ficeler et blanchir fortement le pied de veau.",
+        "• Le rafraîchir, puis l’égoutter.",
+        "• Éplucher et laver les carottes et les oignons.",
+        "• Les détailler en dés et en mirepoix, les lier avec les lardons.",
+        "• Éliminer les cartilages et les oignons en paysanne.",
+        "• Confectionner un bouquet garni et hacher le persil.",
+        "4. Préparer et larder l’aiguillette de bœuf puis la mettre en marinade - 10 min (voir p. 231)",
+        "• Parer et dégraisser si nécessaire.",
+        "• Saupoudrer les bâtonnets de lard gras de persil fraîchement haché.",
+        "• Larder l’aiguillette dans le sens du fil de la viande à l’aide d’une lardoire.",
+        "• L’assaisonner, puis la placer en marinade en mélangeant vin blanc, le cognac, les carottes, les oignons, l’ail, le bouquet garni et l’huile.",
+        "• Laisser mariner à couvert durant 5 à 6 h et retourner l’aiguillette fréquemment pendant la marinade (cette dernière phase peut être éventuellement supprimée).",
+        "5. Marquer l’aiguillette en cuisson - 15 min",
+        "• Égoutter soigneusement l’aiguillette et égoutter la garniture aromatique.",
+        "• Saisir et rissoler fortement l’aiguillette à l’huile dans un récipient creux.",
+        "• La colorer, puis ajouter la garniture aromatique.",
+        "• Suer légèrement à feu doux, puis déglacer partiellement.",
+        "• Remettre l’aiguillette sur la garniture aromatique, puis déglacer avec la marinade et le fond brun de veau clair.",
+        "• Ajouter le bouquet garni, les parures de champignons, le pied de veau et le fond brun de veau lié.",
+        "• Couvrir hermétiquement le récipient et braiser au four à 200 °C pendant 2 h à 2 h 30 min (suivant la qualité de la viande).",
+        "6. Préparer la garniture bourgeoise - 30 min",
+        "• Éplucher, laver et glacer les carottes puis les glacer à blanc.",
+        "• Éplucher, laver puis glacer les petits oignons à brun.",
+        "• Détailler les lardons de porc en lardons, les blanchir, puis les sauter à l’huile d’arachide et les réserver.",
+        "7. Décanter l’aiguillette et terminer le fond de braisage - 5 min",
+        "• S’assurer de la cuisson de l’aiguillette.",
+        "• La réserver au chaud et à couvert sur une plaque à débarrasser.",
+        "• Enlever les pieds de veau et les détailler en petits cubes.",
+        "• Ajouter le fond brun de veau lié et le tomate au fond de braisage.",
+        "• Passer le fond de braisage au chinois étamine (pas troué) dans un bain-marie.",
+        "• Dégraisser et vérifier l’assaisonnement.",
+        "• Réunir dans une grande sauteuse les carottes et les oignons glacés, les lardons et les dés de pied de veau.",
+        "• Ajouter une partie du fond de braisage et laisser mijoter quelques minutes."
+    ]
+}

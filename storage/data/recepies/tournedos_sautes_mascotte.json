@@ -1,0 +1,67 @@
+{
+  "titre": "TOURNEDOS SAUTÉS MASCOTTE",
+  "type": "Viandes rouges sautées",
+  "page": 795,
+  "denrees_pour_8_couverts": {
+    "elements_de_base": [
+      {
+        "nom": "filet paré (nécessaire pour 8 tournedos de 0,150 kg chacun)",
+        "quantite": "1,200",
+        "unite": "kg"
+      }
+    ],
+    "garniture_mascotte": [
+      {
+        "nom": "petits artichauts (0,250 kg pièce)",
+        "quantite": "8 pièces",
+        "unite": ""
+      },
+      {
+        "nom": "pommes cocotte",
+        "quantite": "2",
+        "unite": "kg"
+      },
+      {
+        "nom": "beurre",
+        "quantite": "0,050",
+        "unite": "kg"
+      },
+      {
+        "nom": "sel",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "persil",
+        "quantite": "0,020",
+        "unite": "kg"
+      }
+    ]
+  },
+  "technique_de_realisation": [
+    "1. Préparer les tournedos.",
+    "Vérifier et parer (si nécessaire) 8 tournedos de 0,150 kg chacun.",
+    "Les ficeler sans trop les serrer et les réserver en enceinte réfrigérée.",
+    "2. Préparer la garniture mascotte.",
+    "Tourner et citronner 8 petits artichauts de 0,250 kg pièce.",
+    "Les précuire à couvert dans de l’eau bouillante salée, citronnée et huilée en surface.",
+    "Éplucher, laver et tourner en pommes cocotte 2 kg de pommes de terre à chair ferme.",
+    "Les blanchir, les rissoler dans 0,08 l d’huile et les égoutter, leur ajouter 0,050 kg de beurre et les saler.",
+    "Tailler 8 croûtons ronds en pain de mie et les sauter au beurre.",
+    "Hacher 0,020 kg de persil.",
+    "3. Sauter les tournedos.",
+    "Les assaisonner et les cuire dans un mélange de beurre et d’huile.",
+    "Les cuire à l’à-point de cuisson souhaité, puis les débarrasser sur une plaque munie d’une grille ou d’une petite assiette retournée.",
+    "4. Terminer les fonds d’artichauts.",
+    "Les égoutter soigneusement, les escaloper ou les détailler en quartiers puis terminer la cuisson en les sautant délicatement au beurre.",
+    "Les assaisonner.",
+    "5. Réaliser la sauce des tournedos.",
+    "Comme pour les tournedos châtelaine.",
+    "6. Dresser les tournedos.",
+    "Disposer les croûtons sur le fond du plat.",
+    "Placer les tournedos défaits sur chaque croûton.",
+    "Intercaler harmonieusement la garniture tout autour.",
+    "Napper les tournedos et y déposer une lame de truffe.",
+    "Saupoudrer sans excès les pommes cocotte de persil haché."
+  ]
+}

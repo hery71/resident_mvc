@@ -1,0 +1,83 @@
+{
+  "titre": "MÉDAILLONS DE VEAU AU PAPRIKA, RIZ PILAF AUX POIVRONS",
+  "type": "Viandes blanches sautées",
+  "page": 801,
+  "denrees_pour_8_couverts": {
+    "elements_de_base": [
+      {
+        "nom": "médaillons de veau (24 x 0,050 kg)",
+        "quantite": "1,200",
+        "unite": "kg"
+      }
+    ],
+    "riz_pilaf": [
+      {
+        "nom": "riz",
+        "quantite": "0,800",
+        "unite": "kg"
+      },
+      {
+        "nom": "fond blanc de veau",
+        "quantite": "1",
+        "unite": "l"
+      },
+      {
+        "nom": "beurre",
+        "quantite": "0,040 + 0,040",
+        "unite": "kg"
+      }
+    ],
+    "sauce": [
+      {
+        "nom": "oignons finement ciselés",
+        "quantite": "0,080",
+        "unite": "kg"
+      },
+      {
+        "nom": "vin blanc",
+        "quantite": "0,08",
+        "unite": "l"
+      },
+      {
+        "nom": "fond brun de veau tomaté",
+        "quantite": "0,30",
+        "unite": "l"
+      },
+      {
+        "nom": "paprika doux",
+        "quantite": "0,200",
+        "unite": "kg"
+      },
+      {
+        "nom": "crème",
+        "quantite": "0,20",
+        "unite": "l"
+      }
+    ]
+  },
+  "technique_de_realisation": [
+    "1. Préparer les médaillons.",
+    "Parer 24 médaillons de veau de 0,050 kg chacun et les réserver en enceinte réfrigérée.",
+    "2. Préparer les poivrons.",
+    "Monder et détailler en petits dés réguliers de 3 mm de section un demi-poivron vert, un demi-poivron jaune et un demi-poivron rouge.",
+    "Les cuire à l’anglaise ou à la vapeur pour fixer la couleur.",
+    "3. Réaliser 0,400 kg de riz basmati pilaf.",
+    "Suer 0,160 kg d’oignons ciselés avec 0,080 kg de beurre.",
+    "Mouiller avec du fond blanc de veau, l’égrener après cuisson en lui ajoutant 0,040 kg de beurre en parcelles et les dés de poivrons.",
+    "4. Sauter les médaillons.",
+    "Les assaisonner et les passer dans un mélange de farine et de paprika.",
+    "Les sauter à l’à-point de cuisson; trop cuits, ils risqueraient de sécher.",
+    "Les débarrasser sur grille et les réserver au chaud.",
+    "5. Réaliser la sauce.",
+    "Dégraisser partiellement le sautoir et suer 0,080 kg d’oignons finement ciselés.",
+    "Déglacer avec 0,08 l de vin blanc et le laisser réduire des 2/3.",
+    "Ajouter 0,30 l de fond brun de veau tomaté et le laisser réduire.",
+    "Ajouter 0,200 kg de paprika doux et 0,20 l de crème. Réduire à nouveau.",
+    "Vérifier l’assaisonnement et l’onctuosité.",
+    "Passer la sauce au chinois étamine dans un petit bain-marie et la monter au beurre sans excès.",
+    "6. Dresser les médaillons.",
+    "Disposer à l’aide d’un petit cercle à entremets, un tampon de riz pilaf au centre des assiettes.",
+    "Placer trois médaillons en triangle autour du riz et les napper uniformément avec la sauce.",
+    "Décorer avec quelques petits dés de poivrons multicolores."
+  ]
+}

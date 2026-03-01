@@ -1,0 +1,73 @@
+{
+    "file_name": "aiguillette_de_boeuf_braisee_printaniere.json",
+    "titre": "AIGUILLETTE DE BŒUF BRAISÉE PRINTANIÈRE",
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "aiguillettes de rumsteck",
+                "quantite": 2.4,
+                "unite": "kg"
+            }
+        ],
+        "garniture_printaniere": [
+            {
+                "nom": "carottes nouvelles",
+                "quantite": 0.8,
+                "unite": "kg"
+            },
+            {
+                "nom": "beurre",
+                "quantite": 0.04,
+                "unite": "kg"
+            },
+            {
+                "nom": "navets",
+                "quantite": 0.8,
+                "unite": "kg"
+            },
+            {
+                "nom": "petits oignons",
+                "quantite": 0.25,
+                "unite": "kg"
+            },
+            {
+                "nom": "beurre",
+                "quantite": 0.02,
+                "unite": "kg"
+            },
+            {
+                "nom": "sucre",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "petits pois extra-fins",
+                "quantite": 0.15,
+                "unite": "kg"
+            },
+            {
+                "nom": "haricots verts détaillés en tronçons de 3 cm de longueur",
+                "quantite": 0.25,
+                "unite": "kg"
+            }
+        ]
+    },
+    "technique": [
+        "1. Mettre en place le poste de travail",
+        "2. Parer, larder et mettre une aiguillette de rumsteck de 2,400 kg en marinade avec les carottes, les oignons, l’ail, le bouquet garni, le vin blanc, le cognac et l’huile.",
+        "3. Braisser l’aiguillette comme ci-contre avec les morceaux de couenne de porc et le pied de veau blanchis.",
+        "4. Préparer la garniture printanière",
+        "• Éplucher, laver et glacer à la culinaire 0,800 kg de carottes nouvelles et 0,800 kg de navets.",
+        "• Les glacer à blanc.",
+        "• Éplucher, laver et glacer à brun 0,250 kg de petits oignons avec 0,020 kg de beurre et une pincée de sucre.",
+        "• Cuire à l’anglaise 0,150 kg de petits pois extra-fins et 0,250 kg de haricots verts détaillés en tronçons de 3 cm de longueur.",
+        "5. Décanter l’aiguillette et terminer le fond de braisage",
+        "• Délier avec le fond brun de veau lié, le réduire et vérifier la couleur, la consistance et l’assaisonnement.",
+        "6. Chauffer la garniture",
+        "• Réunir dans une sauteuse les carottes, les navets, les petits oignons, et en dernier les petits pois et les haricots verts.",
+        "• Les lier et napper d’une petite quantité du jus de cuisson de l’aiguillette.",
+        "7. Dresser l’aiguillette",
+        "• Répartir le fond de braisage et la garniture harmonieusement au fond des assiettes très chaudes.",
+        "• Détailler l’aiguillette au dernier moment et déposer la tranche sur la sauce (ne pas napper)."
+    ]
+}

@@ -1,0 +1,103 @@
+{
+  "titre": "ESCALOPES OU CÔTES DE VEAU À LA CRÈME",
+  "type": "Viandes blanches sautées, sauce blanche par déglaçage",
+  "page": 800,
+  "denrees_pour_8_couverts": {
+    "elements_de_base": [
+      {
+        "nom": "escalopes de veau (8 x 0,150 kg)",
+        "quantite": "1,200",
+        "unite": "kg"
+      },
+      {
+        "nom": "côtes de veau (carré couvert) (8 x 0,200 à 0,250 kg)",
+        "quantite": "1,600 à 2",
+        "unite": "kg"
+      },
+      {
+        "nom": "farine",
+        "quantite": "0,080",
+        "unite": "kg"
+      },
+      {
+        "nom": "beurre",
+        "quantite": "0,080",
+        "unite": "kg"
+      }
+    ],
+    "garniture": [
+      {
+        "nom": "champignons de Paris",
+        "quantite": "0,300",
+        "unite": "kg"
+      },
+      {
+        "nom": "beurre",
+        "quantite": "0,040",
+        "unite": "kg"
+      }
+    ],
+    "sauce": [
+      {
+        "nom": "porto",
+        "quantite": "0,10",
+        "unite": "l"
+      },
+      {
+        "nom": "fond brun de veau lié (facultatif)",
+        "quantite": "0,20",
+        "unite": "l"
+      },
+      {
+        "nom": "crème",
+        "quantite": "0,50",
+        "unite": "l"
+      }
+    ],
+    "assaisonnement": [
+      {
+        "nom": "sel fin",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "poivre blanc",
+        "quantite": "PM",
+        "unite": ""
+      }
+    ]
+  },
+  "technique_de_realisation": [
+    "(Voir p. 402/403)",
+    "1. Mettre en place le poste de travail - 5 min",
+    "Denrées, matériels de préparation, de cuisson et de dressage.",
+    "2. Préparer les escalopes ou les côtes de veau - 10 min (voir p. 225/226)",
+    "Supprimer les os des vertèbres et le nerf des côtes de veau puis les manchonner.",
+    "Régulariser l’épaisseur (aplatir légèrement) des escalopes (ou des côtes de veau) entre deux feuilles de papier plastique à l’aide d’une batte à côtelettes.",
+    "Réserver les escalopes ou les côtes de veau en enceinte réfrigérée.",
+    "3. Préparer et sauter les champignons - 10 min (voir p. 416)",
+    "Éplucher, laver soigneusement et émincer les champignons.",
+    "Les sauter vivement dans une petite poêle avec du beurre, puis les saler et les réserver au chaud dans une petite sauteuse.",
+    "REMARQUE : Il est possible également de sauter les champignons dans le récipient de cuisson des côtes ou des escalopes. Dans ce cas, faire très attention à la cuisson des escalopes : la moindre pincée et l’excès de sucs risquent de altérer la sauce.",
+    "4. Marquer les escalopes ou les côtes de veau en cuisson - 5 min",
+    "Saler, poivrer et fariner les escalopes ou les côtes de veau. Les tapoter pour enlever l’excédent de farine.",
+    "Les faire sauter doucement dans un sautoir avec le beurre.",
+    "Laisser les escalopes ou les côtes colorer très légèrement puis les retourner et terminer la cuisson à feu doux durant quelques minutes suivant leur épaisseur.",
+    "Débarrasser les escalopes ou les côtes sur une plaque munie d’une petite grille ou d’une assiette retournée et les réserver au chaud.",
+    "REMARQUE : La pointe de cuisson des escalopes ou des côtes se reconnaît à la pression du doigt : elles doivent être fermes au toucher mais sans exagération.",
+    "5. Confectionner la sauce - 10 min",
+    "Dégraisser le sautoir.",
+    "Déglacer avec le porto et le laisser réduire.",
+    "Ajouter le fond brun de veau lié et la crème.",
+    "Laisser réduire à nouveau la sauce jusqu’à la consistance souhaitée.",
+    "Vérifier l’assaisonnement, puis passer la sauce au chinois étamine sur les champignons.",
+    "Laisser mijoter doucement durant 1 ou 2 min puis monter très légèrement la sauce au beurre.",
+    "6. Dresser les escalopes ou les côtes de veau à la crème - 5 min",
+    "Disposer les escalopes sur un grand plat long dans le sens de la diagonale.",
+    "Disposer les côtes de veau en couronne sur un grand plat rond.",
+    "Napper uniformément avec la sauce.",
+    "REMARQUE : D’autres champignons peuvent être utilisés (morilles, chanterelles, girolles…)."
+  ],
+  "duree_moyenne_preparation": "55 min",
+  "duree_moyenne_cuisson": "Escalopes : 6 à 8 min / Côtes de veau : 8 à 12 min"
+}

@@ -1,0 +1,145 @@
+{
+  "titre": "CONTRE-FILETS RÔTIS, JARDINIÈRE DE LÉGUMES",
+  "type": "Viandes rouges rôties",
+  "page": 782,
+  "denrees_pour_8_couverts": {
+    "elements_de_base": [
+      {
+        "nom": "contre-filets non parés",
+        "quantite": "2",
+        "unite": "kg"
+      },
+      {
+        "nom": "beurre",
+        "quantite": "0,04",
+        "unite": "kg"
+      },
+      {
+        "nom": "huile",
+        "quantite": "0,04",
+        "unite": "l"
+      }
+    ],
+    "jus_de_roti": [
+      {
+        "nom": "carottes (parures)",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "oignons",
+        "quantite": "0,080",
+        "unite": "kg"
+      },
+      {
+        "nom": "thym, laurier",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "fond brun clair",
+        "quantite": "0,40",
+        "unite": "l"
+      }
+    ],
+    "finition": [
+      {
+        "nom": "beurre",
+        "quantite": "0,040",
+        "unite": "kg"
+      },
+      {
+        "nom": "cresson",
+        "quantite": "1/2",
+        "unite": "botte"
+      }
+    ],
+    "garniture_proposee": [
+      {
+        "nom": "carottes",
+        "quantite": "0,800",
+        "unite": "kg"
+      },
+      {
+        "nom": "navets",
+        "quantite": "0,800",
+        "unite": "kg"
+      },
+      {
+        "nom": "petits pois écossés extra-fins frais ou surgelés",
+        "quantite": "0,200",
+        "unite": "kg"
+      },
+      {
+        "nom": "haricots verts extra-fins frais ou surgelés",
+        "quantite": "0,200",
+        "unite": "kg"
+      },
+      {
+        "nom": "beurre",
+        "quantite": "0,080",
+        "unite": "kg"
+      }
+    ],
+    "assaisonnement": [
+      {
+        "nom": "gros sel",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "sel fin",
+        "quantite": "PM",
+        "unite": ""
+      },
+      {
+        "nom": "poivre du moulin",
+        "quantite": "PM",
+        "unite": ""
+      }
+    ]
+  },
+  "technique_de_realisation": [
+    "1. Mettre en place le poste de travail - 5 min",
+    "Denrées, matériels de préparation, de cuisson et de dressage.",
+    "2. Préparer le contre-filet - 10 min (voir p. 232/234)",
+    "Réserver le contre-filet et les parures maigres en enceinte réfrigérée.",
+    "3. Préparer les légumes - 30 min",
+    "Éplucher, laver et tailler les carottes et les navets en bâtonnets de 3,5 cm à 4 cm de long sur 3,5 à 4 mm de section.",
+    "Émincer les oignons.",
+    "Rissoler au beurre les petits pois et les haricots verts.",
+    "Égoutter et réserver les petits pois.",
+    "4. Marquer les légumes en cuisson - 10 min",
+    "Cuire à l’anglaise les légumes séparément, les rafraîchir puis les égoutter.",
+    "5. Marquer le contre-filet en cuisson - 5 min (voir p. 432/433)",
+    "Assaisonner le contre-filet.",
+    "Le placer sur ses parures dans une plaque à rôtir de grandeur appropriée ou dans un sautoir.",
+    "Arroser de beurre fondu ou d’huile.",
+    "Saisir à four très chaud (240 à 250 °C) pendant une dizaine de minutes puis terminer la cuisson à 200 °C pendant 20 à 25 min (voir cuisson / épaisseur de la viande).",
+    "6. Préparer la garniture aromatique - 5 min",
+    "Éplucher, laver et tailler l’oignon en brunoise (petits dés) et lui ajouter les parures de carottes.",
+    "7. Laver, trier et équeuter le cresson - 5 min",
+    "Le réserver dans une plaque avec un peu d’eau.",
+    "8. Vérifier la cuisson et débrasser le contre-filet - 5 min",
+    "Le réserver au chaud sur une plaque munie d’une grille.",
+    "9. Confectionner le jus de rôti - 10 min (voir p. 433/434)",
+    "Placer la garniture aromatique dans la plaque de cuisson et faire pincer les sucs si nécessaire.",
+    "Dégraisser, puis déglacer à l’eau ou au fond brun de veau non lié.",
+    "Ajouter un peu de thym et de laurier.",
+    "Laisser réduire, puis vérifier l’assaisonnement.",
+    "Passer le jus de rôti au chinois étamine et le réserver à couvert au bain-marie à une température supérieure à + 63 °C.",
+    "10. Chauffer la jardinière de légumes - 5 min",
+    "Plonger les légumes quelques secondes dans une eau fortement bouillante et salée, puis les lier délicatement au beurre ou placer la jardinière dans un sautoir avec le beurre et l’assaisonnement puis l’étuver à couvert dans un four doux (180 °C) pendant environ 10 min.",
+    "11. Dresser le contre-filet et la jardinière - 5 min",
+    "Découper le contre-filet.",
+    "Le chauffer à l’entrée du four si nécessaire.",
+    "Dresser le contre-filet et la jardinière.",
+    "Arroser le contre-filet de beurre noisette au moment de l’envoi.",
+    "Disposer 1 ou 2 bouquets de cresson aux extrémités du plat.",
+    "Dresser délicatement la jardinière en dôme dans un légumier.",
+    "Dresser le reste du jus en saucière.",
+    "REMARQUE : Il est conseillé d’assaisonner à nouveau les viandes rôties après leur cuisson."
+  ],
+  "duree_moyenne_preparation": "1 h 35 min",
+  "duree_moyenne_cuisson": "20 à 25 min"
+}

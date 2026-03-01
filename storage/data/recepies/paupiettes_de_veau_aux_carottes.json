@@ -1,0 +1,100 @@
+{
+    "file_name": "paupettes_de_veau_aux_carottes.json",
+    "titre": "PAUPIETTES DE VEAU AUX CAROTTES",
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "noix de veau",
+                "quantite": 0.3,
+                "unite": "kg"
+            },
+            {
+                "nom": "blanc d'œuf",
+                "quantite": 1,
+                "unite": "pièce"
+            },
+            {
+                "nom": "crème liquide",
+                "quantite": 0.25,
+                "unite": "l"
+            },
+            {
+                "nom": "escalopes de veau",
+                "quantite": 0.24,
+                "unite": "kg"
+            },
+            {
+                "nom": "lard gras",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "beurre",
+                "quantite": 0.1,
+                "unite": "kg"
+            },
+            {
+                "nom": "vin blanc",
+                "quantite": 0.1,
+                "unite": "l"
+            },
+            {
+                "nom": "fond de veau lié",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "ail écrasé",
+                "quantite": 2,
+                "unite": "gousses"
+            },
+            {
+                "nom": "bouquet garni",
+                "quantite": 1,
+                "unite": "pièce"
+            }
+        ],
+        "garniture": [
+            {
+                "nom": "carottes",
+                "quantite": 1.5,
+                "unite": "kg"
+            },
+            {
+                "nom": "petits oignons",
+                "quantite": 0.25,
+                "unite": "kg"
+            }
+        ]
+    },
+    "technique": [
+        "1. Mettre en place le poste de travail",
+        "2. Réaliser la farce mousseline de veau",
+        "• Utiliser 0,300 kg de noix de veau, 1 blanc d’œuf et 0,25 l de crème liquide. Assaisonner.",
+        "3. Confectionner les paupiettes",
+        "• Aplatir finement 2 escalopes de 0,120 kg chacune entre deux feuilles de plastique alimentaire.",
+        "• Les étaler sur la planche et les assaisonner.",
+        "• Répartir la farce au centre de chaque tranche.",
+        "• Rabattre les bords, rouler et ficeler les paupiettes.",
+        "• Les entourer chacune avec un peu de crépine de porc rincée ou avec une petite bande de barde de lard gras.",
+        "4. Marquer les paupiettes en cuisson",
+        "• Les faire rissoler au beurre dans une cocotte, ajouter 0,100 kg d’oignons hachés, déglacer avec 0,10 l de vin blanc, le réduire et mouiller à hauteur avec du fond de veau lié et tomaté.",
+        "• Ajouter 2 gousses d’ail écrasées et 1 petit bouquet garni.",
+        "• Vérifier l’assaisonnement et laisser mijoter durant 40 à 50 min.",
+        "5. Préparer les carottes et les petits oignons",
+        "• Éplucher, laver et tourner 1,500 kg de carottes.",
+        "• Les glacer à blanc.",
+        "• Éplucher, laver et glacer à brun 0,250 kg de petits oignons.",
+        "6. Terminer les paupiettes",
+        "• Décanter les paupiettes dans une autre cocotte.",
+        "• Réduire le fond de braisage.",
+        "• Le passer au chinois étamine.",
+        "• Vérifier la couleur, l’onctuosité et l’assaisonnement.",
+        "• Ajouter les carottes et laisser mijoter quelques minutes.",
+        "7. Dresser les paupiettes",
+        "• Retirer les ficelles, la barde ou la crépine des paupiettes.",
+        "• Les glacer sous la salamandre.",
+        "• Napper les assiettes de sauce, répartir harmonieusement les carottes.",
+        "• Intercaler avec les petits oignons et poser la paupiette au milieu (elle peut être escalopée)."
+    ]
+}

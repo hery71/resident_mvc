@@ -1,0 +1,101 @@
+{
+    "file_name": "petit_ragout_de_rognons_et_de_ris_de_veau_aux_champignons_sauvages.json",
+    "titre": "PETIT «RAGOÛT» DE ROGNONS ET DE RIS DE VEAU AUX CHAMPIGNONS SAUVAGES",
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "ris de veau",
+                "quantite": 0.25,
+                "unite": "kg"
+            },
+            {
+                "nom": "rognons de veau",
+                "quantite": 0.3,
+                "unite": "kg"
+            }
+        ],
+        "garniture": [
+            {
+                "nom": "champignons sauvages",
+                "quantite": 0.4,
+                "unite": "kg"
+            },
+            {
+                "nom": "échalotes",
+                "quantite": 0.04,
+                "unite": "kg"
+            }
+        ],
+        "cuisson": [
+            {
+                "nom": "beurre",
+                "quantite": 0.04,
+                "unite": "kg"
+            },
+            {
+                "nom": "huile",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "fond brun de veau légèrement lié",
+                "quantite": 0.3,
+                "unite": "l"
+            },
+            {
+                "nom": "vin blanc",
+                "quantite": 0.1,
+                "unite": "l"
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "poivre",
+                "quantite": "PM",
+                "unite": ""
+            },
+            {
+                "nom": "persil haché ou ciboulette ciselée",
+                "quantite": "PM",
+                "unite": ""
+            }
+        ]
+    },
+    "technique": [
+        "(Selon la réglementation)",
+        "1. Préparer les abats",
+        "• Dégorger, blanchir fortement, rafraîchir, parer et mettre sous presse 0,250 kg de ris de veau de 0,250 kg chacun (voir p. 233).",
+        "• Parer, dégraisser, dénerver et escaloper 2 beaux rognons de veau de 0,300 kg chacun.",
+        "2. Préparer la garniture",
+        "• Nettoyer 0,400 kg de champignons sauvages (selon la saison, choisir des cèpes, des trompettes de la mort, des girolles, des morilles, éventuellement des pleurotes).",
+        "• Les escaloper s’ils sont trop gros.",
+        "• Éplucher, laver et ciseler finement 0,040 kg d’échalotes.",
+        "• Hacher 0,020 kg de persil ou ciseler 0,020 kg de ciboulette.",
+        "3. Sauter les champignons",
+        "• Les sauter dans 0,040 kg de beurre très chaud (mousseux) et les saupoudrer de la moitié des échalotes ciselées. Réserver l’eau de végétation s’il y a lieu.",
+        "4. Sauter les rognons",
+        "• Les saisir vivement durant quelques secondes dans de l’huile très chaude et les égoutter.",
+        "• Les assaisonner et les faire sauter dans 0,040 kg de beurre légèrement noisette. Les garder rosés et les débarrasser dans une passoire pour qu’ils puissent s’égoutter.",
+        "5. Sauter les ris de veau",
+        "• Escaloper les ris de veau en tranches d’1,5 cm d’épaisseur.",
+        "• Les assaisonner et les fariner (oter l’excédent de farine).",
+        "• Les faire sauter dans une poêle antiadhésive avec 0,040 kg de beurre très chaud.",
+        "• Les retourner très délicatement à l’aide d’une spatule.",
+        "6. Confectionner la sauce",
+        "• Dégraisser la sauteuse de cuisson des rognons.",
+        "• Ajouter le reste des échalotes ciselées et les suer sans coloration.",
+        "• Déglacer avec 0,10 l de porto et réduire de moitié.",
+        "• Ajouter 0,30 l de fond brun de veau légèrement lié, l’eau de végétation des champignons et 0,10 l de crème.",
+        "• Réduire et vérifier l’assaisonnement.",
+        "7. Dresser le ragoût",
+        "• Alterner les tranches de rognons et les escalopes de ris de veau en les disposant en couronne sur les assiettes.",
+        "• Napper soigneusement avec la sauce.",
+        "• Disposer harmonieusement les champignons par petits bouquets.",
+        "• Parsemer de persil haché ou de ciboulette ciselée."
+    ]
+}
