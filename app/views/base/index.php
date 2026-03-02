@@ -7,11 +7,16 @@
     CSS;
 ?>
 <?php require __DIR__ . '/../layout/header.php'; ?>
-<div class="container center">
-    <h3> Welcome on base</h3>
+<div class="container mt-4">
+    <div class="card-modern">
+        <div class="card-header-pastel"><?= $title ?></div>
+        <div class="card-body">
+            <h3> Sous titre</h3>
 
 
     
 <!---------------------FIN DIV PRINCIPAL--------------------->
-</div>
+        </div><!---------------------FIN CARD-BODY--------------------->
+    </div><!---------------------FIN CARD-MODERN--------------------->
+</div> <!---------------------FIN CONTAINER--------------------->
 <?php require __DIR__ . '/../layout/footer.php'; ?>

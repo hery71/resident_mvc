@@ -307,7 +307,7 @@ class ParametresController
     require __DIR__ . '/../views/parametres/importSpecial.php';
 }
 
-public function exportSpecial()
+    public function exportSpecial()
 {
     $annee = $_POST['annee'] ?? '';
     $type  = $_POST['special_type'] ?? '';
@@ -321,6 +321,34 @@ public function exportSpecial()
     header("Location: /parametres/seasonMenu?saison=" . urlencode($type) . "&annee=" . urlencode($annee));
     exit;
 }
+    public function jsonProcess()
+{
+        require __DIR__ . '/../views/parametres/jsonProcess.php';
+    
+}
+    public function jsonCheck()
+{
+    $checkResultMessage = null;
+    $checkResultClass = null;
 
+    if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['check_json'])) {
 
+        $input = trim($_POST['json_input']);
+
+        if ($input === '') {
+            $checkResultMessage = "Le champ est vide.";
+            $checkResultClass = "danger";
+        } else {
+            json_decode($input);
+            if (json_last_error() === JSON_ERROR_NONE) {
+                $checkResultMessage = "JSON valide ✔";
+                $checkResultClass = "success";
+            } else {
+                $checkResultMessage = "JSON invalide ❌ : " . json_last_error_msg();
+                $checkResultClass = "danger";
+            }
+        }
+    }
+    require __DIR__ . '/../views/parametres/jsonProcess.php';
+}
 }
