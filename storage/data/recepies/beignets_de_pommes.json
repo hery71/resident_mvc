@@ -1,0 +1,117 @@
+{
+    "titre": "BEIGNETS DE POMMES",
+    "type": "Dessert",
+    "bandeau": "Entremets chauds de cuisine à base de fruits et de pâte à frire",
+    "page": 938,
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "pommes (orange, reinette…)",
+                "unite": "kg",
+                "quantite": "1,200"
+            },
+            {
+                "nom": "citron (1 pièce)",
+                "unite": "kg",
+                "quantite": "0,100"
+            },
+            {
+                "nom": "sucre semoule",
+                "unite": "kg",
+                "quantite": "0,080"
+            },
+            {
+                "nom": "cannelle",
+                "quantite": "PM"
+            },
+            {
+                "nom": "calvados",
+                "unite": "l",
+                "quantite": "0,08"
+            }
+        ],
+        "pate_a_frire": [
+            {
+                "nom": "farine",
+                "unite": "kg",
+                "quantite": "0,200"
+            },
+            {
+                "nom": "œufs (2 jaunes)",
+                "unite": "kg",
+                "quantite": "0,040"
+            },
+            {
+                "nom": "sel fin",
+                "unite": "kg",
+                "quantite": "0,004"
+            },
+            {
+                "nom": "bière",
+                "unite": "l",
+                "quantite": "0,20"
+            },
+            {
+                "nom": "huile",
+                "unite": "l",
+                "quantite": "0,04"
+            },
+            {
+                "nom": "œufs (3 blancs)",
+                "unite": "kg",
+                "quantite": "0,100"
+            },
+            {
+                "nom": "sucre semoule",
+                "unite": "kg",
+                "quantite": "0,020"
+            }
+        ],
+        "finition": [
+            {
+                "nom": "sucre glace",
+                "unite": "kg",
+                "quantite": "0,040"
+            }
+        ],
+        "sauce_abricot": [
+            {
+                "nom": "confiture d’abricots",
+                "unite": "kg",
+                "quantite": "0,140"
+            },
+            {
+                "nom": "eau et sirop de la marinade",
+                "quantite": "PM"
+            }
+        ],
+        "friture": [
+            {
+                "nom": "huile de friture",
+                "unite": "l",
+                "quantite": "PM"
+            }
+        ]
+    },
+    "technique": [
+        "1. Mettre en place le poste de travail - 5 min",
+        "2. Confectionner la pâte à frire - 10 min",
+        "3. Préparer les pommes - 10 min",
+        "• Éplucher, évider et citronner les pommes.",
+        "• Couper des tranches régulières d’1 cm d’épaisseur.",
+        "• Les saupoudrer de sucre, cannelle et arroser de calvados.",
+        "4. Terminer la pâte à frire - 10 min",
+        "• Monter les blancs en neige et les incorporer délicatement.",
+        "5. Marquer les beignets en cuisson - 20 min",
+        "• Enrober les tranches de pâte à frire.",
+        "• Frire à 170 °C environ 4 à 5 min.",
+        "• Égoutter sur papier absorbant.",
+        "6. Confectionner la sauce abricot - 5 min",
+        "• Détendre la confiture avec la marinade et passer au chinois.",
+        "7. Glacer les beignets - 5 min",
+        "• Saupoudrer de sucre glace et glacer sous la salamandre.",
+        "8. Dresser les beignets - 5 min",
+        "• Dresser en couronne sur le plat de service.",
+        "• Servir la sauce abricot au calvados en saucière."
+    ]
+}

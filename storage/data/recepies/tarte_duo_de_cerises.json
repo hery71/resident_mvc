@@ -1,0 +1,115 @@
+{
+    "titre": "TARTE DUO DE CERISES",
+    "type": "Dessert",
+    "page": 959,
+    "denrees_pour_8_couverts": {
+        "pate_brisee_sucree": [
+            {
+                "nom": "pâte brisée sucrée",
+                "unite": "kg",
+                "quantite": "0,250"
+            }
+        ],
+        "garniture": [
+            {
+                "nom": "bigarreaux rouges",
+                "unite": "kg",
+                "quantite": "0,400"
+            },
+            {
+                "nom": "griottes dénoyautées",
+                "unite": "kg",
+                "quantite": "0,400"
+            }
+        ],
+        "appareil_a_mirlitons": [
+            {
+                "nom": "œufs entiers",
+                "unite": "kg",
+                "quantite": "0,120"
+            },
+            {
+                "nom": "sucre semoule",
+                "unite": "kg",
+                "quantite": "0,100"
+            },
+            {
+                "nom": "poudre d’amandes",
+                "unite": "kg",
+                "quantite": "0,120"
+            },
+            {
+                "nom": "farine",
+                "unite": "kg",
+                "quantite": "0,010"
+            },
+            {
+                "nom": "crème double",
+                "unite": "l",
+                "quantite": "0,10"
+            },
+            {
+                "nom": "beurre noisette",
+                "unite": "kg",
+                "quantite": "0,015"
+            },
+            {
+                "nom": "extrait de vanille liquide",
+                "quantite": "PM"
+            }
+        ],
+        "sable": [
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": "0,080"
+            },
+            {
+                "nom": "poudre d’amandes",
+                "unite": "kg",
+                "quantite": "0,080"
+            },
+            {
+                "nom": "sucre cristallisé",
+                "unite": "kg",
+                "quantite": "0,050"
+            },
+            {
+                "nom": "farine",
+                "unite": "kg",
+                "quantite": "0,050"
+            },
+            {
+                "nom": "cannelle",
+                "quantite": "PM"
+            }
+        ],
+        "finition": [
+            {
+                "nom": "sucre glace",
+                "quantite": "PM"
+            }
+        ]
+    },
+    "technique": [
+        "1. Mettre en place le poste de travail.",
+        "2. Réaliser 0,250 kg de pâte brisée sucrée (voir p. 484/485).",
+        "3. Préparer la garniture.",
+        "• Égoutter les bigarreaux et les griottes.",
+        "4. Réaliser un appareil à mirlitons.",
+        "• Mélanger œufs, sucre, poudre d’amandes, farine, crème et beurre noisette.",
+        "5. Foncer et cuire le fond de tarte.",
+        "• Utiliser un cercle bas beurré.",
+        "6. Garnir la tarte.",
+        "• Répartir uniformément les cerises.",
+        "• Recouvrir avec l’appareil à mirlitons.",
+        "7. Cuire la tarte.",
+        "• Cuire au four à 200 °C pendant environ 30 min.",
+        "8. Réaliser un appareil à streusel.",
+        "• Sabler beurre, poudre d’amandes, sucre, farine et cannelle.",
+        "• Cuire le sablage sur plaque au four à 200 °C.",
+        "9. Terminer la tarte.",
+        "• Répartir le streusel uniformément.",
+        "• Saupoudrer de sucre glace et dresser."
+    ]
+}

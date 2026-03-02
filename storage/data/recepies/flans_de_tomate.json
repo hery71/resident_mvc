@@ -1,0 +1,77 @@
+{
+    "titre": "FLANS DE TOMATE",
+    "type": "Accompagnement",
+    "page": 915,
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "tomates",
+                "unite": "kg",
+                "quantite": "0,800"
+            },
+            {
+                "nom": "échalote",
+                "unite": "kg",
+                "quantite": "0,040"
+            },
+            {
+                "nom": "ail (2 gousses)",
+                "quantite": "PM"
+            },
+            {
+                "nom": "œufs (1 entier)",
+                "unite": "kg",
+                "quantite": "0,015"
+            },
+            {
+                "nom": "œufs (2 jaunes)",
+                "unite": "kg",
+                "quantite": "0,040"
+            },
+            {
+                "nom": "crème liquide",
+                "unite": "l",
+                "quantite": "0,10"
+            },
+            {
+                "nom": "beurre",
+                "quantite": "PM"
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel fin",
+                "quantite": "PM"
+            },
+            {
+                "nom": "poivre du moulin",
+                "quantite": "PM"
+            },
+            {
+                "nom": "thym (dominante)",
+                "quantite": "PM"
+            }
+        ]
+    },
+    "technique": [
+        "1. Mettre en place le poste de travail",
+        "2. Préparer les légumes",
+        "• Éplucher, laver, ciseler 0,040 kg d’échalote ou d’oignon.",
+        "• Monder, épépiner et concasser 0,800 kg de tomates mûres et très parfumées.",
+        "• Éplucher, laver et dégermer 0,015 kg d’ail (2 gousses).",
+        "• Réaliser un petit bouquet garni avec une dominante en thym.",
+        "3. Réaliser la fondue de tomate",
+        "• La suer et la concasser 0,020 kg de concentré de tomate et une pincée de sucre.",
+        "• Bien la dessécher puis la mixer ou la passer au tamis.",
+        "4. Réaliser l’appareil à crème prise salée",
+        "• Mélanger 2 jaunes d’œufs, 1 œuf entier et 0,10 l de crème, assaisonner puis passer l’appareil sur la fondue de tomate réduite.",
+        "5. Beurrer les moules à darioles (voir ci-contre)",
+        "6. Garnir les moules avec l’appareil",
+        "• Selon l’utilisation, une brunoise de pommes mondées et étuvée peut être ajoutée.",
+        "7. Marquer les flans en cuisson",
+        "• Les cuire au bain-marie ou au polycuiseur à 180/200 °C durant 8 à 12 min.",
+        "8. Les débarrasser puis les lustrer",
+        "• Les laisser reposer durant quelques minutes avant de les démouler.",
+        "• Mettre en place directement et lustrer au beurre clarifié."
+    ]
+}

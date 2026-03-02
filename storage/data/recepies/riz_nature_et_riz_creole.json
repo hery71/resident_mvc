@@ -1,0 +1,54 @@
+{
+    "titre": "RIZ « NATURE » ET RIZ CRÉOLE",
+    "type": "Accompagnement",
+    "page": 903,
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "riz long",
+                "unite": "kg",
+                "quantite": "0,400"
+            },
+            {
+                "nom": "eau",
+                "unite": "l",
+                "quantite": "6,0"
+            },
+            {
+                "nom": "sel",
+                "unite": "g",
+                "quantite": "12"
+            }
+        ],
+        "finition": [
+            {
+                "nom": "beurre (facultatif)",
+                "unite": "kg",
+                "quantite": "0,040"
+            }
+        ]
+    },
+    "technique": [
+        "(Voir p. 378/379)",
+        "1. Mettre en place le poste de travail",
+        "• Porter à ébullition une grande quantité d’eau dans une russe ou dans un rondeau haut (16 volumes d’eau environ pour 1 volume de riz).",
+        "• Saler au gros sel à raison de 12 g par litre.",
+        "• Laver ou rincer à l’eau froide 0,400 kg à 0,600 kg de riz long.",
+        "2. Marquer le riz en cuisson",
+        "• Verser en pluie le riz dans l’eau.",
+        "• Remuer jusqu’à la reprise de l’ébullition.",
+        "• Laisser cuire lentement durant 11 à 16 min selon la qualité du riz (se référer aux conditionnements).",
+        "• Remuer de temps en temps et contrôler la cuisson.",
+        "3. Débarrasser et terminer le riz",
+        "Riz « nature » servi froid en salade :",
+        "• S’assurer de sa cuisson.",
+        "• L’égoutter et le rafraîchir partiellement.",
+        "• L’assaisonner encore tiède.",
+        "Riz créole servi chaud en garniture d’accompagnement :",
+        "• Le rincer rapidement à l’eau bouillante et l’égoutter soigneusement (pour enlever les restes éventuels d’amidon).",
+        "• Le répartir sous faible épaisseur dans un grand plat allant au four.",
+        "• Ajouter le beurre en parcelles et vérifier l’assaisonnement.",
+        "• Sécher et chauffer le riz au four durant quelques minutes en remuant à l’aide d’une fourchette.",
+        "4. Dresser le riz en dôme dans un légumier sans le tasser"
+    ]
+}

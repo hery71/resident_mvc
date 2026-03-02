@@ -1,0 +1,70 @@
+{
+    "titre": "POMMES SAUTÉES À CRU",
+    "type": "Accompagnement",
+    "bandeau": "Pommes de terre sautées à cru et pommes de terre cuites en robe des champs et sautées",
+    "fiche": 137,
+    "page": 904,
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "pommes de terre à chair ferme (B.F. 15, m.s., charlotte, ...)",
+                "unite": "kg",
+                "quantite": "2 à 2,200"
+            },
+            {
+                "nom": "huile d’arachide",
+                "unite": "l",
+                "quantite": "0,20"
+            },
+            {
+                "nom": "huile d’arachide et beurre",
+                "unite": "l",
+                "quantite": "0,10"
+            }
+        ],
+        "finition": [
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": "0,040"
+            },
+            {
+                "nom": "persil",
+                "unite": "kg",
+                "quantite": "0,020"
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel fin",
+                "quantite": "PM"
+            }
+        ]
+    },
+    "technique": [
+        "1. Mettre en place le poste de travail - 5 min",
+        "• Denrées, matériels de préparation, de cuisson et de dressage.",
+        "2. Éplucher et laver les pommes de terre - 10 min (voir p. 124/125)",
+        "3. Tourner les pommes de terre en forme de « cylindres » - 5 min (voir p. 130)",
+        "• Les arrondir légèrement en cylindre en les parant sans excès (tourner en lard).",
+        "4. Émincer les pommes de terre en rondelles régulières de 3 mm d’épaisseur environ - 10 min (voir p. 130)",
+        "• Utiliser une mandoline.",
+        "5. Rincer les pommes et les égoutter - 5 min",
+        "• Les rincer à plusieurs reprises pour enlever la fécule, puis les sécher soigneusement sur un linge propre.",
+        "6. Sauter les pommes de terre - 20 min (voir p. 471/481)",
+        "• Chauffer fortement l’huile dans une grande poêle.",
+        "• Ajouter les pommes de terre bien épongées par petites quantités.",
+        "• Ajouter ensuite un peu de beurre en fin de cuisson.",
+        "• Les sauter régulièrement pour uniformiser la cuisson et la coloration.",
+        "7. Terminer les pommes sautées - 5 min",
+        "• S’assurer de leur cuisson.",
+        "• Débarrasser en premier les rondelles déjà colorées, puis égoutter le reste dans une passoire.",
+        "• Essuyer la poêle avec du papier absorbant.",
+        "• Ajouter le beurre et le laisser mousser sans coloration.",
+        "• Verser les pommes, les saler puis les sauter à nouveau pour les imprégner du parfum du beurre.",
+        "8. Dresser les pommes - 5 min",
+        "• Les disposer en dôme dans un légumier.",
+        "• Disposer harmonieusement en rosace les plus belles rondelles sur le dessus.",
+        "• Saupoudrer de persil fraîchement haché."
+    ]
+}

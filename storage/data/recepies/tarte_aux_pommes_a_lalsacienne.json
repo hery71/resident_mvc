@@ -1,0 +1,116 @@
+{
+    "titre": "TARTE AUX POMMES À L'ALSACIENNE",
+    "type": "Dessert",
+    "page": 954,
+    "denrees_pour_8_couverts": {
+        "pate_brisee": [
+            {
+                "nom": "farine",
+                "unite": "kg",
+                "quantite": "0,250"
+            },
+            {
+                "nom": "sucre semoule",
+                "unite": "kg",
+                "quantite": "0,025"
+            },
+            {
+                "nom": "sel",
+                "unite": "kg",
+                "quantite": "0,005"
+            },
+            {
+                "nom": "beurre extra-fin",
+                "unite": "kg",
+                "quantite": "0,125"
+            },
+            {
+                "nom": "œuf (1 jaune)",
+                "unite": "kg",
+                "quantite": "0,020"
+            },
+            {
+                "nom": "eau",
+                "unite": "l",
+                "quantite": "0,050"
+            },
+            {
+                "nom": "farine (pour abaisser)",
+                "unite": "kg",
+                "quantite": "0,040"
+            },
+            {
+                "nom": "beurre (pour le cercle)",
+                "unite": "kg",
+                "quantite": "0,010"
+            }
+        ],
+        "garniture": [
+            {
+                "nom": "pommes",
+                "unite": "kg",
+                "quantite": "0,600"
+            },
+            {
+                "nom": "citron",
+                "unite": "piece",
+                "quantite": "1/2"
+            }
+        ],
+        "appareil_a_creme_prise_sucree": [
+            {
+                "nom": "œuf (1 jaune)",
+                "unite": "kg",
+                "quantite": "0,020"
+            },
+            {
+                "nom": "œufs entiers (2 pièces)",
+                "unite": "kg",
+                "quantite": "0,110"
+            },
+            {
+                "nom": "sucre semoule",
+                "unite": "kg",
+                "quantite": "0,050"
+            },
+            {
+                "nom": "lait",
+                "unite": "l",
+                "quantite": "0,20"
+            },
+            {
+                "nom": "crème double",
+                "unite": "l",
+                "quantite": "0,10"
+            },
+            {
+                "nom": "vanille (extrait liquide)",
+                "quantite": "PM"
+            }
+        ],
+        "finition": [
+            {
+                "nom": "sucre glace",
+                "unite": "kg",
+                "quantite": "0,020"
+            }
+        ]
+    },
+    "technique": [
+        "1. Mettre en place le poste de travail - 5 min.",
+        "2. Confectionner la pâte brisée - 15 min (voir p. 484/485).",
+        "3. Préparer les pommes - 5 min.",
+        "• Éplucher, citronner et tailler en quartiers.",
+        "4. Foncer la tarte - 10 min (voir p. 484/485).",
+        "• Abaisser à 3 mm, foncer le cercle et piquer.",
+        "5. Confectionner l’appareil à crème prise sucrée - 5 min.",
+        "• Mélanger œufs, sucre, lait, crème et vanille.",
+        "6. Garnir la tarte - 5 min.",
+        "• Disposer les quartiers de pommes en rosace.",
+        "• Verser l’appareil.",
+        "7. Marquer la tarte en cuisson - 3 min.",
+        "• Cuire au four à 200 °C pendant 30 à 35 min.",
+        "8. Dresser la tarte alsacienne - 2 min.",
+        "• Saupoudrer de sucre glace et servir."
+    ]
+}

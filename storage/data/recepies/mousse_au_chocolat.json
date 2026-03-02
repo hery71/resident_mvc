@@ -1,0 +1,64 @@
+{
+    "titre": "MOUSSE AU CHOCOLAT",
+    "type": "Dessert",
+    "bandeau": "Entremets froids de cuisine",
+    "page": 926,
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "couverture noire 64 %",
+                "unite": "kg",
+                "quantite": "0,250"
+            },
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": "0,100"
+            },
+            {
+                "nom": "œufs (4 jaunes)",
+                "unite": "kg",
+                "quantite": "0,080"
+            },
+            {
+                "nom": "œufs (6 blancs)",
+                "unite": "pièce",
+                "quantite": "6"
+            },
+            {
+                "nom": "sucre semoule",
+                "unite": "kg",
+                "quantite": "0,040"
+            }
+        ],
+        "decor_facultatif": [
+            {
+                "nom": "crème fleurette",
+                "unite": "l",
+                "quantite": "0,04"
+            },
+            {
+                "nom": "sucre glace",
+                "unite": "kg",
+                "quantite": "0,010"
+            }
+        ]
+    },
+    "technique": [
+        "1. Mettre en place le poste de travail - 5 min",
+        "• Denrées, matériels de préparation, de cuisson et de dressage.",
+        "2. Confectionner la mousse au chocolat - 15 min",
+        "• Concasser le chocolat, le mettre dans un bain à sauce.",
+        "• Le faire fondre doucement au bain-marie.",
+        "• Incorporer le beurre en parcelles, mélanger jusqu’à consistance homogène.",
+        "• Ajouter les jaunes d’œufs un à un et mélanger délicatement.",
+        "• Monter les blancs en neige ferme en incorporant le sucre semoule en cours de montage.",
+        "3. Terminer la mousse au chocolat - 5 min",
+        "• Verser l’appareil progressivement sur les blancs montés en remuant délicatement à l’aide d’une écumoire.",
+        "• Il est d’usage parfois d’ajouter à la mousse au chocolat soit de la crème fouettée, soit de la gélatine.",
+        "4. Dresser la mousse au chocolat - 5 min",
+        "• Garnir des coupes individuelles ou un légumier avec la mousse.",
+        "• Laisser prendre au froid durant 2 h environ.",
+        "• Juste au moment de servir, décorer avec un peu de crème Chantilly ou avec des copeaux de chocolat saupoudrés de sucre glace."
+    ]
+}

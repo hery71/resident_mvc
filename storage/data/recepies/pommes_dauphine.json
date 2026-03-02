@@ -1,0 +1,58 @@
+{
+    "titre": "POMMES DAUPHINE",
+    "type": "Accompagnement",
+    "page": 911,
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "pommes duchesse",
+                "unite": "kg",
+                "quantite": "0,800"
+            },
+            {
+                "nom": "pâte à choux",
+                "quantite": "PM"
+            },
+            {
+                "nom": "œufs entiers",
+                "unite": "pièce",
+                "quantite": "4"
+            }
+        ],
+        "friture": [
+            {
+                "nom": "huile de friture",
+                "quantite": "PM"
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel fin",
+                "quantite": "PM"
+            }
+        ]
+    },
+    "technique": [
+        "1. Mettre en place le poste de travail",
+        "2. Préparer des pommes duchesse avec 0,800 kg de pommes de terre Bintje (voir p. 322/324)",
+        "• Ne pas ajouter la liaison beurre et jaunes d’œufs.",
+        "3. Confectionner une pâte à choux en partant sur les bases d’1/4 de litre d’eau (voir p. 505)",
+        "• Utiliser 0,080 kg de beurre, 0,125 kg de farine et 4 œufs entiers.",
+        "4. Terminer l’appareil à pommes dauphine",
+        "• Sécher les pommes de terre à l’étuve d’un four très chaud.",
+        "• Les passer au tamis ou à la presse à choux.",
+        "• Mélanger intimement à l’aide d’une spatule en bois.",
+        "• Corner les bords et filmer.",
+        "5. Frire les pommes dauphine",
+        "• Chauffer le bain de friture à 160/170 °C maximum.",
+        "• Façonner les pommes dauphine à l’aide de deux cuillères à entremets ou d’une poche munie d’une grosse douille ronde et unie.",
+        "• Les donner de la grosseur d’une petite noix et les déposer au fur et à mesure dans le bain d’huile.",
+        "• Ne pas en frire trop à la fois, les pommes dauphine augmentent de volume.",
+        "• Laisser les pommes gonfler et remonter à la surface du bain de friture.",
+        "• Les retourner délicatement si nécessaire à l’aide d’une araignée.",
+        "• Lorsqu’elles sont bien dorées, les égoutter délicatement sur du papier absorbant.",
+        "• Les saler avec du sel fin.",
+        "6. Dresser les pommes dauphine",
+        "• Les dresser immédiatement en dôme sur un plat rond recouvert d’un papier gaufré."
+    ]
+}

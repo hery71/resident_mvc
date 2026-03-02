@@ -1,0 +1,103 @@
+{
+    "titre": "TARTE AUX FRUITS ROUGES",
+    "type": "Dessert",
+    "page": 960,
+    "denrees_pour_8_couverts": {
+        "pate_brisee_sucree": [
+            {
+                "nom": "pâte brisée sucrée",
+                "unite": "kg",
+                "quantite": "0,250"
+            }
+        ],
+        "creme_d_amandes": [
+            {
+                "nom": "beurre en pommade",
+                "unite": "kg",
+                "quantite": "0,050"
+            },
+            {
+                "nom": "sucre semoule",
+                "unite": "kg",
+                "quantite": "0,050"
+            },
+            {
+                "nom": "œufs entiers",
+                "unite": "kg",
+                "quantite": "0,050"
+            },
+            {
+                "nom": "poudre d’amandes",
+                "unite": "kg",
+                "quantite": "0,050"
+            },
+            {
+                "nom": "extrait de vanille liquide",
+                "quantite": "PM"
+            }
+        ],
+        "appareil": [
+            {
+                "nom": "lait",
+                "unite": "l",
+                "quantite": "0,40"
+            },
+            {
+                "nom": "œufs",
+                "unite": "kg",
+                "quantite": "0,080"
+            },
+            {
+                "nom": "sucre semoule",
+                "unite": "kg",
+                "quantite": "0,040"
+            },
+            {
+                "nom": "poudre à crème",
+                "unite": "kg",
+                "quantite": "0,040"
+            }
+        ],
+        "garniture": [
+            {
+                "nom": "framboises",
+                "unite": "kg",
+                "quantite": "0,200"
+            },
+            {
+                "nom": "groseilles rouges",
+                "unite": "kg",
+                "quantite": "0,050"
+            },
+            {
+                "nom": "liqueur à base d’oranges",
+                "unite": "l",
+                "quantite": "0,02"
+            }
+        ],
+        "finition": [
+            {
+                "nom": "sucre glace",
+                "quantite": "PM"
+            }
+        ]
+    },
+    "technique": [
+        "1. Mettre en place le poste de travail.",
+        "2. Réaliser 0,250 kg de pâte sucrée (voir p. 486).",
+        "3. Réaliser la crème d’amandes.",
+        "• Mélanger beurre, sucre, œufs, poudre d’amandes et vanille.",
+        "4. Réaliser l’appareil à crème.",
+        "• Mélanger lait, œufs, sucre et poudre à crème.",
+        "5. Foncer et cuire le fond de tarte.",
+        "• Piquer le fond et cuire à blanc.",
+        "6. Garnir la tarte.",
+        "• Masquer le fond de crème d’amandes et cuire légèrement.",
+        "• Verser l’appareil et terminer la cuisson.",
+        "7. Garnir de fruits rouges.",
+        "• Disposer harmonieusement framboises et groseilles.",
+        "• Parfumer légèrement à la liqueur.",
+        "8. Dresser la tarte.",
+        "• Saupoudrer de sucre glace et servir."
+    ]
+}

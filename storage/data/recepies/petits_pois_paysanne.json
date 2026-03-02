@@ -1,0 +1,64 @@
+{
+    "titre": "PETITS POIS PAYSANNE",
+    "page": 893,
+    "type": "Accompagnement",
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "petits pois",
+                "quantite": "PM"
+            },
+            {
+                "nom": "poitrine de porc demi-sel en petits lardons",
+                "quantite": "PM"
+            },
+            {
+                "nom": "carottes",
+                "unite": "kg",
+                "quantite": "0,200"
+            },
+            {
+                "nom": "navets",
+                "unite": "kg",
+                "quantite": "0,200"
+            },
+            {
+                "nom": "petits oignons",
+                "quantite": "PM"
+            },
+            {
+                "nom": "laitue (chiffonnade)",
+                "quantite": "PM"
+            },
+            {
+                "nom": "bouquet garni",
+                "quantite": "PM"
+            },
+            {
+                "nom": "eau",
+                "unite": "l",
+                "quantite": "0,25"
+            },
+            {
+                "nom": "beurre manié",
+                "quantite": "PM"
+            }
+        ]
+    },
+    "technique": [
+        "1. Mettre en place le poste de travail",
+        "• Détailler 0,250 kg de poitrine de porc demi-sel en petits lardons et les blanchir départ eau froide. Ne pas les rafraîchir et les égoutter soigneusement.",
+        "• Éplucher, laver et tourner 0,200 kg de carottes et 0,200 kg de navets.",
+        "• Éplucher et laver 0,200 kg de petits oignons.",
+        "• Glacer à blanc les carottes, les navets et les petits oignons.",
+        "• Éplucher, laver et tailler une petite laitue en chiffonnade.",
+        "• Réaliser un petit bouquet garni.",
+        "2. Marquer les petits pois en cuisson",
+        "• Faire revenir les lardons dans une grande sauteuse avec 0,080 kg de beurre (ne pas trop les colorer).",
+        "• Ajouter la chiffonnade de laitue et la laisser suer durant quelques minutes.",
+        "• Ajouter les petits pois, 0,25 l d’eau et le bouquet garni.",
+        "• Lier facultativement en fin de cuisson avec un peu de beurre manié.",
+        "• Ajouter les carottes, les navets et les petits oignons glacés.",
+        "• Dresser en mettant en évidence les petits légumes glacés sur le dessus."
+    ]
+}

@@ -1,0 +1,78 @@
+{
+    "titre": "SAINT-HONORÉ",
+    "type": "Dessert",
+    "page": 949,
+    "denrees_pour_8_couverts": {
+        "base": [
+            {
+                "nom": "pâte brisée ou sucrée",
+                "unite": "kg",
+                "quantite": "0,150"
+            },
+            {
+                "nom": "ou parures de feuilletage",
+                "quantite": "PM"
+            }
+        ],
+        "pate_a_choux": [
+            {
+                "nom": "pâte à choux",
+                "quantite": "voir p. 509"
+            }
+        ],
+        "creme_patissiere": [
+            {
+                "nom": "crème pâtissière",
+                "quantite": "voir p. 547/549"
+            }
+        ],
+        "creme_chiboust": [
+            {
+                "nom": "crème Chiboust",
+                "quantite": "voir p. 555/551"
+            },
+            {
+                "nom": "blancs d’œufs en neige",
+                "quantite": "PM"
+            },
+            {
+                "nom": "sucre semoule",
+                "unite": "kg",
+                "quantite": "0,050"
+            }
+        ],
+        "caramel": [
+            {
+                "nom": "caramel blond",
+                "quantite": "PM"
+            }
+        ],
+        "finition": [
+            {
+                "nom": "crème Chantilly",
+                "quantite": "PM"
+            }
+        ]
+    },
+    "technique": [
+        "1. Réaliser 0,150 kg de pâte brisée ou sucrée (ou utiliser des parures de feuilletage).",
+        "2. Réaliser 0,25 l de pâte à choux (voir p. 509).",
+        "3. Réaliser la base de Saint-Honoré",
+        "• Abaisser un disque de pâte, le piquer et cuire à blanc.",
+        "• Coucher un cordon de pâte à choux sur le bord.",
+        "• Coucher séparément 25 petits choux.",
+        "• Cuire ensemble au four à 200 °C.",
+        "4. Réaliser 0,40 l de crème pâtissière (voir p. 547/549).",
+        "• Garnir le centre de la base et laisser refroidir.",
+        "5. Terminer la crème Chiboust (voir p. 555/551).",
+        "• Monter les blancs en neige ferme avec 0,050 kg de sucre.",
+        "• Incorporer délicatement à la crème pâtissière.",
+        "6. Glacer et garnir les choux",
+        "• Glacer au caramel blond et souder au caramel.",
+        "• Garnir les choux de crème.",
+        "7. Terminer le Saint-Honoré",
+        "• Disposer les choux sur le cordon de pâte.",
+        "• Compléter de crème Chiboust et décorer à la poche.",
+        "• Réserver en enceinte réfrigérée jusqu’au service."
+    ]
+}

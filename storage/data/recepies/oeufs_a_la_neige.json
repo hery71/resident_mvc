@@ -1,0 +1,75 @@
+{
+    "titre": "ŒUFS À LA NEIGE",
+    "type": "Dessert",
+    "bandeau": "Entremets froids de cuisine à base de meringue à la française pochée",
+    "page": 924,
+    "denrees_pour_8_couverts": {
+        "meringue": [
+            {
+                "nom": "œufs (8 blancs)",
+                "unite": "kg",
+                "quantite": "0,260"
+            },
+            {
+                "nom": "sel fin",
+                "quantite": "PM"
+            },
+            {
+                "nom": "sucre semoule",
+                "unite": "kg",
+                "quantite": "0,200"
+            }
+        ],
+        "creme_anglaise": [
+            {
+                "nom": "œufs (4 jaunes)",
+                "unite": "kg",
+                "quantite": "0,080"
+            },
+            {
+                "nom": "sucre semoule",
+                "unite": "kg",
+                "quantite": "0,125"
+            },
+            {
+                "nom": "vanille",
+                "unite": "gousse",
+                "quantite": "1/2"
+            },
+            {
+                "nom": "lait",
+                "unite": "l",
+                "quantite": "1"
+            }
+        ]
+    },
+    "technique": [
+        "1. Mettre en place le poste de travail - 5 min",
+        "• Denrées, matériels de préparation, de cuisson et de dressage.",
+        "2. Confectionner la meringue ordinaire - 10 min",
+        "• Respecter les précautions et les recommandations d’usage.",
+        "• Réunir dans un bassin très propre les blancs et une pincée de sel.",
+        "• Casser les blancs à l’aide d’un fouet, puis les monter.",
+        "• Les serrer avec le tiers du poids en sucre dès qu’ils sont aux 9/10e de leur montée.",
+        "• Ajouter de l’eau tiède et incorporer très délicatement le reste du sucre à l’aide d’une petite écumoire.",
+        "3. Cuire la meringue ordinaire - 15 min",
+        "• Faire bouillir le lait légèrement sucré.",
+        "• Façonner la meringue en forme d’œuf à l’aide de 2 cuillères.",
+        "• Pocher dans le lait frémissant durant 1 min.",
+        "• Retourner les œufs à la neige et terminer la cuisson durant 1 min également.",
+        "• Égoutter et réserver dans une plaque munie d’un papier absorbant.",
+        "4. Réaliser la crème anglaise - 15 min",
+        "• Récupérer le lait ayant servi à la cuisson des œufs à la neige, le passer au chinois étamine.",
+        "• Compléter la quantité nécessaire de lait pour compenser l’évaporation.",
+        "• Réunir le lait dans une russe, ajouter une demi-gousse de vanille fendue en deux, laisser infuser.",
+        "• Clarifier les œufs.",
+        "• Blanchir les jaunes d’œufs et le sucre dans une calotte en inox en remuant à l’aide d’une spatule.",
+        "• Verser progressivement une partie du lait sur les jaunes blanchis.",
+        "• Remettre dans la russe et cuire la crème.",
+        "• Passer la crème au chinois étamine et la refroidir le plus rapidement possible en la vannant fréquemment.",
+        "5. Dresser les œufs à la neige - 5 min",
+        "• Napper le fond de la coupe de crème anglaise.",
+        "• Disposer délicatement les œufs à la neige en rosace.",
+        "• Servir la saucière posée sur un plat recouvert d’un papier dentelle."
+    ]
+}

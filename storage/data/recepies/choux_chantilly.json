@@ -1,0 +1,93 @@
+{
+    "titre": "CHOUX CHANTILLY",
+    "type": "Dessert",
+    "page": 948,
+    "denrees_pour_8_couverts": {
+        "pate_a_choux": [
+            {
+                "nom": "eau",
+                "unite": "l",
+                "quantite": "0,25"
+            },
+            {
+                "nom": "sel fin",
+                "unite": "kg",
+                "quantite": "0,005"
+            },
+            {
+                "nom": "sucre semoule",
+                "unite": "kg",
+                "quantite": "0,010"
+            },
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": "0,080"
+            },
+            {
+                "nom": "farine",
+                "unite": "kg",
+                "quantite": "0,125"
+            },
+            {
+                "nom": "œufs entiers (4 à 5 selon calibre)",
+                "unite": "kg",
+                "quantite": "0,220"
+            },
+            {
+                "nom": "beurre pour la plaque",
+                "unite": "kg",
+                "quantite": "0,010"
+            }
+        ],
+        "dorure": [
+            {
+                "nom": "œuf (1 entier)",
+                "unite": "kg",
+                "quantite": "0,055"
+            }
+        ],
+        "creme_chantilly": [
+            {
+                "nom": "crème liquide",
+                "unite": "l",
+                "quantite": "0,60"
+            },
+            {
+                "nom": "sucre glace",
+                "unite": "kg",
+                "quantite": "0,040"
+            },
+            {
+                "nom": "vanille (extrait liquide)",
+                "quantite": "PM"
+            }
+        ],
+        "finition": [
+            {
+                "nom": "sucre glace",
+                "unite": "kg",
+                "quantite": "0,020"
+            }
+        ]
+    },
+    "technique": [
+        "1. Mettre en place le poste de travail - 5 min",
+        "2. Réaliser la pâte à choux - 15 min",
+        "• Porter à ébullition l’eau, le sel, le sucre et le beurre.",
+        "• Hors du feu, ajouter la farine tamisée.",
+        "• Dessécher sur le feu puis incorporer les œufs.",
+        "3. Coucher ou dresser les choux - 10 min",
+        "• Dresser à la poche sur plaque beurrée.",
+        "• Dorer légèrement.",
+        "4. Marquer les choux en cuisson - 5 min",
+        "• Cuire à 200 °C pendant 25 à 30 min.",
+        "• Laisser dessécher en fin de cuisson.",
+        "5. Confectionner la crème Chantilly - 10 min",
+        "• Fouetter la crème avec le sucre glace et la vanille.",
+        "6. Garnir les choux - 12 min",
+        "• Ouvrir et garnir de crème Chantilly.",
+        "• Saupoudrer de sucre glace.",
+        "7. Dresser les choux - 3 min"
+    ]
+}

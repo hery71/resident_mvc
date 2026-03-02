@@ -1,0 +1,70 @@
+{
+    "titre": "MOUSSE AU CHOCOLAT (GARNITURE)",
+    "type": "Dessert",
+    "page": 926,
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "couverture noire 64 %",
+                "unite": "kg",
+                "quantite": "0,250"
+            },
+            {
+                "nom": "pâte de cacao",
+                "unite": "kg",
+                "quantite": "0,040"
+            },
+            {
+                "nom": "café lyophilisé",
+                "unite": "kg",
+                "quantite": "0,002"
+            },
+            {
+                "nom": "beurre extra-fin",
+                "unite": "kg",
+                "quantite": "0,040"
+            }
+        ],
+        "appareil_a_bombe": [
+            {
+                "nom": "œufs (5 jaunes)",
+                "unite": "kg",
+                "quantite": "0,100"
+            },
+            {
+                "nom": "œuf entier (1 pièce)",
+                "unite": "kg",
+                "quantite": "0,055"
+            },
+            {
+                "nom": "sirop à 30 °B ou à 126/4 D",
+                "unite": "l",
+                "quantite": "0,30"
+            }
+        ],
+        "finition": [
+            {
+                "nom": "crème liquide",
+                "unite": "l",
+                "quantite": "0,40"
+            }
+        ]
+    },
+    "technique": [
+        "1. Mettre en place le poste de travail - 5 min",
+        "• Denrées, matériels de préparation, de cuisson et de dressage.",
+        "2. Faire fondre et réduire au bain-marie (30 °C maximum) la couverture, la pâte de cacao, le café et le beurre - 5 min",
+        "3. Réaliser le sirop à 30 °B ou à 126/4 D - 5 min (1 l d’eau, 1 kg de sucre, 1 min d’ébullition)",
+        "• Le laisser refroidir légèrement.",
+        "4. Réaliser l’appareil à bombe - 15 min",
+        "• Verser progressivement le sirop sur les œufs en fouettant énergiquement.",
+        "• Pocher l’appareil au bain-marie sans arrêter de remuer (ne pas dépasser la température de + 90 °C).",
+        "• Monter l’appareil au fouet jusqu’à son complet refroidissement.",
+        "5. Monter la crème fouettée - 5 min",
+        "• Ne pas trop la serrer.",
+        "6. Assembler les différents éléments de la mousse au chocolat - 5 min",
+        "• Incorporer le mélange chocolaté refroidi mais non pris à l’appareil à bombe puis en dernier la crème fouettée.",
+        "• Lisser sans fouetter.",
+        "7. Mettre en place ou mouler immédiatement - 5 min"
+    ]
+}

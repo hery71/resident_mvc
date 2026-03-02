@@ -1,0 +1,111 @@
+{
+    "titre": "POMMES CROQUETTES",
+    "type": "Accompagnement",
+    "bandeau": "Pommes dérivées de la pomme duchesse",
+    "page": 910,
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "pommes duchesse (pommes de terre de conservation Bintje)",
+                "unite": "kg",
+                "quantite": "1,200"
+            },
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": "0,100"
+            },
+            {
+                "nom": "œufs (jaunes)",
+                "unite": "pièce",
+                "quantite": "PM"
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "gros sel",
+                "quantite": "PM"
+            },
+            {
+                "nom": "sel fin",
+                "quantite": "PM"
+            },
+            {
+                "nom": "poivre du moulin",
+                "quantite": "PM"
+            },
+            {
+                "nom": "noix de muscade",
+                "quantite": "PM"
+            }
+        ],
+        "panure_a_l_anglaise": [
+            {
+                "nom": "farine",
+                "unite": "kg",
+                "quantite": "0,100"
+            },
+            {
+                "nom": "œufs (entiers)",
+                "unite": "pièce",
+                "quantite": "3"
+            },
+            {
+                "nom": "huile",
+                "unite": "l",
+                "quantite": "0,05"
+            },
+            {
+                "nom": "sel fin",
+                "quantite": "PM"
+            },
+            {
+                "nom": "poivre du moulin",
+                "quantite": "PM"
+            },
+            {
+                "nom": "mie de pain tamisée",
+                "unite": "kg",
+                "quantite": "0,300"
+            }
+        ],
+        "friture": [
+            {
+                "nom": "huile de friture",
+                "quantite": "PM"
+            }
+        ]
+    },
+    "technique": [
+        "1. Mettre en place le poste de travail - 5 min",
+        "• Denrées, matériels de préparation, de cuisson et de dressage.",
+        "2. Éplucher, laver et tailler les pommes de terre en gros quartiers ou les laisser entières si elles ne sont pas très grosses - 15 min (voir p. 124/125)",
+        "3. Les marquer en cuisson à l’anglaise - 5 min",
+        "4. Confectionner l’appareil à pommes duchesse - 10 min (voir p. 322/324)",
+        "• Bien dessécher l’appareil sur le feu avec le beurre avant d’ajouter les jaunes d’œufs.",
+        "• Les débarrasser dans une plaque en acier inoxydable légèrement huilée et filmer pour éviter le croûtage en surface.",
+        "5. Préparer les éléments pour paner à l’anglaise - 10 min",
+        "• Tamiser et débarrasser la mie de pain dans une plaque.",
+        "• Casser, assaisonner et battre les œufs à l’aide d’une fourchette ou d’un petit fouet.",
+        "• Ajouter l’huile et réserver l’anglaise dans une deuxième plaque.",
+        "• Réserver la farine dans une petite calotte.",
+        "• Disposer un plateau recouvert d’une feuille de papier sulfurisé pour recevoir les pommes croquettes.",
+        "6. Confectionner les pommes croquettes - 15 min",
+        "• Diviser l’appareil à pommes duchesse en petites boules de 0,020 kg environ.",
+        "• Fariner le plan de travail.",
+        "• Rouler les boules de pommes duchesse et leur donner la forme de rouleaux réguliers de 2 à 2,5 cm de diamètre.",
+        "• Détailler les rouleaux en tronçons de 4,5 à 5,5 cm de longueur (de la taille d’un gros bouchon).",
+        "• Les passer successivement et délicatement dans l’anglaise puis dans la mie de pain.",
+        "• Saupoudrer le plan de travail de mie de pain et rectifier la forme des croquettes en les roulant délicatement et en égalisant les extrémités à l’aide d’une spatule métallique.",
+        "• Ranger régulièrement les croquettes sur le plateau.",
+        "• Les réserver en enceinte réfrigérée.",
+        "7. Frire les croquettes à la commande - 5 min",
+        "• Disposer les croquettes par petites quantités dans un panier à friture.",
+        "• Les frire à la commande dans un bain d’huile chauffé à 180 °C environ.",
+        "• Les égoutter sur du papier absorbant en les retirant de la friture délicatement à l’aide d’une araignée. Les pommes croquettes doivent être dorées et croustillantes.",
+        "• Les saler légèrement au sel fin.",
+        "8. Dresser les pommes croquettes - 5 min",
+        "• Les dresser sur un plat recouvert d’un papier gaufré.",
+        "9. Filtrer le bain de friture selon la procédure interne à l’établissement."
+    ]
+}

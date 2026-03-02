@@ -1,0 +1,129 @@
+{
+    "titre": "PUDDING DIPLOMATE OU PUDDING DE CABINET",
+    "type": "Dessert",
+    "bandeau": "Entremets froids de cuisine à base de biscuit et de crème prise sucrée",
+    "page": 934,
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "biscuit à la cuiller ou génoise",
+                "unite": "kg",
+                "quantite": "0,200"
+            },
+            {
+                "nom": "œufs entiers (3 pièces)",
+                "unite": "kg",
+                "quantite": "0,165"
+            },
+            {
+                "nom": "sucre semoule",
+                "unite": "kg",
+                "quantite": "0,100"
+            },
+            {
+                "nom": "farine",
+                "unite": "kg",
+                "quantite": "0,100"
+            }
+        ],
+        "chemise": [
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": "0,020"
+            },
+            {
+                "nom": "farine",
+                "unite": "kg",
+                "quantite": "0,020"
+            }
+        ],
+        "appareil_a_creme_sucre": [
+            {
+                "nom": "lait",
+                "unite": "l",
+                "quantite": "0,75"
+            },
+            {
+                "nom": "œufs entiers (5 pièces)",
+                "unite": "kg",
+                "quantite": "0,275"
+            },
+            {
+                "nom": "sucre semoule",
+                "unite": "kg",
+                "quantite": "0,150"
+            },
+            {
+                "nom": "vanille",
+                "unite": "gousse",
+                "quantite": "1/2"
+            }
+        ],
+        "garniture": [
+            {
+                "nom": "fruits confits en cubes",
+                "unite": "kg",
+                "quantite": "0,100"
+            },
+            {
+                "nom": "kirsch",
+                "unite": "l",
+                "quantite": "0,02"
+            }
+        ],
+        "decor": [
+            {
+                "nom": "angélique",
+                "unite": "kg",
+                "quantite": "0,010"
+            },
+            {
+                "nom": "bigarreaux",
+                "unite": "kg",
+                "quantite": "0,010"
+            }
+        ],
+        "creme_anglaise": [
+            {
+                "nom": "lait",
+                "unite": "l",
+                "quantite": "0,50"
+            },
+            {
+                "nom": "œufs (4 jaunes)",
+                "unite": "kg",
+                "quantite": "0,080"
+            },
+            {
+                "nom": "sucre semoule",
+                "unite": "kg",
+                "quantite": "0,100 à 0,125"
+            },
+            {
+                "nom": "vanille",
+                "unite": "gousse",
+                "quantite": "1/2"
+            },
+            {
+                "nom": "kirsch",
+                "unite": "l",
+                "quantite": "0,02"
+            }
+        ]
+    },
+    "technique": [
+        "1. Mettre en place le poste de travail - 5 min",
+        "2. Mettre à macérer le salpicon de fruits confits dans du kirsch - 2 min",
+        "3. Confectionner l’appareil à crème prise sucrée - 15 min",
+        "4. Réaliser la crème anglaise - 15 min",
+        "5. Chemiser le moule - 10 min",
+        "6. Emplir les moules - 5 min",
+        "7. Marquer le pudding en cuisson - 3 min",
+        "• Cuire le pudding au four à 180 °C pendant 40 à 50 min.",
+        "8. Débarrasser le pudding - 2 min",
+        "9. Dresser le pudding - 3 min",
+        "• Décorer harmonieusement avec l’angélique et les bigarreaux.",
+        "• Servir le reste de crème anglaise en saucière."
+    ]
+}

@@ -1,0 +1,114 @@
+{
+    "titre": "CHRISTOPHINES FARCÉES",
+    "type": "Accompagnement",
+    "page": 919,
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "christophines",
+                "unite": "kg",
+                "quantite": "4 x 0,400"
+            },
+            {
+                "nom": "chair à saucisse",
+                "unite": "kg",
+                "quantite": "0,200"
+            },
+            {
+                "nom": "poitrine fumée en petits dés (2 à 3 mm)",
+                "unite": "kg",
+                "quantite": "0,200"
+            },
+            {
+                "nom": "oignons",
+                "unite": "kg",
+                "quantite": "0,200"
+            },
+            {
+                "nom": "échalotes",
+                "unite": "kg",
+                "quantite": "0,060"
+            },
+            {
+                "nom": "ail (6 gousses)",
+                "unite": "kg",
+                "quantite": "0,020"
+            },
+            {
+                "nom": "huile d’olive",
+                "unite": "l",
+                "quantite": "PM"
+            },
+            {
+                "nom": "persil plat",
+                "unite": "kg",
+                "quantite": "PM"
+            },
+            {
+                "nom": "piment",
+                "unite": "kg",
+                "quantite": "PM"
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel fin",
+                "quantite": "PM"
+            },
+            {
+                "nom": "poivre du moulin",
+                "quantite": "PM"
+            }
+        ],
+        "finition": [
+            {
+                "nom": "mie de pain tamisée",
+                "unite": "kg",
+                "quantite": "PM"
+            },
+            {
+                "nom": "huile d’olive (pour arroser)",
+                "unite": "l",
+                "quantite": "PM"
+            },
+            {
+                "nom": "persil en bouquet (décor)",
+                "quantite": "PM"
+            }
+        ]
+    },
+    "technique": [
+        "1. Mettre en place le poste de travail",
+        "2. Cuire les christophines à l’anglaise",
+        "• Cuire 4 christophines de 0,400 kg chacune dans une grande quantité d’eau salée.",
+        "• Les sonder à l’aide d’une aiguille à brider au bout d’une vingtaine de minutes.",
+        "• Les égoutter et les laisser légèrement refroidir sans les rafraîchir.",
+        "3. Imbiber une demi baguette de pain dans l’eau de cuisson",
+        "• La plonger durant quelques secondes puis l’essorer fortement dans une étamine.",
+        "4. Préparer la garniture de la farce",
+        "• Tailler 0,200 kg de jambon blanc et 0,200 kg de poitrine fumée en petits dés de 2 à 3 mm de section.",
+        "• Éplucher, laver et ciseler finement 0,200 kg d’oignons.",
+        "• Éplucher, laver et ciseler finement 0,060 kg d’échalotes.",
+        "• Éplucher, dégermer, laver, écraser et hacher 6 gousses d’ail.",
+        "• Hacher un petit morceau de piment (à modérer).",
+        "5. Réaliser la pulpe de christophines",
+        "• Partager les christophines en deux dans le sens de la longueur et dégager le noyau central.",
+        "• Les cercler à quelques millimètres des bords suffisamment afin qu’elles ne s’affaissent pas et les évider délicatement à l’aide d’une cuillère à potage.",
+        "• Presser fortement la pulpe recueillie dans une étamine.",
+        "6. Réaliser la farce",
+        "• Mixer finement la pulpe des christophines.",
+        "• Sauter à l’huile d’arachide les oignons ciselés, puis ajouter la brunoise de poitrine fumée.",
+        "• Laisser cuire lentement durant quelques minutes.",
+        "• Ajouter successivement l’ail, les dés de jambon et le piment.",
+        "• Bien mélanger l’ensemble, puis incorporer la pulpe des christophines et le pain.",
+        "• Dessécher la farce en la travaillant sur le feu à l’aide d’une spatule.",
+        "• Vérifier l’assaisonnement.",
+        "7. Farcir les christophines",
+        "• Les garnir copieusement avec la farce.",
+        "• Saupoudrer avec 0,050 kg de mie de pain tamisée et arroser avec quelques gouttes d’huile.",
+        "8. Gratiner et dresser les christophines",
+        "• Les placer dans un four à 200/210 °C jusqu’à ce qu’elles soient bien dorées et bien gratinées.",
+        "• Les dresser sur un grand plat rond recouvert d’une feuille de papier.",
+        "• Garnir d’un bouquet de persil au centre du plat."
+    ]
+}

@@ -1,0 +1,102 @@
+{
+    "titre": "FLANS DE LÉGUMES",
+    "type": "Accompagnement",
+    "bandeau": "Flans de légumes",
+    "fiche": 142,
+    "page": 914,
+    "denrees_pour_8_couverts": {
+        "purees_de_legumes": [
+            {
+                "nom": "purée de carotte",
+                "unite": "kg",
+                "quantite": "0,400"
+            },
+            {
+                "nom": "purée de chou-fleur",
+                "unite": "kg",
+                "quantite": "0,400"
+            },
+            {
+                "nom": "purée de brocoli",
+                "unite": "kg",
+                "quantite": "0,400"
+            },
+            {
+                "nom": "purée de céleri",
+                "unite": "kg",
+                "quantite": "0,400"
+            },
+            {
+                "nom": "purée d’épinards",
+                "unite": "kg",
+                "quantite": "0,400"
+            }
+        ],
+        "appareil": [
+            {
+                "nom": "crème prise salée"
+            },
+            {
+                "nom": "œufs entiers (1 pièce)",
+                "unite": "kg",
+                "quantite": "0,060"
+            },
+            {
+                "nom": "œufs (2 jaunes)",
+                "unite": "kg",
+                "quantite": "0,040"
+            },
+            {
+                "nom": "crème liquide U.H.T.",
+                "unite": "l",
+                "quantite": "0,10"
+            }
+        ],
+        "finition": [
+            {
+                "nom": "beurre pour les moules et pour lustrer",
+                "unite": "kg",
+                "quantite": "0,020"
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel fin",
+                "quantite": "PM"
+            },
+            {
+                "nom": "poivre du moulin",
+                "quantite": "PM"
+            },
+            {
+                "nom": "noix de muscade",
+                "quantite": "PM"
+            }
+        ]
+    },
+    "technique": [
+        "1. Mettre en place le poste de travail - 5 min",
+        "• Denrées, matériels de préparation, de cuisson et de dressage.",
+        "2. Dessécher la purée - 10 min",
+        "• Placer la purée dans une grande sauteuse et la dessécher sur le feu en la remuant sans discontinuer durant une dizaine de minutes à l’aide d’une spatule, ou selon le légume choisi, réaliser la purée à l’étuve d’un four.",
+        "• Vérifier l’assaisonnement et la débarrasser dans une calotte en acier inoxydable.",
+        "3. Réaliser l’appareil à crème prise salée - 5 min",
+        "• Mélanger l’œuf entier, les jaunes et la crème liquide.",
+        "• Assaisonner et passer l’appareil sur la purée de légumes.",
+        "• Lissier et homogénéiser au fouet (pour apporter un peu de « fermeté » à la préparation, et selon le légume utilisé, il est possible d’ajouter des inflorescences de chou-fleur ou de brocoli, une brunoise de céleri ou de carotte cuits à l’anglaise ou à la vapeur et étuvés).",
+        "4. Préparer les moules à darioles - 5 min",
+        "• Faire fondre le beurre et beurrer les moules à l’aide d’un pinceau.",
+        "• Appliquer au fond de chaque moule un petit disque de papier sulfurisé beurré.",
+        "5. Garnir les moules - 3 min",
+        "• Les remplir avec l’appareil (dans le cas de l’utilisation d’une garniture, la répartir équitablement).",
+        "6. Marquer les flans en cuisson - 2 min",
+        "• Appliquer une feuille de papier sulfurisé au fond d’une plaque creuse ou d’un sautoir.",
+        "• Placer les moules puis remplir le récipient de cuisson d’eau bouillante jusqu’aux 2/3 de la hauteur des moules.",
+        "• Cuire au four à 180/200 °C durant 8 à 12 min (selon le diamètre des moules).",
+        "7. Débarrasser les flans - 3 min",
+        "• S’assurer de leur cuisson (piquer une aiguille à brider au cœur du flan, aucune trace d’appareil non coagulé ne doit remonter à la surface).",
+        "• Les sortir du bain-marie et les laisser reposer durant quelques minutes.",
+        "8. Dresser - 2 min",
+        "• Démouler et mettre immédiatement en place sur le plat ou sur l’assiette de service (vérifier que le papier sulfurisé ne soit pas resté collé au flan), et lustrer au beurre clarifié."
+    ]
+}

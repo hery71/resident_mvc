@@ -1,0 +1,98 @@
+{
+    "titre": "GÂTEAU GRAND SIÈCLE",
+    "type": "Dessert",
+    "page": 945,
+    "denrees_pour_8_couverts": {
+        "genoise": [
+            {
+                "nom": "sucre semoule",
+                "unite": "kg",
+                "quantite": "0,125"
+            },
+            {
+                "nom": "farine tamisée",
+                "unite": "kg",
+                "quantite": "0,125"
+            },
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": "0,040"
+            },
+            {
+                "nom": "lait",
+                "unite": "l",
+                "quantite": "PM"
+            }
+        ],
+        "sirop_de_punchage": [
+            {
+                "nom": "sirop de punchage",
+                "unite": "l",
+                "quantite": "0,06"
+            },
+            {
+                "nom": "eau",
+                "unite": "l",
+                "quantite": "0,06"
+            },
+            {
+                "nom": "sirop de citron",
+                "unite": "l",
+                "quantite": "0,04"
+            },
+            {
+                "nom": "Cointreau",
+                "unite": "l",
+                "quantite": "0,04"
+            }
+        ],
+        "creme_chantilly": [
+            {
+                "nom": "crème liquide",
+                "unite": "l",
+                "quantite": "0,25"
+            },
+            {
+                "nom": "sucre glace",
+                "unite": "kg",
+                "quantite": "0,020"
+            }
+        ],
+        "amandes": [
+            {
+                "nom": "amandes effilées",
+                "unite": "kg",
+                "quantite": "0,100"
+            },
+            {
+                "nom": "kirsch (pour humecter)",
+                "unite": "l",
+                "quantite": "PM"
+            }
+        ],
+        "decor": [
+            {
+                "nom": "framboises fraîches",
+                "quantite": "PM"
+            }
+        ]
+    },
+    "technique": [
+        "1. Mettre en place le poste de travail",
+        "2. Réaliser 4 œufs de génoise",
+        "3. Réaliser 0,15 l de sirop de punchage",
+        "4. Réaliser 0,25 l de crème Chantilly",
+        "5. Détendre 0,400 kg de framboises épépinées dans le sirop de punchage",
+        "6. Réaliser le montage de l’entremets",
+        "• Puncher et alterner génoise, crème Chantilly et coulis de framboises.",
+        "7. Réaliser 3 blancs d’œufs d’appareil à omelette norvégienne",
+        "• Monter les blancs en neige ferme.",
+        "• Blanchir le jaune avec le sucre et incorporer aux blancs.",
+        "8. Masquer et caraméliser l’entremets",
+        "• Recouvrir de meringue et caraméliser sans excès.",
+        "9. Masquer le pourtour à mi-hauteur avec des amandes concassées",
+        "• Humecter légèrement au kirsch et griller.",
+        "10. Décorer le dessus avec quelques framboises."
+    ]
+}

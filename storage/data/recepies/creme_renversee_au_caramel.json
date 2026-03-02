@@ -1,0 +1,67 @@
+{
+    "titre": "CRÈME RENVERSÉE AU CARAMEL",
+    "type": "Dessert",
+    "bandeau": "Entremets froids de cuisine à base d’appareil à crème prise sucré",
+    "fiche": 145,
+    "page": 922,
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "lait",
+                "unite": "l",
+                "quantite": "1"
+            },
+            {
+                "nom": "œufs entiers (6 pièces)",
+                "unite": "kg",
+                "quantite": "0,330"
+            },
+            {
+                "nom": "sucre semoule",
+                "unite": "kg",
+                "quantite": "0,200"
+            },
+            {
+                "nom": "vanille",
+                "unite": "gousse",
+                "quantite": "1/2"
+            }
+        ],
+        "caramel": [
+            {
+                "nom": "sucre semoule",
+                "unite": "kg",
+                "quantite": "0,140"
+            },
+            {
+                "nom": "eau",
+                "unite": "l",
+                "quantite": "PM"
+            }
+        ]
+    },
+    "technique": [
+        "1. Mettre en place le poste de travail - 5 min",
+        "• Denrées, matériels de préparation, de cuisson et de dressage.",
+        "2. Confectionner le caramel - 8 min (voir p. 581/585)",
+        "• Réunir l’eau et le sucre dans un poêlon, porter à ébullition, essuyer les parois du poêlon à l’aide d’un pinceau humide.",
+        "• Arrêter la cuisson du caramel lorsqu’il commence à prendre une teinte miel légèrement prononcée.",
+        "3. Chemiser les moules avec le caramel - 2 min",
+        "• Verser le caramel immédiatement dans les moules et les chemiser uniformément en le versant en fond des moules.",
+        "4. Confectionner l’appareil à crème prise sucrée - 15 min (voir p. 562)",
+        "• Mettre le lait à bouillir avec la demi-gousse de vanille fendue en deux dans le sens de la longueur et laisser infuser durant quelques minutes.",
+        "• Blanchir les œufs entiers avec le sucre dans une calotte en inox.",
+        "• Verser progressivement le lait bouillant sur les œufs blanchis en remuant à l’aide d’un fouet.",
+        "• Passer l’appareil au chinois étamine et écumer soigneusement.",
+        "5. Marquer les crèmes caramel en cuisson - 5 min",
+        "• Tapisser le fond d’une plaque allant au four avec une feuille de papier sulfurisé.",
+        "• Empiler les moules caramélisés avec l’appareil.",
+        "• Disposer les moules dans la plaque.",
+        "• Mouiller à mi-hauteur des moules avec de l’eau bouillante.",
+        "• Cuire les crèmes caramel au bain-marie et au four à 180 °C pendant 30 à 35 min.",
+        "• S’assurer de leur cuisson, les sonder à cœur à l’aide d’une aiguille (aucune trace d’appareil encore liquide ne doit remonter à la surface), les débarrasser, puis les réserver au frais jusqu’à leur complet refroidissement.",
+        "6. Dresser les crèmes caramel - 5 min",
+        "• Décoller la crème à l’aide d’un couteau d’office en longeant la paroi du moule.",
+        "• Renverser la crème dans le plat de service et répartir uniformément le caramel autour."
+    ]
+}

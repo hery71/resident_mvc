@@ -1,0 +1,100 @@
+{
+    "titre": "RATATOUILLE FAÇON NIÇOISE",
+    "type": "Accompagnement",
+    "page": 917,
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "aubergines",
+                "unite": "kg",
+                "quantite": "0,800"
+            },
+            {
+                "nom": "courgettes",
+                "unite": "kg",
+                "quantite": "1"
+            },
+            {
+                "nom": "poivrons rouges et verts",
+                "unite": "kg",
+                "quantite": "0,400"
+            },
+            {
+                "nom": "oignons",
+                "unite": "kg",
+                "quantite": "0,300"
+            },
+            {
+                "nom": "tomates",
+                "unite": "kg",
+                "quantite": "0,800"
+            },
+            {
+                "nom": "ail (4 gousses)",
+                "unite": "kg",
+                "quantite": "0,040"
+            },
+            {
+                "nom": "huile d’olive",
+                "unite": "l",
+                "quantite": "0,05"
+            },
+            {
+                "nom": "concentré de tomate",
+                "unite": "kg",
+                "quantite": "0,020"
+            },
+            {
+                "nom": "bouquet garni",
+                "quantite": "PM"
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel fin",
+                "quantite": "PM"
+            },
+            {
+                "nom": "poivre du moulin",
+                "quantite": "PM"
+            },
+            {
+                "nom": "sucre semoule",
+                "quantite": "PM"
+            },
+            {
+                "nom": "herbes de Provence",
+                "quantite": "PM"
+            },
+            {
+                "nom": "fleur de thym",
+                "quantite": "PM"
+            }
+        ]
+    },
+    "technique": [
+        "1. Mettre en place le poste de travail",
+        "2. Éplucher les légumes",
+        "• Laver, parer les extrémités et peler 0,800 kg d’aubergines et 1 kg de courgettes.",
+        "• Laisser un passage de peau sur deux ou les canneler régulièrement.",
+        "• Les tailler en petits dés réguliers de 6 à 8 mm de section, les saupoudrer de sel fin puis les laisser dégorger durant une trentaine de minutes.",
+        "• Monder, épépiner et détailler 0,400 kg de poivrons rouges et verts en lanières.",
+        "• Éplucher, laver et ciseler finement 0,300 kg d’oignons.",
+        "• Monder, épépiner et concasser 0,800 kg de tomates.",
+        "• Éplucher, dégermer, laver, écraser et hacher 0,040 kg d’ail.",
+        "• Confectionner un fond de bouquet garni riche en thym, y ajouter une belle branche de céleri et de fenouil.",
+        "3. Marquer la fondue de tomates",
+        "• Sauter 0,020 kg de concentré de tomate dans 0,05 l d’huile d’olive.",
+        "• Ajouter les tomates concassées, l’ail, le bouquet garni et éventuellement 0,020 kg de concentré de tomates si les tomates ne sont pas suffisamment rouges.",
+        "• Assaisonner et ajouter une petite pincée de sucre semoule.",
+        "• Cuire la fondue jusqu’à l’évaporation complète de l’eau de végétation des tomates.",
+        "4. Sauter le reste des légumes",
+        "• Sauter les courgettes, les aubergines et les poivrons séparément dans un mélange d’huile d’arachide et d’olive.",
+        "• Les cuire presque entièrement et les colorer très légèrement.",
+        "• Les égoutter en les débarrassant dans une passoire placée sur une calotte.",
+        "5. Terminer la ratatouille",
+        "• Ajouter les légumes à la fondue de tomates.",
+        "• Laisser la ratatouille finir de cuire très lentement durant une quinzaine de minutes et la remuer délicatement à l’aide d’une spatule (en grande quantité il est préférable de couvrir le rondeau et de terminer la cuisson dans un four à 200/210 °C).",
+        "• Vérifier l’assaisonnement et dresser ou refroidir rapidement."
+    ]
+}

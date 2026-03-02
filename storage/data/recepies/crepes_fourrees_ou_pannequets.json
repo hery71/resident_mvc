@@ -1,0 +1,81 @@
+{
+    "titre": "CRÊPES FOURRÉES OU PANNEQUETS",
+    "type": "Dessert",
+    "page": 943,
+    "denrees_pour_8_couverts": {
+        "pate_a_crepes": [
+            {
+                "nom": "pâte à crêpes",
+                "quantite": "voir p. 527"
+            }
+        ],
+        "garniture_fruits": [
+            {
+                "nom": "fruits confits",
+                "unite": "kg",
+                "quantite": "0,080"
+            },
+            {
+                "nom": "raisins secs",
+                "unite": "kg",
+                "quantite": "0,040"
+            },
+            {
+                "nom": "rhum",
+                "unite": "l",
+                "quantite": "0,04"
+            }
+        ],
+        "creme_patisserie": [
+            {
+                "nom": "lait",
+                "unite": "l",
+                "quantite": "PM"
+            },
+            {
+                "nom": "jaunes d’œufs",
+                "quantite": "PM"
+            },
+            {
+                "nom": "sucre semoule",
+                "quantite": "PM"
+            },
+            {
+                "nom": "farine tamisée",
+                "quantite": "PM"
+            },
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": "PM"
+            }
+        ],
+        "finition": [
+            {
+                "nom": "sucre glace",
+                "quantite": "PM"
+            }
+        ]
+    },
+    "technique": [
+        "1. Mettre en place le poste de travail - 5 min",
+        "2. Réaliser 12 à 14 crêpes - 10 min",
+        "3. Faire macérer les fruits - 2 min",
+        "• Macérer 0,080 kg de fruits confits et 0,040 kg de raisins secs dans 0,04 l de rhum.",
+        "4. Réaliser la crème pâtissière - 20 min",
+        "• Chauffer le lait.",
+        "• Blanchir les jaunes avec le sucre.",
+        "• Ajouter la farine tamisée, mélanger.",
+        "• Verser progressivement le lait bouillant.",
+        "• Cuire la crème pâtissière quelques minutes en remuant.",
+        "• Ajouter le beurre et débarrasser.",
+        "5. Mélanger les raisins macérés et les fruits confits dans la crème pâtissière - 3 min",
+        "6. Cuire les crêpes (sauter) - 20 min",
+        "7. Confectionner les crêpes fourrées (ou pannequets) - 10 min",
+        "• Garnir les crêpes avec la crème aux fruits.",
+        "• Les rouler ou plier en forme de cigare.",
+        "• Réserver les crêpes au chaud.",
+        "8. Dresser les crêpes fourrées - 10 min",
+        "• Saupoudrer de sucre glace et éventuellement glacer sous salamandre."
+    ]
+}

@@ -1,0 +1,56 @@
+{
+    "titre": "CHARLOTTE À LA RUSSE OU À LA PARISIENNE",
+    "type": "Dessert",
+    "page": 931,
+    "denrees_pour_8_couverts": {
+        "biscuit_a_la_cuillere": [
+            {
+                "nom": "biscuits à la cuillère",
+                "unite": "pièce",
+                "quantite": "PM"
+            }
+        ],
+        "sirop_de_punchage": [
+            {
+                "nom": "sirop à 30 °B ou 126/4 D",
+                "quantite": "PM"
+            },
+            {
+                "nom": "alcool ou liqueur (selon parfum)",
+                "quantite": "PM"
+            }
+        ],
+        "appareil_a_bavarois": [
+            {
+                "nom": "bavarois aux œufs parfumé (vanille, café, pistache, praliné, alcools, liqueurs, fruits confits macérés au kirsch…)",
+                "quantite": "PM"
+            }
+        ],
+        "finition": [
+            {
+                "nom": "crème Chantilly",
+                "quantite": "PM"
+            },
+            {
+                "nom": "éléments de décor assortis au parfum choisi",
+                "quantite": "PM"
+            }
+        ]
+    },
+    "technique": [
+        "1. Mettre en place le poste de travail",
+        "• Peser et mesurer les denrées.",
+        "2. Réaliser un appareil à bavarois aux œufs",
+        "• L’appareil est généralement parfumé à la vanille, mais il peut tout de même être diversement parfumé (café, pistache, caramel, praliné, alcools, liqueurs, fruits confits macérés au kirsch…).",
+        "3. Chemiser les moules",
+        "• Chemiser le fond des moules avec des biscuits à la cuillère taillés en forme de cœur (le côté bombé au-dessous et bien serrés les uns contre les autres).",
+        "• Chemiser les parois avec des biscuits assemblés légèrement parés de manière à bien les serrer.",
+        "4. Puncher les biscuits (facultatif)",
+        "• Les pulvériser éventuellement punchés avec un sirop alcoolisé (sirop à 30 °B ou 126/4 D détendu avec un alcool ou une liqueur).",
+        "5. Garnir les charlottes",
+        "• Garnir l’intérieur avec l’appareil à bavarois aux œufs parfumé.",
+        "• Lisser la surface à la spatule, filmer et réserver en enceinte réfrigérée.",
+        "6. Démouler",
+        "• Décorer avec de la crème Chantilly et des éléments de décor en rapport avec le parfum choisi."
+    ]
+}

@@ -1,0 +1,71 @@
+{
+    "titre": "SEMOULE AUX RAISINS, SAUCE CARAMEL",
+    "type": "Dessert",
+    "page": 933,
+    "denrees_pour_8_couverts": {
+        "semoule": [
+            {
+                "nom": "lait",
+                "unite": "l",
+                "quantite": "1"
+            },
+            {
+                "nom": "eau",
+                "unite": "l",
+                "quantite": "0,20"
+            },
+            {
+                "nom": "sucre",
+                "unite": "kg",
+                "quantite": "PM"
+            },
+            {
+                "nom": "extrait de vanille ou 1/2 gousse fendue",
+                "quantite": "PM"
+            },
+            {
+                "nom": "semoule de blé fine",
+                "unite": "kg",
+                "quantite": "0,125"
+            },
+            {
+                "nom": "raisins de Corinthe macérés",
+                "unite": "kg",
+                "quantite": "0,015"
+            },
+            {
+                "nom": "beurre (pour moules)",
+                "quantite": "PM"
+            }
+        ],
+        "caramel": [
+            {
+                "nom": "sucre",
+                "unite": "kg",
+                "quantite": "0,200"
+            },
+            {
+                "nom": "eau",
+                "unite": "l",
+                "quantite": "PM"
+            }
+        ]
+    },
+    "technique": [
+        "1. Mettre en place le poste de travail",
+        "• Denrées, matériels de préparation, de cuisson et de dressage.",
+        "2. Cuire la semoule",
+        "• Faire bouillir 1 l de lait avec 0,20 kg de sucre et quelques gouttes d’extrait de vanille ou une 1/2 gousse fendue en deux.",
+        "• Y verser en pluie 0,125 kg de semoule de blé fine et laisser cuire 8 à 10 min à feu doux en remuant constamment.",
+        "• Hors du feu, ajouter 0,015 kg de raisins de Corinthe macérés avec 0,05 l de rhum.",
+        "3. Mouler les semoules",
+        "• Remplir rapidement 8 ramequins légèrement huilés et laisser refroidir.",
+        "4. Confectionner la sauce caramel",
+        "• Cuire au caramel blond foncé 0,200 kg de sucre, puis le décuire avec un peu d’eau.",
+        "• Laisser rebouillir durant quelques secondes et passer au chinois.",
+        "5. Dresser les semoules",
+        "• Napper des assiettes avec de la sauce caramel.",
+        "• Démouler les semoules au milieu.",
+        "• Décorer avec des aigrettes au caramel ou du sucre brûlé."
+    ]
+}

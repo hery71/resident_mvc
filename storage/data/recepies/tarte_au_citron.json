@@ -1,0 +1,130 @@
+{
+    "titre": "TARTE AU CITRON",
+    "type": "Dessert",
+    "page": 960,
+    "denrees_pour_8_couverts": {
+        "pate_sucree": [
+            {
+                "nom": "farine",
+                "unite": "kg",
+                "quantite": "0,250"
+            },
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": "0,125"
+            },
+            {
+                "nom": "sucre glace",
+                "unite": "kg",
+                "quantite": "0,100"
+            },
+            {
+                "nom": "œuf entier (1 pièce)",
+                "unite": "kg",
+                "quantite": "0,055"
+            },
+            {
+                "nom": "eau",
+                "quantite": "PM"
+            },
+            {
+                "nom": "beurre pour le cercle",
+                "unite": "kg",
+                "quantite": "0,010"
+            },
+            {
+                "nom": "farine pour abaisser",
+                "unite": "kg",
+                "quantite": "0,040"
+            }
+        ],
+        "appareil_au_citron": [
+            {
+                "nom": "jus de citron",
+                "unite": "l",
+                "quantite": "0,30"
+            },
+            {
+                "nom": "citron (zeste)",
+                "quantite": "PM"
+            },
+            {
+                "nom": "sucre semoule",
+                "unite": "kg",
+                "quantite": "0,150"
+            },
+            {
+                "nom": "œufs entiers (3 pièces)",
+                "unite": "kg",
+                "quantite": "0,165"
+            },
+            {
+                "nom": "sucre semoule (pour blanchir)",
+                "unite": "kg",
+                "quantite": "0,050"
+            },
+            {
+                "nom": "poudre à crème",
+                "unite": "kg",
+                "quantite": "0,025"
+            },
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": "0,100"
+            }
+        ],
+        "nappage_citron": [
+            {
+                "nom": "nappage neutre",
+                "unite": "kg",
+                "quantite": "0,100"
+            },
+            {
+                "nom": "jus de citron",
+                "unite": "l",
+                "quantite": "0,02"
+            }
+        ],
+        "decor": [
+            {
+                "nom": "zestes de citron confits",
+                "quantite": "PM"
+            },
+            {
+                "nom": "citron (1 pièce)",
+                "unite": "kg",
+                "quantite": "0,100"
+            },
+            {
+                "nom": "sucre semoule",
+                "unite": "kg",
+                "quantite": "0,050"
+            },
+            {
+                "nom": "eau",
+                "quantite": "PM"
+            }
+        ]
+    },
+    "technique": [
+        "1. Mettre en place le poste de travail - 5 min.",
+        "2. Réaliser la pâte sucrée - 15 min (voir p. 486).",
+        "3. Réaliser les zestes de citron (facultatif) - 5 min.",
+        "4. Mettre en place les éléments de l’appareil au citron - 5 min.",
+        "5. Réaliser l’appareil au citron - 15 min.",
+        "• Blanchir œufs et sucre.",
+        "• Ajouter jus et zestes de citron.",
+        "• Incorporer la poudre à crème et cuire à la nappe.",
+        "• Ajouter le beurre hors du feu.",
+        "6. Foncer le cercle - 10 min (voir p. 484/490).",
+        "7. Cuire le fond de tarte à blanc - 5 min.",
+        "• Cuire au four à 200 °C environ 12 min.",
+        "8. Terminer l’appareil sur le fond de tarte - 10 min.",
+        "• Verser l’appareil et lisser.",
+        "9. Lustrer la tarte au citron.",
+        "• Napper avec nappage neutre légèrement citronné.",
+        "10. Dresser la tarte au citron."
+    ]
+}

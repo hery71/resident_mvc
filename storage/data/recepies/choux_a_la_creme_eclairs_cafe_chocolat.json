@@ -1,0 +1,138 @@
+{
+    "titre": "CHOUX À LA CRÈME, ÉCLAIRS CAFÉ - CHOCOLAT",
+    "type": "Dessert",
+    "page": 950,
+    "denrees_pour_8_couverts": {
+        "pate_a_choux": [
+            {
+                "nom": "eau",
+                "unite": "l",
+                "quantite": "0,25"
+            },
+            {
+                "nom": "sel fin",
+                "unite": "kg",
+                "quantite": "0,005"
+            },
+            {
+                "nom": "sucre semoule",
+                "unite": "kg",
+                "quantite": "0,010"
+            },
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": "0,080"
+            },
+            {
+                "nom": "farine",
+                "unite": "kg",
+                "quantite": "0,125"
+            },
+            {
+                "nom": "œufs entiers (4 à 5 selon calibre)",
+                "unite": "kg",
+                "quantite": "0,220"
+            },
+            {
+                "nom": "beurre pour la plaque",
+                "unite": "kg",
+                "quantite": "0,010"
+            }
+        ],
+        "dorure": [
+            {
+                "nom": "œuf (1 entier)",
+                "unite": "kg",
+                "quantite": "0,055"
+            }
+        ],
+        "creme_patissiere": [
+            {
+                "nom": "lait",
+                "unite": "l",
+                "quantite": "0,75"
+            },
+            {
+                "nom": "œufs (6 jaunes)",
+                "unite": "kg",
+                "quantite": "0,120"
+            },
+            {
+                "nom": "sucre semoule",
+                "unite": "kg",
+                "quantite": "0,150"
+            },
+            {
+                "nom": "farine",
+                "unite": "kg",
+                "quantite": "0,100"
+            },
+            {
+                "nom": "poudre à crème",
+                "unite": "kg",
+                "quantite": "0,060"
+            },
+            {
+                "nom": "vanille (gousse)",
+                "quantite": "1/2"
+            }
+        ],
+        "glacage": [
+            {
+                "nom": "fondant blanc",
+                "unite": "kg",
+                "quantite": "0,300"
+            },
+            {
+                "nom": "sirop à 1264 (30° Baumé)",
+                "unite": "l",
+                "quantite": "0,04"
+            }
+        ],
+        "finition": [
+            {
+                "nom": "café (extrait liquide)",
+                "quantite": "PM"
+            },
+            {
+                "nom": "cacao ou couverture",
+                "unite": "kg",
+                "quantite": "0,080"
+            },
+            {
+                "nom": "kirsch (facultatif)",
+                "unite": "l",
+                "quantite": "0,02"
+            },
+            {
+                "nom": "bigarreaux",
+                "unite": "kg",
+                "quantite": "0,020"
+            },
+            {
+                "nom": "grains de mimosa",
+                "quantite": "PM"
+            }
+        ]
+    },
+    "technique": [
+        "1. Mettre en place le poste de travail - 5 min.",
+        "2. Confectionner la pâte à choux - 15 min (voir p. 505/509).",
+        "3. Dresser ou coucher les choux ou les éclairs - 10 min.",
+        "• Les coucher sur plaque beurrée.",
+        "• Utiliser une douille unie ronde (1 à 1,2 cm).",
+        "4. Marquer les choux ou les éclairs en cuisson - 5 min.",
+        "• Les dessécher en ouvrant le four en fin de cuisson.",
+        "5. Réaliser la crème pâtissière - 20 min (voir p. 547/549).",
+        "• Parfumer à la vanille, café, chocolat ou kirsch.",
+        "• Refroidir rapidement.",
+        "6. Garnir les choux ou les éclairs - 15 min.",
+        "• Percer et garnir à la poche.",
+        "7. Glacer les choux ou les éclairs - 12 min.",
+        "• Glacer au fondant blanc.",
+        "• Parfumer au café ou chocolat.",
+        "8. Dresser les éclairs - 3 min.",
+        "• Disposer harmonieusement sur plat de service."
+    ]
+}

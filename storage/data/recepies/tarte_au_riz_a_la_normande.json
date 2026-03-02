@@ -1,0 +1,94 @@
+{
+    "titre": "TARTE AU RIZ À LA NORMANDE",
+    "type": "Dessert",
+    "page": 937,
+    "denrees_pour_8_couverts": {
+        "pate_brisee": [
+            {
+                "nom": "farine",
+                "unite": "kg",
+                "quantite": "0,200"
+            },
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": "0,100"
+            },
+            {
+                "nom": "jaune d'œuf",
+                "unite": "pièce",
+                "quantite": "1"
+            },
+            {
+                "nom": "eau",
+                "unite": "l",
+                "quantite": "0,005"
+            },
+            {
+                "nom": "sel fin",
+                "quantite": "PM"
+            }
+        ],
+        "riz_au_lait": [
+            {
+                "nom": "riz long",
+                "quantite": "voir proportions p.2"
+            },
+            {
+                "nom": "lait",
+                "quantite": "voir proportions p.2"
+            },
+            {
+                "nom": "sucre",
+                "quantite": "voir proportions p.2"
+            },
+            {
+                "nom": "vanille",
+                "quantite": "voir proportions p.2"
+            }
+        ],
+        "garniture": [
+            {
+                "nom": "pommes reinettes",
+                "unite": "kg",
+                "quantite": "1"
+            },
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": "0,100"
+            },
+            {
+                "nom": "sucre semoule",
+                "unite": "kg",
+                "quantite": "0,100"
+            },
+            {
+                "nom": "calvados",
+                "unite": "l",
+                "quantite": "0,10"
+            }
+        ],
+        "finition": [
+            {
+                "nom": "nappage abricot",
+                "quantite": "PM"
+            }
+        ]
+    },
+    "technique": [
+        "1. Confectionner de la pâte brisée.",
+        "2. Foncer et cuire à blanc une grande tarte.",
+        "3. Confectionner un riz au lait (voir proportions p.2).",
+        "4. Terminer l’appareil.",
+        "• Mélanger le riz froid et l’appareil à bavarois.",
+        "• Garnir la tarte avec cet appareil.",
+        "5. Préparer la garniture.",
+        "• Laver, éplucher et couper en quartiers les pommes.",
+        "• Les faire sauter avec le beurre, puis les saupoudrer de sucre et laisser caraméliser.",
+        "• Flamber avec le calvados et laisser refroidir.",
+        "6. Dresser.",
+        "• Ranger harmonieusement les quartiers de pommes sur le riz.",
+        "• Lustrer légèrement avec du nappage abricot."
+    ]
+}

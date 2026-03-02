@@ -1,0 +1,229 @@
+{
+    "titre": "COQ AU VIN",
+    "bandeau": "Ragoûts de volaille à brun",
+    "fiche": 120,
+    "page": 868,
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "coq (1 pièce)",
+                "unite": "kg",
+                "quantite": "2,600"
+            },
+            {
+                "nom": "boure",
+                "unite": "kg",
+                "quantite": "2,800"
+            },
+            {
+                "nom": "huile d’arachide",
+                "unite": "kg",
+                "quantite": "0,040"
+            },
+            {
+                "nom": "huile d’olive",
+                "unite": "kg",
+                "quantite": "0,040"
+            }
+        ],
+        "marinade_a_cru": [
+            {
+                "nom": "carottes",
+                "unite": "kg",
+                "quantite": "0,200"
+            },
+            {
+                "nom": "oignons",
+                "unite": "kg",
+                "quantite": "0,200"
+            },
+            {
+                "nom": "échalotes",
+                "unite": "kg",
+                "quantite": "0,040"
+            },
+            {
+                "nom": "ail (2 gousses)",
+                "unite": "pièce",
+                "quantite": "0,015"
+            },
+            {
+                "nom": "bouquet garni",
+                "unite": "pièce",
+                "quantite": "1"
+            },
+            {
+                "nom": "poivre en grains",
+                "unite": "kg",
+                "quantite": "PM"
+            },
+            {
+                "nom": "vin rouge (passetoutgrain, morgon, vin de Chartigue)",
+                "unite": "l",
+                "quantite": "1,5"
+            },
+            {
+                "nom": "cognac",
+                "unite": "l",
+                "quantite": "0,05"
+            }
+        ],
+        "fond_brun_de_volaille": [
+            {
+                "nom": "carcasses et abattis",
+                "unite": "kg",
+                "quantite": "PM"
+            },
+            {
+                "nom": "carottes",
+                "unite": "kg",
+                "quantite": "0,100"
+            },
+            {
+                "nom": "oignons",
+                "unite": "kg",
+                "quantite": "0,100"
+            },
+            {
+                "nom": "tomates",
+                "unite": "kg",
+                "quantite": "0,200"
+            },
+            {
+                "nom": "concentré de tomate",
+                "unite": "kg",
+                "quantite": "0,020"
+            },
+            {
+                "nom": "bouquet garni",
+                "unite": "pièce",
+                "quantite": "1"
+            },
+            {
+                "nom": "fond brun de veau légèrement lié",
+                "unite": "l",
+                "quantite": "1"
+            }
+        ],
+        "liaison_de_la_sauce": [
+            {
+                "nom": "sang de volaille",
+                "unite": "l",
+                "quantite": "0,10"
+            },
+            {
+                "nom": "cognac ou marc",
+                "unite": "l",
+                "quantite": "0,02"
+            }
+        ],
+        "garniture": [
+            {
+                "nom": "poitrine demi-sel",
+                "unite": "kg",
+                "quantite": "0,250"
+            },
+            {
+                "nom": "champignons de Paris",
+                "unite": "kg",
+                "quantite": "0,250"
+            },
+            {
+                "nom": "petits oignons",
+                "unite": "kg",
+                "quantite": "0,250"
+            },
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": "0,020"
+            },
+            {
+                "nom": "sucre",
+                "unite": "kg",
+                "quantite": "PM"
+            },
+            {
+                "nom": "pain de mie",
+                "unite": "kg",
+                "quantite": "0,160"
+            },
+            {
+                "nom": "4 tranches de 0,040 kg",
+                "unite": "kg",
+                "quantite": "0,040"
+            },
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": "0,040"
+            }
+        ],
+        "finition": [
+            {
+                "nom": "persil",
+                "unite": "kg",
+                "quantite": "PM"
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel",
+                "quantite": "PM"
+            },
+            {
+                "nom": "poivre du moulin",
+                "quantite": "PM"
+            }
+        ]
+    },
+    "technique": [
+        "1. Mettre en place le poste de travail - 5 min",
+        "• Denrées, matériels de préparation, de cuisson et de dressage.",
+        "La veille :",
+        "2. Habiller et découper le coq en 16 morceaux - 25 min",
+        "3. Réaliser une marinade à cru - 15 min (voir p. 333/333)",
+        "• Placer les morceaux de coq assaisonnés dans la marinade.",
+        "• Couvrir le récipient et le placer en enceinte réfrigérée durant 12 h au minimum.",
+        "• Retourner les morceaux au bout de quelques heures.",
+        "4. Marquer un fond brun de volaille légèrement lié - 10 min (voir p. 261)",
+        "• Le refroidir rapidement et le réserver à couvert en enceinte réfrigérée.",
+        "Le lendemain :",
+        "5. Marquer le coq au vin en cuisson - 20 min (voir p. 462/465)",
+        "• Égoutter et éponger soigneusement les morceaux de coq et la garniture aromatique.",
+        "• Filtrer la marinade et la porter à ébullition, l’écumer.",
+        "• Rissoler soigneusement les morceaux sur toutes leurs faces en les débarrassant au fur et à mesure dans le mélange d’huile et de beurre.",
+        "• Les débarrasser et les réserver dans une plaque.",
+        "• Ajouter la garniture aromatique de la marinade dans le récipient de cuisson et la faire pincer légèrement.",
+        "• Déglacer puis replacer les morceaux de coq sur la garniture aromatique.",
+        "• Flamber avec le cognac ou le marc de Bourgogne.",
+        "• Ajouter la marinade bouillante et la laisser réduire durant une dizaine de minutes.",
+        "• Compléter le mouillement avec le fond brun de volaille légèrement lié.",
+        "• Assaisonner légèrement, écumer et couvrir le récipient.",
+        "• Cuire le coq au vin au four à environ 200 °C durant 1 h 30 à 2 h 30 en liaison sang et cognac.",
+        "• Surveiller la cuisson, elle doit être très régulière.",
+        "• Compléter l’évaporation de la sauce s’il y a lieu avec un peu d’eau bouillante ou de fond brun clair de volaille.",
+        "6. Préparer la garniture - 20 min (voir p. 397)",
+        "• Clacer les petits oignons à brun (voir p. 397).",
+        "• Tailler les lardons, les blanchir et les faire rissoler sans les dessécher, puis les réserver.",
+        "• Sauter les champignons escalopés dans la graisse des lardons.",
+        "• Tailler les croûtons de pain de mie en forme de cœur et les sauter dans du beurre clarifié (ou les toaster sous la salamandre).",
+        "7. Décanter le coq au vin - 5 min",
+        "• S’assurer de la cuisson des morceaux.",
+        "• Les décanter dans un autre rondeau.",
+        "• Vérifier la couleur, l’onctuosité et l’assaisonnement de la sauce, la dégraisser si nécessaire.",
+        "• La passer au chinois étamine sur les morceaux.",
+        "• Ajouter les lardons et les champignons et laisser mijoter l’ensemble durant une dizaine de minutes.",
+        "• Débarrasser et réserver à couvert au bain-marie.",
+        "8. Terminer la liaison de la sauce - 5 min",
+        "• Disposer les morceaux dans les plats de service.",
+        "• Répartir équitablement la garniture sur le dessus et maintenir le plat au chaud.",
+        "• Lier la sauce au sang ; reporter la sauce à ébullition et la retirer du feu.",
+        "• Détendre le sang avec le cognac ou le marc et le chauffer progressivement en lui incorporant un peu de sauce bouillante.",
+        "• Verser doucement la liaison dans le reste de la sauce en remuant à l’aide d’un petit fouet.",
+        "• Reporter la sauce liée à ébullition, dès les premiers frémissements la retirer du feu et la passer au chinois étamine sur les morceaux.",
+        "9. Dresser le coq au vin - 5 min",
+        "• Disposer harmonieusement les petits oignons glacés.",
+        "• Remplir la pointe des croûtons dans la sauce puis dans le persil haché et les disposer tout autour des morceaux, les pointes orientées vers l’extérieur du plat."
+    ]
+}

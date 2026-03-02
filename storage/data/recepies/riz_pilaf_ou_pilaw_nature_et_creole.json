@@ -1,0 +1,81 @@
+{
+    "titre": "RIZ PILAF OU PILAW, NATURE ET CRÉOLE",
+    "type": "Accompagnement",
+    "bandeau": "La cuisson du riz",
+    "fiche": 136,
+    "page": 902,
+    "denrees_pour_8_couverts": {
+        "riz_pilaf_elements_de_base": [
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": "0,080"
+            },
+            {
+                "nom": "oignons",
+                "unite": "kg",
+                "quantite": "0,150"
+            },
+            {
+                "nom": "riz long non traité ni lavé (Surinam, basmati, thaï)",
+                "unite": "kg",
+                "quantite": "0,400"
+            },
+            {
+                "nom": "eau ou fond blanc de veau ou de volaille ou fumet de poisson",
+                "unite": "l",
+                "quantite": "0,75"
+            },
+            {
+                "nom": "bouquet garni",
+                "unite": "pièce",
+                "quantite": "1"
+            }
+        ],
+        "finition": [
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": "0,040"
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel fin",
+                "quantite": "PM"
+            },
+            {
+                "nom": "poivre du moulin",
+                "quantite": "PM"
+            }
+        ]
+    },
+    "technique": [
+        "Riz pilaf (voir p. 379/380)",
+        "1. Mettre en place le poste de travail - 5 min",
+        "• Denrées, matériels de préparation, de cuisson et de dressage.",
+        "• Mesurer le riz (0,400 kg de riz correspond approximativement à un demi-litre).",
+        "• Choisir le liquide de mouillement en fonction de l’utilisation du riz (eau, fond blanc de veau ou de volaille, fumet de poisson).",
+        "• Le porter à ébullition (en règle générale, il faut 1,5 volume de liquide de mouillement pour 1 volume de riz).",
+        "2. Préparer la garniture aromatique - 10 min",
+        "• Éplucher, laver et ciseler l’oignon.",
+        "• Confectionner un petit bouquet garni.",
+        "3. Marquer le riz pilaf en cuisson - 10 min",
+        "• Faire fondre le beurre dans une grande sauteuse.",
+        "• Ajouter les oignons ciselés et les suer sans exagération durant 1 à 2 min sur un feu très doux.",
+        "• Verser le riz long non lavé.",
+        "• L’enrober de beurre et le nacrer en le remuant sans arrêt à l’aide d’une spatule (les grains de riz doivent s’égrener facilement et blanchir comme de la nacre).",
+        "• Mouiller avec le liquide bouillant.",
+        "• Assaisonner et ajouter le bouquet garni.",
+        "• Vérifier l’heure à partir de la reprise de l’ébullition.",
+        "• Couvrir hermétiquement avec une feuille de papier sulfurisé et un couvercle.",
+        "• Cuire le riz au four à 190/200 °C, grille à mi-hauteur, durant 15 à 19 min selon la qualité du riz.",
+        "• Ne pas découvrir, ni remuer durant la cuisson.",
+        "4. Terminer et décanter le riz puis le beurrer - 5 min",
+        "• S’assurer de sa cuisson en le goûtant.",
+        "• Le sortir du four et le laisser gonfler à couvert durant quelques minutes.",
+        "• Retirer le bouquet garni et débarrasser le riz dans un grand plat en acier inoxydable.",
+        "• Ajouter le beurre en parcelles et l’égrener à l’aide d’une fourchette.",
+        "• Vérifier l’assaisonnement, le couvrir avec une feuille de papier sulfurisé et le réserver au chaud."
+    ]
+}

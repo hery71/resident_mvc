@@ -1,0 +1,92 @@
+{
+    "titre": "TARTE À L’ORANGE",
+    "type": "Dessert",
+    "page": 961,
+    "denrees_pour_8_couverts": {
+        "pate_sucree": [
+            {
+                "nom": "pâte sucrée",
+                "unite": "kg",
+                "quantite": "0,250"
+            }
+        ],
+        "oranges_confites": [
+            {
+                "nom": "oranges",
+                "unite": "kg",
+                "quantite": "0,800"
+            },
+            {
+                "nom": "sucre",
+                "unite": "kg",
+                "quantite": "0,300"
+            },
+            {
+                "nom": "eau",
+                "unite": "l",
+                "quantite": "0,03"
+            }
+        ],
+        "appareil_a_l_orange": [
+            {
+                "nom": "beurre en pommade",
+                "unite": "kg",
+                "quantite": "0,100"
+            },
+            {
+                "nom": "crème liquide",
+                "unite": "l",
+                "quantite": "0,20"
+            },
+            {
+                "nom": "œufs entiers (3 pièces)",
+                "quantite": "3"
+            },
+            {
+                "nom": "jaunes d’œufs",
+                "unite": "kg",
+                "quantite": "0,050"
+            },
+            {
+                "nom": "sucre semoule",
+                "unite": "kg",
+                "quantite": "0,200"
+            },
+            {
+                "nom": "poudre à crème",
+                "unite": "kg",
+                "quantite": "0,050"
+            }
+        ],
+        "finition": [
+            {
+                "nom": "nappage neutre",
+                "unite": "kg",
+                "quantite": "0,100"
+            },
+            {
+                "nom": "jus d’orange",
+                "quantite": "PM"
+            }
+        ]
+    },
+    "technique": [
+        "1. Mettre en place le poste de travail.",
+        "2. Réaliser 0,250 kg de pâte sucrée (voir p. 486).",
+        "3. Confire les rondelles d’orange pour le décor.",
+        "• Tailler en rondelles et cuire dans un sirop léger.",
+        "4. Réaliser l’appareil à l’orange.",
+        "• Blanchir œufs et sucre.",
+        "• Ajouter la crème et la poudre à crème.",
+        "• Incorporer le beurre et cuire à la nappe.",
+        "5. Foncer le cercle avec la pâte sucrée.",
+        "• Piquer le fond et cuire à blanc.",
+        "6. Terminer l’appareil.",
+        "• Verser l’appareil sur le fond refroidi.",
+        "7. Garnir le fond de tarte.",
+        "• Lisser l’appareil.",
+        "• Disposer les rondelles d’orange confites en rosace.",
+        "8. Lustrer la tarte.",
+        "• Napper légèrement avec nappage neutre parfumé au jus d’orange."
+    ]
+}

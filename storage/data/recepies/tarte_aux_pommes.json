@@ -1,0 +1,104 @@
+{
+    "titre": "TARTE AUX POMMES",
+    "type": "Dessert",
+    "page": 952,
+    "denrees_pour_8_couverts": {
+        "pate_brisee": [
+            {
+                "nom": "farine",
+                "unite": "kg",
+                "quantite": "0,250"
+            },
+            {
+                "nom": "sucre semoule",
+                "unite": "kg",
+                "quantite": "0,025"
+            },
+            {
+                "nom": "sel",
+                "unite": "kg",
+                "quantite": "0,005"
+            },
+            {
+                "nom": "beurre extra-fin",
+                "unite": "kg",
+                "quantite": "0,125"
+            },
+            {
+                "nom": "eau (jaune)",
+                "unite": "l",
+                "quantite": "0,050"
+            },
+            {
+                "nom": "farine (pour abaisser)",
+                "unite": "kg",
+                "quantite": "0,040"
+            },
+            {
+                "nom": "beurre (pour le cercle)",
+                "unite": "kg",
+                "quantite": "0,010"
+            }
+        ],
+        "compote_marmelade": [
+            {
+                "nom": "pommes",
+                "unite": "kg",
+                "quantite": "0,600"
+            },
+            {
+                "nom": "citron",
+                "unite": "piece",
+                "quantite": "1/2"
+            },
+            {
+                "nom": "sucre semoule",
+                "unite": "kg",
+                "quantite": "0,040"
+            }
+        ],
+        "garniture": [
+            {
+                "nom": "pommes (cox oranges ou reines)",
+                "unite": "kg",
+                "quantite": "0,600"
+            },
+            {
+                "nom": "rondelles de citron",
+                "quantite": "PM"
+            }
+        ],
+        "dorure": [
+            {
+                "nom": "œuf (1 entier)",
+                "unite": "kg",
+                "quantite": "0,055"
+            }
+        ],
+        "finition": [
+            {
+                "nom": "nappage abricot",
+                "unite": "kg",
+                "quantite": "0,140"
+            }
+        ]
+    },
+    "technique": [
+        "1. Mettre en place le poste de travail - 5 min.",
+        "2. Confectionner la pâte brisée - 15 min (voir p. 481/485).",
+        "3. Éplucher et citronner les pommes - 10 min.",
+        "4. Confectionner la compote (marmelade) - 10 min.",
+        "• Cuire les pommes avec sucre et eau, puis passer au tamis.",
+        "5. Foncer la tarte - 10 min (voir p. 484/485).",
+        "• Abaisser à 3 mm, foncer le cercle et piquer.",
+        "6. Garnir la tarte - 15 min.",
+        "• Étaler la compote refroidie.",
+        "• Disposer harmonieusement les lamelles de pommes.",
+        "• Dorer à l’œuf.",
+        "7. Marquer la tarte en cuisson - 3 min.",
+        "• Cuire au four à 200 °C pendant 30 à 35 min.",
+        "8. Napper la tarte aux pommes - 5 min.",
+        "• Chauffer le nappage et lustrer la surface.",
+        "9. Dresser la tarte aux pommes - 2 min."
+    ]
+}

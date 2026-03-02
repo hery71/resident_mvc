@@ -1,0 +1,149 @@
+{
+    "titre": "ENTREMETS FAÇON SINGAPOUR",
+    "type": "Dessert",
+    "bandeau": "Pâtisseries à base de génoise, crème pâtissière et crèmes dérivées",
+    "page": 944,
+    "denrees_pour_8_couverts": {
+        "genoise": [
+            {
+                "nom": "œufs entiers (4 pièces)",
+                "unite": "kg",
+                "quantite": "0,220"
+            },
+            {
+                "nom": "sucre semoule",
+                "unite": "kg",
+                "quantite": "0,125"
+            },
+            {
+                "nom": "farine",
+                "unite": "kg",
+                "quantite": "0,125"
+            },
+            {
+                "nom": "beurre (facultatif)",
+                "unite": "kg",
+                "quantite": "0,040"
+            }
+        ],
+        "chemise": [
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": "0,020"
+            },
+            {
+                "nom": "farine",
+                "unite": "kg",
+                "quantite": "0,020"
+            }
+        ],
+        "sirop_de_punchage": [
+            {
+                "nom": "eau",
+                "unite": "l",
+                "quantite": "0,05"
+            },
+            {
+                "nom": "sucre",
+                "unite": "kg",
+                "quantite": "0,040"
+            },
+            {
+                "nom": "kirsch",
+                "unite": "l",
+                "quantite": "0,04"
+            }
+        ],
+        "creme_patissiere": [
+            {
+                "nom": "lait",
+                "unite": "l",
+                "quantite": "0,50"
+            },
+            {
+                "nom": "œufs (4 jaunes)",
+                "unite": "kg",
+                "quantite": "0,080"
+            },
+            {
+                "nom": "sucre semoule",
+                "unite": "kg",
+                "quantite": "0,100"
+            },
+            {
+                "nom": "poudre à crème",
+                "unite": "kg",
+                "quantite": "0,040"
+            },
+            {
+                "nom": "vanille",
+                "unite": "gousse",
+                "quantite": "1/2"
+            },
+            {
+                "nom": "kirsch",
+                "unite": "l",
+                "quantite": "0,02"
+            }
+        ],
+        "compote_dananas": [
+            {
+                "nom": "ananas au sirop (4/4)",
+                "unite": "pièce",
+                "quantite": "1"
+            },
+            {
+                "nom": "sirop d’ananas",
+                "unite": "l",
+                "quantite": "PM"
+            }
+        ],
+        "finition_decor": [
+            {
+                "nom": "nappage abricot",
+                "unite": "kg",
+                "quantite": "0,080"
+            },
+            {
+                "nom": "ananas rondelles",
+                "unite": "pièce",
+                "quantite": "2"
+            },
+            {
+                "nom": "bigarreaux confits",
+                "unite": "pièce",
+                "quantite": "4"
+            },
+            {
+                "nom": "angélique confite",
+                "unite": "kg",
+                "quantite": "0,020"
+            },
+            {
+                "nom": "amandes concassées",
+                "unite": "kg",
+                "quantite": "0,080"
+            }
+        ]
+    },
+    "technique": [
+        "1. Mettre en place le poste de travail - 5 min",
+        "2. Chemiser le moule - 3 min",
+        "3. Réaliser la génoise - 15 min",
+        "4. Marquer la génoise en cuisson - 2 min",
+        "• Cuire à 180 °C durant 20 à 25 min.",
+        "5. Réaliser le sirop de punchage - 3 min",
+        "6. Réaliser la crème pâtissière - 20 min",
+        "7. Démouler et débarrasser la génoise - 2 min",
+        "8. Réaliser la compote d’ananas - 10 min",
+        "9. Griller les amandes concassées - 5 min",
+        "10. Réaliser le montage de l’entremets - 10 min",
+        "• Puncher les disques de génoise au kirsch.",
+        "• Garnir de crème pâtissière et de compote d’ananas.",
+        "11. Terminer et décorer l’entremets - 8 min",
+        "• Lustrer au nappage abricot.",
+        "• Décorer avec rondelles d’ananas, fruits confits et amandes.",
+        "12. Dresser l’entremets - 2 min"
+    ]
+}

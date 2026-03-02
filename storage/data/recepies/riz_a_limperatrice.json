@@ -1,0 +1,121 @@
+{
+    "titre": "RIZ À L’IMPÉRATRICE",
+    "type": "Dessert",
+    "bandeau": "Entremets froids de cuisine à base de riz au lait et d’appareil à bavarois aux œufs",
+    "page": 936,
+    "denrees_pour_8_couverts": {
+        "riz_au_lait": [
+            {
+                "nom": "lait",
+                "unite": "l",
+                "quantite": "0,75"
+            },
+            {
+                "nom": "sel fin",
+                "quantite": "PM"
+            },
+            {
+                "nom": "riz long",
+                "unite": "kg",
+                "quantite": "0,150"
+            },
+            {
+                "nom": "vanille",
+                "unite": "gousse",
+                "quantite": "1/2"
+            }
+        ],
+        "appareil_a_bavarois": [
+            {
+                "nom": "lait",
+                "unite": "l",
+                "quantite": "0,50"
+            },
+            {
+                "nom": "œufs (4 jaunes)",
+                "unite": "kg",
+                "quantite": "0,080"
+            },
+            {
+                "nom": "sucre semoule",
+                "unite": "kg",
+                "quantite": "0,150"
+            },
+            {
+                "nom": "vanille",
+                "unite": "gousse",
+                "quantite": "1/2"
+            },
+            {
+                "nom": "gélatine (6 à 7 feuilles)",
+                "unite": "kg",
+                "quantite": "0,012 à 0,014"
+            },
+            {
+                "nom": "crème fleurette",
+                "unite": "kg",
+                "quantite": "0,30"
+            },
+            {
+                "nom": "fruits confits en cubes",
+                "unite": "kg",
+                "quantite": "0,100"
+            },
+            {
+                "nom": "kirsch",
+                "unite": "l",
+                "quantite": "0,04"
+            }
+        ],
+        "chemise": [
+            {
+                "nom": "gelée de groseilles",
+                "unite": "kg",
+                "quantite": "0,04"
+            },
+            {
+                "nom": "gélatine (1 feuille)",
+                "unite": "kg",
+                "quantite": "0,002"
+            }
+        ],
+        "coulis_de_fruits_rouges": [
+            {
+                "nom": "fraises",
+                "unite": "kg",
+                "quantite": "0,100"
+            },
+            {
+                "nom": "framboises",
+                "unite": "kg",
+                "quantite": "0,100"
+            },
+            {
+                "nom": "sucre glace",
+                "unite": "kg",
+                "quantite": "0,080"
+            },
+            {
+                "nom": "citron (1/2 pièce)",
+                "unite": "kg",
+                "quantite": "0,050"
+            }
+        ]
+    },
+    "technique": [
+        "1. Mettre en place le poste de travail - 5 min",
+        "2. Blanchir le riz - 5 min",
+        "3. Marquer le riz en cuisson - 5 min",
+        "4. Mettre les feuilles de gélatine à tremper - 5 min",
+        "5. Faire macérer les fruits confits dans le kirsch - 5 min",
+        "6. Confectionner la crème anglaise - 15 min",
+        "7. Chemiser le fond du moule avec la gelée de groseille - 5 min",
+        "8. Débarrasser le riz - 5 min",
+        "9. Terminer l’appareil à bavarois - 15 min",
+        "10. Mouler le riz - 5 min",
+        "• Réserver en enceinte réfrigérée pendant 2 heures minimum.",
+        "11. Confectionner le coulis de fruits rouges - 10 min",
+        "12. Dresser le riz - 5 min",
+        "• Servir le coulis en saucière."
+    ]
+}

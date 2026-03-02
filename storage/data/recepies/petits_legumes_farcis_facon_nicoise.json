@@ -1,0 +1,176 @@
+{
+    "titre": "PETITS LÉGUMES FARCIS FAÇON NIÇOISE",
+    "type": "Accompagnement",
+    "bandeau": "Légumes farcis",
+    "fiche": 144,
+    "page": 918,
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "tomates (8 x 0,060 kg)",
+                "unite": "kg",
+                "quantite": "0,480"
+            },
+            {
+                "nom": "courgettes rondes (8 x 0,060 kg)",
+                "unite": "kg",
+                "quantite": "0,480"
+            },
+            {
+                "nom": "aubergines longues (2 x 0,250 kg)",
+                "unite": "kg",
+                "quantite": "0,500"
+            },
+            {
+                "nom": "oignons rouges (8 x 0,060 kg)",
+                "unite": "kg",
+                "quantite": "0,480"
+            }
+        ],
+        "farce": [
+            {
+                "nom": "riz long",
+                "unite": "kg",
+                "quantite": "0,100"
+            },
+            {
+                "nom": "huile d’olive",
+                "unite": "l",
+                "quantite": "0,10"
+            },
+            {
+                "nom": "poitrine de porc fumée ou lard",
+                "unite": "kg",
+                "quantite": "0,200"
+            },
+            {
+                "nom": "chair à saucisse",
+                "unite": "kg",
+                "quantite": "0,250"
+            },
+            {
+                "nom": "jambon blanc",
+                "unite": "kg",
+                "quantite": "0,100"
+            },
+            {
+                "nom": "pulpe ou chair de légumes en traitement",
+                "unite": "kg",
+                "quantite": "PM"
+            },
+            {
+                "nom": "ail (2 gousses)",
+                "unite": "kg",
+                "quantite": "0,015"
+            },
+            {
+                "nom": "tomate (1 grosse)",
+                "unite": "kg",
+                "quantite": "0,150"
+            },
+            {
+                "nom": "poivron rouge (1/3 p)",
+                "unite": "kg",
+                "quantite": "0,100"
+            },
+            {
+                "nom": "fenouil bulbeux (1/3 p)",
+                "unite": "kg",
+                "quantite": "0,100"
+            },
+            {
+                "nom": "persil plat",
+                "unite": "kg",
+                "quantite": "0,020"
+            },
+            {
+                "nom": "herbes de Provence ou fleur de thym",
+                "quantite": "PM"
+            }
+        ],
+        "liaison_de_la_farce": [
+            {
+                "nom": "mie de pain blanche",
+                "unite": "kg",
+                "quantite": "0,100"
+            },
+            {
+                "nom": "œufs entiers",
+                "unite": "pièce",
+                "quantite": "2"
+            }
+        ],
+        "finition": [
+            {
+                "nom": "parmesan râpé",
+                "unite": "kg",
+                "quantite": "0,100"
+            },
+            {
+                "nom": "mie de pain blanche",
+                "unite": "kg",
+                "quantite": "0,100"
+            },
+            {
+                "nom": "huile d’olive",
+                "unite": "l",
+                "quantite": "0,05"
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel fin",
+                "quantite": "PM"
+            },
+            {
+                "nom": "poivre du moulin",
+                "quantite": "PM"
+            }
+        ]
+    },
+    "technique": [
+        "1. Mettre en place le poste de travail - 5 min",
+        "• Denrées, matériels de préparation, de cuisson et de dressage.",
+        "2. Évider les légumes - 20 min",
+        "• Laver et évider les courgettes, les tomates, les oignons et les aubergines.",
+        "• Réserver la chair dans une calotte.",
+        "• Saler les courgettes ou les pâtissons et les laisser dégorger retournés sur une plaque munie d’une grille.",
+        "• Canneler et tronçonner les aubergines en quatre, les cercler à 5 mm des bords et les évider à l’aide d’une cuillère à pommes noisettes.",
+        "• Réserver la chair des aubergines.",
+        "• Dégorger les tronçons d’aubergines.",
+        "• Éplucher délicatement les oignons en évitant de détériorer la première couche.",
+        "• Sectionner la partie supérieure des oignons sur 1 cm à 1,5 cm de hauteur.",
+        "• Pratiquer une incision en enfonçant transversalement la lame d’un couteau d’office à la base de l’oignon environ 1 cm du talon afin d’éviter l’éclatement lors de l’ébullition.",
+        "3. Blanchir les légumes - 10 min",
+        "• Plonger les aubergines dans l’eau bouillante durant 6 à 8 min (elles doivent être tendres mais se soutenir sans s’affaisser), les oignons durant une dizaine de minutes et les courgettes durant 4 à 6 min.",
+        "• Les rafraîchir dans de l’eau glacée et les égoutter.",
+        "• Évider les oignons en les laissant subsister autour et au fond qu’une épaisseur de deux couches de chair.",
+        "• Hacher finement la chair des courgettes.",
+        "4. Laver et cuire le riz - 5 min",
+        "• Laver et cuire le riz dans une grande quantité d’eau bouillante salée. Le rafraîchir et l’égoutter.",
+        "5. Préparer les éléments de la farce - 20 min",
+        "• Tailler le jambon et la poitrine fumée en petits dés (brunoise).",
+        "• Monder et détailler la pulpe de tomate en petits dés.",
+        "• Monder le poivron et le fenouil et les tailler en brunoise.",
+        "• Éplucher, dégermer et tailler le fenouil également en petits dés.",
+        "• Hacher le persil.",
+        "6. Réaliser la farce - 20 min",
+        "• Concasser et hacher la chair des aubergines, des courgettes et des pâtissons.",
+        "• La faire revenir dans une sauteuse avec de l’huile d’olive.",
+        "• Ajouter la brunoise de fenouil, de poivron, les oignons et l’ail hachés.",
+        "• Laisser compoter avec une légère coloration sur un feu doux.",
+        "• Sauter à part le jambon blanc et la poitrine fumée.",
+        "• Les ajouter aux légumes puis successivement les dés de pulpe de tomate, le riz créole, le persil et le basilic hachés et la mie de pain.",
+        "• Sécher la farce sur le feu en utilisant une spatule, puis ajouter hors du feu les deux œufs battus en omelette.",
+        "• Vérifier l’assaisonnement.",
+        "7. Farcir les légumes - 10 min",
+        "• Les farcir copieusement en dôme à l’aide d’une poche munie d’une grosse douille ronde unie ou à l’aide d’une cuillère.",
+        "• Lisser la farce sur le dessus.",
+        "• Saupoudrer de parmesan ou de mie de pain tamisée et arroser de quelques gouttes d’huile d’olive.",
+        "• Ranger les légumes farcis dans un plat à gratin légèrement huilé.",
+        "8. Terminer la cuisson et gratiner les légumes - 3 min",
+        "• Placer le plat dans un four à 200 °C durant une quinzaine de minutes puis augmenter la température pour obtenir le gratin ou passer le plat sous la salamandre.",
+        "9. Dresser les légumes farcis - 2 min",
+        "• Disposer le plat sur un grand plat long recouvert de papier gaufré."
+    ]
+}

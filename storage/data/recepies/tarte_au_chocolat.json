@@ -1,0 +1,91 @@
+{
+    "titre": "TARTE AU CHOCOLAT",
+    "type": "Dessert",
+    "page": 962,
+    "denrees_pour_8_couverts": {
+        "pate_sucree": [
+            {
+                "nom": "farine",
+                "unite": "kg",
+                "quantite": "0,250"
+            },
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": "0,125"
+            },
+            {
+                "nom": "sucre glace",
+                "unite": "kg",
+                "quantite": "0,100"
+            },
+            {
+                "nom": "sel",
+                "quantite": "PM"
+            },
+            {
+                "nom": "œuf entier (1 pièce)",
+                "unite": "kg",
+                "quantite": "0,055"
+            },
+            {
+                "nom": "eau",
+                "quantite": "PM"
+            },
+            {
+                "nom": "beurre pour le cercle",
+                "unite": "kg",
+                "quantite": "0,010"
+            },
+            {
+                "nom": "farine pour abaisser",
+                "unite": "kg",
+                "quantite": "0,040"
+            }
+        ],
+        "garniture": [
+            {
+                "nom": "framboises pépins",
+                "unite": "kg",
+                "quantite": "0,080"
+            },
+            {
+                "nom": "ganache (couverture 64%)",
+                "unite": "kg",
+                "quantite": "0,270"
+            },
+            {
+                "nom": "crème liquide",
+                "unite": "l",
+                "quantite": "0,30"
+            },
+            {
+                "nom": "beurre extra-fin",
+                "unite": "kg",
+                "quantite": "0,100"
+            }
+        ],
+        "decor": [
+            {
+                "nom": "feuille d’or (facultatif)",
+                "quantite": "PM"
+            }
+        ]
+    },
+    "technique": [
+        "1. Mettre en place le poste de travail - 5 min.",
+        "2. Réaliser la pâte sucrée - 15 min (voir p. 486).",
+        "3. Foncer le cercle - 10 min (voir p. 484/490).",
+        "4. Cuire le fond de tarte à blanc - 5 min.",
+        "• Cuire au four à 200 °C environ 12 min.",
+        "5. Réaliser la ganache - 10 min.",
+        "• Porter la crème à ébullition.",
+        "• Verser sur le chocolat, lisser puis incorporer le beurre.",
+        "6. Garnir la tarte - 5 min.",
+        "• Masquer le fond avec les framboises.",
+        "• Verser la ganache et lisser.",
+        "7. Décorer la tarte (facultatif) - 3 min.",
+        "• Appliquer la feuille d’or.",
+        "8. Dresser la tarte au chocolat - 2 min."
+    ]
+}

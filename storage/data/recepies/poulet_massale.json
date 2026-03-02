@@ -1,0 +1,91 @@
+{
+    "titre": "POULET MASSALÉ",
+    "page": 879,
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "deux poulets labellisés très fermes de 1,200 kg chacun",
+                "unite": "kg",
+                "quantite": "2,400"
+            }
+        ],
+        "garniture": [
+            {
+                "nom": "tomates",
+                "unite": "kg",
+                "quantite": "0,800"
+            },
+            {
+                "nom": "ail",
+                "unite": "kg",
+                "quantite": "0,040"
+            },
+            {
+                "nom": "oignons",
+                "unite": "kg",
+                "quantite": "0,500"
+            },
+            {
+                "nom": "gingembre frais",
+                "unite": "kg",
+                "quantite": "0,040"
+            },
+            {
+                "nom": "bouquet garni avec feuille de laurier et branche de thym vert",
+                "unite": "pièce",
+                "quantite": "1"
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel fin",
+                "quantite": "PM"
+            },
+            {
+                "nom": "gros sel",
+                "quantite": "PM"
+            }
+        ],
+        "epices": [
+            {
+                "nom": "massalé",
+                "quantite": "PM"
+            },
+            {
+                "nom": "curcuma",
+                "quantite": "PM"
+            },
+            {
+                "nom": "piment",
+                "quantite": "PM"
+            }
+        ]
+    },
+    "technique": [
+        "1. Mettre en place le poste de travail",
+        "2. Habiller et détailler en huit morceaux, deux poulets labellisés très fermes de 1,200 kg chacun",
+        "3. Marquer un fond blanc de volaille corsé avec les carcasses et les abattis",
+        "4. Préparer la garniture",
+        "• Monder, épépiner et concasser 0,800 kg de tomates.",
+        "• Éplucher, laver et dégermer 4 gousses d’ail.",
+        "• Éplucher, laver et ciseler finement 0,500 kg d’oignons.",
+        "• Réaliser un bouquet garni avec un peu d’eux petites branches de thym vert, une feuille de laurier et des feuilles constituant une épice essentielle de la cuisine des Malbars.",
+        "5. Piler les épices et les condiments",
+        "• Piler dans un mortier les gousses d’ail, 0,040 kg de gingembre frais, du poivre en grains, 2 clous de girofle et du gros sel.",
+        "6. Marquer le poulet massalé en cuisson",
+        "• Faire revenir les morceaux de poulet avec 0,10 l d’huile dans un rondeau plat.",
+        "• Les placer côté peau en premier et bien les dorer sur toutes les faces.",
+        "• Ajouter en premier les oignons ciselés et les laisser suer durant quelques minutes, puis le mélange pilé, les tomates concassées et le bouquet garni.",
+        "• Mélanger à nouveau.",
+        "• Saupoudrer avec le curcuma et ajouter le massalé puis remuer délicatement.",
+        "• Mouiller très légèrement avec le fond blanc de volaille.",
+        "• Couvrir lentement à couvert durant une trentaine de minutes.",
+        "• Ajouter, 15 min avant la fin de la cuisson, quelques feuilles de catou (elles suppriment l’amertume).",
+        "7. Terminer le poulet massalé",
+        "• Vérifier la cuisson des morceaux, la réduction de la sauce (qui doit être très réduite) et l’assaisonnement.",
+        "8. Dresser le poulet massalé",
+        "• Répartir les morceaux dans un légumier en orientant les manches des ailes et des pilons vers le centre du plat.",
+        "• Napper avec la sauce et la garniture réduite.",
+        "• Disposer le légumier sur un sous-plat recouvert d’une feuille de papier gaufré."
+    ]
+}

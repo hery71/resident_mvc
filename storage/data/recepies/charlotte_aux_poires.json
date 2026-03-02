@@ -1,0 +1,159 @@
+{
+    "titre": "CHARLOTTE AUX POIRES",
+    "type": "Dessert",
+    "bandeau": "Entremets froids de cuisine à base de pulpe de fruits et de sirop collé (bavarois au sirop)",
+    "page": 928,
+    "denrees_pour_8_couverts": {
+        "appareil_a_biscuits": [
+            {
+                "nom": "œufs (5 jaunes)",
+                "unite": "kg",
+                "quantite": "0,100"
+            },
+            {
+                "nom": "sucre semoule",
+                "unite": "kg",
+                "quantite": "0,080"
+            },
+            {
+                "nom": "farine",
+                "unite": "kg",
+                "quantite": "0,100"
+            },
+            {
+                "nom": "œufs (5 blancs)",
+                "unite": "kg",
+                "quantite": "0,160"
+            },
+            {
+                "nom": "sucre semoule (pour serrer les blancs)",
+                "unite": "kg",
+                "quantite": "0,020"
+            },
+            {
+                "nom": "biscuits à la cuillère",
+                "unite": "pièce",
+                "quantite": "24"
+            }
+        ],
+        "fond_de_genoise_facultatif": [
+            {
+                "nom": "œufs entiers (2 pièces)",
+                "unite": "kg",
+                "quantite": "0,110"
+            },
+            {
+                "nom": "sucre semoule",
+                "unite": "kg",
+                "quantite": "0,065"
+            },
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": "0,010"
+            },
+            {
+                "nom": "farine",
+                "unite": "kg",
+                "quantite": "0,010"
+            }
+        ],
+        "sirop_de_pochage": [
+            {
+                "nom": "eau",
+                "unite": "l",
+                "quantite": "0,04"
+            },
+            {
+                "nom": "sucre",
+                "unite": "kg",
+                "quantite": "0,060"
+            },
+            {
+                "nom": "alcool de poires",
+                "unite": "l",
+                "quantite": "0,08"
+            }
+        ],
+        "appareil_a_bavarois": [
+            {
+                "nom": "poires au sirop (4 demi-poires)",
+                "unite": "boîte 4/4",
+                "quantite": "1"
+            },
+            {
+                "nom": "sirop des poires",
+                "quantite": "PM"
+            },
+            {
+                "nom": "citron (1 pièce)",
+                "unite": "kg",
+                "quantite": "0,100"
+            },
+            {
+                "nom": "gélatine (6 feuilles)",
+                "unite": "kg",
+                "quantite": "0,016"
+            },
+            {
+                "nom": "alcool de poires",
+                "unite": "l",
+                "quantite": "0,04"
+            }
+        ],
+        "garniture_et_decoration": [
+            {
+                "nom": "poires au sirop (4 demi-poires)",
+                "unite": "boîte 4/4",
+                "quantite": "1/2"
+            },
+            {
+                "nom": "nappage neutre",
+                "unite": "kg",
+                "quantite": "0,100"
+            },
+            {
+                "nom": "crème Chantilly",
+                "unite": "l",
+                "quantite": "0,20"
+            },
+            {
+                "nom": "sucre glace",
+                "unite": "kg",
+                "quantite": "0,020"
+            }
+        ]
+    },
+    "technique": [
+        "1. Mettre en place le poste de travail - 5 min",
+        "• Denrées, matériels de préparation, de cuisson et de dressage.",
+        "• Nettoyer puis rafraîchir les boîtes de poires en enceinte réfrigérée.",
+        "2. Réaliser la génoise (facultatif) - 20 min",
+        "• Respecter les proportions et la méthode de base.",
+        "• Laisser refroidir et réserver.",
+        "3. Réaliser l’appareil à biscuit - 20 min",
+        "• Respecter la méthode de base pour biscuit à la cuillère.",
+        "• Dresser et cuire à 200 °C durant 8 à 10 min.",
+        "4. Réaliser le sirop de punchage - 5 min",
+        "• Réaliser un sirop à 126/4 D (eau et sucre).",
+        "• Ajouter l’alcool de poires.",
+        "5. Détailler les poires en petits dés d’1 cm de côté",
+        "• Les imbiber avec un peu d’alcool de poires.",
+        "6. Réaliser l’appareil à bavarois - 10 min",
+        "• Mettre la gélatine à tremper dans de l’eau froide.",
+        "• Mixer la pulpe des poires avec le jus de citron.",
+        "• Ajouter la gélatine fondue et l’alcool de poires.",
+        "• Incorporer délicatement le sirop collé aux dés de poires.",
+        "7. Monter la crème fouettée - 10 min",
+        "• Monter la crème légèrement sucrée.",
+        "• L’incorporer délicatement à l’appareil.",
+        "8. Monter l’appareil à bavarois - 5 min",
+        "• Chemiser un cercle à entremets avec les biscuits imbibés de sirop.",
+        "• Garnir avec l’appareil et lisser.",
+        "• Réserver au froid 2 à 3 h.",
+        "9. Dresser et décorer l’entremets - 10 min",
+        "• Napper avec du nappage neutre.",
+        "• Décorer avec des lamelles de poires et de la crème Chantilly.",
+        "• Saupoudrer légèrement de sucre glace."
+    ]
+}

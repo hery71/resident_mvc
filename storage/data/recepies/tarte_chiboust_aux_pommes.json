@@ -1,0 +1,71 @@
+{
+    "titre": "TARTE CHIBOUST AUX POMMES",
+    "type": "Dessert",
+    "page": 955,
+    "denrees_pour_8_couverts": {
+        "pate_brisee_sucree": [
+            {
+                "nom": "pâte brisée sucrée",
+                "quantite": "voir recette de base"
+            }
+        ],
+        "garniture": [
+            {
+                "nom": "pommes",
+                "unite": "kg",
+                "quantite": "1,000"
+            },
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": "0,080"
+            }
+        ],
+        "creme_chiboust": [
+            {
+                "nom": "crème dessert (base)",
+                "unite": "kg",
+                "quantite": "0,600"
+            },
+            {
+                "nom": "gélatine",
+                "unite": "kg",
+                "quantite": "0,040"
+            },
+            {
+                "nom": "blancs d’œufs montés",
+                "quantite": "4 pièces"
+            }
+        ],
+        "finition": [
+            {
+                "nom": "sucre semoule",
+                "quantite": "PM"
+            },
+            {
+                "nom": "sucre glace",
+                "quantite": "PM"
+            }
+        ]
+    },
+    "technique": [
+        "1. Mettre en place le poste de travail.",
+        "2. Foncer un cercle à tarte avec la pâte brisée sucrée.",
+        "3. Sauter 1 kg de pommes.",
+        "• Éplucher, couper en deux et retirer le cœur.",
+        "• Sauter avec 0,080 kg de beurre jusqu’à légère coloration.",
+        "4. Garnir et cuire la tarte.",
+        "• Disposer les pommes sur le fond.",
+        "• Cuire au four jusqu’à cuisson complète.",
+        "• Débarrasser sur grille.",
+        "5. Réaliser la crème Chiboust.",
+        "• Ramollir la gélatine et l’incorporer à la crème chaude.",
+        "• Incorporer délicatement les blancs montés.",
+        "6. Terminer la tarte.",
+        "• Masquer d’une couche régulière de crème.",
+        "• Lisser, laisser prendre au froid.",
+        "7. À la commande.",
+        "• Saupoudrer de sucre et caraméliser.",
+        "• Dresser sur plat recouvert de papier dentelle."
+    ]
+}

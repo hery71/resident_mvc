@@ -1,0 +1,212 @@
+{
+    "titre": "JAMBONNETTES DE CANETONS À L'ORANGE",
+    "bandeau": "Volailles et gibiers à plumes braisés",
+    "fiche": 123,
+    "page": 874,
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "cuisses de canards (8 x 0,250 kg)",
+                "unite": "kg",
+                "quantite": "2"
+            },
+            {
+                "nom": "liqueur à base d’orange",
+                "unite": "l",
+                "quantite": "0,04"
+            },
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": "0,040"
+            },
+            {
+                "nom": "huile",
+                "unite": "kg",
+                "quantite": "0,020"
+            }
+        ],
+        "hache_mousseline": [
+            {
+                "nom": "chair de canard prélevée sur les cuisses",
+                "unite": "kg",
+                "quantite": "0,300"
+            },
+            {
+                "nom": "œuf (blanc)",
+                "unite": "pièce",
+                "quantite": "1"
+            },
+            {
+                "nom": "crème liquide",
+                "unite": "l",
+                "quantite": "0,20"
+            },
+            {
+                "nom": "orange (zeste pour la brunoise)",
+                "quantite": "PM"
+            },
+            {
+                "nom": "liqueur à base d’orange",
+                "unite": "l",
+                "quantite": "0,02"
+            }
+        ],
+        "finition": [
+            {
+                "nom": "échine de porc",
+                "unite": "kg",
+                "quantite": "0,300"
+            }
+        ],
+        "fond_de_braisage": [
+            {
+                "nom": "carottes",
+                "unite": "kg",
+                "quantite": "0,150"
+            },
+            {
+                "nom": "oignons",
+                "unite": "kg",
+                "quantite": "0,150"
+            },
+            {
+                "nom": "fond brun de canard lié",
+                "quantite": "PM"
+            },
+            {
+                "nom": "bouquet garni",
+                "unite": "pièce",
+                "quantite": "1"
+            }
+        ],
+        "fond_brun_de_canard_lie": [
+            {
+                "nom": "carcasses et abattis",
+                "unite": "kg",
+                "quantite": "1"
+            },
+            {
+                "nom": "carottes",
+                "unite": "kg",
+                "quantite": "0,150"
+            },
+            {
+                "nom": "oignons",
+                "unite": "kg",
+                "quantite": "0,150"
+            },
+            {
+                "nom": "tomate (1 grosse)",
+                "unite": "kg",
+                "quantite": "0,200"
+            },
+            {
+                "nom": "ail (2 gousses)",
+                "unite": "kg",
+                "quantite": "0,015"
+            },
+            {
+                "nom": "fond brun de veau lié",
+                "unite": "l",
+                "quantite": "1,5"
+            },
+            {
+                "nom": "bouquet garni",
+                "unite": "pièce",
+                "quantite": "1"
+            }
+        ],
+        "gastrique_facultatif": [
+            {
+                "nom": "sucre",
+                "unite": "kg",
+                "quantite": "0,040"
+            },
+            {
+                "nom": "vinaigre d’alcool",
+                "unite": "l",
+                "quantite": "0,04"
+            }
+        ],
+        "sauce_a_l_orange": [
+            {
+                "nom": "fond de braisage des canards",
+                "unite": "l",
+                "quantite": "1"
+            },
+            {
+                "nom": "orange pour jus",
+                "unite": "kg",
+                "quantite": "PM"
+            },
+            {
+                "nom": "zeste pour brunoise",
+                "unite": "kg",
+                "quantite": "0,050"
+            },
+            {
+                "nom": "liqueur à base d’orange",
+                "unite": "l",
+                "quantite": "0,04"
+            }
+        ],
+        "garniture": [
+            {
+                "nom": "oranges (8 pièces)",
+                "unite": "kg",
+                "quantite": "1,200"
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel fin",
+                "quantite": "PM"
+            },
+            {
+                "nom": "poivre du moulin",
+                "quantite": "PM"
+            }
+        ]
+    },
+    "technique": [
+        "1. Mettre en place le poste de travail - 5 min",
+        "• Denrées, matériels de préparation, de cuisson et de dressage.",
+        "2. Désosser les cuisses de canards - 30 min (voir p. 253/254)",
+        "• Retirer la peau, les os, la chair et la graisse et les réserver en enceinte réfrigérée.",
+        "• Atroser les cuisses avec un peu de liqueur à base d’orange. Les couvrir et les réserver en enceinte réfrigérée.",
+        "3. Marquer un fond brun de canard en cuisson - 15 min (voir p. 261)",
+        "4. Préparer les oranges et le citron - 10 min",
+        "• Les laver, puis prélever environ 0,150 kg de zestes, à l’aide d’un couteau économe.",
+        "• Blanchir fortement deux fois la julienne et la brunoise.",
+        "• Les mettre à macérer séparément avec de la liqueur à base d’orange.",
+        "• Prélever le jus des oranges.",
+        "• Réserver les oranges qui s’écoulent.",
+        "5. Confectionner la farce mousseline de canard - 10 min (voir p. 332/327)",
+        "• Ajouter la brunoise de zestes et un peu de liqueur.",
+        "6. Farcir et confectionner les jambonnettes - 10 min",
+        "• Assaisonner et farcir chaque cuisse.",
+        "• Les brider et les fermer hermétiquement.",
+        "7. Braiser les jambonnettes - 10 min (voir p. 458/470)",
+        "• Les faire revenir doucement dans un rondeau avec l’huile et le beurre.",
+        "• Les placer, côté peau, dans le fond de braisage.",
+        "• Ajouter la garniture aromatique en mirepoix grossière.",
+        "• Mouiller avec le fond brun de canard. Ajouter le bouquet garni.",
+        "• Porter à ébullition et cuire à couvert au four à 200 °C durant 1 h 20 à 1 h 30.",
+        "8. Débarrasser les jambonnettes - 5 min",
+        "• Les décanter et les réserver au chaud.",
+        "9. Réaliser la sauce à l’orange - 10 min",
+        "• Réaliser une gastrique avec le sucre et le vinaigre.",
+        "• Détendre la gastrique avec le jus d’orange et ajouter le fond de braisage parfaitement dégraissé et passé au chinois étamine.",
+        "• Laisser réduire la sauce et la dépouiller si nécessaire.",
+        "10. Glacer les jambonnettes - 10 min",
+        "• Les décoller et les arroser avec la sauce sous la salamandre.",
+        "• Elles doivent être recouvertes d’une pellicule de sauce brillante.",
+        "11. Terminer la sauce - 5 min",
+        "• La détendre avec le reste du jus d’orange, de citron et la liqueur.",
+        "• Ajouter la julienne de zestes d’orange et de citron.",
+        "12. Dresser les jambonnettes - 5 min",
+        "• Chauffer les segments d’orange dans un peu de sauce et les placer tout autour du plat.",
+        "• Disposer les jambonnettes et les napper uniformément."
+    ]
+}

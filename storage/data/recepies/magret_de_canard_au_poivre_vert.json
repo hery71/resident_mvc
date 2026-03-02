@@ -1,0 +1,91 @@
+{
+    "titre": "MAGRET DE CANARD AU POIVRE VERT",
+    "bandeau": "Suprêmes de canetons sautés",
+    "fiche": 124,
+    "page": 876,
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "magrets de canards (mulard) (4 x 0,400 kg)",
+                "unite": "kg",
+                "quantite": "1,600"
+            },
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": "0,020"
+            },
+            {
+                "nom": "huile d’arachide",
+                "unite": "kg",
+                "quantite": "0,020"
+            }
+        ],
+        "sauce": [
+            {
+                "nom": "cognac",
+                "unite": "l",
+                "quantite": "0,04"
+            },
+            {
+                "nom": "vin blanc",
+                "unite": "l",
+                "quantite": "0,10"
+            },
+            {
+                "nom": "fond brun de canard légèrement lié et corsé",
+                "unite": "l",
+                "quantite": "0,40"
+            },
+            {
+                "nom": "poivre vert",
+                "unite": "kg",
+                "quantite": "0,080"
+            },
+            {
+                "nom": "crème liquide",
+                "unite": "l",
+                "quantite": "0,10"
+            },
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": "0,040"
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel fin",
+                "quantite": "PM"
+            },
+            {
+                "nom": "poivre du moulin",
+                "quantite": "PM"
+            }
+        ]
+    },
+    "technique": [
+        "1. Mettre en place le poste de travail - 5 min",
+        "• Denrées, matériels de préparation, de cuisson et de dressage.",
+        "2. Préparer les magrets - 10 min (voir p. 253)",
+        "• Les parer, les dénerver, supprimer tous les éventuels vaisseaux sanguins.",
+        "• Les arrondir en parant et en supprimant un peu de graisse.",
+        "• Inciser les côtés en veillant à ne pas entailler la chair.",
+        "3. Marquer les magrets en cuisson - 15 min (voir p. 410/411)",
+        "• Les assaisonner puis les saisir dans un sautoir ou dans un petit rondeau plat avec très peu d’huile et très peu de beurre.",
+        "• Les placer côté peau grasse en premier et les cuire durant 7 à 8 min sur cette face afin de faire fondre la graisse.",
+        "• Les retourner à l’aide d’une spatule et finir la cuisson durant quelques minutes selon le point de cuisson souhaité par le client.",
+        "• Les débarrasser sur une plaque munie d’une grille et les réserver au chaud.",
+        "4. Réaliser la sauce - 15 min",
+        "• Déglacer les sucs caramélisés avec le vin blanc et le laisser réduire des 3/4.",
+        "• Ajouter le fond brun de canard légèrement lié puis le poivre vert.",
+        "• L’écraser un peu avec le dos d’une cuillère pour qu’il dégage un maximum de parfum.",
+        "• Crèmer puis réduire à nouveau.",
+        "• Vérifier l’onctuosité, la couleur et l’assaisonnement.",
+        "• Monter sans excès la sauce au beurre.",
+        "5. Dresser les magrets - 5 min",
+        "• Escaloper les magrets (facultatif). Ils peuvent être escalopés en salle devant le client (dans ce cas ôter la peau, escaloper les magrets en tranches épaisses et replacer la peau sur les escalopes pour les protéger).",
+        "• Disposer les suprêmes en diagonale sur le plat de service, la peau sur le dessus.",
+        "• Verser la sauce tout autour."
+    ]
+}

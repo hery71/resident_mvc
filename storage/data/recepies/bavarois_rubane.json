@@ -1,0 +1,102 @@
+{
+    "titre": "BAVAROIS RUBANÉ",
+    "type": "Dessert",
+    "bandeau": "Entremets froids de cuisine à base de crème anglaise collée (bavarois aux œufs)",
+    "page": 930,
+    "denrees_pour_8_couverts": {
+        "appareil_a_bavarois": [
+            {
+                "nom": "lait",
+                "unite": "l",
+                "quantite": "0,50"
+            },
+            {
+                "nom": "œufs (4 jaunes)",
+                "unite": "kg",
+                "quantite": "0,080"
+            },
+            {
+                "nom": "sucre semoule",
+                "unite": "kg",
+                "quantite": "0,125"
+            },
+            {
+                "nom": "vanille",
+                "unite": "gousse",
+                "quantite": "1/2"
+            },
+            {
+                "nom": "gélatine (5 à 6 feuilles)",
+                "unite": "kg",
+                "quantite": "0,010 à 0,012"
+            },
+            {
+                "nom": "crème liquide",
+                "unite": "l",
+                "quantite": "0,40"
+            }
+        ],
+        "parfums": [
+            {
+                "nom": "vanille",
+                "quantite": "PM"
+            },
+            {
+                "nom": "cacao ou couverture",
+                "unite": "kg",
+                "quantite": "0,020"
+            },
+            {
+                "nom": "extrait de café",
+                "quantite": "PM"
+            }
+        ],
+        "finition_facultatif": [
+            {
+                "nom": "crème liquide",
+                "unite": "l",
+                "quantite": "0,04"
+            },
+            {
+                "nom": "sucre glace",
+                "unite": "kg",
+                "quantite": "0,010"
+            },
+            {
+                "nom": "grains de café liqueur",
+                "quantite": "PM"
+            }
+        ]
+    },
+    "technique": [
+        "1. Mettre en place le poste de travail - 5 min",
+        "• Denrées, matériels de préparation, de cuisson et de dressage.",
+        "2. Faire tremper la gélatine à l’eau froide - 2 min",
+        "3. Confectionner la crème anglaise collée - 15 min",
+        "• Faire bouillir le lait avec une demi-gousse de vanille.",
+        "• Clarifier les œufs et blanchir les jaunes avec le sucre dans une calotte en inoxydable.",
+        "• Verser progressivement le lait bouillant tout en remuant à l’aide d’une spatule.",
+        "• Remettre dans la russe et cuire la crème jusqu’à nappe.",
+        "• Ajouter et dissoudre soigneusement la gélatine égouttée.",
+        "• Passer la crème au chinois étamine.",
+        "• Refroidir rapidement.",
+        "4. Parfumer la crème - 5 min",
+        "• Diviser l’appareil à bavarois en 3 parties égales.",
+        "• Parfumer la première à la vanille.",
+        "• Incorporer le cacao ou la couverture fondue à la seconde.",
+        "• Renforcer la troisième avec quelques gouttes d’extrait de café.",
+        "5. Monter la crème - 8 min",
+        "• Monter la crème fouettée sans la serrer.",
+        "6. Terminer l’appareil à bavarois - 15 min",
+        "• Incorporer délicatement la crème fouettée aux crèmes anglaises collées et parfumées.",
+        "• Verser l’appareil en couches successives dans le moule.",
+        "• Laisser prendre au froid entre chaque couche si nécessaire.",
+        "• Terminer par l’appareil au chocolat.",
+        "• Couvrir et réserver en enceinte réfrigérée durant 1 h minimum.",
+        "7. Dresser les bavarois - 5 min",
+        "• Tremper rapidement le moule dans l’eau chaude.",
+        "• Démouler délicatement.",
+        "• Décorer éventuellement avec de la crème Chantilly, des grains de café liqueur ou des copeaux de chocolat.",
+        "• Servir avec des petits fours secs."
+    ]
+}

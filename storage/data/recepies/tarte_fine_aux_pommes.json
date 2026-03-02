@@ -1,0 +1,60 @@
+{
+    "titre": "TARTE FINE AUX POMMES",
+    "type": "Dessert",
+    "page": 956,
+    "denrees_pour_8_couverts": {
+        "pate_feuilletee": [
+            {
+                "nom": "pâte feuilletée",
+                "unite": "kg",
+                "quantite": "0,400"
+            }
+        ],
+        "garniture": [
+            {
+                "nom": "pommes",
+                "unite": "kg",
+                "quantite": "0,800"
+            },
+            {
+                "nom": "sucre semoule",
+                "unite": "kg",
+                "quantite": "0,050"
+            },
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": "0,050"
+            }
+        ],
+        "masquage": [
+            {
+                "nom": "crème d’amandes ou crème pâtissière",
+                "quantite": "PM"
+            }
+        ],
+        "finition": [
+            {
+                "nom": "sucre glace",
+                "quantite": "PM"
+            },
+            {
+                "nom": "nappage ou beurre fondu",
+                "quantite": "PM"
+            }
+        ]
+    },
+    "technique": [
+        "1. Mettre en place le poste de travail.",
+        "2. Détailler 8 abaisses rondes (14 à 16 cm) dans la pâte feuilletée.",
+        "• Les piquer et les retourner sur plaque.",
+        "3. Masquer les disques de pâte.",
+        "• Étaler une fine couche de crème.",
+        "4. Garnir les tartes individuelles.",
+        "• Disposer les pommes finement émincées en rosace.",
+        "• Saupoudrer légèrement de sucre.",
+        "5. Cuire les tartes et dresser immédiatement.",
+        "• Cuire au four à 220 °C pendant environ 12 min.",
+        "• Glacer au sucre glace et servir chaud."
+    ]
+}

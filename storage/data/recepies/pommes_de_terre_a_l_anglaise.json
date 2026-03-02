@@ -1,0 +1,53 @@
+{
+    "titre": "POMMES DE TERRE À L'ANGLAISE",
+    "bandeau": "Pommes de terre cuites à l’anglaise ou à la vapeur",
+    "page": 884,
+    "type": "Accompagnement",
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "pommes de terre à chair ferme (Belle de Fontenay, B.F. 15, Charlotte, Roseval, Ratte…)",
+                "unite": "kg",
+                "quantite": "2* à 2,500"
+            },
+            {
+                "nom": "eau",
+                "unite": "l",
+                "quantite": "PM"
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "gros sel",
+                "quantite": "PM"
+            }
+        ]
+    },
+    "technique": [
+        "1. Mettre en place le poste de travail - 5 min",
+        "• Denrées, matériels de préparation, de cuisson et de dressage.",
+        "2. Éplucher et laver les pommes de terre - 10 min (voir p. 125)",
+        "3. Tourner les pommes de terre - 15 min",
+        "• Le choisir de la taille la plus proche du modèle à réaliser.",
+        "• Les tourner de la forme d’un petit œuf en limitant les parures (voir p. 133/134).",
+        "• Les rincer soigneusement.",
+        "4. Marquer les pommes de terre en cuisson - 5 min (voir p. 372/373)",
+        "• Disposer les pommes tournées dans une russe de grandeur appropriée.",
+        "• Mouiller à l’eau froide.",
+        "• Saler au gros sel.",
+        "• Porter à ébullition.",
+        "• Cuire à frémissement durant une vingtaine de minutes.",
+        "• Écumer si nécessaire.",
+        "• S’assurer de la cuisson des pommes de terre en les sondant à l’aide d’une aiguille à brider.",
+        "• Arrêter la cuisson des pommes de terre en ajoutant quelques glaçons ou un peu d’eau froide (ne jamais les rafraîchir).",
+        "• Réserver les pommes à l’anglaise à une température voisine de 80/90 °C durant le service.",
+        "Pommes de terre cuites à la vapeur :",
+        "• Disposer les pommes de terre tournées dans la partie supérieure d’une marmite à pommes vapeur.",
+        "• Remplir la partie inférieure d’eau salée.",
+        "• Cuire à couvert durant une vingtaine de minutes.",
+        "• Servir dans une marmite spéciale à pommes vapeur.",
+        "5. Dresser les pommes à l’anglaise - 2 min",
+        "• Les égoutter délicatement et les dresser dans un légumier.",
+        "• Disposer le légumier sur un sous-plat recouvert d’une feuille de papier gaufré."
+    ]
+}

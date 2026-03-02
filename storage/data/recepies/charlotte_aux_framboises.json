@@ -1,0 +1,91 @@
+{
+    "titre": "CHARLOTTE AUX FRAMBOISES",
+    "type": "Dessert",
+    "page": 929,
+    "denrees_pour_8_couverts": {
+        "appareil_a_bavarois_framboise": [
+            {
+                "nom": "feuilles de gélatine",
+                "unite": "kg",
+                "quantite": "0,016"
+            },
+            {
+                "nom": "pulpe de framboises collée",
+                "unite": "kg",
+                "quantite": "1"
+            },
+            {
+                "nom": "sucre semoule",
+                "unite": "kg",
+                "quantite": "0,020"
+            },
+            {
+                "nom": "crème liquide",
+                "unite": "l",
+                "quantite": "0,40"
+            }
+        ],
+        "chemiser_le_moule": [
+            {
+                "nom": "sirop à 126/4 D et eau",
+                "quantite": "PM"
+            },
+            {
+                "nom": "kirsch (facultatif)",
+                "quantite": "PM"
+            },
+            {
+                "nom": "biscuits à la cuillère",
+                "unite": "pièce",
+                "quantite": "24"
+            },
+            {
+                "nom": "biscuit (fond)",
+                "unite": "pièce",
+                "quantite": "1"
+            }
+        ],
+        "garniture_et_decoration": [
+            {
+                "nom": "framboises fraîches",
+                "quantite": "PM"
+            },
+            {
+                "nom": "crème Chantilly",
+                "quantite": "PM"
+            },
+            {
+                "nom": "coulis de framboises",
+                "quantite": "PM"
+            }
+        ]
+    },
+    "technique": [
+        "1. Mettre en place le poste de travail",
+        "2. Réaliser la pulpe de framboises collée",
+        "• Mettre 8 feuilles de gélatine à tremper dans de l’eau froide (0,016 kg).",
+        "• Réaliser un sirop en faisant bouillir durant 1 min 0,200 kg de sucre avec 0,15 l d’eau.",
+        "• Ajouter la gélatine soigneusement égouttée.",
+        "• Mixer 0,800 kg de framboises très froides et passer la pulpe au chinois.",
+        "• Ajouter le sirop collé, le jus d’1 citron et repasser au chinois étamine.",
+        "3. Monter la crème fouettée",
+        "• Fouetter 0,40 l de crème liquide sans trop la serrer.",
+        "4. Terminer l’appareil à bavarois",
+        "• Incorporer délicatement la pulpe de framboises à la crème fouettée.",
+        "• Effectuer le mélange à l’aide d’une écumoire et lisser si nécessaire avec une spatule métallique.",
+        "• Filmer et réserver en enceinte réfrigérée.",
+        "5. Chemiser le moule",
+        "• Réaliser 0,15 l de sirop à 126/4 D et le détendre avec 0,10 l d’alcool de framboises (kirsch).",
+        "• Détailler le biscuit à la cuillère en forme de cœur, les imbiber dans le sirop bouillant et les placer en rosace au fond du moule.",
+        "• Parer les extrémités de 24 autres biscuits, les imbiber et les tapisser contre les parois du moule.",
+        "• Garnir du moule en versant l’appareil.",
+        "6. Garnir le moule (mettre en place l’appareil)",
+        "• S’assurer que l’appareil commence à prendre.",
+        "• Garnir le moule et lisser la surface.",
+        "• Le filmer et le réserver en enceinte réfrigérée durant 2 à 3 h.",
+        "7. Dresser la charlotte",
+        "• Retourner le moule sur un plat rond et le retirer délicatement.",
+        "• Décorer avec de la crème Chantilly et quelques framboises.",
+        "• Couvrir éventuellement un petit cordon de coulis de framboises tout autour."
+    ]
+}

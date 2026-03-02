@@ -1,0 +1,101 @@
+{
+    "titre": "POMMES DE TERRE RISSOLÉES, NOISETTES, PARISIENNE, COCOTTE, CHÂTEAU, PARMENTIER",
+    "type": "Accompagnement",
+    "bandeau": "Pommes de terre rissolées",
+    "fiche": 138,
+    "page": 906,
+    "denrees_pour_8_couverts": {
+        "pommes_noisettes": [
+            {
+                "nom": "pommes de terre de conservation (Bintje)",
+                "unite": "kg",
+                "quantite": "2,500 à 3"
+            },
+            {
+                "nom": "huile",
+                "unite": "kg",
+                "quantite": "0,08"
+            },
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": "0,040"
+            }
+        ],
+        "pommes_cocotte": [
+            {
+                "nom": "pommes de terre à chair ferme (Belle de Fontenay, B.F. 15, Charlotte, ...)",
+                "unite": "kg",
+                "quantite": "2,500"
+            },
+            {
+                "nom": "huile",
+                "unite": "l",
+                "quantite": "0,08"
+            },
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": "0,040"
+            }
+        ],
+        "pommes_chateau": [
+            {
+                "nom": "pommes de terre à chair ferme (grosses B.F. 15) de 0,100 kg pièce",
+                "unite": "kg",
+                "quantite": "2 à 2,500"
+            },
+            {
+                "nom": "huile",
+                "unite": "l",
+                "quantite": "0,08"
+            },
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": "0,040"
+            }
+        ],
+        "finition": [
+            {
+                "nom": "persil",
+                "unite": "kg",
+                "quantite": "0,020"
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel fin",
+                "quantite": "PM"
+            }
+        ]
+    },
+    "technique": [
+        "1. Mettre en place le poste de travail - 5 min",
+        "• Denrées, matériels de préparation, de cuisson et de dressage.",
+        "2. Éplucher et laver les pommes de terre - 10 min (voir p. 124/125)",
+        "3. Tourner ou lever les pommes à la cuillère à racine - 20 min",
+        "• Tourner les pommes cocotte et les pommes château à l’aide d’un couteau d’office (voir p. 123/133 et 135).",
+        "• Lever les pommes noisettes et parisiennes à la cuillère (voir p. 131).",
+        "• Les rincer en les brassant et réserver les pommes dans de l’eau très froide.",
+        "4. Blanchir les pommes de terre - 5 min",
+        "• Les disposer sur une seule épaisseur dans une grande sauteuse ou dans un rondeau plat.",
+        "• Mouiller à l’eau froide à 1 ou 2 cm au-dessus des pommes de terre et ne pas saler.",
+        "• Porter à ébullition très rapidement sur un feu vif.",
+        "• Égoutter immédiatement et ne pas rafraîchir.",
+        "5. Rissoler les pommes de terre - 5 min (voir p. 416/419)",
+        "• Remettre la sauteuse ou le rondeau sur le feu.",
+        "• Ajouter l’huile et la chauffer fortement (180-190 °C).",
+        "• Verser les pommes de terre en veillant à ce qu’elles ne se superposent pas.",
+        "• Ne pas remuer durant quelques instants (les pommes de terre ont refroidi l’huile).",
+        "• Les faire sauter vivement afin de les colorer légèrement.",
+        "• Terminer la cuisson en plaçant le récipient durant quelques minutes dans un four très chaud (220 °C pour les pommes château, 240 °C pour les pommes cocotte et noisettes).",
+        "• Les remuer délicatement de temps en temps à l’aide d’une petite écumoire pour uniformiser la coloration et la cuisson.",
+        "6. Débarrasser les pommes rissolées et les beurrer - 5 min",
+        "• Égoutter soigneusement les pommes rissolées.",
+        "• Les débarrasser dans une calotte, les saler et ajouter le beurre en parcelles.",
+        "• Les sauter délicatement dans la calotte.",
+        "7. Dresser les pommes rissolées - 10 min",
+        "• Les pommes noisettes, cocotte et château sont saupoudrées de persil haché au moment de l’envoi."
+    ]
+}

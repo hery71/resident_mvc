@@ -1,0 +1,102 @@
+{
+    "titre": "PITHIVIERS",
+    "type": "Dessert",
+    "page": 964,
+    "denrees_pour_8_couverts": {
+        "pate_feuilletee": [
+            {
+                "nom": "farine",
+                "unite": "kg",
+                "quantite": "0,300"
+            },
+            {
+                "nom": "sel fin",
+                "unite": "kg",
+                "quantite": "0,006"
+            },
+            {
+                "nom": "beurre froid",
+                "unite": "kg",
+                "quantite": "0,300"
+            },
+            {
+                "nom": "vinaigre blanc (facultatif)",
+                "quantite": "PM"
+            },
+            {
+                "nom": "eau",
+                "unite": "l",
+                "quantite": "0,15"
+            },
+            {
+                "nom": "beurre sec pour feuilletage",
+                "unite": "kg",
+                "quantite": "0,225"
+            },
+            {
+                "nom": "farine (pour tourer)",
+                "unite": "kg",
+                "quantite": "0,040"
+            }
+        ],
+        "creme_d_amandes": [
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": "0,100"
+            },
+            {
+                "nom": "sucre semoule",
+                "unite": "kg",
+                "quantite": "0,100"
+            },
+            {
+                "nom": "œufs entiers (2 pièces)",
+                "quantite": "2"
+            },
+            {
+                "nom": "vanille (extrait liquide)",
+                "quantite": "PM"
+            },
+            {
+                "nom": "rhum ambré ou vieux",
+                "unite": "l",
+                "quantite": "0,02"
+            },
+            {
+                "nom": "crème pâtissière (facultatif)",
+                "unite": "kg",
+                "quantite": "0,100"
+            }
+        ],
+        "dorure": [
+            {
+                "nom": "œuf entier (1 pièce)",
+                "unite": "kg",
+                "quantite": "0,055"
+            }
+        ],
+        "finition": [
+            {
+                "nom": "sucre glace ou sirop à 1,2624 D (30° Baumé)",
+                "quantite": "PM"
+            }
+        ]
+    },
+    "technique": [
+        "1. Mettre en place le poste de travail - 5 min.",
+        "2. Amener le feuilletage à 6 tours - 40 min (voir p. 494/498).",
+        "3. Confectionner la crème d’amandes - 10 min (voir p. 557/558).",
+        "• Travailler le beurre en pommade, ajouter sucre et œufs.",
+        "• Parfumer à la vanille et au rhum.",
+        "4. Confectionner les pithiviers - 15 min.",
+        "• Abaisser la pâte et détailler deux disques.",
+        "• Garnir le centre de crème d’amandes.",
+        "• Dorer, rayer la surface et réserver au froid.",
+        "5. Marquer les pithiviers en cuisson - 3 min.",
+        "• Cuire au four à 230/240 °C puis terminer à 200/210 °C.",
+        "• Glacer en fin de cuisson au sucre glace ou sirop.",
+        "6. Dresser les pithiviers - 2 min.",
+        "• Servir tièdes sur plat recouvert de papier dentelle."
+    ]
+}

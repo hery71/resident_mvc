@@ -1,0 +1,113 @@
+{
+    "titre": "GIBELOTTE DES BRACONNIERS",
+    "page": 873,
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "2 lapins de garenne",
+                "quantite": "16 morceaux"
+            },
+            {
+                "nom": "vin blanc",
+                "unite": "l",
+                "quantite": "0,10"
+            },
+            {
+                "nom": "huile d’olive",
+                "unite": "l",
+                "quantite": "0,10"
+            },
+            {
+                "nom": "ail",
+                "unite": "gousse",
+                "quantite": "1"
+            },
+            {
+                "nom": "thym",
+                "quantite": "PM"
+            },
+            {
+                "nom": "laurier",
+                "quantite": "PM"
+            },
+            {
+                "nom": "huile d’arachide",
+                "unite": "l",
+                "quantite": "0,10"
+            },
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": "0,040"
+            },
+            {
+                "nom": "échalotes",
+                "unite": "kg",
+                "quantite": "PM"
+            },
+            {
+                "nom": "fond brun de veau légèrement lié",
+                "unite": "l",
+                "quantite": "1"
+            },
+            {
+                "nom": "romarin",
+                "quantite": "PM"
+            }
+        ],
+        "garniture": [
+            {
+                "nom": "lardons",
+                "unite": "kg",
+                "quantite": "0,250"
+            },
+            {
+                "nom": "petits oignons glacés à blanc",
+                "unite": "kg",
+                "quantite": "0,250"
+            },
+            {
+                "nom": "champignons de Paris sautés",
+                "unite": "kg",
+                "quantite": "0,250"
+            },
+            {
+                "nom": "croûtons de pain de mie frits au beurre clarifié",
+                "unite": "kg",
+                "quantite": "0,080"
+            },
+            {
+                "nom": "persil haché",
+                "quantite": "PM"
+            }
+        ]
+    },
+    "technique": [
+        "Quelques heures à l’avance :",
+        "1. Détailler deux beaux lapins de garenne en 16 morceaux et les mettre en marinade instantanée",
+        "• Les ranger dans un récipient en acier inoxydable avec 0,10 l d’huile d’olive, 0,10 l de vin blanc, 0,080 kg d’échalotes ciselées, quelques fragments de thym et de laurier.",
+        "• Couvrir le récipient et le réserver en enceinte réfrigérée.",
+        "2. Marquer la gibelotte en cuisson",
+        "• Égoutter soigneusement les morceaux.",
+        "• Les faire revenir dans un mélange d’huile et de beurre.",
+        "• Ajouter les échalotes et les laisser suer durant quelques secondes.",
+        "• Déglacer soigneusement.",
+        "• Flamber avec 0,05 l de cognac.",
+        "• Déglacer avec 0,50 l de vin blanc et laisser réduire de 2/3.",
+        "• Mouiller avec 1 l de fond brun de veau légèrement lié.",
+        "• Ajouter un bouquet garni, une brindille de romarin et deux gousses d’ail dégermées et écrasées.",
+        "• Cuire au four et à couvert.",
+        "3. Préparer la garniture",
+        "• 0,250 kg de lardons.",
+        "• 0,250 kg de petits oignons glacés à blanc.",
+        "• 0,250 kg de champignons de Paris sautés.",
+        "• 0,080 kg de croûtons de pain de mie frits au beurre clarifié.",
+        "• Persil haché.",
+        "4. Terminer la gibelotte",
+        "• Décanter dans un autre rondeau.",
+        "• Réduire la sauce, si nécessaire la passer au chinois étamine sur les morceaux.",
+        "• Ajouter les lardons et les champignons, laisser mijoter quelques minutes.",
+        "• Dresser et disposer les petits oignons glacés et les croûtons.",
+        "• Servir avec des pommes de terre cuites en robe des champs, des pommes Macaire ou des pommes écrasées à la ciboulette."
+    ]
+}

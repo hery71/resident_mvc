@@ -1,0 +1,104 @@
+{
+    "titre": "HARICOTS SECS AU BEURRE (COCOS, LINGOTS, FLAGEOLETS)",
+    "bandeau": "Graines de légumineuses sèches (haricots cocos, lingots, flageolets, cheviers verts, haricots rouges, lentilles, etc.)",
+    "page": 894,
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "haricots secs (cocos ou lingots ou tarbais ou cheviers verts ou flageolets)",
+                "unite": "kg",
+                "quantite": "0,500 à 0,640"
+            }
+        ],
+        "garniture_aromatique": [
+            {
+                "nom": "carottes",
+                "unite": "kg",
+                "quantite": "0,200"
+            },
+            {
+                "nom": "oignons",
+                "unite": "kg",
+                "quantite": "0,200"
+            },
+            {
+                "nom": "bouquet garni",
+                "unite": "pièce",
+                "quantite": "1"
+            },
+            {
+                "nom": "ail (2 gousses)",
+                "unite": "kg",
+                "quantite": "0,015"
+            },
+            {
+                "nom": "poitrine de porc fraîche ou couenne grasse de porc",
+                "unite": "kg",
+                "quantite": "0,200"
+            }
+        ],
+        "finition": [
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": "0,080"
+            },
+            {
+                "nom": "persil",
+                "unite": "kg",
+                "quantite": "0,020"
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "gros sel",
+                "quantite": "PM"
+            },
+            {
+                "nom": "sel fin",
+                "quantite": "PM"
+            },
+            {
+                "nom": "poivre du moulin",
+                "quantite": "PM"
+            },
+            {
+                "nom": "clou de girofle",
+                "quantite": "PM"
+            }
+        ]
+    },
+    "technique": [
+        "1re MÉTHODE POUR GARNITURE D’ACCOMPAGNEMENT ET SALADES COMPOSÉES",
+        "1. Mettre en place le poste de travail - 5 min",
+        "• Denrées, matériels de préparation, de cuisson et de dressage.",
+        "2. Laver soigneusement les haricots - 3 min",
+        "• Éliminer les grains brisés et les enveloppes des grains qui remontent à la surface.",
+        "3. Mettre les haricots à tremper - 2 min",
+        "• Placer les haricots soigneusement lavés dans un récipient creux, les couvrir avec deux à trois fois leur volume d’eau froide.",
+        "• Mettre le récipient en enceinte réfrigérée durant quelques heures (2 à 3 h maximum si l’eau est très dure) ; la durée de trempage doit être strictement limitée à la durée nécessaire à la réhydratation (risque de fermentation).",
+        "4. Préparer la garniture aromatique - 15 min (voir p. 374/375)",
+        "• Déglacer et blanchir les couennes de porc départ eau froide, puis les rincer en paquet et les ficeler, ou blanchir la poitrine de porc.",
+        "• Éplucher et laver les oignons, les clouter en y piquant un clou de girofle.",
+        "• Éplucher et laver les carottes puis les tronçonner.",
+        "• Confectionner un bouquet garni.",
+        "5. Marquer les haricots en cuisson - 5 min",
+        "• Rincer à nouveau les légumes secs.",
+        "• Les répartir dans une grande russe ou dans un rondeau haut.",
+        "• Mouiller généreusement avec de l’eau froide (2 fois le volume des haricots).",
+        "• Porter à ébullition et écumer soigneusement.",
+        "• Ajouter la garniture aromatique et le lard ou les couennes.",
+        "• Cuire lentement, récipient semi-couvert durant 40 min à 1 heure (parfois plus).",
+        "• Saler aux 2/3 de la cuisson avec du gros sel.",
+        "6. Laver, égoutter, essorer et hacher le persil - 5 min",
+        "7. Égoutter et lier les haricots au beurre - 3 min",
+        "• S’assurer de leur cuisson en les goûtant (ils doivent être tendres, moelleux et ne pas s’écraser).",
+        "• Éliminer la garniture aromatique et le paquet de couennes ou le morceau de lard.",
+        "• Les égoutter délicatement pour ne pas les écraser, et les lier au beurre.",
+        "• Vérifier l’assaisonnement.",
+        "8. Dresser les haricots - 2 min",
+        "• Les dresser délicatement en dôme dans un légumier.",
+        "• Les saupoudrer sans excès de persil haché.",
+        "• Placer le légumier sur un sous-plat recouvert d’une feuille de papier gaufré."
+    ]
+}

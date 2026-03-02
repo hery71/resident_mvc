@@ -1,0 +1,55 @@
+{
+    "titre": "PUDDING AUX RAISINS ET SABAYON AU MALAGA",
+    "type": "Dessert",
+    "page": 935,
+    "denrees_pour_8_couverts": {
+        "base": [
+            {
+                "nom": "appareil à crème prise",
+                "quantite": "voir p. 562"
+            },
+            {
+                "nom": "raisins de Malaga",
+                "unite": "kg",
+                "quantite": "0,100"
+            },
+            {
+                "nom": "Malaga",
+                "unite": "l",
+                "quantite": "0,10"
+            },
+            {
+                "nom": "biscuits à la cuiller",
+                "unite": "kg",
+                "quantite": "0,200"
+            }
+        ],
+        "sabayon": [
+            {
+                "nom": "jaunes d’œufs",
+                "unite": "kg",
+                "quantite": "0,100"
+            },
+            {
+                "nom": "Malaga",
+                "unite": "l",
+                "quantite": "0,20"
+            }
+        ]
+    },
+    "technique": [
+        "1. Confectionner un appareil à crème prise (voir p. 562)",
+        "2. Préparer les moules",
+        "• Faire macérer 0,100 kg de raisins de Malaga dans 0,10 l de Malaga.",
+        "• Garnir les moules beurrés et sucrés avec 0,200 kg de biscuits à la cuiller coupés, sans les chemiser.",
+        "• Répartir en même temps les raisins macérés.",
+        "3. Cuire les puddings",
+        "• Remplir les moules avec la crème prise et cuire au bain-marie comme dans la recette de base.",
+        "• Démouler les puddings juste refroidis, non glacés.",
+        "4. Confectionner le sabayon",
+        "• Dans une calotte, blanchir 4 jaunes d’œufs avec 0,100 kg de sucre.",
+        "• Ajouter 0,20 l de Malaga et cuire au bain-marie en fouettant jusqu’à l’obtention d’une crème mousseuse un peu épaisse.",
+        "5. Dresser les puddings",
+        "• Verser un peu de sabayon autour des puddings."
+    ]
+}

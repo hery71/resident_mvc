@@ -1,0 +1,78 @@
+{
+    "titre": "CRUMBLE AUX POMMES ET À LA RHUBARBE",
+    "type": "Dessert",
+    "page": 953,
+    "denrees_pour_8_couverts": {
+        "pate_brisee_sucree": [
+            {
+                "nom": "pâte brisée sucrée",
+                "unite": "kg",
+                "quantite": "0,250"
+            }
+        ],
+        "garniture": [
+            {
+                "nom": "rhubarbe",
+                "unite": "kg",
+                "quantite": "0,400"
+            },
+            {
+                "nom": "pommes (reinette ou reine des reinettes)",
+                "unite": "kg",
+                "quantite": "0,800"
+            },
+            {
+                "nom": "sucre semoule",
+                "unite": "kg",
+                "quantite": "0,040"
+            },
+            {
+                "nom": "gingembre",
+                "quantite": "PM"
+            }
+        ],
+        "crumble": [
+            {
+                "nom": "farine",
+                "unite": "kg",
+                "quantite": "0,100"
+            },
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": "0,100"
+            },
+            {
+                "nom": "sucre cristallisé ou cassonade",
+                "unite": "kg",
+                "quantite": "0,100"
+            },
+            {
+                "nom": "poudre d’amandes",
+                "unite": "kg",
+                "quantite": "0,100"
+            }
+        ],
+        "finition": [
+            {
+                "nom": "sucre glace",
+                "quantite": "PM"
+            }
+        ]
+    },
+    "technique": [
+        "1. Mettre en place le poste de travail.",
+        "2. Réaliser 0,250 kg de pâte brisée sucrée (voir p. 481/483).",
+        "3. Laver, éplucher et tailler la rhubarbe.",
+        "• Blanchir dans un sirop léger vanillé et égoutter.",
+        "4. Préparer les pommes.",
+        "• Éplucher, épépiner et tailler en dés réguliers.",
+        "5. Foncer et garnir le fond de tarte.",
+        "• Garnir avec la rhubarbe pochée et les pommes.",
+        "6. Réaliser le crumble.",
+        "• Sabler farine, beurre, sucre et poudre d’amandes.",
+        "7. Terminer la tarte.",
+        "• Cuire au four à 200 °C pendant environ 30 min.",
+        "• Saupoudrer de sucre glace et dresser."
+    ]
+}

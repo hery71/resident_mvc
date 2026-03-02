@@ -1,0 +1,76 @@
+{
+    "titre": "CRÊPES SOUFFLÉES À L’ORANGE",
+    "type": "Dessert",
+    "page": 941,
+    "denrees_pour_8_couverts": {
+        "pate_a_crepes": [
+            {
+                "nom": "farine",
+                "unite": "kg",
+                "quantite": "0,200"
+            },
+            {
+                "nom": "œufs entiers",
+                "unite": "pièce",
+                "quantite": "6"
+            },
+            {
+                "nom": "sel fin",
+                "quantite": "PM"
+            },
+            {
+                "nom": "sucre",
+                "unite": "kg",
+                "quantite": "0,015"
+            },
+            {
+                "nom": "lait",
+                "unite": "l",
+                "quantite": "0,50"
+            },
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": "0,050"
+            }
+        ],
+        "appareil_souffle": [
+            {
+                "nom": "appareil à soufflé",
+                "quantite": "PM"
+            },
+            {
+                "nom": "zestes d’oranges taillés en fine brunoise",
+                "unite": "kg",
+                "quantite": "0,015"
+            },
+            {
+                "nom": "Grand Marnier",
+                "unite": "l",
+                "quantite": "0,04"
+            }
+        ],
+        "finition": [
+            {
+                "nom": "sucre glace",
+                "quantite": "PM"
+            }
+        ]
+    },
+    "technique": [
+        "1. Mettre en place le poste de travail",
+        "2. Réaliser 12 à 14 crêpes",
+        "3. Réaliser l’appareil à soufflé",
+        "• Ajouter les zestes d’orange et le Grand Marnier.",
+        "4. Sauter les crêpes",
+        "5. Terminer l’appareil à soufflé",
+        "• Incorporer les jaunes d’œufs crus, puis les blancs battus en neige.",
+        "6. Garnir les crêpes",
+        "• Étaler une cuillère d’appareil et plier en deux.",
+        "7. Cuire les crêpes",
+        "• Cuire au four à 200 °C durant 7 à 8 min.",
+        "8. Glacer les crêpes soufflées",
+        "• Saupoudrer de sucre glace 2 min avant la fin de cuisson.",
+        "• Servir immédiatement."
+    ]
+}

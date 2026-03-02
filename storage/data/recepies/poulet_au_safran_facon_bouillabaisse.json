@@ -1,0 +1,72 @@
+{
+    "titre": "POULET AU SAFRAN FAÇON BOUILLABAISSE",
+    "page": 867,
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "oignons",
+                "quantite": "2,000 kg"
+            },
+            {
+                "nom": "poireaux",
+                "quantite": "0,200 kg"
+            },
+            {
+                "nom": "céleri en branches",
+                "quantite": "0,100 kg"
+            },
+            {
+                "nom": "bulbes de fenouil",
+                "quantite": "0,100 kg"
+            },
+            {
+                "nom": "tomates",
+                "quantite": "0,500 kg"
+            },
+            {
+                "nom": "poulets",
+                "quantite": "2,000 kg"
+            },
+            {
+                "nom": "zeste d’orange sèche",
+                "quantite": "PM"
+            },
+            {
+                "nom": "vin blanc",
+                "quantite": "0,05 l"
+            },
+            {
+                "nom": "fond blanc de volaille",
+                "quantite": "PM"
+            },
+            {
+                "nom": "pistils de safran",
+                "quantite": "PM"
+            },
+            {
+                "nom": "ail",
+                "quantite": "PM"
+            }
+        ]
+    },
+    "technique":[ "1. Confectionner la marinade",
+                "• Emincer 0,200 kg d’oignons.",
+                " Tailler en julienne 0,200 kg de poireaux, 0,100 kg de céleri en branches et 0,100 kg de bulbes de fenouil.","• Monder, épépiner et concasser 0,500 kg de tomates.",
+                "• Effilocher, laver, dégermer et écraser 4 gousses d’ail.",
+                "• Confectionner un bouquet garni, y ajouter un petit morceau de zeste d’orange sèche.",
+                "2. Etuver la marinade",
+                "• Etuver très lentement à l’huile d’olive les oignons, les poireaux, le céleri en branches et le fenouil.",
+                "• Ajouter les tomates, l’ail, le bouquet garni, 0,05 l de vin blanc et quelques pistils de safran.",
+                "• Débarrasser, laisser complètement refroidir, ajouter les 2 poulets découpés (chacun en 8 morceaux) et 0,05 l de pastis.",
+                "• Bien enrober les morceaux de marinade, couvrir et réserver en enceinte réfrigérée durant 12 heures.",
+                "3. Réaliser un fond blanc de volaille corsé avec les carcasses et les abattis",
+                "4. Marquer les morceaux de poulet en cuisson",
+                "• Les égoutter et les éponger soigneusement.",
+                "• Les faire rissoler à l’huile d’olive, dégraisser, ajouter la marinade et le fond blanc de volaille bouillant.",
+                "• Assaisonner et cuire de 18 à 22 min.",
+                "5. Terminer le poulet au safran","• Décanter et ranger les morceaux de poulet dans les légumes de service.",
+                "• Lier la cuisson avec quelques cuillerées d’ail.",
+                "• Napper uniformément.",
+                "• Servir avec un riz créole, des pâtes fraîches ou des pommes de terre cuites dans du fond blanc de volaille safrané."
+    ]
+}

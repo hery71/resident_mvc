@@ -1,0 +1,97 @@
+{
+    "titre": "POMMES BOULANGÈRE",
+   "type": "Accompagnement",
+    "bandeau": "Pommes de terre « braisées » dans un fond blanc",
+    "fiche": 134,
+    "page": 898,
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "pommes de terre à chair ferme",
+                "unite": "kg",
+                "quantite": "2,200"
+            },
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": "0,080"
+            },
+            {
+                "nom": "oignons",
+                "unite": "kg",
+                "quantite": "0,600"
+            },
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": "0,080"
+            }
+        ],
+        "garniture_aromatique": [
+            {
+                "nom": "ail (3 gousses)",
+                "unite": "kg",
+                "quantite": "0,020"
+            },
+            {
+                "nom": "bouquet garni",
+                "unite": "pièce",
+                "quantite": "2"
+            },
+            {
+                "nom": "beurre pour le plat (facultatif)",
+                "unite": "kg",
+                "quantite": "0,020"
+            }
+        ],
+        "mouillement": [
+            {
+                "nom": "fond blanc ou consommé simple",
+                "unite": "l",
+                "quantite": "1,60"
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel fin",
+                "quantite": "PM"
+            },
+            {
+                "nom": "poivre du moulin",
+                "quantite": "PM"
+            }
+        ]
+    },
+    "technique": [
+        "1. Mettre en place le poste de travail - 5 min",
+        "• Denrées, matériels de préparation, de cuisson et de dressage.",
+        "2. Éplucher et laver tous les légumes - 20 min",
+        "• Éplucher et laver les pommes de terre, les réserver dans un bain avec de l’eau froide.",
+        "• Éplucher et laver les oignons.",
+        "• Éplucher, dégermer et laver les gousses d’ail.",
+        "• Laver le persil, l’égoutter et réaliser deux bouquets garnis avec une légère dominante en thym.",
+        "3. Tailler les légumes - 15 min",
+        "• Éplucher soigneusement les pommes de terre.",
+        "• Les émincer régulièrement en rondelles de 2 à 3 mm d’épaisseur, ne pas les rincer, les sécher sur un linge propre (sauf si elles sont réellement très riches en amidon).",
+        "• Émincer finement les oignons.",
+        "4. Précuire les oignons et les pommes de terre - 15 min",
+        "• Compoter lentement les oignons dans un rondeau avec le beurre et les assaisonner (ils doivent colorer légèrement).",
+        "• Sauter légèrement les pommes de terre à la poêle. Cette phase est facultative mais elle permet d’enrober les pommes de terre de matière grasse, de les précuire et de les colorer légèrement en les rendant plus moelleuses et plus savoureuses.",
+        "• Les assaisonner (elles accompagneront de l’agneau, ajouter un peu de fleur de thym passée au tamis).",
+        "• Les égoutter si nécessaire.",
+        "5. Garnir les plats à gratin - 5 min",
+        "• Frotter deux grands plats à gratin avec les gousses d’ail, les beurrer.",
+        "• Répartir par couches successives les pommes de terre et les oignons.",
+        "• Terminer par les pommes de terre en les rangeant délicatement en rosace.",
+        "• Glisser deux gousses d’ail et un petit bouquet garni aux extrémités des plats.",
+        "• Mouiller à hauteur des pommes de terre avec le fond blanc assaisonné.",
+        "6. Marquer les pommes boulangère en cuisson - 3 min",
+        "• Démarrer la cuisson sur le feu, puis placer les plats dans un four à 190/200 °C durant 40 à 50 min.",
+        "• Couvrir les plats avec une feuille de papier sulfurisé si les pommes de terre sèchent en surface.",
+        "• En fin de cuisson, les pommes de terre doivent être légèrement dorées en surface et avoir absorbé une grande partie du liquide.",
+        "7. Dresser les pommes boulangère - 2 min",
+        "• S’assurer de leur cuisson.",
+        "• Ôter les gousses d’ail et les bouquets garnis.",
+        "• Disposer les plats sur des plats longs recouverts de papier gaufré."
+    ]
+}

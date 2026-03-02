@@ -1,0 +1,108 @@
+{
+    "titre": "GIBELOTTE DE LAPEREAU ILE-DE-FRANCE",
+    "page": 871,
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "lapereau",
+                "unite": "kg",
+                "quantite": "1 kg chacun"
+            },
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": "0,040"
+            },
+            {
+                "nom": "échalotes",
+                "unite": "kg",
+                "quantite": "0,080"
+            },
+            {
+                "nom": "fond brun de veau légèrement lié",
+                "unite": "l",
+                "quantite": "0,50"
+            },
+            {
+                "nom": "bouquet garni (thym, laurier, romarin ou sarriette)",
+                "quantite": "PM"
+            },
+            {
+                "nom": "vin blanc",
+                "unite": "l",
+                "quantite": "0,25"
+            },
+            {
+                "nom": "petits champignons de Paris (facultatif)",
+                "unite": "kg",
+                "quantite": "0,250"
+            },
+            {
+                "nom": "petites pommes de terre à chair ferme",
+                "unite": "kg",
+                "quantite": "0,800"
+            },
+            {
+                "nom": "gros beurre",
+                "unite": "kg",
+                "quantite": "0,020"
+            }
+        ],
+        "garniture": [
+            {
+                "nom": "poitrine demi-sel en petits lardons",
+                "unite": "kg",
+                "quantite": "0,300"
+            },
+            {
+                "nom": "pain de mie en petits triangles",
+                "quantite": "PM"
+            },
+            {
+                "nom": "persil haché",
+                "quantite": "PM"
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel fin",
+                "quantite": "PM"
+            },
+            {
+                "nom": "poivre du moulin",
+                "quantite": "PM"
+            }
+        ]
+    },
+    "technique": [
+        "1. Mettre en place le poste de travail",
+        "2. Découper et parer 2 lapereaux d’1 kg chacun (voir p. 254/255)",
+        "3. Eplucher, laver et tailler les légumes",
+        "• Eplucher, laver et ciseler finement 0,080 kg d’échalotes.",
+        "• Confectionner un bouquet garni avec des tiges de persil, du thym, du laurier et un petit bouquet de romarin ou de sarriette.",
+        "• Eplucher et laver 0,250 kg de petits champignons de Paris (facultatif).",
+        "• Eplucher et laver 2 kg de petites pommes de terre à chair ferme, les tourner et les glacer au beurre.",
+        "4. Marquer la gibelotte en cuisson",
+        "• Saler et poivrer les morceaux. Les faire revenir dans un petit rondeau plat avec 0,040 l d’huile et 0,040 kg de beurre.",
+        "• Dégraisser, ajouter les échalotes ciselées et les suer durant une minute.",
+        "• Déglacer avec 0,25 l de vin blanc et laisser réduire.",
+        "• Ajouter le fond brun de veau et le bouquet garni.",
+        "• Singer et tourner la farine en plaçant le rondeau dans un four très chaud. Mélanger à la spatule.",
+        "• Mouiller avec 1,50 l de fond blanc (eau ou volaille).",
+        "• Ajouter le bouquet garni, l’ail, assaisonner et porter à ébullition.",
+        "• Couvrir et cuire au four à 200 °C durant 45 min à 1 h.",
+        "5. Marquer la garniture en cuisson",
+        "• Détailer 0,300 kg de poitrine demi-sel en petits lardons, les blanchir puis les sauter à la poêle avec un peu d’huile.",
+        "• Sauter les champignons dans la graisse de fonte des lardons.",
+        "6. Détailler 0,250 kg de pain de mie en petits triangles.",
+        "• Les sauter au beurre clarifié ou les toaster sous la salamandre.",
+        "• Blanchir les pommes de terre.",
+        "• Les blanchir départ eau froide durant quelques minutes, les égoutter sans les rafraîchir.",
+        "7. Terminer la gibelotte (20 min avant la fin de la cuisson)",
+        "• La décanter et passer la sauce au chinois étamine.",
+        "• Ajouter les pommes de terre et poursuivre la cuisson durant une vingtaine de minutes.",
+        "• Vérifier l’onctuosité, l’assaisonnement et ajouter les lardons, les petits oignons et les champignons.",
+        "8. Dresser la gibelotte",
+        "• La dresser en dôme dans un grand légumier. Répartir équitablement la sauce et la garniture. Disposer harmonieusement les croûtons et saupoudrer sans excès de persil haché."
+    ]
+}

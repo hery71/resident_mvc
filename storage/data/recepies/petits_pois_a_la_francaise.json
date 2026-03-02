@@ -1,0 +1,114 @@
+{
+    "titre": "PETITS POIS À LA FRANÇAISE",
+    "bandeau": "Petits pois cuits à court-mouillement",
+    "fiche": 131,
+    "page": 892,
+    "type": "Accompagnement",
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "petits pois frais",
+                "unite": "kg",
+                "quantite": "3"
+            },
+            {
+                "nom": "ou petits pois surgelés",
+                "unite": "kg",
+                "quantite": "1,200"
+            },
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": "0,080"
+            },
+            {
+                "nom": "laitue (1 petite pièce)",
+                "unite": "kg",
+                "quantite": "0,200"
+            },
+            {
+                "nom": "bouquet garni",
+                "unite": "pièce",
+                "quantite": "1"
+            },
+            {
+                "nom": "cerfeuil",
+                "quantite": "PM"
+            }
+        ],
+        "garniture": [
+            {
+                "nom": "petits oignons nouveaux",
+                "unite": "kg",
+                "quantite": "0,250"
+            },
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": "0,020"
+            },
+            {
+                "nom": "sucre",
+                "unite": "kg",
+                "quantite": "PM"
+            }
+        ],
+        "liaison_facultatif": [
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": "0,020"
+            },
+            {
+                "nom": "farine",
+                "unite": "kg",
+                "quantite": "0,010"
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel fin",
+                "quantite": "PM"
+            },
+            {
+                "nom": "poivre du moulin",
+                "quantite": "PM"
+            },
+            {
+                "nom": "sucre semoule",
+                "quantite": "PM"
+            }
+        ]
+    },
+    "technique": [
+        "1. Mettre en place le poste de travail - 5 min",
+        "• Denrées, matériels de préparation, de cuisson et de dressage.",
+        "2. Écosser les petits pois - 30 min",
+        "• Les choisir bien verts, luisants, tendres et légèrement sucrés.",
+        "3. Préparer la garniture aromatique - 15 min",
+        "• Éplucher et laver les petits oignons nouveaux. Les laisser environ 2 à 3 cm de fanes.",
+        "• Éplucher et laver la laitue, puis l’émincer en chiffonnade.",
+        "• Réaliser un petit bouquet garni, l’ajouter le cerfeuil.",
+        "4. Glacer les petits oignons à blanc - 5 min (voir p. 395)",
+        "• Réunir dans une sauteuse et sans les superposer, les petits oignons, le beurre, le sucre et le sel.",
+        "• Mouiller légèrement au-dessous de la hauteur des petits oignons avec de l’eau.",
+        "• Couvrir avec une feuille de papier sulfurisé trouée au centre.",
+        "• Cuire jusqu’à évaporation complète de l’eau et glacer les petits oignons.",
+        "5. Marquer les petits pois en cuisson - 10 min",
+        "• Étuvier lentement dans une grande sauteuse la chiffonnade de laitue avec le beurre.",
+        "• Ajouter les petits pois et mouiller avec environ 0,25 l d’eau.",
+        "• Ajouter le bouquet garni.",
+        "• Cuire doucement les petits pois à couvert durant 20 à 25 min.",
+        "• Saler en fin de cuisson et ajouter éventuellement un peu de sucre semoule.",
+        "• Surveiller attentivement la réduction de l’eau, en rajouter si nécessaire.",
+        "6. Terminer les petits pois - 2 min",
+        "• S’assurer de leur cuisson en les goûtant. Ils doivent être tendres et moelleux.",
+        "• Vérifier l’assaisonnement (il est parfois d’usage de les lier avec un peu de beurre manié).",
+        "• Ajouter les oignons glacés, en réserver quelques-uns pour la présentation.",
+        "• Laisser mijoter l’ensemble durant quelques minutes.",
+        "7. Dresser les petits pois - 3 min",
+        "• Les dresser en dôme dans un légumier.",
+        "• Disposer harmonieusement un peu de laitue et les petits oignons réservés sur le dessus.",
+        "• Placer le légumier sur un plat rond recouvert d’une feuille de papier gaufré."
+    ]
+}

@@ -1,0 +1,79 @@
+{
+    "titre": "CRÊPES AU SUCRE",
+    "type": "Dessert",
+    "bandeau": "Entremets chauds de cuisine à base de crêpes",
+    "page": 942,
+    "denrees_pour_8_couverts": {
+        "pate_a_crepes": [
+            {
+                "nom": "lait",
+                "unite": "l",
+                "quantite": "0,50"
+            },
+            {
+                "nom": "farine",
+                "unite": "kg",
+                "quantite": "0,250"
+            },
+            {
+                "nom": "œufs entiers (3 pièces)",
+                "unite": "kg",
+                "quantite": "0,165"
+            },
+            {
+                "nom": "sel fin",
+                "unite": "kg",
+                "quantite": "0,002"
+            },
+            {
+                "nom": "sucre semoule",
+                "unite": "kg",
+                "quantite": "0,040"
+            },
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": "0,040"
+            },
+            {
+                "nom": "beurre ou huile pour cuisson",
+                "unite": "kg",
+                "quantite": "0,020"
+            }
+        ],
+        "finition": [
+            {
+                "nom": "sucre glace",
+                "unite": "kg",
+                "quantite": "0,040"
+            },
+            {
+                "nom": "sucre semoule",
+                "unite": "kg",
+                "quantite": "0,020"
+            },
+            {
+                "nom": "beurre pour le plat",
+                "unite": "kg",
+                "quantite": "0,010"
+            }
+        ]
+    },
+    "technique": [
+        "1. Mettre en place le poste de travail - 5 min",
+        "2. Confectionner la pâte à crêpes - 10 min",
+        "• Tamiser la farine dans une calotte.",
+        "• Ajouter au centre le sel fin, le sucre semoule et les œufs.",
+        "• Verser progressivement le lait en remuant.",
+        "• Incorporer le beurre fondu refroidi.",
+        "• Laisser reposer.",
+        "3. Cuire les crêpes - 20 min",
+        "• Chauffer, beurrer ou huiler légèrement la poêle.",
+        "• Verser une petite quantité d’appareil.",
+        "• Cuire environ 20 sec par face.",
+        "• Réserver au chaud.",
+        "4. Dresser les crêpes - 5 min",
+        "• Saupoudrer de sucre semoule ou sucre glace.",
+        "• Plier et disposer harmonieusement sur un plat beurré."
+    ]
+}

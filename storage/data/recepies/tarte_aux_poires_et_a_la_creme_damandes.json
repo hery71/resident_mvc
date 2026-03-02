@@ -1,0 +1,138 @@
+{
+    "titre": "TARTE AUX POIRES ET À LA CRÈME D’AMANDES",
+    "type": "Dessert",
+    "page": 958,
+    "denrees_pour_8_couverts": {
+        "pate_brisee_sucree": [
+            {
+                "nom": "farine",
+                "unite": "kg",
+                "quantite": "0,250"
+            },
+            {
+                "nom": "sel",
+                "unite": "kg",
+                "quantite": "0,005"
+            },
+            {
+                "nom": "sucre semoule",
+                "unite": "kg",
+                "quantite": "0,025"
+            },
+            {
+                "nom": "beurre extra-fin",
+                "unite": "kg",
+                "quantite": "0,125"
+            },
+            {
+                "nom": "œuf (1 jaune)",
+                "unite": "kg",
+                "quantite": "0,020"
+            },
+            {
+                "nom": "eau",
+                "unite": "l",
+                "quantite": "0,050"
+            },
+            {
+                "nom": "farine (pour abaisser)",
+                "unite": "kg",
+                "quantite": "0,040"
+            },
+            {
+                "nom": "beurre (pour le cercle)",
+                "unite": "kg",
+                "quantite": "0,010"
+            }
+        ],
+        "sirop": [
+            {
+                "nom": "eau",
+                "unite": "l",
+                "quantite": "0,80"
+            },
+            {
+                "nom": "sucre semoule",
+                "unite": "kg",
+                "quantite": "0,500"
+            },
+            {
+                "nom": "zestes d’oranges ou citrons",
+                "quantite": "PM"
+            },
+            {
+                "nom": "vanille (gousse)",
+                "quantite": "1/2"
+            }
+        ],
+        "garniture": [
+            {
+                "nom": "poires (4 belles pièces)",
+                "unite": "kg",
+                "quantite": "0,700"
+            },
+            {
+                "nom": "citron (1/2 pièce)",
+                "quantite": "1/2"
+            }
+        ],
+        "creme_d_amandes": [
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": "0,100"
+            },
+            {
+                "nom": "sucre semoule",
+                "unite": "kg",
+                "quantite": "0,100"
+            },
+            {
+                "nom": "amandes en poudre",
+                "unite": "kg",
+                "quantite": "0,100"
+            },
+            {
+                "nom": "œufs entiers (2 pièces)",
+                "quantite": "2"
+            },
+            {
+                "nom": "vanille (extrait liquide)",
+                "quantite": "PM"
+            },
+            {
+                "nom": "rhum ambré ou vieux",
+                "unite": "l",
+                "quantite": "0,04"
+            }
+        ],
+        "finition": [
+            {
+                "nom": "amandes effilées (facultatif)",
+                "unite": "kg",
+                "quantite": "0,040"
+            },
+            {
+                "nom": "nappage blond abricot",
+                "unite": "kg",
+                "quantite": "0,100"
+            }
+        ]
+    },
+    "technique": [
+        "1. Mettre en place le poste de travail - 5 min.",
+        "2. Réaliser la pâte brisée sucrée - 15 min (voir p. 484/485).",
+        "3. Réaliser la crème d’amandes - 10 min (voir p. 557/558).",
+        "4. Pocher les poires au sirop - 10 min.",
+        "• Éplucher, citronner et cuire au sirop vanillé.",
+        "5. Foncer la tarte - 10 min (voir p. 484/485).",
+        "6. Garnir la tarte - 5 min.",
+        "• Masquer le fond d’une couche de crème d’amandes.",
+        "• Disposer les demi-poires en rosace.",
+        "7. Cuire la tarte - 30 à 35 min.",
+        "• Cuire au four à 200 °C.",
+        "8. Terminer la tarte - 5 min.",
+        "• Napper au nappage blond abricot.",
+        "• Décorer d’amandes effilées et dresser."
+    ]
+}

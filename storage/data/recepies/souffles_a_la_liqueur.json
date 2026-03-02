@@ -1,0 +1,116 @@
+{
+    "titre": "SOUFFLÉS À LA LIQUEUR",
+    "type": "Dessert",
+    "bandeau": "Entremets chauds de cuisine à base de crème pâtissière",
+    "page": 940,
+    "denrees_pour_8_couverts": {
+        "appareil_a_souffle": [
+            {
+                "nom": "lait",
+                "unite": "l",
+                "quantite": "0,50"
+            },
+            {
+                "nom": "vanille",
+                "unite": "gousse",
+                "quantite": "1/2"
+            },
+            {
+                "nom": "œufs (4 jaunes)",
+                "unite": "kg",
+                "quantite": "0,080"
+            },
+            {
+                "nom": "œufs entiers (3 pièces)",
+                "unite": "kg",
+                "quantite": "0,165"
+            },
+            {
+                "nom": "sucre semoule",
+                "unite": "kg",
+                "quantite": "0,100"
+            },
+            {
+                "nom": "farine",
+                "unite": "kg",
+                "quantite": "0,070"
+            },
+            {
+                "nom": "sucre glace",
+                "unite": "kg",
+                "quantite": "0,005"
+            },
+            {
+                "nom": "liqueur",
+                "unite": "l",
+                "quantite": "0,04"
+            }
+        ],
+        "finition": [
+            {
+                "nom": "œufs (2 jaunes)",
+                "unite": "kg",
+                "quantite": "0,040"
+            },
+            {
+                "nom": "œufs (6 blancs)",
+                "unite": "kg",
+                "quantite": "0,260"
+            },
+            {
+                "nom": "sel fin",
+                "quantite": "PM"
+            },
+            {
+                "nom": "sucre semoule",
+                "unite": "kg",
+                "quantite": "0,020"
+            },
+            {
+                "nom": "biscuits à la cuiller",
+                "unite": "kg",
+                "quantite": "0,040"
+            },
+            {
+                "nom": "liqueur (pour imbiber)",
+                "unite": "l",
+                "quantite": "0,04"
+            }
+        ],
+        "chemise_des_moules": [
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": "0,020"
+            },
+            {
+                "nom": "sucre semoule",
+                "unite": "kg",
+                "quantite": "0,040"
+            }
+        ],
+        "glacage": [
+            {
+                "nom": "sucre glace",
+                "unite": "kg",
+                "quantite": "0,020"
+            }
+        ]
+    },
+    "technique": [
+        "1. Mettre en place le poste de travail - 5 min",
+        "2. Confectionner la crème pâtissière - 20 min",
+        "3. Chemiser les moules à soufflé - 5 min",
+        "4. Imbiber les biscuits à la cuiller - 2 min",
+        "5. Réaliser l’appareil à soufflé - 10 min",
+        "• Détendre la crème pâtissière avec le reste de la liqueur.",
+        "• Monter les blancs d’œufs en neige ferme avec une pincée de sel.",
+        "• Incorporer délicatement les blancs à la crème pâtissière.",
+        "6. Mouler les soufflés - 5 min",
+        "7. Marquer les soufflés en cuisson - 3 min",
+        "• Cuire au four à 200 °C pendant 20 à 25 min.",
+        "• Saupoudrer de sucre glace 3 à 4 min avant la fin de cuisson.",
+        "8. Dresser les soufflés - 5 min",
+        "• Servir immédiatement."
+    ]
+}

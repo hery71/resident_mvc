@@ -1,0 +1,164 @@
+{
+    "titre": "CARI POULET",
+    "bandeau": "Ragoûts de volaille aux épices",
+    "fiche": 125,
+    "page": 878,
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "poulets label rouge P.A.C. très fermes (2 x 1,400 kg)",
+                "unite": "kg",
+                "quantite": "2,800"
+            },
+            {
+                "nom": "huile d’arachide",
+                "unite": "l",
+                "quantite": "0,10"
+            }
+        ],
+        "garniture": [
+            {
+                "nom": "oignons (2 pièces)",
+                "unite": "kg",
+                "quantite": "0,400"
+            },
+            {
+                "nom": "tomates (grosses)",
+                "unite": "kg",
+                "quantite": "0,800"
+            },
+            {
+                "nom": "ail (4 gousses)",
+                "unite": "kg",
+                "quantite": "0,030"
+            }
+        ],
+        "fond_blanc": [
+            {
+                "nom": "carcasses et abattis",
+                "unite": "kg",
+                "quantite": "PM"
+            },
+            {
+                "nom": "carottes",
+                "unite": "kg",
+                "quantite": "0,200"
+            },
+            {
+                "nom": "oignons",
+                "unite": "kg",
+                "quantite": "0,200"
+            },
+            {
+                "nom": "poireaux (blancs)",
+                "unite": "kg",
+                "quantite": "0,200"
+            },
+            {
+                "nom": "céleri en branches",
+                "unite": "kg",
+                "quantite": "0,050"
+            },
+            {
+                "nom": "clou de girofle",
+                "unite": "pièce",
+                "quantite": "2"
+            },
+            {
+                "nom": "bouquet garni",
+                "unite": "pièce",
+                "quantite": "1"
+            },
+            {
+                "nom": "fond blanc de volaille déshydraté",
+                "unite": "kg",
+                "quantite": "0,040"
+            }
+        ],
+        "accompagnement_rougail_tomates": [
+            {
+                "nom": "tomates (grosses)",
+                "unite": "kg",
+                "quantite": "0,200"
+            },
+            {
+                "nom": "piment vert",
+                "quantite": "PM"
+            },
+            {
+                "nom": "gingembre frais",
+                "quantite": "PM"
+            },
+            {
+                "nom": "oignons",
+                "unite": "kg",
+                "quantite": "0,050"
+            }
+        ],
+        "epices_condiments_et_assaisonnement": [
+            {
+                "nom": "gingembre",
+                "unite": "kg",
+                "quantite": "PM"
+            },
+            {
+                "nom": "clous de girofle",
+                "unite": "kg",
+                "quantite": "PM"
+            },
+            {
+                "nom": "poivre en grains",
+                "unite": "kg",
+                "quantite": "PM"
+            },
+            {
+                "nom": "curcuma",
+                "unite": "kg",
+                "quantite": "PM"
+            },
+            {
+                "nom": "bouquet garni avec une feuille de quatre-épices et une brindille de thym vert",
+                "unite": "pièce",
+                "quantite": "1"
+            },
+            {
+                "nom": "sel gros",
+                "quantite": "PM"
+            },
+            {
+                "nom": "sel fin",
+                "quantite": "PM"
+            }
+        ]
+    },
+    "technique": [
+        "1. Mettre en place le poste de travail - 5 min",
+        "• Denrées, matériels de préparation, de cuisson et de dressage.",
+        "2. Habiller et détailler chaque poulet en huit morceaux - 20 min (voir p. 237 et 246)",
+        "3. Marquer un fond blanc de volaille corsé avec les carcasses et les abattis - 15 min (voir p. 264/266)",
+        "4. Préparer la garniture - 15 min",
+        "• Monder, épépiner et concasser les tomates.",
+        "• Éplucher, laver, dégermer les gousses d’ail.",
+        "• Éplucher, laver et ciseler finement les oignons.",
+        "5. Piler les épices et les condiments - 5 min",
+        "• Piler dans un mortier (pilon calou) l’ail, le gingembre, le poivre, les clous de girofle et le gros sel (ou utiliser du sel fin).",
+        "6. Marquer le cari en cuisson - 15 min",
+        "• Faire revenir les morceaux de poulet dans une marmite en fonte d’aluminium (ou dans un rondeau plat) avec l’huile.",
+        "• Placer les morceaux de poulet, le côté peau en premier dans le récipient et les faire « roussir » uniformément sur toutes les faces en les retournant.",
+        "• Débarrasser le récipient et ajouter les oignons et les épices pilées.",
+        "• Ajouter les tomates concassées et mouiller à mi-hauteur des morceaux avec le fond blanc de volaille.",
+        "• Ajouter le bouquet garni, porter à ébullition.",
+        "• Réduire le feu et laisser réduire lentement durant une vingtaine de minutes.",
+        "7. Réaliser le rougail « tomates » (rougail pilon) - 10 min",
+        "• Écraser dans un mortier le piment, le gros sel et le gingembre.",
+        "• Ajouter les tomates taillées en petits dés et les oignons ciselés et piler ensemble.",
+        "• Rectifier l’assaisonnement.",
+        "8. Terminer la sauce - 2 min",
+        "• Surveiller la réduction, la sauce doit être courte et très réduite.",
+        "• Vérifier l’assaisonnement.",
+        "9. Dresser le cari - 3 min",
+        "• Répartir les morceaux dans un légumier.",
+        "• Orienter les morceaux de cuisses vers le centre du plat.",
+        "• Disposer le rougail à part en saucière."
+    ]
+}

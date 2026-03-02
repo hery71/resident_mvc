@@ -1,0 +1,153 @@
+{
+    "titre": "FRUITS CONDÉ",
+    "type": "Dessert",
+    "bandeau": "Entremets froids de cuisine à base de riz au lait et de fruits",
+    "page": 932,
+    "denrees_pour_8_couverts": {
+        "riz_au_lait": [
+            {
+                "nom": "lait",
+                "unite": "l",
+                "quantite": "1"
+            },
+            {
+                "nom": "sel fin",
+                "quantite": "PM"
+            },
+            {
+                "nom": "vanille",
+                "unite": "gousse",
+                "quantite": "1/2"
+            },
+            {
+                "nom": "riz",
+                "unite": "kg",
+                "quantite": "0,200"
+            }
+        ],
+        "liaison": [
+            {
+                "nom": "œufs (4 jaunes)",
+                "unite": "kg",
+                "quantite": "0,080"
+            },
+            {
+                "nom": "sucre semoule",
+                "unite": "kg",
+                "quantite": "0,140"
+            }
+        ],
+        "garniture": [
+            {
+                "nom": "abricots au sirop (oreillons)",
+                "unite": "pièce",
+                "quantite": "16"
+            },
+            {
+                "nom": "poires (4 pièces de 0,150 kg)",
+                "unite": "kg",
+                "quantite": "1,200"
+            },
+            {
+                "nom": "citron",
+                "unite": "pièce",
+                "quantite": "1"
+            }
+        ],
+        "sirop": [
+            {
+                "nom": "eau",
+                "unite": "l",
+                "quantite": "0,80"
+            },
+            {
+                "nom": "sucre semoule",
+                "unite": "kg",
+                "quantite": "0,500"
+            },
+            {
+                "nom": "citron (1/2 pièce)",
+                "unite": "kg",
+                "quantite": "0,050"
+            },
+            {
+                "nom": "vanille (facultatif)",
+                "unite": "gousse",
+                "quantite": "1/2"
+            }
+        ],
+        "finition": [
+            {
+                "nom": "nappage blond",
+                "unite": "kg",
+                "quantite": "0,160"
+            }
+        ],
+        "decor": [
+            {
+                "nom": "angélique",
+                "unite": "kg",
+                "quantite": "0,020"
+            },
+            {
+                "nom": "bigarreaux",
+                "unite": "kg",
+                "quantite": "0,020"
+            }
+        ],
+        "sauce_abricot": [
+            {
+                "nom": "confiture d’abricots",
+                "unite": "kg",
+                "quantite": "0,160"
+            },
+            {
+                "nom": "sirop des fruits en traitement",
+                "quantite": "PM"
+            },
+            {
+                "nom": "kirsch",
+                "unite": "l",
+                "quantite": "0,04"
+            }
+        ]
+    },
+    "technique": [
+        "1. Mettre en place le poste de travail - 5 min",
+        "2. Blanchir le riz - 5 min",
+        "• Laver soigneusement le riz dans un chinois et l’égoutter.",
+        "• Le mettre dans une russe, mouiller à l’eau froide.",
+        "• Porter à ébullition et le laisser blanchir 1 min.",
+        "• Rafraîchir le riz puis l’égoutter.",
+        "3. Marquer le riz au lait en cuisson - 5 min",
+        "• Faire bouillir le lait avec la vanille et une pincée de sel fin.",
+        "• Ajouter le riz en pluie et remuer jusqu’à la reprise de l’ébullition.",
+        "• Couvrir le récipient et cuire au four à 180 °C pendant 25 à 30 min.",
+        "4. Confectionner le sirop - 5 min",
+        "• Réunir le sucre, l’eau, les zestes de citron et la vanille.",
+        "• Porter à ébullition et écumer si nécessaire.",
+        "5. Préparer les fruits - 10 min",
+        "• Éplucher, citronner et évider les poires.",
+        "• Les couper en quartiers.",
+        "• Égoutter et réserver les abricots.",
+        "6. Pocher les poires - 5 min",
+        "• Maintenir les poires en immersion dans le sirop.",
+        "• Couvrir d’un papier sulfurisé et laisser pocher 15 à 20 min.",
+        "7. Confectionner la liaison - 5 min",
+        "• Blanchir les jaunes d’œufs avec le sucre.",
+        "8. Lier le riz - 5 min",
+        "• Ajouter la liaison au riz cuit hors du feu.",
+        "• Remettre quelques secondes sur le feu sans faire bouillir.",
+        "• Mouler éventuellement dans un moule à manqué beurré.",
+        "9. Préparer le nappage blond - 3 min",
+        "• Chauffer le nappage dans une petite sauteuse, le détendre si nécessaire.",
+        "10. Préparer la sauce abricot - 5 min",
+        "• Mélanger la confiture avec le sirop et le kirsch.",
+        "• Passer au chinois étamine si nécessaire.",
+        "11. Dresser les fruits condé - 12 min",
+        "• Démouler le riz au lait sur le plat de service.",
+        "• Disposer les fruits bien égouttés.",
+        "• Napper légèrement et décorer avec l’angélique et les bigarreaux.",
+        "• Servir avec la sauce abricot en saucière."
+    ]
+}

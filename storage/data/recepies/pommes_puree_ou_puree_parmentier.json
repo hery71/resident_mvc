@@ -1,0 +1,85 @@
+{
+    "titre": "POMMES PURÉE OU PURÉE PARMENTIER",
+    "bandeau": "Purées de légumes",
+    "page": 886,
+    "type": "Accompagnement",
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "pommes de terre de conservation (Bintje)",
+                "unite": "kg",
+                "quantite": "2"
+            },
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": "0,080 à 0,160"
+            },
+            {
+                "nom": "lait",
+                "unite": "l",
+                "quantite": "0,50 à 0,60"
+            },
+            {
+                "nom": "ou lait",
+                "unite": "l",
+                "quantite": "0,30"
+            },
+            {
+                "nom": "et crème fleurette",
+                "unite": "l",
+                "quantite": "0,30"
+            }
+        ],
+        "finition": [
+            {
+                "nom": "beurre (pour tamponner)",
+                "unite": "kg",
+                "quantite": "0,020"
+            },
+            {
+                "nom": "lait",
+                "unite": "l",
+                "quantite": "0,10"
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "gros sel",
+                "quantite": "PM"
+            },
+            {
+                "nom": "sel fin",
+                "quantite": "PM"
+            },
+            {
+                "nom": "noix de muscade (facultatif)",
+                "quantite": "PM"
+            }
+        ]
+    },
+    "technique": [
+        "1. Mettre en place le poste de travail - 5 min",
+        "• Denrées, matériels de préparation, de cuisson et de dressage.",
+        "2. Préparer les pommes de terre - 15 min",
+        "• Éplucher et laver les pommes de terre.",
+        "• Les découper en gros morceaux. Si elles ne sont pas très grosses, les laisser entières (détaillées en petits morceaux, les pommes de terre cuisent plus rapidement mais se gorgent d’eau et absorbent beaucoup moins de lait et de beurre).",
+        "• Certains professionnels cuisent les pommes de terre au four avec la peau sur un lit de gros sel.",
+        "3. Marquer les pommes de terre en cuisson - 5 min",
+        "• Les placer dans une russe et les recouvrir d’eau froide.",
+        "• Saler au gros sel et porter à ébullition.",
+        "• Écumer et cuire lentement durant une vingtaine de minutes.",
+        "4. Réaliser la purée - 10 min",
+        "• S’assurer de la cuisson des pommes de terre (elles doivent être juste cuites).",
+        "• Les égoutter et les sécher à l’entrée d’un four durant quelques minutes.",
+        "• Les passer rapidement au moulin à légumes puis remettre la pulpe dans le récipient de cuisson.",
+        "• Travailler la pulpe sur un feu doux en y ajoutant progressivement le beurre en parcelles et le lait bouillant, ou le mélange de lait et de crème.",
+        "• Vérifier l’assaisonnement. Si nécessaire, diluer le sel fin dans un peu de lait bouillant et l’ajouter à la purée.",
+        "• Débarrasser la purée dans un bain-marie en acier inoxydable.",
+        "• Tamponner la surface avec un peu de beurre ou verser un peu de lait bouillant.",
+        "• Couvrir le récipient et le réserver au bain-marie.",
+        "5. Dresser les pommes purée - 5 min",
+        "• Donner un léger coup de fouet afin d’incorporer le beurre et le lait de surface, et pour l’homogénéiser.",
+        "• La dresser en dôme dans un légumier, lisser et strier la surface à l’aide d’une spatule métallique."
+    ]
+}

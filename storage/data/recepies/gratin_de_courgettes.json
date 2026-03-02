@@ -1,0 +1,131 @@
+{
+    "titre": "GRATIN DE COURGETTES",
+    "type": "Accompagnement",
+    "bandeau": "Garnitures d’accompagnement à caractère méridional",
+    "page": 916,
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "courgettes niçoises",
+                "unite": "kg",
+                "quantite": "2"
+            },
+            {
+                "nom": "huile d’olive",
+                "unite": "l",
+                "quantite": "0,10"
+            },
+            {
+                "nom": "huile d’arachide",
+                "unite": "l",
+                "quantite": "0,10"
+            }
+        ],
+        "garniture_aromatique": [
+            {
+                "nom": "oignons",
+                "unite": "kg",
+                "quantite": "0,200"
+            },
+            {
+                "nom": "ail (3 belles gousses)",
+                "unite": "kg",
+                "quantite": "0,020"
+            },
+            {
+                "nom": "persil plat",
+                "quantite": "PM"
+            },
+            {
+                "nom": "fleur de thym",
+                "quantite": "PM"
+            },
+            {
+                "nom": "herbes de Provence",
+                "quantite": "PM"
+            }
+        ],
+        "appareil_a_creme_prise": [
+            {
+                "nom": "œufs entiers",
+                "unite": "pièce",
+                "quantite": "4"
+            },
+            {
+                "nom": "jaunes d’œufs",
+                "unite": "pièce",
+                "quantite": "2"
+            },
+            {
+                "nom": "lait",
+                "unite": "l",
+                "quantite": "0,20"
+            },
+            {
+                "nom": "crème",
+                "unite": "l",
+                "quantite": "0,20"
+            }
+        ],
+        "finition": [
+            {
+                "nom": "parmesan râpé",
+                "unite": "kg",
+                "quantite": "0,080"
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel fin",
+                "quantite": "PM"
+            },
+            {
+                "nom": "poivre du moulin",
+                "quantite": "PM"
+            },
+            {
+                "nom": "noix de muscade",
+                "quantite": "PM"
+            }
+        ]
+    },
+    "technique": [
+        "1. Mettre en place le poste de travail - 5 min",
+        "• Denrées, matériels de préparation, de cuisson et de dressage.",
+        "2. Laver, éplucher, détailler puis mettre les courgettes à dégorger - 15 min",
+        "• Les laver et parer les extrémités, puis les canneler régulièrement ou les peler à l’aide d’un économe en laissant un passage de peau sur deux.",
+        "• Les détailler en dés réguliers d’environ 1 cm de section.",
+        "• Les saler, les remuer et les laisser dégorger sur une plaque munie d’une grille.",
+        "• Filmer et réserver les dés de courgettes en enceinte réfrigérée.",
+        "3. Préparer les éléments de la garniture aromatique - 10 min",
+        "• Éplucher, laver et ciseler finement les oignons.",
+        "• Éplucher, dégermer, laver, écraser et hacher l’ail.",
+        "• Laver, éponger, sécher, concasser et hacher le persil plat.",
+        "• Laver, éponger, sécher et passer la fleur de thym au tamis.",
+        "4. Réaliser l’appareil à crème prise salée - 5 min",
+        "• Réunir dans une calotte les œufs entiers et les jaunes.",
+        "• Ajouter le lait et la crème, puis mélanger à l’aide d’un petit fouet.",
+        "• Assaisonner, passer l’appareil au chinois et le réserver.",
+        "5. Sauter les courgettes - 15 min",
+        "• Les égoutter et les éponger soigneusement.",
+        "• Les sauter vivement par petites quantités à la fois dans un mélange d’huile d’olive et d’arachide.",
+        "• Les maintenir fermes et légèrement colorées.",
+        "• Ajouter les oignons ciselés, l’ail haché, le persil et la fleur de thym aux 2/3 de la cuisson.",
+        "• Vérifier l’assaisonnement.",
+        "• Sauter à nouveau l’ensemble durant quelques minutes et égoutter les courgettes en les débarrassant dans une passoire placée au-dessus d’une calotte.",
+        "6. Réaliser l’appareil à gratin - 10 min",
+        "• Partager les courgettes sautées en deux parties égales.",
+        "• Réserver une moitié dans une grande calotte et mixer l’autre finement.",
+        "• Réunir la purée de courgettes avec les petits dés dans la même calotte.",
+        "• Ajouter l’appareil à crème prise et mélanger délicatement, puis vérifier l’assaisonnement.",
+        "7. Terminer le gratin de courgettes - 3 min",
+        "• Huiler légèrement le plat à gratin avec de l’huile d’olive.",
+        "• Verser l’appareil.",
+        "• Saupoudrer avec le parmesan râpé.",
+        "• Placer le plat dans un four préchauffé à 200/220 °C durant 20 à 25 min.",
+        "• S’assurer de la cuisson du gratin et de sa coloration (l’appareil doit être entièrement coagulé, bien assurer la pression du doigt ou à l’aide d’une aiguille à brider, et aucun excès d’appareil liquide ne doit remonter à la surface).",
+        "• S’il noircit ou se colore trop, le passer durant quelques secondes sous un grill ou sous la salamandre.",
+        "8. Dresser le gratin - 2 min",
+        "• Placer le plat de gratin sur un autre plat long recouvert de papier gaufré."
+    ]
+}

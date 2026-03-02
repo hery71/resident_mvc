@@ -1,0 +1,63 @@
+{
+    "titre": "POMMES MIETTES",
+    "type": "Accompagnement",
+    "page": 905,
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "pommes de terre à chair ferme",
+                "unite": "kg",
+                "quantite": "2"
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel fin",
+                "quantite": "PM"
+            },
+            {
+                "nom": "gros sel",
+                "quantite": "PM"
+            }
+        ],
+        "cuisson": [
+            {
+                "nom": "eau",
+                "quantite": "PM"
+            }
+        ],
+        "sauter": [
+            {
+                "nom": "beurre",
+                "quantite": "PM"
+            }
+        ],
+        "finition": [
+            {
+                "nom": "persil haché",
+                "quantite": "PM"
+            }
+        ]
+    },
+    "technique": [
+        "1. Mettre en place le poste de travail",
+        "2. Laver et brosser soigneusement 2 kg de pommes de terre à chair ferme",
+        "3. Cuire les pommes de terre en robe des champs",
+        "• Placer les pommes de terre dans une russe.",
+        "• Mouiller à l’eau froide, saler au gros sel.",
+        "• Porter à ébullition et laisser cuire lentement durant 20 à 25 min environ selon leur grosseur.",
+        "• Les écumer si nécessaire.",
+        "4. Égoutter et tailler les pommes de terre en rondelles",
+        "• S’assurer de leur cuisson en les piquant à l’aide d’une aiguille à brider.",
+        "• Rafraîchir partiellement les pommes de terre (elles s’épluchent plus facilement lorsqu’elles sont encore tièdes).",
+        "• Les égoutter puis éliminer la peau à l’aide d’un couteau d’office.",
+        "• Les détailler délicatement en rondelles de 4 mm d’épaisseur environ, puis les réserver.",
+        "5. Sauter les pommes de terre",
+        "• Chauffer l’huile et le beurre dans une grande poêle.",
+        "• Ajouter les pommes de terre lorsque le beurre blondit légèrement dans l’huile.",
+        "• Sauter fréquemment les pommes de terre pour les colorer régulièrement et qu’elles s’émiettent légèrement.",
+        "• Les assaisonner, puis les égoutter dans une passoire.",
+        "6. Dresser les pommes miettes",
+        "• Les dresser en dôme dans un légumier et les saupoudrer sans excès de persil haché."
+    ]
+}

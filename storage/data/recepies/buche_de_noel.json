@@ -1,0 +1,75 @@
+{
+    "titre": "BÛCHE DE NOËL",
+    "type": "Dessert",
+    "page": 947,
+    "denrees_pour_8_couverts": {
+        "genoise": [
+            {
+                "nom": "appareil à génoise",
+                "quantite": "voir p. 555/556"
+            }
+        ],
+        "parfum": [
+            {
+                "nom": "vanille",
+                "quantite": "PM"
+            },
+            {
+                "nom": "café",
+                "quantite": "PM"
+            },
+            {
+                "nom": "chocolat",
+                "quantite": "PM"
+            },
+            {
+                "nom": "pistache",
+                "quantite": "PM"
+            }
+        ],
+        "garniture": [
+            {
+                "nom": "crème au beurre",
+                "quantite": "PM"
+            }
+        ],
+        "decor": [
+            {
+                "nom": "sucre glace",
+                "quantite": "PM"
+            },
+            {
+                "nom": "sucre",
+                "quantite": "PM"
+            },
+            {
+                "nom": "copeaux de chocolat",
+                "quantite": "PM"
+            },
+            {
+                "nom": "champignons en meringue",
+                "quantite": "PM"
+            },
+            {
+                "nom": "amandes grillées",
+                "quantite": "PM"
+            }
+        ]
+    },
+    "technique": [
+        "1. Mettre en place le poste de travail",
+        "2. Réaliser 4 œufs de génoise",
+        "• Cuire sur plaque chemisée de papier sulfurisé.",
+        "3. Réaliser la crème au beurre (voir p. 555/556).",
+        "4. Parfumer la crème au beurre (vanille, café, chocolat, pistache).",
+        "5. Débarrasser la génoise",
+        "• Rouler encore chaude dans un linge humide.",
+        "6. Façonner la bûche",
+        "• Puncher et masquer d’une couche fine de crème au beurre.",
+        "• Rouler à nouveau et couper les extrémités en diagonale.",
+        "7. Décorer la bûche",
+        "• Masquer entièrement de crème au beurre.",
+        "• Strier à la poche pour imiter l’écorce.",
+        "• Saupoudrer ou décorer avec copeaux, meringues, amandes."
+    ]
+}

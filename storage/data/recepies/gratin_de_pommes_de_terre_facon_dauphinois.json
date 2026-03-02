@@ -1,0 +1,57 @@
+{
+    "titre": "GRATIN DE POMMES DE TERRE FAÇON DAUPHINOIS",
+    "type": "Accompagnement",
+    "page": 913,
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "pommes de terre à chair ferme",
+                "quantite": "2 kg"
+            },
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": "0,050"
+            },
+            {
+                "nom": "crème liquide",
+                "quantite": "PM"
+            },
+            {
+                "nom": "lait",
+                "quantite": "PM"
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel fin",
+                "quantite": "PM"
+            },
+            {
+                "nom": "poivre du moulin",
+                "quantite": "PM"
+            },
+            {
+                "nom": "noix de muscade",
+                "quantite": "PM"
+            }
+        ]
+    },
+    "technique": [
+        "1. Mettre en place le poste de travail - 5 min",
+        "2. Éplucher et laver 2 kg de pommes de terre à chair ferme",
+        "3. Émincer les pommes de terre",
+        "• Les égoutter et les éponger soigneusement.",
+        "• Les émincer finement et régulièrement à l’aide d’une mandoline et ne pas les laver (la fécule et la réduction de la crème assurent la liaison).",
+        "• Les sécher à nouveau sur un linge propre.",
+        "4. Préparer la gratin",
+        "• Frotter l’intérieur de deux grands plats à gratin avec des gousses d’ail.",
+        "• Beurrer copieusement les fonds ainsi que les bords avec 0,050 kg de beurre.",
+        "• Ranger les pommes de terre par couches successives en les assaisonnant de sel, de poivre et de quelques râpures de noix de muscade entre chaque couche.",
+        "• Disposer 0,50 l de crème avec 0,30 l de lait et les répartir uniformément sur les pommes de terre.",
+        "• Verser le mélange de crème et de lait ou la crème liquide sur les pommes de terre. Le liquide doit arriver à hauteur des pommes de terre.",
+        "• Parsemer de petites parcelles de beurre.",
+        "5. Cuire les gratins",
+        "• Les placer dans un four doux à 150/160 °C durant environ 1 h 20 à 1 h 30 min de manière à obtenir un gratin complet (cuisson des pommes de terre, réduction de la crème et formation d’un gratin en surface)."
+    ]
+}

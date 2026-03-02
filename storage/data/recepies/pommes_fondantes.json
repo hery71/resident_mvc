@@ -1,0 +1,55 @@
+{
+    "titre": "POMMES FONDANTES",
+    "type": "Accompagnement",
+    "page": 899,
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "pommes de terre à chair ferme",
+                "unite": "kg",
+                "quantite": "2,00"
+            },
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": "0,050"
+            },
+            {
+                "nom": "fond blanc",
+                "unite": "l",
+                "quantite": "0,50"
+            },
+            {
+                "nom": "bouquet garni",
+                "quantite": "PM"
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel fin",
+                "quantite": "PM"
+            }
+        ]
+    },
+    "technique": [
+        "1. Mettre en place le poste de travail",
+        "2. Éplucher et tourner les pommes de terre",
+        "• Éplucher 2,00 kg de belles pommes de terre à chair ferme environ 0,090 kg chacune.",
+        "• Les tourner de la taille d’une grosse pomme châtaigne en parant une face plate.",
+        "• Choisir de très grosses pommes de terre, les partager en deux et arrondir simplement la face plate.",
+        "• Les tourner en forme de « savonnette ».",
+        "• Les rincer et les égoutter.",
+        "3. Marquer les pommes fondantes en cuisson",
+        "• Enduire très copieusement un sautoir de grandeur appropriée avec 0,100 kg de beurre.",
+        "• Y ranger les pommes tournées sur leur face plate et sans les chevaucher.",
+        "• Les mouiller à mi-hauteur avec 0,50 l de fond blanc ou le consommé blanc simple.",
+        "• Assaisonner et ajouter un petit bouquet garni.",
+        "• Cuire les pommes fondantes au four à 180 °C durant une quarantaine de minutes.",
+        "• Les arroser fréquemment, elles devront être recouvertes d’une pellicule brillante en fin de cuisson.",
+        "4. Dresser les pommes fondantes",
+        "• S’assurer de leur cuisson à l’aide d’une aiguille.",
+        "• Elles doivent être dorées, brillantes et avoir absorbé l’intégralité du liquide de mouillement.",
+        "• Saler le beurre doit rester au fond du sautoir.",
+        "• Les disposer en rosace dans un plat creux et les saupoudrer éventuellement de persil haché."
+    ]
+}

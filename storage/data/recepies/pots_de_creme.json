@@ -1,0 +1,55 @@
+{
+    "titre": "POTS DE CRÈME",
+    "type": "Dessert",
+    "page": 923,
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "lait",
+                "unite": "l",
+                "quantite": "1"
+            },
+            {
+                "nom": "œufs entiers",
+                "unite": "kg",
+                "quantite": "0,200"
+            },
+            {
+                "nom": "sucre semoule",
+                "unite": "kg",
+                "quantite": "0,200"
+            },
+            {
+                "nom": "chocolat",
+                "quantite": "PM"
+            },
+            {
+                "nom": "citron",
+                "quantite": "PM"
+            },
+            {
+                "nom": "alcool",
+                "quantite": "PM"
+            }
+        ]
+    },
+    "technique": [
+        "1. Mettre en place le poste de travail",
+        "• Denrées, matériels de préparation, de cuisson et de dressage.",
+        "2. Confectionner l’appareil à pot de crème",
+        "• Clarifier 10 œufs.",
+        "• Blanchir les jaunes avec 0,200 kg de sucre.",
+        "• Verser progressivement 1 l de lait bouilli légèrement refroidi.",
+        "• Mélanger à l’aide d’un fouet et écumer soigneusement.",
+        "• Parfumer l’appareil (vanille, café, chocolat, citron, alcool, etc.).",
+        "• Remplir soigneusement les pots.",
+        "• Mettre délicatement la mousse si nécessaire.",
+        "3. Marquer les pots de crème en cuisson",
+        "• Tapisser le fond d’une plaque avec une feuille de papier sulfurisé.",
+        "• Disposer les pots dans la plaque, mouiller à mi-hauteur avec de l’eau bouillante.",
+        "• Cuire à couvert au four (180 °C) pendant 25 à 30 min environ.",
+        "• La surface des petits pots de crème doit être lisse, brillante et légèrement concave.",
+        "4. Dresser les pots de crème",
+        "• Essuyer soigneusement les pots et les disposer sur le plat de service recouvert d’un papier dentelle."
+    ]
+}

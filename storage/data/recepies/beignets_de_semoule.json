@@ -1,0 +1,90 @@
+{
+    "titre": "BEIGNETS DE SEMOULE",
+    "type": "Dessert",
+    "page": 939,
+    "denrees_pour_8_couverts": {
+        "appareil_semoule": [
+            {
+                "nom": "lait",
+                "unite": "l",
+                "quantite": "0,75"
+            },
+            {
+                "nom": "sucre semoule",
+                "unite": "kg",
+                "quantite": "0,150"
+            },
+            {
+                "nom": "vanille",
+                "quantite": "PM"
+            },
+            {
+                "nom": "semoule de blé fine",
+                "unite": "kg",
+                "quantite": "0,150"
+            },
+            {
+                "nom": "jaunes d’œufs",
+                "unite": "pièce",
+                "quantite": "3"
+            },
+            {
+                "nom": "raisins macérés",
+                "quantite": "PM"
+            },
+            {
+                "nom": "kirsch",
+                "unite": "l",
+                "quantite": "PM"
+            }
+        ],
+        "finition": [
+            {
+                "nom": "sucre glace",
+                "quantite": "PM"
+            }
+        ],
+        "friture": [
+            {
+                "nom": "huile de friture",
+                "unite": "l",
+                "quantite": "PM"
+            }
+        ],
+        "dressage": [
+            {
+                "nom": "coulis de framboises",
+                "quantite": "PM"
+            },
+            {
+                "nom": "fraises fraîches",
+                "quantite": "PM"
+            },
+            {
+                "nom": "glace vanille",
+                "quantite": "PM"
+            }
+        ]
+    },
+    "technique": [
+        "1. Confectionner l’appareil",
+        "• Faire bouillir 0,75 l de lait avec 0,150 kg de sucre et une pointe de vanille.",
+        "• Ajouter 0,150 kg de semoule en pluie et cuire en remuant 8 à 10 min.",
+        "• Incorporer 3 jaunes d’œufs et les raisins macérés au kirsch.",
+        "• Débarrasser sur une plaque, égaliser et filmer.",
+        "• Laisser refroidir en enceinte réfrigérée.",
+        "2. Confectionner la pâte à frire (voir p. 523/524).",
+        "3. Détailler les beignets de semoule",
+        "• Découper à l’emporte-pièce rond de 5 cm de diamètre.",
+        "• Les enrober de pâte à frire.",
+        "4. Terminer la pâte à frire",
+        "• Incorporer délicatement les blancs d’œufs en neige.",
+        "5. Cuire les beignets",
+        "• Frire à 170 °C.",
+        "• Égoutter sur papier absorbant.",
+        "• Glacer au sucre glace sous salamandre.",
+        "6. Dresser les beignets",
+        "• Napper l’assiette de coulis de framboises.",
+        "• Dresser les beignets et décorer avec fraises et glace vanille."
+    ]
+}

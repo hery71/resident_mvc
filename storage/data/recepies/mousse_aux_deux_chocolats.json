@@ -1,0 +1,66 @@
+{
+    "titre": "MOUSSE AUX DEUX CHOCOLATS",
+    "type": "Dessert",
+    "page": 927,
+    "denrees_pour_8_couverts": {
+        "mousse_chocolat_lait_praline": [
+            {
+                "nom": "chocolat au lait",
+                "unite": "kg",
+                "quantite": "0,500"
+            },
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": "0,050"
+            },
+            {
+                "nom": "crème fouettée",
+                "unite": "kg",
+                "quantite": "0,100"
+            },
+            {
+                "nom": "meringue italienne (sucre + blancs d’œufs)",
+                "quantite": "voir recette"
+            }
+        ],
+        "mousse_chocolat_blanc": [
+            {
+                "nom": "chocolat blanc",
+                "unite": "kg",
+                "quantite": "0,200"
+            },
+            {
+                "nom": "crème fouettée",
+                "unite": "kg",
+                "quantite": "0,020"
+            },
+            {
+                "nom": "blancs d’œufs (2,5 en meringue)",
+                "unite": "kg",
+                "quantite": "0,075"
+            },
+            {
+                "nom": "sucre semoule",
+                "unite": "kg",
+                "quantite": "0,060"
+            }
+        ]
+    },
+    "technique": [
+        "1. Confectionner la mousse au chocolat au lait et au praliné",
+        "• Réaliser une meringue italienne avec 2 blancs d’œufs et 0,100 kg de sucre cuit au petit boulet.",
+        "• Y ajouter 0,050 kg de praliné noisette, puis 0,150 kg de chocolat au lait fondu avec 0,050 kg de beurre.",
+        "• Incorporer délicatement 0,100 kg de crème fouettée.",
+        "• Réserver au frais.",
+        "2. Confectionner la mousse au chocolat blanc",
+        "• Faire fondre au bain-marie 0,200 kg de chocolat blanc avec 0,02 l de lait entier.",
+        "• Monter 0,075 kg de blancs d’œufs en meringue à la française avec 0,060 kg de sucre.",
+        "• Incorporer la crème fouettée.",
+        "• Filmer et faire prendre au froid.",
+        "3. Dresser la mousse",
+        "• Dresser en coupelles individuelles en répartissant les deux mousses par moitié, lisser et égaliser la surface.",
+        "• Raffermir complètement en enceinte réfrigérée durant 2 h au minimum.",
+        "• Décorer par exemple avec un petit palmier en couverture noire."
+    ]
+}

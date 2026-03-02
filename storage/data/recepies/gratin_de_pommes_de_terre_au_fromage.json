@@ -1,0 +1,102 @@
+{
+    "titre": "GRATIN DE POMMES DE TERRE AU FROMAGE",
+    "type": "Accompagnement",
+    "bandeau": "Gratins de légumes",
+    "fiche": 141,
+    "page": 912,
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "pommes de terre à chair ferme",
+                "unite": "kg",
+                "quantite": "2"
+            },
+            {
+                "nom": "lait",
+                "unite": "l",
+                "quantite": "1"
+            },
+            {
+                "nom": "crème",
+                "unite": "l",
+                "quantite": "0,50"
+            },
+            {
+                "nom": "gruyère",
+                "unite": "kg",
+                "quantite": "0,200"
+            },
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": "0,040"
+            }
+        ],
+        "plat": [
+            {
+                "nom": "ail (2 gousses)",
+                "unite": "kg",
+                "quantite": "0,015"
+            },
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": "0,040"
+            }
+        ],
+        "finition": [
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": "0,020"
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel fin",
+                "quantite": "PM"
+            },
+            {
+                "nom": "poivre du moulin",
+                "quantite": "PM"
+            },
+            {
+                "nom": "noix de muscade",
+                "quantite": "PM"
+            }
+        ]
+    },
+    "technique": [
+        "1. Mettre en place le poste de travail - 5 min",
+        "• Denrées, matériels de préparation, de cuisson et de dressage.",
+        "2. Réaliser la mise en place du gratin - 15 min",
+        "• Éplucher et laver les pommes de terre.",
+        "• Éplucher, dégermer et laver les gousses d’ail.",
+        "• Râper et tamiser le gruyère.",
+        "3. Émincer les pommes de terre - 10 min",
+        "• Égoutter et éponger soigneusement les pommes de terre.",
+        "• Les émincer finement et régulièrement à l’aide d’une mandoline (2 mm d’épaisseur environ).",
+        "• Les débarrasser au fur et à mesure dans une grande russe et les recouvrir avec le lait froid.",
+        "4. Pré-cuire les pommes de terre - 5 min",
+        "• Placer la russe sur un feu et porter lentement à ébullition.",
+        "• Précuire les pommes de terre durant 6 à 8 min.",
+        "• Les remuer très délicatement à l’aide d’une petite écumoire afin d’éviter l’attachement au fond du récipient.",
+        "• Assaisonner aux 2/3 de la précuisson avec du sel fin, du poivre du moulin et quelques râpures de noix de muscade.",
+        "5. Préparer les plats à gratin - 5 min",
+        "• Les frotter uniformément avec les gousses d’ail et les beurrer copieusement.",
+        "6. Réaliser le montage des gratins - 10 min",
+        "• Égoutter délicatement les pommes et vérifier l’assaisonnement.",
+        "• Disposer une couche mince de pommes de terre au fond de chaque plat.",
+        "• Napper copieusement avec une partie de la crème.",
+        "• Ajouter la moitié du fromage tamisé en le répartissant uniformément.",
+        "• Recouvrir d’une deuxième couche mince de pommes de terre.",
+        "• Régulariser l’épaisseur du gratin qui ne doit pas être trop épais (2 cm environ).",
+        "• Napper à nouveau avec le reste de la crème.",
+        "• Saupoudrer avec le reste du fromage et répartir quelques petites parcelles de beurre sur le dessus.",
+        "7. Gratiner les pommes de terre - 3 min",
+        "• Placer les plats dans un four à 180/200 °C durant une trentaine de minutes au minimum de manière à obtenir simultanément la cuisson des pommes de terre, la réduction de la crème et un gratin bien doré et régulier.",
+        "8. Dresser les gratins - 2 min",
+        "• Nettoyer soigneusement le bord des plats.",
+        "• Les lustrer au beurre clarifié à l’aide d’un pinceau, puis les disposer sur des plats longs recouverts de papier gaufré."
+    ]
+}

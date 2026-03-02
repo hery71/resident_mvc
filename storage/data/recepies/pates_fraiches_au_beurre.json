@@ -1,0 +1,44 @@
+{
+    "titre": "PÂTES FRAÎCHES AU BEURRE (fettuccines, tagliatelles, pappardelles, feuilles à lasagnes et à cannellonis)",
+    "type": "Accompagnement",
+    "page": 901,
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "pâtes fraîches (0,150 kg par personne)",
+                "unite": "kg",
+                "quantite": "1,200"
+            },
+            {
+                "nom": "eau",
+                "unite": "l",
+                "quantite": "PM"
+            }
+        ],
+        "finition": [
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": "PM"
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel fin",
+                "quantite": "PM"
+            }
+        ]
+    },
+    "technique": [
+        "• Mettre en place le poste de travail",
+        "• Porter une grande quantité d’eau à ébullition.",
+        "• Saler au gros sel (8 à 10 g par litre d’eau).",
+        "• Ajouter un peu d’huile.",
+        "• Plonger les pâtes à la commande par petites quantités dans l’eau bouillante salée et huilée (compter environ 0,12 à 0,150 kg de pâtes fraîches par personne).",
+        "• Cuire vivement les pâtes durant quelques minutes.",
+        "• Les remuer fréquemment et vérifier l’à-point de la cuisson, elles doivent rester fermes (al dente).",
+        "• Égoutter presque entièrement les pâtes (l’eau restante s’émulsionne avec le beurre et empêche les pâtes de s’agglomérer).",
+        "• Ne jamais les rafraîchir et toujours les cuire à la commande.",
+        "• Lier les pâtes au beurre et les accompagner selon la recette."
+    ]
+}

@@ -1,0 +1,119 @@
+{
+    "titre": "MOKA",
+    "type": "Dessert",
+    "bandeau": "Pâtisseries à base de génoise, crème au beurre et crème mousseline",
+    "page": 946,
+    "denrees_pour_8_couverts": {
+        "genoise": [
+            {
+                "nom": "œufs entiers (4 pièces)",
+                "unite": "kg",
+                "quantite": "0,220"
+            },
+            {
+                "nom": "sucre semoule",
+                "unite": "kg",
+                "quantite": "0,125"
+            },
+            {
+                "nom": "farine",
+                "unite": "kg",
+                "quantite": "0,125"
+            }
+        ],
+        "chemise": [
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": "0,020"
+            },
+            {
+                "nom": "farine",
+                "unite": "kg",
+                "quantite": "0,020"
+            }
+        ],
+        "creme_au_beurre": [
+            {
+                "nom": "beurre doux extra-fin",
+                "unite": "kg",
+                "quantite": "0,250"
+            },
+            {
+                "nom": "sucre",
+                "unite": "kg",
+                "quantite": "0,200"
+            },
+            {
+                "nom": "eau",
+                "unite": "l",
+                "quantite": "0,04"
+            },
+            {
+                "nom": "œufs entiers (2 pièces)",
+                "unite": "kg",
+                "quantite": "0,110"
+            },
+            {
+                "nom": "œufs (4 jaunes)",
+                "unite": "kg",
+                "quantite": "0,080"
+            },
+            {
+                "nom": "café (extrait liquide)",
+                "unite": "l",
+                "quantite": "PM"
+            },
+            {
+                "nom": "vanille (extrait liquide)",
+                "unite": "l",
+                "quantite": "PM"
+            }
+        ],
+        "sirop": [
+            {
+                "nom": "eau",
+                "unite": "l",
+                "quantite": "0,06"
+            },
+            {
+                "nom": "sucre",
+                "unite": "kg",
+                "quantite": "0,040"
+            },
+            {
+                "nom": "rhum",
+                "unite": "l",
+                "quantite": "0,04"
+            }
+        ],
+        "finition": [
+            {
+                "nom": "amandes hachées ou effilées",
+                "unite": "kg",
+                "quantite": "0,100"
+            }
+        ]
+    },
+    "technique": [
+        "1. Mettre en place le poste de travail - 5 min",
+        "2. Chemiser le moule à génoise - 3 min",
+        "3. Réaliser la génoise - 15 min",
+        "• Cuire à 180 °C durant 20 à 25 min.",
+        "4. Réaliser le sirop - 5 min",
+        "• Porter à ébullition l’eau et le sucre, parfumer au rhum.",
+        "5. Confectionner la crème au beurre - 15 min",
+        "• Cuire le sucre à 118 °C et verser sur les œufs.",
+        "• Travailler le beurre en pommade et incorporer le sirop.",
+        "• Parfumer au café.",
+        "6. Griller les amandes - 5 min",
+        "7. Monter le moka - 15 min",
+        "• Tailler la génoise en 3 disques et puncher au sirop.",
+        "• Garnir de crème au beurre et superposer.",
+        "• Masquer entièrement de crème.",
+        "8. Terminer le moka - 10 min",
+        "• Appliquer les amandes grillées.",
+        "• Décorer à la poche à douille.",
+        "9. Dresser le moka - 2 min"
+    ]
+}

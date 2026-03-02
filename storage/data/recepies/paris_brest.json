@@ -1,0 +1,56 @@
+{
+    "titre": "PARIS-BREST",
+    "type": "Dessert",
+    "page": 951,
+    "denrees_pour_8_couverts": {
+        "pate_a_choux": [
+            {
+                "nom": "pâte à choux",
+                "quantite": "voir recette de base p. 505/509"
+            }
+        ],
+        "creme_praline": [
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": "0,060"
+            },
+            {
+                "nom": "crème pâtissière pralinée",
+                "unite": "kg",
+                "quantite": "0,250"
+            },
+            {
+                "nom": "beurre (pour praliné)",
+                "unite": "kg",
+                "quantite": "0,065"
+            },
+            {
+                "nom": "praliné",
+                "unite": "kg",
+                "quantite": "0,065"
+            }
+        ],
+        "finition": [
+            {
+                "nom": "sucre glace",
+                "quantite": "PM"
+            }
+        ]
+    },
+    "technique": [
+        "1. Réaliser la pâte à choux et coucher le Paris-Brest (voir recette p. 505/509).",
+        "• Coucher à la douille unie deux couronnes sur plaque beurrée.",
+        "• Cuire au four à 200 °C durant 35 min environ.",
+        "• Laisser refroidir.",
+        "2. Réaliser la crème mousseline pralinée (voir p. 552).",
+        "• Incorporer le beurre à la crème pâtissière pralinée refroidie.",
+        "• Parfumer au praliné et travailler jusqu’à consistance lisse.",
+        "3. Garnir le Paris-Brest.",
+        "• Ouvrir la couronne en deux.",
+        "• Garnir de crème mousseline à la poche munie d’une douille cannelée.",
+        "• Reposer le dessus et saupoudrer de sucre glace.",
+        "4. Dresser le Paris-Brest.",
+        "• Disposer sur un plat rond recouvert d’un papier dentelle."
+    ]
+}

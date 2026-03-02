@@ -1,0 +1,114 @@
+{
+    "titre": "LAPEREAUX AUX CHAMPIGNONS",
+    "bandeau": "Lapins en ragoût à brun et à blanc",
+    "fiche": 121,
+    "page": 870,
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "2 lapereaux d’1 kg chacun",
+                "unite": "kg",
+                "quantite": "2"
+            },
+            {
+                "nom": "huile d’arachide",
+                "unite": "kg",
+                "quantite": "0,040"
+            },
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": "0,040"
+            },
+            {
+                "nom": "échalotes grises",
+                "unite": "kg",
+                "quantite": "0,080"
+            },
+            {
+                "nom": "bouquet garni avec romarin ou sarriette",
+                "unite": "pièce",
+                "quantite": "1"
+            },
+            {
+                "nom": "ail (facultatif)",
+                "unite": "gousse",
+                "quantite": "2"
+            },
+            {
+                "nom": "vin blanc sec",
+                "unite": "l",
+                "quantite": "0,20"
+            },
+            {
+                "nom": "fond brun de veau lié et légèrement tomaté",
+                "unite": "l",
+                "quantite": "1,40"
+            }
+        ],
+        "garniture": [
+            {
+                "nom": "champignons de Paris ou tous autres champignons de saison",
+                "unite": "kg",
+                "quantite": "0,300"
+            },
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": "0,040"
+            }
+        ],
+        "finition": [
+            {
+                "nom": "persil",
+                "unite": "kg",
+                "quantite": "PM"
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel fin",
+                "quantite": "PM"
+            },
+            {
+                "nom": "poivre du moulin",
+                "quantite": "PM"
+            }
+        ]
+    },
+    "technique": [
+        "1. Mettre en place le poste de travail - 5 min",
+        "• Denrées, matériels de préparation, de cuisson et de dressage.",
+        "2. Découper et parer les lapereaux - 10 min",
+        "• Sectionner les os franchement afin de ne pas les écraser (voir p. 254/255).",
+        "• Réserver les morceaux en enceinte réfrigérée.",
+        "3. Préparer les légumes - 15 min",
+        "• Eplucher et réserver les champignons au frais.",
+        "• Laver, équeuter le persil et confectionner un bouquet garni avec en plus une petite branche de romarin ou de sarriette.",
+        "• Eplucher, laver et ciseler finement les échalotes.",
+        "4. Marquer les morceaux de lapereaux en cuisson - 15 min",
+        "• Saler et poivrer les morceaux.",
+        "• Les rissoler dans un rondeau avec de l’huile et du beurre.",
+        "• Dégraisser, ajouter les échalotes ciselées et les laisser suer sans coloration durant quelques secondes.",
+        "• Déglacer avec le vin blanc et le laisser réduire.",
+        "• Mouiller avec le fond brun de veau lié et tomaté.",
+        "• Saler et poivrer, puis ajouter l’ail et le bouquet garni avec le romarin ou la sarriette.",
+        "• Faire reprendre l’ébullition et cuire les lapereaux à couvert au four à 200 °C pendant 45 min à 1 h.",
+        "5. Faire sauter les champignons - 10 min (voir p. 416)",
+        "• Laver soigneusement les champignons, puis les escaloper.",
+        "• Les sauter dans une petite poêle avec le beurre pendant 4 à 5 min.",
+        "• Saler et égoutter dans une petite passoire.",
+        "6. Essorer, concasser et hacher le persil - 5 min",
+        "7. Décanter les morceaux de lapereaux - 5 min",
+        "• S’assurer de leur cuisson, puis les décanter dans un autre rondeau.",
+        "• Réduire et dégraisser la sauce si nécessaire.",
+        "• Vérifier l’onctuosité et l’assaisonnement.",
+        "• Ajouter les champignons sautés.",
+        "• Passer la sauce au chinois étamine sur les morceaux.",
+        "• Laisser mijoter durant quelques minutes.",
+        "8. Dresser les lapereaux aux champignons - 5 min",
+        "• Disposer les morceaux de lapereaux dans la cocotte ronde.",
+        "• Ajouter la garniture et napper soigneusement avec la sauce.",
+        "• Saupoudrer sans excès de persil haché."
+    ]
+}

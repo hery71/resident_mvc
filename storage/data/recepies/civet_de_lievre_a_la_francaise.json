@@ -1,0 +1,209 @@
+{
+    "titre": "CIVET DE LIÈVRE À LA FRANÇAISE",
+    "page": 872,
+    "denrees_pour_8_couverts": {
+        "elements_de_base": [
+            {
+                "nom": "lièvre",
+                "unite": "kg",
+                "quantite": "2,600"
+            },
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": "0,040"
+            },
+            {
+                "nom": "huile d’arachide",
+                "unite": "kg",
+                "quantite": "0,040"
+            }
+        ],
+        "vinaigre_de_vin": [
+            {
+                "nom": "vinaigre de vin",
+                "unite": "l",
+                "quantite": "0,02"
+            }
+        ],
+        "marinade_a_cru": [
+            {
+                "nom": "carottes",
+                "unite": "kg",
+                "quantite": "0,200"
+            },
+            {
+                "nom": "oignons",
+                "unite": "kg",
+                "quantite": "0,200"
+            },
+            {
+                "nom": "échalotes",
+                "unite": "kg",
+                "quantite": "0,040"
+            },
+            {
+                "nom": "céleri en branches",
+                "unite": "kg",
+                "quantite": "0,100"
+            },
+            {
+                "nom": "ail (2 gousses)",
+                "unite": "pièce",
+                "quantite": "0,015"
+            },
+            {
+                "nom": "bouquet garni",
+                "unite": "pièce",
+                "quantite": "1"
+            },
+            {
+                "nom": "poivre en grains",
+                "unite": "kg",
+                "quantite": "PM"
+            },
+            {
+                "nom": "romarin ou sarriette",
+                "quantite": "PM"
+            },
+            {
+                "nom": "vin rouge",
+                "unite": "l",
+                "quantite": "1,5"
+            },
+            {
+                "nom": "cognac ou armagnac",
+                "unite": "l",
+                "quantite": "0,05"
+            },
+            {
+                "nom": "vin rouge",
+                "unite": "l",
+                "quantite": "0,5"
+            }
+        ],
+        "sauce": [
+            {
+                "nom": "cognac ou armagnac",
+                "unite": "l",
+                "quantite": "0,05"
+            },
+            {
+                "nom": "marinade",
+                "quantite": "PM"
+            },
+            {
+                "nom": "sauce espagnole",
+                "unite": "l",
+                "quantite": "1,5"
+            }
+        ],
+        "liaison_de_la_sauce": [
+            {
+                "nom": "sang",
+                "unite": "l",
+                "quantite": "0,10"
+            }
+        ],
+        "garniture": [
+            {
+                "nom": "poitrine demi-sel",
+                "unite": "kg",
+                "quantite": "0,250"
+            },
+            {
+                "nom": "huile d’arachide",
+                "unite": "kg",
+                "quantite": "0,040"
+            },
+            {
+                "nom": "champignons de Paris",
+                "unite": "kg",
+                "quantite": "0,250"
+            },
+            {
+                "nom": "petits oignons",
+                "unite": "kg",
+                "quantite": "0,250"
+            },
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": "0,020"
+            },
+            {
+                "nom": "sucre",
+                "quantite": "PM"
+            },
+            {
+                "nom": "pain de mie (4 tranches de 0,040 kg)",
+                "unite": "kg",
+                "quantite": "0,160"
+            },
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": "0,040"
+            }
+        ],
+        "finition": [
+            {
+                "nom": "persil",
+                "unite": "kg",
+                "quantite": "PM"
+            }
+        ],
+        "assaisonnement": [
+            {
+                "nom": "sel fin",
+                "quantite": "PM"
+            },
+            {
+                "nom": "poivre du moulin",
+                "quantite": "PM"
+            }
+        ]
+    },
+    "technique": [
+        "1. Mettre en place le poste de travail - 5 min",
+        "• Denrées, matériels de préparation, de cuisson et de dressage.",
+        "La veille :",
+        "2. Dépouiller le lièvre, le vider et recueillir le sang - 20 min",
+        "• Lui ajouter 0,02 l de vinaigre de vin, ôter la fibrine qui se forme et le réserver à couvert en enceinte réfrigérée.",
+        "• Réserver également le foie soigneusement paré, le cœur et éventuellement les poumons.",
+        "3. Dénerver et détailler le lièvre en 8 ou 16 morceaux - 10 min",
+        "4. Placer les morceaux de lièvre en marinade crue - 15 min (voir coq au vin et bœuf bourguignon)",
+        "• Utiliser de préférence de l’armagnac ou du cognac et de l’huile d’olive. En l’absence d’autre et à quantité équivalente, une marinade au céleri peut convenir.",
+        "• Couvrir le récipient et le réserver durant 12 h au minimum en enceinte réfrigérée.",
+        "• Retourner les morceaux dans la marinade au bout de quelques heures.",
+        "Le lendemain :",
+        "5. Marquer le civet en cuisson - 20 min",
+        "• Se référer à la cuisson du « coq au vin » page précédente.",
+        "• 2 techniques principales de mouillement peuvent être envisagées :",
+        "• soit les morceaux rissolés sont singés puis placés durant quelques minutes dans un four pour torréfier la farine, le mouillement s’effectue avec la marinade et le fond brun complémentaire et nécessaire ;",
+        "• soit les morceaux rissolés sont mouillés avec la marinade réduite et le mouillement est complété par de la sauce espagnole.",
+        "6. Préparer la garniture - 20 min",
+        "• Elle est composée comme celle du coq au vin avec :",
+        "• des petits oignons glacés à brun (voir p. 397),",
+        "• des lardons et des champignons sautés (voir p. 416),",
+        "• des croûtons de pain de mie frits au beurre clarifié.",
+        "Au moment de servir :",
+        "7. Décanter le civet - 5 min",
+        "• S’assurer de la cuisson des morceaux (au bout d’1 h à 1 h 30 min).",
+        "• Les décanter dans un autre rondeau.",
+        "• Ajouter les lardons et les champignons.",
+        "• Couvrir le récipient et le réserver au chaud.",
+        "8. Terminer la liaison de la sauce - 5 min",
+        "• Vérifier bouillir la sauce.",
+        "• Retirer la couvercle, l’onctuosité (elle doit être peu liée) et l’assaisonnement.",
+        "• Monter et passer au tamis le foie, le cœur et éventuellement les poumons.",
+        "• Ajouter le sang.",
+        "• Détendre progressivement le mélange avec un peu de sauce bouillante (pour la monter progressivement en température et éviter les risques de coagulation du sang).",
+        "• Verser doucement la liaison hors du feu dans le reste de la sauce en remuant à l’aide d’un petit fouet.",
+        "• Reporter la sauce à ébullition et la passer immédiatement au chinois étamine sur les morceaux.",
+        "9. Dresser le civet - 5 min",
+        "• Disposer les morceaux dans les plats de service.",
+        "• Répartir uniformément la garniture sur le dessus.",
+        "• Disposer délicatement les petits oignons glacés, puis les croûtons dont la pointe aura été trempée successivement dans la sauce, puis dans le persil haché."
+    ]
+}
