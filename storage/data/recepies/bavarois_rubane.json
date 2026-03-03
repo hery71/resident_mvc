@@ -3,7 +3,7 @@
     "type": "Dessert",
     "bandeau": "Entremets froids de cuisine à base de crème anglaise collée (bavarois aux œufs)",
     "page": 930,
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "appareil_a_bavarois": [
             {
                 "nom": "lait",
@@ -66,9 +66,8 @@
                 "nom": "grains de café liqueur",
                 "quantite": "PM"
             }
-        ]
-    },
-    "technique": [
+       ],
+  "technique_de_realisation": [
         "1. Mettre en place le poste de travail - 5 min",
         "• Denrées, matériels de préparation, de cuisson et de dressage.",
         "2. Faire tremper la gélatine à l’eau froide - 2 min",

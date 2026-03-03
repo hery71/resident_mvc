@@ -1,7 +1,7 @@
 {
     "file_name": "jarrets_de_dinde_braises_jardiniere_de_legumes.json",
     "titre": "«JARRETS» DE DINDE BRAISÉS, JARDINIÈRE DE LÉGUMES",
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "rouelles de cuisses de dinde",
@@ -50,9 +50,8 @@
                 "quantite": 0.04,
                 "unite": "kg"
             }
-        ]
-    },
-    "technique": [
+       ],
+  "technique_de_realisation": [
         "1. Mettre en place le poste de travail",
         "2. Braisser à brun les rouelles de cuisses de dinde de 0,100 kg chacune",
         "• Ne pas ajouter de brunoise de zestes d’orange, ni de citron.",

@@ -1,0 +1,142 @@
+{
+    "titre": "GLACE À LA VANILLE ET GLACES DÉRIVÉES",
+    "type": "Glaces et sorbets",
+    "page": 980,
+    "pax":8,
+        "Crème anglaise ou mix de base": [
+            {
+                "nom": "lait entier",
+                "unite": "l",
+                "quantite": "1"
+            },
+            {
+                "nom": "œufs (8 jaunes)",
+                "unite": "kg",
+                "quantite": "0,160"
+            },
+            {
+                "nom": "sucre semoule",
+                "unite": "kg",
+                "quantite": "0,200 à 0,250"
+            },
+            {
+                "nom": "vanille",
+                "unite": "gousse",
+                "quantite": "1"
+            }
+        ],
+        "Ou (autre mix)": [
+            {
+                "nom": "lait entier",
+                "unite": "l",
+                "quantite": "0,80"
+            },
+            {
+                "nom": "crème liquide",
+                "unite": "l",
+                "quantite": "0,20"
+            },
+            {
+                "nom": "lait en poudre écrémé",
+                "unite": "kg",
+                "quantite": "0,040"
+            },
+            {
+                "nom": "œufs (8 jaunes)",
+                "unite": "kg",
+                "quantite": "0,160"
+            },
+            {
+                "nom": "sucre semoule",
+                "unite": "kg",
+                "quantite": "0,200"
+            },
+            {
+                "nom": "sucre inverti (glucose atomisé / trimoline)",
+                "unite": "kg",
+                "quantite": "0,040"
+            },
+            {
+                "nom": "stabilisateur",
+                "unite": "kg",
+                "quantite": "PM"
+            },
+            {
+                "nom": "vanille",
+                "unite": "gousse",
+                "quantite": "1"
+            }
+        ],
+        "Glace café": [
+            {
+                "nom": "extrait de café liquide",
+                "unite": "l",
+                "quantite": "0,020"
+            },
+            {
+                "nom": "café lyophilisé",
+                "unite": "kg",
+                "quantite": "0,020"
+            }
+        ],
+        "Glace chocolat": [
+            {
+                "nom": "couverture",
+                "unite": "kg",
+                "quantite": "0,040"
+            },
+            {
+                "nom": "cacao",
+                "unite": "kg",
+                "quantite": "0,020"
+            }
+        ],
+        "Glace pralinée": [
+            {
+                "nom": "praliné",
+                "unite": "kg",
+                "quantite": "0,150"
+            }
+        ],
+        "Glace pistache": [
+            {
+                "nom": "pâte de pistache",
+                "unite": "kg",
+                "quantite": "0,080"
+            }
+        ],
+  "technique_de_realisation": [
+        "1. Mettre en place le poste de travail - 5 min",
+        "• Denrées, matériels de préparation, de cuisson et de dressage.",
+        "• Laver et désinfecter le poste de travail, le matériel et la sorbetière.",
+        "• Utiliser les procédures en place dans l’établissement.",
+        "",
+        "2. Réaliser la crème anglaise - 15 min (voir p. 544/546)",
+        "• Réunir dans une russe ou dans une sauteuse moyenne, le lait, la crème, le lait en poudre, la gousse de vanille partagée en deux et grattée, la moitié du sucre, le sucre inverti et le stabilisateur s’il y a lieu.",
+        "• Porter à ébullition et laisser infuser.",
+        "• Les parfums tels que l’extrait de café, le chocolat et le cacao peuvent être ajoutés à ébullition avec le lait (alcools et liqueurs sont généralement ajoutés en fin de sanglage).",
+        "• Blanchir les jaunes d’œufs avec le reste du sucre.",
+        "• Verser progressivement une partie du liquide sur les jaunes d’œufs blanchis puis verser le mélange dans le récipient de cuisson.",
+        "• Cuire la crème anglaise à la nappe puis baisser le feu au minimum.",
+        "• Pasteuriser la crème soit en la cuisant durant 1 min à + 83 °C ou monter la température au cœur à + 85 °C.",
+        "• Passer la crème au chinois étamine dans une calotte froide parfaitement propre et non dans celle qui a servi à blanchir les jaunes (voir analyse des dangers).",
+        "• Refroidir la crème rapidement sur glace en la vannant fréquemment.",
+        "• Maturer le mix filmé en enceinte réfrigérée durant 4 heures au minimum.",
+        "",
+        "3. Placer les bacs à glace dans le conservateur - 2 min",
+        "",
+        "4. Turbiner ou sangler le mix - 10 min",
+        "• Le verser dans la sorbetière parfaitement désinfectée. Au cours de cette opération le mix épaissit et foisonne (30 à 50 % pour une glace d’excellente qualité).",
+        "• Ajouter la garniture s’il y a lieu (salpicon de fruits confits, fruits secs concassés, passer au fouet, ...).",
+        "• Débarrasser la glace aussitôt la bonne consistance atteinte.",
+        "• Filmer les bacs et les réserver dans un conservateur à - 18 °C minimum ou mettre en place (former ou mouler).",
+        "• Nettoyer la sorbetière.",
+        "",
+        "5. Dresser la glace - 5 min",
+        "• Mouler les glaces en boules ou en quenelles.",
+        "• Les dresser en coupes individuelles ou sur assiettes.",
+        "",
+        "REMARQUE :",
+        "• Les glaces entrent pour la plupart dans la composition de coupes diverses (fruits Melba, Belle-Hélène) et d’entremets glacés (charlotte glacée, omelette norvégienne, ...)."
+    ]
+}

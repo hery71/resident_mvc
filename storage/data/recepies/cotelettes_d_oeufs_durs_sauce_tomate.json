@@ -2,7 +2,7 @@
     "titre": "Côtelettes d'œufs durs, sauce tomate",
     "type": "Hors-d'œuvre chauds à base d'œufs",
     "description": "Œufs durs concassés et façonnés en forme de côtelettes, panés à l'anglaise, frits ou sautés au beurre clarifié, servis avec une sauce tomate chaude. Présentation en papillote ou sur plat rond avec accompagnement de sauce.",
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "œufs durs",

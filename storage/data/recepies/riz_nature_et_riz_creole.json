@@ -2,7 +2,7 @@
     "titre": "RIZ « NATURE » ET RIZ CRÉOLE",
     "type": "Accompagnement",
     "page": 903,
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "riz long",
@@ -26,9 +26,8 @@
                 "unite": "kg",
                 "quantite": "0,040"
             }
-        ]
-    },
-    "technique": [
+       ],
+  "technique_de_realisation": [
         "(Voir p. 378/379)",
         "1. Mettre en place le poste de travail",
         "• Porter à ébullition une grande quantité d’eau dans une russe ou dans un rondeau haut (16 volumes d’eau environ pour 1 volume de riz).",

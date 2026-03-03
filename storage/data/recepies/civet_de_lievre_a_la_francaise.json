@@ -1,7 +1,7 @@
 {
     "titre": "CIVET DE LIÈVRE À LA FRANÇAISE",
     "page": 872,
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "lièvre",
@@ -162,9 +162,8 @@
                 "nom": "poivre du moulin",
                 "quantite": "PM"
             }
-        ]
-    },
-    "technique": [
+       ],
+  "technique_de_realisation": [
         "1. Mettre en place le poste de travail - 5 min",
         "• Denrées, matériels de préparation, de cuisson et de dressage.",
         "La veille :",

@@ -2,7 +2,7 @@
     "titre": "Omelette portugaise aux champignons et fines herbes",
     "type": "Hors-d'œuvre chauds à base d'œufs",
     "description": "Omelette roulée ou pliée garnie d'une fondue de tomates à la portugaise (tomates concassées, oignons, ail), agrémentée de champignons sautés et de fines herbes fraîches. Servie chaude avec un cordon de sauce tomate et persil haché.",
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "œufs extra-frais",

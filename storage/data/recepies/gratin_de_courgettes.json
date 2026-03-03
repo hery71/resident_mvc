@@ -3,7 +3,7 @@
     "type": "Accompagnement",
     "bandeau": "Garnitures d’accompagnement à caractère méridional",
     "page": 916,
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "courgettes niçoises",
@@ -87,9 +87,8 @@
                 "nom": "noix de muscade",
                 "quantite": "PM"
             }
-        ]
-    },
-    "technique": [
+       ],
+  "technique_de_realisation": [
         "1. Mettre en place le poste de travail - 5 min",
         "• Denrées, matériels de préparation, de cuisson et de dressage.",
         "2. Laver, éplucher, détailler puis mettre les courgettes à dégorger - 15 min",

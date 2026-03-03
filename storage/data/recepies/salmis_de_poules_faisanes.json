@@ -1,7 +1,7 @@
 {
     "file_name": "salmis_de_poules_faisanes.json",
     "titre": "SALMIS DE POULES FAISANES",
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "poules faisanes",
@@ -66,9 +66,8 @@
                 "quantite": "PM",
                 "unite": ""
             }
-        ]
-    },
-    "technique": [
+       ],
+  "technique_de_realisation": [
         "(Peut être réalisé avec canetons, pintadeaux…)",
         "1. Habiller, brider et barder soigneusement les poules faisanes",
         "2. Rôtir les poules faisanes",

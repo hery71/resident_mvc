@@ -65,9 +65,8 @@
                 "nom": "Sel fin",
                 "quantite": "PM"
             }
-        ]
-    },
-    "technique": [
+       ],
+  "technique_de_realisation": [
         "Mettre en place le poste de travail.",
         "Peser, mesurer et contrôler les denrées.",
         "Clarifier le beurre et le décanter.",

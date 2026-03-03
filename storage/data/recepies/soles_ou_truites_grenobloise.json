@@ -1,6 +1,6 @@
 {
   "titre": "SOLES OU TRUITES GRENOBLOISE",
-  "denrees_pour_8_couverts": {
+  "pax":8,
     "Éléments de base": [
       {
         "nom": "soles ou truites",
@@ -63,8 +63,7 @@
         "quantite": "PM",
         "unite": ""
       }
-    ]
-  },
+    ],
   "technique_de_realisation": [
     "1. Mettre en place le poste de travail",
     "2. Habiller 8 soles ou 8 truites de 0,250 kg pièce",

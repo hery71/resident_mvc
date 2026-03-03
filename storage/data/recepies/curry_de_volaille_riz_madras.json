@@ -4,7 +4,7 @@
     "bandeau": "Ragoûts de volaille aux épices",
     "page": 866,
     "description": "Morceaux de volaille cuits dans une sauce relevée, parfumée au curry et à la noix de coco. Le curry est accompagné de riz pilaf agrémenté d’une brunoise de fruits exotiques, de raisins secs et d’amandes grillées.",
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "poulets labellisés (2 x 1,200 à 1,400 kg)",
@@ -171,9 +171,8 @@
                 "nom": "poivre",
                 "quantite": "PM"
             }
-        ]
-    },
-    "technique": [
+       ],
+  "technique_de_realisation": [
         "1. Mettre en place le poste de travail - 5 min",
         "2. Habiller et découper les poulets - 30 min (voir p. 237/240 et 246/248)",
         "3. Marquer un fond blanc de volaille avec les os et les abattis - 10 min (voir p. 264/266)",

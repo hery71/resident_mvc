@@ -2,7 +2,7 @@
     "file_name": "foie_de_veau_a_l_anglaise.json",
     "titre": "FOIE DE VEAU À L'ANGLAISE",
     "bandeau": "Abats sautés",
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "foie de veau (8 tranches de 0,150 kg)",
@@ -43,9 +43,8 @@
                 "unite": "",
                 "quantite": "PM"
             }
-        ]
-    },
-    "technique": [
+       ],
+  "technique_de_realisation": [
         "1. Mettre en place le poste de travail - 5 min",
         "• Denrées, matériels de préparation, de cuisson et de dressage.",
         "2. Parer la poitrine de porc - 5 min",

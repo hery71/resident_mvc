@@ -2,7 +2,7 @@
     "titre": "Filets de barbue Dugléré",
     "type": "Hors-d'œuvre chauds à base de poisson",
     "description": "Filets de barbue pochés à court-mouillement sur un lit de tomates concassées, oignons et échalotes ciselées, avec fumet de barbue et vin blanc. Sauce obtenue par réduction du liquide de cuisson montée au beurre, nappée sur les filets. Dressage avec persil concassé et accompagnement classique (pommes vapeur, riz, tagliatelles vertes aux herbes).",
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "barbues (ou filets levés, 2 pièces d'environ 1,600 kg chacune)",

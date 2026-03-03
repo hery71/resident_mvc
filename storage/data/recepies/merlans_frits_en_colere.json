@@ -1,7 +1,7 @@
 {
   "titre": "MERLANS FRITS EN COLÈRE",
   "page": 749,
-  "denrees_pour_8_couverts": {
+  "pax":8,
     "Éléments de base": [
       {
         "nom": "merlans",
@@ -54,8 +54,7 @@
         "quantite": "PM",
         "unite": ""
       }
-    ]
-  },
+    ],
   "technique_de_realisation": [
     "1. Mettre en place le poste de travail",
     "2. Habiller 8 merlans de 0,250 kg chacun",

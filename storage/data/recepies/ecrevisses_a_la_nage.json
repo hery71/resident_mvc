@@ -2,7 +2,7 @@
   "titre": "ÉCREVISSES À LA NAGE",
   "type": "Crustacés pochés",
   "page": 770,
-  "denrees_pour_8_couverts": {
+  "pax":8,
     "Éléments de base": [
       {
         "nom": "écrevisses rouges vivantes (48 x 0,060 kg environ)",
@@ -87,8 +87,7 @@
         "quantite": "PM",
         "unite": ""
       }
-    ]
-  },
+    ],
   "technique_de_realisation": [
     "1. Mettre en place le poste de travail - 5 min",
     "Denrées, matériels de préparation, de cuisson et de dressage.",

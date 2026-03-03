@@ -2,7 +2,7 @@
     "titre": "Filets de sole Marguery",
     "type": "Hors-d'œuvre chauds à base de poisson",
     "description": "Filets de sole pochés court-mouillement au fumet de poisson et vin blanc, avec garniture de moules et queues de crevettes pochées. Sauce obtenue par réduction du liquide de cuisson montée au beurre, nappée et glacée au four ou salamandre. Dressage avec moules et crevettes disposées harmonieusement.",
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "filets de sole (d'une sole de 0,500 à 0,600 kg chacune)",

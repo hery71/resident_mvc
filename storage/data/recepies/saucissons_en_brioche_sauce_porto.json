@@ -4,7 +4,7 @@
     "page": 682,
     "fiche": "32",
     "description": "Saucissons pochés, enveloppés de pâte à brioche et cuits au four. Ils sont servis avec une sauce brune parfumée au porto.",
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "saucisson à pocher (saucisses de Morteau ou saucisses pistachées et truffées)",

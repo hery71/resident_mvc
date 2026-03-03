@@ -4,7 +4,7 @@
     "bandeau": "Pommes de terre rissolées",
     "fiche": 138,
     "page": 906,
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "pommes_noisettes": [
             {
                 "nom": "pommes de terre de conservation (Bintje)",
@@ -68,9 +68,8 @@
                 "nom": "sel fin",
                 "quantite": "PM"
             }
-        ]
-    },
-    "technique": [
+       ],
+  "technique_de_realisation": [
         "1. Mettre en place le poste de travail - 5 min",
         "• Denrées, matériels de préparation, de cuisson et de dressage.",
         "2. Éplucher et laver les pommes de terre - 10 min (voir p. 124/125)",

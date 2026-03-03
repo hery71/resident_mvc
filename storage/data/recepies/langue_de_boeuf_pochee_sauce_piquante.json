@@ -3,7 +3,7 @@
     "titre": "LANGUE DE BŒUF POCHÉE SAUCE PIQUANTE",
     "bandeau": "Abats pochés",
     "page": 838,
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "langue de bœuf fraîche* présentée avec la coupe dite « coupe suisse » ou « coupe short »",
@@ -109,9 +109,8 @@
                 "unite": "",
                 "quantite": "PM"
             }
-        ]
-    },
-    "technique": [
+       ],
+  "technique_de_realisation": [
         "1. Mettre en place le poste de travail - 5 min",
         "• Denrées, matériels de préparation, de cuisson et de dressage.",
         "2. Dégorger la langue à l’eau courante - 5 min",

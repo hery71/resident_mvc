@@ -1,0 +1,141 @@
+{
+    "titre": "FRUITS MELBA",
+    "type": "Dessert glacé",
+    "page": 982,
+    "pax":8,
+        "Éléments de base": [
+            {
+                "nom": "fraises (0,080 kg à 0,100 kg par personne)",
+                "unite": "kg",
+                "quantite": "0,800 à 1"
+            },
+            {
+                "nom": "pêches (8 pièces de 0,120 kg)",
+                "unite": "kg",
+                "quantite": "1"
+            },
+            {
+                "nom": "poires (8 pièces de 0,150 kg)",
+                "unite": "kg",
+                "quantite": "1,200"
+            },
+            {
+                "nom": "citron (1 pièce)",
+                "unite": "kg",
+                "quantite": "0,100"
+            }
+        ],
+        "Sirop à 1.1247 D": [
+            {
+                "nom": "eau",
+                "unite": "l",
+                "quantite": "0,50"
+            },
+            {
+                "nom": "sucre",
+                "unite": "kg",
+                "quantite": "0,300"
+            },
+            {
+                "nom": "citron (1/2 pièce)",
+                "unite": "kg",
+                "quantite": "0,050"
+            },
+            {
+                "nom": "vanille (facultatif)",
+                "unite": "gousse",
+                "quantite": "1/2"
+            }
+        ],
+        "Glace vanille (appareil à glace aux œufs)": [
+            {
+                "nom": "lait entier",
+                "unite": "l",
+                "quantite": "0,90"
+            },
+            {
+                "nom": "crème U.H.T.",
+                "unite": "l",
+                "quantite": "0,10"
+            },
+            {
+                "nom": "lait en poudre à 0% de M.G.",
+                "unite": "kg",
+                "quantite": "0,040"
+            },
+            {
+                "nom": "œufs (jaunes 8 pièces)",
+                "unite": "kg",
+                "quantite": "0,160"
+            },
+            {
+                "nom": "sucre semoule",
+                "unite": "kg",
+                "quantite": "0,200"
+            },
+            {
+                "nom": "vanille",
+                "unite": "gousse",
+                "quantite": "1"
+            },
+            {
+                "nom": "stabilisateur (facultatif)",
+                "unite": "kg",
+                "quantite": "0,010"
+            }
+        ],
+        "Coulis de framboise": [
+            {
+                "nom": "framboises surgelées (brisures)",
+                "unite": "kg",
+                "quantite": "0,200"
+            },
+            {
+                "nom": "sucre glace",
+                "unite": "kg",
+                "quantite": "0,080"
+            },
+            {
+                "nom": "citron (jus)",
+                "unite": "pièce",
+                "quantite": "1/2"
+            }
+        ],
+  "technique_de_realisation": [
+        "1. Mettre en place le poste de travail - 5 min",
+        "• Denrées, matériels de préparation, de cuisson et de dressage.",
+        "",
+        "2. Réaliser la crème anglaise - 15 min (voir p. 544/546)",
+        "• Porter le lait, la poudre de lait, la crème, la moitié du sucre à ébullition.",
+        "• Ajouter le stabilisateur (si utilisé) et la gousse de vanille partagée en deux et grattée.",
+        "• Laisser infuser.",
+        "• Blanchir les jaunes d’œufs avec le reste du sucre.",
+        "• Verser progressivement le mélange lait, crème et sucre sur les jaunes d’œufs blanchis.",
+        "• Remettre le tout dans la sauteuse.",
+        "• Cuire le mix à la nappe et le pasteuriser (+ 83 °C durant une minute sans arrêter de vanner).",
+        "• Passer au chinois étamine et refroidir rapidement.",
+        "• Maturer le mix à couvert à + 4 °C maximum durant 4 h au minimum.",
+        "",
+        "3. Confectionner le sirop - 5 min (voir p. 578)",
+        "",
+        "4. Préparer les fruits - 10 min (voir p. 49 et 560)",
+        "• Laver, équeuter, égoutter soigneusement les fraises ou les laver, monder et pocher les pêches ou éplucher, citronner et pocher les poires.",
+        "",
+        "5. Turbiner la crème anglaise (le mix) et la débarrasser dans un bac à glace - 5 min",
+        "• Réserver la glace à couvert dans un conservateur à - 18/20 °C.",
+        "• Nettoyer et désinfecter la sorbetière selon la procédure.",
+        "",
+        "6. Confectionner le coulis de framboises - 10 min (voir p. 560)",
+        "• Laver très délicatement les framboises.",
+        "• Les éponger soigneusement.",
+        "• Passer les framboises au « mixeur ».",
+        "• Ajouter le sucre glace et le jus d’un demi-citron.",
+        "• Passer au chinois étamine et réserver le coulis filmé sur de la glace vive.",
+        "",
+        "7. Dresser les fruits Melba - 5 min",
+        "• Dresser séparément dans des jattes les fruits, la glace à la vanille, le coulis de framboise.",
+        "",
+        "REMARQUE :",
+        "• Dans le cas d’un service simplifié, il est fréquent de dresser les fruits Melba dans une coupe, dans ce cas disposer les fruits sur la glace à la vanille et napper avec le coulis de framboises."
+    ]
+}

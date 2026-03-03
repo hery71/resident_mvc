@@ -3,7 +3,7 @@
   "type": "Viandes blanches rôties",
   "fiche": 82,
   "page": 790,
-  "denrees_pour_8_couverts": {
+  "pax":8,
     "elements_de_base": [
       {
         "nom": "carré de porc non paré",
@@ -108,8 +108,7 @@
         "quantite": "PM",
         "unite": ""
       }
-    ]
-  },
+    ],
   "technique_de_realisation": [
     "1. Mettre en place le poste de travail - 5 min",
     "Denrées, matériels de préparation, de cuisson et de dressage.",

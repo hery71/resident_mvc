@@ -2,7 +2,7 @@
   "titre": "CÔTES DE PORC CHARCUTIÈRE, POMME PURÉE",
   "type": "Viandes blanches sautées, sauce brune par déglaçage",
   "page": 802,
-  "denrees_pour_8_couverts": {
+  "pax":8,
     "elements_de_base": [
       {
         "nom": "côtes de porc (carré couvert – côtes premières ou secondes) (8 x 0,200 à 0,250 kg)",
@@ -95,8 +95,7 @@
         "quantite": "PM",
         "unite": ""
       }
-    ]
-  },
+    ],
   "technique_de_realisation": [
     "(Voir p. 404/405)",
     "1. Mettre en place le poste de travail - 5 min",

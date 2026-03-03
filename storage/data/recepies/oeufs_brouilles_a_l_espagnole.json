@@ -2,7 +2,7 @@
     "titre": "Œufs brouillés à l'espagnole",
     "type": "Hors-d'œuvre chauds à base d'œufs",
     "description": "Œufs brouillés crémeux servis sur une fondue de tomates, entourés d'anneaux d'oignons frits en beignet et décorés de poivrons rouges ou persil. Garniture typique espagnole avec tomates, oignons et éventuellement poivrons.",
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "œufs extra-frais",

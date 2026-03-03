@@ -2,7 +2,7 @@
     "titre": "Soupe à l’oignon gratinée",
     "type": "potage",
     "page": 613,
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "beurre",

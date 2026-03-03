@@ -1,7 +1,7 @@
 {
   "titre": "ÉPIGRAMMES D’AGNEAU",
   "type": "Viandes sautées",
-  "denrees_pour_8_couverts": {
+  "pax":8,
     "elements_de_base": [
       {
         "nom": "morceaux de poitrine parés d’agneau",
@@ -49,8 +49,7 @@
         "quantite": "PM",
         "unite": ""
       }
-    ]
-  },
+    ],
   "technique_de_realisation": [
     "1. Préparer les épigrammes.",
     "Cuire longuement par braisage à blanc 1,500 kg de morceaux de poitrine et de collier d’agneau avec un pied de veau concassé ou pocher les morceaux à court-mouillement dans un fond blanc corsé.",

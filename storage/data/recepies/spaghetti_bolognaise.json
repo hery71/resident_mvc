@@ -2,7 +2,7 @@
     "titre": "Spaghetti bolognaise",
     "type": "Hors-d'œuvre chauds à base de pâtes industrielles",
     "description": "Spaghetti industriels cuits al dente, servis avec une sauce bolognaise maison à base de viande hachée, tomates concassées, légumes aromatiques et fond de veau, accompagnés de fromage râpé (gruyère ou parmesan).",
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "pates": [
             {
                 "nom": "spaghetti (pâtes industrielles)",

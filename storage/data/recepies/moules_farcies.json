@@ -2,7 +2,7 @@
   "titre": "MOULES FARCIES",
   "type": "Coquillages et crustacés farcis (moules, praires, palourdes)",
   "page": 764,
-  "denrees_pour_8_couverts": {
+  "pax":8,
     "Éléments de base": [
       {
         "nom": "moules d’Espagne",
@@ -53,8 +53,7 @@
         "unite": "kg",
         "quantite": "0,080"
       }
-    ]
-  },
+    ],
   "technique_de_realisation": [
     "1. Mettre en place le poste de travail - 5 min",
     "Denrées, matériels de préparation, de cuisson et de dressage.",

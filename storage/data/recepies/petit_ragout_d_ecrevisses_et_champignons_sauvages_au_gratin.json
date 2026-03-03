@@ -2,7 +2,7 @@
   "titre": "PETIT RAGOÛT D’ÉCREVISSES ET CHAMPIGNONS SAUVAGES AU GRATIN",
   "type": "Crustacés gratinés",
   "page": 773,
-  "denrees_pour_8_couverts": {
+  "pax":8,
     "elements_de_base": [
       {
         "nom": "écrevisses",
@@ -73,8 +73,7 @@
         "quantite": "PM",
         "unite": ""
       }
-    ]
-  },
+    ],
   "technique_de_realisation": [
     "1. Mettre en place le poste de travail",
     "2. Réaliser la sauce Nantua",

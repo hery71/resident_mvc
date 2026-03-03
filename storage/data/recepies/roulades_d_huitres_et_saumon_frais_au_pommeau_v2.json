@@ -1,7 +1,7 @@
 {
   "titre": "ROULADES D’HUÎTRES ET SAUMON FRAIS AU POMMEAU",
   "page": 769,
-  "denrees_pour_8_couverts": {
+  "pax":8,
     "Éléments de base": [
       {
         "nom": "huîtres creuses du Cotentin (calibre G2)",
@@ -84,8 +84,7 @@
         "quantite": "PM",
         "unite": ""
       }
-    ]
-  },
+    ],
   "technique_de_realisation": [
     "1. Mettre en place le poste de travail",
     "2. Ouvrir 48 huîtres creuses du Cotentin (calibre G2).",

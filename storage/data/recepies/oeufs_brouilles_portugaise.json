@@ -2,7 +2,7 @@
     "titre": "Œufs brouillés portugaise",
     "type": "Hors-d'œuvre chauds à base d'œufs",
     "description": "Œufs brouillés cuits doucement au bain-marie jusqu'à consistance crémeuse, servis sur une fondue de tomates à la portugaise (tomates concassées, oignons, ail, bouquet garni), finis avec beurre et crème, décorés de persil haché.",
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "œufs extra-frais",

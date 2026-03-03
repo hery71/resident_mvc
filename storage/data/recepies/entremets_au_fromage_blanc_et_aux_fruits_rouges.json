@@ -1,0 +1,211 @@
+{
+    "titre": "ENTREMETS AU FROMAGE BLANC ET AUX FRUITS ROUGES",
+    "type": "Entremets au fromage blanc",
+    "page": 972,
+    "fiche": 170,
+    "pax":8,
+        "Disques de génoise": [
+            {
+                "nom": "génoise en plaque",
+                "unite": "plaque",
+                "quantite": "1"
+            },
+            {
+                "nom": "bande de biscuits à la cuillère de 6 cm de hauteur (kit charlotte)",
+                "unite": "cm",
+                "quantite": "70"
+            }
+        ],
+        "Sirop de punchage (sirop à 1.2624 D 30°B)": [
+            {
+                "nom": "sucre semoule",
+                "unite": "kg",
+                "quantite": "0,080"
+            },
+            {
+                "nom": "eau",
+                "unite": "l",
+                "quantite": "0,06"
+            },
+            {
+                "nom": "zeste de citron",
+                "unite": "kg",
+                "quantite": "PM"
+            },
+            {
+                "nom": "liqueur à base d’orange",
+                "unite": "l",
+                "quantite": "0,04"
+            }
+        ],
+        "Garniture (fruits rouges)": [
+            {
+                "nom": "fraises (petites)",
+                "unite": "kg",
+                "quantite": "0,200"
+            },
+            {
+                "nom": "framboises",
+                "unite": "kg",
+                "quantite": "0,200"
+            },
+            {
+                "nom": "myrtilles",
+                "unite": "kg",
+                "quantite": "0,100"
+            },
+            {
+                "nom": "mûres",
+                "unite": "kg",
+                "quantite": "0,100"
+            },
+            {
+                "nom": "cassis",
+                "unite": "kg",
+                "quantite": "0,050"
+            },
+            {
+                "nom": "groseilles en grappes",
+                "unite": "kg",
+                "quantite": "0,050"
+            },
+            {
+                "nom": "sucre semoule",
+                "unite": "kg",
+                "quantite": "0,040"
+            },
+            {
+                "nom": "citron (1/2 pièce)",
+                "unite": "kg",
+                "quantite": "0,050"
+            },
+            {
+                "nom": "liqueur à base d’orange",
+                "unite": "l",
+                "quantite": "0,04"
+            }
+        ],
+        "Crème au fromage blanc": [
+            {
+                "nom": "fromage blanc à 30 % de M.G.",
+                "unite": "kg",
+                "quantite": "0,400"
+            }
+        ],
+        "Pâte à bombe collée": [
+            {
+                "nom": "œufs (4 jaunes)",
+                "unite": "kg",
+                "quantite": "0,080"
+            },
+            {
+                "nom": "sucre semoule",
+                "unite": "kg",
+                "quantite": "0,160"
+            },
+            {
+                "nom": "eau",
+                "unite": "l",
+                "quantite": "0,06"
+            },
+            {
+                "nom": "gélatine (5 feuilles)",
+                "unite": "kg",
+                "quantite": "0,010"
+            }
+        ],
+        "Crème Chantilly": [
+            {
+                "nom": "crème liquide",
+                "unite": "l",
+                "quantite": "0,50"
+            },
+            {
+                "nom": "sucre semoule ou glace",
+                "unite": "kg",
+                "quantite": "0,040"
+            },
+            {
+                "nom": "vanille (extrait liquide)",
+                "unite": "l",
+                "quantite": "PM"
+            }
+        ],
+        "Meringue italienne (facultatif)": [
+            {
+                "nom": "meringue italienne",
+                "unite": "kg",
+                "quantite": "0,100"
+            }
+        ],
+        "Finition (crème Chantilly)": [
+            {
+                "nom": "crème liquide",
+                "unite": "l",
+                "quantite": "0,25"
+            },
+            {
+                "nom": "sucre glace",
+                "unite": "kg",
+                "quantite": "0,020"
+            },
+            {
+                "nom": "vanille (extrait liquide)",
+                "unite": "l",
+                "quantite": "PM"
+            }
+        ],
+        "Décor": [
+            {
+                "nom": "fruits rouges (prélevés sur la garniture)",
+                "unite": "kg",
+                "quantite": "0,100"
+            },
+            {
+                "nom": "nappage neutre",
+                "unite": "kg",
+                "quantite": "0,050"
+            }
+        ],
+  "technique_de_realisation": [
+        "1. Mettre en place le poste de travail - 5 min",
+        "• Denrées, matériels de préparation, de cuisson et de dressage.",
+        "",
+        "2. Mettre la gélatine à tremper - 2 min",
+        "",
+        "3. Préparer les fruits rouges - 5 min",
+        "• Les laver délicatement, équeuter les fraises et les égoutter soigneusement sur du papier absorbant.",
+        "• Les mettre à macérer avec le sucre, la liqueur et le jus d’un demi-citron, filmer et réserver en enceinte réfrigérée.",
+        "",
+        "4. Réaliser la pâte à bombe collée - 20 min",
+        "• Cuire le sucre à 120 °C avec le zeste de citron.",
+        "• Verser progressivement le sucre sur les jaunes d’œufs en fouettant vigoureusement.",
+        "• Incorporer la gélatine soigneusement égouttée.",
+        "• Monter l’appareil en grande vitesse jusqu’à son complet refroidissement.",
+        "",
+        "5. Terminer la crème au fromage blanc - 10 min",
+        "• Lisser le fromage blanc et l’incorporer délicatement à la pâte à bombe collée.",
+        "• Monter la crème Chantilly et réserver en enceinte réfrigérée 1/3 pour le décor.",
+        "• Incorporer l’appareil à la crème fouettée et soulever délicatement l’appareil pour ne pas le faire retomber.",
+        "",
+        "6. Réaliser le sirop de punchage - 3 min",
+        "• Le parfumer avec la liqueur.",
+        "",
+        "7. Monter l’entremets en cercle - 20 min",
+        "• Détailler trois disques de 20 cm de diamètre dans la plaque de génoise.",
+        "• Placer un cercle de 20 cm de diamètre sur un carton à entremets.",
+        "• Chemiser avec une bande de biscuits à la cuillère préalablement punchés au sirop.",
+        "• Verser une couche régulière de 2 cm d’épaisseur de crème au fromage blanc.",
+        "• Recouvrir d’une couche de fruits rouges macérés.",
+        "• Appliquer un deuxième disque de génoise et le puncher.",
+        "• Verser une autre couche de crème et recouvrir à nouveau d’une autre couche de fruits rouges (réserver 0,100 kg pour le décor).",
+        "• Terminer par un disque de génoise, le puncher et masquer le dessus avec le reste de la crème au fromage blanc.",
+        "",
+        "8. Terminer et dresser l’entremets - 10 min",
+        "• Démouler délicatement l’entremets avec la crème Chantilly réservée.",
+        "• Décorer le dessus de l’entremets avec la crème Chantilly réservée.",
+        "• Garnir le centre de fruits rouges.",
+        "• Appliquer le nappage neutre.",
+        "• Dresser l’entremets sur un grand plat rond recouvert d’une feuille de papier dentelle."
+    ]
+}

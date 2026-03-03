@@ -2,7 +2,7 @@
     "titre": "Suprêmes de bar vue farcis en darnes, beurre au pipérade",
     "type": "Hors-d'œuvre chauds à base de poisson",
     "description": "Suprêmes de bar farcis d'une farce fine de bar ou poisson blanc, façonnés en darnes, enveloppés de bardes de lard ou couenne, cuits à la vapeur ou pochés, servis nappés de beurre monté à la pipérade (poivrons, tomates, oignons). Dressage avec légumes vapeur ou pommes à l'anglaise.",
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "bar (filets ou suprêmes, pour 2,500 kg total)",

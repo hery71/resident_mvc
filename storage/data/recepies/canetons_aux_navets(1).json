@@ -3,7 +3,7 @@
     "titre": "CANETONS AUX NAVETS",
     "bandeau": "Volailles poêlées",
     "page": 858,
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "2 canards de 2 kg chacun",
@@ -101,9 +101,8 @@
                 "nom": "poivre du moulin",
                 "quantite": "PM"
             }
-        ]
-    },
-    "technique": [
+       ],
+  "technique_de_realisation": [
         "1. Mettre en place le poste de travail - 5 min",
         "2. Habiller et brider les canetons - 30 min (voir p. 250/252)",
         "3. Marquer les canetons en cuisson - 10 min",

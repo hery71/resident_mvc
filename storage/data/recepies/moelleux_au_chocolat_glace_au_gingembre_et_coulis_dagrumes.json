@@ -1,0 +1,125 @@
+{
+    "titre": "MOELLEUX AU CHOCOLAT, GLACE AU GINGEMBRE ET COULIS D’AGRUMES",
+    "type": "Entremets au chocolat",
+    "page": 975,
+    "pax":8,
+        "Appareil pour les moelleux": [
+            {
+                "nom": "farine",
+                "unite": "kg",
+                "quantite": "0,080"
+            },
+            {
+                "nom": "couverture noire",
+                "unite": "kg",
+                "quantite": "0,250"
+            },
+            {
+                "nom": "beurre extra-fin",
+                "unite": "kg",
+                "quantite": "0,080"
+            },
+            {
+                "nom": "œufs entiers",
+                "unite": "kg",
+                "quantite": "0,350"
+            },
+            {
+                "nom": "sucre semoule",
+                "unite": "kg",
+                "quantite": "0,180"
+            },
+            {
+                "nom": "cacao en poudre",
+                "unite": "kg",
+                "quantite": "PM"
+            }
+        ],
+        "Glace au gingembre": [
+            {
+                "nom": "appareil de base (glace aux œufs)",
+                "unite": "kg",
+                "quantite": "PM"
+            },
+            {
+                "nom": "gelée de gingembre",
+                "unite": "kg",
+                "quantite": "0,080"
+            },
+            {
+                "nom": "gingembre confit",
+                "unite": "kg",
+                "quantite": "0,040"
+            }
+        ],
+        "Coulis d’agrumes": [
+            {
+                "nom": "oranges",
+                "unite": "kg",
+                "quantite": "0,150"
+            },
+            {
+                "nom": "pamplemousses",
+                "unite": "kg",
+                "quantite": "0,150"
+            },
+            {
+                "nom": "confiture d’orange",
+                "unite": "kg",
+                "quantite": "0,050"
+            },
+            {
+                "nom": "jus d’orange",
+                "unite": "l",
+                "quantite": "PM"
+            },
+            {
+                "nom": "jus de pamplemousse rose",
+                "unite": "l",
+                "quantite": "PM"
+            }
+        ],
+        "Finition": [
+            {
+                "nom": "filaments de gingembre confits",
+                "unite": "kg",
+                "quantite": "PM"
+            }
+        ],
+  "technique_de_realisation": [
+        "1. Mettre en place le poste de travail",
+        "",
+        "La veille :",
+        "",
+        "2. Réaliser l’appareil pour les moelleux",
+        "• Faire fondre au bain-marie 0,250 kg de couverture noire avec 0,080 kg de beurre extra-fin.",
+        "• Blanchir 6 œufs entiers (0,350 kg) avec 0,180 kg de sucre semoule. L’appareil doit faire le ruban.",
+        "• Incorporer 0,060 kg de farine tamisée puis le chocolat fondu avec le beurre légèrement refroidi.",
+        "",
+        "3. Mouler les moelleux au chocolat",
+        "• Beurrer puis garnir huit ramequins ou huit dariole(s) de 0,08 l.",
+        "• Laisser reposer durant 12 h au minimum en enceinte réfrigérée.",
+        "",
+        "4. Réaliser le mix pour la glace au gingembre",
+        "• Ajouter à l’appareil de base (voir « Glace aux œufs ») 0,080 kg de gelée de gingembre et 0,040 kg de gingembre confit.",
+        "",
+        "Le lendemain :",
+        "",
+        "5. Turbiner la glace au gingembre",
+        "• Observer les précautions citées (voir « Glace à la vanille »).",
+        "",
+        "6. Lever les segments et réaliser le coulis d’agrumes",
+        "• Lever les segments de 4 oranges et de 2 pamplemousses, les réserver.",
+        "• Détendre 0,150 kg de confiture d’orange et 0,050 kg de gelée neutre avec un peu de jus d’orange et de pamplemousse rose.",
+        "• Passer au chinois tamine.",
+        "",
+        "7. Marquer les moelleux en cuisson",
+        "• Les cuire au four à 180 °C durant environ 8 min.",
+        "• Les débarrasser lorsqu’ils commencent à craqueler sur le dessus.",
+        "",
+        "8. Dresser les moelleux au chocolat",
+        "• Les démouler immédiatement sur les assiettes de base.",
+        "• Disposer harmonieusement un fond de coulis, quelques segments d’orange et de pamplemousse et une belle quenelle de glace au gingembre.",
+        "• Parsemer la glace de quelques filaments de gingembre confits."
+    ]
+}

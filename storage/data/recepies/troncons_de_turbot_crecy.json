@@ -2,7 +2,7 @@
     "titre": "Tronçons de turbot Crécy",
     "type": "Hors-d'œuvre chauds à base de poisson",
     "description": "Tronçons de turbot pochés, servis nappés de beurre fondu ou sauce légère, accompagnés d'une garniture Crécy (purée de carottes fine et onctueuse), décorés de carottes tournées et persil. Dressage classique avec accompagnement de légumes vapeur ou pommes à l'anglaise.",
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "turbot (tronçons ou portions)",

@@ -2,7 +2,7 @@
     "titre": "Œufs cocotte à la parisienne",
     "type": "Hors-d'œuvre chauds à base d'œufs",
     "description": "Œufs cuits en cocotte au bain-marie, garnis d'une farce fine de volaille (farce mousseline) et de champignons, nappés de sauce suprême ou crème, terminés au four ou gratinés légèrement.",
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "œufs extra-frais",

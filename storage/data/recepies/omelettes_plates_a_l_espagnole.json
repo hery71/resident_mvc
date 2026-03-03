@@ -2,7 +2,7 @@
     "titre": "Omelettes plates à l'espagnole",
     "type": "Hors-d'œuvre chauds à base d'œufs",
     "description": "Omelettes plates (type tortilla espagnole) enrichies d'un appareil de poivrons, oignons et tomates concassées étuvés à l'huile d'olive. Cuites à la poêle, retournées et servies chaudes, souvent en portions individuelles ou à partager.",
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "œufs extra-frais",

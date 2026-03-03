@@ -1,7 +1,7 @@
 {
   "titre": "CARRÉ DE VEAU BRUXELLOISE",
   "type": "Viandes blanches poêlées",
-  "denrees_pour_8_couverts": {
+  "pax":8,
     "elements_de_base": [
       {
         "nom": "carré de veau",
@@ -52,8 +52,7 @@
         "quantite": "0,08",
         "unite": "l"
       }
-    ]
-  },
+    ],
   "technique_de_realisation": [
     "1. Préparer un carré de veau de 2,400 kg comme dans la recette de base ci-contre.",
     "2. Préparer la garniture aromatique.",

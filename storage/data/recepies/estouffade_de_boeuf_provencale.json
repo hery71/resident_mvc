@@ -1,7 +1,7 @@
 {
     "file_name": "estouffade_de_boeuf_provencale.json",
     "titre": "ESTOUFFADE DE BŒUF PROVENÇALE",
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "viande de bœuf (morceaux de 0,050 kg)",
@@ -50,9 +50,8 @@
                 "quantite": 0.2,
                 "unite": "kg"
             }
-        ]
-    },
-    "technique": [
+       ],
+  "technique_de_realisation": [
         "1. Mettre en place le poste de travail",
         "2. Vérifier et parer la viande si nécessaire",
         "• La détailler en morceaux de 0,050 kg.",

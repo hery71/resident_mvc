@@ -2,7 +2,7 @@
   "page": "638",
   "titre": "CRÈME DIEPPOISE",
   "type": "Crèmes et veloutés à base de poisson ou de crustacés",
-  "denrees_pour_8_couverts": {
+  "pax":8,
     "elements_de_base": [
       {
         "nom": "beurre",

@@ -1,7 +1,7 @@
 {
     "titre": "GIBELOTTE DES BRACONNIERS",
     "page": 873,
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "2 lapins de garenne",
@@ -80,9 +80,8 @@
                 "nom": "persil haché",
                 "quantite": "PM"
             }
-        ]
-    },
-    "technique": [
+       ],
+  "technique_de_realisation": [
         "Quelques heures à l’avance :",
         "1. Détailler deux beaux lapins de garenne en 16 morceaux et les mettre en marinade instantanée",
         "• Les ranger dans un récipient en acier inoxydable avec 0,10 l d’huile d’olive, 0,10 l de vin blanc, 0,080 kg d’échalotes ciselées, quelques fragments de thym et de laurier.",

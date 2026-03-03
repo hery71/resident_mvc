@@ -1,7 +1,7 @@
 {
   "titre": "SELLE D’AGNEAU FARCIE",
   "type": "Viandes rouges rôties",
-  "denrees_pour_8_couverts": {
+  "pax":8,
     "elements_de_base": [
       {
         "nom": "selle d’agneau (désossée en selle anglaise)",
@@ -47,8 +47,7 @@
         "quantite": "PM",
         "unite": ""
       }
-    ]
-  },
+    ],
   "technique_de_realisation": [
     "1. Désosser la selle anglaise (voir p. 219/220)",
     "2. Réaliser la farce mousseline (voir p. 325)",

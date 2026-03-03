@@ -4,7 +4,7 @@
     "page": 681,
     "fiche": "32",
     "description": "Hors-d'œuvre chaud à base de semoule cuite, détaillée en losanges, nappée de beurre et gratinée au four avec du gruyère râpé.",
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "appareil_a_gnocchi": [
             {
                 "nom": "lait",

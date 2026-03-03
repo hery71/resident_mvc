@@ -1,0 +1,126 @@
+{
+    "titre": "MILLE-FEUILLE CROUSTILLANT AUX FRAISES, CRÈME LÉGÈRE AU COINTREAU",
+    "type": "Entremets",
+    "page": 977,
+    "pax":8,
+        "Fraises macérées": [
+            {
+                "nom": "petites fraises calibrées",
+                "unite": "kg",
+                "quantite": "0,500"
+            },
+            {
+                "nom": "jus d’un demi-citron",
+                "unite": "kg",
+                "quantite": "PM"
+            },
+            {
+                "nom": "Cointreau",
+                "unite": "l",
+                "quantite": "0,02"
+            }
+        ],
+        "Abaisses de feuilletage": [
+            {
+                "nom": "feuilletage",
+                "unite": "kg",
+                "quantite": "PM"
+            },
+            {
+                "nom": "sucre glace non amylacé",
+                "unite": "kg",
+                "quantite": "PM"
+            }
+        ],
+        "Crème Diplomate (crème légère au Cointreau)": [
+            {
+                "nom": "crème pâtissière à la poudre à crème",
+                "unite": "l",
+                "quantite": "0,50"
+            },
+            {
+                "nom": "Cointreau",
+                "unite": "l",
+                "quantite": "0,010"
+            },
+            {
+                "nom": "gélatine",
+                "unite": "kg",
+                "quantite": "0,010"
+            },
+            {
+                "nom": "crème liquide fouettée",
+                "unite": "l",
+                "quantite": "0,50"
+            },
+            {
+                "nom": "sucre",
+                "unite": "kg",
+                "quantite": "0,040"
+            }
+        ],
+        "Coulis de fraises": [
+            {
+                "nom": "fraises",
+                "unite": "kg",
+                "quantite": "0,250"
+            },
+            {
+                "nom": "sucre",
+                "unite": "kg",
+                "quantite": "0,080"
+            },
+            {
+                "nom": "jus de citron",
+                "unite": "kg",
+                "quantite": "PM"
+            }
+        ],
+        "Finition": [
+            {
+                "nom": "fraises glacées (trempées au sucre cuit au grand cassé)",
+                "unite": "kg",
+                "quantite": "PM"
+            },
+            {
+                "nom": "menthe",
+                "unite": "botte",
+                "quantite": "PM"
+            }
+        ],
+  "technique_de_realisation": [
+        "1. Mettre en place le poste de travail",
+        "",
+        "2. Laver et équeuter 0,500 kg de petites fraises calibrées",
+        "• Les mettre à macérer avec un peu de sucre, le jus d’un demi-citron et 0,02 l de Cointreau.",
+        "• Filmer et réserver en enceinte réfrigérée.",
+        "",
+        "3. Réaliser les abaisses de feuilletage",
+        "• Détailler 24 petites abaisses rondes et très fines de feuilletage.",
+        "• Les piquer puis les déposer sur une plaque à pâtisserie recouverte d’une feuille de papier cuisson.",
+        "• Les charger pour éviter le gonflement (les abaisses doivent rester très fines).",
+        "• Les sucrer généreusement en fin de cuisson avec du sucre glace non amylacé.",
+        "• Les abaisses doivent être dorées, brillantes (glacées) et croustillantes.",
+        "• Les débarrasser.",
+        "",
+        "4. Réaliser la crème Diplomate (voir p. 552)",
+        "• Réaliser 0,50 l de crème pâtissière à la poudre à crème.",
+        "• La parfumer avec 0,010 kg de gélatine, la parfumer au Cointreau puis lui ajouter délicatement après refroidissement 0,50 l de crème liquide fouettée avec 0,040 kg de sucre.",
+        "• Tamponner et réserver.",
+        "",
+        "5. Réaliser le coulis de fraises",
+        "• Utiliser 0,250 kg de fraises, 0,080 kg de sucre et quelques gouttes de jus de citron.",
+        "• Réserver le coulis sur glace.",
+        "",
+        "6. Glacer au sucre cuit huit belles fraises avec leur collerette verte",
+        "• Les tremper dans du sucre cuit au grand cassé, puis les déposer sur le marbre légèrement huilé.",
+        "",
+        "7. Réaliser le montage des mille-feuille",
+        "• Placer un disque de feuilletage dans chaque assiette.",
+        "• Disposer les fraises, la pointe vers le haut, les intercaler avec une rosace de crème Diplomate au Cointreau.",
+        "• Recommencer et terminer par un disque de pâte face glacée sur le dessus.",
+        "• Réaliser un petit décor sur le côté de l’assiette avec une belle fraise historiée et une petite branche de menthe.",
+        "• Entourer le mille-feuille d’un petit cordon de coulis.",
+        "• Placer une belle fraise glacée au centre de chaque mille-feuille."
+    ]
+}

@@ -1,7 +1,7 @@
 {
     "file_name": "poulet_saute_au_paprika.json",
     "titre": "POULET SAUTÉ AU PAPRIKA",
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "poulet",
@@ -54,9 +54,8 @@
                 "quantite": "PM",
                 "unite": ""
             }
-        ]
-    },
-    "technique": [
+       ],
+  "technique_de_realisation": [
         "1. Habiller et découper les poulets à cru",
         "2. Marquer un fond brun de volaille légèrement lié et corsé",
         "3. Marquer les morceaux de poulet en cuisson",

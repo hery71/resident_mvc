@@ -2,7 +2,7 @@
     "titre": "Truites pochées au court-bouillon, beurre blanc",
     "type": "Hors-d'œuvre chauds à base de poisson",
     "description": "Truites entières pochées dans un court-bouillon citronné aromatisé, servies chaudes accompagnées d'une sauce beurre blanc émulsionnée. Dressage classique avec légumes vapeur ou persillade, citrons et persil frais.",
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "truites entières (frais, vidées et écaillées)",

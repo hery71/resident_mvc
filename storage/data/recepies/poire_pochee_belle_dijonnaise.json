@@ -1,0 +1,100 @@
+{
+    "titre": "POIRE POCHÉE BELLE DIJONNAISE",
+    "type": "Dessert aux fruits",
+    "page": 985,
+    "pax":8,
+        "Sirop au vin (à préparer la veille)": [
+            {
+                "nom": "vin rouge de Bourgogne",
+                "unite": "l",
+                "quantite": "1"
+            },
+            {
+                "nom": "sucre semoule",
+                "unite": "kg",
+                "quantite": "0,100"
+            },
+            {
+                "nom": "crème de cassis",
+                "unite": "l",
+                "quantite": "0,030"
+            },
+            {
+                "nom": "cannelle (pincée)",
+                "unite": "kg",
+                "quantite": "PM"
+            },
+            {
+                "nom": "clou de girofle",
+                "unite": "pièce",
+                "quantite": "PM"
+            },
+            {
+                "nom": "zestes d’oranges et de citrons",
+                "unite": "kg",
+                "quantite": "PM"
+            }
+        ],
+        "Poires pochées": [
+            {
+                "nom": "poires moyennes de 0,120 à 0,140 kg pièce (Williams, conférence ou poires de cure)",
+                "unite": "kg",
+                "quantite": "1"
+            }
+        ],
+        "Sauce d’accompagnement": [
+            {
+                "nom": "jus de cuisson des poires",
+                "unite": "l",
+                "quantite": "0,40"
+            },
+            {
+                "nom": "gelée de cassis",
+                "unite": "kg",
+                "quantite": "0,050"
+            }
+        ],
+        "Sorbet cassis (accompagnement)": [
+            {
+                "nom": "sorbet au cassis",
+                "unite": "kg",
+                "quantite": "PM"
+            }
+        ],
+        "Finition": [
+            {
+                "nom": "crème Chantilly",
+                "unite": "l",
+                "quantite": "PM"
+            },
+            {
+                "nom": "grains de cassis",
+                "unite": "kg",
+                "quantite": "PM"
+            }
+        ],
+  "technique_de_realisation": [
+        "1. Mettre en place le poste de travail",
+        "",
+        "2. Préparer le sirop au vin (à réaliser la veille)",
+        "• Réunir dans une russe moyenne une bouteille de vin rouge de Bourgogne, 0,100 kg de sucre semoule, 0,030 l de crème de cassis, une pincée de cannelle, 1 clou de girofle et quelques zestes d’oranges et de citrons.",
+        "• Laisser frémir durant une dizaine de minutes.",
+        "",
+        "3. Laver, éplucher, citronner et pocher 8 poires moyennes de 0,120 à 0,140 kg pièce (Williams, conférence ou poires de cure).",
+        "• Les évider par l’intérieur à l’aide d’une cuillère à racine et les pocher à couvert dans le sirop au vin durant une vingtaine de minutes.",
+        "• Prélever 0,40 l de sirop de cuisson pour la sauce puis laisser refroidir et macérer les poires dans le reste de la cuisson jusqu’au lendemain.",
+        "",
+        "4. Réaliser 0,80 l de sorbet au cassis (voir page suivante)",
+        "• Le réserver dans un bac à glace filmé à - 18 °C.",
+        "",
+        "5. Réaliser la sauce d’accompagnement",
+        "• Réduire les 0,40 l de cuisson des poires avec 0,050 kg de gelée de cassis et 0,050 kg de grains de cassis.",
+        "• Mixer, passer au chinois étamine et réserver.",
+        "",
+        "6. Dresser les poires pochées en tulipes ou en coupes individuelles",
+        "• Disposer une grosse boule de sorbet cassis au fond des coupes ou des tulipes.",
+        "• Placer dessus une poire entière bien égouttée.",
+        "• Napper soigneusement avec la sauce.",
+        "• Décorer avec de la crème Chantilly et des grains de cassis."
+    ]
+}

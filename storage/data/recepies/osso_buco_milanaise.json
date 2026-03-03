@@ -3,7 +3,7 @@
     "titre": "OSSO-BUCO MILANAISE",
     "bandeau": "Viandes braisées à brun",
     "page": 830,
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "osso-buco (8 x 0,250 kg)",
@@ -190,9 +190,8 @@
                 "unite": "",
                 "quantite": "PM"
             }
-        ]
-    },
-    "technique": [
+       ],
+  "technique_de_realisation": [
         "1. Mettre en place le poste de travail - 5 min",
         "• Denrées, matériels de préparation, de cuisson et de dressage.",
         "2. Vérifier et réserver les osso-buco en enceinte réfrigérée",

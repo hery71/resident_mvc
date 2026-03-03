@@ -2,7 +2,7 @@
   "page": "658",
   "titre": "ASPERGES SAUCE MOUSSELINE",
   "type": "Hors-d’œuvre tièdes à base de légumes cuits",
-  "denrees_pour_8_couverts": {
+  "pax":8,
     "elements_de_base": [
       {
         "nom": "asperges blanches (0,400 kg par personne)",
@@ -57,8 +57,7 @@
         "nom": "piment de Cayenne",
         "quantite": "PM"
       }
-    ]
-  },
+    ],
   "technique": [
     "1. Mettre en place le poste de travail - 5 min",
     "• Denrées, matériels de préparation, de cuisson et de dressage.",

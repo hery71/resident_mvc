@@ -2,7 +2,7 @@
     "titre": "Potage julienne Darblay",
     "type": "potage purée de légumes frais",
     "page": 622,
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "beurre",

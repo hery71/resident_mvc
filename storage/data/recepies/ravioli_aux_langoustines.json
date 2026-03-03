@@ -2,7 +2,7 @@
     "titre": "Ravioli aux langoustines",
     "type": "Hors-d'œuvre chauds à base de pâte à ravioli",
     "description": "Ravioli frais farcis d'une farce fine de langoustines, pochés puis servis avec une sauce américaine crémeuse, sautés rapidement à l'huile d'olive. Dressage harmonieux avec croûte de parmesan ou herbes fraîches.",
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "pate_a_ravioli": [
             {
                 "nom": "farine type 45",

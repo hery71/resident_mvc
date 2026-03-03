@@ -2,7 +2,7 @@
     "titre": "Darnes de colin pochées, beurre fondu",
     "type": "Hors-d'œuvre chauds à base de poisson",
     "description": "Darnes de colin pochées dans un court-bouillon à l'eau salée, servies avec un beurre fondu citronné. Accompagnées traditionnellement de légumes vapeur (pommes à l'anglaise, carottes, brocolis, romanesco) ou d'une persillade.",
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "colin (darnes de 0,200 kg chacune)",

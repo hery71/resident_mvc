@@ -1,7 +1,7 @@
 {
   "titre": "MOULES POULETTE",
   "page": 763,
-  "denrees_pour_8_couverts": {
+  "pax":8,
     "Sauce poulette de base": [
       {
         "nom": "échalotes ciselées",
@@ -64,8 +64,7 @@
         "quantite": "PM",
         "unite": ""
       }
-    ]
-  },
+    ],
   "technique_de_realisation": [
     "1. Mettre en place le poste de travail",
     "2. Préparer la sauce poulette de base",

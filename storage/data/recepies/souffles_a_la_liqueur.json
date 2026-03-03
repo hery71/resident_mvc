@@ -3,7 +3,7 @@
     "type": "Dessert",
     "bandeau": "Entremets chauds de cuisine à base de crème pâtissière",
     "page": 940,
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "appareil_a_souffle": [
             {
                 "nom": "lait",
@@ -95,9 +95,8 @@
                 "unite": "kg",
                 "quantite": "0,020"
             }
-        ]
-    },
-    "technique": [
+       ],
+  "technique_de_realisation": [
         "1. Mettre en place le poste de travail - 5 min",
         "2. Confectionner la crème pâtissière - 20 min",
         "3. Chemiser les moules à soufflé - 5 min",

@@ -2,7 +2,7 @@
     "titre": "PUDDING AUX RAISINS ET SABAYON AU MALAGA",
     "type": "Dessert",
     "page": 935,
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "base": [
             {
                 "nom": "appareil à crème prise",
@@ -35,9 +35,8 @@
                 "unite": "l",
                 "quantite": "0,20"
             }
-        ]
-    },
-    "technique": [
+       ],
+  "technique_de_realisation": [
         "1. Confectionner un appareil à crème prise (voir p. 562)",
         "2. Préparer les moules",
         "• Faire macérer 0,100 kg de raisins de Malaga dans 0,10 l de Malaga.",

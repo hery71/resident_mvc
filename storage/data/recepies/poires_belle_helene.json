@@ -1,0 +1,156 @@
+{
+    "titre": "POIRES BELLE-HÉLÈNE",
+    "type": "Dessert glacé",
+    "page": 984,
+    "pax":8,
+        "Éléments de base": [
+            {
+                "nom": "poires (8 pièces de 0,150 kg)",
+                "unite": "kg",
+                "quantite": "1,200"
+            },
+            {
+                "nom": "citron (1 pièce)",
+                "unite": "kg",
+                "quantite": "0,100"
+            }
+        ],
+        "Sirop": [
+            {
+                "nom": "eau",
+                "unite": "l",
+                "quantite": "1/2"
+            },
+            {
+                "nom": "sucre",
+                "unite": "kg",
+                "quantite": "0,300"
+            },
+            {
+                "nom": "citron (1/2 pièce)",
+                "unite": "kg",
+                "quantite": "0,050"
+            },
+            {
+                "nom": "vanille (facultatif)",
+                "unite": "gousse",
+                "quantite": "1/2"
+            },
+            {
+                "nom": "poires au sirop (alternative)",
+                "unite": "pièce",
+                "quantite": "8"
+            }
+        ],
+        "Glace vanille (appareil à glace aux œufs)": [
+            {
+                "nom": "lait",
+                "unite": "l",
+                "quantite": "0,90"
+            },
+            {
+                "nom": "crème liquide",
+                "unite": "l",
+                "quantite": "0,10"
+            },
+            {
+                "nom": "lait en poudre écrémé",
+                "unite": "kg",
+                "quantite": "0,040"
+            },
+            {
+                "nom": "œufs (jaunes, 8/10 pièces)",
+                "unite": "kg",
+                "quantite": "0,160"
+            },
+            {
+                "nom": "sucre semoule",
+                "unite": "kg",
+                "quantite": "0,200"
+            },
+            {
+                "nom": "vanille",
+                "unite": "gousse",
+                "quantite": "1"
+            },
+            {
+                "nom": "stabilisateur",
+                "unite": "kg",
+                "quantite": "0,010"
+            }
+        ],
+        "Sauce chocolat": [
+            {
+                "nom": "couverture à 50 %",
+                "unite": "kg",
+                "quantite": "0,200"
+            },
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": "0,040"
+            },
+            {
+                "nom": "crème liquide",
+                "unite": "l",
+                "quantite": "0,02"
+            },
+            {
+                "nom": "sirop à 1.1247 D (alternative)",
+                "unite": "l",
+                "quantite": "PM"
+            },
+            {
+                "nom": "eau (alternative)",
+                "unite": "l",
+                "quantite": "PM"
+            }
+        ],
+  "technique_de_realisation": [
+        "1. Mettre en place le poste de travail - 5 min",
+        "• Denrées, matériels de préparation, de cuisson et de dressage.",
+        "• Peser et mesurer les denrées.",
+        "",
+        "2. Réaliser le sirop - 5 min (voir p. 578)",
+        "• Réunir dans une russe, l’eau, le sucre, les zestes de citron éventuellement blanchis, un peu de jus de citron et la demi-gousse de vanille.",
+        "• Porter à ébullition, écumer.",
+        "",
+        "3. Éplucher délicatement les poires et les citronner - 10 min",
+        "• Gratter délicatement et raccourcir les queues.",
+        "• Évider l’intérieur à l’aide d’une petite cuillère à légumes.",
+        "",
+        "4. Marquer les poires en cuisson - 5 min (voir p. 386)",
+        "• Pocher les poires dans le sirop bouillant.",
+        "• Les maintenir en immersion et les cuire recouvertes d’un papier sulfurisé pendant 15 à 20 min selon leur degré de maturité.",
+        "• Débarrasser et laisser refroidir les poires dans le sirop.",
+        "",
+        "5. Réaliser la crème anglaise et turbiner (sangler) la glace - 15 min (voir p. 544/546)",
+        "• Porter le lait, la poudre de lait, la crème, la moitié du sucre à ébullition.",
+        "• Ajouter le stabilisateur (si utilisé) et la gousse de vanille partagée en deux et grattée.",
+        "• Laisser infuser.",
+        "• Blanchir les jaunes d’œufs avec le reste du sucre.",
+        "• Verser progressivement le mélange lait, crème et sucre sur les jaunes d’œufs blanchis.",
+        "• Remettre le tout dans la sauteuse.",
+        "• Cuire le mix à la nappe et le pasteuriser (+ 83 °C durant une minute sans arrêter de vanner).",
+        "• Passer au chinois étamine et refroidir rapidement.",
+        "• Maturer le mix à couvert à + 4 °C maximum durant 4 h au minimum et 12 h maximum.",
+        "• Turbiner la crème anglaise (le mix) dans une sorbetière.",
+        "• Débarrasser la glace, la filmer et la réserver dans un conservateur à - 18/20 °C.",
+        "• Nettoyer et désinfecter la sorbetière selon la procédure.",
+        "",
+        "6. Confectionner la sauce chocolat - 10 min",
+        "• Réunir dans un petit bain à sauce en acier inoxydable, la couverture concassée, un peu d’eau et le beurre en parcelles.",
+        "• Tiédir et faire fondre doucement le chocolat au bain-marie en le remuant de temps à autre à l’aide d’une spatule en exoglass.",
+        "• Lisser et rectifier éventuellement l’onctuosité soit avec un peu de crème fleurette bouillie, soit avec un peu de sirop.",
+        "• Maintenir au chaud la sauce chocolat.",
+        "",
+        "7. Dresser les poires Belle-Hélène - 5 min",
+        "• Égoutter soigneusement les poires et les dresser harmonieusement dans une grande jatte.",
+        "• Dresser la glace à la vanille dans une deuxième jatte ou vasque rafraîchie au préalable, elle peut être placée dans une autre vasque contenant de la glace pilée.",
+        "• Dresser la sauce chocolat en saucière.",
+        "",
+        "REMARQUES :",
+        "• La densité du sirop de pochage des poires est fonction de leur degré de maturité.",
+        "• Il est fréquent de dresser les poires Belle-Hélène en coupes individuelles."
+    ]
+}

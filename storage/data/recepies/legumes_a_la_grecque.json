@@ -2,7 +2,7 @@
   "page": "652",
   "titre": "LÉGUMES À LA GRECQUE",
   "type": "Hors-d’œuvre froids à base de légumes cuits",
-  "denrees_pour_8_couverts": {
+  "pax":8,
     "elements_de_base": [
       {
         "nom": "champignons de Paris ou artichauts (16 x 0,250 kg)",

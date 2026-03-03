@@ -2,7 +2,7 @@
     "titre": "POMMES MIETTES",
     "type": "Accompagnement",
     "page": 905,
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "pommes de terre à chair ferme",
@@ -37,9 +37,8 @@
                 "nom": "persil haché",
                 "quantite": "PM"
             }
-        ]
-    },
-    "technique": [
+       ],
+  "technique_de_realisation": [
         "1. Mettre en place le poste de travail",
         "2. Laver et brosser soigneusement 2 kg de pommes de terre à chair ferme",
         "3. Cuire les pommes de terre en robe des champs",

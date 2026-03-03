@@ -2,7 +2,7 @@
     "titre": "RATATOUILLE FAÇON NIÇOISE",
     "type": "Accompagnement",
     "page": 917,
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "aubergines",
@@ -70,9 +70,8 @@
                 "nom": "fleur de thym",
                 "quantite": "PM"
             }
-        ]
-    },
-    "technique": [
+       ],
+  "technique_de_realisation": [
         "1. Mettre en place le poste de travail",
         "2. Éplucher les légumes",
         "• Laver, parer les extrémités et peler 0,800 kg d’aubergines et 1 kg de courgettes.",

@@ -2,7 +2,7 @@
   "titre": "FILET DE SAINT-PIERRE À L’OSEILLE",
   "type": "Poissons sautés",
   "page": 754,
-  "denrees_pour_8_couverts": {
+  "pax":8,
     "Éléments de base": [
       {
         "nom": "Saint-Pierre (4 x 0,700 kg à 0,750 kg)",
@@ -141,8 +141,7 @@
         "quantite": "PM",
         "unite": ""
       }
-    ]
-  },
+    ],
   "technique_de_realisation": [
     "1. Mettre en place le poste de travail - 5 min",
     "Denrées, matériels de préparation, de cuisson et de dressage.",

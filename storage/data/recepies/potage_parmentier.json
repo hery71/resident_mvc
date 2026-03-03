@@ -2,7 +2,7 @@
     "titre": "Potage Parmentier",
     "type": "potage purée de légumes frais",
     "page": 624,
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "beurre",

@@ -1,7 +1,7 @@
 {
     "file_name": "aiguillette_de_boeuf_braisee_printaniere.json",
     "titre": "AIGUILLETTE DE BŒUF BRAISÉE PRINTANIÈRE",
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "aiguillettes de rumsteck",
@@ -50,9 +50,8 @@
                 "quantite": 0.25,
                 "unite": "kg"
             }
-        ]
-    },
-    "technique": [
+       ],
+  "technique_de_realisation": [
         "1. Mettre en place le poste de travail",
         "2. Parer, larder et mettre une aiguillette de rumsteck de 2,400 kg en marinade avec les carottes, les oignons, l’ail, le bouquet garni, le vin blanc, le cognac et l’huile.",
         "3. Braisser l’aiguillette comme ci-contre avec les morceaux de couenne de porc et le pied de veau blanchis.",

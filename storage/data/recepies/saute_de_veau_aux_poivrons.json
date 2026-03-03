@@ -1,7 +1,7 @@
 {
     "file_name": "saute_de_veau_aux_poivrons.json",
     "titre": "SAUTÉ DE VEAU AUX POIVRONS",
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "veau détaillé en morceaux",
@@ -55,9 +55,8 @@
                 "quantite": 0.2,
                 "unite": "kg"
             }
-        ]
-    },
-    "technique": [
+       ],
+  "technique_de_realisation": [
         "1. Vérifier, dégraisser et parer les morceaux si nécessaire.",
         "",
         "2. Marquer le ragoût en cuisson",

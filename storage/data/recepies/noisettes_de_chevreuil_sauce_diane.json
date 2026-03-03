@@ -1,7 +1,7 @@
 {
   "titre": "NOISETTES DE CHEVREUIL, SAUCE DIANE",
   "type": "Viande de gibier sautée",
-  "denrees_pour_8_couverts": {
+  "pax":8,
     "elements_de_base": [
       {
         "nom": "filet de chevreuil en noisettes",
@@ -84,8 +84,7 @@
         "quantite": "PM",
         "unite": ""
       }
-    ]
-  },
+    ],
   "technique_de_realisation": [
     "1. Mettre en place le poste de travail.",
     "2. Détailler 1,200 kg de filets de chevreuil en noisettes régulières (à raison de 3 par personne).",

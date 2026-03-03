@@ -3,7 +3,7 @@
     "bandeau": "Suprêmes de canetons sautés",
     "fiche": 124,
     "page": 876,
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "magrets de canards (mulard) (4 x 0,400 kg)",
@@ -62,9 +62,8 @@
                 "nom": "poivre du moulin",
                 "quantite": "PM"
             }
-        ]
-    },
-    "technique": [
+       ],
+  "technique_de_realisation": [
         "1. Mettre en place le poste de travail - 5 min",
         "• Denrées, matériels de préparation, de cuisson et de dressage.",
         "2. Préparer les magrets - 10 min (voir p. 253)",

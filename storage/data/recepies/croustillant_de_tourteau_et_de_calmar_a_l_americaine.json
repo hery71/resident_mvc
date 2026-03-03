@@ -4,7 +4,7 @@
     "page": 690,
     "fiche": "36",
     "description": "Superposition de feuilles de brick séchées au four, intercalées avec du tourteau (chair de crabe) et des calamars à l'américaine. Dressage en croustillants harmonieux, servis chauds avec une sauce américaine crémeuse.",
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "chair de tourteau (crabe décortiqué)",

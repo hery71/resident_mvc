@@ -4,7 +4,7 @@
     "bandeau": "Volailles sautées à brun",
     "fiche": 109,
     "page": 846,
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "poulets labellisés (P.A.C.) (2 x 1,200 à 1,400 kg)",
@@ -117,9 +117,8 @@
                 "unite": "",
                 "quantite": "PM"
             }
-        ]
-    },
-    "technique": [
+       ],
+  "technique_de_realisation": [
         "(Voir p. 408/409)",
         "1. Mettre en place le poste de travail - 5 min",
         "• Denrées, matériels de préparation, de cuisson et de dressage.",

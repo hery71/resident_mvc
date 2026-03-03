@@ -2,7 +2,7 @@
     "titre": "HARICOTS SECS AU BEURRE (COCOS, LINGOTS, FLAGEOLETS)",
     "bandeau": "Graines de légumineuses sèches (haricots cocos, lingots, flageolets, cheviers verts, haricots rouges, lentilles, etc.)",
     "page": 894,
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "haricots secs (cocos ou lingots ou tarbais ou cheviers verts ou flageolets)",
@@ -66,9 +66,8 @@
                 "nom": "clou de girofle",
                 "quantite": "PM"
             }
-        ]
-    },
-    "technique": [
+       ],
+  "technique_de_realisation": [
         "1re MÉTHODE POUR GARNITURE D’ACCOMPAGNEMENT ET SALADES COMPOSÉES",
         "1. Mettre en place le poste de travail - 5 min",
         "• Denrées, matériels de préparation, de cuisson et de dressage.",

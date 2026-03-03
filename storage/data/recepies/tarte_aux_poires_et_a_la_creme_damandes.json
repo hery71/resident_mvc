@@ -2,7 +2,7 @@
     "titre": "TARTE AUX POIRES ET À LA CRÈME D’AMANDES",
     "type": "Dessert",
     "page": 958,
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "pate_brisee_sucree": [
             {
                 "nom": "farine",
@@ -117,9 +117,8 @@
                 "unite": "kg",
                 "quantite": "0,100"
             }
-        ]
-    },
-    "technique": [
+       ],
+  "technique_de_realisation": [
         "1. Mettre en place le poste de travail - 5 min.",
         "2. Réaliser la pâte brisée sucrée - 15 min (voir p. 484/485).",
         "3. Réaliser la crème d’amandes - 10 min (voir p. 557/558).",

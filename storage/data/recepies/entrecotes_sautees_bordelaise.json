@@ -2,15 +2,14 @@
   "titre": "ENTRECÔTES SAUTÉES BORDELAISE",
   "type": "Viandes rouges sautées",
   "page": 793,
-  "denrees_pour_8_couverts": {
+  "pax":8,
     "elements_de_base": [
       {
         "nom": "entrecôtes (4 x 0,300 à 0,400 kg)",
         "quantite": "1,200 à 1,600",
         "unite": "kg"
       }
-    ]
-  },
+    ],
   "technique_de_realisation": [
     "1. Parer 4 entrecôtes de 0,300 à 0,400 kg (une entrecôte pour 2 personnes).",
     "Ôter l’excédent de gras s’il y a lieu.",

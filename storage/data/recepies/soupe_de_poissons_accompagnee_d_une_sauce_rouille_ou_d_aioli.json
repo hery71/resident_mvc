@@ -2,7 +2,7 @@
   "page": "642",
   "titre": "SOUPE DE POISSONS ACCOMPAGNÉE D’UNE SAUCE ROUILLE OU D’AÏOLI",
   "type": "Soupes de poissons",
-  "denrees_pour_8_couverts": {
+  "pax":8,
     "elements_de_base": [
       {
         "nom": "poissons de roche mélangés ou grondin, rascasse, vive, St-Pierre, merlan, congre",

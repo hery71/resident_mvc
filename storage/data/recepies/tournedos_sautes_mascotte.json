@@ -2,7 +2,7 @@
   "titre": "TOURNEDOS SAUTÉS MASCOTTE",
   "type": "Viandes rouges sautées",
   "page": 795,
-  "denrees_pour_8_couverts": {
+  "pax":8,
     "elements_de_base": [
       {
         "nom": "filet paré (nécessaire pour 8 tournedos de 0,150 kg chacun)",
@@ -36,8 +36,7 @@
         "quantite": "0,020",
         "unite": "kg"
       }
-    ]
-  },
+    ],
   "technique_de_realisation": [
     "1. Préparer les tournedos.",
     "Vérifier et parer (si nécessaire) 8 tournedos de 0,150 kg chacun.",

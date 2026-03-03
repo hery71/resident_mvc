@@ -2,7 +2,7 @@
     "titre": "POMMES FONDANTES",
     "type": "Accompagnement",
     "page": 899,
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "pommes de terre à chair ferme",
@@ -29,9 +29,8 @@
                 "nom": "sel fin",
                 "quantite": "PM"
             }
-        ]
-    },
-    "technique": [
+       ],
+  "technique_de_realisation": [
         "1. Mettre en place le poste de travail",
         "2. Éplucher et tourner les pommes de terre",
         "• Éplucher 2,00 kg de belles pommes de terre à chair ferme environ 0,090 kg chacune.",

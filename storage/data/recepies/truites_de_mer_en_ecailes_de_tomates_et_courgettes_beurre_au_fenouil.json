@@ -2,7 +2,7 @@
     "titre": "Truites de mer en écailles de tomates et courgettes, beurre au fenouil",
     "type": "Hors-d'œuvre chauds à base de poisson",
     "description": "Filets de truites de mer ouverts en portefeuille, pochés à la vapeur, garnis de rondelles de tomates et courgettes en écailles, servis avec un beurre fondu aromatisé au fenouil. Dressage harmonieux avec réduction de fumet, fines herbes et accompagnement léger.",
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "truites de mer (entières ou filets, 0,300 kg pièce)",

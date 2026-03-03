@@ -1,0 +1,69 @@
+{
+    "titre": "CRÈME GLACÉE, GLACE À LA CRÈME",
+    "type": "Glaces et sorbets",
+    "page": null,
+    "pax":8,
+        "Crème glacée aux fruits (fraises)": [
+            {
+                "nom": "lait entier",
+                "unite": "l",
+                "quantite": "0,50"
+            },
+            {
+                "nom": "crème (à 30 % de matières grasses)",
+                "unite": "l",
+                "quantite": "0,15"
+            },
+            {
+                "nom": "pulpe de fraise",
+                "unite": "kg",
+                "quantite": "0,200"
+            },
+            {
+                "nom": "sucre",
+                "unite": "kg",
+                "quantite": "0,200"
+            }
+        ],
+        "Crème glacée à la vanille": [
+            {
+                "nom": "lait entier",
+                "unite": "l",
+                "quantite": "0,75"
+            },
+            {
+                "nom": "crème (à 30 % de matières grasses)",
+                "unite": "l",
+                "quantite": "0,225"
+            },
+            {
+                "nom": "sucre",
+                "unite": "kg",
+                "quantite": "0,200"
+            },
+            {
+                "nom": "vanille",
+                "unite": "kg",
+                "quantite": "0,002"
+            }
+        ],
+  "technique_de_realisation": [
+        "Définition :",
+        "• Mélange pasteurisé de crème, de lait, de matières grasses (7 %), de saccharose (14 %) et de parfum.",
+        "",
+        "1. Confectionner la crème glacée",
+        "• Réunir et pasteuriser tous les éléments.",
+        "• Faire refroidir très rapidement.",
+        "",
+        "2. Sangler la crème glacée",
+        "• Verser la préparation dans la sorbetière et turbiner jusqu’à bonne consistance.",
+        "• Débarrasser aussitôt dans les bacs à glace.",
+        "• Réserver au conservateur.",
+        "",
+        "3. Dresser la crème glacée",
+        "• Servir comme les glaces aux œufs.",
+        "",
+        "REMARQUE :",
+        "• Certaines sorbetières dites « choco » ne nécessitent pas le refroidissement du « mix »."
+    ]
+}

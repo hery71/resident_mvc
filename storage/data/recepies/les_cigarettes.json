@@ -1,0 +1,49 @@
+{
+    "titre": "LES CIGARETTES",
+    "type": "Petits fours secs",
+    "page": 998,
+    "denrees_pour_60_cigarettes_environ": {
+        "Éléments de base": [
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": "0,200"
+            },
+            {
+                "nom": "sucre glace",
+                "unite": "kg",
+                "quantite": "0,200"
+            },
+            {
+                "nom": "œufs (6 blancs)",
+                "unite": "kg",
+                "quantite": "0,200"
+            },
+            {
+                "nom": "farine type 55",
+                "unite": "kg",
+                "quantite": "0,150"
+            },
+            {
+                "nom": "vanille",
+                "unite": "kg",
+                "quantite": "PM"
+            },
+            {
+                "nom": "beurre pour les plaques",
+                "unite": "kg",
+                "quantite": "0,040"
+            }
+        ],
+  "technique_de_realisation": [
+        "1. Coucher des cigarettes",
+        "• Coucher des petits tas d’appareil sur les plaques beurrées, en utilisant une poche munie d’une douille unie de 7 mm de diamètre.",
+        "• Les coucher en quinconce, à raison d’une vingtaine de cigarettes par plaque (ne pas les serrer).",
+        "• Étaler l’appareil en tapant fortement la plaque sur le plan de travail ou sur une planche à découper.",
+        "",
+        "2. Cuire les cigarettes",
+        "• Les cuire au four à 210/220 °C.",
+        "• Les cigarettes doivent être blondes, et présenter une couronne plus foncée sur le pourtour.",
+        "• Les décoller à l’aide d’un triangle, puis les rouler immédiatement à l’entrée du four sur une petite tige en acier inoxydable."
+    ]
+}

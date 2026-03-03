@@ -2,7 +2,7 @@
   "page": "654",
   "titre": "SALADE FAÇON NIÇOISE",
   "type": "Hors-d’œuvre froids à base de légumes crus et cuits de poissons et de viandes",
-  "denrees_pour_8_couverts": {
+  "pax":8,
     "elements_de_base": [
       {
         "nom": "pommes de terre à chair ferme",

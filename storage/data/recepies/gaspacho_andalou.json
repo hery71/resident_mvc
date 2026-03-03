@@ -3,7 +3,7 @@
     "titre": "Gaspacho andalou",
     "type": "potage froid",
     "page": 625,
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "tomates mûres à point",

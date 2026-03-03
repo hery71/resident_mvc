@@ -4,7 +4,7 @@
     "bandeau": "Flans de légumes",
     "fiche": 142,
     "page": 914,
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "purees_de_legumes": [
             {
                 "nom": "purée de carotte",
@@ -72,9 +72,8 @@
                 "nom": "noix de muscade",
                 "quantite": "PM"
             }
-        ]
-    },
-    "technique": [
+       ],
+  "technique_de_realisation": [
         "1. Mettre en place le poste de travail - 5 min",
         "• Denrées, matériels de préparation, de cuisson et de dressage.",
         "2. Dessécher la purée - 10 min",

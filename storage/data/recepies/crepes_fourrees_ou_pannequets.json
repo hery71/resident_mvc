@@ -2,7 +2,7 @@
     "titre": "CRÊPES FOURRÉES OU PANNEQUETS",
     "type": "Dessert",
     "page": 943,
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "pate_a_crepes": [
             {
                 "nom": "pâte à crêpes",
@@ -55,9 +55,8 @@
                 "nom": "sucre glace",
                 "quantite": "PM"
             }
-        ]
-    },
-    "technique": [
+       ],
+  "technique_de_realisation": [
         "1. Mettre en place le poste de travail - 5 min",
         "2. Réaliser 12 à 14 crêpes - 10 min",
         "3. Faire macérer les fruits - 2 min",

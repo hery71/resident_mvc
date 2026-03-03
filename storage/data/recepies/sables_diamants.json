@@ -1,0 +1,71 @@
+{
+    "titre": "SABLÉS DIAMANTS",
+    "type": "Petits fours secs",
+    "page": 998,
+    "denrees_pour_24_sables_environ": {
+        "Éléments de base": [
+            {
+                "nom": "beurre extra-fin",
+                "unite": "kg",
+                "quantite": "0,150"
+            },
+            {
+                "nom": "sucre glace",
+                "unite": "kg",
+                "quantite": "0,075"
+            },
+            {
+                "nom": "œufs (2 jaunes)",
+                "unite": "kg",
+                "quantite": "0,040"
+            },
+            {
+                "nom": "farine",
+                "unite": "kg",
+                "quantite": "0,200"
+            },
+            {
+                "nom": "vanille extrait liquide",
+                "unite": "l",
+                "quantite": "PM"
+            }
+        ],
+        "Finition - Dorure": [
+            {
+                "nom": "œuf entier (1 pièce)",
+                "unite": "kg",
+                "quantite": "0,055"
+            },
+            {
+                "nom": "sucre cristallisé",
+                "unite": "kg",
+                "quantite": "0,160"
+            },
+            {
+                "nom": "beurre pour les plaques",
+                "unite": "kg",
+                "quantite": "0,040"
+            }
+        ],
+  "technique_de_realisation": [
+        "1. Mettre en place le poste de travail",
+        "• Peser, mesurer et contrôler les denrées.",
+        "",
+        "2. Réaliser l’appareil",
+        "• Ramollir le beurre dans une calotte à l’aide d’une spatule.",
+        "• Ajouter le sucre glace et crémer l’ensemble, puis ajouter les deux jaunes d’œufs et l’extrait de vanille liquide.",
+        "• Incorporer la farine de manière à obtenir une pâte ferme.",
+        "",
+        "• Éviter de travailler la pâte qui risquerait de prendre du corps.",
+        "• Rouler la pâte dans un papier sulfurisé de la forme d’un cylindre de 4 cm de diamètre.",
+        "• Raffermir le cylindre en enceinte réfrigérée ou dans un conservateur.",
+        "",
+        "3. Terminer et détailler les sablés diamants",
+        "• Passer le cylindre successivement dans l’œuf battu et dans le sucre cristallisé.",
+        "• Bien faire adhérer le sucre.",
+        "• Détailler le cylindre en rondelles régulières de 5 à 6 mm d’épaisseur.",
+        "",
+        "4. Cuire les sablés diamants",
+        "• Les cuire à 200/220 °C sur plaques beurrées doublées."
+    ]
+}

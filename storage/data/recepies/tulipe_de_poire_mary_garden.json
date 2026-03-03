@@ -1,0 +1,152 @@
+{
+    "titre": "TULIPE DE POIRE MARY GARDEN",
+    "type": "Dessert glacé",
+    "page": 983,
+    "pax":8,
+        "Tulipes en appareil à cigarette": [
+            {
+                "nom": "farine",
+                "unite": "kg",
+                "quantite": "0,080"
+            },
+            {
+                "nom": "sucre semoule",
+                "unite": "kg",
+                "quantite": "0,125"
+            },
+            {
+                "nom": "sel fin",
+                "unite": "kg",
+                "quantite": "PM (pincée)"
+            },
+            {
+                "nom": "lait",
+                "unite": "l",
+                "quantite": "0,015"
+            },
+            {
+                "nom": "blancs d’œufs",
+                "unite": "kg",
+                "quantite": "0,040"
+            },
+            {
+                "nom": "beurre fondu refroidi",
+                "unite": "kg",
+                "quantite": "0,045"
+            }
+        ],
+        "Poires pochées": [
+            {
+                "nom": "poires (8 pièces de 0,120 kg chacune)",
+                "unite": "kg",
+                "quantite": "0,960"
+            },
+            {
+                "nom": "eau (sirop)",
+                "unite": "l",
+                "quantite": "0,50"
+            },
+            {
+                "nom": "sucre (sirop)",
+                "unite": "kg",
+                "quantite": "0,300"
+            },
+            {
+                "nom": "vanille",
+                "unite": "gousse",
+                "quantite": "PM"
+            }
+        ],
+        "Crème anglaise (pour glace à la vanille)": [
+            {
+                "nom": "lait",
+                "unite": "l",
+                "quantite": "1"
+            },
+            {
+                "nom": "œufs (jaunes)",
+                "unite": "kg",
+                "quantite": "PM"
+            },
+            {
+                "nom": "sucre",
+                "unite": "kg",
+                "quantite": "PM"
+            },
+            {
+                "nom": "vanille",
+                "unite": "gousse",
+                "quantite": "PM"
+            }
+        ],
+        "Coulis de framboises": [
+            {
+                "nom": "brisures de framboises",
+                "unite": "kg",
+                "quantite": "0,200"
+            },
+            {
+                "nom": "sucre glace",
+                "unite": "kg",
+                "quantite": "0,080"
+            },
+            {
+                "nom": "jus de citron (1/2 citron)",
+                "unite": "pièce",
+                "quantite": "1/2"
+            }
+        ],
+        "Crème Chantilly": [
+            {
+                "nom": "crème liquide",
+                "unite": "l",
+                "quantite": "0,25"
+            },
+            {
+                "nom": "sucre glace",
+                "unite": "kg",
+                "quantite": "0,020"
+            }
+        ],
+        "Finition": [
+            {
+                "nom": "bigarreaux rouges au sirop",
+                "unite": "kg",
+                "quantite": "0,200"
+            },
+            {
+                "nom": "glace vanille",
+                "unite": "kg",
+                "quantite": "PM"
+            }
+        ],
+  "technique_de_realisation": [
+        "1. Mettre en place le poste de travail",
+        "",
+        "2. Réaliser huit tulipes en appareil à cigarettes (voir p. 508)",
+        "• Utiliser 0,080 kg de farine, 0,125 kg de sucre semoule ou glace, une pincée de sel fin, 0,015 l de lait, 0,045 kg de blancs d’œufs et 0,040 kg de beurre fondu refroidi.",
+        "",
+        "3. Laver, éplucher et citronner 8 petites poires de 0,120 kg chacune.",
+        "• Les évider à l’aide d’une cuillère à « ox-tail ».",
+        "",
+        "4. Pocher les poires",
+        "• Les pocher dans un sirop composé d’1/2 litre d’eau et de 0,300 kg de sucre.",
+        "• Les parfumer à la vanille et avec quelques zestes de citron.",
+        "",
+        "5. Réaliser 1 l de crème anglaise pour la préparation de la glace à la vanille (voir proportions et recommandations ci-contre).",
+        "",
+        "6. Réaliser un coulis avec 0,200 kg de brisures de framboises, 0,080 kg de sucre glace et le jus d’1/2 citron.",
+        "",
+        "7. Monter 1/4 de litre de crème Chantilly",
+        "• La sucrer avec 0,020 kg de sucre glace.",
+        "",
+        "8. Égoutter 0,200 kg de bigarreaux rouges au sirop",
+        "",
+        "9. Dresser les poires pochées Mary Garden",
+        "• Disposer une grosse boule de glace vanille dans chaque tulipe.",
+        "• Appliquer au centre une poire bien égouttée.",
+        "• Napper avec le coulis de framboises.",
+        "• Disposer les cerises tout autour en couronne.",
+        "• Décorer avec la crème Chantilly."
+    ]
+}

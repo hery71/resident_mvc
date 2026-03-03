@@ -1,0 +1,121 @@
+{
+    "titre": "MACARONS CAFÉ / CHOCOLAT",
+    "type": "Petits gâteaux secs",
+    "page": 996,
+    "pax":8,
+        "Macarons au café - Éléments de base": [
+            {
+                "nom": "amandes en poudre",
+                "unite": "kg",
+                "quantite": "0,125"
+            },
+            {
+                "nom": "sucre glace",
+                "unite": "kg",
+                "quantite": "0,255"
+            }
+        ],
+        "Macarons au café - Meringue": [
+            {
+                "nom": "blancs d’œufs frais",
+                "unite": "kg",
+                "quantite": "0,100"
+            },
+            {
+                "nom": "blancs d’œufs déshydratés",
+                "unite": "kg",
+                "quantite": "0,005"
+            },
+            {
+                "nom": "sucre semoule",
+                "unite": "kg",
+                "quantite": "0,030"
+            },
+            {
+                "nom": "extrait de café liquide",
+                "unite": "l",
+                "quantite": "PM"
+            }
+        ],
+        "Macarons au café - Crème de fourrage": [
+            {
+                "nom": "crème mousseline au café",
+                "unite": "kg",
+                "quantite": "0,100"
+            }
+        ],
+        "Macarons au chocolat - Éléments de base": [
+            {
+                "nom": "amandes en poudre",
+                "unite": "kg",
+                "quantite": "0,125"
+            },
+            {
+                "nom": "sucre glace",
+                "unite": "kg",
+                "quantite": "0,255"
+            },
+            {
+                "nom": "cacao en poudre",
+                "unite": "kg",
+                "quantite": "0,025"
+            }
+        ],
+        "Macarons au chocolat - Meringue": [
+            {
+                "nom": "blancs d’œufs frais",
+                "unite": "kg",
+                "quantite": "0,100"
+            },
+            {
+                "nom": "blancs d’œufs déshydratés",
+                "unite": "kg",
+                "quantite": "0,005"
+            },
+            {
+                "nom": "sucre semoule",
+                "unite": "kg",
+                "quantite": "0,030"
+            }
+        ],
+        "Macarons au chocolat - Crème de fourrage": [
+            {
+                "nom": "crème mousseline au chocolat",
+                "unite": "kg",
+                "quantite": "0,100"
+            }
+        ],
+  "technique_de_realisation": [
+        "1. Mettre en place le poste de travail - 5 min",
+        "• Denrées, matériels de préparation, de cuisson et de dressage.",
+        "• Peser et mesurer les denrées.",
+        "",
+        "2. Tamiser le mélange de base - 2 min",
+        "• Tamiser le mélange poudre d’amandes, sucre glace pour les macarons au café, ou poudre d’amandes, sucre glace et cacao pour les macarons au chocolat.",
+        "• Réserver le mélange à la température ambiante (le mélange se tamise à l’avance pour absorber l’humidité).",
+        "",
+        "3. Réaliser la meringue - 10 min",
+        "• Monter les blancs d’œufs au batteur mélangeur.",
+        "• Ajouter la moitié du sucre en milieu de montage.",
+        "• Serrer les blancs en fin de montage avec le reste du sucre.",
+        "• Lisser l’appareil à la spatule.",
+        "",
+        "4. Terminer l’appareil à macarons - 3 min",
+        "• Incorporer délicatement et progressivement le mélange de base en soulevant la masse à l’aide de la spatule.",
+        "• Travailler l’appareil jusqu’à ce qu’il retombe légèrement et devienne lisse et brillant.",
+        "",
+        "5. Coucher les macarons - 10 min",
+        "• Les coucher à la poche munie d’une douille ronde unie sur une plaque à pâtisserie recouverte d’une feuille de papier cuisson.",
+        "• Tapoter la plaque si nécessaire pour arrondir les petits dômes, ils doivent être lisses sans laisser apparaître de petites pointes d’appareil.",
+        "",
+        "6. Marquer les macarons en cuisson - 5 min",
+        "• Doubler les plaques.",
+        "• Enfourner à 230 °C et réduire aussitôt la température à 200 °C vapeur ouvert (ne faut surtout pas de vapeur).",
+        "• Cuire durant environ 9 min pour les petits et 12/13 min pour les plus gros.",
+        "• Débarrasser les macarons sur grille et les laisser refroidir.",
+        "",
+        "7. Garnir les macarons - 10 min",
+        "• Les garnir avec 0,003 kg de crème de garniture (crème mousseline au beurre, au café, au chocolat, à la pistache selon le parfum des macarons).",
+        "• La masse proposée procure 70 demi-macarons soit 35 terminés."
+    ]
+}

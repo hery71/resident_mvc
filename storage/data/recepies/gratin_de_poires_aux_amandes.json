@@ -1,0 +1,136 @@
+{
+    "titre": "GRATIN DE POIRES AUX AMANDES",
+    "type": "Entremets chaud",
+    "page": 995,
+    "pax":8,
+        "Poires caramélisées": [
+            {
+                "nom": "poires (8 pièces de 0,160 kg)",
+                "unite": "kg",
+                "quantite": "1,280"
+            },
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": "0,100"
+            },
+            {
+                "nom": "sucre",
+                "unite": "kg",
+                "quantite": "0,100"
+            },
+            {
+                "nom": "Williamine",
+                "unite": "l",
+                "quantite": "0,05"
+            }
+        ],
+        "Appareil à bombe (crème anglaise)": [
+            {
+                "nom": "jaunes d’œufs",
+                "unite": "kg",
+                "quantite": "0,140"
+            },
+            {
+                "nom": "lait",
+                "unite": "l",
+                "quantite": "0,30"
+            },
+            {
+                "nom": "sucre",
+                "unite": "kg",
+                "quantite": "0,040"
+            },
+            {
+                "nom": "vanille (gousse)",
+                "unite": "pièce",
+                "quantite": "1"
+            },
+            {
+                "nom": "Williamine",
+                "unite": "l",
+                "quantite": "0,05"
+            },
+            {
+                "nom": "crème fleurette",
+                "unite": "l",
+                "quantite": "0,40"
+            }
+        ],
+        "Crème d’amandes": [
+            {
+                "nom": "beurre en pommade",
+                "unite": "kg",
+                "quantite": "0,100"
+            },
+            {
+                "nom": "sucre glace",
+                "unite": "kg",
+                "quantite": "0,200"
+            },
+            {
+                "nom": "poudre à flan",
+                "unite": "kg",
+                "quantite": "0,020"
+            },
+            {
+                "nom": "poudre d’amandes",
+                "unite": "kg",
+                "quantite": "0,100"
+            },
+            {
+                "nom": "œufs entiers",
+                "unite": "kg",
+                "quantite": "0,100"
+            },
+            {
+                "nom": "vanille liquide",
+                "unite": "l",
+                "quantite": "PM"
+            },
+            {
+                "nom": "Williamine",
+                "unite": "l",
+                "quantite": "PM"
+            }
+        ],
+        "Décor": [
+            {
+                "nom": "fraises ou framboises (facultatif)",
+                "unite": "pièce",
+                "quantite": "PM"
+            },
+            {
+                "nom": "feuille de menthe",
+                "unite": "pièce",
+                "quantite": "PM"
+            }
+        ],
+  "technique_de_realisation": [
+        "Sur un appareil à bombe réalisé à partir d’une crème anglaise.",
+        "",
+        "1. Mettre en place le poste de travail",
+        "",
+        "2. Laver, éplucher, évider et citronner 8 poires de 0,160 kg chacune.",
+        "• Les partager en 6, les arrondir et les caraméliser en les sautant dans une poêle avec 0,100 kg de beurre et 0,100 kg de sucre.",
+        "• Les flamber avec 0,05 l de Williamine.",
+        "",
+        "3. Réaliser un appareil à bombe sur une crème anglaise",
+        "• Blanchir 8 jaunes d’œufs avec 0,140 kg de sucre.",
+        "• Ajouter 0,30 l de lait bouillant avec 1 gousse de vanille et 0,040 kg de sucre.",
+        "• Cuire à la nappe (+ 85 °C à cœur), puis passer la crème anglaise au chinois étamine.",
+        "• Battre la crème anglaise énergiquement jusqu’à son complet refroidissement.",
+        "• La parfumer avec 0,05 l de Williamine et ajouter délicatement 0,40 l de crème fleurette fouettée.",
+        "",
+        "4. Garnir les plats à gratin",
+        "• Les masquer avec une fine couche de crème d’amandes réalisée avec 0,100 kg de beurre en pommade, 0,100 kg de sucre glace, 0,020 kg de poudre à flan, 0,100 kg de poudre d’amandes, 2 œufs entiers et un peu de vanille liquide et de Williamine.",
+        "• Napper la crème d’amandes avec l’appareil à bombe.",
+        "• Disposer les morceaux de poires en rosace.",
+        "",
+        "5. Mettre les plats au four",
+        "• Les gratiner dans un four à pâtisserie très chaud (240/250 °C) durant 4 à 5 min en les plaçant sur la sole.",
+        "• Si nécessaire, parfaire le gratin sous la salamandre.",
+        "• Disposer les plats sur des assiettes recouvertes de papier dentelle.",
+        "• Disposer éventuellement au centre de chaque plat une belle fraise ou une framboise et une feuille de menthe."
+    ]
+}

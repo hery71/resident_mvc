@@ -1,0 +1,88 @@
+{
+    "titre": "KUGELHOPF",
+    "type": "Dessert",
+    "denrees_extraites_de_la_technique": [
+        {
+            "nom": "farine",
+            "quantite": "0,100 kg + 0,150 kg",
+            "unite": "kg"
+        },
+        {
+            "nom": "levure",
+            "quantite": "0,010 kg",
+            "unite": "kg"
+        },
+        {
+            "nom": "lait tiédi",
+            "quantite": "0,05 l",
+            "unite": "l"
+        },
+        {
+            "nom": "sel",
+            "quantite": "0,005 kg",
+            "unite": "kg"
+        },
+        {
+            "nom": "sucre",
+            "quantite": "0,025 kg",
+            "unite": "kg"
+        },
+        {
+            "nom": "œufs",
+            "quantite": "4",
+            "unite": "pièces"
+        },
+        {
+            "nom": "beurre doux en pommade",
+            "quantite": "0,100 kg",
+            "unite": "kg"
+        },
+        {
+            "nom": "raisins secs gonflés d’eau et égouttés",
+            "quantite": "0,100 kg",
+            "unite": "kg"
+        },
+        {
+            "nom": "amandes entières non mondées",
+            "quantite": "PM (garnir les aspérités)",
+            "unite": ""
+        },
+        {
+            "nom": "sucre glace",
+            "quantite": "PM (saupoudrer)",
+            "unite": ""
+        }
+    ],
+    "technique_complete": [
+        "Proche de la pâte à baba dans sa composition, ce gâteau alsacien se consomme «sec», non imbibé.",
+        "",
+        "1. Confectionner un levain",
+        "• Dans une calotte travailler 0,100 kg de farine avec 0,010 kg de levure, une prise de sucre et 0,05 l de lait tiédi.",
+        "• Laisser gonfler 1 heure à couvert à température ambiante.",
+        "",
+        "2. Confectionner la pâte",
+        "• Réunir 0,150 kg de farine, 0,005 kg de sel, 0,025 kg de sucre, 4 œufs et un peu de lait.",
+        "• Pétrir pour donner du «corps».",
+        "• Incorporer le levain (qui a doublé de volume).",
+        "• Une fois la pâte souple, lorsqu’elle se décolle facilement des parois de la calotte, ajouter 0,100 kg de beurre doux en pommade.",
+        "• L’incorporer et laisser pousser pendant 2 h.",
+        "",
+        "3. Terminer la pâte",
+        "• Rompre la pâte et y ajouter 0,100 kg de raisins secs gonflés d’eau et égouttés.",
+        "",
+        "4. Chemiser le moule à kugelhopf",
+        "• Beurrer le moule en terre vernissée ou en cuivre.",
+        "• Garnir les aspérités d’amandes entières non mondées.",
+        "",
+        "5. Emplir le moule",
+        "• Garnir le moule à mi-hauteur avec la pâte et laisser pousser à 22 °C environ.",
+        "",
+        "6. Cuire le kugelhopf",
+        "• Enfourner à 180 °C pendant 45 min.",
+        "• Démouler dès sa sortie du four.",
+        "",
+        "7. Dresser le kugelhopf",
+        "• Saupoudrer le kugelhopf de sucre glace.",
+        "• Le poser dans un plat rond recouvert de papier dentelle."
+    ]
+}

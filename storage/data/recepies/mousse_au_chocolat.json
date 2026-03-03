@@ -3,7 +3,7 @@
     "type": "Dessert",
     "bandeau": "Entremets froids de cuisine",
     "page": 926,
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "couverture noire 64 %",
@@ -42,9 +42,8 @@
                 "unite": "kg",
                 "quantite": "0,010"
             }
-        ]
-    },
-    "technique": [
+       ],
+  "technique_de_realisation": [
         "1. Mettre en place le poste de travail - 5 min",
         "• Denrées, matériels de préparation, de cuisson et de dressage.",
         "2. Confectionner la mousse au chocolat - 15 min",

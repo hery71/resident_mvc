@@ -1,7 +1,7 @@
 {
     "file_name": "poulet_saute_facon_basquaise.json",
     "titre": "POULET SAUTÉ FAÇON BASQUAISE",
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "poulet",
@@ -69,9 +69,8 @@
                 "quantite": "PM",
                 "unite": ""
             }
-        ]
-    },
-    "technique": [
+       ],
+  "technique_de_realisation": [
         "1. Habiller, découper les poulets à cru",
         "2. Marquer un fond de volaille légèrement lié et tomaté (comme il est indiqué pour le «poulet sauté chasseur»).",
         "3. Préparer la garniture basquaise",

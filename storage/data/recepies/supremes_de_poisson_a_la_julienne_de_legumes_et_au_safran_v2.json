@@ -2,7 +2,7 @@
   "titre": "SUPRÊMES DE POISSON À LA JULIENNE DE LÉGUMES ET AU SAFRAN",
   "type": "bar, turbot, Saint-Pierre, cabillaud, lieu jaune, julienne",
   "page": 737,
-  "denrees_pour_8_couverts": {
+  "pax":8,
     "elements_de_base": [
       {
         "nom": "suprêmes de poisson",

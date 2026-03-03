@@ -2,7 +2,7 @@
     "titre": "Lotte à l'américaine",
     "type": "Hors-d'œuvre chauds à base de poisson",
     "description": "Filets (queues) de lotte pochés dans un fumet de poisson, escalopés puis nappés d'une sauce américaine classique : réduction de carcasses de crustacés (homard, langoustines ou araignées de mer), tomates, cognac, vin blanc, estragon, montée au beurre ou liée au beurre manié. Sauce relevée, brillante, servie avec garniture au choix (riz créole, pilaf, tagliatelles aux herbes).",
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "queues de lotte (filets parés)",

@@ -2,7 +2,7 @@
     "titre": "CRÊPES SOUFFLÉES À L’ORANGE",
     "type": "Dessert",
     "page": 941,
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "pate_a_crepes": [
             {
                 "nom": "farine",
@@ -55,9 +55,8 @@
                 "nom": "sucre glace",
                 "quantite": "PM"
             }
-        ]
-    },
-    "technique": [
+       ],
+  "technique_de_realisation": [
         "1. Mettre en place le poste de travail",
         "2. Réaliser 12 à 14 crêpes",
         "3. Réaliser l’appareil à soufflé",

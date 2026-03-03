@@ -2,7 +2,7 @@
   "titre": "PILAF DE FRUITS DE MER",
   "type": "Ragoût de fruits de mer, sauce américaine crémée",
   "page": 772,
-  "denrees_pour_8_couverts": {
+  "pax":8,
     "elements_de_base": [
       {
         "nom": "coquilles Saint-Jacques (8 x 0,250 kg)",
@@ -172,8 +172,7 @@
         "quantite": "PM",
         "unite": ""
       }
-    ]
-  },
+    ],
   "technique_de_realisation": [
     "1. Mettre en place le poste de travail - 5 min",
     "2. Éplucher et laver les légumes des garnitures aromatiques - 15 min",

@@ -1,0 +1,206 @@
+{
+    "titre": "FEUILLANTINE AUX FRAMBOISES, CRÈME LÉGÈRE À LA PISTACHE",
+    "type": "Entremets",
+    "page": 976,
+    "fiche": 173,
+    "pax":8,
+        "Nougatine": [
+            {
+                "nom": "lait entier",
+                "unite": "l",
+                "quantite": "0,10"
+            },
+            {
+                "nom": "beurre extra-fin",
+                "unite": "kg",
+                "quantite": "0,250"
+            },
+            {
+                "nom": "glucose",
+                "unite": "kg",
+                "quantite": "0,100"
+            },
+            {
+                "nom": "sucre semoule",
+                "unite": "kg",
+                "quantite": "0,300"
+            },
+            {
+                "nom": "pectine N.H.",
+                "unite": "kg",
+                "quantite": "0,005"
+            },
+            {
+                "nom": "amandes effilées",
+                "unite": "kg",
+                "quantite": "0,150"
+            },
+            {
+                "nom": "amandes concassées",
+                "unite": "kg",
+                "quantite": "0,050"
+            },
+            {
+                "nom": "pistaches mondées concassées",
+                "unite": "kg",
+                "quantite": "0,050"
+            }
+        ],
+        "Crème diplomate à la pistache - Crème pâtissière": [
+            {
+                "nom": "lait",
+                "unite": "l",
+                "quantite": "0,50"
+            },
+            {
+                "nom": "œufs (entiers - 3 pièces)",
+                "unite": "kg",
+                "quantite": "0,180"
+            },
+            {
+                "nom": "sucre semoule",
+                "unite": "kg",
+                "quantite": "0,100"
+            },
+            {
+                "nom": "poudre à crème",
+                "unite": "kg",
+                "quantite": "0,040"
+            },
+            {
+                "nom": "pâte de pistaches",
+                "unite": "kg",
+                "quantite": "0,050"
+            },
+            {
+                "nom": "gélatine (5 feuilles)",
+                "unite": "kg",
+                "quantite": "0,010"
+            },
+            {
+                "nom": "beurre (pour tamponner)",
+                "unite": "kg",
+                "quantite": "0,020"
+            }
+        ],
+        "Finition (crème diplomate)": [
+            {
+                "nom": "crème liquide",
+                "unite": "l",
+                "quantite": "0,50"
+            },
+            {
+                "nom": "sucre glace",
+                "unite": "kg",
+                "quantite": "0,040"
+            }
+        ],
+        "Garniture": [
+            {
+                "nom": "framboises",
+                "unite": "kg",
+                "quantite": "0,500"
+            }
+        ],
+        "Coulis de framboises": [
+            {
+                "nom": "brisures de framboises",
+                "unite": "kg",
+                "quantite": "0,200"
+            },
+            {
+                "nom": "sucre glace",
+                "unite": "kg",
+                "quantite": "0,020"
+            },
+            {
+                "nom": "citron (1/2 pièce)",
+                "unite": "kg",
+                "quantite": "0,050"
+            }
+        ],
+        "Décor": [
+            {
+                "nom": "framboises",
+                "unite": "kg",
+                "quantite": "0,080"
+            },
+            {
+                "nom": "fraises",
+                "unite": "kg",
+                "quantite": "0,080"
+            },
+            {
+                "nom": "myrtilles",
+                "unite": "kg",
+                "quantite": "0,080"
+            },
+            {
+                "nom": "groseilles en grappes",
+                "unite": "kg",
+                "quantite": "0,080"
+            },
+            {
+                "nom": "menthe",
+                "unite": "botte",
+                "quantite": "1/4"
+            },
+            {
+                "nom": "sucre neige",
+                "unite": "kg",
+                "quantite": "PM"
+            }
+        ],
+  "technique_de_realisation": [
+        "1. Mettre en place le poste de travail - 5 min",
+        "• Denrées, matériels de préparation, de cuisson et de dressage.",
+        "",
+        "2. Réaliser la « nougatine » - 15 min",
+        "• Réunir dans une sauteuse moyenne, le lait, le beurre découpé en parcelles, le glucose, le sucre semoule et la pectine.",
+        "• Maintenir à 104 °C durant 3 min en remuant à l’aide d’une spatule, le mélange doit épaissir.",
+        "• Retirer la sauteuse du feu.",
+        "• Ajouter les amandes et les pistaches.",
+        "• Mélanger de manière à obtenir une pâte bien malléable.",
+        "",
+        "3. Détailler les feuillantines - 10 min",
+        "• Abaisser la pâte finement sur des feuilles de silpat.",
+        "• Raffermir en enceinte négative à - 18 °C ou en cellule.",
+        "• Détailler 24 abaisses de 6 cm de diamètre.",
+        "",
+        "4. Cuire les feuillantines - 10 min",
+        "• Les disposer sur une plaque à pâtisserie recouverte d’une toile de cuisson.",
+        "• Cuire à 180/200 °C durant quelques minutes.",
+        "• Les disques de pâte se sont étalés, les retailler avec un emporte-pièce de 8 cm de diamètre puis les débarrasser.",
+        "",
+        "5. Réaliser la crème Diplomate à la pistache - 15 min (voir p. 552)",
+        "• Réaliser la crème pâtissière à la poudre à crème.",
+        "• Ajouter la pâte de pistaches dans le lait.",
+        "• Laisser bouillir la crème pâtissière durant une minute puis lui ajouter la gélatine bien égouttée (trempée au préalable).",
+        "• Débarrasser la crème, tamponner puis la filmer.",
+        "• La laisser refroidir.",
+        "",
+        "6. Monter la crème Chantilly - 5 min",
+        "• Ne pas trop la serrer, elle doit rester lisse.",
+        "",
+        "7. Terminer la crème Diplomate - 5 min",
+        "• Incorporer délicatement la crème Chantilly à la crème pâtissière avant son complet refroidissement en veillant à ne pas la faire retomber.",
+        "",
+        "8. Réaliser le coulis de framboises - 10 min (voir p. 559)",
+        "• Le passer au chinois étamine et le réserver sur glace.",
+        "",
+        "9. Laver les framboises et les fruits rouges - 10 min",
+        "• Les laver très délicatement dans de l’eau glacée.",
+        "• Les retirer à la main et les éponger soigneusement sur du papier absorbant.",
+        "• Réserver les fruits rouges pour le décor (ils peuvent être mis à macérer avec un peu de sucre et quelques gouttes de jus de citron).",
+        "",
+        "10. Laver, effeuiller et égoutter soigneusement la menthe - 2 min",
+        "",
+        "11. Dresser les feuillantines à la commande - 8 min",
+        "• Disposer un disque de nougatine sur chaque assiette.",
+        "• Intercaler une framboise et une rosace de crème à la pistache.",
+        "• Placer un autre disque de nougatine sur le dessus, disposer les fruits et coucher la crème de la même façon.",
+        "• Terminer par un disque de nougatine. Le saupoudrer sans excès de sucre neige.",
+        "• Placer harmonieusement sur le côté de l’assiette un petit bouquet de fruits rouges.",
+        "• Entourer d’un cordon de coulis de framboises."
+    ]
+}

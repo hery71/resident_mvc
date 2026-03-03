@@ -2,7 +2,7 @@
   "titre": "POT-AU-FEU",
   "type": "Viandes pochées",
   "page": 776,
-  "denrees_pour_8_couverts": {
+  "pax":8,
     "Éléments de base": [
       {
         "nom": "jumeau",
@@ -142,8 +142,7 @@
         "quantite": "PM",
         "unite": ""
       }
-    ]
-  },
+    ],
   "technique_de_realisation": [
     "1. Mettre en place le poste de travail - 5 min",
     "2. Concasser et blanchir les os de bœuf - 10 min",

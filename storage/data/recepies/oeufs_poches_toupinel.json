@@ -2,7 +2,7 @@
     "titre": "Œufs pochés Toupinel",
     "type": "Hors-d'œuvre chauds à base d'œufs pochés",
     "description": "Œufs pochés dressés dans une coque de pomme de terre creusée, garnie d'une purée de pommes de terre à la crème et d'épinards sautés, nappés de sauce Mornay, saupoudrés de gruyère râpé et gratinés au four.",
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "grosses pommes de terre (à chair farineuse)",

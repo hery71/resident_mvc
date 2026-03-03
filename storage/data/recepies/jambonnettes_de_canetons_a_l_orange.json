@@ -3,7 +3,7 @@
     "bandeau": "Volailles et gibiers à plumes braisés",
     "fiche": 123,
     "page": 874,
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "cuisses de canards (8 x 0,250 kg)",
@@ -167,9 +167,8 @@
                 "nom": "poivre du moulin",
                 "quantite": "PM"
             }
-        ]
-    },
-    "technique": [
+       ],
+  "technique_de_realisation": [
         "1. Mettre en place le poste de travail - 5 min",
         "• Denrées, matériels de préparation, de cuisson et de dressage.",
         "2. Désosser les cuisses de canards - 30 min (voir p. 253/254)",

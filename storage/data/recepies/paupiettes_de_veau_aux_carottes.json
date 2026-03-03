@@ -1,7 +1,7 @@
 {
     "file_name": "paupettes_de_veau_aux_carottes.json",
     "titre": "PAUPIETTES DE VEAU AUX CAROTTES",
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "noix de veau",
@@ -65,9 +65,8 @@
                 "quantite": 0.25,
                 "unite": "kg"
             }
-        ]
-    },
-    "technique": [
+       ],
+  "technique_de_realisation": [
         "1. Mettre en place le poste de travail",
         "2. Réaliser la farce mousseline de veau",
         "• Utiliser 0,300 kg de noix de veau, 1 blanc d’œuf et 0,25 l de crème liquide. Assaisonner.",

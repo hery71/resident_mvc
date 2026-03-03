@@ -4,7 +4,7 @@
     "bandeau": "La cuisson du riz",
     "fiche": 136,
     "page": 902,
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "riz_pilaf_elements_de_base": [
             {
                 "nom": "beurre",
@@ -48,9 +48,8 @@
                 "nom": "poivre du moulin",
                 "quantite": "PM"
             }
-        ]
-    },
-    "technique": [
+       ],
+  "technique_de_realisation": [
         "Riz pilaf (voir p. 379/380)",
         "1. Mettre en place le poste de travail - 5 min",
         "• Denrées, matériels de préparation, de cuisson et de dressage.",

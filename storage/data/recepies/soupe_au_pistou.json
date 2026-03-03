@@ -3,7 +3,7 @@
     "titre": "Soupe au pistou",
     "type": "potage taille",
     "page": 626,
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "carottes",

@@ -2,7 +2,7 @@
     "titre": "Spaghetti napolitaine",
     "type": "Hors-d'œuvre chauds à base de pâtes industrielles",
     "description": "Spaghetti industriels assaisonnés au beurre, servis avec une garniture de sauce tomate napolitaine, tomates concassées et fromage râpé (gruyère ou parmesan).",
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "spaghetti (pâtes industrielles)",

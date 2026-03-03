@@ -2,7 +2,7 @@
     "titre": "Œufs pochés façon bourguignonne",
     "type": "Hors-d'œuvre chauds à base d'œufs pochés",
     "description": "Œufs pochés servis chauds sur croûtons, nappés d'une sauce bourguignonne au vin rouge réduit, accompagnés de champignons, oignons grelots, lardons et persil haché. Garniture classique à la bourguignonne.",
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "œufs extra-frais",

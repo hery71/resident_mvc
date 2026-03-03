@@ -3,7 +3,7 @@
   "type": "Poisson grillés",
   "page": 746,
   "fiche": 62,
-  "denrees_pour_8_couverts": {
+  "pax":8,
     "Éléments de base": [
       {
         "nom": "soles portions (8 x 0,250 kg)",
@@ -71,8 +71,7 @@
         "nom": "poivre du moulin",
         "quantite": "PM"
       }
-    ]
-  },
+    ],
   "technique_de_realisation": [
     "1. Mettre en place le poste de travail - 5 min",
     "Denrées, matériels de préparation, de cuisson et de dressage.",

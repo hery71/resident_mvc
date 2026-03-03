@@ -3,7 +3,7 @@
     "type": "Dessert",
     "bandeau": "Entremets froids de cuisine à base de riz au lait et de fruits",
     "page": 932,
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "riz_au_lait": [
             {
                 "nom": "lait",
@@ -110,9 +110,8 @@
                 "unite": "l",
                 "quantite": "0,04"
             }
-        ]
-    },
-    "technique": [
+       ],
+  "technique_de_realisation": [
         "1. Mettre en place le poste de travail - 5 min",
         "2. Blanchir le riz - 5 min",
         "• Laver soigneusement le riz dans un chinois et l’égoutter.",

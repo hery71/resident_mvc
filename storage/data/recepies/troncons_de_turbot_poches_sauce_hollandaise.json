@@ -2,7 +2,7 @@
     "titre": "Tronçons de turbot ou turbotins pochés, sauce hollandaise",
     "type": "Hors-d'œuvre chauds à base de poisson",
     "description": "Tronçons de turbot (ou turbotins) pochés dans un court-bouillon citronné et au lait, servis chauds avec une sauce hollandaise émulsionnée. Accompagnés traditionnellement de légumes vapeur (pommes à l'anglaise, carottes, brocolis, romanesco) ou d'une persillade.",
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "turbot ou turbotins (tronçons ou portions entières)",

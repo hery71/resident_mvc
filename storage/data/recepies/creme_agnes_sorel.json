@@ -2,7 +2,7 @@
   "fiche": "636",
   "titre": "CRÈME AGNÈS SOREL",
   "type": "Crèmes et veloutés à base de volaille",
-  "denrees_pour_8_couverts": {
+  "pax":8,
     "elements_de_base": [
       {
         "nom": "beurre",

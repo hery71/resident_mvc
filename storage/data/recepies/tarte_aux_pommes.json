@@ -2,7 +2,7 @@
     "titre": "TARTE AUX POMMES",
     "type": "Dessert",
     "page": 952,
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "pate_brisee": [
             {
                 "nom": "farine",
@@ -81,9 +81,8 @@
                 "unite": "kg",
                 "quantite": "0,140"
             }
-        ]
-    },
-    "technique": [
+       ],
+  "technique_de_realisation": [
         "1. Mettre en place le poste de travail - 5 min.",
         "2. Confectionner la pâte brisée - 15 min (voir p. 481/485).",
         "3. Éplucher et citronner les pommes - 10 min.",

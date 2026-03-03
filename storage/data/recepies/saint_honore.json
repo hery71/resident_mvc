@@ -2,7 +2,7 @@
     "titre": "SAINT-HONORÉ",
     "type": "Dessert",
     "page": 949,
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "base": [
             {
                 "nom": "pâte brisée ou sucrée",
@@ -52,9 +52,8 @@
                 "nom": "crème Chantilly",
                 "quantite": "PM"
             }
-        ]
-    },
-    "technique": [
+       ],
+  "technique_de_realisation": [
         "1. Réaliser 0,150 kg de pâte brisée ou sucrée (ou utiliser des parures de feuilletage).",
         "2. Réaliser 0,25 l de pâte à choux (voir p. 509).",
         "3. Réaliser la base de Saint-Honoré",

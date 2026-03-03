@@ -2,7 +2,7 @@
     "titre": "MOUSSE AU CHOCOLAT (GARNITURE)",
     "type": "Dessert",
     "page": 926,
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "couverture noire 64 %",
@@ -48,9 +48,8 @@
                 "unite": "l",
                 "quantite": "0,40"
             }
-        ]
-    },
-    "technique": [
+       ],
+  "technique_de_realisation": [
         "1. Mettre en place le poste de travail - 5 min",
         "• Denrées, matériels de préparation, de cuisson et de dressage.",
         "2. Faire fondre et réduire au bain-marie (30 °C maximum) la couverture, la pâte de cacao, le café et le beurre - 5 min",

@@ -2,7 +2,7 @@
     "titre": "SEMOULE AUX RAISINS, SAUCE CARAMEL",
     "type": "Dessert",
     "page": 933,
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "semoule": [
             {
                 "nom": "lait",
@@ -49,9 +49,8 @@
                 "unite": "l",
                 "quantite": "PM"
             }
-        ]
-    },
-    "technique": [
+       ],
+  "technique_de_realisation": [
         "1. Mettre en place le poste de travail",
         "• Denrées, matériels de préparation, de cuisson et de dressage.",
         "2. Cuire la semoule",

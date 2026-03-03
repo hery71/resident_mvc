@@ -2,7 +2,7 @@
     "titre": "Suprêmes de barbue farcis mousseline Condorcet",
     "type": "Hors-d'œuvre chauds à base de poisson",
     "description": "Suprêmes de barbue levés, farcis d'une mousseline de colin légère, pochés dans un fumet de poisson au vin blanc. Sauce obtenue par réduction du liquide de cuisson montée au beurre, nappée sur les suprêmes. Dressage avec pluches de cerfeuil ou persil plat, présentation élégante.",
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "barbues (2,300 à 2,400 kg chacune pour lever 8 suprêmes)",

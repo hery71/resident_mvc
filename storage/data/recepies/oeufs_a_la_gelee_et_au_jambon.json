@@ -2,7 +2,7 @@
     "titre": "Œufs à la gelée et au jambon",
     "type": "Hors-d'œuvre froids à base d'œufs pochés",
     "description": "Œufs pochés servis froids dans une gelée aromatisée au madère ou porto, avec jambon blanc panaché, décorée de légumes taillés et herbes, accompagnée d'une chiffonnade de laitue et sauce vinaigrette.",
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "œufs extra-frais",

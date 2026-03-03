@@ -2,7 +2,7 @@
     "titre": "Consommé de bœuf brunoise",
     "type": "potage clair",
     "page": 612,
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "gîte-gîte",

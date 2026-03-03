@@ -3,7 +3,7 @@
     "titre": "Velouté Dubarry",
     "type": "crème et velouté à base de légumes",
     "page": 632,
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "beurre",

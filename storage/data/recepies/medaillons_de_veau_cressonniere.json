@@ -2,7 +2,7 @@
   "titre": "MÉDAILLONS DE VEAU CRESSONNIÈRE",
   "type": "Viandes blanches sautées",
   "page": 799,
-  "denrees_pour_8_couverts": {
+  "pax":8,
     "elements_de_base": [
       {
         "nom": "filet de veau",
@@ -58,8 +58,7 @@
         "quantite": "0,025",
         "unite": "kg"
       }
-    ]
-  },
+    ],
   "technique_de_realisation": [
     "1. Préparer la viande.",
     "Parer la longe et tailler 24 petits médaillons réguliers de 0,050 kg chacun.",

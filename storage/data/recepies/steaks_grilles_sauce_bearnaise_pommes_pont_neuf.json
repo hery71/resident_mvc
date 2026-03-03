@@ -1,7 +1,7 @@
 {
   "titre": "STEAKS GRILLÉS, SAUCE BÉARNAISE, POMMES PONT-NEUF",
   "type": "Viandes rouges grillées",
-  "denrees_pour_8_couverts": {
+  "pax":8,
     "elements_de_base": [
       {
         "nom": "contre-filets parés (4 x 0,300 à 0,400 kg)",
@@ -125,8 +125,7 @@
         "quantite": "PM",
         "unite": ""
       }
-    ]
-  },
+    ],
   "technique_de_realisation": [
     "1. Mettre en place le poste de travail - 5 min.",
     "Denrées, matériels de préparation, de cuisson et de dressage.",

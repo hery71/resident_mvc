@@ -2,7 +2,7 @@
     "titre": "Filets de merlu (colin) pochés, beurre blanc",
     "type": "Hors-d'œuvre chauds à base de poisson",
     "description": "Filets de merlu (ou colin) pochés dans un court-bouillon léger, servis nappés de beurre blanc classique (réduction de vin blanc, échalotes et beurre monté). Dressage sur plat rond avec citrons, persil et éventuellement légumes vapeur ou pommes à l'anglaise.",
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "merlu ou colin (filets parés, sans peau ni arêtes)",

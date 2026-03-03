@@ -1,6 +1,6 @@
 {
   "titre": "PETITS ROUGETS GRILLÉS NIÇOISE",
-  "denrees_pour_8_couverts": {
+  "pax":8,
     "Éléments de base": [
       {
         "nom": "rougets (0,150 kg chacun)",
@@ -60,8 +60,7 @@
         "quantite": "PM",
         "unite": ""
       }
-    ]
-  },
+    ],
   "technique_de_realisation": [
     "1. Mettre en place le poste de travail",
     "2. Habiller 16 rougets de 0,150 kg chacun",

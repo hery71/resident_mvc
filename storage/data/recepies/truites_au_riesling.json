@@ -2,7 +2,7 @@
     "titre": "Truites au riesling",
     "type": "Hors-d'œuvre chauds à base de poisson",
     "description": "Truites pochées dans un court-mouillement au riesling, crème et fumet de poisson, servies nappées de la sauce réduite montée au beurre. Garniture classique avec têtes de champignons tournées, fleurons de feuilletage, et décor de persil ou citron.",
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "truites entières (portion 0,250 kg chacune)",

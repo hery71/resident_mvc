@@ -3,7 +3,7 @@
     "type": "Dessert",
     "bandeau": "Pâtisseries à base de génoise, crème au beurre et crème mousseline",
     "page": 946,
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "genoise": [
             {
                 "nom": "œufs entiers (4 pièces)",
@@ -93,9 +93,8 @@
                 "unite": "kg",
                 "quantite": "0,100"
             }
-        ]
-    },
-    "technique": [
+       ],
+  "technique_de_realisation": [
         "1. Mettre en place le poste de travail - 5 min",
         "2. Chemiser le moule à génoise - 3 min",
         "3. Réaliser la génoise - 15 min",

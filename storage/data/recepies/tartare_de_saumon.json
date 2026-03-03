@@ -3,7 +3,7 @@
   "fiche": "23",
   "titre": "TARTARE DE SAUMON",
   "type": "Hors-d’œuvre froids à base de poisson cru",
-  "denrees_pour_8_couverts": {
+  "pax":8,
     "elements_de_base": [
       {
         "nom": "filet de saumon",

@@ -2,7 +2,7 @@
   "page": "645",
   "titre": "BISQUE DE CRUSTACÉS",
   "type": "Bisques",
-  "denrees_pour_8_couverts": {
+  "pax":8,
     "elements_de_base": [
       {
         "nom": "beurre",

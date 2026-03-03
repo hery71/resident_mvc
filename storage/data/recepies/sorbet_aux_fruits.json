@@ -1,0 +1,189 @@
+{
+    "titre": "SORBET AUX FRUITS",
+    "type": "Glacerie",
+    "page": 986,
+    "pax":8,
+        "Sorbet aux fruits doux (fraises, framboises, cassis, abricots, ...)": [
+            {
+                "nom": "eau potable",
+                "unite": "l",
+                "quantite": "0,50"
+            },
+            {
+                "nom": "sucre semoule",
+                "unite": "kg",
+                "quantite": "0,400"
+            },
+            {
+                "nom": "citron (1 pièce)",
+                "unite": "kg",
+                "quantite": "0,100"
+            },
+            {
+                "nom": "sucre inverti (glucose, trimoline)",
+                "unite": "kg",
+                "quantite": "0,080"
+            },
+            {
+                "nom": "stabilisateur",
+                "unite": "kg",
+                "quantite": "0,010"
+            },
+            {
+                "nom": "pulpe de fruits surgelée sucrée à 10 %",
+                "unite": "kg",
+                "quantite": "1"
+            }
+        ],
+        "Sorbet citron": [
+            {
+                "nom": "eau potable",
+                "unite": "l",
+                "quantite": "1"
+            },
+            {
+                "nom": "sucre semoule",
+                "unite": "kg",
+                "quantite": "0,550"
+            },
+            {
+                "nom": "glucose",
+                "unite": "kg",
+                "quantite": "0,100"
+            },
+            {
+                "nom": "stabilisateur",
+                "unite": "kg",
+                "quantite": "0,005"
+            },
+            {
+                "nom": "zestes de citrons blanchis",
+                "unite": "kg",
+                "quantite": "0,050"
+            },
+            {
+                "nom": "jus de citron frais",
+                "unite": "l",
+                "quantite": "0,25"
+            }
+        ],
+        "Sorbet pamplemousse": [
+            {
+                "nom": "sucre semoule",
+                "unite": "kg",
+                "quantite": "0,300"
+            },
+            {
+                "nom": "jus de pamplemousse rose",
+                "unite": "l",
+                "quantite": "1"
+            }
+        ],
+        "Sorbet ananas": [
+            {
+                "nom": "eau potable",
+                "unite": "l",
+                "quantite": "0,30"
+            },
+            {
+                "nom": "sucre semoule",
+                "unite": "kg",
+                "quantite": "0,400"
+            },
+            {
+                "nom": "citron (1/2 pièce)",
+                "unite": "kg",
+                "quantite": "0,050"
+            },
+            {
+                "nom": "orange (1/2 pièce)",
+                "unite": "kg",
+                "quantite": "0,080"
+            },
+            {
+                "nom": "pulpe d’ananas fraîche",
+                "unite": "kg",
+                "quantite": "1"
+            },
+            {
+                "nom": "meringue italienne (finition facultative)",
+                "unite": "kg",
+                "quantite": "0,080"
+            }
+        ],
+        "Sorbet au chocolat": [
+            {
+                "nom": "eau potable",
+                "unite": "l",
+                "quantite": "1"
+            },
+            {
+                "nom": "sucre semoule",
+                "unite": "kg",
+                "quantite": "0,125"
+            },
+            {
+                "nom": "trimoline",
+                "unite": "kg",
+                "quantite": "0,100"
+            },
+            {
+                "nom": "stabilisateur",
+                "unite": "kg",
+                "quantite": "0,005"
+            },
+            {
+                "nom": "cacao en poudre",
+                "unite": "kg",
+                "quantite": "0,040"
+            },
+            {
+                "nom": "couverture à 64 %",
+                "unite": "kg",
+                "quantite": "0,400"
+            }
+        ],
+  "technique_de_realisation": [
+        "1. Mettre en place le poste de travail - 5 min",
+        "• Denrées, matériels de préparation, de cuisson et de dressage.",
+        "• Laver et désinfecter le poste de travail, le matériel et la sorbetière.",
+        "• Utiliser les procédures en place dans l’établissement.",
+        "",
+        "2. Réaliser le sirop - 3 min",
+        "• Réunir dans une russe moyenne, l’eau, le sucre semoule, le sucre inverti et le stabilisateur en dernier.",
+        "• Porter à ébullition, écumer si nécessaire et refroidir le sirop rapidement.",
+        "",
+        "3. Préparer et mixer les fruits ou les presser selon leur nature - 20 min",
+        "• Laver et égoutter soigneusement les fruits.",
+        "• Équeuter les fraises, dénoyauter les abricots.",
+        "• Presser les citrons ou les oranges.",
+        "• Mixer, chinoiser ou passer les fruits rouges à la centrifugeuse.",
+        "• Utiliser des pulpes ou des jus pasteurisés.",
+        "",
+        "4. Préparer le mix - 5 min",
+        "• Mélanger le sirop à la pulpe de fruits (certains professionnels réalisent une pasteurisation du mix en le chauffant à + 65 °C durant une vingtaine de minutes).",
+        "• Contrôler la densité du mix. Utiliser un réfractomètre ou peser le mix, le régler entre 16 et 17 °Baumé (soit à 1.1247/1.1335 D).",
+        "",
+        "5. Sangler ou turbiner le sorbet - 5 min",
+        "• Placer les bacs à glace dans le conservateur.",
+        "• Turbiner le mix jusqu’à la consistance souhaitée.",
+        "• Régler la consistance en ajoutant un peu d’eau minérale si le sorbet est trop sucré ou s’il a du mal à durcir.",
+        "",
+        "6. Débarrasser le sorbet - 10 min",
+        "• Le débarrasser dans le bac refroidi, corner les bords, filmer et le réserver à - 18 °C.",
+        "• Nettoyer la sorbetière.",
+        "",
+        "7. Dresser - 2 min",
+        "• Mouler les sorbets à la cuillère ou façonner des quenelles.",
+        "• Dresser en coupes individuelles ou sur assiettes refroidies au préalable.",
+        "• Les sorbets entrent dans la composition de nombreux entremets glacés (vacherins, fruits givrés, ...).",
+        "",
+        "REMARQUES :",
+        "• Il est fréquent d’accompagner les glaces et les sorbets de petits fours secs (cigarettes russes, tuiles aux amandes, langues de chat, ...).",
+        "• En règle générale, le principe de la réalisation des sorbets à base de fruits doux repose sur les proportions suivantes : 1 volume de pulpe de fruits pour 1 volume équivalent de sirop à 1.2624 D (30 °B), le mix est amené à la densité de 1.1247/1.1335 D (16/17 °B) puis turbiné.",
+        "• Sirop à 1.2624 D : faire bouillir durant 1 min 1 l d’eau avec 1 kg de sucre et un jus de citron, puis arrêter immédiatement.",
+        "• Toutefois il faut tenir compte de la nature des fruits, de leur degré de maturité et de leur acidité, la quantité de sirop peut être selon le cas diminuée ou augmentée.",
+        "• Il est possible de modifier légèrement la teneur en sucre des sorbets aux vins, alcools et liqueurs, leur texture est moins onctueuse et légèrement sableuse, c’est le principe de la réalisation des granités servis en milieu de repas. L’utilisation de stabilisateur, sucre inverti, glucose atomisé, trimoline, n’est pas obligatoire dans ce cas, il faut diminuer le mix au dernier moment juste avant le service.",
+        "• Certains professionnels favorisent le foisonnement et l’onctuosité de leurs sorbets maison en ajoutant en fin de turbinage une petite quantité de meringue italienne. Ces sorbets sont à consommer immédiatement."
+    ]
+}

@@ -3,7 +3,7 @@
     "titre": "POULARDE POCHÉE SAUCE SUPRÊME, RIZ PILAF",
     "bandeau": "Volailles pochées",
     "page": 844,
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "poularde labellisée ou éventuellement 2 poulets (4/4 de 1,200 à 1,400 kg)",
@@ -123,9 +123,8 @@
                 "unite": "",
                 "quantite": "PM"
             }
-        ]
-    },
-    "technique": [
+       ],
+  "technique_de_realisation": [
         "1. Mettre en place le poste de travail - 5 min",
         "• Denrées, matériels de préparation, de cuisson et de dressage.",
         "2. Habiller la poularde - 20 min (voir p. 237 et 245)",

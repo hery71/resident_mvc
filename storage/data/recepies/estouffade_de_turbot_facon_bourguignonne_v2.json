@@ -2,7 +2,7 @@
   "titre": "«ESTOUFFADE» DE TURBOT, FAÇON BOURGUIGNONNE",
   "type": "les poissons fermes : esturgeon, requin-taupe, ...",
   "page": 743,
-  "denrees_pour_8_couverts": {
+  "pax":8,
     "elements_de_base": [
       {
         "nom": "turbot (2,800 kg à 3 kg)",

@@ -4,7 +4,7 @@
     "bandeau": "Volailles rôties",
     "fiche": 111,
     "page": 850,
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "poulets labellisés effilés (2 x 1,400 à 1,500 kg)",
@@ -72,9 +72,8 @@
                 "unite": "",
                 "quantite": "PM"
             }
-        ]
-    },
-    "technique": [
+       ],
+  "technique_de_realisation": [
         "(Voir p. 439/440)",
         "1. Mettre en place le poste de travail - 5 min",
         "• Denrées, matériels de préparation, de cuisson et de dressage.",

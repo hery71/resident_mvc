@@ -2,7 +2,7 @@
     "titre": "CHARLOTTE AUX FRAMBOISES",
     "type": "Dessert",
     "page": 929,
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "appareil_a_bavarois_framboise": [
             {
                 "nom": "feuilles de gélatine",
@@ -58,9 +58,8 @@
                 "nom": "coulis de framboises",
                 "quantite": "PM"
             }
-        ]
-    },
-    "technique": [
+       ],
+  "technique_de_realisation": [
         "1. Mettre en place le poste de travail",
         "2. Réaliser la pulpe de framboises collée",
         "• Mettre 8 feuilles de gélatine à tremper dans de l’eau froide (0,016 kg).",

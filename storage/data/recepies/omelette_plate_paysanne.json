@@ -2,7 +2,7 @@
     "titre": "Omelette plate paysanne",
     "type": "Hors-d'œuvre chauds à base d'œufs",
     "description": "Omelette plate épaisse de style paysan, garnie de pommes de terre rissolées, lardons, oignons et fines herbes (persil, cerfeuil, ciboulette). Cuisson à la poêle avec retournement, texture moelleuse et dorée, servie chaude.",
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "œufs extra-frais",

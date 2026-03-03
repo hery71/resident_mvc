@@ -1,7 +1,7 @@
 {
     "titre": "POULET AU SAFRAN FAÇON BOUILLABAISSE",
     "page": 867,
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "oignons",
@@ -47,9 +47,8 @@
                 "nom": "ail",
                 "quantite": "PM"
             }
-        ]
-    },
-    "technique":[ "1. Confectionner la marinade",
+       ],
+  "technique_de_realisation":[ "1. Confectionner la marinade",
                 "• Emincer 0,200 kg d’oignons.",
                 " Tailler en julienne 0,200 kg de poireaux, 0,100 kg de céleri en branches et 0,100 kg de bulbes de fenouil.","• Monder, épépiner et concasser 0,500 kg de tomates.",
                 "• Effilocher, laver, dégermer et écraser 4 gousses d’ail.",

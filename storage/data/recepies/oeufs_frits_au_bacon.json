@@ -2,7 +2,7 @@
     "titre": "Œufs frits au bacon",
     "type": "Hors-d'œuvre chauds à base d'œufs",
     "description": "Œufs frits à l'huile dans une poêle, servis sur des croûtons de pain de mie frits, accompagnés de tranches de bacon grillé et de persil frit. Présentation classique avec bouquet de persil au centre.",
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "œufs extra-frais",

@@ -2,7 +2,7 @@
     "titre": "TARTE AU CHOCOLAT",
     "type": "Dessert",
     "page": 962,
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "pate_sucree": [
             {
                 "nom": "farine",
@@ -70,9 +70,8 @@
                 "nom": "feuille d’or (facultatif)",
                 "quantite": "PM"
             }
-        ]
-    },
-    "technique": [
+       ],
+  "technique_de_realisation": [
         "1. Mettre en place le poste de travail - 5 min.",
         "2. Réaliser la pâte sucrée - 15 min (voir p. 486).",
         "3. Foncer le cercle - 10 min (voir p. 484/490).",

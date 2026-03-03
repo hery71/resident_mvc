@@ -3,7 +3,7 @@
   "type": "Viandes rouges rôties",
   "page": 784,
   "fiche": 79,
-  "denrees_pour_8_couverts": {
+  "pax":8,
     "elements_de_base": [
       {
         "nom": "carrés d’agneau couverts (8 côtes chacun)",
@@ -128,8 +128,7 @@
         "quantite": "PM",
         "unite": ""
       }
-    ]
-  },
+    ],
   "technique_de_realisation": [
     "1. Mettre en place le poste de travail - 5 min",
     "Denrées, matériels de préparation, de cuisson et de dressage.",

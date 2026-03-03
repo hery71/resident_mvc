@@ -2,15 +2,14 @@
   "titre": "PETITS FILETS DE BŒUF STROGONOFF",
   "type": "Viandes rouges sautées",
   "page": 797,
-  "denrees_pour_8_couverts": {
+  "pax":8,
     "elements_de_base": [
       {
         "nom": "queue de filet de bœuf",
         "quantite": "1,200",
         "unite": "kg"
       }
-    ]
-  },
+    ],
   "technique_de_realisation": [
     "1. Préparer le filet.",
     "Découper en petits dés d’1 cm de section 1,200 kg de queue de filet de bœuf paré et soigneusement dégraissé.",

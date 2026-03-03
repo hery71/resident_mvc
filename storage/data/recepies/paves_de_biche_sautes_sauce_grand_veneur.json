@@ -1,7 +1,7 @@
 {
   "titre": "PAVÉS DE BICHE SAUTÉS, SAUCE GRAND VENEUR",
   "type": "Viande de gibier sautée",
-  "denrees_pour_8_couverts": {
+  "pax":8,
     "elements_de_base": [
       {
         "nom": "pavés de biche (8 x 0,150 kg)",
@@ -121,8 +121,7 @@
         "quantite": "PM",
         "unite": ""
       }
-    ]
-  },
+    ],
   "technique_de_realisation": [
     "1. Mettre en place le poste de travail - 5 min.",
     "Denrées, matériels de préparation, de cuisson et de dressage.",

@@ -3,7 +3,7 @@
   "fiche": "27",
   "titre": "SOLES ROUENNAISE",
   "type": "Poissons pochés à court-mouillement, sauce vin rouge",
-  "denrees_pour_8_couverts": {
+  "pax":8,
     "elements_de_base": [
       {
         "nom": "soles portions (8 x 0,250 kg)",

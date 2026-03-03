@@ -1,0 +1,170 @@
+{
+    "titre": "MILLE-FEUILLE",
+    "type": "Dessert",
+    "page": 966,
+    "fiche": 167,
+    "pax":8,
+        "Pâte feuilletée": [
+            {
+                "nom": "farine",
+                "unite": "kg",
+                "quantite": "0,250"
+            },
+            {
+                "nom": "sel fin",
+                "unite": "kg",
+                "quantite": "0,005"
+            },
+            {
+                "nom": "beurre fondu refroidi",
+                "unite": "kg",
+                "quantite": "0,0250"
+            },
+            {
+                "nom": "eau",
+                "unite": "l",
+                "quantite": "0,125"
+            },
+            {
+                "nom": "beurre sec pour feuilletage",
+                "unite": "kg",
+                "quantite": "0,180"
+            },
+            {
+                "nom": "farine (pour tourer)",
+                "unite": "kg",
+                "quantite": "0,040"
+            }
+        ],
+        "Dorure": [
+            {
+                "nom": "œuf entier (1 pièce)",
+                "unite": "kg",
+                "quantite": "0,055"
+            }
+        ],
+        "Finition": [
+            {
+                "nom": "sucre glace non amylacé",
+                "unite": "kg",
+                "quantite": "0,020"
+            }
+        ],
+        "Crème pâtissière*": [
+            {
+                "nom": "lait",
+                "unite": "l",
+                "quantite": "1,2"
+            },
+            {
+                "nom": "œufs (jaunes, 3 pièces)",
+                "unite": "kg",
+                "quantite": "0,060"
+            },
+            {
+                "nom": "sucre semoule",
+                "unite": "kg",
+                "quantite": "0,100"
+            },
+            {
+                "nom": "poudre à crème",
+                "unite": "kg",
+                "quantite": "0,040"
+            },
+            {
+                "nom": "vanille",
+                "unite": "gousse",
+                "quantite": "1/2"
+            },
+            {
+                "nom": "alcool ou liqueur",
+                "unite": "l",
+                "quantite": "0,02"
+            },
+            {
+                "nom": "beurre pour tamponner",
+                "unite": "kg",
+                "quantite": "0,010"
+            }
+        ],
+        "Finition (glaçage)": [
+            {
+                "nom": "sucre glace",
+                "unite": "kg",
+                "quantite": "0,040"
+            },
+            {
+                "nom": "ou",
+                "unite": "",
+                "quantite": ""
+            },
+            {
+                "nom": "fondant",
+                "unite": "kg",
+                "quantite": "0,300"
+            },
+            {
+                "nom": "sirop à 1.2624 D",
+                "unite": "l",
+                "quantite": "PM"
+            },
+            {
+                "nom": "chocolat couverture",
+                "unite": "kg",
+                "quantite": "0,040"
+            },
+            {
+                "nom": "ou",
+                "unite": "",
+                "quantite": ""
+            },
+            {
+                "nom": "café (extrait liquide)",
+                "unite": "l",
+                "quantite": "PM"
+            }
+        ],
+  "technique_de_realisation": [
+        "1. Mettre en place le poste de travail - 5 min",
+        "• Denrées, matériels de préparation, de cuisson et de dressage.",
+        "• Peser et mesurer les denrées.",
+        "",
+        "2. Confectionner la pâte feuilletée - 30 min (voir p. 494/499)",
+        "",
+        "3. Confectionner la crème pâtissière - 5 min",
+        "• Blanchir les jaunes d’œufs avec le sucre puis ajouter la poudre à crème.",
+        "• Verser progressivement le lait bouillant vanillé sur l’appareil et mélanger à l’aide d’un petit fouet.",
+        "• Remettre le mélange dans la russe et cuire la crème pâtissière pendant quelques minutes.",
+        "• La débarrasser, la tamponner, la filmer et la réserver.",
+        "",
+        "4. Confectionner l’abaisse du mille-feuille - 10 min",
+        "• Abaisser la pâte feuilletée d’une épaisseur de 3 mm et aux dimensions d’une plaque à pâtisserie.",
+        "• Soulever rapidement la pâte en la faisant retomber pour éviter le rétrécissement à la cuisson.",
+        "• La piquer à l’aide d’un pique-vite puis déposer l’abaisse retournée sur une plaque humidifiée à l’aide d’un rouleau à pâtisserie.",
+        "• Éliminer l’excédent de farine à l’aide d’une brosse et parer l’abaisse en passant le rouleau sur les bords de la plaque.",
+        "",
+        "5. Marquer l’abaisse en cuisson - 5 min",
+        "• Cuire au four à 220/230 °C durant 10 à 15 min.",
+        "• Saupoudrer de sucre glace à mi-cuisson.",
+        "• Débarrasser l’abaisse sur une grille à pâtisserie et la découper encore chaude en trois parties égales dans le sens de la longueur à l’aide d’un couteau.",
+        "",
+        "6. Réaliser le montage du mille-feuille - 15 min (voir p. 504)",
+        "• Détendre la crème pâtissière avec l’alcool ou la liqueur.",
+        "• Déposer la première bande de feuilletage sur le marbre et la masquer régulièrement avec une couche de crème pâtissière.",
+        "• Appliquer la deuxième bande et masquer à nouveau de crème pâtissière.",
+        "• Retourner la troisième puis l’appliquer sur la deuxième, égaliser délicatement l’épaisseur en appuyant légèrement sur le mille-feuille.",
+        "",
+        "7. Glacer ou marbrer le mille-feuille - 10 min",
+        "• Saupoudrer uniformément de sucre glace ou",
+        "• Masquer soigneusement le dessus du mille-feuille avec le fondant à 35 °C.",
+        "• Rayer de 5 à 7 lignes parallèles de chocolat fondu ou de fondant coloré au café, à l’aide d’un cornet.",
+        "• Marbrer le mille-feuille en tirant transversalement le fondant à l’aide de la pointe d’un couteau d’office humide.",
+        "",
+        "8. Dresser le mille-feuille - 5 min",
+        "• Parer délicatement les extrémités du mille-feuille.",
+        "• Le dresser sur un grand plat rond recouvert d’un papier dentelle.",
+        "",
+        "REMARQUE :",
+        "• Il est possible de lustrer légèrement le mille-feuille avec du nappage bouillant avant d’appliquer le fondant."
+    ]
+}

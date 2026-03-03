@@ -2,7 +2,7 @@
     "titre": "Saumon froid en gelée, sauce andalouse (ou sauce bellevue)",
     "type": "Hors-d'œuvre froids à base de poisson",
     "description": "Saumon entier poché au court-bouillon, refroidi, débarrassé de sa peau et arêtes, puis lustré et décoré dans une gelée de poisson claire et brillante. Servi froid avec une sauce andalouse (mayonnaise à l'huile d'olive, poivrons, tomates) ou bellevue (mayonnaise collée à la gelée). Décoration classique avec éléments de légumes taillés, œufs durs, truffes et persil.",
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "saumon entier (frais, vidé et écaillé)",

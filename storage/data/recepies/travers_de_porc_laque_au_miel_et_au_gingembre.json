@@ -3,7 +3,7 @@
   "type": "Viandes blanches pochées",
   "page": 780,
   "fiche": "77",
-  "denrees_pour_8_couverts": {
+  "pax":8,
     "Élément de base": [
       {
         "nom": "travers de porc frais",
@@ -143,8 +143,7 @@
         "unite": "",
         "quantite": "PM"
       }
-    ]
-  },
+    ],
   "technique_de_realisation": [
     "1. Mettre en place le poste de travail - 5 min",
     "Denrées, matériels de préparation, de cuisson et de dressage.",

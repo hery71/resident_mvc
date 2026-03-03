@@ -2,7 +2,7 @@
     "titre": "POTS DE CRÈME",
     "type": "Dessert",
     "page": 923,
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "lait",
@@ -31,9 +31,8 @@
                 "nom": "alcool",
                 "quantite": "PM"
             }
-        ]
-    },
-    "technique": [
+       ],
+  "technique_de_realisation": [
         "1. Mettre en place le poste de travail",
         "• Denrées, matériels de préparation, de cuisson et de dressage.",
         "2. Confectionner l’appareil à pot de crème",

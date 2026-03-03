@@ -2,7 +2,7 @@
   "titre": "FILET DE BŒUF À LA FICELLE",
   "type": "Viandes pochées",
   "page": 777,
-  "denrees_pour_8_couverts": {
+  "pax":8,
     "Éléments de base": [
       {
         "nom": "cœur de filet de bœuf",
@@ -75,8 +75,7 @@
         "quantite": "PM",
         "unite": ""
       }
-    ]
-  },
+    ],
   "technique_de_realisation": [
     "1. Préparer les tournedos (voir p. 222)",
     "Parer 1,800 kg de cœur de filet et y découper 8 tournedos réguliers.",

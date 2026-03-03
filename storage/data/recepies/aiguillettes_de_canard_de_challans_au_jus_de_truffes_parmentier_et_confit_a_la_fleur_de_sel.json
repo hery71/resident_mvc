@@ -1,7 +1,7 @@
 {
     "titre": "AIGUILLETTES DE CANARD DE CHALLANS AU JUS DE TRUFFES PARMENTIER ET CONFIT À LA FLEUR DE SEL",
     "page": 877,
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "cuisses de canard confites",
@@ -72,9 +72,8 @@
                 "nom": "tranche de poitrine fumée sèche",
                 "quantite": "PM"
             }
-        ]
-    },
-    "technique": [
+       ],
+  "technique_de_realisation": [
         "1. Mettre en place le poste de travail",
         "2. Réchauffer le confit",
         "• Réchauffer lentement 4 cuisses de canard confites dans un peu de graisse de canard avec deux gousses d’ail, du poivre noir écrasé et un petit bouquet de thym frais.",

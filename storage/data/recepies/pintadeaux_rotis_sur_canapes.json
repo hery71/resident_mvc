@@ -4,7 +4,7 @@
     "bandeau": "Volailles et gibiers à plumes rôtis",
     "fiche": 112,
     "page": 852,
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "pintadeaux (4 x 0,600 kg ou 2 x 1,200 kg)",
@@ -121,9 +121,8 @@
                 "unite": "",
                 "quantite": "PM"
             }
-        ]
-    },
-    "technique": [
+       ],
+  "technique_de_realisation": [
         "(Voir p. 439/442)",
         "1. Mettre en place le poste de travail - 5 min",
         "• Denrées, matériels de préparation, de cuisson et de dressage.",

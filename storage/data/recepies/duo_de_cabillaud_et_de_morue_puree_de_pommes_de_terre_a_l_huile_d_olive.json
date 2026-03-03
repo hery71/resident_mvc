@@ -2,7 +2,7 @@
   "titre": "DUO DE CABILLAUD ET DE MORUE, PURÉE DE POMMES DE TERRE À L’HUILE D’OLIVE",
   "type": "Pavés de poissons sautés",
   "page": 756,
-  "denrees_pour_8_couverts": {
+  "pax":8,
     "Éléments de base": [
       {
         "nom": "pavés épais de cabillaud avec peau (8 x 0,150 kg)",
@@ -151,8 +151,7 @@
         "quantite": "PM",
         "unite": ""
       }
-    ]
-  },
+    ],
   "technique_de_realisation": [
     "La veille : dessaler les filets de morue - 5 min",
     "Les frotter avec une brosse pour les débarrasser de l’excédent de sel, puis les rincer.",

@@ -1,7 +1,7 @@
 {
   "titre": "PAVÉ DE SAUMON MI-FUMÉ, LENTILLES VERTES AU LARD, JUS DE VOLAILLE À L’HUILE D’OLIVE",
   "page": 757,
-  "denrees_pour_8_couverts": {
+  "pax":8,
     "Éléments de base": [
       {
         "nom": "pavés épais de saumon avec la peau",
@@ -76,8 +76,7 @@
         "quantite": "PM",
         "unite": ""
       }
-    ]
-  },
+    ],
   "technique_de_realisation": [
     "Détailler 8 pavés épais de saumon avec la peau de 0,150 kg chacun.",
     "Les saupoudrer de gros sel et les réserver en enceinte réfrigérée durant 2 heures.",

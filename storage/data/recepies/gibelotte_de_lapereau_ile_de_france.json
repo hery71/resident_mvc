@@ -1,7 +1,7 @@
 {
     "titre": "GIBELOTTE DE LAPEREAU ILE-DE-FRANCE",
     "page": 871,
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "lapereau",
@@ -72,9 +72,8 @@
                 "nom": "poivre du moulin",
                 "quantite": "PM"
             }
-        ]
-    },
-    "technique": [
+       ],
+  "technique_de_realisation": [
         "1. Mettre en place le poste de travail",
         "2. Découper et parer 2 lapereaux d’1 kg chacun (voir p. 254/255)",
         "3. Eplucher, laver et tailler les légumes",

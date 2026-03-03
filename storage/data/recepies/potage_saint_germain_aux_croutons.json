@@ -3,7 +3,7 @@
     "titre": "Potage Saint-Germain aux croûtons",
     "type": "potage purée de légumes secs",
     "page": 628,
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "pois cassés verts",

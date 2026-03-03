@@ -2,7 +2,7 @@
   "titre": "BLANQUETTE DE VEAU À L’ANCIENNE",
   "type": "Viandes pochées",
   "page": 778,
-  "denrees_pour_8_couverts": {
+  "pax":8,
     "elements_de_base": [
       {
         "nom": "épaule ou collier de veau",
@@ -129,8 +129,7 @@
         "quantite": "PM",
         "unite": ""
       }
-    ]
-  },
+    ],
   "technique_de_realisation": [
     "1. Mettre en place le poste de travail - 5 min",
     "Denrées, matériels de préparation, de cuisson et de dressage.",

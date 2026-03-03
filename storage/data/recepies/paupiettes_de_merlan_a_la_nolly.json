@@ -2,7 +2,7 @@
     "titre": "Paupiettes de merlan à la Nolly",
     "type": "Hors-d'œuvre chauds à base de poisson",
     "description": "Paupiettes de filets de merlan farcies d'une farce mousseline, roulées et cuites au court-bouillon ou vapeur, nappées de sauce Nolly (sauce vin blanc au fumet de poisson, crème et montée au beurre), servies avec brunoise de légumes (carottes, courgettes) et décor de tomates étuvées.",
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "merlan (filets ou chair nette)",

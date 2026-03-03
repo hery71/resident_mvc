@@ -2,7 +2,7 @@
     "titre": "TARTE FINE AUX POMMES",
     "type": "Dessert",
     "page": 956,
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "pate_feuilletee": [
             {
                 "nom": "pâte feuilletée",
@@ -42,9 +42,8 @@
                 "nom": "nappage ou beurre fondu",
                 "quantite": "PM"
             }
-        ]
-    },
-    "technique": [
+       ],
+  "technique_de_realisation": [
         "1. Mettre en place le poste de travail.",
         "2. Détailler 8 abaisses rondes (14 à 16 cm) dans la pâte feuilletée.",
         "• Les piquer et les retourner sur plaque.",

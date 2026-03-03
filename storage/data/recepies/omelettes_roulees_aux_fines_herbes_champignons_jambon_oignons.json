@@ -2,7 +2,7 @@
     "titre": "Omelettes roulées aux fines herbes, aux champignons, au jambon et aux oignons",
     "type": "Hors-d'œuvre chauds à base d'œufs",
     "description": "Omelettes fines préparées à la commande, garnies séparément de fines herbes, champignons, jambon ou oignons, roulées et servies chaudes. Chaque variante est confectionnée individuellement pour préserver les saveurs distinctes.",
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "œufs extra-frais",

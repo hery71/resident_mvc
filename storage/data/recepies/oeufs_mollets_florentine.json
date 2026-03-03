@@ -2,7 +2,7 @@
     "titre": "Œufs mollets florentine",
     "type": "Hors-d'œuvre chauds à base d'œufs",
     "description": "Œufs mollets dressés sur un lit d'épinards sautés au beurre noisette, nappés de sauce Mornay, saupoudrés de gruyère râpé et gratinés au four ou sous salamandre.",
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "œufs extra-frais",

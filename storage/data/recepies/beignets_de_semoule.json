@@ -2,7 +2,7 @@
     "titre": "BEIGNETS DE SEMOULE",
     "type": "Dessert",
     "page": 939,
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "appareil_semoule": [
             {
                 "nom": "lait",
@@ -64,9 +64,8 @@
                 "nom": "glace vanille",
                 "quantite": "PM"
             }
-        ]
-    },
-    "technique": [
+       ],
+  "technique_de_realisation": [
         "1. Confectionner l’appareil",
         "• Faire bouillir 0,75 l de lait avec 0,150 kg de sucre et une pointe de vanille.",
         "• Ajouter 0,150 kg de semoule en pluie et cuire en remuant 8 à 10 min.",

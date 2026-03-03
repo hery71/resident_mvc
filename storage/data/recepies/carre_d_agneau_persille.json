@@ -2,7 +2,7 @@
   "titre": "CARRÉ D’AGNEAU PERSILLÉ (S’APPLIQUE ÉGALEMENT AU GIGOT)",
   "type": "Viandes rouges rôties",
   "page": 785,
-  "denrees_pour_8_couverts": {
+  "pax":8,
     "elements_de_base": [
       {
         "nom": "carrés d’agneau",
@@ -31,8 +31,7 @@
         "quantite": "PM",
         "unite": ""
       }
-    ]
-  },
+    ],
   "technique_de_realisation": [
     "1. Parer les carrés et les marquer en cuisson (voir ci-contre)",
     "Les débrasser et réaliser le jus de rôti.",

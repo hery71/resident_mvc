@@ -1,0 +1,87 @@
+{
+    "titre": "PARFAIT GLACÉ PRALINÉ",
+    "type": "Entremets glacé",
+    "page": 991,
+    "pax":8,
+        "Appareil à bombe": [
+            {
+                "nom": "sucre semoule",
+                "unite": "kg",
+                "quantite": "0,120"
+            },
+            {
+                "nom": "eau",
+                "unite": "l",
+                "quantite": "0,04"
+            },
+            {
+                "nom": "œufs (jaunes)",
+                "unite": "kg",
+                "quantite": "0,? (8 jaunes environ)"
+            }
+        ],
+        "Praliné": [
+            {
+                "nom": "praliné",
+                "unite": "kg",
+                "quantite": "0,120 à 0,150"
+            }
+        ],
+        "Crème fouettée": [
+            {
+                "nom": "crème fleurette",
+                "unite": "l",
+                "quantite": "0,40"
+            }
+        ],
+        "Décor": [
+            {
+                "nom": "crème Chantilly",
+                "unite": "l",
+                "quantite": "PM"
+            },
+            {
+                "nom": "poche munie d’une douille cannelée",
+                "unite": "pièce",
+                "quantite": "PM"
+            }
+        ],
+  "technique_de_realisation": [
+        "Appareil à bombe sans meringue italienne réalisé selon une autre méthode dite au sucre cuit.",
+        "",
+        "1. Mettre en place le poste de travail",
+        "",
+        "2. Réaliser un sucre cuit à 125 °C",
+        "• Réunir dans un poêlon 0,120 kg de sucre et 0,04 l d’eau et cuire le sucre à 125 °C en observant les précautions d’usage.",
+        "",
+        "3. Clarifier 8 œufs",
+        "• Disposer les jaunes dans un bassin semi-sphérique en acier inoxydable et réserver les blancs pour une autre utilisation.",
+        "",
+        "4. Incorporer le sucre cuit aux jaunes d’œufs",
+        "• Battre légèrement les jaunes au préalable, puis verser le sucre cuit en un mince filet sur les jaunes sans arrêter de fouetter.",
+        "• Passer l’appareil au chinois étamine dans la cuve d’un petit batteur mélangeur.",
+        "• Battre l’appareil jusqu’à son complet refroidissement ; il doit devenir onctueux, faire le ruban et présenter la même consistance que l’appareil à génoise.",
+        "",
+        "5. Assouplir 0,120 à 0,150 kg de praliné",
+        "• Le travailler vigoureusement sur le marbre à l’aide d’une corne ou d’un coupe-pâte.",
+        "",
+        "6. Monter 0,40 l de crème fouettée",
+        "• Ne pas trop la serrer afin qu’elle s’incorpore facilement.",
+        "",
+        "7. Terminer l’assemblage de la pâte à bombe",
+        "• Parfumer l’appareil avec le praliné.",
+        "• Verser délicatement et progressivement l’appareil sur la crème fouettée.",
+        "• Lisser à l’aide d’un fouet.",
+        "",
+        "8. Garnir et sangler les parfaits",
+        "• Utiliser des moules spécifiques de forme conique refroidis au préalable.",
+        "• Couvrir les moules et les placer dans un conservateur à - 18 °C durant 3 à 4 heures au minimum.",
+        "",
+        "9. Dresser les parfaits",
+        "• Les démouler en plongeant les moules durant quelques secondes dans de l’eau tiède.",
+        "• Décorer avec de la crème Chantilly en utilisant une poche munie d’une douille cannelée.",
+        "",
+        "REMARQUE :",
+        "• L’appareil à parfait peut être parfumé avec 0,08 l d’alcool, 0,05 l de liqueur, 0,010 kg d’extrait de café liquide et 0,010 kg de café soluble, 0,100 kg de couverture ou 0,040 kg de cacao, etc. Il est utilisé également pour garnir le centre de bombes glacées dont le fond et les parois auront été chemisés de glaces ou de sorbets plus fermes."
+    ]
+}

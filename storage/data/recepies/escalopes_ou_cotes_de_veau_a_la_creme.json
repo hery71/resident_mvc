@@ -2,7 +2,7 @@
   "titre": "ESCALOPES OU CÔTES DE VEAU À LA CRÈME",
   "type": "Viandes blanches sautées, sauce blanche par déglaçage",
   "page": 800,
-  "denrees_pour_8_couverts": {
+  "pax":8,
     "elements_de_base": [
       {
         "nom": "escalopes de veau (8 x 0,150 kg)",
@@ -65,8 +65,7 @@
         "quantite": "PM",
         "unite": ""
       }
-    ]
-  },
+    ],
   "technique_de_realisation": [
     "(Voir p. 402/403)",
     "1. Mettre en place le poste de travail - 5 min",

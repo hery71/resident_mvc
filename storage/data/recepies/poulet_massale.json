@@ -1,7 +1,7 @@
 {
     "titre": "POULET MASSALÉ",
     "page": 879,
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "deux poulets labellisés très fermes de 1,200 kg chacun",
@@ -59,9 +59,8 @@
                 "nom": "piment",
                 "quantite": "PM"
             }
-        ]
-    },
-    "technique": [
+       ],
+  "technique_de_realisation": [
         "1. Mettre en place le poste de travail",
         "2. Habiller et détailler en huit morceaux, deux poulets labellisés très fermes de 1,200 kg chacun",
         "3. Marquer un fond blanc de volaille corsé avec les carcasses et les abattis",

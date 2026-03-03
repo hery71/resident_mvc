@@ -3,7 +3,7 @@
     "bandeau": "Ragoûts de volaille aux épices",
     "fiche": 125,
     "page": 878,
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "poulets label rouge P.A.C. très fermes (2 x 1,400 kg)",
@@ -129,9 +129,8 @@
                 "nom": "sel fin",
                 "quantite": "PM"
             }
-        ]
-    },
-    "technique": [
+       ],
+  "technique_de_realisation": [
         "1. Mettre en place le poste de travail - 5 min",
         "• Denrées, matériels de préparation, de cuisson et de dressage.",
         "2. Habiller et détailler chaque poulet en huit morceaux - 20 min (voir p. 237 et 246)",

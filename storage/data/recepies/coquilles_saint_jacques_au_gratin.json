@@ -2,7 +2,7 @@
   "titre": "COQUILLES SAINT-JACQUES AU GRATIN",
   "type": "Coquilles Saint-Jacques pochées, sauce vin blanc à glacer",
   "page": 766,
-  "denrees_pour_8_couverts": {
+  "pax":8,
     "Éléments de base": [
       {
         "nom": "coquilles Saint-Jacques (16 x 0,250 kg)",
@@ -191,8 +191,7 @@
         "quantite": "PM",
         "unite": ""
       }
-    ]
-  },
+    ],
   "technique_de_realisation": [
     "1. Mettre en place le poste de travail - 5 min",
     "2. Préparer tous les légumes - 20 min",

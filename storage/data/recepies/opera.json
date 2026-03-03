@@ -1,0 +1,168 @@
+{
+    "titre": "OPÉRA",
+    "type": "Entremets au chocolat",
+    "page": 973,
+    "fiche": 171,
+    "pax":8,
+        "Biscuit joconde": [
+            {
+                "nom": "œufs entiers (3 pièces)",
+                "unite": "kg",
+                "quantite": "0,165"
+            },
+            {
+                "nom": "sucre semoule",
+                "unite": "kg",
+                "quantite": "0,115"
+            },
+            {
+                "nom": "amandes en poudre",
+                "unite": "kg",
+                "quantite": "0,115"
+            },
+            {
+                "nom": "œufs (3 blancs)",
+                "unite": "kg",
+                "quantite": "0,100"
+            },
+            {
+                "nom": "sel fin",
+                "unite": "kg",
+                "quantite": "PM"
+            },
+            {
+                "nom": "sucre semoule",
+                "unite": "kg",
+                "quantite": "0,020"
+            }
+        ],
+        "Sirop de punchage": [
+            {
+                "nom": "eau",
+                "unite": "l",
+                "quantite": "0,10"
+            },
+            {
+                "nom": "sucre",
+                "unite": "kg",
+                "quantite": "0,070"
+            },
+            {
+                "nom": "café lyophilisé ou café expresso très fort",
+                "unite": "kg",
+                "quantite": "0,010"
+            },
+            {
+                "nom": "rhum ambré",
+                "unite": "l",
+                "quantite": "0,04"
+            }
+        ],
+        "Crème au beurre au café": [
+            {
+                "nom": "œufs (4 jaunes)",
+                "unite": "kg",
+                "quantite": "0,080"
+            },
+            {
+                "nom": "sucre semoule",
+                "unite": "kg",
+                "quantite": "0,150"
+            },
+            {
+                "nom": "beurre extra-fin",
+                "unite": "kg",
+                "quantite": "0,175"
+            },
+            {
+                "nom": "vanille (extrait liquide)",
+                "unite": "l",
+                "quantite": "PM"
+            },
+            {
+                "nom": "café (extrait liquide)",
+                "unite": "l",
+                "quantite": "PM"
+            }
+        ],
+        "Ganache": [
+            {
+                "nom": "crème liquide",
+                "unite": "l",
+                "quantite": "0,20"
+            },
+            {
+                "nom": "couverture chocolat pistoles",
+                "unite": "kg",
+                "quantite": "0,200"
+            },
+            {
+                "nom": "beurre (facultatif)",
+                "unite": "kg",
+                "quantite": "0,020"
+            }
+        ],
+        "Finition": [
+            {
+                "nom": "pâte à glacer",
+                "unite": "kg",
+                "quantite": "0,100"
+            }
+        ],
+        "Décor (facultatif)": [
+            {
+                "nom": "feuille d’or",
+                "unite": "kg",
+                "quantite": "0,001"
+            }
+        ],
+  "technique_de_realisation": [
+        "1. Mettre en place le poste de travail - 5 min",
+        "• Denrées, matériels de préparation, de cuisson et de dressage.",
+        "• Peser et mesurer les denrées.",
+        "",
+        "2. Réaliser le biscuit Joconde - 20 min",
+        "• Mélanger le sucre semoule et la poudre d’amande (tant pour tant) dans une grande calotte.",
+        "• Ajouter les œufs entiers et monter l’appareil jusqu’à ce qu’il fasse le ruban.",
+        "• Monter les blancs d’œufs en neige avec une petite pincée de sel.",
+        "• Les serrer en fin de montage avec le sucre.",
+        "• Ajouter délicatement les blancs d’œufs montés à l’appareil en veillant à ne pas le faire retomber.",
+        "",
+        "3. Cuire le biscuit - 3 min",
+        "• Le verser sur une plaque à pâtisserie recouverte d’une feuille de papier cuisson et l’égaliser à l’aide d’une spatule.",
+        "• Le cuire au four à 180/200 °C durant 8 à 10 min.",
+        "• Sortir du four, glisser le biscuit avec la feuille de cuisson sur le marbre froid et le recouvrir d’un film alimentaire.",
+        "",
+        "4. Réaliser la crème au beurre - 5 min (voir p. 553)",
+        "• La réaliser au sucre cuit au grand filet avec des jaunes d’œufs uniquement.",
+        "• La parfumer au café.",
+        "",
+        "5. Réaliser la crème ganache - 10 min",
+        "• Mettre la crème à bouillir dans une sauteuse moyenne.",
+        "• Ajouter la couverture hachée ou les pistoles de chocolat.",
+        "• Mélanger à l’aide d’un fouet.",
+        "• Ajouter le beurre, lisser et laisser refroidir.",
+        "",
+        "6. Réaliser le sirop de punchage au rhum et au café - 3 min",
+        "• Mettre l’eau et le sucre à bouillir, ajouter le café lyophilisé et le rhum après refroidissement.",
+        "",
+        "7. Monter l’entremets - 12 min",
+        "• Diviser la plaque de biscuit Joconde en trois rectangles réguliers.",
+        "• Poser le premier sur un carton à entremets.",
+        "• Le puncher et le masquer d’une couche de 3 mm d’épaisseur de crème au beurre au café.",
+        "• Appliquer le deuxième rectangle de biscuit, le puncher et le masquer d’une couche régulière de crème ganache.",
+        "• Appliquer le 3ème abaisse de biscuit et la masquer de crème au beurre au café.",
+        "• Raffermir le montage en enceinte réfrigérée.",
+        "",
+        "8. Glacer l’entremets et le décorer - 5 min",
+        "• Le sortir de l’enceinte réfrigérée à l’avance afin de le tempérer pour éviter au glaçage de «bloquer».",
+        "• Tiédir la pâte à glacer, l’amener lentement à 35 °C.",
+        "• Glacer uniformément l’entremets.",
+        "• Parer à l’aide d’un couteau-scie trempé dans de l’eau chaude.",
+        "• Inscrire «Opéra» à l’aide d’un cornet de pâte à glacer.",
+        "• Repartir décorativement quelques petits détails de feuilles d’or.",
+        "",
+        "9. Dresser l’opéra",
+        "• Le dresser sur un grand plat rectangulaire recouvert d’une feuille de papier dentelle."
+    ]
+}

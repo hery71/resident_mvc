@@ -4,7 +4,7 @@
     "page": 685,
     "fiche": "34",
     "description": "Ailerons de volaille (ou ailes de poulet) pochés, marinés, enrobés de pâte à frire et frits. Servis avec une sauce aigre-douce ou vinaigrette tomate, accompagnés de persil frit.",
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "ailerons de volaille (ailes de poulet)",

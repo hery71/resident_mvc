@@ -2,7 +2,7 @@
     "titre": "Potage cultivateur",
     "type": "potage taille",
     "page": 620,
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "beurre",

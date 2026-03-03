@@ -3,7 +3,7 @@
     "titre": "VEAU MARENGO",
     "bandeau": "Ragoût à brun",
     "page": 822,
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "épaule de veau parée et désossée ou épaule et collier (morceaux de 0,050 à 0,060 kg)",
@@ -111,9 +111,8 @@
                 "unite": "",
                 "quantite": "PM"
             }
-        ]
-    },
-    "technique": [
+       ],
+  "technique_de_realisation": [
         "(Voir p. 459/462)",
         "1. Mettre en place le poste de travail - 5 min",
         "• Denrées, matériels de préparation, de cuisson et de dressage.",

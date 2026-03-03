@@ -4,7 +4,7 @@
     "fiche": 131,
     "page": 892,
     "type": "Accompagnement",
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "petits pois frais",
@@ -78,9 +78,8 @@
                 "nom": "sucre semoule",
                 "quantite": "PM"
             }
-        ]
-    },
-    "technique": [
+       ],
+  "technique_de_realisation": [
         "1. Mettre en place le poste de travail - 5 min",
         "• Denrées, matériels de préparation, de cuisson et de dressage.",
         "2. Écosser les petits pois - 30 min",

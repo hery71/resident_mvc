@@ -2,7 +2,7 @@
     "titre": "Médaillons de lotte Newburg",
     "type": "Hors-d'œuvre chauds à base de poisson",
     "description": "Médaillons (tranches épaisses) de queue de lotte pochés dans un fumet de poisson, nappés d'une sauce Newburg : réduction de sauce américaine (crustacés flambés au cognac, tomates, vin blanc), liée à la crème et montée au beurre, servie sur riz pilaf ou pommes vapeur. Dressage élégant avec fleurons de feuilletage.",
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "queue de lotte (parée, prête à trancher)",

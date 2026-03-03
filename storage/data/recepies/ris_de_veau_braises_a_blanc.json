@@ -1,7 +1,7 @@
 {
     "file_name": "ris_de_veau_braises_a_blanc.json",
     "titre": "RIS DE VEAU BRAISÉS À BLANC",
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "noix de ris de veau",
@@ -84,9 +84,8 @@
                 "quantite": "PM",
                 "unite": ""
             }
-        ]
-    },
-    "technique": [
+       ],
+  "technique_de_realisation": [
         "1. Dégorger, blanchir, rafraîchir, parer et mettre sous presse 8 noix de ris de veau de 0,250 kg chacune",
         "2. Piquer les ris de veau",
         "• Selon la préparation, les ris de veau peuvent être laissés dans leur état naturel ou piqués de petits bâtonnets de lard gras, de langue écarlate ou de truffe.",

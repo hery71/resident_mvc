@@ -1,7 +1,7 @@
 {
   "titre": "GOUJONNETTES OU MIGNONNETTES DE SOLE, SAUCE TARTARE",
   "page": 751,
-  "denrees_pour_8_couverts": {
+  "pax":8,
     "Éléments de base": [
       {
         "nom": "soles",
@@ -103,8 +103,7 @@
         "quantite": "PM",
         "unite": ""
       }
-    ]
-  },
+    ],
   "technique_de_realisation": [
     "1. Mettre en place le poste de travail",
     "2. Habiller 4 soles filets de 0,600 kg chacune et arracher la peau blanche et la peau grise.",

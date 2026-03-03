@@ -2,7 +2,7 @@
     "titre": "TARTE À L’ORANGE",
     "type": "Dessert",
     "page": 961,
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "pate_sucree": [
             {
                 "nom": "pâte sucrée",
@@ -68,9 +68,8 @@
                 "nom": "jus d’orange",
                 "quantite": "PM"
             }
-        ]
-    },
-    "technique": [
+       ],
+  "technique_de_realisation": [
         "1. Mettre en place le poste de travail.",
         "2. Réaliser 0,250 kg de pâte sucrée (voir p. 486).",
         "3. Confire les rondelles d’orange pour le décor.",

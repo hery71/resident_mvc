@@ -4,7 +4,7 @@
     "page": 688,
     "fiche": "36",
     "description": "Hors-d'œuvre chaud réalisé à partir d'une sauce Mornay (sauce Béchamel additionnée de jaunes d'œufs et de gruyère râpé), montée avec blancs d'œufs en neige. Servi avec des blancs montés et cuit à la commande. Doit être servi aussitôt.",
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "appareil_souffle_sauce_mornay": [
             {
                 "nom": "beurre",

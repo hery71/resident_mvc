@@ -42,9 +42,9 @@
                 "nom": "Piment de Cayenne",
                 "quantite": "PM"
             }
-        ]
+       ]
     },
-    "technique": [
+  "technique_de_realisation": [
         "Mettre en place le poste de travail.",
         "Peser, mesurer et contrôler les denrées.",
         "Éplucher, laver et ciseler finement les échalotes.",

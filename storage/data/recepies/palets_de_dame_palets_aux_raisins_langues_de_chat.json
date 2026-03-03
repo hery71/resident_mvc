@@ -1,0 +1,71 @@
+{
+    "titre": "PALETS DE DAME, PALETS AUX RAISINS, LANGUES DE CHAT",
+    "type": "Petits fours secs",
+    "page": 997,
+    "denrees_pour_120_palets_environ": {
+        "Appareil à palets de dame - Base": [
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": "0,200"
+            },
+            {
+                "nom": "sucre glace",
+                "unite": "kg",
+                "quantite": "0,200"
+            },
+            {
+                "nom": "œufs entiers (4 à 4,5 pièces)",
+                "unite": "kg",
+                "quantite": "0,240 à 0,250"
+            },
+            {
+                "nom": "farine type 55",
+                "unite": "kg",
+                "quantite": "0,200 à 0,250"
+            },
+            {
+                "nom": "vanille",
+                "unite": "kg",
+                "quantite": "PM"
+            },
+            {
+                "nom": "beurre pour les plaques",
+                "unite": "kg",
+                "quantite": "0,040"
+            }
+        ],
+        "Appareil à palets aux raisins (même base +)": [
+            {
+                "nom": "raisins de Smyrne ou de Corinthe",
+                "unite": "kg",
+                "quantite": "0,100"
+            },
+            {
+                "nom": "rhum ambré",
+                "unite": "l",
+                "quantite": "0,10"
+            }
+        ],
+  "technique_de_realisation": [
+        "1. Mettre en place le poste de travail",
+        "• Peser, mesurer et contrôler les denrées.",
+        "• Tempérer les ingrédients en les maintenant quelques heures à l’avance à la température du laboratoire.",
+        "",
+        "2. Réaliser l’appareil",
+        "• Travailler le beurre en pommade dans une calotte, puis ajouter le sucre glace et crémer l’ensemble à l’aide d’un fouet.",
+        "• Selon les petits fours à réaliser, incorporer progressivement les œufs tempérés, ou les œufs et le lait.",
+        "• L’appareil doit rester absolument lisse et homogène. S’il tend à se dissocier (grainer), commencer à ajouter un peu de farine.",
+        "• Ajouter la farine tamisée, et l’incorporer à l’aide d’une spatule en exoglass.",
+        "• Ne pas trop travailler l’appareil, mélanger intimement la farine de manière à ne pas la corser.",
+        "• Parfumer l’appareil avec quelques gouttes d’extrait de vanille, et ajouter la garniture s’il y a lieu (raisins macérés dans du rhum, noisettes hachées, noix de coco râpée…).",
+        "",
+        "3. Corner et couvrir la calotte.",
+        "",
+        "4. Coucher les petits fours",
+        "• Coucher de petits tas d’appareil sur les plaques légèrement beurrées, en utilisant une poche munie d’une douille unie d’1 cm de diamètre et de 5 mm pour les langues de chat.",
+        "• Taper les plaques pour bien étaler l’appareil.",
+        "",
+        "(Suite page suivante)"
+    ]
+}

@@ -1,7 +1,7 @@
 {
     "file_name": "cailles_roties_farcies_au_foie_gras_et_aux_raisins.json",
     "titre": "CAILLES RÔTIES FARCIES AU FOIE GRAS ET AUX RAISINS",
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "cailles",
@@ -81,9 +81,8 @@
                 "quantite": "PM",
                 "unite": ""
             }
-        ]
-    },
-    "technique": [
+       ],
+  "technique_de_realisation": [
         "1. Habiller 8 cailles de 0,350 kg chacune.",
         "• Les désosser par le bréchet sans les ouvrir.",
         "• Réserver les os et les abattis pour le jus de rôti.",

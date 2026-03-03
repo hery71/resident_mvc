@@ -2,7 +2,7 @@
     "titre": "PÂTES FRAÎCHES AU BEURRE (fettuccines, tagliatelles, pappardelles, feuilles à lasagnes et à cannellonis)",
     "type": "Accompagnement",
     "page": 901,
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "pâtes fraîches (0,150 kg par personne)",
@@ -27,9 +27,8 @@
                 "nom": "sel fin",
                 "quantite": "PM"
             }
-        ]
-    },
-    "technique": [
+       ],
+  "technique_de_realisation": [
         "• Mettre en place le poste de travail",
         "• Porter une grande quantité d’eau à ébullition.",
         "• Saler au gros sel (8 à 10 g par litre d’eau).",

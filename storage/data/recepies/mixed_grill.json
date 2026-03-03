@@ -1,7 +1,7 @@
 {
   "titre": "MIXED-GRILL",
   "type": "Viandes grillées",
-  "denrees_pour_8_couverts": {
+  "pax":8,
     "elements_de_base": [
       {
         "nom": "côtes d’agneau (8 x 0,100 kg)",
@@ -113,8 +113,7 @@
         "quantite": "PM",
         "unite": ""
       }
-    ]
-  },
+    ],
   "technique_de_realisation": [
     "1. Mettre en place le poste de travail - 5 min.",
     "Denrées, matériels de préparation, de cuisson et de dressage.",

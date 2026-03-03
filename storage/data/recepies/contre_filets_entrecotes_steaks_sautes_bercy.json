@@ -2,7 +2,7 @@
   "titre": "CONTRE-FILETS, ENTRECÔTES OU STEAKS SAUTÉS BERCY",
   "type": "Viandes rouges sautées, sauce brune par déglaçage",
   "page": 792,
-  "denrees_pour_8_couverts": {
+  "pax":8,
     "elements_de_base": [
       {
         "nom": "contre-filets parés (4 x 0,300 à 0,400 kg)",
@@ -68,8 +68,7 @@
         "quantite": "PM",
         "unite": ""
       }
-    ]
-  },
+    ],
   "technique_de_realisation": [
     "(Voir p. 398 à 399)",
     "1. Mettre en place le poste de travail - 5 min",

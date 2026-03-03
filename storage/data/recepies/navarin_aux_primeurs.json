@@ -1,7 +1,7 @@
 {
     "file_name": "navarin_aux_primeurs.json",
     "titre": "NAVARIN «AUX PRIMEURS»",
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "collier",
@@ -43,9 +43,8 @@
                 "quantite": 0.08,
                 "unite": "kg"
             }
-        ]
-    },
-    "technique": [
+       ],
+  "technique_de_realisation": [
         "1. Mettre en place le poste de travail",
         "",
         "2. Marquer le navarin de base en cuisson",

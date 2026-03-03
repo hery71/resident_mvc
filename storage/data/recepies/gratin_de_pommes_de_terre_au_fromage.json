@@ -4,7 +4,7 @@
     "bandeau": "Gratins de légumes",
     "fiche": 141,
     "page": 912,
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "pommes de terre à chair ferme",
@@ -64,9 +64,8 @@
                 "nom": "noix de muscade",
                 "quantite": "PM"
             }
-        ]
-    },
-    "technique": [
+       ],
+  "technique_de_realisation": [
         "1. Mettre en place le poste de travail - 5 min",
         "• Denrées, matériels de préparation, de cuisson et de dressage.",
         "2. Réaliser la mise en place du gratin - 15 min",

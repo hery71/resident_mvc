@@ -4,7 +4,7 @@
     "bandeau": "Entremets froids de cuisine à base d’appareil à crème prise sucré",
     "fiche": 145,
     "page": 922,
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "lait",
@@ -38,9 +38,8 @@
                 "unite": "l",
                 "quantite": "PM"
             }
-        ]
-    },
-    "technique": [
+       ],
+  "technique_de_realisation": [
         "1. Mettre en place le poste de travail - 5 min",
         "• Denrées, matériels de préparation, de cuisson et de dressage.",
         "2. Confectionner le caramel - 8 min (voir p. 581/585)",

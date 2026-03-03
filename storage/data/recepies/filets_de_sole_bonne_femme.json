@@ -2,7 +2,7 @@
     "titre": "Filets de sole bonne femme",
     "type": "Hors-d'œuvre chauds à base de poisson",
     "description": "Filets de sole pochés court-mouillement avec échalotes ciselées, champignons émincés et persil haché, au vin blanc et fumet de poisson. Sauce obtenue par réduction du liquide de cuisson, addition de crème, montée au beurre et glacée au four. Dressage nappé, parsemé de persil.",
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "filets de sole (4 à 5 filets par sole, soit 0,500 à 0,600 kg par sole)",

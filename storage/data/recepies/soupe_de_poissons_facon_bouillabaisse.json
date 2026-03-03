@@ -2,7 +2,7 @@
   "page": "641",
   "titre": "SOUPE DE POISSONS FAÇON BOUILLABAISSE",
   "type": "Soupes de poissons",
-  "denrees_pour_8_couverts": {
+  "pax":8,
     "fond_de_base_ou_soupe_de_poissons": [
       {
         "nom": "petits poissons de roches (galinette, vives, rascasses, etc.)",

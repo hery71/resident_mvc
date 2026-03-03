@@ -3,7 +3,7 @@
     "bandeau": "Purées de légumes",
     "page": 886,
     "type": "Accompagnement",
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "pommes de terre de conservation (Bintje)",
@@ -56,9 +56,8 @@
                 "nom": "noix de muscade (facultatif)",
                 "quantite": "PM"
             }
-        ]
-    },
-    "technique": [
+       ],
+  "technique_de_realisation": [
         "1. Mettre en place le poste de travail - 5 min",
         "• Denrées, matériels de préparation, de cuisson et de dressage.",
         "2. Préparer les pommes de terre - 15 min",

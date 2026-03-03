@@ -1,0 +1,239 @@
+{
+    "titre": "NOUGAT GLACÉ, COULIS DE FRAMBOISES",
+    "type": "Entremets glacé",
+    "page": 988,
+    "pax":8,
+        "Meringue italienne": [
+            {
+                "nom": "œufs (8 blancs)",
+                "unite": "kg",
+                "quantite": "0,130"
+            },
+            {
+                "nom": "sel fin",
+                "unite": "kg",
+                "quantite": "PM"
+            },
+            {
+                "nom": "sucre semoule pour meringuer",
+                "unite": "kg",
+                "quantite": "0,040"
+            }
+        ],
+        "Sucre cuit": [
+            {
+                "nom": "sucre",
+                "unite": "kg",
+                "quantite": "0,100"
+            },
+            {
+                "nom": "miel",
+                "unite": "kg",
+                "quantite": "0,060"
+            },
+            {
+                "nom": "glucose",
+                "unite": "kg",
+                "quantite": "0,040"
+            },
+            {
+                "nom": "eau",
+                "unite": "l",
+                "quantite": "0,06"
+            }
+        ],
+        "Crème fouettée": [
+            {
+                "nom": "crème liquide",
+                "unite": "l",
+                "quantite": "0,40"
+            }
+        ],
+        "Garniture": [
+            {
+                "nom": "raisins secs",
+                "unite": "kg",
+                "quantite": "0,040"
+            },
+            {
+                "nom": "fruits confits moelleux",
+                "unite": "kg",
+                "quantite": "0,100"
+            },
+            {
+                "nom": "noix fraîche",
+                "unite": "kg",
+                "quantite": "0,040"
+            },
+            {
+                "nom": "amandes entières",
+                "unite": "kg",
+                "quantite": "0,040"
+            },
+            {
+                "nom": "noisettes",
+                "unite": "kg",
+                "quantite": "0,040"
+            },
+            {
+                "nom": "pistaches",
+                "unite": "kg",
+                "quantite": "0,040"
+            },
+            {
+                "nom": "nougatine",
+                "unite": "kg",
+                "quantite": "0,150"
+            },
+            {
+                "nom": "Grand Marnier",
+                "unite": "l",
+                "quantite": "0,05"
+            }
+        ],
+        "Nougatine": [
+            {
+                "nom": "sucre semoule",
+                "unite": "kg",
+                "quantite": "0,080"
+            },
+            {
+                "nom": "glucose",
+                "unite": "kg",
+                "quantite": "0,020"
+            },
+            {
+                "nom": "amandes hachées",
+                "unite": "kg",
+                "quantite": "0,050"
+            },
+            {
+                "nom": "huile d’arachide",
+                "unite": "l",
+                "quantite": "0,01"
+            }
+        ],
+        "Crème anglaise": [
+            {
+                "nom": "œufs (4 jaunes)",
+                "unite": "kg",
+                "quantite": "0,080"
+            },
+            {
+                "nom": "miel",
+                "unite": "kg",
+                "quantite": "0,100"
+            },
+            {
+                "nom": "lait",
+                "unite": "l",
+                "quantite": "0,50"
+            },
+            {
+                "nom": "vanille",
+                "unite": "gousse",
+                "quantite": "1/2"
+            },
+            {
+                "nom": "cannelle",
+                "unite": "kg",
+                "quantite": "PM"
+            },
+            {
+                "nom": "noix de muscade",
+                "unite": "kg",
+                "quantite": "PM"
+            },
+            {
+                "nom": "essence de noyaux",
+                "unite": "l",
+                "quantite": "PM"
+            },
+            {
+                "nom": "zestes d’oranges",
+                "unite": "kg",
+                "quantite": "PM"
+            }
+        ],
+        "Décor": [
+            {
+                "nom": "feuilles de menthe",
+                "unite": "botte",
+                "quantite": "1/4"
+            }
+        ],
+        "Coulis de framboises": [
+            {
+                "nom": "brisures de framboises",
+                "unite": "kg",
+                "quantite": "0,200"
+            },
+            {
+                "nom": "sucre glace",
+                "unite": "kg",
+                "quantite": "0,080"
+            },
+            {
+                "nom": "citron (1/2 pièce)",
+                "unite": "pièce",
+                "quantite": "1/2"
+            }
+        ],
+  "technique_de_realisation": [
+        "1. Mettre en place le poste de travail - 5 min",
+        "• Denrées, matériels de préparation, de cuisson et de dressage.",
+        "",
+        "2. Préparer la garniture - 10 min",
+        "• Laver, blanchir et réhydrater les raisins secs dans un peu de liqueur.",
+        "• Découper les fruits confits en cubes réguliers d’1 cm de côté et les mettre à macérer dans le reste de la liqueur.",
+        "• Moudre si nécessaire les noix, les amandes, les noisettes et les pistaches, les griller légèrement à l’entrée d’un four et les sécher dans une étuve.",
+        "",
+        "3. Réaliser la nougatine - 15 min",
+        "• Chauffer les amandes hachées à l’entrée d’un four à 200 °C.",
+        "• Faire fondre à feu doux le glucose dans un bain-marie ou une petite sauteuse.",
+        "• Ajouter progressivement le sucre en remuant à l’aide d’une spatule.",
+        "• Ajouter les amandes lorsque le sucre brille et présente une teinte bien dorée.",
+        "• Augmenter la température pour faciliter le mélange.",
+        "• Débarrasser immédiatement la nougatine sur le marbre ou sur une plaque à pâtisserie huilée.",
+        "• Abaisser et refroidir rapidement la nougatine.",
+        "• La concasser et la réserver.",
+        "",
+        "4. Chemiser le moule - 5 min",
+        "• Chemiser une terrine de 22/24 cm de long avec un film plastique alimentaire ou du papier sulfurisé.",
+        "",
+        "5. Réaliser la meringue italienne - 20 min (voir p. 576)",
+        "• Cuire le sucre avec le miel et le glucose à 120/121 °C en lui ajoutant 0,06 l d’eau.",
+        "• Monter les blancs d’œufs à température du sirop atteint 105/110 °C.",
+        "• Meringuer les blancs en leur ajoutant 0,040 kg de sucre semoule en milieu de montage.",
+        "• Verser progressivement le sucre cuit à 120/121 °C sur les blancs montés.",
+        "• Ralentir la vitesse du fouet et la maintenir jusqu’au complet refroidissement de la meringue.",
+        "",
+        "6. Monter la crème - 10 min",
+        "• La monter seulement aux 9/10èmes sans la serrer. Elle doit rester souple afin de s’incorporer facilement à la meringue.",
+        "",
+        "7. Réaliser l’assemblage - 5 min",
+        "• Égoutter la cuve du batteur mélangeur.",
+        "• Incorporer délicatement à la meringue italienne les raisins déshydratés, les fruits confits macérés, les fruits secs, la nougatine concassée et le Grand Marnier.",
+        "• Incorporer progressivement la crème fouettée en soulevant délicatement l’appareil à l’aide d’une écumoire et en donnant 1/8ème de tour à la cuve entre chaque coup d’écumoire.",
+        "",
+        "8. Garnir la terrine - 5 min",
+        "• La lisser soigneusement à l’aide d’une spatule métallique.",
+        "• Recouvrir d’un film en matière plastique alimentaire.",
+        "• Réserver la terrine dans un conservateur à - 18 °C durant 3 à 4 heures au minimum.",
+        "• La sortir du conservateur quelques minutes avant de la servir.",
+        "",
+        "9. Réaliser la crème anglaise - 15 min (voir p. 544/546)",
+        "• Remplacer le sucre par du miel.",
+        "• Lui ajouter un peu de cannelle, du gingembre râpé et de l’essence de noyaux.",
+        "• La refroidir rapidement.",
+        "",
+        "10. Réaliser le coulis de framboises - 10 min (voir p. 559)",
+        "",
+        "11. Démouler le nougat glacé et le dresser sur assiettes - 10 min",
+        "• Le démouler sur une planche à découper recouverte d’un film plastique alimentaire.",
+        "• Le détailler en tranches de 2 cm d’épaisseur à l’aide d’un couteau « filet de sole » trempé dans de l’eau chaude.",
+        "• Marbrer le fond des assiettes avec la crème anglaise au miel et le coulis de framboises.",
+        "• Décorer éventuellement avec des lamelles de fruits frais et des feuilles de menthe.",
+        "• Servir immédiatement."
+    ]
+}

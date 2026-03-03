@@ -2,7 +2,7 @@
   "titre": "MOULES MARINIÈRE",
   "type": "Coquillages «marinière» (moules, coques, praires, palourdes, pétoncles, vénus, amandes…)",
   "page": 762,
-  "denrees_pour_8_couverts": {
+  "pax":8,
     "Éléments de base": [
       {
         "nom": "moules de bouchots",
@@ -48,8 +48,7 @@
         "quantite": "PM",
         "unite": ""
       }
-    ]
-  },
+    ],
   "technique_de_realisation": [
     "1. Mettre en place le poste de travail - 5 min",
     "Denrées, matériels de préparation, de cuisson et de dressage.",

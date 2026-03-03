@@ -1,7 +1,7 @@
 {
   "titre": "NAVARIN AUX POMMES",
   "type": "Ragoût à brun",
-  "denrees_pour_8_couverts": {
+  "pax":8,
     "elements_de_base": [
       {
         "nom": "épaule d’agneau parée et désossée (morceaux de 0,050 kg)",
@@ -82,8 +82,7 @@
         "quantite": "PM",
         "unite": ""
       }
-    ]
-  },
+    ],
   "technique_de_realisation": [
     "1. Mettre en place le poste de travail - 5 min.",
     "Denrées, matériels de préparation, de cuisson et de dressage.",

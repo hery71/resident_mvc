@@ -4,7 +4,7 @@
     "page": 684,
     "fiche": "33",
     "description": "Brioches individuelles garnies d'une crème aux fruits de mer (coquilles Saint-Jacques, crevettes, champignons), pochées puis gratinées au four avec une sauce légère.",
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "pâte à brioche (voir recette précédente ou p. 332)",

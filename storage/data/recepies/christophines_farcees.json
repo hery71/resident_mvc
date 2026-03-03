@@ -2,7 +2,7 @@
     "titre": "CHRISTOPHINES FARCÉES",
     "type": "Accompagnement",
     "page": 919,
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "christophines",
@@ -75,9 +75,8 @@
                 "nom": "persil en bouquet (décor)",
                 "quantite": "PM"
             }
-        ]
-    },
-    "technique": [
+       ],
+  "technique_de_realisation": [
         "1. Mettre en place le poste de travail",
         "2. Cuire les christophines à l’anglaise",
         "• Cuire 4 christophines de 0,400 kg chacune dans une grande quantité d’eau salée.",

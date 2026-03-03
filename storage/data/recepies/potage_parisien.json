@@ -2,7 +2,7 @@
     "titre": "Potage parisien",
     "type": "potage taille",
     "page": 621,
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "beurre",

@@ -2,7 +2,7 @@
   "titre": "MÉDAILLONS DE VEAU AU PAPRIKA, RIZ PILAF AUX POIVRONS",
   "type": "Viandes blanches sautées",
   "page": 801,
-  "denrees_pour_8_couverts": {
+  "pax":8,
     "elements_de_base": [
       {
         "nom": "médaillons de veau (24 x 0,050 kg)",
@@ -53,8 +53,7 @@
         "quantite": "0,20",
         "unite": "l"
       }
-    ]
-  },
+    ],
   "technique_de_realisation": [
     "1. Préparer les médaillons.",
     "Parer 24 médaillons de veau de 0,050 kg chacun et les réserver en enceinte réfrigérée.",

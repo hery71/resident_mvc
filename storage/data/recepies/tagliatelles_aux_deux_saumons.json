@@ -2,7 +2,7 @@
     "titre": "Tagliatelles aux deux saumons",
     "type": "Hors-d'œuvre chauds à base de pâtes fraîches",
     "description": "Pâtes fraîches maison taillées en tagliatelles, servies avec une sauce légèrement crémeuse, garnies de dés de saumon frais et saumon fumé, le tout relevé d'huile d'olive et persil.",
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "pate_a_nouilles": [
             {
                 "nom": "farine type 45 (ou T45)",

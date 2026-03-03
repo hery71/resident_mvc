@@ -2,7 +2,7 @@
     "titre": "Mousseline de merlan arlequin",
     "type": "Hors-d'œuvre chauds à base de poisson",
     "description": "Farce mousseline de merlan additionnée de brunoise de carottes, courgettes et poivrons, cuite à la vapeur en ramequins ou papillotes, servie avec une sauce vin blanc réduite au fumet de poisson, crème et montée au beurre. Présentation en darnes ou paupiettes avec décor harmonieux.",
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "merlan (filets ou chair nette)",

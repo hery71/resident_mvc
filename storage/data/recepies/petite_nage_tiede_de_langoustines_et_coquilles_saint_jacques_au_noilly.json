@@ -2,7 +2,7 @@
   "titre": "PETITE NAGE TIÈDE DE LANGOUSTINES ET COQUILLES SAINT-JACQUES AU NOILLY",
   "type": "Crustacés pochés",
   "page": 771,
-  "denrees_pour_8_couverts": {
+  "pax":8,
     "elements_de_base": [
       {
         "nom": "coquilles Saint-Jacques coraillées",
@@ -102,8 +102,7 @@
         "quantite": "PM",
         "unite": ""
       }
-    ]
-  },
+    ],
   "technique_de_realisation": [
     "1. Mettre en place le poste de travail",
     "2. Ouvrir 16 coquilles Saint-Jacques coraillées",

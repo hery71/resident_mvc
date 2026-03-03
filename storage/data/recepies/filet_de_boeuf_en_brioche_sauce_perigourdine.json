@@ -1,7 +1,7 @@
 {
   "titre": "FILET DE BŒUF EN BRIOCHE, SAUCE PÉRIGOURDINE",
   "type": "Viandes rouges rôties",
-  "denrees_pour_8_couverts": {
+  "pax":8,
     "elements_de_base": [
       {
         "nom": "filet de bœuf",
@@ -89,8 +89,7 @@
         "quantite": "PM",
         "unite": ""
       }
-    ]
-  },
+    ],
   "technique_de_realisation": [
     "1. Préparer le filet (voir p. 221/222)",
     "Parer, dégraisser et dénerver un tronçon de cœur de filet d’1,500 kg.",

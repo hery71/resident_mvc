@@ -2,7 +2,7 @@
     "titre": "GRATIN DE POMMES DE TERRE FAÇON DAUPHINOIS",
     "type": "Accompagnement",
     "page": 913,
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "pommes de terre à chair ferme",
@@ -35,9 +35,8 @@
                 "nom": "noix de muscade",
                 "quantite": "PM"
             }
-        ]
-    },
-    "technique": [
+       ],
+  "technique_de_realisation": [
         "1. Mettre en place le poste de travail - 5 min",
         "2. Éplucher et laver 2 kg de pommes de terre à chair ferme",
         "3. Émincer les pommes de terre",

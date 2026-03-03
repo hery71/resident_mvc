@@ -3,7 +3,7 @@
   "type": "Viandes rouges rôties",
   "page": 786,
   "fiche": 80,
-  "denrees_pour_8_couverts": {
+  "pax":8,
     "elements_de_base": [
       {
         "nom": "gigot raccourci non paré*",
@@ -103,8 +103,7 @@
         "quantite": "PM",
         "unite": ""
       }
-    ]
-  },
+    ],
   "technique_de_realisation": [
     "1. Mettre en place le poste de travail - 5 min",
     "Denrées, matériels de préparation, de cuisson et de dressage.",

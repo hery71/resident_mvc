@@ -1,0 +1,236 @@
+{
+    "titre": "GRATINÉE D’AUTOMNE AU CALVADOS",
+    "type": "Entremets chaud accompagné de sorbet",
+    "page": 994,
+    "pax":8,
+        "Éléments de base": [
+            {
+                "nom": "pommes (cox’s orange ou reine des reinettes)",
+                "unite": "kg",
+                "quantite": "1"
+            },
+            {
+                "nom": "citron (1 pièce)",
+                "unite": "kg",
+                "quantite": "0,100"
+            },
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": "PM"
+            },
+            {
+                "nom": "cannelle",
+                "unite": "kg",
+                "quantite": "PM"
+            },
+            {
+                "nom": "sucre semoule",
+                "unite": "kg",
+                "quantite": "0,100"
+            },
+            {
+                "nom": "calvados",
+                "unite": "l",
+                "quantite": "0,05"
+            },
+            {
+                "nom": "mûres",
+                "unite": "kg",
+                "quantite": "0,300"
+            },
+            {
+                "nom": "rhubarbe",
+                "unite": "kg",
+                "quantite": "0,500"
+            },
+            {
+                "nom": "eau",
+                "unite": "l",
+                "quantite": "0,50"
+            },
+            {
+                "nom": "sucre (pochage rhubarbe)",
+                "unite": "kg",
+                "quantite": "0,250"
+            },
+            {
+                "nom": "vanille",
+                "unite": "gousse",
+                "quantite": "1/2"
+            }
+        ],
+        "Crème d’amandes": [
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": "0,100"
+            },
+            {
+                "nom": "sucre glace",
+                "unite": "kg",
+                "quantite": "0,100"
+            },
+            {
+                "nom": "amandes en poudre",
+                "unite": "kg",
+                "quantite": "0,100"
+            },
+            {
+                "nom": "poudre à flan",
+                "unite": "kg",
+                "quantite": "0,020"
+            },
+            {
+                "nom": "œufs entiers (2 pièces)",
+                "unite": "kg",
+                "quantite": "0,110"
+            },
+            {
+                "nom": "calvados",
+                "unite": "l",
+                "quantite": "0,05"
+            },
+            {
+                "nom": "vanille liquide",
+                "unite": "l",
+                "quantite": "PM"
+            }
+        ],
+        "Appareil à bombe": [
+            {
+                "nom": "œufs (8 jaunes)",
+                "unite": "kg",
+                "quantite": "0,160"
+            },
+            {
+                "nom": "sucre",
+                "unite": "kg",
+                "quantite": "0,300"
+            },
+            {
+                "nom": "eau",
+                "unite": "l",
+                "quantite": "0,10"
+            },
+            {
+                "nom": "crème fleurette",
+                "unite": "l",
+                "quantite": "0,50"
+            },
+            {
+                "nom": "calvados",
+                "unite": "l",
+                "quantite": "0,05"
+            }
+        ],
+        "Finition": [
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": "0,020"
+            }
+        ],
+        "Sorbet au cidre": [
+            {
+                "nom": "pommes acidulées",
+                "unite": "kg",
+                "quantite": "0,400"
+            },
+            {
+                "nom": "citron (1 pièce)",
+                "unite": "kg",
+                "quantite": "0,100"
+            },
+            {
+                "nom": "sucre",
+                "unite": "kg",
+                "quantite": "0,300"
+            },
+            {
+                "nom": "eau",
+                "unite": "l",
+                "quantite": "0,10"
+            },
+            {
+                "nom": "cidre fruité",
+                "unite": "l",
+                "quantite": "0,75"
+            },
+            {
+                "nom": "trimoline ou glucose",
+                "unite": "kg",
+                "quantite": "0,080"
+            }
+        ],
+        "Mini-coupelles en pâte à tulipes": [
+            {
+                "nom": "mini-coupelles",
+                "unite": "pièce",
+                "quantite": "8"
+            }
+        ],
+        "Décor": [
+            {
+                "nom": "feuilles de menthe",
+                "unite": "botte",
+                "quantite": "PM"
+            }
+        ],
+  "technique_de_realisation": [
+        "1. Mettre en place le poste de travail - 5 min",
+        "• Denrées, matériels de préparation, de cuisson et de dressage.",
+        "",
+        "2. Réaliser le sorbet au cidre - 25 min",
+        "• Confectionner une compote avec les pommes, le sucre, la trimoline ou le glucose, l’eau et le jus de citron.",
+        "• Détendre la compote avec le cidre et laisser frémir quelques minutes.",
+        "• Mixer finement et passer au chinois étamine.",
+        "• Refroidir rapidement le mix ou le turbiner immédiatement si la machine le permet.",
+        "• Débarrasser le sorbet et le réserver à couvert à - 18 °C dans un conservateur.",
+        "",
+        "3. Préparer les fruits - 20 min",
+        "• Laver, effilandrer la rhubarbe et la tronçonner en petits morceaux de 1,5 cm de long.",
+        "• Les pocher 3 à 4 min dans un sirop à 1.1247 D vanillé (16 °Baumé). Ils peuvent être blanchis au préalable.",
+        "• Laisser refroidir la rhubarbe dans le sirop.",
+        "• Rincer les mûres et les égoutter délicatement sur du papier absorbant.",
+        "• Éplucher, évider et citronner les pommes.",
+        "• Les partager en 6 ou 8 selon leur grosseur.",
+        "• Arrondir les arêtes ou les tourner de forme oblongue.",
+        "• Les sauter au beurre légèrement noisette, les saupoudrer de sucre et de cannelle.",
+        "• Les caraméliser puis les flamber avec le calvados.",
+        "• Les maintenir légèrement fermes.",
+        "• Débarrasser les pommes et les réserver.",
+        "",
+        "4. Réaliser la crème d’amandes - 10 min (voir p. 557)",
+        "• La parfumer avec de l’extrait de vanille liquide et du calvados.",
+        "",
+        "5. Réaliser l’appareil à bombe - 20 min",
+        "• Verser petit à petit le sucre cuit à 118/120 °C sur les jaunes.",
+        "• Fouetter énergétiquement jusqu’à complet refroidissement de l’appareil.",
+        "• Parfumer avec 0,05 l de calvados.",
+        "• Incorporer délicatement la crème fouettée.",
+        "• Réserver l’appareil.",
+        "",
+        "6. Dresser les gratins - 10 min",
+        "• Beurrer légèrement 8 petits plats à gratin individuels.",
+        "• Disposer au fond de chaque plat une fine couche de crème d’amandes.",
+        "• Répartir équitablement la rhubarbe bien égouttée.",
+        "• Napper copieusement avec l’appareil à bombe.",
+        "• Disposer harmonieusement les pommes en rosace en laissant un petit espace au centre pour la tulipe de sorbet.",
+        "• Placer une mûre entre chaque morceau de pomme.",
+        "",
+        "7. Mettre les gratins au four - 5 min",
+        "• Les saupoudrer légèrement avec le sucre glace et essuyer soigneusement les bords des plats.",
+        "• Les placer dans un four à pâtisserie très chaud (240/250 °C) et à même la sole (pour cuire la crème d’amandes) durant 4 à 5 min.",
+        "• Parfaire si nécessaire le glaçage sous la salamandre.",
+        "",
+        "8. Dresser les gratins - 5 min",
+        "• Placer les gratins sur assiettes recouvertes de papier dentelle.",
+        "• Disposer une belle boule de sorbet au cidre dans une coupelle au centre de chaque plat.",
+        "• Décorer éventuellement avec une feuille de menthe.",
+        "• Servir immédiatement avec des tuiles aux pommes (lamelles fines de pommes disposées sur une feuille de silpat, saupoudrées de sucre glace et séchées dans une étuve à 80 °C durant 4 à 5 heures).",
+        "",
+        "REMARQUE :",
+        "• Un appareil à bombe peut également être réalisé avec 0,300 kg de sirop à 1.2624 D (30 °B) (à base de 0,104 kg de jaunes d’œufs). Monter à 90 °C au bain-marie sans arrêter de fouetter. Refroidir en fouettant au batteur mélangeur. Incorporer 0,50 l de crème fouettée et ajouter 0,10 l de calvados (à 18/20 °C)."
+    ]
+}

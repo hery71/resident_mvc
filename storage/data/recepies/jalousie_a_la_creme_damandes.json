@@ -1,0 +1,51 @@
+{
+    "titre": "JALOUSIE À LA CRÈME D’AMANDES",
+    "type": "Dessert",
+    "page": 965,
+    "pax":8,
+        "elements_de_base": [
+            {
+                "nom": "plaque de feuilletage au beurre surgelée",
+                "unite": "plaque",
+                "quantite": 1
+            },
+            {
+                "nom": "crème d’amandes",
+                "quantite": "PM"
+            },
+            {
+                "nom": "crème pâtissière",
+                "unite": "kg",
+                "quantite": "0,100"
+            }
+        ],
+        "finition": [
+            {
+                "nom": "sucre glace",
+                "quantite": "PM"
+            },
+            {
+                "nom": "sirop",
+                "quantite": "PM"
+            }
+       ],
+  "technique_de_realisation": [
+        "1. Mettre en place le poste de travail",
+        "2. Détailler une plaque de feuilletage au beurre surgelée en deux rectangles, un de 40 cm de longueur sur 12 cm de largeur, un autre de 40 cm sur 13 cm qui formera le dessus",
+        "3. Réaliser la crème d’amandes selon les proportions ci-contre, lui ajouter 0,100 kg de crème pâtissière.",
+        "4. Réaliser le montage de la jalousie à la crème d’amandes",
+        "• Dérouler le rectangle de pâte feuilletée le moins large sur la plaque de cuisson humidifiée.",
+        "• Dorer soigneusement les bords à l’aide d’un pinceau.",
+        "• Coucher la crème «frangipane» au centre de l’abaisse à l’aide d’une poche munie d’une grosse douille ronde unie.",
+        "• Plier la deuxième abaisse en deux dans le sens de la longueur.",
+        "• Inciser (entailler) régulièrement tous les 5 mm la partie de la pliure sur 3 cm de largeur à l’aide du talon d’un gros couteau éminceur de manière à imiter une jalousie.",
+        "• Appliquer l’abaisse incisée sur la première sans la déformer.",
+        "• Bien souder les bords, parer la pâte si nécessaire.",
+        "• Chiqueter, dorer et «bloquer» au froid durant une vingtaine de minutes.",
+        "5. Cuire la jalousie à la crème d’amandes",
+        "• Dorer à nouveau puis cuire au four à 220/230 °C durant 35 à 40 min.",
+        "• Glacer au sucre glace ou au sirop quelques minutes avant la fin de la cuisson.",
+        "6. Dresser la jalousie à la crème d’amandes",
+        "• Dresser encore tiède sur un plat long recouvert de papier dentelle."
+    ]
+}

@@ -2,7 +2,7 @@
     "titre": "Œufs cocotte à la crème",
     "type": "Hors-d'œuvre chauds à base d'œufs",
     "description": "Œufs cuits au bain-marie dans des petites cocottes en porcelaine beurrées, avec un blanc à peine coagulé et un jaune coulant et crémeux, entourés d'un cordon de crème réduite. Servis très chauds avec persil frais.",
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "œufs extra-frais",

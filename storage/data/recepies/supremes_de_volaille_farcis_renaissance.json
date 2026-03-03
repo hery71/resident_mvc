@@ -1,7 +1,7 @@
 {
     "file_name": "supremes_de_volaille_farcis_renaissance.json",
     "titre": "SUPRÊMES DE VOLAILLE FARCIS RENAISSANCE",
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "suprêmes de volaille «label rouge» de 0,250 kg chacun",
@@ -62,9 +62,8 @@
                 "quantite": "PM",
                 "unite": ""
             }
-        ]
-    },
-    "technique": [
+       ],
+  "technique_de_realisation": [
         "1. Préparer 8 suprêmes de volaille «label rouge» de 0,250 kg chacun",
         "• Les parer, les désosser entièrement et ôter la peau.",
         "• Les inciser transversalement pour les ouvrir en portefeuille.",

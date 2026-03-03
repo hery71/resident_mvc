@@ -3,7 +3,7 @@
     "type": "Accompagnement",
     "bandeau": "Pommes dérivées de la pomme duchesse",
     "page": 910,
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "pommes duchesse (pommes de terre de conservation Bintje)",
@@ -74,9 +74,8 @@
                 "nom": "huile de friture",
                 "quantite": "PM"
             }
-        ]
-    },
-    "technique": [
+       ],
+  "technique_de_realisation": [
         "1. Mettre en place le poste de travail - 5 min",
         "• Denrées, matériels de préparation, de cuisson et de dressage.",
         "2. Éplucher, laver et tailler les pommes de terre en gros quartiers ou les laisser entières si elles ne sont pas très grosses - 15 min (voir p. 124/125)",

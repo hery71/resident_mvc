@@ -3,7 +3,7 @@
     "type": "Dessert",
     "bandeau": "Entremets froids de cuisine à base de biscuit et de crème prise sucrée",
     "page": 934,
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "biscuit à la cuiller ou génoise",
@@ -110,9 +110,8 @@
                 "unite": "l",
                 "quantite": "0,02"
             }
-        ]
-    },
-    "technique": [
+       ],
+  "technique_de_realisation": [
         "1. Mettre en place le poste de travail - 5 min",
         "2. Mettre à macérer le salpicon de fruits confits dans du kirsch - 2 min",
         "3. Confectionner l’appareil à crème prise sucrée - 15 min",

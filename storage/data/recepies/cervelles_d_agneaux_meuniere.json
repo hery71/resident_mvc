@@ -1,7 +1,7 @@
 {
     "file_name": "cervelles_d_agneaux_meuniere.json",
     "titre": "CERVELLES D’AGNEAUX «MEUNIÈRE»",
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "cervelles d’agneau",
@@ -62,9 +62,8 @@
                 "quantite": 0.02,
                 "unite": "kg"
             }
-        ]
-    },
-    "technique": [
+       ],
+  "technique_de_realisation": [
         "(Selon la réglementation)",
         "1. Préparer les cervelles (voir p. 235)",
         "• Dégorger 16 cervelles d’agneau à l’eau courante très froide.",

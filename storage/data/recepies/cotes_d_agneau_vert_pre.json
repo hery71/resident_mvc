@@ -1,7 +1,7 @@
 {
   "titre": "CÔTES D’AGNEAU VERT-PRÉ",
   "type": "Viandes grillées",
-  "denrees_pour_8_couverts": {
+  "pax":8,
     "elements_de_base": [
       {
         "nom": "2 carrés d’agneau couverts de 8 côtes chacun",
@@ -71,8 +71,7 @@
         "quantite": "PM",
         "unite": ""
       }
-    ]
-  },
+    ],
   "technique_de_realisation": [
     "1. Mettre en place le poste de travail - 5 min.",
     "Denrées, matériels de préparation, de cuisson et de dressage.",

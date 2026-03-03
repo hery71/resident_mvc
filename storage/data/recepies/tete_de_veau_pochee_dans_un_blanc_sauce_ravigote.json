@@ -1,7 +1,7 @@
 {
     "file_name": "tete_de_veau_pochee_dans_un_blanc_sauce_ravigote.json",
     "titre": "TÊTE DE VEAU POCHÉE DANS UN BLANC SAUCE RAVIGOTE",
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "tête de veau",
@@ -89,9 +89,8 @@
                 "quantite": 0.02,
                 "unite": "l"
             }
-        ]
-    },
-    "technique": [
+       ],
+  "technique_de_realisation": [
         "1. Blanchir la tête de veau",
         "• La placer dans un rondeau haut ou dans une grande russe.",
         "• Couvrir d’eau froide, porter à ébullition et blanchir durant quelques minutes.",

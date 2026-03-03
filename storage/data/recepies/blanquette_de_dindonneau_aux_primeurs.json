@@ -1,7 +1,7 @@
 {
   "titre": "BLANQUETTE DE DINDONNEAU AUX PRIMEURS",
   "type": "Viandes pochées",
-  "denrees_pour_8_couverts": {
+  "pax":8,
     "elements_de_base": [
       {
         "nom": "rouelles de dindonneau",
@@ -52,8 +52,7 @@
         "quantite": "PM",
         "unite": ""
       }
-    ]
-  },
+    ],
   "technique_de_realisation": [
     "1. Réaliser une blanquette selon la recette de base ci‑contre.",
     "Utiliser 1,600 kg de rouelles de dindonneau.",

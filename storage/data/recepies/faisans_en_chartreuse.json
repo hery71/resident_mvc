@@ -1,7 +1,7 @@
 {
     "titre": "FAISANS EN CHARTREUSE (PINTADES, PIGEONS, PERDRIX)",
     "page": 875,
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "faisans",
@@ -47,9 +47,8 @@
                 "nom": "gelée",
                 "quantite": "PM"
             }
-        ]
-    },
-    "technique": [
+       ],
+  "technique_de_realisation": [
         "1. Préparer les faisans",
         "• Habiller, brider et barder les deux faisans.",
         "• Les colorer au four à 220/240 °C durant 20 min.",

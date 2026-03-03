@@ -2,7 +2,7 @@
     "titre": "Œufs frits tyrolienne",
     "type": "Hors-d'œuvre chauds à base d'œufs",
     "description": "Œufs frits à l'huile, servis sur un lit de sauce tomate, accompagnés de tomates et oignons frits, persil frit et éventuellement lardons ou bacon grillé. Présentation colorée avec garniture croustillante.",
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "œufs extra-frais",

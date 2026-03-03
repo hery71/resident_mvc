@@ -3,7 +3,7 @@
     "bandeau": "Lapins en ragoût à brun et à blanc",
     "fiche": 121,
     "page": 870,
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "2 lapereaux d’1 kg chacun",
@@ -74,9 +74,8 @@
                 "nom": "poivre du moulin",
                 "quantite": "PM"
             }
-        ]
-    },
-    "technique": [
+       ],
+  "technique_de_realisation": [
         "1. Mettre en place le poste de travail - 5 min",
         "• Denrées, matériels de préparation, de cuisson et de dressage.",
         "2. Découper et parer les lapereaux - 10 min",

@@ -4,7 +4,7 @@
     "page": 684,
     "fiche": "33",
     "description": "Petits morceaux de cervelle d'agneau pochés, marinés, enrobés de pâte à frire, puis frits. Ils sont servis accompagnés de persil frit et de sauce tomate.",
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "cervelle d'agneau",

@@ -1,0 +1,199 @@
+{
+    "titre": "ENTREMETS FAÇON TIRAMISU",
+    "type": "Entremets au fromage blanc",
+    "page": 970,
+    "fiche": 169,
+    "pax":8,
+        "Génoise": [
+            {
+                "nom": "œufs entiers (3 pièces)",
+                "unite": "kg",
+                "quantite": "0,170"
+            },
+            {
+                "nom": "sucre semoule",
+                "unite": "kg",
+                "quantite": "0,100"
+            },
+            {
+                "nom": "farine",
+                "unite": "kg",
+                "quantite": "0,100"
+            }
+        ],
+        "Chemisage": [
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": "0,020"
+            },
+            {
+                "nom": "farine",
+                "unite": "kg",
+                "quantite": "0,020"
+            }
+        ],
+        "Sirop de punchage": [
+            {
+                "nom": "eau",
+                "unite": "l",
+                "quantite": "0,10"
+            },
+            {
+                "nom": "sucre",
+                "unite": "kg",
+                "quantite": "0,080"
+            },
+            {
+                "nom": "café lyophilisé",
+                "unite": "kg",
+                "quantite": "0,010"
+            },
+            {
+                "nom": "amaretto",
+                "unite": "l",
+                "quantite": "0,02"
+            },
+            {
+                "nom": "cannelle",
+                "unite": "kg",
+                "quantite": "PM"
+            }
+        ],
+        "Appareil à bombe": [
+            {
+                "nom": "œufs (4 jaunes)",
+                "unite": "kg",
+                "quantite": "0,080"
+            },
+            {
+                "nom": "sucre morceaux",
+                "unite": "kg",
+                "quantite": "0,050"
+            },
+            {
+                "nom": "eau",
+                "unite": "l",
+                "quantite": "0,02"
+            }
+        ],
+        "Crème fouettée": [
+            {
+                "nom": "crème liquide",
+                "unite": "l",
+                "quantite": "0,40"
+            },
+            {
+                "nom": "sucre semoule",
+                "unite": "kg",
+                "quantite": "0,040"
+            }
+        ],
+        "Lait collé": [
+            {
+                "nom": "lait",
+                "unite": "l",
+                "quantite": "0,08"
+            },
+            {
+                "nom": "gélatine (4 feuilles)",
+                "unite": "kg",
+                "quantite": "0,008"
+            },
+            {
+                "nom": "mascarpone",
+                "unite": "kg",
+                "quantite": "0,400"
+            }
+        ],
+        "Crème anglaise": [
+            {
+                "nom": "lait",
+                "unite": "l",
+                "quantite": "1/2"
+            },
+            {
+                "nom": "œufs (4 jaunes)",
+                "unite": "kg",
+                "quantite": "0,080"
+            },
+            {
+                "nom": "sucre semoule",
+                "unite": "kg",
+                "quantite": "0,100"
+            },
+            {
+                "nom": "café (extrait liquide)",
+                "unite": "l",
+                "quantite": "PM"
+            },
+            {
+                "nom": "café lyophilisé",
+                "unite": "kg",
+                "quantite": "0,010"
+            }
+        ],
+        "Finition": [
+            {
+                "nom": "cacao en poudre",
+                "unite": "kg",
+                "quantite": "0,010"
+            },
+            {
+                "nom": "grains de café liqueur",
+                "unite": "pièce",
+                "quantite": "8"
+            }
+        ],
+  "technique_de_realisation": [
+        "1. Mettre en place le poste de travail - 5 min",
+        "• Contrôler, peser et mesurer les denrées.",
+        "",
+        "2. Réaliser la génoise - 20 min (voir p. 514)",
+        "• La réaliser dans un cercle à entremets de 22 cm de diamètre.",
+        "",
+        "3. Réaliser le sirop de punchage à 1.2624 D (30 °B) - 3 min",
+        "• Faire bouillir l’eau avec le sucre.",
+        "• Ajouter le café lyophilisé puis l’amaretto après refroidissement.",
+        "",
+        "4. Réaliser l’appareil à bombe - 10 min",
+        "• Cuire le sucre à 120 °C (observer les précautions citées p. 581).",
+        "• Clarifier les œufs et déposer les jaunes dans la cuve d’un petit batteur mélangeur.",
+        "• Verser petit à petit le sucre cuit sur les jaunes en évitant de laver sur les branches du fouet.",
+        "• Travailler l’appareil jusqu’à son complet refroidissement.",
+        "",
+        "5. Coller le lait - 2 min",
+        "• Tremper la gélatine dans l’eau froide.",
+        "• Chauffer le lait à 65/70 °C.",
+        "• Éponger soigneusement la gélatine et l’incorporer dans le lait chaud.",
+        "",
+        "6. Monter la crème Chantilly - 5 min (voir p. 541)",
+        "• La sucrer et ne pas trop la serrer (la monter aux 9/10ème).",
+        "",
+        "7. Réaliser l’assemblage - 10 min",
+        "• Placer le mascarpone dans une grande calotte.",
+        "• Incorporer progressivement le lait collé et refroidi.",
+        "• Lisser au fouet.",
+        "• Incorporer délicatement l’appareil à bombe puis la crème fouettée.",
+        "• Soulever délicatement l’appareil pour ne pas le faire retomber.",
+        "• Prélever un peu d’appareil pour le décor final et le réserver en enceinte réfrigérée.",
+        "",
+        "8. Réaliser le montage en cercle à entremets - 10 min",
+        "• Détailler transversalement la génoise en trois disques de même épaisseur.",
+        "• Placer un carton au fond du cercle à entremets.",
+        "• Puncher avec le sirop.",
+        "• Verser un tiers de l’appareil, lisser puis appliquer le deuxième disque de génoise.",
+        "• Puncher copieusement, ajouter le 2ème tiers de l’appareil, lisser à nouveau et appliquer le 3ème disque de génoise, puncher copieusement à nouveau et terminer de remplir le cercle avec le reste de l’appareil.",
+        "• Lisser soigneusement.",
+        "• Décorer le dessus de l’entremets avec l’appareil réservé à cet effet à l’aide d’une poche munie d’une douille.",
+        "• Réserver en enceinte réfrigérée.",
+        "",
+        "9. Réaliser la crème anglaise - 15 min (voir p. 544/546)",
+        "• La parfumer au café (extrait liquide et lyophilisé).",
+        "",
+        "10. Dresser l’entremets - 2 min",
+        "• Le saupoudrer sans excès avec le cacao puis le disposer sur un plat rond recouvert d’un papier dentelle.",
+        "• Appliquer les grains de café liqueur pour déterminer les portions.",
+        "• Dresser la crème anglaise au café à part en saucière."
+    ]
+}

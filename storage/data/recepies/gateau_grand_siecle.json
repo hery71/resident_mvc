@@ -2,7 +2,7 @@
     "titre": "GÂTEAU GRAND SIÈCLE",
     "type": "Dessert",
     "page": 945,
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "genoise": [
             {
                 "nom": "sucre semoule",
@@ -76,9 +76,8 @@
                 "nom": "framboises fraîches",
                 "quantite": "PM"
             }
-        ]
-    },
-    "technique": [
+       ],
+  "technique_de_realisation": [
         "1. Mettre en place le poste de travail",
         "2. Réaliser 4 œufs de génoise",
         "3. Réaliser 0,15 l de sirop de punchage",

@@ -3,7 +3,7 @@
     "bandeau": "Pommes de terre cuites à l’anglaise ou à la vapeur",
     "page": 884,
     "type": "Accompagnement",
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "pommes de terre à chair ferme (Belle de Fontenay, B.F. 15, Charlotte, Roseval, Ratte…)",
@@ -21,9 +21,8 @@
                 "nom": "gros sel",
                 "quantite": "PM"
             }
-        ]
-    },
-    "technique": [
+       ],
+  "technique_de_realisation": [
         "1. Mettre en place le poste de travail - 5 min",
         "• Denrées, matériels de préparation, de cuisson et de dressage.",
         "2. Éplucher et laver les pommes de terre - 10 min (voir p. 125)",

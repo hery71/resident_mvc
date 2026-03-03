@@ -4,7 +4,7 @@
     "bandeau": "Ragoûts de volaille à blanc",
     "page": 864,
     "description": "Morceaux de poulet cuits dans une sauce crémée à base de fond blanc de volaille, accompagnés d’une garniture composée de petits oignons glacés à blanc et de petits champignons cuits à blanc.",
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "poulets labellisés (2 x 1,200 à 1,400 kg)",
@@ -118,9 +118,8 @@
                 "nom": "poivre du moulin",
                 "quantite": "PM"
             }
-        ]
-    },
-    "technique": [
+       ],
+  "technique_de_realisation": [
         "1. Mettre en place le poste de travail - 5 min",
         "2. Habiller et découper les poulets - 30 min (voir p. 237/240 et 246/248)",
         "3. Marquer le fond blanc de volaille - 10 min",

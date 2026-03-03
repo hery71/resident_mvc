@@ -3,7 +3,7 @@
     "type": "Hors-d'œuvre chauds à base de pâte feuilletée",
     "page": 674,
     "fiche": "28",
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "pâte feuilletée (fraîche, plaque)",

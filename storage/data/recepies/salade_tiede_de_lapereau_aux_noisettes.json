@@ -3,7 +3,7 @@
   "fiche": "24",
   "titre": "SALADE TIÈDE DE LAPEREAU AUX NOISETTES",
   "type": "Salades composées servies tièdes",
-  "denrees_pour_8_couverts": {
+  "pax":8,
     "elements_de_base": [
       {
         "nom": "râble de lapereaux farcis*",

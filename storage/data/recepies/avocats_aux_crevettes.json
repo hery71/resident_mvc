@@ -2,7 +2,7 @@
   "page": "656",
   "titre": "AVOCATS AUX CREVETTES",
   "type": "Hors-d’œuvre froids à base de légumes farcis",
-  "denrees_pour_8_couverts": {
+  "pax":8,
     "elements_de_base": [
       {
         "nom": "avocats mûrs à point",

@@ -1,7 +1,7 @@
 {
     "file_name": "petit_ragout_de_rognons_et_de_ris_de_veau_aux_champignons_sauvages.json",
     "titre": "PETIT «RAGOÛT» DE ROGNONS ET DE RIS DE VEAU AUX CHAMPIGNONS SAUVAGES",
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "ris de veau",
@@ -64,9 +64,8 @@
                 "quantite": "PM",
                 "unite": ""
             }
-        ]
-    },
-    "technique": [
+       ],
+  "technique_de_realisation": [
         "(Selon la réglementation)",
         "1. Préparer les abats",
         "• Dégorger, blanchir fortement, rafraîchir, parer et mettre sous presse 0,250 kg de ris de veau de 0,250 kg chacun (voir p. 233).",

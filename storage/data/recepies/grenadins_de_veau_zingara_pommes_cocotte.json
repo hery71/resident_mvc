@@ -3,7 +3,7 @@
     "titre": "GRENADINS DE VEAU ZINGARA POMMES COCOTTE",
     "bandeau": "Viandes braisées à brun",
     "page": 828,
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "grenadins de veau (8 x 0,150 kg) ou noix de veau",
@@ -128,9 +128,8 @@
                 "unite": "",
                 "quantite": "PM"
             }
-        ]
-    },
-    "technique": [
+       ],
+  "technique_de_realisation": [
         "1. Mettre en place le poste de travail - 5 min",
         "• Denrées, matériels de préparation, de cuisson et de dressage.",
         "2. Préparer les bâtonnets de lard gras - 5 min",

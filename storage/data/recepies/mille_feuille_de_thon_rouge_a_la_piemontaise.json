@@ -2,7 +2,7 @@
     "titre": "Mille-feuille de thon rouge à la piémontaise",
     "type": "Hors-d'œuvre chauds à base de feuilles de brick",
     "description": "Superposition de disques de brick dorés au four, intercalés avec des tranches de thon rouge saisi, une piperade de poivrons et tomates, et une sauce légère au vinaigre balsamique réduit. Dressage en mille-feuille harmonieux, servi chaud.",
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "thon rouge (filet frais, sans peau ni arêtes)",

@@ -1,0 +1,180 @@
+{
+    "titre": "ENTREMETS FAÇON FORÊT NOIRE",
+    "type": "Entremets au chocolat",
+    "page": 974,
+    "fiche": 172,
+    "pax":8,
+        "Génoise": [
+            {
+                "nom": "œufs entiers (4 pièces)",
+                "unite": "kg",
+                "quantite": "0,220"
+            },
+            {
+                "nom": "sucre semoule",
+                "unite": "kg",
+                "quantite": "0,125"
+            },
+            {
+                "nom": "farine",
+                "unite": "kg",
+                "quantite": "0,100"
+            },
+            {
+                "nom": "cacao en poudre",
+                "unite": "kg",
+                "quantite": "0,025"
+            }
+        ],
+        "Chemisage": [
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": "0,020"
+            },
+            {
+                "nom": "farine",
+                "unite": "kg",
+                "quantite": "0,020"
+            }
+        ],
+        "Sirop de punchage": [
+            {
+                "nom": "eau",
+                "unite": "l",
+                "quantite": "0,10"
+            },
+            {
+                "nom": "sucre",
+                "unite": "kg",
+                "quantite": "0,070"
+            },
+            {
+                "nom": "cacao en poudre",
+                "unite": "kg",
+                "quantite": "0,010"
+            },
+            {
+                "nom": "liqueur à base d’oranges",
+                "unite": "l",
+                "quantite": "0,04"
+            }
+        ],
+        "Crème fouettée au chocolat": [
+            {
+                "nom": "crème liquide",
+                "unite": "l",
+                "quantite": "0,40"
+            },
+            {
+                "nom": "couverture",
+                "unite": "kg",
+                "quantite": "0,200"
+            }
+        ],
+        "Garniture": [
+            {
+                "nom": "griottines ou cerises dénoyautées à l’eau-de-vie",
+                "unite": "kg",
+                "quantite": "0,160"
+            }
+        ],
+        "Copeaux": [
+            {
+                "nom": "couverture",
+                "unite": "kg",
+                "quantite": "0,160"
+            },
+            {
+                "nom": "ou couverture",
+                "unite": "kg",
+                "quantite": "0,140"
+            },
+            {
+                "nom": "huile de noix ou de noisettes ou d’amandes (1/15ème du poids de la couverture)",
+                "unite": "l",
+                "quantite": "0,020"
+            }
+        ],
+        "Crème Chantilly": [
+            {
+                "nom": "crème liquide à 35 %",
+                "unite": "l",
+                "quantite": "0,30"
+            },
+            {
+                "nom": "sucre glace",
+                "unite": "kg",
+                "quantite": "0,020"
+            },
+            {
+                "nom": "vanille (extrait liquide)",
+                "unite": "l",
+                "quantite": "PM"
+            }
+        ],
+        "Finition": [
+            {
+                "nom": "griottines ou cerises à l’eau-de-vie (8 pièces)",
+                "unite": "kg",
+                "quantite": "0,050"
+            }
+        ],
+  "technique_de_realisation": [
+        "Adaptation simplifiée :",
+        "",
+        "1. Mettre en place le poste de travail - 5 min",
+        "• Denrées, matériels de préparation, de cuisson et de dressage.",
+        "",
+        "2. Réaliser la génoise au cacao - 20 min (voir p. 514/518)",
+        "• Mélanger la farine et le cacao puis tamiser l’ensemble.",
+        "• Monter les œufs entiers avec le sucre au bain-marie puis finir le montage hors du feu jusqu’à son complet refroidissement.",
+        "• Incorporer très délicatement le mélange farine/cacao et cuire la génoise dans un cercle chemisé à 180/190 °C durant une vingtaine de minutes.",
+        "• Décorder la génoise et la débarrasser sur grille.",
+        "",
+        "3. Réaliser le sirop de punchage - 3 min",
+        "• Faire bouillir durant une minute l’eau, le sucre et le cacao ou, si une liqueur ou un alcool est utilisé, l’ajouter après le refroidissement du sirop.",
+        "",
+        "4. Réaliser la crème fouettée au chocolat - 15 min",
+        "• Découper la couverture en parcelles et la faire fondre au bain-marie.",
+        "• Monter la crème, ne pas trop la serrer, elle doit rester lisse.",
+        "• Incorporer le chocolat fondu tiède (40 °C - pour ne pas la bloquer), puis verser le mélange sur le reste de la crème fouettée.",
+        "• Lisser au fouet, corner la calotte et réserver.",
+        "",
+        "5. Égoutter les griottines ou les cerises dénoyautées à l’eau-de-vie.",
+        "",
+        "6. Monter l’entremets - 10 min (voir p. 518/519)",
+        "• Séparer la génoise au cacao en trois disques réguliers.",
+        "• Placer le premier disque sur le carton à entremets.",
+        "• Le fixer avec un peu de crème.",
+        "• Puncher à l’aide d’un pinceau, et masquer le fond de l’entremets avec une couche épaisse de crème fouettée au chocolat.",
+        "• Répartir les griottines régulièrement.",
+        "• Appliquer le deuxième disque de génoise, le puncher et le recouvrir également d’une couche épaisse de crème fouettée au chocolat.",
+        "• Appliquer le dernier disque de génoise et le puncher avec le reste du sirop.",
+        "• Filmer l’entremets et le raffermir en enceinte réfrigérée.",
+        "",
+        "7. Réaliser les copeaux de chocolat - 10 min",
+        "Méthode simple :",
+        "• Gratter la plaque de chocolat à l’aide d’un couteau éminceur ou d’un emporte-pièce.",
+        "Méthode plus complexe :",
+        "• Fondre la couverture au bain-marie et lui ajouter le 1/15ème de son poids en huile.",
+        "• Chauffer à 40/50 °C une grande plaque à pâtisserie en acier inoxydable et la masquer à l’envers d’une couche très fine de chocolat huilé fondu (la plaque chauffée peut être directement frottée avec le pain de chocolat).",
+        "• Faire prendre en enceinte réfrigérée.",
+        "• Former les copeaux à l’aide d’un triangle dès que la consistance du chocolat le permet.",
+        "• Réserver les copeaux.",
+        "",
+        "8. Monter la crème Chantilly - 10 min",
+        "• La serrer avec le sucre, corner la calotte et la réserver.",
+        "",
+        "9. Masquer et décorer l’entremets - 8 min",
+        "• Le masquer entièrement avec la crème Chantilly.",
+        "• Appliquer les copeaux de chocolat sur le pourtour.",
+        "• Former huit rosaces de crème Chantilly sur le dessus et appliquer au centre de chaque rosace une cerise à l’eau-de-vie.",
+        "",
+        "10. Dresser la forêt noire - 2 min",
+        "• Disposer l’entremets sur un grand plat rond recouvert d’une feuille de papier dentelle.",
+        "",
+        "REMARQUE :",
+        "• Initialement la forêt noire se réalisait à partir d’un appareil à biscuit au cacao couché à la poche, monté en cercle et garni d’une crème au beurre au chocolat, et réalisé aux œufs entiers et crème Chantilly. La version proposée plus simplifiée s’adresse principalement aux niveaux 4 et 5."
+    ]
+}

@@ -3,7 +3,7 @@
     "type": "Dessert",
     "bandeau": "Entremets froids de cuisine à base de pulpe de fruits et de sirop collé (bavarois au sirop)",
     "page": 928,
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "appareil_a_biscuits": [
             {
                 "nom": "œufs (5 jaunes)",
@@ -122,9 +122,8 @@
                 "unite": "kg",
                 "quantite": "0,020"
             }
-        ]
-    },
-    "technique": [
+       ],
+  "technique_de_realisation": [
         "1. Mettre en place le poste de travail - 5 min",
         "• Denrées, matériels de préparation, de cuisson et de dressage.",
         "• Nettoyer puis rafraîchir les boîtes de poires en enceinte réfrigérée.",

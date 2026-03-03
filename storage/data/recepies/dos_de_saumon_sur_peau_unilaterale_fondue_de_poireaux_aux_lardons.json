@@ -1,7 +1,7 @@
 {
   "titre": "DOS DE SAUMON SUR PEAU À L’UNILATÉRALE, FONDUE DE POIREAUX AUX LARDONS",
   "page": 755,
-  "denrees_pour_8_couverts": {
+  "pax":8,
     "Éléments de base": [
       {
         "nom": "dos de saumon",
@@ -93,8 +93,7 @@
         "quantite": "PM",
         "unite": ""
       }
-    ]
-  },
+    ],
   "technique_de_realisation": [
     "1. Mettre en place le poste de travail",
     "2. Habiller un petit saumon de 2 kg à 2,200 kg, l’écailler soigneusement.",

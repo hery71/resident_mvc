@@ -2,7 +2,7 @@
     "titre": "BÛCHE DE NOËL",
     "type": "Dessert",
     "page": 947,
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "genoise": [
             {
                 "nom": "appareil à génoise",
@@ -54,9 +54,8 @@
                 "nom": "amandes grillées",
                 "quantite": "PM"
             }
-        ]
-    },
-    "technique": [
+       ],
+  "technique_de_realisation": [
         "1. Mettre en place le poste de travail",
         "2. Réaliser 4 œufs de génoise",
         "• Cuire sur plaque chemisée de papier sulfurisé.",

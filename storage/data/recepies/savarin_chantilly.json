@@ -1,0 +1,185 @@
+{
+    "titre": "SAVARIN CHANTILLY",
+    "type": "Dessert",
+    "page": 968,
+    "fiche": 168,
+    "pax":8,
+        "Pâte à savarin": [
+            {
+                "nom": "farine type 45",
+                "unite": "kg",
+                "quantite": "0,200"
+            },
+            {
+                "nom": "levure de bière",
+                "unite": "kg",
+                "quantite": "0,010"
+            },
+            {
+                "nom": "eau",
+                "unite": "l",
+                "quantite": "0,08"
+            },
+            {
+                "nom": "sel fin",
+                "unite": "kg",
+                "quantite": "0,004"
+            },
+            {
+                "nom": "sucre semoule",
+                "unite": "kg",
+                "quantite": "0,020"
+            },
+            {
+                "nom": "œufs entiers (2 pièces)",
+                "unite": "kg",
+                "quantite": "0,110"
+            },
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": "0,080 à 0,100"
+            }
+        ],
+        "Beurre (pour le moule)": [
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": "0,020"
+            }
+        ],
+        "Sirop à 1.1247 D ou 16 B": [
+            {
+                "nom": "eau",
+                "unite": "l",
+                "quantite": "0,40"
+            },
+            {
+                "nom": "sucre semoule",
+                "unite": "kg",
+                "quantite": "0,250"
+            },
+            {
+                "nom": "zeste d’orange ou de citron",
+                "unite": "kg",
+                "quantite": "PM"
+            },
+            {
+                "nom": "vanille",
+                "unite": "gousse",
+                "quantite": "1/2"
+            },
+            {
+                "nom": "rhum ou kirsch (selon la garniture)",
+                "unite": "l",
+                "quantite": "0,10"
+            }
+        ],
+        "Finition": [
+            {
+                "nom": "nappage abricot",
+                "unite": "kg",
+                "quantite": "0,140"
+            }
+        ],
+        "Crème Chantilly": [
+            {
+                "nom": "crème liquide",
+                "unite": "l",
+                "quantite": "0,40"
+            },
+            {
+                "nom": "sucre glace",
+                "unite": "kg",
+                "quantite": "0,040"
+            },
+            {
+                "nom": "vanille (extrait liquide)",
+                "unite": "l",
+                "quantite": "PM"
+            }
+        ],
+        "Décor": [
+            {
+                "nom": "bigarreaux confits",
+                "unite": "kg",
+                "quantite": "0,020"
+            },
+            {
+                "nom": "angélique",
+                "unite": "kg",
+                "quantite": "0,020"
+            },
+            {
+                "nom": "grains de mimosa",
+                "unite": "kg",
+                "quantite": "0,010"
+            },
+            {
+                "nom": "violettes",
+                "unite": "kg",
+                "quantite": "0,010"
+            },
+            {
+                "nom": "amandes effilées",
+                "unite": "kg",
+                "quantite": "0,010"
+            }
+        ],
+  "technique_de_realisation": [
+        "1. Mettre en place le poste de travail - 5 min",
+        "• Denrées, matériels de préparation, de cuisson et de dressage.",
+        "",
+        "2. Confectionner la pâte à savarin - 30 min (voir p. 528/531)",
+        "• Tamiser la farine dans une calotte en inox.",
+        "• La mettre en fontaine.",
+        "• Délayer la levure de bière avec un peu d’eau tiède.",
+        "• Disposer dans la fontaine les œufs battus et tempérés, puis la levure.",
+        "• Placer le sucre et le sel sur la farine à l’extérieur de la fontaine.",
+        "• Délayer du bout des doigts la farine, l’eau, la levure et les œufs.",
+        "• Incorporer d’un mouvement plus rapide de la main des quantités plus importantes de farine.",
+        "• Battre vigoureusement la pâte contre la paroi de la calotte en soulevant le mélange dans la masse.",
+        "• Donner le plus de corps possible à la pâte, elle doit se détacher de la calotte et ne plus adhérer à la main.",
+        "• Rassembler la pâte au centre de la calotte à l’aide d’une corne.",
+        "• Ajouter le beurre ramolli et découper en parcelles.",
+        "• Couvrir la calotte avec un linge humide et laisser pointer la pâte dans un endroit tiède pendant une trentaine de minutes.",
+        "",
+        "3. Confectionner le sirop - 5 min (voir p. 578)",
+        "• Réunir dans une russe l’eau, le sucre, les zestes d’orange ou de citron et la demi-gousse de vanille.",
+        "• Porter à ébullition durant quelques minutes.",
+        "• Écumer si nécessaire et réserver le sirop chaud.",
+        "",
+        "4. Beurrer copieusement le moule à savarin - 2 min",
+        "",
+        "5. Terminer la pâte à savarin - 10 min",
+        "• Incorporer le beurre et travailler à nouveau afin de lui redonner du corps.",
+        "• Remplir le moule aux 2/3 de sa hauteur et laisser pointer à nouveau dans un endroit tiède.",
+        "",
+        "6. Confectionner la crème Chantilly - 10 min (voir p. 541/543)",
+        "• La réserver au frais.",
+        "",
+        "7. Marquer le savarin en cuisson - 3 min",
+        "• Cuire le savarin au four à 200 °C pendant 25 à 30 min environ.",
+        "",
+        "8. Chauffer le nappage abricot - 5 min",
+        "• Dans une petite sauteuse, le détendre avec un peu de sirop si nécessaire.",
+        "",
+        "9. Imbiber le savarin - 5 min (voir p. 537)",
+        "• S’assurer de sa cuisson, puis le démouler sur la grille d’une candissoire.",
+        "• Parfumer le sirop avec les 2/3 du rhum.",
+        "• Imbiber le savarin avec le sirop au rhum à l’aide d’une petite louche.",
+        "• Répéter plusieurs fois l’action afin d’imprégner correctement le savarin.",
+        "• Imbiber le savarin avec le reste du rhum pur.",
+        "",
+        "10. Abricoter le savarin - 5 min",
+        "• Avec le nappage bouillant, à l’aide d’un pinceau.",
+        "",
+        "11. Dresser le savarin - 5 min",
+        "• Glisser délicatement le savarin dans le plat de service.",
+        "• Le garnir avec la crème Chantilly à l’aide d’une poche munie d’une douille cannelée.",
+        "• Décorer harmonieusement avec des fruits confits, des amandes effilées, des violettes ou des grains de mimosa.",
+        "",
+        "REMARQUE :",
+        "• Un sirop trop concentré pénètre mal les savarins. Un sirop trop léger les traverse rapidement et les savarins sèchent très vite. Utiliser un sirop chaud pour les savarins froids ou rassies, un sirop tiède pour les savarins frais ou encore chauds."
+    ]
+}

@@ -1,0 +1,97 @@
+{
+    "titre": "TULIPES DE FRAISES ROMANOFF",
+    "type": "Dessert glacé",
+    "page": 992,
+    "pax":8,
+        "Fraises Romanoff": [
+            {
+                "nom": "fraises très parfumées",
+                "unite": "kg",
+                "quantite": "0,800"
+            },
+            {
+                "nom": "sucre",
+                "unite": "kg",
+                "quantite": "0,050"
+            },
+            {
+                "nom": "curaçao ou Cointreau",
+                "unite": "l",
+                "quantite": "0,08"
+            },
+            {
+                "nom": "jus de citron",
+                "unite": "l",
+                "quantite": "PM"
+            },
+            {
+                "nom": "zestes d’agrumes",
+                "unite": "kg",
+                "quantite": "PM"
+            }
+        ],
+        "Tulipes (appareil à cigarettes)": [
+            {
+                "nom": "beurre doux",
+                "unite": "kg",
+                "quantite": "0,100"
+            },
+            {
+                "nom": "sucre glace",
+                "unite": "kg",
+                "quantite": "0,100"
+            },
+            {
+                "nom": "blancs d’œufs (3 pièces / 0,100 kg)",
+                "unite": "kg",
+                "quantite": "0,100"
+            },
+            {
+                "nom": "farine",
+                "unite": "kg",
+                "quantite": "0,085"
+            }
+        ],
+        "Crème fouettée": [
+            {
+                "nom": "crème liquide",
+                "unite": "l",
+                "quantite": "0,40"
+            },
+            {
+                "nom": "sucre glace",
+                "unite": "kg",
+                "quantite": "0,040"
+            }
+        ],
+        "Décor": [
+            {
+                "nom": "menthe fraîche",
+                "unite": "botte",
+                "quantite": "PM"
+            }
+        ],
+    "technique_de_realisation": [
+        "1. Mettre en place le poste de travail",
+        "",
+        "2. Laver, égoutter et équeuter 0,800 kg de fraises très parfumées.",
+        "• Les mettre à macérer durant deux heures en enceinte réfrigérée avec 0,050 kg de sucre et 0,08 l de curaçao ou Cointreau.",
+        "• Arroser de quelques gouttes de jus de citron et de quelques brisures de zestes.",
+        "",
+        "3. Réaliser 8 tulipes en appareil à cigarettes",
+        "• Crémer 0,100 kg de beurre doux avec 0,100 kg de sucre glace.",
+        "• Ajouter progressivement trois blancs d’œufs (0,100 kg) puis 0,085 kg de farine.",
+        "• Dresser des disques de pâte d’environ 15 cm de diamètre sur une plaque beurrée (éventuellement farinée).",
+        "• Étaler la pâte à l’aide d’un rouleau ou d’une cuillère à l’aide d’un pinceau.",
+        "• Cuire au four puis former immédiatement dans de petits moules à brioche.",
+        "",
+        "4. Monter 0,40 l de crème liquide",
+        "• La sucrer avec 0,040 kg de sucre glace.",
+        "",
+        "5. Dresser les tulipes de fraises Romanoff",
+        "• Garnir les tulipes avec les plus petites fraises.",
+        "• Les surmonter d’une belle rosace de crème Chantilly.",
+        "• Émincer le plus grosses fraises et les disposer tout autour.",
+        "• Surmonter la crème Chantilly d’une petite branche de menthe fraîchement cueillie."
+    ]
+}

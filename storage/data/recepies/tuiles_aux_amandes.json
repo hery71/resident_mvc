@@ -1,0 +1,67 @@
+{
+    "titre": "TUILES AUX AMANDES",
+    "type": "Petit four sec",
+    "page": 997,
+    "denrees_pour_60_tuiles_environ": {
+        "Éléments de base": [
+            {
+                "nom": "amandes effilées ou concassées",
+                "unite": "kg",
+                "quantite": "0,200"
+            },
+            {
+                "nom": "sucre glace ou sucre semoule",
+                "unite": "kg",
+                "quantite": "0,200"
+            },
+            {
+                "nom": "farine type 55",
+                "unite": "kg",
+                "quantite": "0,050"
+            },
+            {
+                "nom": "œufs entiers (2 pièces)",
+                "unite": "kg",
+                "quantite": "0,110"
+            },
+            {
+                "nom": "œufs (2 blancs)",
+                "unite": "kg",
+                "quantite": "0,066"
+            },
+            {
+                "nom": "beurre",
+                "unite": "kg",
+                "quantite": "0,050"
+            },
+            {
+                "nom": "vanille",
+                "unite": "kg",
+                "quantite": "PM"
+            },
+            {
+                "nom": "beurre pour les plaques",
+                "unite": "kg",
+                "quantite": "0,040"
+            }
+        ],
+  "technique_de_realisation": [
+        "1. Mettre en place le poste de travail",
+        "• Peser, mesurer et contrôler les denrées.",
+        "",
+        "2. Réaliser l’appareil",
+        "• Réunir dans une calotte les amandes, le sucre et la farine tamisée.",
+        "• Ajouter les œufs légèrement battus à la fourchette.",
+        "• Mélanger le tout délicatement à l’aide d’une spatule en exoglass.",
+        "• Ajouter quelques gouttes d’extrait de vanille et le beurre fondu refroidi.",
+        "• Le mélange du beurre fondu doit être réalisé seulement au moment de l’utilisation, il protège l’appareil et évite le dessèchement en surface.",
+        "• Couvrir la calotte et laisser reposer l’appareil une trentaine de minutes.",
+        "• Nettoyer soigneusement les plaques à pâtisserie et les beurrer légèrement avec un pinceau.",
+        "• Disposer en quinconce à l’aide d’une cuillère, une vingtaine de petits tas d’appareil par plaque.",
+        "• Les aplatir à l’aide d’une fourchette mouillée.",
+        "• Bien répartir la forme et répartir uniformément les amandes.",
+        "• Cuire les tuiles au four à 220 °C.",
+        "• Les décoller et les retourner à l’aide d’un triangle, puis les courber immédiatement dans une gouttière.",
+        "• Les réserver dans une boîte hermétique à l’abri de l’humidité."
+    ]
+}

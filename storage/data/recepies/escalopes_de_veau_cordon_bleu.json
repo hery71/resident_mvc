@@ -1,7 +1,7 @@
 {
   "titre": "ESCALOPES DE VEAU « CORDON BLEU »",
   "type": "Viandes sautées et panées",
-  "denrees_pour_8_couverts": {
+  "pax":8,
     "elements_de_base": [
       {
         "nom": "escalopes de veau (8 pièces de 0,060 à 0,070 kg)",
@@ -57,8 +57,7 @@
         "quantite": "PM",
         "unite": ""
       }
-    ]
-  },
+    ],
   "technique_de_realisation": [
     "1. Préparer les escalopes.",
     "Détailler 16 petites escalopes de 0,060 à 0,070 kg.",

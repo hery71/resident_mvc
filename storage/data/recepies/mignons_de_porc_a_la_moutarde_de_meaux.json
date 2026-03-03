@@ -1,7 +1,7 @@
 {
   "titre": "MIGNONS DE PORC À LA MOUTARDE DE MEAUX",
   "type": "Viandes blanches sautées",
-  "denrees_pour_8_couverts": {
+  "pax":8,
     "elements_de_base": [
       {
         "nom": "filets mignons de porc",
@@ -52,8 +52,7 @@
         "quantite": "PM",
         "unite": ""
       }
-    ]
-  },
+    ],
   "technique_de_realisation": [
     "1. Préparer les filets mignons de porc.",
     "Les dégraisser, les dénerver et les détailler en noisettes de 0,050 kg chacune à raison de 3 par personne.",

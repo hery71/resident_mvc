@@ -2,7 +2,7 @@
     "titre": "PETITS POIS PAYSANNE",
     "page": 893,
     "type": "Accompagnement",
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "petits pois",
@@ -43,9 +43,8 @@
                 "nom": "beurre manié",
                 "quantite": "PM"
             }
-        ]
-    },
-    "technique": [
+       ],
+  "technique_de_realisation": [
         "1. Mettre en place le poste de travail",
         "• Détailler 0,250 kg de poitrine de porc demi-sel en petits lardons et les blanchir départ eau froide. Ne pas les rafraîchir et les égoutter soigneusement.",
         "• Éplucher, laver et tourner 0,200 kg de carottes et 0,200 kg de navets.",

@@ -2,7 +2,7 @@
     "titre": "Œufs sur le plat aux foies de volaille",
     "type": "Hors-d'œuvre chauds à base d'œufs",
     "description": "Œufs cuits sur le plat dans de petits plats individuels, accompagnés d'un ragoût de foies de volaille au madère, nappés légèrement et terminés avec persil haché. Jaunes doivent rester coulants, blancs bien pris.",
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "œufs extra-frais",

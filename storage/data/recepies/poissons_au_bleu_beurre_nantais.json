@@ -2,7 +2,7 @@
     "titre": "Poissons au bleu, beurre nantais",
     "type": "Hors-d'œuvre chauds à base de poisson",
     "description": "Poissons entiers (truites, petites carpes, brochets ou saumons de fontaine) cuits au bleu dans un court-bouillon au vinaigre, servis chauds avec beurre nantais (beurre monté sur réduction de vin blanc et échalotes). Dressage avec garniture aromatique (carottes, oignons, persil) et éventuellement pommes vapeur ou légumes.",
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "poissons entiers (truites, carpes, brochets ou saumons de fontaine)",

@@ -2,7 +2,7 @@
     "titre": "Œufs durs farcis Chimay",
     "type": "Hors-d'œuvre chauds à base d'œufs",
     "description": "Œufs durs dont les blancs sont garnis d'une farce à base de jaunes durs hachés, de duxelles de champignons, nappés de sauce Mornay et gratinés au four.",
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "œufs",

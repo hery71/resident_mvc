@@ -4,7 +4,7 @@
     "page": 686,
     "fiche": "34",
     "description": "Crêpes fines farcies d'une duxelles de champignons, d'une sauce crème au jambon de Paris, roulées en ficelles fines, gratinées au four avec gruyère râpé.",
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "pate_a_crepes": [
             {
                 "nom": "farine",

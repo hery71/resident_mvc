@@ -3,7 +3,7 @@
     "type": "Dessert",
     "bandeau": "Entremets froids de cuisine à base de meringue à la française pochée",
     "page": 924,
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "meringue": [
             {
                 "nom": "œufs (8 blancs)",
@@ -41,9 +41,8 @@
                 "unite": "l",
                 "quantite": "1"
             }
-        ]
-    },
-    "technique": [
+       ],
+  "technique_de_realisation": [
         "1. Mettre en place le poste de travail - 5 min",
         "• Denrées, matériels de préparation, de cuisson et de dressage.",
         "2. Confectionner la meringue ordinaire - 10 min",

@@ -1,0 +1,61 @@
+{
+    "titre": "COURONNE AU FROMAGE BLANC ET AUX FRUITS FRAIS",
+    "type": "Entremets",
+    "page": 971,
+    "denrees_extraites_de_la_technique": [
+        {
+            "nom": "appareil à fromage blanc",
+            "quantite": "PM (selon proportions indiquées page suivante)",
+            "unite": ""
+        },
+        {
+            "nom": "couronne à savarin ou à trois frères",
+            "quantite": "1 moule de 22 cm de diamètre",
+            "unite": ""
+        },
+        {
+            "nom": "génoise (disque de 22 cm)",
+            "quantite": "1 disque",
+            "unite": ""
+        },
+        {
+            "nom": "sirop parfumé avec une liqueur à base d’oranges",
+            "quantite": "PM",
+            "unite": ""
+        },
+        {
+            "nom": "framboises pépins",
+            "quantite": "PM (masquer le disque)",
+            "unite": ""
+        },
+        {
+            "nom": "amandes concassées",
+            "quantite": "PM (masquer le pourtour sur 3 cm)",
+            "unite": ""
+        },
+        {
+            "nom": "fruits macérés au sucre et au Grand Marnier (cerises, fraises, framboises, segments d’oranges, kiwis, grappes de groseilles)",
+            "quantite": "PM",
+            "unite": ""
+        },
+        {
+            "nom": "nappage neutre",
+            "quantite": "PM (lustrer les fruits)",
+            "unite": ""
+        }
+    ],
+    "technique_complete": [
+        "1. Réaliser la crème au fromage blanc (selon les proportions page suivante : «Entremets au fromage blanc et aux fruits rouges»).",
+        "• La mouler dans une couronne à savarin ou à trois frères de 22 cm de diamètre.",
+        "• Raffermir à - 18 °C.",
+        "• Détailler un disque de 22 cm dans une feuille de génoise.",
+        "• La déposer sur un carton à entremets et la puncher avec un sirop parfumé avec une liqueur à base d’oranges.",
+        "• Masquer le disque de génoise avec de la framboise pépins.",
+        "• Démouler la couronne de crème sur le disque de génoise.",
+        "• Masquer d’une couche fine et régulière de crème Chantilly.",
+        "• Décorer le dessus «en soleil» en partant de l’extérieur vers l’intérieur en utilisant une poche munie d’une douille à Saint-Honoré.",
+        "• Masquer le pourtour sur 3 cm de hauteur avec des amandes concassées craquelées.",
+        "• Garnir le centre de l’entremets avec une salade de fruits macérés au sucre et au Grand Marnier (cerises, fraises, framboises, segments d’oranges, kiwis, grappes de groseilles).",
+        "• Lustrer les fruits du dessus avec du nappage neutre."
+    ]
+}

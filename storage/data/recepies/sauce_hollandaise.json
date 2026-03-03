@@ -41,9 +41,8 @@
                 "nom": "Jus de citron",
                 "quantite": "PM"
             }
-        ]
-    },
-    "technique": [
+       ],
+  "technique_de_realisation": [
         "Mettre en place le poste de travail.",
         "Peser, mesurer et contrôler les denrées.",
         "Réaliser la réduction avec l’eau et le vinaigre.",

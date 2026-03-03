@@ -2,7 +2,7 @@
     "titre": "Truites chaud-froid, sauce verte",
     "type": "Hors-d'œuvre froids à base de poisson",
     "description": "Truites pochées au court-bouillon, refroidies, nappées d'une sauce chaud-froid verte (mayonnaise collée à la gelée avec herbes fraîches), décorées de motifs de légumes, œufs durs, tomates et truffes (facultatif), puis lustrées à la gelée claire. Servies froides sur plat de présentation.",
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "truites entières (frais, vidées et écaillées)",

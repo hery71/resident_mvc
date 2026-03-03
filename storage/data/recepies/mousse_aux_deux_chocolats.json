@@ -2,7 +2,7 @@
     "titre": "MOUSSE AUX DEUX CHOCOLATS",
     "type": "Dessert",
     "page": 927,
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "mousse_chocolat_lait_praline": [
             {
                 "nom": "chocolat au lait",
@@ -45,9 +45,8 @@
                 "unite": "kg",
                 "quantite": "0,060"
             }
-        ]
-    },
-    "technique": [
+       ],
+  "technique_de_realisation": [
         "1. Confectionner la mousse au chocolat au lait et au praliné",
         "• Réaliser une meringue italienne avec 2 blancs d’œufs et 0,100 kg de sucre cuit au petit boulet.",
         "• Y ajouter 0,050 kg de praliné noisette, puis 0,150 kg de chocolat au lait fondu avec 0,050 kg de beurre.",

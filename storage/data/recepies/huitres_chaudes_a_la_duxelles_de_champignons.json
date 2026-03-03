@@ -2,7 +2,7 @@
   "titre": "HUÎTRES CHAUDES À LA DUXELLES DE CHAMPIGNONS",
   "type": "Huîtres chaudes",
   "page": 768,
-  "denrees_pour_8_couverts": {
+  "pax":8,
     "Éléments de base": [
       {
         "nom": "huîtres creuses de pleine mer (Cancale) calibre 2 ou M3 minimum",
@@ -154,8 +154,7 @@
         "quantite": "PM",
         "unite": ""
       }
-    ]
-  },
+    ],
   "technique_de_realisation": [
     "1. Mettre en place le poste de travail - 5 min",
     "2. Réaliser le fumet de poisson - 15 min (voir p. 266/268)",

@@ -1,0 +1,157 @@
+{
+    "titre": "MIROIR PASSION FRAMBOISE",
+    "type": "Entremets à base de fruits",
+    "page": 978,
+    "pax":8,
+        "Mousse aux fruits de la passion": [
+            {
+                "nom": "pulpe de fruits de la passion surgelée",
+                "unite": "kg",
+                "quantite": "0,150"
+            },
+            {
+                "nom": "meringue italienne",
+                "unite": "kg",
+                "quantite": "0,150"
+            },
+            {
+                "nom": "gélatine (5 feuilles)",
+                "unite": "kg",
+                "quantite": "0,010"
+            },
+            {
+                "nom": "crème liquide",
+                "unite": "l",
+                "quantite": "0,20"
+            }
+        ],
+        "Mousse à la framboise": [
+            {
+                "nom": "purée de framboises surgelée",
+                "unite": "kg",
+                "quantite": "0,200"
+            },
+            {
+                "nom": "meringue italienne",
+                "unite": "kg",
+                "quantite": "0,125"
+            },
+            {
+                "nom": "gélatine (5 feuilles)",
+                "unite": "kg",
+                "quantite": "0,010"
+            },
+            {
+                "nom": "crème liquide",
+                "unite": "l",
+                "quantite": "0,15"
+            }
+        ],
+        "Meringue italienne": [
+            {
+                "nom": "œufs (4 blancs)",
+                "unite": "kg",
+                "quantite": "0,130"
+            },
+            {
+                "nom": "sel fin",
+                "unite": "kg",
+                "quantite": "PM"
+            }
+        ],
+        "Sucre cuit": [
+            {
+                "nom": "sucre en morceaux",
+                "unite": "kg",
+                "quantite": "0,025"
+            },
+            {
+                "nom": "eau",
+                "unite": "l",
+                "quantite": "PM"
+            }
+        ],
+        "Montage": [
+            {
+                "nom": "fond de biscuit de 22 cm de diamètre",
+                "unite": "pièce",
+                "quantite": "2"
+            }
+        ],
+        "Sirop de punchage": [
+            {
+                "nom": "sucre",
+                "unite": "kg",
+                "quantite": "0,030"
+            },
+            {
+                "nom": "eau",
+                "unite": "l",
+                "quantite": "0,04"
+            },
+            {
+                "nom": "alcool ou liqueur",
+                "unite": "l",
+                "quantite": "PM"
+            }
+        ],
+        "Finition (glaçage)": [
+            {
+                "nom": "nappage neutre",
+                "unite": "kg",
+                "quantite": "0,080"
+            },
+            {
+                "nom": "nappage rouge",
+                "unite": "kg",
+                "quantite": "0,020"
+            }
+        ],
+  "technique_de_realisation": [
+        "1. Mettre en place le poste de travail - 5 min",
+        "• Denrées, matériels de préparation, de cuisson et de dressage.",
+        "• Décongeler les purées et pulpes de fruits - 2 min",
+        "• Les décongeler en enceinte réfrigérée.",
+        "• Éviter les chocs thermiques importants puis les amener au dernier moment à la température ambiante (tempérée).",
+        "",
+        "3. Tremper la gélatine à l’eau froide - 2 min",
+        "• L’éponger soigneusement avant l’utilisation.",
+        "",
+        "4. Monter la crème - 6 min",
+        "• La fouetter jusqu’à l’obtention d’une texture onctueuse sans trop la serrer.",
+        "",
+        "5. Réaliser la meringue italienne - 15 min (voir p. 765/577)",
+        "• Cuire le sucre à 120 °C avec le tiers de son poids en eau.",
+        "• Monter les blancs d’œufs en neige avec une petite pincée de sel, les serrer avec le sucre semoule en fin de montage.",
+        "• Verser progressivement le sucre cuit sur les blancs en neige.",
+        "• Fouetter la meringue jusqu’à son complet refroidissement.",
+        "",
+        "6. Gélifier la purée et la pulpe de fruits - 5 min",
+        "• Faire fondre la gélatine à sec dans une enceinte à micro-ondes.",
+        "• La détendre progressivement et l’incorporer équitablement dans les deux pulpes de fruits tempérées.",
+        "",
+        "7. Assembler les différents éléments des mousses - 10 min",
+        "• Aciduler légèrement la purée de framboises avec quelques gouttes de jus de citron.",
+        "• Répartir la meringue italienne dans deux calottes en acier inoxydable.",
+        "• En ajouter un peu plus pour la mousse à la passion de manière à réduire l’acidité.",
+        "• Incorporer délicatement les pulpes gélifiées puis la crème fouettée lorsque les appareils commencent à prendre.",
+        "• Lisser sans excès au fouet.",
+        "",
+        "8. Monter l’entremets - 10 min",
+        "• Monter en cercle ou en cadre.",
+        "• Placer le cercle sur un carton à entremets. Lui appliquer un ruban de rhodoïd.",
+        "• Placer le fond de biscuit et le puncher.",
+        "• Garnir le cercle à mi-hauteur avec la mousse à la framboise.",
+        "• Laisser prendre en cellule réfrigérée.",
+        "• Finir de remplir avec la mousse aux fruits de la passion.",
+        "• Égaliser et lisser à l’aide d’une spatule.",
+        "• Filmer et réserver en enceinte réfrigérée.",
+        "",
+        "9. Glacer le miroir - 8 min",
+        "• Avec du glaçage neutre. Colorer le glaçage neutre avec un peu de nappage rouge sans trop les mélanger de manière à réaliser un marbrage.",
+        "• Lustrer le miroir à l’aide d’une spatule métallique.",
+        "",
+        "10. Dresser le miroir - 2 min",
+        "• Le disposer sur un grand plat rond recouvert de papier dentelle."
+    ]
+}

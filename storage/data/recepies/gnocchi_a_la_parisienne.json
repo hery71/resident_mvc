@@ -4,7 +4,7 @@
     "page": 680,
     "fiche": "31",
     "description": "Hors-d'œuvre chaud à base de pâte à choux fromage, les gnocchi sont pochés en forme de petits bouchons. Ils sont dressés en plat à gratin, nappés de sauce Béchamel, puis saupoudrés de gruyère et gratinés au four.",
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "pate_a_choux": [
             {
                 "nom": "eau ou lait",

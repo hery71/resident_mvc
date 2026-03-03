@@ -1,0 +1,127 @@
+{
+    "titre": "SOUFFLÉ GLACÉ À LA LIQUEUR",
+    "type": "Entremets glacé",
+    "page": 990,
+    "pax":8,
+        "Appareil ou pâte à bombe": [
+            {
+                "nom": "œufs (8 jaunes)",
+                "unite": "kg",
+                "quantite": "0,160"
+            },
+            {
+                "nom": "sucre semoule",
+                "unite": "kg",
+                "quantite": "0,100"
+            },
+            {
+                "nom": "eau",
+                "unite": "l",
+                "quantite": "0,03"
+            }
+        ],
+        "Meringue italienne": [
+            {
+                "nom": "œufs (8 blancs)",
+                "unite": "kg",
+                "quantite": "0,260"
+            },
+            {
+                "nom": "sel fin",
+                "unite": "kg",
+                "quantite": "PM"
+            },
+            {
+                "nom": "sucre semoule pour meringuer",
+                "unite": "kg",
+                "quantite": "0,080"
+            },
+            {
+                "nom": "sucre pour le sucre cuit à 121 °C",
+                "unite": "kg",
+                "quantite": "0,300"
+            },
+            {
+                "nom": "eau",
+                "unite": "l",
+                "quantite": "0,10"
+            }
+        ],
+        "Crème fouettée": [
+            {
+                "nom": "crème fleurette",
+                "unite": "l",
+                "quantite": "0,60"
+            }
+        ],
+        "Parfum": [
+            {
+                "nom": "liqueur à base d’oranges (Grand Marnier, Cointreau)",
+                "unite": "l",
+                "quantite": "0,10"
+            }
+        ],
+        "Décor (selon le parfum)": [
+            {
+                "nom": "sucre glace",
+                "unite": "kg",
+                "quantite": "0,040"
+            },
+            {
+                "nom": "nougatine broyée ou craquelin",
+                "unite": "kg",
+                "quantite": "0,080"
+            },
+            {
+                "nom": "roses et feuilles en sucre cuit ou en pâte d’amandes",
+                "unite": "pièce",
+                "quantite": "PM"
+            }
+        ],
+  "technique_de_realisation": [
+        "1. Mettre en place le poste de travail - 5 min",
+        "• Denrées, matériels de préparation, de cuisson et de dressage.",
+        "",
+        "2. Préparer les moules - 10 min",
+        "• Réserver 2 moules à soufflé par 4 personnes ou 8 ramequins individuels.",
+        "• S’assurer de leur parfaite propreté et disposer sur le dessus des cercles à entremets de même diamètre et de 5 à 6 cm de hauteur.",
+        "• À défaut de cercles, découper des bandelettes de papier plastifié semi-rigide de 8 à 10 cm de haut.",
+        "• Entourer les moules avec les bandelettes et les maintenir avec un élastique.",
+        "",
+        "3. Réaliser l’appareil à bombe - 20 min (voir p. 581)",
+        "• Cuire le sucre (0,100 kg) et l’eau (0,03 l) avec les jaunes d’œufs en cuve d’un batteur mélangeur.",
+        "• Répartir légèrement le sucre cuit sur les jaunes et fouetter l’appareil jusqu’à complet refroidissement.",
+        "• Placer la cuve dans un bain-marie (80 à 90 °C max) et pocher l’appareil lentement en fouettant énergétiquement jusqu’à ce que la température atteigne 50/55 °C maximum (l’appareil peut être passé au chinois).",
+        "• Sortir la cuve du bain-marie et fouetter l’appareil jusqu’à complet refroidissement.",
+        "",
+        "4. Réaliser la meringue italienne - 20 min (voir p. 576)",
+        "• Cuire le sucre à 120/121 °C avec 1/3 de son poids en eau, l’écumer et le thermométrer à sucre.",
+        "• Monter les blancs d’œufs avec une pincée de sel et les meringuer avec 0,080 kg de sucre semoule en milieu de montage.",
+        "• Incorporer petit à petit le sucre cuit sur les blancs montés.",
+        "• Fouetter plus lentement la meringue jusqu’à son complet refroidissement.",
+        "",
+        "5. Monter la crème fouettée - 10 min",
+        "• Ne pas trop la serrer, la monter aux 9/10èmes au maximum pour qu’elle puisse s’incorporer plus facilement à l’appareil.",
+        "",
+        "6. Réaliser l’assemblage - 5 min",
+        "• Parfumer l’appareil à bombe avec la liqueur, puis l’incorporer progressivement dans la meringue italienne parfaitement refroidie.",
+        "• Soulever délicatement le mélange avec une petite écumoire en tournant le bassin d’1/8ème de tour entre chaque coup d’écumoire.",
+        "• Ne pas exagérer le mouvement.",
+        "• Finir d’incorporer l’appareil à bombe, puis la crème fouettée en dernier.",
+        "• S’assurer de l’homogénéité du mélange et le lisser en lui donnant délicatement un tour de fouet circulaire sans faire retomber le mélange.",
+        "",
+        "7. Mouler les soufflés - 8 min",
+        "• Garnir les moules ou les ramequins à 4 à 5 cm au-dessus des bords.",
+        "• Lisser soigneusement à l’aide d’une spatule métallique, filmer et réserver dans un conservateur à - 18 °C durant 4 à 6 heures au minimum.",
+        "",
+        "8. Dresser les soufflés - 2 min",
+        "• S’assurer qu’ils soient parfaitement pris mais moelleux à cœur.",
+        "• Enlever délicatement les bandelettes de papier ou les cercles (il est possible d’utiliser un chalumeau pour les cercles).",
+        "• Saupoudrer le dessus soit avec du sucre glace, soit avec de la nougatine concassée ou du craquelin.",
+        "• Disposer les moules ou les ramequins sur des plats ronds recouverts de papier dentelle.",
+        "",
+        "REMARQUES :",
+        "• D’autres parfums peuvent être utilisés (vanille, café, chocolat, praliné, rhum, etc.). Il est d’usage de réserver un peu d’appareil à bombe pour compléter le léger creux qui se forme généralement sur les gros soufflés après congélation.",
+        "• Dans le cas de l’utilisation de cercles à entremets, il est préférable de garnir séparément les moules et les cercles. Après durcissement au congélateur, placer les cercles garnis sur les moules et décorer."
+    ]
+}

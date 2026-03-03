@@ -3,7 +3,7 @@
     "type": "Dessert",
     "bandeau": "Entremets froids de cuisine à base de riz au lait et d’appareil à bavarois aux œufs",
     "page": 936,
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "riz_au_lait": [
             {
                 "nom": "lait",
@@ -100,9 +100,8 @@
                 "unite": "kg",
                 "quantite": "0,050"
             }
-        ]
-    },
-    "technique": [
+       ],
+  "technique_de_realisation": [
         "1. Mettre en place le poste de travail - 5 min",
         "2. Blanchir le riz - 5 min",
         "3. Marquer le riz en cuisson - 5 min",

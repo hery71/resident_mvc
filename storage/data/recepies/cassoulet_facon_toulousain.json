@@ -4,7 +4,7 @@
     "bandeau": "Ragoût à brun",
     "fiche": 103,
     "page": 832,
-    "denrees_pour_8_couverts": {
+    "pax":8,
         "elements_de_base": [
             {
                 "nom": "tarbais, lingots ou cocos",
@@ -146,9 +146,8 @@
                 "unite": "",
                 "quantite": "PM"
             }
-        ]
-    },
-    "technique": [
+       ],
+  "technique_de_realisation": [
         "1. Mettre en place le poste de travail - 5 min",
         "• Denrées, matériels de préparation, de cuisson et de dressage.",
         "2. Préparer les haricots - 15 min",

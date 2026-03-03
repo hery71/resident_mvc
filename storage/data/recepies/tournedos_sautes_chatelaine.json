@@ -2,7 +2,7 @@
   "titre": "TOURNEDOS SAUTÉS CHÂTELAINE",
   "type": "Viandes rouges sautées, sauce brune par déglaçage",
   "page": 794,
-  "denrees_pour_8_couverts": {
+  "pax":8,
     "elements_de_base": [
       {
         "nom": "cœur de filet de bœuf paré",
@@ -124,8 +124,7 @@
         "quantite": "PM",
         "unite": ""
       }
-    ]
-  },
+    ],
   "technique_de_realisation": [
     "1. Mettre en place le poste de travail - 5 min",
     "Denrées, matériels de préparation, de cuisson et de dressage.",
