@@ -1,0 +1,37 @@
+{
+  "titre": "Dumplings for Chicken Fricot",
+  "pax": 60,
+  "ingredients": [
+    {
+      "nom": "Flour",
+      "unite": "Cups",
+      "quantite": 6
+    },
+    {
+      "nom": "Baking powder",
+      "unite": "Tbsp",
+      "quantite": 3
+    },
+    {
+      "nom": "Salt",
+      "unite": "Tbsp",
+      "quantite": 1
+    },
+    {
+      "nom": "Milk",
+      "unite": "Cups",
+      "quantite": 2
+    },
+    {
+      "nom": "Water",
+      "unite": "Cups",
+      "quantite": 2
+    }
+  ],
+  "technique_de_realisation": [
+    "Sift.",
+    "If over-mixed, dumplings will get tougher.",
+    "Drop by tablespoonful into boiling water.",
+    "Simmer for about 10 to 15 minutes with cover."
+  ]
+}

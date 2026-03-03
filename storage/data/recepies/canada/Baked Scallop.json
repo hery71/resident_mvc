@@ -1,0 +1,48 @@
+{
+  "titre": "Baked Scallop",
+  "pax": 50,
+  "ingredients": [
+    {
+      "nom": "Scallops",
+      "unite": "Pound",
+      "quantite": 12.5
+    },
+    {
+      "nom": "Flour",
+      "unite": "Tbsp",
+      "quantite": 37.5
+    },
+    {
+      "nom": "Milk",
+      "unite": "Cups",
+      "quantite": 25.0
+    },
+    {
+      "nom": "Butter (for sauce)",
+      "unite": "Tbsp",
+      "quantite": 12.5
+    },
+    {
+      "nom": "Butter (for topping)",
+      "unite": "Tbsp",
+      "quantite": 37.5
+    },
+    {
+      "nom": "Salt",
+      "unite": "Tsp",
+      "quantite": 6.25
+    },
+    {
+      "nom": "Dry bread crumbs",
+      "unite": "Cups",
+      "quantite": 6.25
+    }
+  ],
+  "technique_de_realisation": [
+    "Wipe scallops with a damp cloth.",
+    "Place in a greased casserole.",
+    "Melt butter in top of double boiler, add flour & stir until well blended. Cook one minute, add salt & slowly add milk, stirring constantly until thickened. Cook two minutes.",
+    "Pour sauce over scallops, sprinkle with dry bread crumbs & dot with butter.",
+    "Bake in hot oven at 450 degrees for 15 minutes."
+  ]
+}

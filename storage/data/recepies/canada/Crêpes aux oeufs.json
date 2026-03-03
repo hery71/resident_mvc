@@ -1,0 +1,44 @@
+{
+  "titre": "Crêpes aux oeufs",
+  "quantite": "Environ 90 crêpes (2 à 3 oz)",
+  "ingredients": [
+    {
+      "nom": "Farine",
+      "unite": "Cups",
+      "quantite": "12 tasses – 9 tasses"
+    },
+    {
+      "nom": "Sel",
+      "unite": "Tbsp",
+      "quantite": "3 tbsp. – 2 tbsp."
+    },
+    {
+      "nom": "Poudre à pâte",
+      "unite": "Tbsp",
+      "quantite": "10 tbsp. – 7 tbsp."
+    },
+    {
+      "nom": "Oeufs",
+      "unite": "Unite",
+      "quantite": "12 – 9 oeufs"
+    },
+    {
+      "nom": "Lait",
+      "unite": "Cups",
+      "quantite": "12 tasses – 9 tasses"
+    },
+    {
+      "nom": "Huile végétable",
+      "unite": "Cups",
+      "quantite": "2 tasses – 1 1/4 tasse"
+    }
+  ],
+  "technique_de_realisation": [
+    "Tamiser les ingrédients secs.",
+    "Combiner & battre le lait, les oeufs & l’huile végétable.",
+    "Ajouter aux ingrédients secs.",
+    "Éclaircir avec du lait au besoin.",
+    "Portionner sur la plaque chaude légèrement graisser.",
+    "Grill 400 degré."
+  ]
+}

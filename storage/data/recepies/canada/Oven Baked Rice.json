@@ -1,0 +1,55 @@
+{
+  "titre": "Oven Baked Rice",
+  "pax": 50,
+  "ingredients": [
+    {
+      "nom": "Riz long grain",
+      "unite": "Cups",
+      "quantite": 12
+    },
+    {
+      "nom": "Eau",
+      "unite": "Cups",
+      "quantite": 18
+    },
+    {
+      "nom": "Mazolla oil",
+      "unite": "Cups",
+      "quantite": 1.5
+    },
+    {
+      "nom": "Sauce soya",
+      "unite": "Cups",
+      "quantite": 1
+    },
+    {
+      "nom": "Dry onion soupe",
+      "unite": "Enveloppes",
+      "quantite": "3 (1g)"
+    },
+    {
+      "nom": "Piment vert haché",
+      "unite": "Unite",
+      "quantite": "1-2"
+    },
+    {
+      "nom": "Céleri haché",
+      "unite": "Cups",
+      "quantite": 4
+    },
+    {
+      "nom": "Oignons hachés",
+      "unite": "Cups",
+      "quantite": 2
+    },
+    {
+      "nom": "Champignons (drained)",
+      "unite": "Cans",
+      "quantite": 6
+    }
+  ],
+  "technique_de_realisation": [
+    "Ajouter du poulet cuit.",
+    "Cuire à 350 F pour 1 heure."
+  ]
+}

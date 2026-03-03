@@ -4,132 +4,132 @@
     "fiche": 125,
     "page": 878,
     "pax":8,
-        "elements_de_base": [
-            {
-                "nom": "poulets label rouge P.A.C. très fermes (2 x 1,400 kg)",
-                "unite": "kg",
-                "quantite": "2,800"
-            },
-            {
-                "nom": "huile d’arachide",
-                "unite": "l",
-                "quantite": "0,10"
-            }
-        ],
-        "garniture": [
-            {
-                "nom": "oignons (2 pièces)",
-                "unite": "kg",
-                "quantite": "0,400"
-            },
-            {
-                "nom": "tomates (grosses)",
-                "unite": "kg",
-                "quantite": "0,800"
-            },
-            {
-                "nom": "ail (4 gousses)",
-                "unite": "kg",
-                "quantite": "0,030"
-            }
-        ],
-        "fond_blanc": [
-            {
-                "nom": "carcasses et abattis",
-                "unite": "kg",
-                "quantite": "PM"
-            },
-            {
-                "nom": "carottes",
-                "unite": "kg",
-                "quantite": "0,200"
-            },
-            {
-                "nom": "oignons",
-                "unite": "kg",
-                "quantite": "0,200"
-            },
-            {
-                "nom": "poireaux (blancs)",
-                "unite": "kg",
-                "quantite": "0,200"
-            },
-            {
-                "nom": "céleri en branches",
-                "unite": "kg",
-                "quantite": "0,050"
-            },
-            {
-                "nom": "clou de girofle",
-                "unite": "pièce",
-                "quantite": "2"
-            },
-            {
-                "nom": "bouquet garni",
-                "unite": "pièce",
-                "quantite": "1"
-            },
-            {
-                "nom": "fond blanc de volaille déshydraté",
-                "unite": "kg",
-                "quantite": "0,040"
-            }
-        ],
-        "accompagnement_rougail_tomates": [
-            {
-                "nom": "tomates (grosses)",
-                "unite": "kg",
-                "quantite": "0,200"
-            },
-            {
-                "nom": "piment vert",
-                "quantite": "PM"
-            },
-            {
-                "nom": "gingembre frais",
-                "quantite": "PM"
-            },
-            {
-                "nom": "oignons",
-                "unite": "kg",
-                "quantite": "0,050"
-            }
-        ],
-        "epices_condiments_et_assaisonnement": [
-            {
-                "nom": "gingembre",
-                "unite": "kg",
-                "quantite": "PM"
-            },
-            {
-                "nom": "clous de girofle",
-                "unite": "kg",
-                "quantite": "PM"
-            },
-            {
-                "nom": "poivre en grains",
-                "unite": "kg",
-                "quantite": "PM"
-            },
-            {
-                "nom": "curcuma",
-                "unite": "kg",
-                "quantite": "PM"
-            },
-            {
-                "nom": "bouquet garni avec une feuille de quatre-épices et une brindille de thym vert",
-                "unite": "pièce",
-                "quantite": "1"
-            },
-            {
-                "nom": "sel gros",
-                "quantite": "PM"
-            },
-            {
-                "nom": "sel fin",
-                "quantite": "PM"
-            }
-       ],
+    "elements_de_base": [
+        {
+            "nom": "poulets label rouge P.A.C. très fermes (2 x 1,400 kg)",
+            "unite": "kg",
+            "quantite": "2,800"
+        },
+        {
+            "nom": "huile d’arachide",
+            "unite": "l",
+            "quantite": "0,10"
+        }
+    ],
+    "garniture": [
+        {
+            "nom": "oignons (2 pièces)",
+            "unite": "kg",
+            "quantite": "0,400"
+        },
+        {
+            "nom": "tomates (grosses)",
+            "unite": "kg",
+            "quantite": "0,800"
+        },
+        {
+            "nom": "ail (4 gousses)",
+            "unite": "kg",
+            "quantite": "0,030"
+        }
+    ],
+    "fond_blanc": [
+        {
+            "nom": "carcasses et abattis",
+            "unite": "kg",
+            "quantite": "PM"
+        },
+        {
+            "nom": "carottes",
+            "unite": "kg",
+            "quantite": "0,200"
+        },
+        {
+            "nom": "oignons",
+            "unite": "kg",
+            "quantite": "0,200"
+        },
+        {
+            "nom": "poireaux (blancs)",
+            "unite": "kg",
+            "quantite": "0,200"
+        },
+        {
+            "nom": "céleri en branches",
+            "unite": "kg",
+            "quantite": "0,050"
+        },
+        {
+            "nom": "clou de girofle",
+            "unite": "pièce",
+            "quantite": "2"
+        },
+        {
+            "nom": "bouquet garni",
+            "unite": "pièce",
+            "quantite": "1"
+        },
+        {
+            "nom": "fond blanc de volaille déshydraté",
+            "unite": "kg",
+            "quantite": "0,040"
+        }
+    ],
+    "accompagnement_rougail_tomates": [
+        {
+            "nom": "tomates (grosses)",
+            "unite": "kg",
+            "quantite": "0,200"
+        },
+        {
+            "nom": "piment vert",
+            "quantite": "PM"
+        },
+        {
+            "nom": "gingembre frais",
+            "quantite": "PM"
+        },
+        {
+            "nom": "oignons",
+            "unite": "kg",
+            "quantite": "0,050"
+        }
+    ],
+    "epices_condiments_et_assaisonnement": [
+        {
+            "nom": "gingembre",
+            "unite": "kg",
+            "quantite": "PM"
+        },
+        {
+            "nom": "clous de girofle",
+            "unite": "kg",
+            "quantite": "PM"
+        },
+        {
+            "nom": "poivre en grains",
+            "unite": "kg",
+            "quantite": "PM"
+        },
+        {
+            "nom": "curcuma",
+            "unite": "kg",
+            "quantite": "PM"
+        },
+        {
+            "nom": "bouquet garni avec une feuille de quatre-épices et une brindille de thym vert",
+            "unite": "pièce",
+            "quantite": "1"
+        },
+        {
+            "nom": "sel gros",
+            "quantite": "PM"
+        },
+        {
+            "nom": "sel fin",
+            "quantite": "PM"
+        }
+    ],
   "technique_de_realisation": [
         "1. Mettre en place le poste de travail - 5 min",
         "• Denrées, matériels de préparation, de cuisson et de dressage.",

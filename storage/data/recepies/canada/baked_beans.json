@@ -1,0 +1,39 @@
+{
+  "titre": "Baked Beans",
+  "pax": 50,
+  "ingredients": [
+    {
+      "nom": "Beans",
+      "unite": "Cups",
+      "quantite": 5
+    },
+    {
+      "nom": "Lard",
+      "unite": "Lb",
+      "quantite": 1.25
+    },
+    {
+      "nom": "Onions",
+      "unite": "PM",
+      "quantite": 1
+    },
+    {
+      "nom": "Salt",
+      "unite": "PM",
+      "quantite": 1
+    },
+    {
+      "nom": "Pepper",
+      "unite": "PM",
+      "quantite": 1
+    }
+  ],
+  "technique_de_realisation": [
+    "Soak beans overnight.",
+    "Add cube lard and onions on top of beans.",
+    "Salt and pepper.",
+    "Cover pot.",
+    "Do not stir while cooking.",
+    "Simmer for 4 hours."
+  ]
+}

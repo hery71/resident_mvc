@@ -1,0 +1,44 @@
+{
+  "titre": "Garniture (Golden Fish Pie)",
+  "pax": 60,
+  "ingredients": [
+    {
+      "nom": "Farine",
+      "unite": "Cups",
+      "quantite": 9
+    },
+    {
+      "nom": "Poudre à pâte",
+      "unite": "Cups",
+      "quantite": "2/3"
+    },
+    {
+      "nom": "Sel de céleri",
+      "unite": "C. à thé",
+      "quantite": 1
+    },
+    {
+      "nom": "Graisse végétale",
+      "unite": "Cups",
+      "quantite": "1 3/4"
+    },
+    {
+      "nom": "Oeufs",
+      "unite": "Unite",
+      "quantite": 9
+    },
+    {
+      "nom": "Lait",
+      "unite": "Cups",
+      "quantite": "1 3/4"
+    }
+  ],
+  "technique_de_realisation": [
+    "Mélanger les ingrédients secs; y couper le gras jusqu’à ce que la préparation ressemble à une chapeline fine.",
+    "Ajouter les oeufs et le lait; mélanger rapidement jusqu’à l’obtention d’une pâte molle.",
+    "Renverser sur une planche farinée, pétrir 30 secondes et abaisser la pâte à 2 cm (3/4 pouces) d’épaisseur.",
+    "Découper les buiscuits et placer sur le mélange de poisson.",
+    "Brosser le dessus avec un mélange d’oeuf et lait afin de donner une apparence dorée à la cuisson.",
+    "Cuire à 400F pendant 20 à 25 minutes additionnelles."
+  ]
+}

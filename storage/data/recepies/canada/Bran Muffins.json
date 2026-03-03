@@ -1,0 +1,72 @@
+{
+  "titre": "Bran Muffins",
+  "pax": 50,
+  "ingredients": [
+    {
+      "nom": "Sucre brun",
+      "unite": "Cups",
+      "quantite": 1.5
+    },
+    {
+      "nom": "Oeufs",
+      "unite": "Unite",
+      "quantite": 2
+    },
+    {
+      "nom": "Huile",
+      "unite": "Cups",
+      "quantite": 1.5
+    },
+    {
+      "nom": "Lait de beurre",
+      "unite": "Cups",
+      "quantite": 2
+    },
+    {
+      "nom": "Farine",
+      "unite": "Cups",
+      "quantite": 2.75
+    },
+    {
+      "nom": "Sel",
+      "unite": "Tsp",
+      "quantite": 0.5
+    },
+    {
+      "nom": "Soda",
+      "unite": "Tbsp",
+      "quantite": 0.75
+    },
+    {
+      "nom": "All Bran",
+      "unite": "Cups",
+      "quantite": 3
+    },
+    {
+      "nom": "Eau bouillante",
+      "unite": "Cups",
+      "quantite": 1
+    },
+    {
+      "nom": "Raisins",
+      "unite": "Cups",
+      "quantite": 1
+    },
+    {
+      "nom": "Melasse",
+      "unite": "Tbsp",
+      "quantite": 2
+    },
+    {
+      "nom": "Cinnamon/All spice",
+      "unite": "PM",
+      "quantite": 1
+    }
+  ],
+  "technique_de_realisation": [
+    "Portionner avec scoop manche bleu (2 oz).",
+    "Le melange peut etre garde au refrigerateur jusqu'a 3 semaines si bien ferme.",
+    "Cuire a mesure, le montant qu'on a besoin.",
+    "Cuire a 400F pour 20 minutes."
+  ]
+}

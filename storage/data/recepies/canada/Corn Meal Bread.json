@@ -1,0 +1,54 @@
+{
+  "titre": "Corn Meal Bread",
+  "pax": 54,
+  "portion_size": "2x2 inch",
+  "ingredients": [
+    {
+      "nom": "Hard flour",
+      "unite": "Cups",
+      "quantite": 6
+    },
+    {
+      "nom": "Corn flour",
+      "unite": "Cups",
+      "quantite": 6
+    },
+    {
+      "nom": "Baking powder",
+      "unite": "Tbsp",
+      "quantite": 7
+    },
+    {
+      "nom": "Sugar",
+      "unite": "Cups",
+      "quantite": 1.5
+    },
+    {
+      "nom": "Salt",
+      "unite": "Tsp",
+      "quantite": 4.25
+    },
+    {
+      "nom": "Eggs",
+      "unite": "Unite",
+      "quantite": 6
+    },
+    {
+      "nom": "Milk",
+      "unite": "Cups",
+      "quantite": 8
+    },
+    {
+      "nom": "Vegetable oil",
+      "unite": "Cups",
+      "quantite": 1.5
+    }
+  ],
+  "technique_de_realisation": [
+    "Sift ingredients.",
+    "Beat together.",
+    "Incorporate the dry ingredients in the liquid.",
+    "Mix well.",
+    "Cook at 350F for 45 minutes."
+  ]
+}

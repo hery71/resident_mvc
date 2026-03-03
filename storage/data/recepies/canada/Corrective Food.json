@@ -1,0 +1,20 @@
+{
+  "titre": "Corrective Food",
+  "pax": 64,
+  "portion_size": "1/2 cup",
+  "quantite_totale": "2 gallons",
+  "ingredients": [
+    { "nom": "Prunes", "unite": "Lbs", "quantite": 4 },
+    { "nom": "Eau", "unite": "Cups", "quantite": 3 },
+    { "nom": "Raisins", "unite": "Lbs", "quantite": 4 },
+    { "nom": "Dates", "unite": "Lbs", "quantite": 4 },
+    { "nom": "Melasse", "unite": "Cups", "quantite": 8 },
+    { "nom": "Crude bran", "unite": "Cups", "quantite": 8 }
+  ],
+  "technique_de_realisation": [
+    "Laisser tremper quelques heures et sauver le jus.",
+    "Passer les raisins, les dates et les prunes au hache-viande.",
+    "Ajouter aux autres ingredients et bien melanger avec le malaxeur.",
+    "Refrigerer."
+  ]
+}

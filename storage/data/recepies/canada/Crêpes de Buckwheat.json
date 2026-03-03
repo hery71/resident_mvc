@@ -1,0 +1,55 @@
+{
+  "titre": "Crêpes de Buckwheat",
+  "pax": 80,
+  "ingredients": [
+    {
+      "nom": "Farine Buckweat",
+      "unite": "Cups",
+      "quantite": 4.5
+    },
+    {
+      "nom": "Farine A.P",
+      "unite": "Cups",
+      "quantite": 4.5
+    },
+    {
+      "nom": "Sucre blanc",
+      "unite": "Cups",
+      "quantite": 0.5
+    },
+    {
+      "nom": "Baking powder",
+      "unite": "C. à table",
+      "quantite": 3
+    },
+    {
+      "nom": "Baking soda",
+      "unite": "C. à table",
+      "quantite": 1.5
+    },
+    {
+      "nom": "Sel",
+      "unite": "C. à table",
+      "quantite": 1.5
+    },
+    {
+      "nom": "Oeufs",
+      "unite": "Unite",
+      "quantite": 10
+    },
+    {
+      "nom": "Lait de beurre",
+      "unite": "Cups",
+      "quantite": 12
+    },
+    {
+      "nom": "Veg. oil",
+      "unite": "Cups",
+      "quantite": 0.5
+    }
+  ],
+  "technique_de_realisation": [
+    "Tamiser les ingrédients secs.",
+    "Mélanger, ajouter aux ingredients sec."
+  ]
+}

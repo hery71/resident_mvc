@@ -1,0 +1,34 @@
+{
+  "titre": "Crêpes râpées",
+  "quantite": "40",
+  "ingredients": [
+    {
+      "nom": "Potatoes",
+      "unite": "Lbs",
+      "quantite": "12 1/2"
+    },
+    {
+      "nom": "Dry bread or crumbs",
+      "unite": "Loaf",
+      "quantite": "1/2 loaf"
+    },
+    {
+      "nom": "Pepper",
+      "unite": "Tsp",
+      "quantite": "1 tsp"
+    },
+    {
+      "nom": "Salt",
+      "unite": "Tbsp",
+      "quantite": "1 tbsp"
+    }
+  ],
+  "technique_de_realisation": [
+    "Grate potatoes.",
+    "Stir in with grated potatoes.",
+    "Season.",
+    "Preheat griddle as for ordinary pancake. Grease with bacon fat or corn oil. Roast on griddle until golden. Make sure inside is well cooked.",
+    "Serve as soon as possible with sugar, molasses, sirop, ect.",
+    "N.B. – Stir mixture often to keep the ingredients from separating."
+  ]
+}
