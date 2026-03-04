@@ -3,13 +3,9 @@ $colonnes='
 {
 "Date": 1,
 "Jour": 2,
-"Saison": 3,
-"Week": 4,
 "Breakfast": 5,
 "Lunch": 6,
-"Lunch Dessert": 7,
-"Dinner": 8,
-"Dinner Dessert": 9
+"Dinner": 8
 }';
 ?>
 <!DOCTYPE html>
@@ -32,26 +28,18 @@ $colonnes='
     <colgroup>
         <col style="width:30%">  <!-- Date -->
         <col style="width:25%">  <!-- Jour -->
-        <col style="width:4%">  <!-- Saison -->
-        <col style="width:2%">  <!-- Week -->
         <col style="width:15%">  <!-- Breakfast -->
         <col style="width:15%">  <!-- Lunch -->
-        <col style="width:12%">  <!-- Lunch Dessert -->
         <col style="width:15%">  <!-- Dinner -->
-        <col style="width:12%">  <!-- Dinner Dessert -->
     </colgroup>
                 <thead>
                     <tr>
                         
                         <th class="col-1">Date</th>
                         <th class="col-2">Jour</th>
-                        <th class="toggle-col-season-week hidden-col col-3">Saison</th>
-                        <th class="toggle-col-season-week hidden-col col-4">Week</th>
                         <th class="toggle-col-breakfast col-5">Breakfast</th>
                         <th class="col-6">Lunch</th>
-                        <th class="toggle-col-desserts col-7">Lunch Dessert</th>
-                        <th class="col-8">Dinner</th>
-                        <th class="toggle-col-desserts col-9">Dinner Dessert</th>
+                        <th class="col-7">Dinner</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -59,21 +47,12 @@ $colonnes='
                         <tr class="<?= ($r['saison'] === 'Special') ? 'special-row' : '' ?>">
                             <td class="col-1"><?= date('d/m/Y', strtotime($r['date'])) ?></td>
                             <td class="col-2"><?= htmlspecialchars(ucfirst(strtolower($r['day']))) ?></td>
-                            <td class="toggle-col-season-week hidden-col col-3"><?= htmlspecialchars($r['saison']) ?></td>
-                            <td class="toggle-col-season-week hidden-col col-4"><?= htmlspecialchars($r['week']) ?></td>
-
                             <?php if ($r['menu']): ?>
                                 <td class="toggle-col-breakfast col-5">
                                     <?= htmlspecialchars($r['menu']['breakfast'] ?? '') ?>
                                 </td>
-                                <td class="col-6"><?= htmlspecialchars($r['menu']['lunch'] ?? '') ?></td>
-                                <td class="toggle-col-desserts col-7">
-                                    <?= htmlspecialchars($r['menu']['lunch_dessert'] ?? '') ?>
-                                </td>
-                                <td class="col-8"><?= htmlspecialchars($r['menu']['dinner'] ?? '') ?></td>
-                                <td class="toggle-col-desserts col-9">
-                                    <?= htmlspecialchars($r['menu']['dinner_dessert'] ?? '') ?>
-                                </td>
+                                <td class="col-6"><?= htmlspecialchars($r['menu']['lunch'] ?? '') ?> <?= htmlspecialchars($r['menu']['lunch_dessert'] ?? '') ?></td>
+                                <td class="col-8"><?= htmlspecialchars($r['menu']['dinner'] ?? '') ?> <?= htmlspecialchars($r['menu']['dinner_dessert'] ?? '') ?></td>
                             <?php else: ?>
                                 <td class="toggle-col-breakfast" colspan="5" class="text-muted text-center">
                                     Aucun menu

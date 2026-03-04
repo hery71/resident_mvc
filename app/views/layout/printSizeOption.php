@@ -1,7 +1,7 @@
 <div class="row no-print mb-3 align-items-center">
 
     <!-- Taille police -->
-    <div class="col-4 col-md-3">
+    <div class="col-md-3">
         <label class="mb-0 mr-2">Taille police :</label>
         <select class="form-control form-control-sm"
                 onchange="setPrintFontSize(this.value)">
@@ -19,7 +19,7 @@
     </div>
 
     <!-- Orientation -->
-    <div class="col-4 col-md-3">
+    <div class="col-md-3">
         <label class="mb-0 mr-2">Orientation :</label>
         <select class="form-control form-control-sm" onchange="setPrintSettings(this.value)">
             <option value="1" selected>Letter -Portrait</option>

@@ -158,6 +158,9 @@
             <a href="printMonthlyMenu?annee=<?= $year ?>&mois=<?= $month ?>" target="_blank" class="btn btn-secondary toggle-btn">
                 <i class="bi bi-printer"></i> Imprimer
             </a>
+             <a href="printDisplayMonthlyMenu?annee=<?= $year ?>&mois=<?= $month ?>" target="_blank" class="btn btn-secondary toggle-btn">
+                <i class="bi bi-printer"></i> Imprimer Affichage
+            </a>
         </div>
 
         <!-- TABLEAU -->

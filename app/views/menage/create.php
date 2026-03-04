@@ -1,4 +1,4 @@
-<?php $title = 'Liste Fêtes du mois'; 
+<?php $title = 'Creer Inspection'; 
     $inspection =  Config::inspection(); 
 ?>
 <?php require __DIR__ . '/../layout/header.php'; ?>

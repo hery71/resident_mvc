@@ -28,6 +28,10 @@
             <strong>Date anniversaire :</strong>
             <?= sprintf('%02d-%02d-%d', $jour, $mois, $annee) ?>
         </p>
+         <p class="mb-0">
+            <strong>Famille :</strong>
+            <?= $resident['Famille'] ?> - <?= $resident['Tel1']?? 'NC' ?> / <?= $resident['Tel2']?? 'NC' ?> / <?= $resident['Tel3']?? 'NC' ?>
+        </p>
     </div>
 </div>
 

@@ -108,6 +108,16 @@
                         <a class="dropdown-item" href="/restriction/edit">Éditer Restrictions Alimentaires</a>
                     </div>
                 </li>
+                 <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle"
+                       href="#" 
+                       data-toggle="dropdown">
+                        Staff
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="/staff/liste">Liste des staffs</a>
+                    </div>
+                </li>
 
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle"

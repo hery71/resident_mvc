@@ -231,6 +231,7 @@ class BirthdayModel
         AND c.enabled = 1
         AND c.annee = :xannee
         WHERE MONTH(r.Anniversaire) = :mois
+        AND r.enabled = 1
         ORDER BY jour ASC, r.Nom ASC
 
         ";

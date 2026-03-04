@@ -180,6 +180,7 @@ class ResidentModel
             'Allergie' => $data['Allergie'],
             'id' => $id
         ]);
+        return $stmt->rowCount() > 0;
 
     }
     public function findDietById(int $id)
