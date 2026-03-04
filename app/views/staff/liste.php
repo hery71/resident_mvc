@@ -17,11 +17,9 @@
             <thead class="table-light">
                 <tr>
                     <th>Nom</th>
-                    <th>Prénom</th>
-                    <th>Middle</th>
                     <th>Genre</th>
+                    <th>Service</th>
                     <th>Département</th>
-                    <th>Sous Département</th>
                     <th>Poste</th>
                     <th>Statut</th>
                     <th>Téléphone</th>
@@ -38,12 +36,11 @@
 
                 <tr>
 
-                    <td><?= e($staff['nom']) ?></td>
-                    <td><?= e($staff['middle_name']) ?></td>
+                    <td><?= e($staff['nom']) ?> <?= e($staff['middle_name']) ?> <?= e($staff['prenom']) ?></td>
                     <td><?= e($staff['gender']) ?></td>
-
+                    
+                    <td><?= e($staff['service']) ?></td>
                     <td><?= e($staff['departement']) ?></td>
-                    <td><?= e($staff['sous_departement']) ?></td>
 
                     <td><?= e($staff['poste']) ?></td>
                     <td><?= e($staff['statut']) ?></td>
@@ -60,9 +57,7 @@
                         class="btn btn-sm btn-danger"
                         onclick="return confirm('Disable this staff?')">Disable</a>
                     </td>
-
                 </tr>
-
                 <?php endforeach; ?>
 
             <?php else: ?>

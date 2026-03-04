@@ -46,7 +46,7 @@
                         <?php foreach ($staffs as $s): ?>
                             <option value="<?= $s['id'] ?>">
                                 <?= htmlspecialchars($s['nom'] . " " . $s['prenom']) ?>
-                                (<?= htmlspecialchars($s['sous_departement'] ?? '') ?>)
+                                (<?= htmlspecialchars($s['service'] ?? '') ?>)
                             </option>
                         <?php endforeach; ?>
                     </select>

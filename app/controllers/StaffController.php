@@ -43,7 +43,7 @@ class StaffController {
             'dob' => !empty($_POST['dob']) ? $_POST['dob'] : NULL,         
             'statut' => $_POST['statut']??'',
             'departement' => $_POST['departement']??'',       
-            'sous_departement' => $_POST['sous_departement']??'',
+            'service' => $_POST['service']??'',
             'poste' => $_POST['poste']??'',
             'tel1' => $_POST['tel1']??'',
             'tel2' => $_POST['tel2']??'', 

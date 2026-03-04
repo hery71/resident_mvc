@@ -70,15 +70,15 @@
             <div class="row">
 
             <div class="col-md-4 mb-3">
-            <label>Département</label>
-            <input type="text" name="departement" class="form-control"
-            value="<?= e($staff['departement']) ?>">
+            <label>Service</label>
+            <input type="text" name="service" class="form-control"
+            value="<?= e($staff['service']) ?>">
             </div>
 
             <div class="col-md-4 mb-3">
-            <label>Sous Département</label>
-            <input type="text" name="sous_departement" class="form-control"
-            value="<?= e($staff['sous_departement']) ?>">
+            <label>Departement</label>
+            <input type="text" name="departement" class="form-control"
+            value="<?= e($staff['departement']) ?>">
             </div>
 
             <div class="col-md-4 mb-3">
