@@ -1,6 +1,21 @@
 <?php $title = 'Ajouter nouva Staff'; 
     $custom_js = <<<'JS'
     // Custom JavaScript can be added here
+    document.getElementById("service").addEventListener("change", function () {
+        let service = this.value;
+        fetch("/ajax/get_departements.php?service=" + encodeURIComponent(service))
+        .then(response => response.json())
+        .then(data => {
+            let select = document.getElementById("departement");
+            select.innerHTML = '<option value="">Select Departement</option>';
+            data.forEach(function(dep) {
+                let option = document.createElement("option");
+                option.value = dep;
+                option.textContent = dep;
+                select.appendChild(option);
+            });
+        });
+    });
     JS;
     $custom_style = <<<'CSS'
     /* Custom CSS can be added here */
@@ -53,7 +68,12 @@
 
                 <div class="col-md-3 mb-3">
                 <label>Status</label>
-                <input type="text" name="statut" class="form-control">
+                 <select name="status" class="form-control">
+                    <option value="">Select Status</option>
+                    <?php foreach ($options['status'] as $key => $value): ?>
+                        <option value="<?= e($value) ?>"><?= e($value) ?></option>
+                    <?php endforeach; ?>
+                </select>
                 </div>
 
                 </div>
@@ -62,17 +82,29 @@
 
                 <div class="col-md-4 mb-3">
                 <label>Service</label>
-                <input type="text" name="service" class="form-control" value="Service alimentaire et Menage">
+                <select name="service"  id="service" class="form-control">
+                    <option value="">Select Service</option>
+                    <?php foreach ($options['Sevice'] as $key => $value): ?>
+                        <option value="<?= e($value) ?>"><?= e($value) ?></option>
+                    <?php endforeach; ?>
+                </select>
                 </div>
 
-                <div class="col-md-4 mb-3">
-                <label>Departement</label>
-                <input type="text" name="departement" class="form-control" >
+               <div class="col-md-4 mb-3">
+                    <label>Departement</label>
+                    <select name="departement" id="departement" class="form-control">
+                        <option value="">Select Departement</option>
+                    </select>
                 </div>
 
                 <div class="col-md-4 mb-3">
                 <label>Poste</label>
-                <input type="text" name="poste" class="form-control">
+                <select name="poste"  id="poste" class="form-control">
+                    <option value="">Select Poste</option>
+                    <?php foreach ($options['Poste'] as $key => $value): ?>
+                        <option value="<?= e($value) ?>"><?= e($value) ?></option>
+                    <?php endforeach; ?>
+                </select>
                 </div>
 
                 </div>

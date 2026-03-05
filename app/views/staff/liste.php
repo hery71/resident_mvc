@@ -21,7 +21,7 @@
                     <th>Service</th>
                     <th>Département</th>
                     <th>Poste</th>
-                    <th>Statut</th>
+                    <th>status</th>
                     <th>Téléphone</th>
                     <th>Ville</th>
                     <th></th>
@@ -43,7 +43,7 @@
                     <td><?= e($staff['departement']) ?></td>
 
                     <td><?= e($staff['poste']) ?></td>
-                    <td><?= e($staff['statut']) ?></td>
+                    <td><?= e($staff['status']) ?></td>
 
                     <td><?= e($staff['tel1']) ?></td>
 

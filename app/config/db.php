@@ -1,79 +1,59 @@
 <?php
-/**
- * =========================================================
- * Configuration de la connexion à la base de données
- * Projet : resident_mvc
- * =========================================================
- */
 
-// ---------------------------------------------------------
-// Paramètres de connexion
-// ---------------------------------------------------------
-//CLOUD DB
-$host = 'mycloud.co.mg';
-$db   = 'mycloudm_fass';
-$user = 'mycloudm_fassuser';
-$pass = 'FOYERASSOMPTION';
-$charset = 'utf8mb4';
-//LOCAL DB devarenne
-$host = 'localhost';
-$db   = 'fass';
-$user = 'root';
-$pass = '';
-$charset = 'utf8mb4';
-//LOCAL DB ROGER
-$host = 'localhost';
-$db   = 'fass';
-$user = 'root';
-$pass = 'FOYERASSOMPTION';
-$charset = 'utf8mb4';
-//LOCAL DB devarenne
-$host = 'localhost';
-$db   = 'fass';
-$user = 'root';
-$pass = '';
-$charset = 'utf8mb4';
-// ---------------------------------------------------------
-// DSN PDO
-// ---------------------------------------------------------
-$dsn = "mysql:host=$host;dbname=$db;charset=$charset";
+$databases = [
 
-// ---------------------------------------------------------
-// Options PDO sécurisées
-// ---------------------------------------------------------
-$options = [
-    PDO::ATTR_ERRMODE            => PDO::ERRMODE_EXCEPTION,
-    PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
-    PDO::ATTR_EMULATE_PREPARES   => false,
-    PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8mb4 COLLATE utf8mb4_unicode_ci"
+    'devarenne' => [
+        'host' => 'localhost',
+        'db'   => 'fass',
+        'user' => 'root',
+        'pass' => '',
+        'charset' => 'utf8mb4'
+    ],
+
+    'roger' => [
+        'host' => 'localhost',
+        'db'   => 'fass',
+        'user' => 'root',
+        'pass' => 'FOYERASSOMPTION',
+        'charset' => 'utf8mb4'
+    ],
+
+    'cloud' => [
+        'host' => 'mycloud.co.mg',
+        'db'   => 'mycloudm_fass',
+        'user' => 'mycloudm_fassuser',
+        'pass' => 'FOYERASSOMPTION',
+        'charset' => 'utf8mb4'
+    ]
+
 ];
 
-// ---------------------------------------------------------
-// Connexion PDO
-// ---------------------------------------------------------
-try {
+$options = [
+    PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
+    PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
+];
 
-    $pdo = new PDO($dsn, $user, $pass, $options);
+$pdo = null;
 
-    // 🔥 Rendre PDO accessible globalement (MVC + ancien code)
-    $GLOBALS['pdo'] = $pdo;
+foreach ($databases as $name => $config) {
 
-    // -----------------------------------------------------
-    // Chargement des infos globales (organisation)
-    // -----------------------------------------------------
-    $stmt = $pdo->query("SELECT nom FROM organisation LIMIT 1");
-    $row = $stmt->fetch();
+    try {
 
-    $organisation_name = $row ? $row['nom'] : '';
+        $dsn = "mysql:host={$config['host']};dbname={$config['db']};charset={$config['charset']}";
 
-    // 🔥 Rendre le nom de l'organisation global
-    $GLOBALS['organisation_name'] = $organisation_name;
+        $pdo = new PDO($dsn, $config['user'], $config['pass'], $options);
 
-} catch (PDOException $e) {
+        // succès
+        break;
 
-    // En PROD, tu peux remplacer par un log fichier
-    die(
-        "❌ Erreur de connexion à la base de données :<br>" .
-        htmlspecialchars($e->getMessage())
-    );
+    } catch (PDOException $e) {
+
+        error_log("Connexion échouée ($name): " . $e->getMessage());
+
+    }
+
+}
+
+if (!$pdo) {
+    die("Impossible de se connecter à la base de données.");
 }

@@ -15,6 +15,7 @@ class FeteModel
                 WHERE year(`date`) = :annee
                   AND month(`date`) = :mois
                   AND a.enabled = 1
+                  AND a.lieux != 'NO PARTY'
                 ORDER BY `date` ASC;";
 
         $stmt = $this->pdo->prepare($sql);

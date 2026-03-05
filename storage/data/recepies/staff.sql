@@ -54,7 +54,7 @@ CREATE TABLE `staff_tbl` (
   `service` varchar(45) DEFAULT NULL,
   `departement` varchar(45) DEFAULT NULL,
   `poste` varchar(45) DEFAULT NULL,
-  `statut` varchar(45) DEFAULT NULL,
+  `status` varchar(45) DEFAULT NULL,
   `enabled` int DEFAULT '0',
   `gender` varchar(45) DEFAULT NULL,
   `middle_name` varchar(45) DEFAULT NULL,

@@ -35,7 +35,7 @@ class StaffModel
                 middle_name = :middle_name,
                 gender = :gender,
                 dob = :dob,
-                statut = :statut,
+                status = :status,
                 departement = :departement,
                 service = :service,
                 poste = :poste,
@@ -53,7 +53,7 @@ class StaffModel
             'middle_name' => $data['middle_name'],
             'gender' => $data['gender'],
             'dob' => $data['dob'],
-            'statut' => $data['statut'],
+            'status' => $data['status'],
             'departement' => $data['departement'],
             'service' => $data['service'],
             'poste' => $data['poste'],
@@ -70,9 +70,9 @@ class StaffModel
     public function createStaff($data)
     {
         $sql = "INSERT INTO staff_tbl 
-                (nom, prenom, middle_name, gender, dob, statut, departement, service, poste, tel1, tel2, adresse_l1, adresse_l2, code_postal, ville,enabled)
+                (nom, prenom, middle_name, gender, dob, status, departement, service, poste, tel1, tel2, adresse_l1, adresse_l2, code_postal, ville,enabled)
                 VALUES
-                (:nom, :prenom, :middle_name, :gender, :dob, :statut, :departement, :service, :poste, :tel1, :tel2, :adresse_l1, :adresse_l2, :code_postal, :ville, :enabled)";
+                (:nom, :prenom, :middle_name, :gender, :dob, :status, :departement, :service, :poste, :tel1, :tel2, :adresse_l1, :adresse_l2, :code_postal, :ville, :enabled)";
         $stmt = $this->pdo->prepare($sql);
         $stmt->execute([
             'nom' => $data['nom'],
@@ -80,7 +80,7 @@ class StaffModel
             'middle_name' => $data['middle_name'],
             'gender' => $data['gender'],
             'dob' => $data['dob'],          
-            'statut' => $data['statut'],
+            'status' => $data['status'],
             'departement' => $data['departement'],  
             'service' => $data['service'],
             'poste' => $data['poste'],

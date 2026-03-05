@@ -1,6 +1,34 @@
 <?php $title = 'Editer Staff'; 
     $custom_js = <<<'JS'
     // Custom JavaScript can be added here
+    function loadDepartements(service, selected = null)
+    {
+    fetch("/ajax/get_departements.php?service=" + encodeURIComponent(service))
+    .then(response => response.json())
+    .then(data => {
+        let select = document.getElementById("departement");
+        select.innerHTML = '<option value="">Select Departement</option>';
+        data.forEach(function(dep){
+            let option = document.createElement("option");
+            option.value = dep;
+            option.textContent = dep;
+            if(selected && dep === selected)
+            option.selected = true;
+            select.appendChild(option);
+        });
+    });
+    }
+    document.getElementById("service").addEventListener("change", function(){
+    loadDepartements(this.value);
+    });
+    /* Chargement automatique pour EDIT */
+    window.addEventListener("DOMContentLoaded", function(){
+    let service = document.getElementById("service").value;
+    if(service)
+    loadDepartements(service, departementSaved);
+    });
+    //--------------------------------------------------------
+    let departementSaved = "<?= e($staff['departement']) ?>";
     JS;
     $custom_style = <<<'CSS'
     /* Custom CSS can be added here */
@@ -65,8 +93,12 @@
 
             <div class="col-md-3 mb-3">
             <label>Status</label>
-            <input type="text" name="statut" class="form-control"
-            value="<?= e($staff['statut']) ?>">
+            <select name="status" class="form-control">
+                    <option value="">Select Status</option>
+                    <?php foreach ($options['status'] as $key => $value): ?>
+                        <option value="<?= e($value) ?>" <?= $staff['status'] === $value ? 'selected' : '' ?>><?= e($value) ?></option>
+                    <?php endforeach; ?>
+            </select>
             </div>
 
             </div>
@@ -75,20 +107,32 @@
 
             <div class="col-md-4 mb-3">
             <label>Service</label>
-            <input type="text" name="service" class="form-control"
-            value="<?= e($staff['service']) ?>">
+            <select name="service" id="service" class="form-control">
+                <option value="">Select Service</option>
+                <?php foreach ($options['Sevice'] as $value): ?>
+                <option value="<?= e($value) ?>"
+                <?= ($staff['service'] == $value) ? 'selected' : '' ?>>
+                <?= e($value) ?>
+                </option>
+            <?php endforeach; ?>
+            </select>
             </div>
 
             <div class="col-md-4 mb-3">
             <label>Departement</label>
-            <input type="text" name="departement" class="form-control"
-            value="<?= e($staff['departement']) ?>">
+            <select name="departement" id="departement" class="form-control">
+                <option value="">Select Departement</option>
+            </select>
             </div>
 
             <div class="col-md-4 mb-3">
             <label>Poste</label>
-            <input type="text" name="poste" class="form-control"
-            value="<?= e($staff['poste']) ?>">
+            <select name="poste"  id="poste" class="form-control">
+                    <option value="">Select Poste</option>
+                    <?php foreach ($options['Poste'] as $key => $value): ?>
+                        <option value="<?= e($value) ?>"><?= e($value) ?></option>
+                    <?php endforeach; ?>
+                </select>
             </div>
 
             </div>
@@ -100,17 +144,13 @@
             <input type="text" name="tel1" class="form-control"
             value="<?= e($staff['tel1']) ?>">
             </div>
-
             <div class="col-md-3 mb-3">
             <label>Téléphone 2</label>
             <input type="text" name="tel2" class="form-control"
             value="<?= e($staff['tel2']) ?>">
             </div>
-
             </div>
-
             <div class="row">
-
             <div class="col-md-4 mb-3">
             <label>Adresse ligne 1</label>
             <input type="text" name="adresse_l1" class="form-control"
@@ -122,17 +162,13 @@
             <input type="text" name="adresse_l2" class="form-control"
             value="<?= e($staff['adresse_l2']) ?>">
             </div>
-
             </div>
-
             <div class="row">
-
             <div class="col-md-3 mb-3">
             <label>Code Postal</label>
             <input type="text" name="code_postal" class="form-control"
             value="<?= e($staff['code_postal']) ?>">
             </div>
-
             <div class="col-md-3 mb-3">
             <label>Ville</label>
             <input type="text" name="ville" class="form-control"
@@ -140,19 +176,14 @@
             </div>
 
             </div>
-
             <div class="mt-4">
-
             <button type="submit" class="btn btn-primary">
             Save
             </button>
-
             <a href="<?= BASE_URL ?>/staff/liste" class="btn btn-secondary">
             Cancel
             </a>
-
             </div>
-
             </form>
 <!---------------------FIN DIV PRINCIPAL--------------------->
         </div><!---------------------FIN CARD-BODY--------------------->

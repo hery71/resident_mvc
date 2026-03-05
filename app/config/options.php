@@ -31,9 +31,13 @@ return [
     'Lactose' => ['Normale', 'Sans lactose'],
     //********************************fetes************************************************** */
     'Motif' => ['Birthday', 'Requiem', 'Familiale','Autre'],
-    'Couleur' => ['Bleu', 'Rose', 'Jaune', 'Vert', 'Rouge', 'Blanc', 'Multicolore']
-    //************************************************************************************** */
-
-
+    'Couleur' => ['Bleu', 'Rose', 'Jaune', 'Vert', 'Rouge', 'Blanc', 'Multicolore'],
+    //*****************************************STAFF********************************************* */
+    'status' => ['FT', 'PT', 'OCC', 'ETUDIANT', 'CONTRAT', 'STAGE'],
+    'Sevice' => ['Service alimentaire et Menage', 'Soins', 'Autre'],
+    'Departement' => [  'Service alimentaire et Menage' =>  ['Menage','Cuisine',  'Laundry'],
+                        'Soins'                         =>  ['soins1','soins2','soins3'] 
+                    ],
+    'Poste' => ['COOK', 'MAID','UT','POLY']
 ];
 ?>
