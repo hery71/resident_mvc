@@ -49,8 +49,12 @@
 
             <div class="col-md-3 mb-3">
             <label>Gender</label>
-            <input type="text" name="gender" class="form-control"
-            value="<?= e($staff['gender']) ?>">
+            <select name="gender" class="form-control">
+                <option value="">Select Gender</option>
+                <?php foreach ($options['Gender'] as $key => $value): ?>
+                    <option value="<?= e($value) ?>" <?= $staff['gender'] === $value ? 'selected' : '' ?>><?= e($value) ?></option>
+                <?php endforeach; ?>
+            </select>
             </div>
 
             <div class="col-md-3 mb-3">
@@ -143,7 +147,7 @@
             Save
             </button>
 
-            <a href="<?= BASE_URL ?>/staff" class="btn btn-secondary">
+            <a href="<?= BASE_URL ?>/staff/liste" class="btn btn-secondary">
             Cancel
             </a>
 

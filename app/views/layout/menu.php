@@ -116,6 +116,7 @@
                     </a>
                     <div class="dropdown-menu">
                         <a class="dropdown-item" href="/staff/liste">Liste des staffs</a>
+                        <a class="dropdown-item" href="/staff/create">Ajouter un staff</a>
                     </div>
                 </li>
 

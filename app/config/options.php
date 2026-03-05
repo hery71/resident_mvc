@@ -1,6 +1,6 @@
 <?php
 return [
-    'Gender' => ['Homme', 'Femme'],
+    'Gender' => ['Homme', 'Femme', 'NC'],
     'Relation' => ['Epoux','Epouse','Grands parents', 'Père', 'Mère', 'Frère', 'Sœur', 'Cousin(e)', 'Ami/Oncle', 'Tante', 'Fils', 'Fille', 'Petit Fils', 'Petite fille'],
     'CauseDepart' => ['Décès', 'Déménagement', 'Maladie', 'Autre'],
     'Commentaires' => ['CAKE FOR RESIDENTS','CAKE FOR THE STAFF','CAKE FOR THE PARTY','WAITING CONFIRMATION','CAKE FOR RESIDENTS','GIVE THE CAKE TO FAMILY','FAMILY WILL BRING CAKE','NO PARTY FAMILLY PICK UP THE CAKE','NO CAKE'],

@@ -67,4 +67,32 @@ class StaffModel
         ]);
         return $stmt->rowCount() > 0;
     }
+    public function createStaff($data)
+    {
+        $sql = "INSERT INTO staff_tbl 
+                (nom, prenom, middle_name, gender, dob, statut, departement, service, poste, tel1, tel2, adresse_l1, adresse_l2, code_postal, ville,enabled)
+                VALUES
+                (:nom, :prenom, :middle_name, :gender, :dob, :statut, :departement, :service, :poste, :tel1, :tel2, :adresse_l1, :adresse_l2, :code_postal, :ville, :enabled)";
+        $stmt = $this->pdo->prepare($sql);
+        $stmt->execute([
+            'nom' => $data['nom'],
+            'prenom' => $data['prenom'],
+            'middle_name' => $data['middle_name'],
+            'gender' => $data['gender'],
+            'dob' => $data['dob'],          
+            'statut' => $data['statut'],
+            'departement' => $data['departement'],  
+            'service' => $data['service'],
+            'poste' => $data['poste'],
+            'tel1' => $data['tel1'],
+            'tel2' => $data['tel2'],
+            'adresse_l1' => $data['adresse_l1'],
+            'adresse_l2' => $data['adresse_l2'],
+            'code_postal' => $data['code_postal'],
+            'ville' => $data['ville'],
+            'enabled' => 1
+        ]);
+        return $this->pdo->lastInsertId();          
+    }
+        
 }
