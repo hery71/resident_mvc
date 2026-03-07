@@ -117,6 +117,7 @@
                     <div class="dropdown-menu">
                         <a class="dropdown-item" href="/staff/liste">Liste des staffs</a>
                         <a class="dropdown-item" href="/staff/create">Ajouter un staff</a>
+                        <a class="dropdown-item" href="/staff/editDayOff">Ajouter un jour de congé</a>
                     </div>
                 </li>
 

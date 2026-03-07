@@ -107,4 +107,49 @@ class StaffController {
             exit;
         }
     }
+    public function editDayOff() {
+
+        $IdStaff = $_GET['IdStaff']??0;
+        $startDate = $_GET['startDate']??date('Y-m-d');
+        $d = new DateTime($startDate);
+        $day = $d->format('w');
+        if($day != 0){$d->modify("-{$day} day");}
+        $startDate = $d->format('Y-m-d');
+
+        $model = new StaffModel();
+        $staffList = $model->getAllStaffs();
+        $existingOff = $model->getOffDays($IdStaff,$startDate);
+        $summaryByService = $model->getSummaryByService($startDate);
+
+        $options = require APP_PATH.'/config/options.php';
+        require APP_PATH.'/views/staff/editDayOff.php';
+
+    }
+    public function saveDayOff()
+{
+	$IdStaff = $_POST['IdStaff'] ?? 0;
+	$dates = $_POST['date'] ?? [];
+	$offs = $_POST['off'] ?? [];
+	$hours = $_POST['hour'] ?? [];
+	$obs = $_POST['observation'] ?? [];
+
+	$model = new StaffModel();
+
+	for ($i = 0; $i < count($dates); $i++) {
+
+		$date = $dates[$i];
+		$off = $offs[$i] ?? '';
+		$hour = $hours[$i] ?? 0;
+		$observation = $obs[$i] ?? '';
+
+		if ($off == '') {
+			continue;
+		}
+
+		$model->saveDayOff($IdStaff, $date, $off, $hour, $observation);
+	}
+
+	header("Location: editDayOff?IdStaff=".$IdStaff."&startDate=".$dates[0]);
+	exit;
+}
 }

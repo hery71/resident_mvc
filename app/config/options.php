@@ -38,6 +38,8 @@ return [
     'Departement' => [  'Service alimentaire et Menage' =>  ['Menage','Cuisine',  'Laundry'],
                         'Soins'                         =>  ['soins1','soins2','soins3'] 
                     ],
-    'Poste' => ['COOK', 'MAID','UT','POLY']
+    'Poste' => ['COOK', 'MAID','UT','POLY'],
+    'DayOff' => ['SM', 'WD','V','F','HA','CUPE'],
+    'Hour' => ['3', '3.75','4.75','5.5','6.5','7.5','8.5','9.5','10.25','11.25']
 ];
 ?>

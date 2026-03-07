@@ -94,5 +94,94 @@ class StaffModel
         ]);
         return $this->pdo->lastInsertId();          
     }
+    public function getOffDays($IdStaff, $startDate)
+	{
+		$sql = "SELECT Date, off, hour, observation
+		        FROM off_table
+		        WHERE IdStaff = ?
+		        AND Date BETWEEN ? AND DATE_ADD(?, INTERVAL 13 DAY)
+		        AND enabled = 1";
+
+		$stmt = $this->pdo->prepare($sql);
+		$stmt->execute([$IdStaff, $startDate, $startDate]);
+
+		$rows = $stmt->fetchAll(PDO::FETCH_ASSOC);
+
+		$data = [];
+
+		foreach ($rows as $r) {
+			$data[$r['Date']] = [
+				'off'         => $r['off'],
+				'hour'        => $r['hour'],
+				'observation' => $r['observation']
+			];
+		}
+
+		return $data;
+	}
+
+	public function getSummaryByService($startDate)
+	{
+		$sql = "SELECT s.service, o.off,
+		        COUNT(*) AS c,
+		        SUM(o.hour) AS h
+		        FROM off_table o
+		        JOIN staff_tbl s ON s.Id = o.IdStaff
+		        WHERE o.Date BETWEEN ? AND DATE_ADD(?, INTERVAL 13 DAY)
+		        AND o.enabled = 1
+		        GROUP BY s.service, o.off";
+
+		$stmt = $this->pdo->prepare($sql);
+		$stmt->execute([$startDate, $startDate]);
+
+		$rows = $stmt->fetchAll(PDO::FETCH_ASSOC);
+
+		$data = [];
+
+		foreach ($rows as $r) {
+
+			$service = $r['service'];
+			$code    = $r['off'];
+
+			$data[$service][$code]['count'] = $r['c'];
+			$data[$service][$code]['hours'] = $r['h'];
+
+			$data[$service]['totalDays'] =
+				($data[$service]['totalDays'] ?? 0) + $r['c'];
+
+			$data[$service]['totalHours'] =
+				($data[$service]['totalHours'] ?? 0) + $r['h'];
+		}
+
+		return $data;
+	}public function saveDayOff($IdStaff, $date, $off, $hour, $observation)
+    {
+        $sql = "SELECT Id FROM off_table
+                WHERE IdStaff = ?
+                AND Date = ?";
+
+        $stmt = $this->pdo->prepare($sql);
+        $stmt->execute([$IdStaff, $date]);
+        $row = $stmt->fetch(PDO::FETCH_ASSOC);
+
+        if ($row) {
+
+            $sql = "UPDATE off_table
+                    SET off = ?, hour = ?, observation = ?
+                    WHERE Id = ?";
+
+            $stmt = $this->pdo->prepare($sql);
+            $stmt->execute([$off, $hour, $observation, $row['Id']]);
+
+        } else {
+
+            $sql = "INSERT INTO off_table
+                    (IdStaff, Date, off, hour, observation, enabled)
+                    VALUES (?, ?, ?, ?, ?, 1)";
+
+            $stmt = $this->pdo->prepare($sql);
+            $stmt->execute([$IdStaff, $date, $off, $hour, $observation]);
+        }
+    }
         
 }

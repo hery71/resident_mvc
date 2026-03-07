@@ -1,34 +1,40 @@
 <?php $title = 'Editer Staff'; 
     $custom_js = <<<'JS'
     // Custom JavaScript can be added here
+    let departementSaved =
+    document.getElementById("departement").dataset.selected;
+
+    console.log("Saved:", departementSaved);
+
     function loadDepartements(service, selected = null)
     {
-    fetch("/ajax/get_departements.php?service=" + encodeURIComponent(service))
-    .then(response => response.json())
-    .then(data => {
-        let select = document.getElementById("departement");
-        select.innerHTML = '<option value="">Select Departement</option>';
-        data.forEach(function(dep){
-            let option = document.createElement("option");
-            option.value = dep;
-            option.textContent = dep;
-            if(selected && dep === selected)
-            option.selected = true;
-            select.appendChild(option);
+        fetch("/ajax/get_departements.php?service=" + encodeURIComponent(service))
+        .then(response => response.json())
+        .then(data => {
+            let select = document.getElementById("departement");
+            select.innerHTML = '<option value="">Select Departement</option>';
+            data.forEach(function(dep){
+                let option = document.createElement("option");
+                option.value = dep;
+                option.textContent = dep;
+                if(selected && dep === selected)
+                option.selected = true;
+                select.appendChild(option);
+            });
         });
-    });
+        console.log("Saved:", departementSaved);
+        console.log("Service:", service);
     }
+
     document.getElementById("service").addEventListener("change", function(){
-    loadDepartements(this.value);
+        loadDepartements(this.value);
     });
-    /* Chargement automatique pour EDIT */
+
     window.addEventListener("DOMContentLoaded", function(){
-    let service = document.getElementById("service").value;
-    if(service)
-    loadDepartements(service, departementSaved);
-    });
-    //--------------------------------------------------------
-    let departementSaved = "<?= e($staff['departement']) ?>";
+        let service = document.getElementById("service").value;
+        if(service)
+        loadDepartements(service, departementSaved);
+    });    
     JS;
     $custom_style = <<<'CSS'
     /* Custom CSS can be added here */
@@ -120,7 +126,9 @@
 
             <div class="col-md-4 mb-3">
             <label>Departement</label>
-            <select name="departement" id="departement" class="form-control">
+           <select name="departement" id="departement"
+                data-selected="<?= e($staff['departement']) ?>"
+                class="form-control">
                 <option value="">Select Departement</option>
             </select>
             </div>
@@ -130,7 +138,9 @@
             <select name="poste"  id="poste" class="form-control">
                     <option value="">Select Poste</option>
                     <?php foreach ($options['Poste'] as $key => $value): ?>
-                        <option value="<?= e($value) ?>"><?= e($value) ?></option>
+                        <option value="<?= e($value) ?>
+                        <?= ($staff['poste'] == $value) ? 'selected' : '' ?>
+                        "><?= e($value) ?></option>
                     <?php endforeach; ?>
                 </select>
             </div>
