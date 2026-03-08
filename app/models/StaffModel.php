@@ -96,7 +96,7 @@ class StaffModel
     }
     public function getOffDays($IdStaff, $startDate)
 	{
-		$sql = "SELECT Date, off, hour, observation
+		$sql = "SELECT id,Date, off, hour, observation
 		        FROM off_table
 		        WHERE IdStaff = ?
 		        AND Date BETWEEN ? AND DATE_ADD(?, INTERVAL 13 DAY)
@@ -111,6 +111,7 @@ class StaffModel
 
 		foreach ($rows as $r) {
 			$data[$r['Date']] = [
+				'id'          => $r['id'],
 				'off'         => $r['off'],
 				'hour'        => $r['hour'],
 				'observation' => $r['observation']
@@ -119,6 +120,61 @@ class StaffModel
 
 		return $data;
 	}
+    public function getSumOffByStaff($IdStaff, $startDate)
+    {
+        $sql = "SELECT off, COUNT(*) AS c
+                FROM off_table
+                WHERE IdStaff = ?
+                AND Date BETWEEN ? AND DATE_ADD(?, INTERVAL 13 DAY)
+                AND enabled = 1
+                GROUP BY off";
+
+        $stmt = $this->pdo->prepare($sql);
+        $stmt->execute([$IdStaff, $startDate, $startDate]);
+
+        $rows = $stmt->fetchAll(PDO::FETCH_ASSOC);
+
+        $data = [];
+
+        foreach ($rows as $r) {
+            $data[$r['off']] = $r['c'];
+        }
+
+        return $data;
+    }
+    public function getSummaryByStaff($startDate)
+    {
+        $sql = "SELECT s.id, s.service, s.departement, s.Nom,s.Prenom, o.off, COUNT(*) AS c
+                FROM off_table o
+                JOIN staff_tbl s ON s.Id = o.IdStaff
+                WHERE o.Date BETWEEN ? AND DATE_ADD(?, INTERVAL 13 DAY)
+                AND o.enabled = 1
+                GROUP BY s.id, s.service, s.departement, s.Nom, s.Prenom, o.off
+                ORDER BY s.service, s.departement, s.Nom, s.Prenom";
+
+        $stmt = $this->pdo->prepare($sql);
+        $stmt->execute([$startDate, $startDate]);
+
+        $rows = $stmt->fetchAll(PDO::FETCH_ASSOC);
+
+        $data = [];
+
+        foreach ($rows as $r) {
+
+            $service     = $r['service'];
+            $departement = $r['departement'];
+            $name        = $r['id'].'#'.$r['Prenom'].' '.$r['Nom'];
+            $off         = $r['off'];
+
+            if (!isset($data[$service][$departement][$name][$off])) {
+                $data[$service][$departement][$name][$off] = 0;
+            }
+
+            $data[$service][$departement][$name][$off] += $r['c'];
+        }
+
+        return $data;
+    }
 
 	public function getSummaryByService($startDate)
 	{
@@ -154,7 +210,8 @@ class StaffModel
 		}
 
 		return $data;
-	}public function saveDayOff($IdStaff, $date, $off, $hour, $observation)
+	} 
+    public function saveDayOff($IdStaff, $date, $off, $hour, $observation)
     {
         $sql = "SELECT Id FROM off_table
                 WHERE IdStaff = ?
@@ -182,6 +239,15 @@ class StaffModel
             $stmt = $this->pdo->prepare($sql);
             $stmt->execute([$IdStaff, $date, $off, $hour, $observation]);
         }
+    }
+    public function deleteDayOff($Id)
+    {
+        $sql = "UPDATE off_table
+                SET enabled = 0
+                WHERE Id = ?";
+
+        $stmt = $this->pdo->prepare($sql);
+        $stmt->execute([$Id]);      
     }
         
 }

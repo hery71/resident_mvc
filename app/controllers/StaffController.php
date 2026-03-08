@@ -108,7 +108,6 @@ class StaffController {
         }
     }
     public function editDayOff() {
-
         $IdStaff = $_GET['IdStaff']??0;
         $startDate = $_GET['startDate']??date('Y-m-d');
         $d = new DateTime($startDate);
@@ -118,38 +117,62 @@ class StaffController {
 
         $model = new StaffModel();
         $staffList = $model->getAllStaffs();
+        //tirer le premier staff de la liste si IdStaff=0
+        if($IdStaff==0 && count($staffList)>0){
+            $IdStaff = $staffList[0]['id'];
+        }
         $existingOff = $model->getOffDays($IdStaff,$startDate);
-        $summaryByService = $model->getSummaryByService($startDate);
-
+        $summaryByStaff = $model->getSummaryByStaff($startDate);
+        //var_dump($summaryByStaff);
+        //exit();
         $options = require APP_PATH.'/config/options.php';
         require APP_PATH.'/views/staff/editDayOff.php';
 
     }
     public function saveDayOff()
-{
-	$IdStaff = $_POST['IdStaff'] ?? 0;
-	$dates = $_POST['date'] ?? [];
-	$offs = $_POST['off'] ?? [];
-	$hours = $_POST['hour'] ?? [];
-	$obs = $_POST['observation'] ?? [];
+    {
+        $IdStaff = $_POST['IdStaff'] ?? 0;
+        $dates = $_POST['date'] ?? [];
+        $offs = $_POST['off'] ?? [];
+        $hours = $_POST['hour'] ?? [];
+        $obs = $_POST['observation'] ?? [];
 
-	$model = new StaffModel();
+        $model = new StaffModel();
 
-	for ($i = 0; $i < count($dates); $i++) {
+        for ($i = 0; $i < count($dates); $i++) {
 
-		$date = $dates[$i];
-		$off = $offs[$i] ?? '';
-		$hour = $hours[$i] ?? 0;
-		$observation = $obs[$i] ?? '';
+            $date = $dates[$i];
+            $off = $offs[$i] ?? '';
+            $hour = $hours[$i] ?? 0;
+            $observation = $obs[$i] ?? '';
 
-		if ($off == '') {
-			continue;
-		}
+            if ($off == '') {
+                continue;
+            }
 
-		$model->saveDayOff($IdStaff, $date, $off, $hour, $observation);
-	}
+            $model->saveDayOff($IdStaff, $date, $off, $hour, $observation);
+        }
 
-	header("Location: editDayOff?IdStaff=".$IdStaff."&startDate=".$dates[0]);
-	exit;
-}
+        header("Location: editDayOff?IdStaff=".$IdStaff."&startDate=".$dates[0]);
+        exit;
+    }
+public function deleteDayOff()
+    {
+        $Id = $_GET['Id'] ?? 0;
+        $startDate = $_GET['startDate'] ?? date('Y-m-d');
+        $model = new StaffModel();
+        $model->deleteDayOff($Id);
+
+        header("Location: editDayOff?IdStaff=0&startDate=".$startDate);
+        exit;
+    }
+public function printSummaryStaff()
+    {
+        $IdStaff = $_GET['IdStaff'] ?? 0;
+        $startDate = $_GET['startDate'] ?? date('Y-m-d');
+        $model = new StaffModel();
+        $staff = $model->getStaffById($IdStaff);
+        $sumOffStaff = $model->getSumOffByStaff($IdStaff, $startDate);
+        require APP_PATH.'/views/staff/printSummaryStaff.php';
+    }
 }
