@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Impression congés</title>
+    <title>Impression Departement</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet"
           href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
@@ -13,10 +13,9 @@
 <div class="container mt-4" id="printable-area">
 <?php include __DIR__ . '/../layout/printSizeOption.php'; 
 $endDate = date('Y-m-d', strtotime($startDate . ' +13 days'));
-$staffName = $staff['prenom'] . ' ' . $staff['nom'];
 ?>
-<H3 class="mb-4 text-center font-weight-bold">congés par staff</H3>
-<H5  class="mb-4 text-left font-weight-bold">Congés de <?= e($staffName) ?>  </H5>
+<H3 class="mb-4 text-center font-weight-bold">Congés par departement</H3>
+<H5  class="mb-4 text-left font-weight-bold">Congés de <?= e($departement) ?>  </H5>
 <H5  class="mb-4 text-left font-weight-bold">Periode du <?= e($startDate) ?> Au <?= e($endDate) ?></H5>
 <table class="table table-bordered">
     <thead>
@@ -26,7 +25,7 @@ $staffName = $staff['prenom'] . ' ' . $staff['nom'];
     </tr>
     </thead>
     <tbody>
-    <?php foreach ($sumOffStaff as $off => $count): ?>
+    <?php foreach ($sumOffDepartement as $off => $count): ?>
         <tr>
             <td><?= e($off) ?></td>
             <td><?= e($count) ?></td>
@@ -35,6 +34,8 @@ $staffName = $staff['prenom'] . ' ' . $staff['nom'];
     </tbody>
 </table>
 </div> <!-- container -->
+
+
     <footer class="bg-light text-center mt-5 py-3">
         <small class="text-muted">
             © 2026 – Resident MVC

@@ -187,7 +187,10 @@
              </div>
             <div class="card-body">
                 <?php foreach ($departements as $departement => $staffs): ?>
-                <h4>Departement : <?= $departement ?></h4>
+                <div class="d-flex align-items-left justify-content-between mb-2">
+                    <h4>Departement : <?= $departement ?></h4>
+                    <?= "<a href='/staff/printSummaryStaffList?Departement=$departement&startDate=$startDate' class='btn btn-sm btn-outline-secondary' target='_blank'>Print table</a>" ?>
+                </div>
                 <table class="table table-bordered table-sm">
                     <thead>
                         <tr>
@@ -263,6 +266,7 @@
                         <td class="td-somme"><?= $totalF ?></td>
                         <td class="td-somme"><?= $totalHA ?></td>
                         <td class="td-somme"><?= $totalCupe ?></td>
+                        <td class="td-somme"><a href='/staff/printSummaryDepartement?Departement=<?= $departement ?>&startDate=<?= $startDate ?>' class='btn btn-sm btn-outline-secondary' target='_blank'>Print</a></td>
                     </tr>
 
                     </tbody>

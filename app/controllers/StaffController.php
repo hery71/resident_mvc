@@ -175,4 +175,20 @@ public function printSummaryStaff()
         $sumOffStaff = $model->getSumOffByStaff($IdStaff, $startDate);
         require APP_PATH.'/views/staff/printSummaryStaff.php';
     }
+public function printSummaryDepartement()
+    {
+        $departement = $_GET['Departement'] ?? '';
+        $startDate = $_GET['startDate'] ?? date('Y-m-d');
+        $model = new StaffModel();
+        $sumOffDepartement = $model->getSumOffByDepartement($departement, $startDate);
+        require APP_PATH.'/views/staff/printSummaryDepartement.php';            
+    }
+public function printSummaryStaffList()
+    {
+        $startDate = $_GET['startDate'] ?? date('Y-m-d');
+        $departement = $_GET['Departement'] ?? '';  
+        $model = new StaffModel();
+        $summaryStaffList = $model->getStaffListSummaryByDepartement($startDate, $departement);
+        require APP_PATH.'/views/staff/printSummaryStaffList.php';            
+    }
 }

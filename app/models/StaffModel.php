@@ -249,5 +249,57 @@ class StaffModel
         $stmt = $this->pdo->prepare($sql);
         $stmt->execute([$Id]);      
     }
+    public function getSumOffByDepartement($departement, $startDate)
+    {
+        $sql = "SELECT s.departement, o.off, COUNT(*) AS c
+                FROM off_table o
+                JOIN staff_tbl s ON s.Id = o.IdStaff
+                WHERE s.departement = ?
+                AND o.Date BETWEEN ? AND DATE_ADD(?, INTERVAL 13 DAY)
+                AND o.enabled = 1
+                GROUP BY s.departement, o.off";
+        $stmt = $this->pdo->prepare($sql);
+        $stmt->execute([$departement, $startDate, $startDate]);
+        $rows = $stmt->fetchAll(PDO::FETCH_ASSOC);
+        $data = [];
+        foreach ($rows as $r) {
+            $data[$r['off']] = $r['c'];
+        }
+        return $data;
+    }
+    public function getStaffListSummaryByDepartement($startDate, $departement)
+    {
+        $sql = "SELECT s.id, s.service, s.departement, s.Nom,s.Prenom, o.off, COUNT(*) AS c
+                FROM off_table o
+                JOIN staff_tbl s ON s.Id = o.IdStaff
+                WHERE o.Date BETWEEN ? AND DATE_ADD(?, INTERVAL 13 DAY)
+                AND o.enabled = 1
+                AND s.departement = ?
+                GROUP BY s.id, s.service, s.departement, s.Nom, s.Prenom, o.off
+                ORDER BY s.service, s.departement, s.Nom, s.Prenom";
+
+        $stmt = $this->pdo->prepare($sql);
+        $stmt->execute([$startDate, $startDate, $departement]);
+
+        $rows = $stmt->fetchAll(PDO::FETCH_ASSOC);
+
+        $data = [];
+
+        foreach ($rows as $r) {
+
+            $service     = $r['service'];
+            $departement = $r['departement'];
+            $name        = $r['id'].'#'.$r['Prenom'].' '.$r['Nom'];
+            $off         = $r['off'];
+
+            if (!isset($data[$name][$off])) {
+                $data[$name][$off] = 0;
+            }
+
+            $data[$name][$off] += $r['c'];
+        }
+
+        return $data;
+    }
         
 }
