@@ -266,4 +266,24 @@ class BirthdayModel
 
         return $result ?: null;
     }
+    public function getCakeInfo($idResident, $annee)
+    {
+        $sql = "
+            SELECT 
+                c.*
+            FROM cake c
+            WHERE c.idResident = :idResident
+            AND c.annee = :annee
+            AND c.enabled = 1
+            LIMIT 1
+        ";
+
+        $stmt = $this->pdo->prepare($sql);
+        $stmt->execute([
+            'idResident' => $idResident,
+            'annee' => $annee
+        ]);
+
+        return $stmt->fetch();
+    }
 }

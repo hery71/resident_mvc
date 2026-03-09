@@ -109,7 +109,14 @@ class BirthdayController
 
         $model = new BirthdayModel();
         $birthday = $model->getById($idBirthday);
+        $model = new CakeModel();
+        $cake = $model->findByResidentAndYear($birthday['id_resident'], $annee);
 
+         if ($cake) {
+            $birthday['cake'] = $cake['enabled'] ? 1 : 0;
+        } else {
+            $birthday['cake'] = 0;
+        }
         if (!$birthday) {
             http_response_code(404);
             exit('Anniversaire introuvable');

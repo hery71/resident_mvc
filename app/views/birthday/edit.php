@@ -1,11 +1,46 @@
-<?php $title = 'Editer Anniversaire'; ?>
-<?php require __DIR__ . '/../layout/header.php'; ?>
-
+<?php $title = 'Editer Anniversaire'; 
+    $custom_js = <<<'JS'
+    // Custom JavaScript can be added here
+    function verifierDate() {
+        const dateCake = document.getElementById("dateCake").value;
+        const dateFete = document.getElementById("date").value;
+        if (dateCake > dateFete) {
+            alert("La date du cake est incorrecte");
+            const errorDiv = document.getElementById("dateError");
+            errorDiv.classList.remove("d-none");
+            window.scrollTo(0,0);
+            return;
+        }
+        // si tout est bon → envoyer formulaire
+        document.getElementById("formFete").submit();
+    }
+    JS;
+    $custom_style = <<<'CSS'
+    /* Custom CSS can be added here */
+    CSS;
+require __DIR__ . '/../layout/header.php'; 
+$messageCake = $cake['dateLivraison'] ?? 'Non Commande';
+if ($messageCake != 'Non Commande') {
+    //Comparer avec la date de la fete d'anniversaire avec $birthday['date'] 
+    $dateBirthday = new DateTime($birthday['Anniversaire']);
+    $dateFete = new DateTime($birthday['date']);    
+    $dateCake = new DateTime($cake['dateLivraison']);
+    $interval = $dateFete->diff($dateCake);
+    if($interval->invert == 0) {
+        echo '<div class="alert alert-danger">⚠️ La date de livraison du gâteau ('.$dateCake->format('d-m-Y').') N EST PAS antérieure à la date de la fete ('.$dateFete->format('d-m-Y').'). Veuillez vérifier les dates.</div>';
+    } else {
+        echo '<div class="alert alert-success">✅ La date de livraison du gâteau est antérieure à la date de la fete.</div>';
+    }   
+}
+?>
+<div id="dateError" class="alert alert-danger d-none">
+    La date du cake ne peut pas être après la date de la fête.
+</div>
 <div class="container mt-4">
 <div class="card-modern">
     <div class="card-header-pastel"><?= $title ?></div>
     <div class="card-body">
-<form method="post" action="/birthday/update">
+<form id="formFete" method="post" action="/birthday/update">
 
 <!-- ================= INFOS TECHNIQUES ================= -->
 <input type="hidden" name="token" value="<?= e($token) ?>">
@@ -14,6 +49,7 @@
 <input type="hidden" name="idBirthday" value="<?= $idBirthday ?>">
 <input type="hidden" name="id_resident" value="<?= $birthday['id_resident'] ?>">
 <input type="hidden" name="motif" value="Birthday">
+<input type="hidden" name="dateCake" id="dateCake" value="<?= $dateCake ? $dateCake->format('Y-m-d') : '' ?>">
 
 <!-- ================= RESIDENT ================= -->
 <div class="card mb-3 shadow-sm">
@@ -25,12 +61,20 @@
             <?= $birthday['Prenom'] ?> <?= $birthday['Nom'] ?> – <?= $birthday['Gender'] ?>
         </p>
         <p class="mb-0">
-            <strong>Date anniversaire :</strong>
+            <strong>Date Anniversaire:</strong>
             <?= sprintf('%02d-%02d-%d',
-                (int)(new DateTime($birthday['Anniversaire']))->format('d'),
+                $dateBirthday->format('d'),
                 $mois,
                 $annee
             ) ?>
+        </p>
+        <p class="mb-0">
+            <strong>Date de la fete :</strong>
+            <?= $dateFete ? $dateFete->format('d-m-Y') : 'Non commandé' ?>
+        </p>
+        <p class="mb-0">
+            <strong>Commande de gateau :</strong>
+            <?= $dateCake ? $dateCake->format('d-m-Y') : 'Non commandé' ?>
         </p>
     </div>
 </div>
@@ -47,7 +91,7 @@
 
             <div class="form-group col-md-3">
                 <label>Date</label>
-                <input type="date" name="date" class="form-control" value="<?= $birthday['date'] ?>">
+                <input type="date" id="date" name="date" class="form-control" value="<?= $birthday['date'] ?>">
             </div>
 
             <div class="form-group col-md-3">
@@ -211,9 +255,8 @@
 </div>
 
 <div class="text-right mb-5">
-    <button class="btn btn-info btn-lg">💾 Enregistrer la fête</button>
+    <button type="button" class="btn btn-info btn-lg" onclick="verifierDate()">Enregistrer la fête</button>
 </div>
-
 </form>
 </div>
 </div>
