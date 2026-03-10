@@ -25,6 +25,7 @@ if ($messageCake != 'Non Commande') {
     $dateBirthday = new DateTime($birthday['Anniversaire']);
     $dateFete = new DateTime($birthday['date']);    
     $dateCake = new DateTime($cake['dateLivraison']);
+    $idCake = $cake['id'] ?? null;
     $interval = $dateFete->diff($dateCake);
     if($interval->invert == 0) {
         echo '<div class="alert alert-danger">⚠️ La date de livraison du gâteau ('.$dateCake->format('d-m-Y').') N EST PAS antérieure à la date de la fete ('.$dateFete->format('d-m-Y').'). Veuillez vérifier les dates.</div>';
@@ -75,6 +76,11 @@ if ($messageCake != 'Non Commande') {
         <p class="mb-0">
             <strong>Commande de gateau :</strong>
             <?= $dateCake ? $dateCake->format('d-m-Y') : 'Non commandé' ?>
+            <?php if ($idCake): ?>
+                <a href="/cake/edit?id=<?= $idCake ?>" class="btn btn-sm btn-primary">Modifier commande Cake</a>
+            <?php else: ?>
+                <a href="/cake/create?resident_id=<?= $birthday['id_resident'] ?>&mois=<?= $mois ?>&annee=<?= $annee ?>" class="btn btn-sm btn-success">Ajouter commande Cake</a>
+            <?php endif; ?>
         </p>
     </div>
 </div>

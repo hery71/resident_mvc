@@ -2,6 +2,27 @@
     $custom_js = <<<'JS'
     // Custom JavaScript can be added here
     document.addEventListener("DOMContentLoaded", function () {
+
+        const dayOffSelects = document.querySelectorAll(".dayoff-select");
+
+        dayOffSelects.forEach(select => {
+
+            select.addEventListener("change", function () {
+
+                if (this.value === "RF" || this.value === "NR") {
+
+                    const row = this.closest("tr");
+                    const hourSelect = row.querySelector(".hour-select");
+
+                    if (hourSelect) {
+                        hourSelect.value = "0";
+                    }
+                }
+            });
+        });
+
+    });
+    document.addEventListener("DOMContentLoaded", function () {
         const staff = document.querySelector("select[name='IdStaff']");
         const start = document.querySelector("input[name='startDate']");
 
@@ -92,6 +113,21 @@
                         class="form-control">
                 </div>
             </div>
+            <div class="alert alert-info">
+                <!--------------------------Explication des codes de congé---'SM', 'WD','V','F','HA','CUPE','RFP','PR'------------------------->
+                <strong>Codes de congé:</strong>
+                <ul>
+                    <li><span class="text-danger fw-bold">SM</span> : Sick (Malade)</li>
+                    <li><span class="text-danger fw-bold">WD</span> : Wellness Day(Bien etre)</li>
+                    <li><span class="text-primary fw-bold">V</span> : Vacation (Vacances)</li>
+                    <li><span class="text-primary fw-bold">F</span> : Ferie (Ferie)</li>
+                    <li><span class="text-primary fw-bold">AH</span> : Accumulate Hours (Heures Accumulees)</li>
+                    <li><span class="text-primary fw-bold">CUPE</span> : CUPE Leave (Congé syndical CUPE)</li>
+                    <li><span class="text-warning fw-bold">RF</span> : Refuse Shift (Refus de Shift)</li>
+                    <li><span class="text-warning fw-bold">NR</span> : No Response (Pas de réponse) </li>
+                </ul>
+
+            </div>
             <!-- TABLE 14 DAYS -->
             <table class="table table-bordered table-sm">
                 <thead class="table-light">
@@ -131,13 +167,13 @@
                         <td>
                             <select
                                 name="off[]"
-                                class="form-control form-control-sm">
+                                class="form-control form-control-sm dayoff-select">
                                 <option value=""></option>
                                 <?php foreach($options['DayOff'] as $off): ?>
                                     <option
                                         value="<?= $off ?>"
                                         <?= ($offValue==$off)?'selected':'' ?>
-                                        class="<?= in_array($off,['SM','WD'])?'text-danger fw-bold':'text-primary' ?>">
+                                        class="<?= in_array($off,['SM','WD'])?'text-danger fw-bold':(in_array($off,['RF','NR'])?'text-warning fw-bold':'text-primary') ?>">
                                         <?= $off ?>
                                     </option>
                                 <?php endforeach; ?>
@@ -146,7 +182,7 @@
                         <td>
                             <select
                                 name="hour[]"
-                                class="form-control form-control-sm">
+                                class="form-control form-control-sm hour-select">
                                 <option value=""></option>
                                 <?php foreach($options['Hour'] as $h): ?>
                                     <option

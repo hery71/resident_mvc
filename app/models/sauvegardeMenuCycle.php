@@ -107,19 +107,12 @@ class MenuCycle
         $dayNum = (int)$target->format('j');
 
         // 🔹 Du 1 au 6 janvier → appartient au cycle de l'année précédente
-        //if ($month == 1 && $dayNum <= 6) {
-           // $seasons = self::getSeasonsForYear($year - 1);
-       // } else {
-           // $seasons = self::getSeasonsForYear($year);
-        //}
-        // 🔹 Du 1 au 6 janvier → appartient au cycle de l'année précédente
         if ($month == 1 && $dayNum <= 6) {
-            $seasonYear = $year - 1;
-            $seasons = self::getSeasonsForYear($seasonYear);
+            $seasons = self::getSeasonsForYear($year - 1);
         } else {
-            $seasonYear = $year;
-            $seasons = self::getSeasonsForYear($seasonYear);
+            $seasons = self::getSeasonsForYear($year);
         }
+
         foreach ($seasons as $s) {
 
             $start = strtotime($s['Début']);
@@ -156,15 +149,8 @@ class MenuCycle
                 //$menuCycleInstance = new self($GLOBALS['pdo']);  // Nécessite que $pdo soit accessible globalement
                 //$menuCycleInstance->getWeekStartForYear((int)$target->format('Y'));
                 //$week = self::calculateMenuWeek($target);
-                //$weeksPassed = floor(($ts - $start) / 604800);
-                //$week = ($weeksPassed % self::$cycleTotalMenus) + 1;
                 $weeksPassed = floor(($ts - $start) / 604800);
-                // récupérer la week de départ depuis la table
-                $menuCycleInstance = new self($GLOBALS['pdo']);
-                $menuCycleInstance->ensureSeasonStartWeeks($year);
-                $startWeek = $menuCycleInstance->getSeasonStartWeek($year, $s['Saison']);
-                // calcul du cycle
-                $week = (($startWeek - 1 + $weeksPassed) % self::$cycleTotalMenus) + 1;
+                $week = ($weeksPassed % self::$cycleTotalMenus) + 1;
 
                 return [
                     'season'  => $s['Saison'],
@@ -302,61 +288,8 @@ class MenuCycle
     /*============================================================
       Calcul le jour a partir d une date
        ============================================================ */
-    public static function getDayFromDate(string $date): string 
-{
+    public static function getDayFromDate(string $date): string {
     return strtolower(date('l', strtotime($date)));  // "monday", "tuesday", etc.
-}
-    public function getSeasonStartWeek(int $annee, string $saison): int
-{
-    $stmt = $this->pdo->prepare("
-        SELECT week
-        FROM season_start_week
-        WHERE annee = :annee
-        AND saison = :saison
-        LIMIT 1
-    ");
-
-    $stmt->execute([
-        ':annee' => $annee,
-        ':saison' => $saison
-    ]);
-
-    $result = $stmt->fetch(PDO::FETCH_ASSOC);
-
-    return $result ? (int)$result['week'] : 1;
-}
-public function ensureSeasonStartWeeks(int $year): void
-{
-    $seasons = ['Winter','Spring','Summer','Fall'];
-
-    foreach ($seasons as $season) {
-
-        $stmt = $this->pdo->prepare("
-            SELECT id
-            FROM season_start_week
-            WHERE annee = :annee
-            AND saison = :saison
-            LIMIT 1
-        ");
-
-        $stmt->execute([
-            ':annee' => $year,
-            ':saison' => $season
-        ]);
-
-        if (!$stmt->fetch()) {
-
-            $insert = $this->pdo->prepare("
-                INSERT INTO season_start_week (annee, saison, week)
-                VALUES (:annee, :saison, 1)
-            ");
-
-            $insert->execute([
-                ':annee' => $year,
-                ':saison' => $season
-            ]);
-        }
-    }
 }
 
 }
