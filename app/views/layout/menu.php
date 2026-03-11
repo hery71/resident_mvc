@@ -133,6 +133,7 @@
                         <a class="dropdown-item" href="/parametres/importSpecial">Importer les menus spéciaux</a>
                         <a class="dropdown-item" href="/parametres/seasonMenu">Menus par saison</a>
                         <a class="dropdown-item" href="/parametres/jsonProcess">Traitement des fichiers JSON</a>
+                        <a class="dropdown-item" href="/parametres/editStartSeasonWeek">Editer semaine de début de saison</a>
                     </div>
                 </li>
 

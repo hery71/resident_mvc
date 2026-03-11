@@ -299,4 +299,26 @@ public function exportSpecialMenus(array $postData, string $saison, string $anne
         $stmt = $pdo->prepare("UPDATE menu_tbl SET enabled = 0 WHERE annee = ? AND saison = ?");
         $stmt->execute([$annee, $saison]);
     }
+    public function getStartSeasonWeeks()
+    {
+        $stmt = $this->pdo->query("SELECT * FROM season_start_week ORDER BY annee DESC, FIELD(saison,'Winter','Spring','Summer','Fall')");
+        return $stmt->fetchAll(PDO::FETCH_ASSOC);
+    }
+    public function deleteStartSeasonWeek($id)
+    {
+        $stmt = $this->pdo->prepare("UPDATE season_start_week SET enabled = 0 WHERE id = ?");
+        $stmt->execute([$id]);
+    }
+    public function checkStartSeasonWeekExists($annee, $saison)
+    {
+        $stmt = $this->pdo->prepare("SELECT COUNT(*) FROM season_start_week WHERE annee = ? AND saison = ? AND enabled = 1");
+        $stmt->execute([$annee, $saison]);
+        return $stmt->fetchColumn() > 0;
+    }
+    public function addStartSeasonWeek($annee, $saison, $week)
+    {
+        $stmt = $this->pdo->prepare("INSERT INTO season_start_week (annee, saison, week, enabled) VALUES (?, ?, ?, 1)");
+        $stmt->execute([$annee, $saison, $week]);
+    }   
+
 }

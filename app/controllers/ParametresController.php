@@ -300,55 +300,112 @@ class ParametresController
                 implode(', ', $mealsData['lunch_dessert'] ?? []),
                 implode(', ', $mealsData['dinner'] ?? []),
                 implode(', ', $mealsData['dinner_dessert'] ?? []),
-            ];
-        }
-    }
-
-    require __DIR__ . '/../views/parametres/importSpecial.php';
-}
-
-    public function exportSpecial()
-{
-    $annee = $_POST['annee'] ?? '';
-    $type  = $_POST['special_type'] ?? '';
-
-    if ($annee === '') die("Année obligatoire.");
-    if ($type !== 'Christmass' && $type !== 'New year') die("Type obligatoire (Christmass ou New year).");
-
-    $model = new ParametresModel();
-    $model->exportSpecialMenus($_POST, $type, $annee);
-
-    header("Location: /parametres/seasonMenu?saison=" . urlencode($type) . "&annee=" . urlencode($annee));
-    exit;
-}
-    public function jsonProcess()
-{
-        require __DIR__ . '/../views/parametres/jsonProcess.php';
-    
-}
-    public function jsonCheck()
-{
-    $checkResultMessage = null;
-    $checkResultClass = null;
-
-    if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['check_json'])) {
-
-        $input = trim($_POST['json_input']);
-
-        if ($input === '') {
-            $checkResultMessage = "Le champ est vide.";
-            $checkResultClass = "danger";
-        } else {
-            json_decode($input);
-            if (json_last_error() === JSON_ERROR_NONE) {
-                $checkResultMessage = "JSON valide ✔";
-                $checkResultClass = "success";
-            } else {
-                $checkResultMessage = "JSON invalide ❌ : " . json_last_error_msg();
-                $checkResultClass = "danger";
+                ];
             }
         }
+
+        require __DIR__ . '/../views/parametres/importSpecial.php';
     }
-    require __DIR__ . '/../views/parametres/jsonProcess.php';
-}
+
+    public function exportSpecial()
+    {
+        $annee = $_POST['annee'] ?? '';
+        $type  = $_POST['special_type'] ?? '';
+
+        if ($annee === '') die("Année obligatoire.");
+        if ($type !== 'Christmass' && $type !== 'New year') die("Type obligatoire (Christmass ou New year).");
+
+        $model = new ParametresModel();
+        $model->exportSpecialMenus($_POST, $type, $annee);
+
+        header("Location: /parametres/seasonMenu?saison=" . urlencode($type) . "&annee=" . urlencode($annee));
+        exit;
+    }
+    public function jsonProcess()
+    {
+            require __DIR__ . '/../views/parametres/jsonProcess.php';
+        
+    }
+    public function jsonCheck()
+    {
+        $checkResultMessage = null;
+        $checkResultClass = null;
+
+        if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['check_json'])) {
+
+            $input = trim($_POST['json_input']);
+
+            if ($input === '') {
+                $checkResultMessage = "Le champ est vide.";
+                $checkResultClass = "danger";
+            } else {
+                json_decode($input);
+                if (json_last_error() === JSON_ERROR_NONE) {
+                    $checkResultMessage = "JSON valide ✔";
+                    $checkResultClass = "success";
+                } else {
+                    $checkResultMessage = "JSON invalide ❌ : " . json_last_error_msg();
+                    $checkResultClass = "danger";
+                }
+            }
+        }
+        require __DIR__ . '/../views/parametres/jsonProcess.php';
+    }
+public function editStartSeasonWeek()
+    {
+        $message = $_GET['message'] ?? '';
+        $message_success='';
+        $message_error='';
+        switch($message){
+            case '0x1':
+                $message_error = "Un enregistrement pour l'année et la saison existe déjà.";
+                break;
+            case '0x2':
+                $message_success = "Enregistrement ajouté avec succès.";
+                break;
+            default:
+        }
+        $message = $_SESSION['message_error'] ?? '';
+        $model = new ParametresModel();
+        $startWeeks = $model->getStartSeasonWeeks();
+        require __DIR__ . '/../views/parametres/editStartSeasonWeek.php';   
+    }
+public function deleteStartSeasonWeek()
+    {
+        if (isset($_GET['id'])) {
+            $model = new ParametresModel();
+            $model->deleteStartSeasonWeek($_GET['id']);
+        }
+        header('Location: ' . BASE_URL . '/parametres/editStartSeasonWeek');
+        exit;
+    }
+public function saveStartSeasonWeek()
+    {
+        $message_error = '';
+        if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+            $annee = $_POST['annee'] ?? '';
+            $saison = $_POST['saison'] ?? '';
+            $week = $_POST['week'] ?? '';
+            //verifier si un enregistrement existe ou non?
+             $model = new ParametresModel();
+             $exists = $model->checkStartSeasonWeekExists($annee, $saison);
+             if ($exists) {
+                // Debug: Affiche les données existantes
+                 // Si un enregistrement existe déjà pour l'année et la saison, on peut choisir de le mettre à jour ou d'afficher un message d'erreur
+                 // Ici, on choisit d'afficher un message d'erreur
+                // Si existe, on peut choisir de mettre à jour ou d'afficher un message d'erreur
+                $_SESSION['message_error'] ="Un enregistrement pour l'année $annee et la saison $saison existe déjà.";
+                header ('Location: ' . BASE_URL . '/parametres/editStartSeasonWeek?message=0x1');
+                exit;
+            }
+             if ($annee !== '' && $saison !== '' && $week !== '') {
+                $model = new ParametresModel();
+                $model->addStartSeasonWeek($annee, $saison, $week);
+                header('Location: ' . BASE_URL . '/parametres/editStartSeasonWeek?message=0x2');
+                exit;
+            }
+        }
+        header('Location: ' . BASE_URL . '/parametres/editStartSeasonWeek?message=0x0');
+        exit;
+    }
 }
