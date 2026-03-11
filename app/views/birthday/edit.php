@@ -20,10 +20,12 @@
     CSS;
 require __DIR__ . '/../layout/header.php'; 
 $messageCake = $cake['dateLivraison'] ?? 'Non Commande';
+$dateBirthday = new DateTime($birthday['Anniversaire']);
+$dateFete = new DateTime($birthday['date']);    
+$dateCake=null;
+$idCake = null;
 if ($messageCake != 'Non Commande') {
     //Comparer avec la date de la fete d'anniversaire avec $birthday['date'] 
-    $dateBirthday = new DateTime($birthday['Anniversaire']);
-    $dateFete = new DateTime($birthday['date']);    
     $dateCake = new DateTime($cake['dateLivraison']);
     $idCake = $cake['id'] ?? null;
     $interval = $dateFete->diff($dateCake);

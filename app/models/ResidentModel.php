@@ -240,4 +240,9 @@ class ResidentModel
         $data['id'] = $id;
         return $stmt->execute($data);
     }
+    public function getLastResidentId()
+    {
+        $stmt = $this->pdo->query("SELECT * FROM resident_tbl WHERE enabled=1 ORDER BY id DESC LIMIT 5 ");
+        return $stmt->fetchAll();
+    }
 }

@@ -89,6 +89,13 @@ class DashBoardController extends Controller
         //saison pour aujourd'hui
         $seasonService = new SeasonService();
         $currentPeriod = $seasonService->getNextSeasonByDate($xdate);
+        //------------------------------
+        //Annoiversaiers inferieur a 7 la date
+        $birthdayModel = new BirthdayModel($pdo);
+        $upcomingBirthdays = $birthdayModel->getFirstWeekBirthday((int)$target->format('m'));
+        //-----------------------------
+        // Resident
+        $lastResidents = $residentModel->getLastResidentId();
         // ==============================
         // 5️⃣ VIEW
         // ==============================

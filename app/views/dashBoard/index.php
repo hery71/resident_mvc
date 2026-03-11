@@ -79,7 +79,7 @@ CSS;
     <div class="row">
 
         <!-- ===================== -->
-        <!-- TUILE L1 1 : MENU        -->
+        <!-- TUILE L1 1 : MENU du jour      -->
         <!-- ===================== -->
         <div class="col-md-4 mb-4">
             <div class="card pastel-tile">
@@ -165,7 +165,7 @@ CSS;
 
                     <?php else: ?>
 
-                        <div class="text-center mt-4">
+                        <div class="text-left mt-4">
                             ✅ Aucun allergène détecté
                         </div>
 
@@ -183,39 +183,50 @@ CSS;
         <div class="col-md-4 mb-4">
             <div class="card pastel-tile">
                 <div class="card-header card-header-pastel">
-                    Anniversaires du Jour
+                    Anniversaires
                 </div>
                 <div class="card-body">
-
-                    <?php if (!empty($birthdays)): ?>
-
-                        <div class="tile-content">
-
-                            <?php foreach ($birthdays as $b): ?>
-                                <?= htmlspecialchars($b['Prenom']) ?>
-                                <?= htmlspecialchars($b['Nom']) ?><br>
-                            <?php endforeach; ?>
-
-                        </div>
-
-                    <?php else: ?>
-
-                        <div class="text-center mt-4">
-                            Aucun anniversaire aujourd'hui
-                        </div>
-
-                    <?php endif; ?>
-                <div class="d-flex justify-content-end mt-3">
-                    <a href="/birthday/" class="btn btn-secondary">Voir</a>
-                </div>
+                    <p class="font-weight-bold">Résidents avec anniversaire aujourd'hui :</P>
+                        <?php if (!empty($birthdays)): ?>
+                            <div class="tile-content">
+                                <?php foreach ($birthdays as $b): ?>
+                                    <?= htmlspecialchars($b['Prenom']) ?>
+                                    <?= htmlspecialchars($b['Nom']) ?><br>
+                                <?php endforeach; ?>
+                            </div>
+                        <?php else: ?>
+                            <div class="text-left mt-4"> 
+                                Aucun anniversaire aujourd'hui
+                            </div>
+                        <?php endif; ?>
+                    <div class="d-flex justify-content-end mt-3">
+                        <a href="/birthday/" class="btn btn-secondary">Voir</a>
+                    </div>
+                    <?php $nextMonth = (new DateTime($xdate))->modify('+1 month')->format('F Y'); ?>
+                    <p class="font-weight-bold">Anniversaire au debut du mois prochain(<?= htmlspecialchars($nextMonth) ?>):</p>
+                    <?php if (!empty($upcomingBirthdays)): ?>
+                            <div class="tile-content">
+                                <?php foreach ($upcomingBirthdays as $b): ?>
+                                    <?= htmlspecialchars($b['Prenom']) ?>
+                                    <?= htmlspecialchars($b['Nom']) ?>
+                                    (<?= htmlspecialchars($b['Anniversaire']) ?>)<br>
+                                <?php endforeach; ?>
+                            </div>
+                        <?php else: ?>
+                            <div class="text-left mt-4">
+                                Aucun anniversaire à venir dans les 7 prochains jours
+                            </div>
+                        <?php endif; ?>
+                    <div class="d-flex justify-content-end mt-3">
+                        <a href="/birthday?mois=<?= (int)date('m')+1 ?>" class="btn btn-secondary">Voir</a>
+                    </div>
                 </div>
             </div>
         </div>
-
     </div>
     <div class="row">
          <!-- ===================== -->
-        <!-- TUILE L2 1: Vide -->
+        <!-- TUILE L2 1: Fetes du jour-->
         <!-- ===================== -->
         <div class="col-md-4 mb-4">
             <div class="card pastel-tile">
@@ -233,7 +244,7 @@ CSS;
                                 <?php endforeach; ?>
                             </div>
                         <?php else: ?>
-                            <div class="text-center mt-4">
+                            <div class="text-left mt-4">
                                 Aucune fête aujourd'hui
                             </div>
                         <?php endif; ?>
@@ -261,7 +272,7 @@ CSS;
                                 <?php endforeach; ?>
                             </div>
                         <?php else: ?>
-                            <div class="text-center mt-4">
+                            <div class="text-left mt-4">
                                 Aucune commande de gâteau aujourd'hui
                             </div>
                         <?php endif; ?>
@@ -271,7 +282,7 @@ CSS;
                 </div>
             </div>
         </div>
-         <!-- ===================== -->
+        <!-- ===================== -->
         <!-- TUILE L2 3: Next Periode -->
         <!-- ===================== -->
          <!-- ===================== array(4) { ["Saison"]=> string(6) "Winter" ["Début"]=> string(10) "2026-01-04" ["Fin"]=> string(10) "2026-03-21" ["Durée"]=> float(76.95833333333333) } -->
@@ -295,6 +306,39 @@ CSS;
                         <?php endif; ?>
                         <div class="d-flex justify-content-end mt-3">
                             <a href="/alimentaire/saison/" class="btn btn-secondary">Voir</a>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+         <!-- ===================== -->
+        <!-- TUILE L3 1: Info residents -->
+        <!-- ===================== -->
+         <!-- ===================== array(4) { ["Saison"]=> string(6) "Winter" ["Début"]=> string(10) "2026-01-04" ["Fin"]=> string(10) "2026-03-21" ["Durée"]=> float(76.95833333333333) } -->
+        <div class="col-md-4 mb-4">
+            <div class="card pastel-tile">
+                <div class="card-header card-header-pastel">
+                    Info Residents
+                </div>
+                <div class="card-body">
+                    <p class="font-weight-bold">5 Derniers résidents ajoutés :</p>
+                        <?php if (!empty($lastResidents)): ?>
+                            <?php foreach ($lastResidents as $lastResident): ?>
+                                <div class="tile-content">
+                                        (<?= e($lastResident['Admission']) ?>)
+                                        <?= e($lastResident['Prenom']) ?>
+                                        <?= e($lastResident['Nom']) ?>
+                                        <br>
+                                </div>
+                            <?php endforeach; ?>
+                        <?php else: ?>
+                            <div class="text-center mt-4">
+                                Aucun résident ajouté récemment
+                            </div>
+                        <?php endif; ?>
+                        <div class="d-flex justify-content-end mt-3">
+                            <a href="/resident/" class="btn btn-secondary">Voir</a>
                         </div>
                 </div>
             </div>

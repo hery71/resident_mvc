@@ -286,4 +286,22 @@ class BirthdayModel
 
         return $stmt->fetch();
     }
+public function getFirstWeekBirthday(int $month)
+    {
+        if ($month == 12) {
+            $month = 1; // Reset to January for December
+        } else {
+            $month += 1; // Move to the next month
+        }
+        $sql="select * from resident_tbl
+        where month(Anniversaire) = :mois and day(Anniversaire) <= 7 and enabled = 1
+        order by day(Anniversaire) asc, Nom asc";
+        $stmt = $this->pdo->prepare($sql);
+        $stmt->execute([
+            'mois'  => $month
+        ]);
+
+        return $stmt->fetchAll();
+    }
+
 }
