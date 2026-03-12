@@ -334,7 +334,7 @@ CSS;
                                 </div>
                             <?php endforeach; ?>
                         <?php else: ?>
-                            <div class="text-center mt-4">
+                            <div class V="text-center mt-4">
                                 Aucun résident ajouté récemment
                             </div>
                         <?php endif; ?>

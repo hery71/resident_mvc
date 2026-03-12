@@ -301,7 +301,7 @@ public function exportSpecialMenus(array $postData, string $saison, string $anne
     }
     public function getStartSeasonWeeks()
     {
-        $stmt = $this->pdo->query("SELECT * FROM season_start_week ORDER BY annee DESC, FIELD(saison,'Winter','Spring','Summer','Fall')");
+        $stmt = $this->pdo->query("SELECT * FROM season_start_week WHERE enabled=1 ORDER BY annee DESC, FIELD(saison,'Winter','Spring','Summer','Fall')");
         return $stmt->fetchAll(PDO::FETCH_ASSOC);
     }
     public function deleteStartSeasonWeek($id)

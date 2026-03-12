@@ -103,23 +103,9 @@ class MenuCycle
     {
         $target = new DateTime($date);
         $year   = (int)$target->format('Y');
-        $month  = (int)$target->format('n');
-        $dayNum = (int)$target->format('j');
 
-        // 🔹 Du 1 au 6 janvier → appartient au cycle de l'année précédente
-        //if ($month == 1 && $dayNum <= 6) {
-           // $seasons = self::getSeasonsForYear($year - 1);
-       // } else {
-           // $seasons = self::getSeasonsForYear($year);
-        //}
-        // 🔹 Du 1 au 6 janvier → appartient au cycle de l'année précédente
-        if ($month == 1 && $dayNum <= 6) {
-            $seasonYear = $year - 1;
-            $seasons = self::getSeasonsForYear($seasonYear);
-        } else {
-            $seasonYear = $year;
-            $seasons = self::getSeasonsForYear($seasonYear);
-        }
+        $seasonYear = $year;
+        $seasons = self::getSeasonsForYear($seasonYear);
         foreach ($seasons as $s) {
 
             $start = strtotime($s['Début']);
@@ -129,9 +115,9 @@ class MenuCycle
             if ($ts >= $start && $ts <= $end) {
 
                 /* ============================================================
-                   🎄 SPECIAL CHRISTMAS (DB = Christmass, week = 4)
+                   🎄 SPECIAL CHRISTMAS (DB = Christmas, week = 4)
                    ============================================================ */
-                if ($s['Saison'] === "Semaine Noël") {
+                if ($s['Saison'] === "Christmass") {
                     return [
                         'season'  => "Christmass",
                         'week'    => 4,
@@ -142,7 +128,7 @@ class MenuCycle
                 /* ============================================================
                    🎆 SPECIAL NEW YEAR (DB = New year, week = 5)
                    ============================================================ */
-                if ($s['Saison'] === "Semaine Nouvel An") {
+                if ($s['Saison'] === "New year") {
                     return [
                         'season'  => "New year",
                         'week'    => 5,
@@ -158,13 +144,15 @@ class MenuCycle
                 //$week = self::calculateMenuWeek($target);
                 //$weeksPassed = floor(($ts - $start) / 604800);
                 //$week = ($weeksPassed % self::$cycleTotalMenus) + 1;
-                $weeksPassed = floor(($ts - $start) / 604800);
+                $startSunday = strtotime($s['Début']);
+                $targetSunday = strtotime(self::getSundayOfWeek(new DateTime($date))->format('Y-m-d'));
+
+                $weeksPassed = floor(($targetSunday - $startSunday) / 604800);
                 // récupérer la week de départ depuis la table
                 $menuCycleInstance = new self($GLOBALS['pdo']);
-                $menuCycleInstance->ensureSeasonStartWeeks($year);
-                $startWeek = $menuCycleInstance->getSeasonStartWeek($year, $s['Saison']);
+                $startWeek = $menuCycleInstance->getSeasonStartWeek($seasonYear, $s['Saison']);
                 // calcul du cycle
-                $week = (($startWeek - 1 + $weeksPassed) % self::$cycleTotalMenus) + 1;
+                $week = (($startWeek + $weeksPassed - 1) % self::$cycleTotalMenus) + 1;
 
                 return [
                     'season'  => $s['Saison'],
@@ -198,32 +186,32 @@ class MenuCycle
         $specialNY_end   = strtotime("+6 days", $specialNY_start);
 
         // 🧊 Winter
-        $winterStart = strtotime("+1 day", $specialNY_end);
+        $winterStart = strtotime("+7 days", $specialNY_start);
         //$winterEnd   = strtotime("+75 days", $winterStart);
         //$winterEnd   = strtotime("saturday this week", $winterEnd);
         $winterEnd   = strtotime("+75 days", $winterStart);
-        $winterEnd   = strtotime("next saturday", $winterEnd - 86400);
+        $winterEnd   = strtotime("next saturday", $winterEnd);
 
         // 🌷 Spring
         $springStart = strtotime("+1 day", $winterEnd);
         //$springEnd   = strtotime("+90 days", $springStart);
         //$springEnd   = strtotime("saturday this week", $springEnd);
         $springEnd = strtotime("+90 days", $springStart);
-        $springEnd = strtotime("next saturday", $springEnd - 86400);
+        $springEnd = strtotime("next saturday", $springEnd);
 
         // ☀️ Summer
         $summerStart = strtotime("+1 day", $springEnd);
         //$summerEnd   = strtotime("+90 days", $summerStart);
         //$summerEnd   = strtotime("saturday this week", $summerEnd);
         $summerEnd = strtotime("+90 days", $summerStart);
-        $summerEnd = strtotime("next saturday", $summerEnd - 86400);
+        $summerEnd = strtotime("next saturday", $summerEnd);
 
         // 🍂 Fall
         $fallStart = strtotime("+1 day", $summerEnd);
         //$fallEnd   = strtotime("+90 days", $fallStart);
         //$fallEnd   = strtotime("saturday this week", $fallEnd);
         $fallEnd = strtotime("+90 days", $fallStart);
-        $fallEnd = strtotime("next saturday", $fallEnd - 86400);
+        $fallEnd = strtotime("next saturday", $fallEnd);
 
         // 🎄 Semaine Noël
         $xmas = strtotime("$year-12-25");
@@ -232,22 +220,27 @@ class MenuCycle
         $specialXmas_end   = strtotime("+6 days", $specialXmas_start);
 
         // 🎆 Semaine Nouvel An (fin d’année)
-        $specialNY2_start = strtotime("+7 days", $specialXmas_start);
+        $specialNY2 = strtotime(($year + 1) . "-01-01");
+        $ny2_day = date('w', $specialNY2);
+
+        $specialNY2_start = strtotime("-$ny2_day days", $specialNY2);
         $specialNY2_end   = strtotime("+6 days", $specialNY2_start);
 
         // 🧊 Winter2 (pour couvrir janvier suivant)
-        $winter2Start = strtotime("+1 day", $specialNY2_end);
+        $winter2Start = strtotime("+7 days", $specialNY2_start);
         $winter2End   = strtotime("+75 days", $winter2Start);
-        $winter2End   = strtotime("saturday this week", $winter2End);
+        $winter2End = strtotime("next saturday", $winter2End);
 
-        $ranges = [
-            ['Winter',            $winterStart,       $winterEnd],
-            ['Spring',            $springStart,       $springEnd],
-            ['Summer',            $summerStart,       $summerEnd],
-            ['Fall',              $fallStart,         $fallEnd],
-            ['Semaine Noël',      $specialXmas_start, $specialXmas_end],
-            ['Semaine Nouvel An', $specialNY2_start,  $specialNY2_end],
-            ['Winter',            $winter2Start,      $winter2End], // Important
+       $ranges = [
+            ['Christmass', $specialXmas_start, $specialXmas_end],
+            ['New year',   $specialNY2_start,  $specialNY2_end],
+
+            ['Winter',     $winterStart,       $winterEnd],
+            ['Spring',     $springStart,       $springEnd],
+            ['Summer',     $summerStart,       $summerEnd],
+            ['Fall',       $fallStart,         $fallEnd],
+
+            ['Winter',     $winter2Start,      $winter2End], // Important
         ];
 
         $out = [];
@@ -313,6 +306,7 @@ class MenuCycle
         FROM season_start_week
         WHERE annee = :annee
         AND saison = :saison
+        AND enabled = 1
         LIMIT 1
     ");
 
@@ -323,7 +317,11 @@ class MenuCycle
 
     $result = $stmt->fetch(PDO::FETCH_ASSOC);
 
-    return $result ? (int)$result['week'] : 1;
+    if (!$result) {
+    return 1;
+    }
+
+    return (int)$result['week'];
 }
 public function ensureSeasonStartWeeks(int $year): void
 {
@@ -347,8 +345,8 @@ public function ensureSeasonStartWeeks(int $year): void
         if (!$stmt->fetch()) {
 
             $insert = $this->pdo->prepare("
-                INSERT INTO season_start_week (annee, saison, week)
-                VALUES (:annee, :saison, 1)
+                INSERT INTO season_start_week (annee, saison, week, enabled)
+                VALUES (:annee, :saison, 1, 1)
             ");
 
             $insert->execute([

@@ -351,7 +351,7 @@ class ParametresController
         }
         require __DIR__ . '/../views/parametres/jsonProcess.php';
     }
-public function editStartSeasonWeek()
+    public function editStartSeasonWeek()
     {
         $message = $_GET['message'] ?? '';
         $message_success='';
@@ -370,7 +370,7 @@ public function editStartSeasonWeek()
         $startWeeks = $model->getStartSeasonWeeks();
         require __DIR__ . '/../views/parametres/editStartSeasonWeek.php';   
     }
-public function deleteStartSeasonWeek()
+    public function deleteStartSeasonWeek()
     {
         if (isset($_GET['id'])) {
             $model = new ParametresModel();
@@ -379,7 +379,7 @@ public function deleteStartSeasonWeek()
         header('Location: ' . BASE_URL . '/parametres/editStartSeasonWeek');
         exit;
     }
-public function saveStartSeasonWeek()
+    public function saveStartSeasonWeek()
     {
         $message_error = '';
         if ($_SERVER['REQUEST_METHOD'] === 'POST') {
