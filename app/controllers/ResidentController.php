@@ -321,5 +321,20 @@ class ResidentController extends Controller
 
         $pdf->Output('I', 'Fiche_' . f8($resident['Prenom']) . '.pdf');
     }
-    
+    public function informations(int $id): void
+    {
+        if ($id === null) {
+        header("Location: /residents");
+        exit;
+    }
+        $model = new ResidentModel();
+        $resident = $model->findById($id);
+
+        if (!$resident) {
+            header("Location: /residents");
+            exit;
+        }
+
+        require __DIR__ . '/../views/residents/informations.php';
+    }
 }

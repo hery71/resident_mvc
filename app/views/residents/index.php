@@ -83,9 +83,13 @@
                   data-tel2="<?= e($r['Tel2'] ?? '') ?>"
                   data-tel3="<?= e($r['Tel3'] ?? '') ?>"
                   data-famille="<?= e($r['Famille'] ?? '') ?>">
-                  ℹ️ Informations
+                  ℹ️ Modal Info
                 </button>
-
+                 <a href="/resident/informations/<?= $r['id'] ?>"
+                   class="btn btn-sm btn-info ml-1">
+                  ✏️ Informations
+                </a>
+                
                 <a href="/resident/edit/<?= $r['id'] ?>"
                    class="btn btn-sm btn-info ml-1">
                   ✏️ Modifier

@@ -329,6 +329,7 @@ CSS;
                                         (<?= e($lastResident['Admission']) ?>)
                                         <?= e($lastResident['Prenom']) ?>
                                         <?= e($lastResident['Nom']) ?>
+                                        <?= "<a href='/resident/informations/{$lastResident['id']}' class='btn btn-primary btn-sm rounded-0 py-0 px-2'>Voir</a>" ?>
                                         <br>
                                 </div>
                             <?php endforeach; ?>
