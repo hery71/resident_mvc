@@ -102,9 +102,39 @@ class MenuCycle
     public static function getSeasonAndWeek(string $date): array
     {
         $target = new DateTime($date);
-        $year   = (int)$target->format('Y');
+        $year = (int)$target->format('Y');
+        $cycleYear = $year;
+
+        // début Christmas de l'année précédente
+        $xmas = strtotime(($year - 1) . "-12-25");
+        $xmasDay = date('w', $xmas);
+        $cycleStart = strtotime("-$xmasDay days", $xmas);
+
+        // fin du cycle spécial (Christmas + New Year = 14 jours)
+        $cycleEnd = strtotime("+13 days", $cycleStart);
+
+        $dateTs = strtotime($date);
+
+        if ($dateTs >= $cycleStart && $dateTs <= $cycleEnd) {
+            $cycleYear = $year - 1;
+        }
+
+        $year = $cycleYear;
 
         $seasonYear = $year;
+        $winterStartCurrentYear = null;
+
+        foreach (self::getSeasonsForYear($year) as $range) {
+            if ($range['Saison'] === 'Winter') {
+                $winterStartCurrentYear = $range['Début'];
+                break;
+            }
+        }
+
+        if ($winterStartCurrentYear !== null && $date < $winterStartCurrentYear) {
+            $seasonYear = $year - 1;
+        }
+
         $seasons = self::getSeasonsForYear($seasonYear);
         foreach ($seasons as $s) {
 
@@ -121,18 +151,21 @@ class MenuCycle
                     return [
                         'season'  => "Christmass",
                         'week'    => 4,
-                        'unique' => true
+                        'unique' => true,
+                        'year' => $seasonYear
                     ];
                 }
 
                 /* ============================================================
                    🎆 SPECIAL NEW YEAR (DB = New year, week = 5)
                    ============================================================ */
+                
                 if ($s['Saison'] === "New year") {
                     return [
                         'season'  => "New year",
                         'week'    => 5,
-                        'unique' => true
+                        'unique' => true,
+                        'year' => $seasonYear
                     ];
                 }
 
@@ -157,7 +190,8 @@ class MenuCycle
                 return [
                     'season'  => $s['Saison'],
                     'week'    => $week,
-                    'unique' => false
+                    'unique' => false,
+                    'year' => $seasonYear
                 ];
             }
         }
@@ -166,7 +200,8 @@ class MenuCycle
         return [
             'season'  => 'Unknown',
             'week'    => null,
-            'unique' => false
+            'unique' => false,
+            'year' => $year
         ];
     }
 
@@ -299,6 +334,20 @@ class MenuCycle
 {
     return strtolower(date('l', strtotime($date)));  // "monday", "tuesday", etc.
 }
+    public static function getCycleYear(string $date, string $season): int
+{
+    $year = (int)date('Y', strtotime($date));
+    $month = (int)date('n', strtotime($date));
+
+    // cas spécial : semaine New Year début janvier
+    if ($season === "New year" && $month == 1) {
+        return $year - 1;
+    }
+
+    return $year;
+}
+
+
     public function getSeasonStartWeek(int $annee, string $saison): int
 {
     $stmt = $this->pdo->prepare("
