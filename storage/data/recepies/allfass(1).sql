@@ -308,13 +308,13 @@ LOCK TABLES `inspection_task` WRITE;
 UNLOCK TABLES;
 
 --
--- Table structure for table `list_breakfast`
+-- Table structure for table `meal_breakfast`
 --
 
-DROP TABLE IF EXISTS `list_breakfast`;
+DROP TABLE IF EXISTS `meal_breakfast`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
-CREATE TABLE `list_breakfast` (
+CREATE TABLE `meal_breakfast` (
   `id` int NOT NULL AUTO_INCREMENT,
   `meal` varchar(255) NOT NULL,
   `enabled` int DEFAULT '1',
@@ -326,23 +326,23 @@ CREATE TABLE `list_breakfast` (
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `list_breakfast`
+-- Dumping data for table `meal_breakfast`
 --
 
-LOCK TABLES `list_breakfast` WRITE;
-/*!40000 ALTER TABLE `list_breakfast` DISABLE KEYS */;
-INSERT INTO `list_breakfast` VALUES (1,'Apple juice (6oz)',1,NULL,NULL,NULL),(2,'Assorted eggs',1,'oeuf','albumine',NULL),(3,'Assorted eggs and bacon',1,NULL,NULL,NULL),(4,'Banana',1,NULL,NULL,NULL),(5,'Beans',1,NULL,NULL,NULL),(6,'Beans (canned)',1,NULL,NULL,NULL),(7,'Bran muffin',1,NULL,NULL,NULL),(8,'Cafe',1,NULL,NULL,NULL),(9,'Cheese or assorted eggs',1,NULL,NULL,NULL),(10,'Cheese or assorted eggs!!!',1,NULL,NULL,NULL),(11,'Cold cereal',1,NULL,NULL,NULL),(12,'Cranberry juice (6oz)',1,NULL,NULL,NULL),(13,'Cream of wheat',1,NULL,NULL,NULL),(14,'croissant',1,NULL,NULL,NULL),(15,'Custard or assorted eggs',1,NULL,NULL,NULL),(16,'French toast',1,'','Gluten (blé, seigle, orge, triticale)',NULL),(17,'Friday',1,NULL,NULL,NULL),(18,'jam',1,NULL,NULL,NULL),(19,'Jus d orange',1,NULL,NULL,NULL),(20,'Lait',1,NULL,NULL,NULL),(21,'lait,cafe',1,NULL,NULL,NULL),(22,'margarine',1,NULL,NULL,NULL),(23,'milk 4oz',1,NULL,NULL,NULL),(24,'Monday',1,NULL,NULL,NULL),(25,'Muffin',1,NULL,NULL,NULL),(26,'Oatmeal',1,NULL,NULL,NULL),(27,'Oeuf varié',1,NULL,NULL,NULL),(28,'Orange juice (6oz)',1,NULL,NULL,NULL),(29,'Orange juice(6oz)',1,NULL,NULL,NULL),(30,'Pancakes',1,NULL,NULL,NULL),(31,'Prune juice (4oz)',1,NULL,NULL,NULL),(32,'Prune juice(4oz)',1,NULL,NULL,NULL),(33,'Prunejuice(4oz)',1,NULL,NULL,NULL),(34,'Prunelle',1,NULL,NULL,NULL),(35,'Prunes',1,NULL,NULL,NULL),(36,'Saturday',1,NULL,NULL,NULL),(37,'Strawberries',1,NULL,NULL,NULL),(38,'Strawerry',1,NULL,NULL,NULL),(39,'Sunday',1,NULL,NULL,NULL),(40,'syrup',1,NULL,NULL,NULL),(41,'tea or coffee 6oz',1,NULL,NULL,NULL),(42,'Thursday',1,NULL,NULL,NULL),(43,'Toast',1,NULL,NULL,NULL),(44,'Toasts',1,NULL,NULL,NULL),(45,'Tuesday',1,NULL,NULL,NULL),(46,'water 6oz',1,NULL,NULL,NULL),(47,'Wednesday',1,NULL,NULL,NULL),(64,'Pain perdu',1,'','',NULL),(65,'Yogourt',1,'','',NULL);
-/*!40000 ALTER TABLE `list_breakfast` ENABLE KEYS */;
+LOCK TABLES `meal_breakfast` WRITE;
+/*!40000 ALTER TABLE `meal_breakfast` DISABLE KEYS */;
+INSERT INTO `meal_breakfast` VALUES (1,'Apple juice (6oz)',1,NULL,NULL,NULL),(2,'Assorted eggs',1,'oeuf','albumine',NULL),(3,'Assorted eggs and bacon',1,NULL,NULL,NULL),(4,'Banana',1,NULL,NULL,NULL),(5,'Beans',1,NULL,NULL,NULL),(6,'Beans (canned)',1,NULL,NULL,NULL),(7,'Bran muffin',1,NULL,NULL,NULL),(8,'Cafe',1,NULL,NULL,NULL),(9,'Cheese or assorted eggs',1,NULL,NULL,NULL),(10,'Cheese or assorted eggs!!!',1,NULL,NULL,NULL),(11,'Cold cereal',1,NULL,NULL,NULL),(12,'Cranberry juice (6oz)',1,NULL,NULL,NULL),(13,'Cream of wheat',1,NULL,NULL,NULL),(14,'croissant',1,NULL,NULL,NULL),(15,'Custard or assorted eggs',1,NULL,NULL,NULL),(16,'French toast',1,'','Gluten (blé, seigle, orge, triticale)',NULL),(17,'Friday',1,NULL,NULL,NULL),(18,'jam',1,NULL,NULL,NULL),(19,'Jus d orange',1,NULL,NULL,NULL),(20,'Lait',1,NULL,NULL,NULL),(21,'lait,cafe',1,NULL,NULL,NULL),(22,'margarine',1,NULL,NULL,NULL),(23,'milk 4oz',1,NULL,NULL,NULL),(24,'Monday',1,NULL,NULL,NULL),(25,'Muffin',1,NULL,NULL,NULL),(26,'Oatmeal',1,NULL,NULL,NULL),(27,'Oeuf varié',1,NULL,NULL,NULL),(28,'Orange juice (6oz)',1,NULL,NULL,NULL),(29,'Orange juice(6oz)',1,NULL,NULL,NULL),(30,'Pancakes',1,NULL,NULL,NULL),(31,'Prune juice (4oz)',1,NULL,NULL,NULL),(32,'Prune juice(4oz)',1,NULL,NULL,NULL),(33,'Prunejuice(4oz)',1,NULL,NULL,NULL),(34,'Prunelle',1,NULL,NULL,NULL),(35,'Prunes',1,NULL,NULL,NULL),(36,'Saturday',1,NULL,NULL,NULL),(37,'Strawberries',1,NULL,NULL,NULL),(38,'Strawerry',1,NULL,NULL,NULL),(39,'Sunday',1,NULL,NULL,NULL),(40,'syrup',1,NULL,NULL,NULL),(41,'tea or coffee 6oz',1,NULL,NULL,NULL),(42,'Thursday',1,NULL,NULL,NULL),(43,'Toast',1,NULL,NULL,NULL),(44,'Toasts',1,NULL,NULL,NULL),(45,'Tuesday',1,NULL,NULL,NULL),(46,'water 6oz',1,NULL,NULL,NULL),(47,'Wednesday',1,NULL,NULL,NULL),(64,'Pain perdu',1,'','',NULL),(65,'Yogourt',1,'','',NULL);
+/*!40000 ALTER TABLE `meal_breakfast` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
--- Table structure for table `list_dinner`
+-- Table structure for table `meal_dinner`
 --
 
-DROP TABLE IF EXISTS `list_dinner`;
+DROP TABLE IF EXISTS `meal_dinner`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
-CREATE TABLE `list_dinner` (
+CREATE TABLE `meal_dinner` (
   `id` int NOT NULL AUTO_INCREMENT,
   `meal` varchar(255) NOT NULL,
   `enabled` int DEFAULT '1',
@@ -354,23 +354,23 @@ CREATE TABLE `list_dinner` (
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `list_dinner`
+-- Dumping data for table `meal_dinner`
 --
 
-LOCK TABLES `list_dinner` WRITE;
-/*!40000 ALTER TABLE `list_dinner` DISABLE KEYS */;
-INSERT INTO `list_dinner` VALUES (1,'Hearty Soup',1,'','',NULL),(2,'Kaizer Roll',1,'','',NULL),(3,'Assorted sandwiches',1,'','',NULL),(4,'2nd option:',1,'','',NULL),(5,'Hot biscuit',1,'','',NULL),(6,'Home Made Baked beans',1,'','',NULL),(7,'Vegetable Noodle soup',1,'','',NULL),(8,'Vegetable fritata',1,'','',NULL),(9,'Green salad',1,'','',NULL),(10,'Pancakes',1,'','',NULL),(11,'Cheese',1,'','',NULL),(12,'Tomato Juice',1,'','',NULL),(13,'Pasta with ground beef tomato sauce',1,'','',NULL),(14,'Hearty homemade soup beef',1,'','',NULL),(15,'Stuffed Chicken',1,'','',NULL),(16,'Gravy',1,'','',NULL),(17,'Assorted vegetables',1,'','',NULL),(18,'Macaroni and Cheese Casserole',1,'','',NULL),(19,'Broccoli or Green salad',1,'','',NULL),(20,'Cod nuggets',1,'','',NULL),(21,'Diced Potatoes',1,'','',NULL),(22,'Coleslaw',1,'','',NULL),(23,'French Toast and Strawberry',1,'','',NULL),(24,'Egg and Ham Scramble',1,'','',NULL),(25,'Diced Fresh Tomatoes',1,'','',NULL),(26,'Seasoned Home Fries',1,'','',NULL),(27,'Hamburgers',1,'','',NULL),(28,'Chips',1,'','',NULL),(29,'Green peas salad',1,'','',NULL),(30,'Beef fricot',1,'','',NULL),(31,'Bread roll',1,'','',NULL),(32,'Tomato vegetable soup',1,'','',NULL),(33,'Grilled cheese sandwich',1,'','',NULL),(34,'Buckwheat Pancake',1,'','',NULL),(35,'Blueberry Sauce',1,'','',NULL),(36,'Pepper Steak',1,'','',NULL),(37,'White rice',1,'','',NULL),(38,'Or Mashed potatoes',1,'','',NULL),(39,'Ham and caulflower chowder',1,'','',NULL),(40,'Turkey Chilli',1,'','',NULL),(41,'Garlic Bread',1,'','',NULL),(42,'Beef chicken Vegetable barley soup',1,'','',NULL),(43,'corn Bread',1,'','',NULL),(44,'Fish Cakes',1,'','',NULL),(45,'Chow chow',1,'','',NULL);
-/*!40000 ALTER TABLE `list_dinner` ENABLE KEYS */;
+LOCK TABLES `meal_dinner` WRITE;
+/*!40000 ALTER TABLE `meal_dinner` DISABLE KEYS */;
+INSERT INTO `meal_dinner` VALUES (1,'Hearty Soup',1,'','',NULL),(2,'Kaizer Roll',1,'','',NULL),(3,'Assorted sandwiches',1,'','',NULL),(4,'2nd option:',1,'','',NULL),(5,'Hot biscuit',1,'','',NULL),(6,'Home Made Baked beans',1,'','',NULL),(7,'Vegetable Noodle soup',1,'','',NULL),(8,'Vegetable fritata',1,'','',NULL),(9,'Green salad',1,'','',NULL),(10,'Pancakes',1,'','',NULL),(11,'Cheese',1,'','',NULL),(12,'Tomato Juice',1,'','',NULL),(13,'Pasta with ground beef tomato sauce',1,'','',NULL),(14,'Hearty homemade soup beef',1,'','',NULL),(15,'Stuffed Chicken',1,'','',NULL),(16,'Gravy',1,'','',NULL),(17,'Assorted vegetables',1,'','',NULL),(18,'Macaroni and Cheese Casserole',1,'','',NULL),(19,'Broccoli or Green salad',1,'','',NULL),(20,'Cod nuggets',1,'','',NULL),(21,'Diced Potatoes',1,'','',NULL),(22,'Coleslaw',1,'','',NULL),(23,'French Toast and Strawberry',1,'','',NULL),(24,'Egg and Ham Scramble',1,'','',NULL),(25,'Diced Fresh Tomatoes',1,'','',NULL),(26,'Seasoned Home Fries',1,'','',NULL),(27,'Hamburgers',1,'','',NULL),(28,'Chips',1,'','',NULL),(29,'Green peas salad',1,'','',NULL),(30,'Beef fricot',1,'','',NULL),(31,'Bread roll',1,'','',NULL),(32,'Tomato vegetable soup',1,'','',NULL),(33,'Grilled cheese sandwich',1,'','',NULL),(34,'Buckwheat Pancake',1,'','',NULL),(35,'Blueberry Sauce',1,'','',NULL),(36,'Pepper Steak',1,'','',NULL),(37,'White rice',1,'','',NULL),(38,'Or Mashed potatoes',1,'','',NULL),(39,'Ham and caulflower chowder',1,'','',NULL),(40,'Turkey Chilli',1,'','',NULL),(41,'Garlic Bread',1,'','',NULL),(42,'Beef chicken Vegetable barley soup',1,'','',NULL),(43,'corn Bread',1,'','',NULL),(44,'Fish Cakes',1,'','',NULL),(45,'Chow chow',1,'','',NULL);
+/*!40000 ALTER TABLE `meal_dinner` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
--- Table structure for table `list_dinner_dessert`
+-- Table structure for table `meal_dinner_dessert`
 --
 
-DROP TABLE IF EXISTS `list_dinner_dessert`;
+DROP TABLE IF EXISTS `meal_dinner_dessert`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
-CREATE TABLE `list_dinner_dessert` (
+CREATE TABLE `meal_dinner_dessert` (
   `id` int NOT NULL AUTO_INCREMENT,
   `meal` varchar(255) NOT NULL,
   `enabled` int DEFAULT '1',
@@ -382,23 +382,23 @@ CREATE TABLE `list_dinner_dessert` (
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `list_dinner_dessert`
+-- Dumping data for table `meal_dinner_dessert`
 --
 
-LOCK TABLES `list_dinner_dessert` WRITE;
-/*!40000 ALTER TABLE `list_dinner_dessert` DISABLE KEYS */;
-INSERT INTO `list_dinner_dessert` VALUES (1,'2nd option:',1,NULL,NULL,NULL),(2,'Assorted cold plates',1,NULL,NULL,NULL),(3,'Assorted sandwiches',1,NULL,NULL,NULL),(4,'Barley soup',1,NULL,NULL,NULL),(5,'Beef fricot',1,NULL,NULL,NULL),(6,'Buckwheat pancakes',1,NULL,NULL,NULL),(7,'Chicken and vegetables casserole',1,NULL,NULL,NULL),(8,'Cod nuggets',1,NULL,NULL,NULL),(9,'Corned beef hash',1,NULL,NULL,NULL),(10,'Crêpes râpées',1,NULL,NULL,NULL),(11,'Egg and Ham Scramble',1,NULL,NULL,NULL),(12,'French toast and strawberries',1,NULL,NULL,NULL),(13,'Hamburgers',1,NULL,NULL,NULL),(14,'Hot biscuit',1,NULL,NULL,NULL),(15,'Ice cream',1,NULL,NULL,NULL),(16,'Macaroni and Cheese Casserole',1,NULL,NULL,NULL),(17,'Meat pies',1,NULL,NULL,NULL),(18,'milk 4oz',1,NULL,NULL,NULL),(19,'Pancakes',1,NULL,NULL,NULL),(20,'Seafood Chowder',1,NULL,NULL,NULL),(21,'Stuffed Chicken!!',1,NULL,NULL,NULL),(22,'Vegetable fritatta',1,NULL,NULL,NULL),(23,'Vegetable Soup',1,NULL,NULL,NULL),(24,'Yagourt',1,NULL,NULL,NULL),(25,'Yogourt',1,NULL,NULL,NULL),(32,'Tarte aux bleuets',1,'','',NULL),(33,'Cherry Square',1,'','',NULL),(34,'Blueberry Muffin',1,'','',NULL),(35,'Banana square',1,'','',NULL),(36,'Molasses cake',1,'','',NULL),(37,'Raisin Pie',1,'','',NULL),(38,'Pudding',1,'','',NULL),(39,'Rhubarb cheesecake',1,'','',NULL),(40,'Carrot cake',1,'','',NULL),(41,'Strawberry and short cake',1,'','',NULL),(42,'Lemon merigue pie',1,'','',NULL),(43,'Yogurt',1,'','',NULL),(44,'Home made cookies',1,'','',NULL),(45,'Apple crisp',1,'','',NULL),(46,'Jello',1,'','',NULL),(47,'Lemon Tarts',1,'','',NULL),(48,'Pudding with whipping cream',1,'','',NULL),(49,'Banana bread',1,'','',NULL),(50,'Butterscotch square',1,'','',NULL),(51,'peaches',1,'','',NULL);
-/*!40000 ALTER TABLE `list_dinner_dessert` ENABLE KEYS */;
+LOCK TABLES `meal_dinner_dessert` WRITE;
+/*!40000 ALTER TABLE `meal_dinner_dessert` DISABLE KEYS */;
+INSERT INTO `meal_dinner_dessert` VALUES (1,'2nd option:',1,NULL,NULL,NULL),(2,'Assorted cold plates',1,NULL,NULL,NULL),(3,'Assorted sandwiches',1,NULL,NULL,NULL),(4,'Barley soup',1,NULL,NULL,NULL),(5,'Beef fricot',1,NULL,NULL,NULL),(6,'Buckwheat pancakes',1,NULL,NULL,NULL),(7,'Chicken and vegetables casserole',1,NULL,NULL,NULL),(8,'Cod nuggets',1,NULL,NULL,NULL),(9,'Corned beef hash',1,NULL,NULL,NULL),(10,'Crêpes râpées',1,NULL,NULL,NULL),(11,'Egg and Ham Scramble',1,NULL,NULL,NULL),(12,'French toast and strawberries',1,NULL,NULL,NULL),(13,'Hamburgers',1,NULL,NULL,NULL),(14,'Hot biscuit',1,NULL,NULL,NULL),(15,'Ice cream',1,NULL,NULL,NULL),(16,'Macaroni and Cheese Casserole',1,NULL,NULL,NULL),(17,'Meat pies',1,NULL,NULL,NULL),(18,'milk 4oz',1,NULL,NULL,NULL),(19,'Pancakes',1,NULL,NULL,NULL),(20,'Seafood Chowder',1,NULL,NULL,NULL),(21,'Stuffed Chicken!!',1,NULL,NULL,NULL),(22,'Vegetable fritatta',1,NULL,NULL,NULL),(23,'Vegetable Soup',1,NULL,NULL,NULL),(24,'Yagourt',1,NULL,NULL,NULL),(25,'Yogourt',1,NULL,NULL,NULL),(32,'Tarte aux bleuets',1,'','',NULL),(33,'Cherry Square',1,'','',NULL),(34,'Blueberry Muffin',1,'','',NULL),(35,'Banana square',1,'','',NULL),(36,'Molasses cake',1,'','',NULL),(37,'Raisin Pie',1,'','',NULL),(38,'Pudding',1,'','',NULL),(39,'Rhubarb cheesecake',1,'','',NULL),(40,'Carrot cake',1,'','',NULL),(41,'Strawberry and short cake',1,'','',NULL),(42,'Lemon merigue pie',1,'','',NULL),(43,'Yogurt',1,'','',NULL),(44,'Home made cookies',1,'','',NULL),(45,'Apple crisp',1,'','',NULL),(46,'Jello',1,'','',NULL),(47,'Lemon Tarts',1,'','',NULL),(48,'Pudding with whipping cream',1,'','',NULL),(49,'Banana bread',1,'','',NULL),(50,'Butterscotch square',1,'','',NULL),(51,'peaches',1,'','',NULL);
+/*!40000 ALTER TABLE `meal_dinner_dessert` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
--- Table structure for table `list_lunch`
+-- Table structure for table `meal_lunch`
 --
 
-DROP TABLE IF EXISTS `list_lunch`;
+DROP TABLE IF EXISTS `meal_lunch`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
-CREATE TABLE `list_lunch` (
+CREATE TABLE `meal_lunch` (
   `id` int NOT NULL AUTO_INCREMENT,
   `meal` varchar(255) NOT NULL,
   `enabled` int DEFAULT '1',
@@ -409,23 +409,23 @@ CREATE TABLE `list_lunch` (
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `list_lunch`
+-- Dumping data for table `meal_lunch`
 --
 
-LOCK TABLES `list_lunch` WRITE;
-/*!40000 ALTER TABLE `list_lunch` DISABLE KEYS */;
-INSERT INTO `list_lunch` VALUES (1,'Baked potato',1,'',''),(2,'Beets',1,NULL,NULL),(3,'Boiled potatoes',1,NULL,NULL),(4,'Bologne',1,'','Gluten (blé,seigle,triticale)'),(5,'Bread roll',1,NULL,NULL),(6,'Breaded fish filet',1,NULL,NULL),(7,'Breaded fish fillet',1,NULL,NULL),(8,'Brocoli and carrots',1,NULL,NULL),(9,'Carottes',1,NULL,NULL),(10,'Carrots',1,NULL,NULL),(11,'Carrots!!!',1,NULL,NULL),(12,'Chicken à la King Casserole',1,NULL,NULL),(13,'Chicken Chasseur',1,NULL,NULL),(14,'Chicken Fricot',1,NULL,NULL),(15,'Clam stew',1,NULL,NULL),(16,'Cod fish in white sauce',1,NULL,NULL),(17,'Coleslaw',1,NULL,NULL),(18,'Cranberry sauce',1,NULL,NULL),(19,'Dinner roll',1,NULL,NULL),(20,'Gravy',1,NULL,NULL),(21,'Green beans',1,NULL,NULL),(22,'Green peas',1,NULL,NULL),(23,'Haricots verts',1,NULL,NULL),(24,'Hot turkey sandwich',1,NULL,NULL),(25,'jam',1,NULL,NULL),(26,'Kaizer roll',1,NULL,NULL),(27,'margarine',1,NULL,NULL),(28,'Marinated beets',1,NULL,NULL),(29,'Mashed potato',1,NULL,NULL),(30,'Mashed potatoes',1,NULL,NULL),(31,'Meat pie or pizza with green salad',1,NULL,NULL),(32,'Meatloaf and gravy',1,NULL,NULL),(33,'milk 4oz',1,NULL,NULL),(34,'Mixed vegetables',1,NULL,NULL),(35,'Oven baked fries',1,NULL,NULL),(36,'patate machees',1,NULL,NULL),(37,'Peas and carrots',1,NULL,NULL),(38,'Pork chops in cream of mushroom',1,NULL,NULL),(39,'Pork roast and gravy',1,NULL,NULL),(40,'poulet',1,NULL,NULL),(41,'Poulet  aux champignons',1,NULL,NULL),(42,'Poutine râpée',1,NULL,NULL),(43,'Poutines',1,NULL,NULL),(44,'Râpé',1,NULL,NULL),(45,'Roast beef',1,NULL,NULL),(46,'Roast beef and gravy',1,NULL,NULL),(47,'Roast chicken and gravy',1,NULL,NULL),(48,'roasted Chicken',1,NULL,NULL),(49,'Salted cod',1,NULL,NULL),(50,'Scaloped poatoes',1,NULL,NULL),(51,'Scaloped potatoes',1,NULL,NULL),(52,'Shepherd\'s pie',1,NULL,NULL),(53,'Shepherd’s pie',1,NULL,NULL),(54,'stuffing and gravy',1,NULL,NULL),(55,'Sweet n\' Sour  or Swedish meatballs',1,NULL,NULL),(56,'Swiss steak',1,NULL,NULL),(57,'tea or coffee 6oz',1,NULL,NULL),(58,'Toasts',1,NULL,NULL),(59,'Turkey',1,NULL,NULL),(60,'Turnip',1,NULL,NULL),(61,'Turnips',1,NULL,NULL),(62,'Turnips and carrots',1,NULL,NULL),(63,'Vegetable medley',1,NULL,NULL),(64,'water 6oz',1,NULL,NULL),(65,'Whipped potatoes',1,NULL,NULL),(128,'Riz Pilaf',1,'',''),(129,'Salad',1,'',''),(130,'Crab meat casserole',1,'',''),(131,'Green salad',1,'',''),(132,'Peas',1,'','');
-/*!40000 ALTER TABLE `list_lunch` ENABLE KEYS */;
+LOCK TABLES `meal_lunch` WRITE;
+/*!40000 ALTER TABLE `meal_lunch` DISABLE KEYS */;
+INSERT INTO `meal_lunch` VALUES (1,'Baked potato',1,'',''),(2,'Beets',1,NULL,NULL),(3,'Boiled potatoes',1,NULL,NULL),(4,'Bologne',1,'','Gluten (blé,seigle,triticale)'),(5,'Bread roll',1,NULL,NULL),(6,'Breaded fish filet',1,NULL,NULL),(7,'Breaded fish fillet',1,NULL,NULL),(8,'Brocoli and carrots',1,NULL,NULL),(9,'Carottes',1,NULL,NULL),(10,'Carrots',1,NULL,NULL),(11,'Carrots!!!',1,NULL,NULL),(12,'Chicken à la King Casserole',1,NULL,NULL),(13,'Chicken Chasseur',1,NULL,NULL),(14,'Chicken Fricot',1,NULL,NULL),(15,'Clam stew',1,NULL,NULL),(16,'Cod fish in white sauce',1,NULL,NULL),(17,'Coleslaw',1,NULL,NULL),(18,'Cranberry sauce',1,NULL,NULL),(19,'Dinner roll',1,NULL,NULL),(20,'Gravy',1,NULL,NULL),(21,'Green beans',1,NULL,NULL),(22,'Green peas',1,NULL,NULL),(23,'Haricots verts',1,NULL,NULL),(24,'Hot turkey sandwich',1,NULL,NULL),(25,'jam',1,NULL,NULL),(26,'Kaizer roll',1,NULL,NULL),(27,'margarine',1,NULL,NULL),(28,'Marinated beets',1,NULL,NULL),(29,'Mashed potato',1,NULL,NULL),(30,'Mashed potatoes',1,NULL,NULL),(31,'Meat pie or pizza with green salad',1,NULL,NULL),(32,'Meatloaf and gravy',1,NULL,NULL),(33,'milk 4oz',1,NULL,NULL),(34,'Mixed vegetables',1,NULL,NULL),(35,'Oven baked fries',1,NULL,NULL),(36,'patate machees',1,NULL,NULL),(37,'Peas and carrots',1,NULL,NULL),(38,'Pork chops in cream of mushroom',1,NULL,NULL),(39,'Pork roast and gravy',1,NULL,NULL),(40,'poulet',1,NULL,NULL),(41,'Poulet  aux champignons',1,NULL,NULL),(42,'Poutine râpée',1,NULL,NULL),(43,'Poutines',1,NULL,NULL),(44,'Râpé',1,NULL,NULL),(45,'Roast beef',1,NULL,NULL),(46,'Roast beef and gravy',1,NULL,NULL),(47,'Roast chicken and gravy',1,NULL,NULL),(48,'roasted Chicken',1,NULL,NULL),(49,'Salted cod',1,NULL,NULL),(50,'Scaloped poatoes',1,NULL,NULL),(51,'Scaloped potatoes',1,NULL,NULL),(52,'Shepherd\'s pie',1,NULL,NULL),(53,'Shepherd’s pie',1,NULL,NULL),(54,'stuffing and gravy',1,NULL,NULL),(55,'Sweet n\' Sour  or Swedish meatballs',1,NULL,NULL),(56,'Swiss steak',1,NULL,NULL),(57,'tea or coffee 6oz',1,NULL,NULL),(58,'Toasts',1,NULL,NULL),(59,'Turkey',1,NULL,NULL),(60,'Turnip',1,NULL,NULL),(61,'Turnips',1,NULL,NULL),(62,'Turnips and carrots',1,NULL,NULL),(63,'Vegetable medley',1,NULL,NULL),(64,'water 6oz',1,NULL,NULL),(65,'Whipped potatoes',1,NULL,NULL),(128,'Riz Pilaf',1,'',''),(129,'Salad',1,'',''),(130,'Crab meat casserole',1,'',''),(131,'Green salad',1,'',''),(132,'Peas',1,'','');
+/*!40000 ALTER TABLE `meal_lunch` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
--- Table structure for table `list_lunch_dessert`
+-- Table structure for table `meal_lunch_dessert`
 --
 
-DROP TABLE IF EXISTS `list_lunch_dessert`;
+DROP TABLE IF EXISTS `meal_lunch_dessert`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
-CREATE TABLE `list_lunch_dessert` (
+CREATE TABLE `meal_lunch_dessert` (
   `id` int NOT NULL AUTO_INCREMENT,
   `meal` varchar(255) NOT NULL,
   `enabled` int DEFAULT '1',
@@ -436,13 +436,13 @@ CREATE TABLE `list_lunch_dessert` (
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `list_lunch_dessert`
+-- Dumping data for table `meal_lunch_dessert`
 --
 
-LOCK TABLES `list_lunch_dessert` WRITE;
-/*!40000 ALTER TABLE `list_lunch_dessert` DISABLE KEYS */;
-INSERT INTO `list_lunch_dessert` VALUES (1,'2nd option:',1,NULL,NULL),(2,'Assorted cold plates',1,NULL,NULL),(3,'Assorted sandwiches',1,NULL,NULL),(4,'Assorted vegetables',1,NULL,NULL),(5,'Barley soup',1,NULL,NULL),(6,'Buckwheat pancakes',1,NULL,NULL),(7,'Chicken and vegetables casserole',1,NULL,NULL),(8,'Cod nuggets',1,NULL,NULL),(9,'Corned beef hash',1,NULL,NULL),(10,'Datte Cake',1,NULL,NULL),(11,'French toast and strawberries',1,NULL,NULL),(12,'Gravy',1,NULL,NULL),(13,'Hot biscuit',1,NULL,NULL),(14,'Ice cream',1,NULL,NULL),(15,'Jello',1,NULL,NULL),(16,'Macaroni and Cheese Casserole',1,NULL,NULL),(17,'Mandarine',1,NULL,NULL),(18,'Meat pies',1,NULL,NULL),(19,'milk 4oz',1,NULL,NULL),(20,'Pancakes',1,NULL,NULL),(21,'Seafood Chowder',1,NULL,NULL),(22,'Stuffed Chicken!',1,NULL,NULL),(23,'Vegetable fritatta',1,NULL,NULL),(24,'Vegetable Soup',1,NULL,NULL),(32,'Mandarins',1,'',''),(33,'Pudding',1,'',''),(34,'Strawberry',1,'',''),(35,'Yogurt',1,'',''),(36,'Peaches',1,'',''),(37,'Pears',1,'',''),(38,'Applesauce',1,'',''),(39,'Fruit salad',1,'',''),(40,'Fruit Mousse',1,'',''),(41,'Assorted fruits',1,'',''),(42,'Banana Muffin',1,'',''),(43,'Black forest  cake square',1,'',''),(44,'Rhubarb',1,'',''),(45,'Pineapple Muffin',1,'','');
-/*!40000 ALTER TABLE `list_lunch_dessert` ENABLE KEYS */;
+LOCK TABLES `meal_lunch_dessert` WRITE;
+/*!40000 ALTER TABLE `meal_lunch_dessert` DISABLE KEYS */;
+INSERT INTO `meal_lunch_dessert` VALUES (1,'2nd option:',1,NULL,NULL),(2,'Assorted cold plates',1,NULL,NULL),(3,'Assorted sandwiches',1,NULL,NULL),(4,'Assorted vegetables',1,NULL,NULL),(5,'Barley soup',1,NULL,NULL),(6,'Buckwheat pancakes',1,NULL,NULL),(7,'Chicken and vegetables casserole',1,NULL,NULL),(8,'Cod nuggets',1,NULL,NULL),(9,'Corned beef hash',1,NULL,NULL),(10,'Datte Cake',1,NULL,NULL),(11,'French toast and strawberries',1,NULL,NULL),(12,'Gravy',1,NULL,NULL),(13,'Hot biscuit',1,NULL,NULL),(14,'Ice cream',1,NULL,NULL),(15,'Jello',1,NULL,NULL),(16,'Macaroni and Cheese Casserole',1,NULL,NULL),(17,'Mandarine',1,NULL,NULL),(18,'Meat pies',1,NULL,NULL),(19,'milk 4oz',1,NULL,NULL),(20,'Pancakes',1,NULL,NULL),(21,'Seafood Chowder',1,NULL,NULL),(22,'Stuffed Chicken!',1,NULL,NULL),(23,'Vegetable fritatta',1,NULL,NULL),(24,'Vegetable Soup',1,NULL,NULL),(32,'Mandarins',1,'',''),(33,'Pudding',1,'',''),(34,'Strawberry',1,'',''),(35,'Yogurt',1,'',''),(36,'Peaches',1,'',''),(37,'Pears',1,'',''),(38,'Applesauce',1,'',''),(39,'Fruit salad',1,'',''),(40,'Fruit Mousse',1,'',''),(41,'Assorted fruits',1,'',''),(42,'Banana Muffin',1,'',''),(43,'Black forest  cake square',1,'',''),(44,'Rhubarb',1,'',''),(45,'Pineapple Muffin',1,'','');
+/*!40000 ALTER TABLE `meal_lunch_dessert` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --

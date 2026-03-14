@@ -75,7 +75,7 @@ class MenuCycle
         $idField = $isSpecialDay ? 'ids' : 'id_menu';
 
         // Liste des tables à interroger
-        $tables = ['breakfast', 'lunch', 'lunch_dessert', 'dinner', 'dinner_dessert'];
+        $tables = ['menu_breakfast', 'menu_lunch', 'menu_lunch_dessert', 'menu_dinner', 'menu_dinner_dessert'];
 
         $result = [];
 

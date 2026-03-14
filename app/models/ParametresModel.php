@@ -19,11 +19,11 @@ class ParametresModel
         $pdo = $this->pdo;
 
         $meals = [
-            'breakfast',
-            'lunch',
-            'lunch_dessert',
-            'dinner',
-            'dinner_dessert'
+            'menu_breakfast',
+            'menu_lunch',
+            'menu_lunch_dessert',
+            'menu_dinner',
+            'menu_dinner_dessert'
         ];
 
         $importTime = date('Y-m-d H:i:s');
@@ -68,7 +68,7 @@ class ParametresModel
 
             $stmtMenu = $pdo->prepare("
                 INSERT INTO menu_tbl
-                (week, annee, saison, day, breakfast, lunch, lunch_dessert, dinner, dinner_dessert, enabled, date1)
+                (week, annee, saison, day, menu_breakfast, menu_lunch, menu_lunch_dessert, menu_dinner, menu_dinner_dessert, enabled, date1)
                 VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, 1, ?)
             ");
 
@@ -86,11 +86,11 @@ class ParametresModel
                             $annee,
                             $saison,
                             $dayNames[$day],
-                            implode(', ', $mealsData['breakfast'] ?? []),
-                            implode(', ', $mealsData['lunch'] ?? []),
-                            implode(', ', $mealsData['lunch_dessert'] ?? []),
-                            implode(', ', $mealsData['dinner'] ?? []),
-                            implode(', ', $mealsData['dinner_dessert'] ?? []),
+                            implode(', ', $mealsData['menu_breakfast'] ?? []),
+                            implode(', ', $mealsData['menu_lunch'] ?? []),
+                            implode(', ', $mealsData['menu_lunch_dessert'] ?? []),
+                            implode(', ', $mealsData['menu_dinner'] ?? []),
+                            implode(', ', $mealsData['menu_dinner_dessert'] ?? []),
                             $importTime
                         ]);
                     }
@@ -165,20 +165,7 @@ class ParametresModel
 
         $result = [];
 
-        foreach ($menus as $menu) {
-
-            $week = $menu['week'];
-            $day  = $menu['day'];
-            $menuId = $menu['id'];
-
-            $result[$week][$day] = [
-                'breakfast'       => $this->getItems('breakfast', $menuId),
-                'lunch'           => $this->getItems('lunch', $menuId),
-                'lunch_dessert'   => $this->getItems('lunch_dessert', $menuId),
-                'dinner'          => $this->getItems('dinner', $menuId),
-                'dinner_dessert'  => $this->getItems('dinner_dessert', $menuId),
-            ];
-        }
+       
 
         return $result;
     }
@@ -200,7 +187,7 @@ public function exportSpecialMenus(array $postData, string $saison, string $anne
     {
         $pdo = $this->pdo;
 
-        $meals = ['breakfast','lunch','lunch_dessert','dinner','dinner_dessert'];
+        $meals = ['menu_breakfast','menu_lunch','menu_lunch_dessert','menu_dinner','menu_dinner_dessert'];
         $importTime = date('Y-m-d H:i:s');
 
         $pdo->beginTransaction();
@@ -229,7 +216,7 @@ public function exportSpecialMenus(array $postData, string $saison, string $anne
             // 2) insert menu_tbl (week=1)
             $stmtMenu = $pdo->prepare("
                 INSERT INTO menu_tbl
-                (week, annee, saison, day, breakfast, lunch, lunch_dessert, dinner, dinner_dessert, enabled, date1)
+                (week, annee, saison, day, menu_breakfast, menu_lunch, menu_lunch_dessert, menu_dinner, menu_dinner_dessert, enabled, date1)
                 VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, 1, ?)
             ");
 
@@ -244,11 +231,11 @@ public function exportSpecialMenus(array $postData, string $saison, string $anne
                     $annee,
                     $saison,
                     $dayNames[$day],
-                    implode(', ', $mealsData['breakfast'] ?? []),
-                    implode(', ', $mealsData['lunch'] ?? []),
-                    implode(', ', $mealsData['lunch_dessert'] ?? []),
-                    implode(', ', $mealsData['dinner'] ?? []),
-                    implode(', ', $mealsData['dinner_dessert'] ?? []),
+                    implode(', ', $mealsData['menu_breakfast'] ?? []),
+                    implode(', ', $mealsData['menu_lunch'] ?? []),
+                    implode(', ', $mealsData['menu_lunch_dessert'] ?? []),
+                    implode(', ', $mealsData['menu_dinner'] ?? []),
+                    implode(', ', $mealsData['menu_dinner_dessert'] ?? []),
                     $importTime
                 ]);
             }

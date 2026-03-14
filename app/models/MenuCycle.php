@@ -159,7 +159,7 @@ class MenuCycle
                 /* ============================================================
                    🎆 SPECIAL NEW YEAR (DB = New year, week = 5)
                    ============================================================ */
-                
+
                 if ($s['Saison'] === "New year") {
                     return [
                         'season'  => "New year",

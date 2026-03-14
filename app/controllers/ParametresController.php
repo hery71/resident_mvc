@@ -17,22 +17,21 @@ class ParametresController
         $model = new ParametresModel();
         $yearSeason = $model->getExistedSeasonYear();
          $meals = [
-            'breakfast' => 'Breakfast',
-            'lunch' => 'Lunch',
-            'lunch_dessert' => 'Lunch Dessert',
-            'dinner' => 'Dinner',
-            'dinner_dessert' => 'Dinner Dessert'
+            'menu_breakfast'      => 'Breakfast',
+            'menu_lunch'          => 'Lunch',
+            'menu_lunch_dessert'  => 'Lunch Dessert',
+            'menu_dinner'         => 'Dinner',
+            'menu_dinner_dessert' => 'Dinner Dessert'
         ];
         $rows = [];
 
         $meals = [
-            'breakfast',
-            'lunch',
-            'lunch_dessert',
-            'dinner',
-            'dinner_dessert'
+            'menu_breakfast',
+            'menu_lunch',
+            'menu_lunch_dessert',
+            'menu_dinner',
+            'menu_dinner_dessert'
         ];
-
         // ============================
         // 1️⃣ RANGER (RAW → TEXTAREAS)
         // ============================
@@ -153,11 +152,11 @@ class ParametresController
                     $rows[] = [
                         $week,
                         $day,
-                        implode(', ', $mealsData['breakfast'] ?? []),
-                        implode(', ', $mealsData['lunch'] ?? []),
-                        implode(', ', $mealsData['lunch_dessert'] ?? []),
-                        implode(', ', $mealsData['dinner'] ?? []),
-                        implode(', ', $mealsData['dinner_dessert'] ?? [])
+                        implode(', ', $mealsData['menu_breakfast'] ?? []),
+                        implode(', ', $mealsData['menu_lunch'] ?? []),
+                        implode(', ', $mealsData['menu_lunch_dessert'] ?? []),
+                        implode(', ', $mealsData['menu_dinner'] ?? []),
+                        implode(', ', $mealsData['menu_dinner_dessert'] ?? [])
                     ];
                 }
             }
@@ -212,7 +211,7 @@ class ParametresController
 {
     $rows = [];
 
-    $meals = ['breakfast','lunch','lunch_dessert','dinner','dinner_dessert'];
+    $meals = ['menu_breakfast','menu_lunch','menu_lunch_dessert','menu_dinner','menu_dinner_dessert'];
 
     // 1) RANGER : RAW -> 5 textareas (Week 1) + detect type
     if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['range'])) {
@@ -295,11 +294,11 @@ class ParametresController
                 $type,
                 1,
                 $day,
-                implode(', ', $mealsData['breakfast'] ?? []),
-                implode(', ', $mealsData['lunch'] ?? []),
-                implode(', ', $mealsData['lunch_dessert'] ?? []),
-                implode(', ', $mealsData['dinner'] ?? []),
-                implode(', ', $mealsData['dinner_dessert'] ?? []),
+                implode(', ', $mealsData['menu_breakfast'] ?? []),
+                implode(', ', $mealsData['menu_lunch'] ?? []),
+                implode(', ', $mealsData['menu_lunch_dessert'] ?? []),
+                implode(', ', $mealsData['menu_dinner'] ?? []),
+                implode(', ', $mealsData['menu_dinner_dessert'] ?? []),
                 ];
             }
         }

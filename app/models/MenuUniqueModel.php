@@ -37,7 +37,7 @@ class MenuUniqueModel
 
     public function getMeals(int $id_unique): array
     {
-        $tables = ['breakfast','lunch','lunch_dessert','dinner','dinner_dessert'];
+        $tables = ['menu_breakfast','menu_lunch','menu_lunch_dessert','menu_dinner','menu_dinner_dessert'];
         $out = [];
 
         foreach ($tables as $table) {

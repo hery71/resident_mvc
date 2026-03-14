@@ -34,7 +34,7 @@ class AlimentaireModel
     // =========================
     public function fetchMealList(string $table, int $id_menu): array
     {
-        $allowed = ['breakfast','lunch','lunch_dessert','dinner','dinner_dessert'];
+        $allowed = ['menu_breakfast','menu_lunch','menu_lunch_dessert','menu_dinner','menu_dinner_dessert'];
         if (!in_array($table, $allowed, true)) {
             return [];
         }
@@ -52,11 +52,11 @@ class AlimentaireModel
     public function saveMeals(int $id_menu, array $post): void
     {
         $tables = [
-            'breakfast',
-            'lunch',
-            'lunch_dessert',
-            'dinner',
-            'dinner_dessert'
+            'menu_breakfast',
+            'menu_lunch',
+            'menu_lunch_dessert',
+            'menu_dinner',
+            'menu_dinner_dessert'
         ];
 
         $this->pdo->beginTransaction();

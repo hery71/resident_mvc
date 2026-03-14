@@ -65,7 +65,7 @@ class MenuUniqueController
 
         //Update + insert plats
         if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['update_meals'])) {
-            $tables = ['breakfast','lunch','lunch_dessert','dinner','dinner_dessert'];
+            $tables = ['menu_breakfast','menu_lunch','menu_lunch_dessert','menu_dinner','menu_dinner_dessert'];
 
             foreach ($tables as $table) {
                 if (!empty($_POST["{$table}_id"])) {
@@ -123,13 +123,13 @@ public function ajaxImportMenuRegular()
         }
 
         // 4️⃣ Récupération meals
-        $labels = [
-            'breakfast'=>'🥐 Petit-déjeuner',
-            'lunch'=>'🍽️ Dîner',
-            'lunch_dessert'=>'🍰 Dessert dîner',
-            'dinner'=>'🌙 Souper',
-            'dinner_dessert'=>'🍮 Dessert souper'
-        ];
+         $labels = [
+        'menu_breakfast'      => '🥐 Petit-déjeuner',
+        'menu_lunch'          => '🍽️ Dîner',
+        'menu_lunch_dessert'  => '🍰 Dessert dîner',
+        'menu_dinner'         => '🌙 Souper',
+        'menu_dinner_dessert' => '🍮 Dessert souper'
+    ];
 
         $mealsByTable = [];
 
@@ -163,8 +163,13 @@ public function importMenuUnique()
             exit;
         }
 
-        $tables = ['breakfast','lunch','lunch_dessert','dinner','dinner_dessert'];
-
+        $tables = [
+        'menu_breakfast',
+        'menu_lunch',
+        'menu_lunch_dessert',
+        'menu_dinner',
+        'menu_dinner_dessert'
+    ];
         foreach ($tables as $table) {
             if (empty($_POST[$table])) continue;
 
@@ -198,7 +203,14 @@ public function importMeals()
             exit;
         }
 
-        $tables = ['breakfast','lunch','lunch_dessert','dinner','dinner_dessert'];
+       $tables = [
+        'menu_breakfast',
+        'menu_lunch',
+        'menu_lunch_dessert',
+        'menu_dinner',
+        'menu_dinner_dessert'
+    ];
+
 
         foreach ($tables as $table) {
             if (empty($_POST[$table])) continue;

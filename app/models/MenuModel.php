@@ -39,11 +39,11 @@ class MenuModel
             'id'             => $id_unique,
             'nom'            => $unique['nom'],
             'observation'    => $unique['observation'],
-            'breakfast'      => $fetchMeals('breakfast'),
-            'lunch'          => $fetchMeals('lunch'),
-            'lunch_dessert'  => $fetchMeals('lunch_dessert'),
-            'dinner'         => $fetchMeals('dinner'),
-            'dinner_dessert' => $fetchMeals('dinner_dessert')
+            'breakfast'      => $fetchMeals('menu_breakfast'),
+            'lunch'          => $fetchMeals('menu_lunch'),
+            'lunch_dessert'  => $fetchMeals('menu_lunch_dessert'),
+            'dinner'         => $fetchMeals('menu_dinner'),
+            'dinner_dessert' => $fetchMeals('menu_dinner_dessert')
         ];
     }
 
@@ -84,11 +84,11 @@ class MenuModel
         };
 
         return [
-            'breakfast'       => $fetchMeals('breakfast'),
-            'lunch'           => $fetchMeals('lunch'),
-            'lunch_dessert'   => $fetchMeals('lunch_dessert'),
-            'dinner'          => $fetchMeals('dinner'),
-            'dinner_dessert'  => $fetchMeals('dinner_dessert')
+            'breakfast'       => $fetchMeals('menu_breakfast'),
+            'lunch'           => $fetchMeals('menu_lunch'),
+            'lunch_dessert'   => $fetchMeals('menu_lunch_dessert'),
+            'dinner'          => $fetchMeals('menu_dinner'),
+            'dinner_dessert'  => $fetchMeals('menu_dinner_dessert')
         ];
     }
     
@@ -112,11 +112,11 @@ class MenuModel
             'id'             => $id_special,
             'nom'            => $special['nom'],
             'observation'    => $special['observation'],
-            'breakfast'      => $fetchMeals('breakfast'),
-            'lunch'          => $fetchMeals('lunch'),
-            'lunch_dessert'  => $fetchMeals('lunch_dessert'),
-            'dinner'         => $fetchMeals('dinner'),
-            'dinner_dessert' => $fetchMeals('dinner_dessert')
+            'breakfast'      => $fetchMeals('menu_breakfast'),
+            'lunch'          => $fetchMeals('menu_lunch'),
+            'lunch_dessert'  => $fetchMeals('menu_lunch_dessert'),
+            'dinner'         => $fetchMeals('menu_dinner'),
+            'dinner_dessert' => $fetchMeals('menu_dinner_dessert')
         ];
     }
 
@@ -150,11 +150,11 @@ class MenuModel
         };
 
         return [
-            'breakfast'       => $fetchMeals('breakfast'),
-            'lunch'           => $fetchMeals('lunch'),
-            'lunch_dessert'   => $fetchMeals('lunch_dessert'),
-            'dinner'          => $fetchMeals('dinner'),
-            'dinner_dessert'  => $fetchMeals('dinner_dessert')
+            'breakfast'       => $fetchMeals('menu_breakfast'),
+            'lunch'           => $fetchMeals('menu_lunch'),
+            'lunch_dessert'   => $fetchMeals('menu_lunch_dessert'),
+            'dinner'          => $fetchMeals('menu_dinner'),
+            'dinner_dessert'  => $fetchMeals('menu_dinner_dessert')
         ];
     }
 
@@ -242,7 +242,7 @@ public function getSpecialMenus(int $annee, int $week): array
     // ===============================
     public function getMealsByMenu(int $id_menu): array
     {
-        $tables = ['breakfast','lunch','lunch_dessert','dinner','dinner_dessert'];
+        $tables = ['menu_breakfast','menu_lunch','menu_lunch_dessert','menu_dinner','menu_dinner_dessert'];
         $plats  = [];
 
         foreach ($tables as $table) {
@@ -259,8 +259,8 @@ public function getSpecialMenus(int $annee, int $week): array
         }
 
         // 🚫 Sécurité dessert = dinner
-        if ($plats['dinner'] === $plats['dinner_dessert']) {
-            $plats['dinner_dessert'] = '';
+        if ($plats['menu_dinner'] === $plats['menu_dinner_dessert']) {
+            $plats['menu_dinner_dessert'] = '';
         }
 
         return $plats;

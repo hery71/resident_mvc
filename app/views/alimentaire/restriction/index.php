@@ -2,11 +2,11 @@
     $inspection=  Config::inspection(); 
     $annee = $_GET['annee'] ?? date("Y");
     $listTables = [
-            'list_breakfast' => 'Breakfast',
-            'list_lunch' => 'Lunch',
-            'list_lunch_dessert' => 'Lunch Dessert',
-            'list_dinner' => 'Dinner',
-            'list_dinner_dessert' => 'Dinner Dessert'
+            'meal_breakfast' => 'Breakfast',
+            'meal_lunch' => 'Lunch',
+            'meal_lunch_dessert' => 'Lunch Dessert',
+            'meal_dinner' => 'Dinner',
+            'meal_dinner_dessert' => 'Dinner Dessert'
         ];
     $custom_js = <<<JS
     // Custom JavaScript can be added here

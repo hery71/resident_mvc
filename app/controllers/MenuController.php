@@ -33,11 +33,11 @@ class MenuController extends Controller
         // =========================
         // 🍽 Charger meals
         // =========================
-        $breakfastItems     = $model->fetchMealList('breakfast', $id_menu);
-        $lunchItems         = $model->fetchMealList('lunch', $id_menu);
-        $lunchDessertItems  = $model->fetchMealList('lunch_dessert', $id_menu);
-        $dinnerItems        = $model->fetchMealList('dinner', $id_menu);
-        $dinnerDessertItems = $model->fetchMealList('dinner_dessert', $id_menu);
+        $breakfastItems     = $model->fetchMealList('menu_breakfast', $id_menu);
+        $lunchItems         = $model->fetchMealList('menu_lunch', $id_menu);
+        $lunchDessertItems  = $model->fetchMealList('menu_lunch_dessert', $id_menu);
+        $dinnerItems        = $model->fetchMealList('menu_dinner', $id_menu);
+        $dinnerDessertItems = $model->fetchMealList('menu_dinner_dessert', $id_menu);
 
         // =========================
         // 📄 Vue
@@ -94,9 +94,10 @@ class MenuController extends Controller
         $target = new DateTime($xdate);
         $day    = $target->format('l');
         $year   = (int)$target->format('Y');
-        $cycleYear = $year;
 
         $cycle = MenuCycle::getSeasonAndWeek($xdate);
+
+        $cycleYear = $cycle['year'];   // 🔥 année du cycle corrigée
 
         $menuModel = new MenuModel($pdo);
 
@@ -257,10 +258,10 @@ class MenuController extends Controller
         $target = new DateTime($xdate);
         $day    = $target->format('l');
         $year   = (int)$target->format('Y');
-        $cycleYear = $year;
 
         $cycle = MenuCycle::getSeasonAndWeek($xdate);
 
+        $cycleYear = $cycle['year'];   // correction
         $menuModel = new MenuModel($pdo);
 
         $id_unique = 0;
@@ -407,7 +408,14 @@ public function deleteMeal(): void
 
         $table = $_POST['table'] ?? '';
         $id = (int)($_POST['id'] ?? 0);
-        $allowed = ['breakfast','lunch','lunch_dessert','dinner','dinner_dessert'];
+         $allowed = [
+        'menu_breakfast',
+        'menu_lunch',
+        'menu_lunch_dessert',
+        'menu_dinner',
+        'menu_dinner_dessert'
+    ];
+
         if (!in_array($table, $allowed) || $id <= 0) { echo "Invalid data"; exit; }
         $model = new MenuModel();
         $model->deleteMeal($table, $id);

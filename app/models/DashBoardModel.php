@@ -16,11 +16,11 @@ class DashboardModel
    public function getMenuRestrictions(array $menu): array
     {
         $map = [
-            'breakfast'       => 'list_breakfast',
-            'lunch'           => 'list_lunch',
-            'lunch_dessert'   => 'list_lunch_dessert',
-            'dinner'          => 'list_dinner',
-            'dinner_dessert'  => 'list_dinner_dessert'
+            'breakfast'       => 'meal_breakfast',
+            'lunch'           => 'meal_lunch',
+            'lunch_dessert'   => 'meal_lunch_dessert',
+            'dinner'          => 'meal_dinner',
+            'dinner_dessert'  => 'meal_dinner_dessert'
         ];
 
         $results = [];

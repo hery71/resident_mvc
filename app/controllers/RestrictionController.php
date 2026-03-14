@@ -11,11 +11,11 @@ public function index()
          * TABLES DISPONIBLES
          ***************************************************/
         $listTables = [
-            'list_breakfast' => 'Breakfast',
-            'list_lunch' => 'Lunch',
-            'list_lunch_dessert' => 'Lunch Dessert',
-            'list_dinner' => 'Dinner',
-            'list_dinner_dessert' => 'Dinner Dessert'
+            'meal_breakfast' => 'Breakfast',
+            'meal_lunch' => 'Lunch',
+            'meal_lunch_dessert' => 'Lunch Dessert',
+            'meal_dinner' => 'Dinner',
+            'meal_dinner_dessert' => 'Dinner Dessert'
         ];
         foreach ($listTables as $xtable => $label) {
             $model = new RestrictionModel($pdo);
@@ -41,7 +41,7 @@ public function edit()
         //POST-----------------------------------------
         if ($_SERVER['REQUEST_METHOD'] === 'POST') {    
         //Traitement du POST
-            $table= $_POST['table'] ?? 'list_lunch';
+            $table= $_POST['table'] ?? 'meal_lunch';
             $mealId = (int)($_POST['meal_id'] ?? 0);
             $allergenes = $_POST['allergen'] ?? '';
             $intolerances = $_POST['intolerance'] ?? '';
@@ -59,13 +59,13 @@ public function edit()
             }
         }
         //GET-----------------------------------------
-        $table= $_GET['table'] ?? 'list_lunch';
+        $table= $_GET['table'] ?? 'meal_lunch';
         $listTables = [
-            'list_breakfast' => 'Breakfast',
-            'list_lunch' => 'Lunch',
-            'list_lunch_dessert' => 'Lunch Dessert',
-            'list_dinner' => 'Dinner',
-            'list_dinner_dessert' => 'Dinner Dessert'
+            'meal_breakfast' => 'Breakfast',
+            'meal_lunch' => 'Lunch',
+            'meal_lunch_dessert' => 'Lunch Dessert',
+            'meal_dinner' => 'Dinner',
+            'meal_dinner_dessert' => 'Dinner Dessert'
         ];
         $file = dirname(__DIR__, 2) . '/storage/data/intolerances.json';
         $json = json_decode(file_get_contents($file), true);

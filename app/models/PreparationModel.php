@@ -90,11 +90,11 @@ class PreparationModel
             return $r && $r['plats'] ? $r['plats'] : '';
         };
         return [
-            'breakfast'       => $fetchMeals('breakfast')       ?: $menu['breakfast'],
-            'lunch'           => $fetchMeals('lunch')           ?: $menu['lunch'],
-            'lunch_dessert'   => $fetchMeals('lunch_dessert')   ?: $menu['lunch_dessert'],
-            'dinner'          => $fetchMeals('dinner')          ?: $menu['dinner'],
-            'dinner_dessert'  => $fetchMeals('dinner_dessert')  ?: $menu['dinner_dessert']
+            'breakfast'      => $fetchMeals('menu_breakfast')      ?: $menu['breakfast'],
+            'lunch'          => $fetchMeals('menu_lunch')          ?: $menu['lunch'],
+            'lunch_dessert'  => $fetchMeals('menu_lunch_dessert')  ?: $menu['lunch_dessert'],
+            'dinner'         => $fetchMeals('menu_dinner')         ?: $menu['dinner'],
+            'dinner_dessert' => $fetchMeals('menu_dinner_dessert') ?: $menu['dinner_dessert']
         ];
     }
     public function get_preparation_for_date($xdate)    
