@@ -55,8 +55,6 @@ class PreparationController
     }   
     public function load()
     {
-        global $pdo;
-
         if (!isset($_GET['date'], $_GET['plat'])) {
             http_response_code(400);
             echo json_encode(['error' => 'Missing parameters']);
@@ -66,11 +64,72 @@ class PreparationController
         $date = $_GET['date'];
         $plat = $_GET['plat'];
 
-        $model = new PreparationModel($pdo);
+        $model = new PreparationModel();
         $data = $model->getByDateAndPlat($date, $plat);
 
         header('Content-Type: application/json');
         echo json_encode($data);
+    }
+
+    public function checkByPlat()
+    {
+        $plat = trim($_GET['plat'] ?? '');
+        if ($plat === '') {
+            http_response_code(400);
+            header('Content-Type: application/json');
+            echo json_encode(['error' => 'Missing plat']);
+            return;
+        }
+
+        $model = new PreparationModel();
+        $count = $model->countByPlat($plat);
+
+        header('Content-Type: application/json');
+        echo json_encode(['count' => $count]);
+    }
+
+    public function loadByPlat()
+    {
+        $plat = trim($_GET['plat'] ?? '');
+        if ($plat === '') {
+            http_response_code(400);
+            header('Content-Type: application/json');
+            echo json_encode(['error' => 'Missing plat']);
+            return;
+        }
+
+        $model = new PreparationModel();
+        $data = $model->getByPlat($plat);
+
+        header('Content-Type: application/json');
+        echo json_encode($data);
+    }
+
+    public function applyExisting()
+    {
+        if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
+            http_response_code(405);
+            header('Content-Type: application/json');
+            echo json_encode(['error' => 'Method not allowed']);
+            return;
+        }
+
+        $date = trim($_POST['date'] ?? '');
+        $plat = trim($_POST['plat'] ?? '');
+        $ids = $_POST['ids'] ?? [];
+
+        if ($date === '' || $plat === '' || !is_array($ids)) {
+            http_response_code(400);
+            header('Content-Type: application/json');
+            echo json_encode(['error' => 'Invalid payload']);
+            return;
+        }
+
+        $model = new PreparationModel();
+        $inserted = $model->applyPreparationsByIds($date, $plat, $ids);
+
+        header('Content-Type: application/json');
+        echo json_encode(['success' => true, 'inserted' => $inserted]);
     }
     public function delete( )
     {

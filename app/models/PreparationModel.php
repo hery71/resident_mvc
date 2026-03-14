@@ -121,7 +121,7 @@ class PreparationModel
             1
         ]);
     }
-     public function getByDateAndPlat(string $date, string $plat): array
+    public function getByDateAndPlat(string $date, string $plat): array
     {
         $stmt = $this->pdo->prepare(
             "SELECT * 
@@ -132,6 +132,117 @@ class PreparationModel
         );
         $stmt->execute([$date, $plat]);
         return $stmt->fetchAll(PDO::FETCH_ASSOC);
+    }
+
+    public function getByPlat(string $plat): array
+    {
+        $stmt = $this->pdo->prepare(
+            "SELECT id, ingredient, action, nb, unite, jour
+             FROM preparation
+             WHERE plat = ?
+               AND enabled = 1
+             ORDER BY id DESC"
+        );
+        $stmt->execute([$plat]);
+        return $stmt->fetchAll(PDO::FETCH_ASSOC);
+    }
+
+    public function countByPlat(string $plat): int
+    {
+        $stmt = $this->pdo->prepare(
+            "SELECT COUNT(*)
+             FROM preparation
+             WHERE plat = ?
+               AND enabled = 1"
+        );
+        $stmt->execute([$plat]);
+
+        return (int)$stmt->fetchColumn();
+    }
+
+    public function applyPreparationsByIds(string $date, string $plat, array $ids): int
+    {
+        if (empty($ids)) {
+            return 0;
+        }
+
+        $inserted = 0;
+        $this->pdo->beginTransaction();
+
+        try {
+            $select = $this->pdo->prepare(
+                "SELECT ingredient, action, nb, unite, jour
+                 FROM preparation
+                 WHERE id = ?
+                   AND enabled = 1
+                 LIMIT 1"
+            );
+
+            $exists = $this->pdo->prepare(
+                "SELECT id
+                 FROM preparation
+                 WHERE date = ?
+                   AND plat = ?
+                   AND ingredient = ?
+                   AND action = ?
+                   AND nb = ?
+                   AND unite = ?
+                   AND jour = ?
+                   AND enabled = 1
+                 LIMIT 1"
+            );
+
+            $insert = $this->pdo->prepare(
+                "INSERT INTO preparation (date, plat, ingredient, nb, unite, action, jour, enabled)
+                 VALUES (?, ?, ?, ?, ?, ?, ?, 1)"
+            );
+
+            foreach ($ids as $id) {
+                $id = (int)$id;
+                if ($id <= 0) {
+                    continue;
+                }
+
+                $select->execute([$id]);
+                $row = $select->fetch(PDO::FETCH_ASSOC);
+
+                if (!$row) {
+                    continue;
+                }
+
+                $exists->execute([
+                    $date,
+                    $plat,
+                    $row['ingredient'],
+                    $row['action'],
+                    $row['nb'],
+                    $row['unite'],
+                    $row['jour']
+                ]);
+
+                if ($exists->fetch(PDO::FETCH_ASSOC)) {
+                    continue;
+                }
+
+                $insert->execute([
+                    $date,
+                    $plat,
+                    $row['ingredient'],
+                    $row['nb'],
+                    $row['unite'],
+                    $row['action'],
+                    $row['jour']
+                ]);
+
+                $inserted++;
+            }
+
+            $this->pdo->commit();
+            return $inserted;
+        } catch (Throwable $e) {
+            $this->pdo->rollBack();
+            throw $e;
+        }
     }
     function delete_preparation($id) {
         $stmt = $this->pdo->prepare("UPDATE preparation SET enabled = 0 WHERE id = ?");

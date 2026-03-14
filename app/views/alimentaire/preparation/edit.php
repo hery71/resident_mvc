@@ -108,7 +108,7 @@
         loadIngredientsAndOpenModal();
     }
     function checkExistingPreparations(plat) {
-        fetch("check_preparation_by_plat.php?plat=" + encodeURIComponent(plat))
+        fetch("/preparation/checkByPlat?plat=" + encodeURIComponent(plat))
             .then(r => r.json())
             .then(res => {
                 if (res.count > 0) {
@@ -130,7 +130,7 @@
         let plat = document.getElementById('prep_plat').value;
 
         // Charger les préparations existantes (par plat)
-        fetch("load_preparations_by_plat.php?plat=" + encodeURIComponent(plat))
+        fetch("/preparation/loadByPlat?plat=" + encodeURIComponent(plat))
             .then(r => r.json())
             .then(rows => {
 
@@ -153,6 +153,44 @@
                 $('#applyPrepModal').modal('show');
             });
     }
+    function applySelectedPreparations() {
+        const selectedIds = Array.from(
+            document.querySelectorAll('#applyPrepTable input[type="checkbox"]:checked')
+        ).map(cb => cb.value);
+
+        if (selectedIds.length === 0) {
+            alert("Veuillez sélectionner au moins une préparation.");
+            return;
+        }
+
+        const date = document.getElementById('date').value;
+        const plat = document.getElementById('prep_plat').value;
+
+        const params = new URLSearchParams();
+        params.append('date', date);
+        params.append('plat', plat);
+        selectedIds.forEach(id => params.append('ids[]', id));
+
+        fetch('/preparation/applyExisting', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'
+            },
+            body: params.toString()
+        })
+            .then(r => r.json())
+            .then(res => {
+                if (res.success) {
+                    $('#applyPrepModal').modal('hide');
+                    location.reload();
+                    return;
+                }
+
+                alert(res.error || 'Erreur lors de l'application.');
+            })
+            .catch(() => alert('Erreur réseau lors de l'application.'));
+    }
+
     function selectDate() {
       let d = document.getElementById('date').value;
       if (d) window.location = "/preparation/edit?date=" + d;
@@ -190,13 +228,12 @@ foreach (['breakfast','lunch','lunch_dessert','dinner','dinner_dessert'] as $cat
         <?php endif; ?>
     </div>
     <form class="form-inline mt-3 mb-4">
-    <label class="mr-2">Choisissez une date :</label>
-    <input type="date" name="date" id="date" class="form-control mr-2" value="<?= $xdate ?>">
-    <button type="button" class="btn btn-primary" onclick="selectDate()">Afficher</button>
-  </form>
-
-  <?php if ($plats): ?>
-  <h4 class="mb-3">Liste des plats :</h4>
+      <label for="date" class="mr-2 font-weight-bold">Choisir une date :</label>
+      <input type="date" id="date" name="date" class="form-control mr-2" value="<?= $xdate ?>">
+      <button type="button" class="btn btn-primary" onclick="selectDate()">Afficher</button>
+    </form>
+    <?php if (!empty($plats)): ?>
+      <h4 class="mt-4">Liste des plats :</h4>
   <?php
 
     // Indexation par plat
@@ -318,17 +355,12 @@ foreach (['breakfast','lunch','lunch_dessert','dinner','dinner_dessert'] as $cat
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
 
-      <div class="modal-header">
-        <h5 class="modal-title">Préparations pour <span id="view_plat_name"></span></h5>
-        <div class="modal-header">
-    <!-- BOUTON AJOUTER PREPARATION -->
-    <button type="button" class="btn btn-info btn-sm ms-3"
-            onclick="openPrepModalAddFromView()">
-        + Ajouter préparation
-    </button>
-    
-</div>
-        <button type="button" class="close" data-dismiss="modal"><span>&times;</span></button>
+      <div class="modal-header d-flex align-items-center">
+        <h5 class="modal-title mb-0">Préparations pour <span id="view_plat_name"></span></h5>
+        <button type="button" class="btn btn-info btn-sm ml-3" onclick="openPrepModalAddFromView()">
+            + Ajouter préparation
+        </button>
+        <button type="button" class="close ml-auto" data-dismiss="modal"><span>&times;</span></button>
       </div>
 
       <div class="modal-body">
