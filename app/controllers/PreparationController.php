@@ -29,6 +29,9 @@ class PreparationController
         {
             die("Erreur : données manquantes.");
         }
+        //************************************************************* */
+        
+        //************************************************************* */
         // Nettoyage / récupération
         $date       = trim($_POST['date']);        // date du menu
         $plat       = trim($_POST['plat']);        // plat sélectionné
@@ -39,6 +42,7 @@ class PreparationController
         $jour       = trim($_POST['jour']);        // nb de jours avant
         $enabled    = 1;
         $model = new PreparationModel();
+        $model->addIngredientToMeal($plat, $ingredient);
         $model->save_preparation([
             'date' => $date,
             'plat' => $plat,
@@ -50,8 +54,9 @@ class PreparationController
             'enabled' => $enabled,
             'preparation_date' => (new DateTime($date))->modify('-' . intval($jour) . ' days')->format('Y-m-d')
         ]);
-        // Redirection après succès
-        header("Location: /preparation/edit?date=" . urlencode($date) . "&success=1");
+        //Pas de header location car on veut rester sur la même page pour ajouter plusieurs préparations
+        echo json_encode(['success' => true]);
+        exit;
     }   
     public function load()
     {
@@ -168,5 +173,129 @@ class PreparationController
         $weekData = [];
         $weekData = $model->getWeeklyPreparation($startOfWeek, $endOfWeek);
         require __DIR__ . '/../views/alimentaire/preparation/printHebdomadaire.php';
+    }
+    public function loadMealIngredients()
+    {
+        $plat = trim($_GET['plat'] ?? '');
+        if ($plat === '') {
+            http_response_code(400);
+            header('Content-Type: application/json');
+            echo json_encode(['error' => 'Missing plat']);
+            return;
+        }
+
+        $model = new PreparationModel();
+        $ingredients = $model->getMealIngredientsByPlat($plat);
+
+        header('Content-Type: application/json');
+        echo json_encode($ingredients);
+    }
+    public function addMealIngredient()
+    {
+        if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
+            http_response_code(405);
+            return;
+        }
+
+        $plat = trim($_POST['plat'] ?? '');
+        $ingredient = trim($_POST['ingredient'] ?? '');
+
+        if ($plat === '' || $ingredient === '') {
+            http_response_code(400);
+            header('Content-Type: application/json');
+            echo json_encode(['success' => false, 'message' => 'Données manquantes']);
+            return;
+        }
+
+        $model = new PreparationModel();
+        $ok = $model->addIngredientToMeal($plat, $ingredient);
+
+        header('Content-Type: application/json');
+        echo json_encode(['success' => $ok]);
+    }
+    public function removeMealIngredient()
+    {
+        $plat = trim($_POST['plat'] ?? '');
+        $ingredient = trim($_POST['ingredient'] ?? '');
+
+        if ($plat === '' || $ingredient === '') {
+            echo json_encode(['success'=>false]);
+            return;
+        }
+
+        $model = new PreparationModel();
+        $ok = $model->removeIngredientFromMeal($plat, $ingredient);
+
+        echo json_encode(['success'=>$ok]);
+    }
+    public function suggestIngredient()
+    {
+        $term = trim($_GET['term'] ?? '');
+
+        $model = new PreparationModel();
+        $ingredients = $model->get_ingredients();
+
+        $results = [];
+
+        foreach ($ingredients as $ingredient) {
+
+            if ($term === '') {
+                $results[] = $ingredient;
+                continue;
+            }
+
+            $cleanIngredient = $this->normalize($ingredient);
+            $cleanTerm = $this->normalize($term);
+
+            if (strpos($cleanIngredient, $cleanTerm) !== false) {
+                $results[] = $ingredient;
+            }
+        }
+
+        // 🔹 tri alphabetique
+        usort($results, function ($a, $b) {
+            return strcasecmp(
+                iconv('UTF-8','ASCII//TRANSLIT',$a),
+                iconv('UTF-8','ASCII//TRANSLIT',$b)
+            );
+        });
+
+        header('Content-Type: application/json');
+        echo json_encode(array_slice($results,0,20));
+    }
+    private function normalize(string $text): string
+    {
+        $text = mb_strtolower($text, 'UTF-8');
+
+        // enlever les accents
+        $text = Normalizer::normalize($text, Normalizer::FORM_D);
+        $text = preg_replace('/\p{Mn}/u', '', $text);
+
+        // enlever apostrophes et espaces
+        $text = str_replace(["'", "’", "-", " "], "", $text);
+
+        return $text;
+    }
+    public function addIngredientDictionary()
+    {
+        $ingredient = trim($_POST['ingredient'] ?? '');
+
+        if ($ingredient == "") {
+            echo json_encode(['success'=>false]);
+            return;
+        }
+
+        $model = new PreparationModel();
+
+        $res = $model->addIngredientDictionary($ingredient);
+
+        echo json_encode($res);
+    }
+    public function getIngredients()
+    {
+        $model = new PreparationModel();
+
+        header('Content-Type: application/json');
+        echo json_encode($model->get_ingredients());
     }
 }
