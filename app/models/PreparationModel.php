@@ -260,29 +260,20 @@ class PreparationModel
     }
     public function getMealIngredientsByPlat(string $plat): array
     {
-        $tables = [
-            'meal_breakfast',
-            'meal_lunch',
-            'meal_lunch_dessert',
-            'meal_dinner',
-            'meal_dinner_dessert'
-        ];
+        $table ='meal_tbl';
+        $stmt = $this->pdo->prepare("
+            SELECT ingredients
+            FROM `$table`
+            WHERE TRIM(LOWER(meal)) = TRIM(LOWER(?))
+            LIMIT 1
+        ");
+        $stmt->execute([$plat]);
+        $row = $stmt->fetch(PDO::FETCH_ASSOC);
 
-        foreach ($tables as $table) {
-            $stmt = $this->pdo->prepare("
-                SELECT ingredients
-                FROM `$table`
-                WHERE TRIM(LOWER(meal)) = TRIM(LOWER(?))
-                LIMIT 1
-            ");
-            $stmt->execute([$plat]);
-            $row = $stmt->fetch(PDO::FETCH_ASSOC);
-
-            if ($row && !empty($row['ingredients'])) {
-                $items = array_map('trim', explode(',', $row['ingredients']));
-                $items = array_filter($items, fn($v) => $v !== '');
-                return array_values($items);
-            }
+        if ($row && !empty($row['ingredients'])) {
+            $items = array_map('trim', explode(',', $row['ingredients']));
+            $items = array_filter($items, fn($v) => $v !== '');
+            return array_values($items);
         }
 
         return [];
@@ -295,106 +286,78 @@ class PreparationModel
             return false;
         }
 
-        $tables = [
-            'meal_breakfast',
-            'meal_lunch',
-            'meal_lunch_dessert',
-            'meal_dinner',
-            'meal_dinner_dessert'
-        ];
+        $table= 'meal_tbl';
+        $stmt = $this->pdo->prepare("
+            SELECT id, ingredients
+            FROM `$table`
+            WHERE TRIM(LOWER(meal)) = TRIM(LOWER(?))
+            LIMIT 1
+        ");
 
-        foreach ($tables as $table) {
+        $stmt->execute([$plat]);
+        $row = $stmt->fetch(PDO::FETCH_ASSOC);
 
-            $stmt = $this->pdo->prepare("
-                SELECT id, ingredients
-                FROM `$table`
-                WHERE TRIM(LOWER(meal)) = TRIM(LOWER(?))
-                LIMIT 1
+        if ($row) {
+
+            $existing = trim((string)$row['ingredients']);
+
+            // transformer en tableau
+            $items = $existing !== ''
+                ? array_map('trim', explode(',', $existing))
+                : [];
+
+            // supprimer éléments vides
+            $items = array_filter($items, fn($v) => $v !== '');
+
+            // vérifier si déjà présent
+            foreach ($items as $item) {
+                if (mb_strtolower($item) === mb_strtolower($ingredient)) {
+                    return true;
+                }
+            }
+
+            // ajouter l'ingrédient
+            $items[] = $ingredient;
+
+            // tri alphabétique
+            natcasesort($items);
+
+            // reconstruire la chaîne
+            $newValue = implode(', ', $items);
+
+            $up = $this->pdo->prepare("
+                UPDATE `$table`
+                SET ingredients = ?
+                WHERE id = ?
             ");
 
-            $stmt->execute([$plat]);
-            $row = $stmt->fetch(PDO::FETCH_ASSOC);
-
-            if ($row) {
-
-                $existing = trim((string)$row['ingredients']);
-
-                // transformer en tableau
-                $items = $existing !== ''
-                    ? array_map('trim', explode(',', $existing))
-                    : [];
-
-                // supprimer éléments vides
-                $items = array_filter($items, fn($v) => $v !== '');
-
-                // vérifier si déjà présent
-                foreach ($items as $item) {
-                    if (mb_strtolower($item) === mb_strtolower($ingredient)) {
-                        return true;
-                    }
-                }
-
-                // ajouter l'ingrédient
-                $items[] = $ingredient;
-
-                // tri alphabétique
-                natcasesort($items);
-
-                // reconstruire la chaîne
-                $newValue = implode(', ', $items);
-
-                $up = $this->pdo->prepare("
-                    UPDATE `$table`
-                    SET ingredients = ?
-                    WHERE id = ?
-                ");
-
-                return $up->execute([$newValue, $row['id']]);
-            }
+            return $up->execute([$newValue, $row['id']]);
         }
 
         return false;
     }
     public function removeIngredientFromMeal(string $plat, string $ingredient): bool
     {
-        $tables = [
-            'meal_breakfast',
-            'meal_lunch',
-            'meal_lunch_dessert',
-            'meal_dinner',
-            'meal_dinner_dessert'
-        ];
-
-        foreach ($tables as $table) {
-
-            $stmt = $this->pdo->prepare("
-                SELECT id, ingredients
-                FROM $table
-                WHERE LOWER(TRIM(meal)) = LOWER(TRIM(?))
-                LIMIT 1
-            ");
-
-            $stmt->execute([$plat]);
-            $row = $stmt->fetch(PDO::FETCH_ASSOC);
-
-            if (!$row) continue;
-
-            $items = array_map('trim', explode(',', $row['ingredients']));
-            $items = array_filter($items, fn($i) => strtolower($i) !== strtolower($ingredient));
-
-            $new = implode(', ', $items);
-
-            $up = $this->pdo->prepare("
-                UPDATE $table
-                SET ingredients = ?
-                WHERE id = ?
-            ");
-
-            return $up->execute([$new, $row['id']]);
-        }
-
-        return false;
-    }
+        $table = 'meal_tbl';
+        $stmt = $this->pdo->prepare("
+            SELECT id, ingredients
+            FROM $table
+            WHERE LOWER(TRIM(meal)) = LOWER(TRIM(?))
+            LIMIT 1
+        ");
+        $stmt->execute([$plat]);
+        $row = $stmt->fetch(PDO::FETCH_ASSOC);
+        if (!$row) continue;
+        $items = array_map('trim', explode(',', $row['ingredients']));
+        $items = array_filter($items, fn($i) => strtolower($i) !== strtolower($ingredient));
+        $new = implode(', ', $items);
+        $up = $this->pdo->prepare("
+            UPDATE $table
+            SET ingredients = ?
+            WHERE id = ?
+        ");
+        return $up->execute([$new, $row['id']]):
+}
    public function addIngredientDictionary(string $ingredient): array
     {
         $ingredient = $this->cleanIngredient($ingredient);

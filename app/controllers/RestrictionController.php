@@ -10,21 +10,13 @@ public function index()
         /***************************************************
          * TABLES DISPONIBLES
          ***************************************************/
-        $listTables = [
-            'meal_breakfast' => 'Breakfast',
-            'meal_lunch' => 'Lunch',
-            'meal_lunch_dessert' => 'Lunch Dessert',
-            'meal_dinner' => 'Dinner',
-            'meal_dinner_dessert' => 'Dinner Dessert'
-        ];
-        foreach ($listTables as $xtable => $label) {
+        $xtable="meal_tbl";
             $model = new RestrictionModel($pdo);
             $restrictions= $model->getRestrictions($xtable);
             $data[$xtable] = [
-                'label' => $label,
+                'label' => "Meal",
                 'restrictions' => $restrictions
             ];
-        }
         
 
     $page_css = 'edit_restriction.css';
@@ -41,7 +33,7 @@ public function edit()
         //POST-----------------------------------------
         if ($_SERVER['REQUEST_METHOD'] === 'POST') {    
         //Traitement du POST
-            $table= $_POST['table'] ?? 'meal_lunch';
+            $table= 'meal_tbl';
             $mealId = (int)($_POST['meal_id'] ?? 0);
             $allergenes = $_POST['allergen'] ?? '';
             $intolerances = $_POST['intolerance'] ?? '';
@@ -59,14 +51,7 @@ public function edit()
             }
         }
         //GET-----------------------------------------
-        $table= $_GET['table'] ?? 'meal_lunch';
-        $listTables = [
-            'meal_breakfast' => 'Breakfast',
-            'meal_lunch' => 'Lunch',
-            'meal_lunch_dessert' => 'Lunch Dessert',
-            'meal_dinner' => 'Dinner',
-            'meal_dinner_dessert' => 'Dinner Dessert'
-        ];
+        $table='meal_tbl';
         $file = dirname(__DIR__, 2) . '/storage/data/intolerances.json';
         $json = json_decode(file_get_contents($file), true);
 

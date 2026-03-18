@@ -15,12 +15,12 @@ class DashboardModel
      */
    public function getMenuRestrictions(array $menu): array
     {
-        $map = [
-            'breakfast'       => 'meal_breakfast',
-            'lunch'           => 'meal_lunch',
-            'lunch_dessert'   => 'meal_lunch_dessert',
-            'dinner'          => 'meal_dinner',
-            'dinner_dessert'  => 'meal_dinner_dessert'
+        $fields = [
+            'breakfast',
+            'lunch',
+            'lunch_dessert',
+            'dinner',
+            'dinner_dessert'
         ];
 
         $results = [];
@@ -34,7 +34,7 @@ class DashboardModel
 
         $residents = $resStmt->fetchAll(PDO::FETCH_ASSOC);
 
-        foreach ($map as $field => $table) {
+        foreach ($fields as $field) {
 
             if (empty($menu[$field])) {
                 continue;
@@ -49,9 +49,10 @@ class DashboardModel
                     continue;
                 }
 
+                // 🔥 NOUVELLE REQUÊTE (meal_tbl)
                 $stmt = $this->pdo->prepare("
                     SELECT meal, allergene, intolerance
-                    FROM $table
+                    FROM meal_tbl
                     WHERE LOWER(TRIM(meal)) = LOWER(TRIM(:meal))
                     AND enabled = 1
                     LIMIT 1
@@ -93,7 +94,7 @@ class DashboardModel
                         explode(',', (string)($resident['Intolerance'] ?? ''))
                     );
 
-                    // 🔴 Comparaison allergènes
+                    // 🔴 Allergènes
                     foreach ($residentAllergies as $ra) {
                         if ($ra !== '' && in_array($ra, $itemAllergenes)) {
                             $concernedResidents[] =
@@ -102,7 +103,7 @@ class DashboardModel
                         }
                     }
 
-                    // 🟠 Comparaison intolérances
+                    // 🟠 Intolérances
                     foreach ($residentIntolerances as $ri) {
                         if ($ri !== '' && in_array($ri, $itemIntolerances)) {
                             $concernedResidents[] =
@@ -114,7 +115,7 @@ class DashboardModel
 
                 $results[] = [
                     'section'     => ucfirst(str_replace('_', ' ', $field)),
-                    'meal'        => $row['meal'],
+                    'meal'        => $row['meal'], // ⚠️ changé
                     'allergene'   => $row['allergene'],
                     'intolerance' => $row['intolerance'],
                     'residents'   => $concernedResidents
