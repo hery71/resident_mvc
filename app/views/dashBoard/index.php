@@ -202,14 +202,14 @@ CSS;
                     <div class="d-flex justify-content-end mt-3">
                         <a href="/birthday/" class="btn btn-secondary">Voir</a>
                     </div>
-                    <p class="font-weight-bold">Anniversaire du mois NON edite:</p>
+                    <p class="font-weight-bold">Anniversaire du mois de <?=  e(frenchMonthName((int)$month)) ?> NON edite:</p>
                     <?php if (!empty($anniversaires)): ?>
                         <div class="tile-content">
                             <?php foreach ($anniversaires as $a): ?>
                                  <?php if (!$a['fete_id']): ?>
-                                    <?= htmlspecialchars($a['Prenom']) ?>
-                                    <?= htmlspecialchars($a['Nom']) ?>
-                                    (<?= htmlspecialchars($a['date_naissance']) ?>)<br>
+                                    <?= e($a['Prenom']) ?>
+                                    <?= e($a['Nom']) ?>
+                                    (<?= e($a['date_naissance']) ?>)<br>
                                 <?php endif; ?>
                             <?php endforeach; ?>
                         </div>
@@ -219,13 +219,13 @@ CSS;
                         </div>
                     <?php endif; ?>
                     <?php $nextMonth = (new DateTime($xdate))->modify('+1 month')->format('F Y'); ?>
-                    <p class="font-weight-bold">Anniversaire au debut du mois prochain(<?= htmlspecialchars($nextMonth) ?>):</p>
+                    <p class="font-weight-bold">Anniversaire au debut du mois prochain(<?= e($nextMonth) ?>):</p>
                     <?php if (!empty($upcomingBirthdays)): ?>
                             <div class="tile-content">
                                 <?php foreach ($upcomingBirthdays as $b): ?>
-                                    <?= htmlspecialchars($b['Prenom']) ?>
-                                    <?= htmlspecialchars($b['Nom']) ?>
-                                    (<?= htmlspecialchars($b['Anniversaire']) ?>)<br>
+                                    <?= e($b['Prenom']) ?>
+                                    <?= e($b['Nom']) ?>
+                                    (<?= e($b['Anniversaire']) ?>)<br>
                                 <?php endforeach; ?>
                             </div>
                         <?php else: ?>
