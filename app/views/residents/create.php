@@ -60,7 +60,7 @@
             </div>
 
             <div class="form-group col-md-6">
-                <label>Relation</label>
+                <label>Relation Parente</label>
                 <select name="Relation" class="form-control">
                     <?php foreach ($options['Relation'] as $g1): ?>
                         <option value="<?= e($g1) ?>"><?= e($g1) ?></option>

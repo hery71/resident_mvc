@@ -30,14 +30,22 @@
                    class="form-control"
                    value="<?= e($resident['Anniversaire']) ?>">
         </div>
-
-        <div class="form-group">
-            <label>Famille</label>
-            <input type="text" name="Famille"
-                   class="form-control"
-                   value="<?= e($resident['Famille']) ?>">
-        </div>
-
+        <div class="form-row">
+            <div class="form-group col-md-4">
+                <label>Famille</label>
+                <input type="text" name="Famille"
+                    class="form-control"
+                    value="<?= e($resident['Famille']) ?>">
+            </div>
+            <div class="form-group col-md-6">
+                <label>Relation Parente</label>
+                <select name="Relation" class="form-control">
+                    <?php foreach ($options['Relation'] as $g1): ?>
+                        <option value="<?= e($g1) ?>" <?= $resident['Relation'] === $g1 ? 'selected' : '' ?>><?= e($g1) ?></option>
+                    <?php endforeach; ?>
+                </select>
+            </div>
+        </div>  
         <div class="form-row">
             <div class="form-group col">
                 <label>Tél 1</label>

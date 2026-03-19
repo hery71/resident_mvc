@@ -202,6 +202,22 @@ CSS;
                     <div class="d-flex justify-content-end mt-3">
                         <a href="/birthday/" class="btn btn-secondary">Voir</a>
                     </div>
+                    <p class="font-weight-bold">Anniversaire du mois NON edite:</p>
+                    <?php if (!empty($anniversaires)): ?>
+                        <div class="tile-content">
+                            <?php foreach ($anniversaires as $a): ?>
+                                 <?php if (!$a['fete_id']): ?>
+                                    <?= htmlspecialchars($a['Prenom']) ?>
+                                    <?= htmlspecialchars($a['Nom']) ?>
+                                    (<?= htmlspecialchars($a['date_naissance']) ?>)<br>
+                                <?php endif; ?>
+                            <?php endforeach; ?>
+                        </div>
+                    <?php else: ?>
+                        <div class="text-left mt-4">
+                            Aucun anniversaire non édité ce mois-ci
+                        </div>
+                    <?php endif; ?>
                     <?php $nextMonth = (new DateTime($xdate))->modify('+1 month')->format('F Y'); ?>
                     <p class="font-weight-bold">Anniversaire au debut du mois prochain(<?= htmlspecialchars($nextMonth) ?>):</p>
                     <?php if (!empty($upcomingBirthdays)): ?>

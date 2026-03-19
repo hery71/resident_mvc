@@ -17,6 +17,7 @@ class DashBoardController extends Controller
         $target = new DateTime($xdate);
         $day    = $target->format('l');
         $year   = (int)$target->format('Y');
+        $month = (int)$target->format('m');
         $cycleYear = $year;
 
         // ==============================
@@ -90,9 +91,10 @@ class DashBoardController extends Controller
         $seasonService = new SeasonService();
         $currentPeriod = $seasonService->getNextSeasonByDate($xdate);
         //------------------------------
-        //Annoiversaiers inferieur a 7 la date
+        //Anniversaiers inferieur a 7 la date
         $birthdayModel = new BirthdayModel($pdo);
         $upcomingBirthdays = $birthdayModel->getFirstWeekBirthday((int)$target->format('m'));
+        $anniversaires = $birthdayModel->getByMonthAndYear($month, $year);
         //-----------------------------
         // Resident
         $lastResidents = $residentModel->getLastResidentId();

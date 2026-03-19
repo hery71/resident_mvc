@@ -20,6 +20,7 @@ class ResidentController extends Controller
         $totalPages = ceil($total / $perPage);
         require __DIR__ . '/../views/residents/index.php';
     }
+
      public function printIndex()
     {
         $model = new ResidentModel();
@@ -41,6 +42,7 @@ class ResidentController extends Controller
 
         require __DIR__ . '/../views/residents/printIndex.php';
     }
+
     public function edit($id)
     {
         $model = new ResidentModel();
@@ -53,19 +55,20 @@ class ResidentController extends Controller
 
         require __DIR__ . '/../views/residents/edit.php';
     }
+
     public function update($id)
     {
         if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
             http_response_code(405);
             exit;
         }
-
         $model = new ResidentModel();
         $model->update($id, $_POST);
 
         header("Location: /resident");
         exit;
     }
+
     public function depart()
     {
         if ($_SERVER['REQUEST_METHOD'] !== 'POST') {

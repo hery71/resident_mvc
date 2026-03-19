@@ -84,7 +84,8 @@ class ResidentModel
                     Tel1 = :tel1,
                     Tel2 = :tel2,
                     Tel3 = :tel3,
-                    Chambre = :chambre
+                    Chambre = :chambre,
+                    Relation = :relation
                 WHERE id = :id";
 
         $stmt = $this->pdo->prepare($sql);
@@ -97,6 +98,7 @@ class ResidentModel
             'tel2' => $data['Tel2'],
             'tel3' => $data['Tel3'],
             'chambre' => $data['Chambre'],
+            'relation' => $data['Relation'],
             'id' => $id
         ]);
     }

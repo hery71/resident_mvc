@@ -82,7 +82,8 @@
                   data-tel1="<?= e($r['Tel1'] ?? '') ?>"
                   data-tel2="<?= e($r['Tel2'] ?? '') ?>"
                   data-tel3="<?= e($r['Tel3'] ?? '') ?>"
-                  data-famille="<?= e($r['Famille'] ?? '') ?>">
+                  data-famille="<?= e($r['Famille'] ?? '') ?>"
+                  data-relation="<?= e($r['Relation'] ?? '') ?>">
                   ℹ️ Modal Info
                 </button>
                  <a href="/resident/informations/<?= $r['id'] ?>"
@@ -160,6 +161,7 @@
           <tr><th>Téléphone 2</th><td id="info-tel2"></td></tr>
           <tr><th>Téléphone 3</th><td id="info-tel3"></td></tr>
           <tr><th>Famille</th><td id="info-famille"></td></tr>
+          <tr><th>Relation Parente</th><td id="info-relation"></td></tr>
         </table>
       </div>
 
@@ -244,6 +246,7 @@ document.querySelectorAll('.btn-info-resident').forEach(btn => {
     document.getElementById('info-tel2').textContent = this.dataset.tel2;
     document.getElementById('info-tel3').textContent = this.dataset.tel3;
     document.getElementById('info-famille').textContent = this.dataset.famille;
+    document.getElementById('info-relation').textContent = this.dataset.relation;
   });
 });
 </script>

@@ -21,6 +21,7 @@
             <tr><th>Tel2</th><td><?= e($resident['Tel2'] ?? '') ?></td></tr>
             <tr><th>Tel3</th><td><?= e($resident['Tel3'] ?? '') ?></td></tr>
             <tr><th>Famille</th><td><?= e($resident['Famille'] ?? '') ?></td></tr>
+            <tr><th>Relation Parente</th><td><?= e($resident['Relation'] ?? '') ?></td></tr>
             <tr><th>Date anniversaire</th><td><?= e($resident['Anniversaire'] ?? '') ?></td></tr>
             <tr><th>Admission</th><td><?= e($resident['Admission'] ?? '') ?></td></tr>
             <tr><th>Lieu repas</th><td><?= e($resident['Lieu_repas'] ?? '') ?></td></tr>
