@@ -64,6 +64,29 @@ if ($messageCake != 'Non Commande') {
             <?= $birthday['Prenom'] ?> <?= $birthday['Nom'] ?> – <?= $birthday['Gender'] ?>
         </p>
         <p class="mb-0">
+            <strong>Contact Famille :</strong>
+            <?= $birthday['Famille'] ?>(
+                <?= $birthday['Relation'] ?>) -
+                <?php if ($birthday['Tel_default'] == 1): ?>
+                    <span class="badge badge-danger">Default</span>
+                    <?= $birthday['Tel1'] ?> /
+                <?php else:  ?>
+                     <?= $birthday['Tel1']? $birthday['Tel1'] . ' <a class="btn btn-secondary btn-sm py-0 px-2" href="/birthday/telByDefaultCreate?idBirthday='.$idBirthday.'&id='.$birthday['id_resident'].'&tel=1&year='.$annee.'&month='.$mois.'&day='.$jour.'">Defaut</a>' : 'NC' ?> / 
+                <?php endif ?>
+                <?php if ($birthday['Tel_default'] == 2): ?>
+                    <span class="badge badge-danger">Default</span>
+                    <?= $birthday['Tel2'] ?> /
+                <?php else:  ?>
+                     <?= $birthday['Tel2']? $birthday['Tel2'] . ' <a class="btn btn-secondary btn-sm py-0 px-2" href="/birthday/telByDefaultCreate?idBirthday='.$idBirthday.'&id='.$birthday['id_resident'].'&tel=2&year='.$annee.'&month='.$mois.'&day='.$jour.'">Defaut</a>' : 'NC' ?> /
+                <?php endif ?>
+                <?php if ($birthday['Tel_default'] == 3): ?>
+                    <span class="badge badge-danger">Default</span>
+                    <?= $birthday['Tel3'] ?> 
+                <?php else:  ?>
+                     <?= $birthday['Tel3']? $birthday['Tel3'] . ' <a class="btn btn-secondary btn-sm py-0 px-2" href="/birthday/telByDefaultCreate?idBirthday='.$idBirthday.'&id='.$birthday['id_resident'].'&tel=3&year='.$annee.'&month='.$mois.'&day='.$jour.'">Defaut</a>' : 'NC' ?>  
+                <?php endif ?>
+        </p>
+        <p class="mb-0">
             <strong>Date Anniversaire:</strong>
             <?= sprintf('%02d-%02d-%d',
                 $dateBirthday->format('d'),

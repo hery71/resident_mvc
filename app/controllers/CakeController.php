@@ -67,9 +67,11 @@ class CakeController
         header("Location: /auth/login");
         exit;
     }
+    $OrganisationModel = new OrganisationModel();
+    $company = $OrganisationModel->getOrganisation();
 
-    $model = new CakeModel();
-    $row = $model->findForPdf((int)$idCake);
+    $cakeModel = new CakeModel();
+    $row = $cakeModel->findByIdCake((int)$idCake);
 
     if (!$row) {
         http_response_code(404);
@@ -81,6 +83,10 @@ class CakeController
     require __DIR__ . '/../views/cake/cakeOrderPdf.php';
     exit;
 }
-
-
+    public function edit($id)
+    {
+        $cakeModel = new CakeModel();
+        $cake = $cakeModel->findByIdCake($id);
+         require __DIR__ . '/../views/cake/edit.php';
+    }
 }

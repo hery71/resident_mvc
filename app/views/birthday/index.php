@@ -53,7 +53,7 @@
                 <td><?= e($a['date_naissance']) ?></td>
                 <td class="text-left">
                     <?php if ($a['fete_id']): ?>
-                        <a href="/birthday/edit?idBirthday=<?= $a['fete_id'] ."&mois=" .$mois ."&annee=" .$annee ?>"
+                        <a href="/birthday/edit?idBirthday=<?= $a['fete_id'] ."&jour=" .$a['jour'] ."&mois=" .$mois ."&annee=" .$annee ?>"
                             class="btn btn-sm btn-info">
                             Voir/ Editer</a>
                          <a href="/birthday/printRequisition/<?= (int)$a['fete_id'] ?>" 
@@ -72,6 +72,8 @@
                     <!-- si anniversaire enabled == 1 donc il y a un anniversaire enregistré -->
                     <?php if ($a['enabled'] == 1): ?>
                         <?php if ($a['cake_id']): ?>
+                            <a href="/cake/edit/<?= $a['cake_id'] ?>"
+                            class="btn btn-sm btn-info">Modifier commande cake</a>
                             <a href="/cake/cakeOrderPdf/<?= $a['cake_id'] ?>"
                              target="_blank"
                             class="btn btn-sm btn-info">Cake order</a>

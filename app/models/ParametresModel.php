@@ -9,11 +9,6 @@ class ParametresModel
     {
         $this->pdo = $GLOBALS['pdo'];
     }
-    public function getCompanyInfo()
-    {
-        $stmt = $this->pdo->query("SELECT * FROM organisation where id=1");
-        return $stmt->fetch(PDO::FETCH_ASSOC);
-    }
     public function exportMenus(array $postData, string $saison, string $annee): void
     {
         $pdo = $this->pdo;

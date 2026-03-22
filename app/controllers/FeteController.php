@@ -170,7 +170,7 @@ class FeteController
         $token = Auth::generateToken();
         //2 models**************************
         $model = new FeteModel();
-        $fete = $
+        $fete = $model->detailsFete($data['id_fete']);
        $model->updateFete($data);
         header("Location: /fete/index?mois=$mois&annee=$annee");
     }

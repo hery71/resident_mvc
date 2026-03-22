@@ -98,6 +98,7 @@ class BirthdayController
         $idBirthday = (int)($_GET['idBirthday'] ?? 0);
         $mois = (int)($_GET['mois'] ?? date('m'));
         $annee = (int)($_GET['annee'] ?? date('Y'));
+        $jour = (int)($_GET['jour'] ?? date('d'));
 
         if (!$idBirthday) {
             http_response_code(400);
@@ -242,6 +243,8 @@ class BirthdayController
         $pdf->TableRow('Pax:', $row['pax'] ?? '', 50, 140);
         $pdf->TableRow('Observation:', $row['observation'] ?? '', 50, 140);
         $pdf->TableRow('Commentaires:', $row['commentaires'] ?? '', 50, 140);
+        $pdf->TableRow('Motif de l evenement:', $row['motif'] ?? '', 50, 140);
+
         $pdf->Ln(6);
 
         // ==============================
@@ -307,6 +310,45 @@ class BirthdayController
         }
 
         $pdf->Output('I', 'Requisition_Birthday_' . $row['id'] . '.pdf');
+    }
+    public function telByDefault()
+    {
+       //recuperer les GET
+        $id_resident = (int)($_GET['id'] ?? 0);
+        $tel = (int)($_GET['tel'] ?? 0);
+        $year = (int)($_GET['year'] ?? date('Y'));
+        $month = (int)($_GET['month'] ?? date('m'));
+        $day = (int)($_GET['day'] ?? date('d'));
+
+        if (!$id_resident || !$tel) {
+            die("Paramètres invalides");
+        }
+        $model = new residentModel();
+        $model->makeTelDefault($id_resident, $tel);
+
+        header("Location: /birthday/create?id_resident=$id_resident&annee=$year&mois=$month&jour=$day");
+        exit;
+
+    }
+    public function telByDefaultCreate()
+    {
+       //recuperer les GET
+        $id_resident = (int)($_GET['id'] ?? 0);
+        $tel = (int)($_GET['tel'] ?? 0);
+        $year = (int)($_GET['year'] ?? date('Y'));
+        $month = (int)($_GET['month'] ?? date('m'));
+        $day = (int)($_GET['day'] ?? date('d'));
+        $idBirthday = (int)($_GET['idBirthday'] ?? 0);
+
+        if (!$id_resident || !$tel || !$idBirthday) {
+            die("Paramètres invalides");
+        }
+        $model = new ResidentModel();
+        $model->makeTelDefault($id_resident, $tel);
+
+        header("Location: /birthday/edit?idBirthday=$idBirthday&annee=$year&mois=$month");
+        exit;
+
     }
 
 }

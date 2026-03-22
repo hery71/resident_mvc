@@ -40,7 +40,7 @@
 
         <div class="form-row">
             <div class="form-group col-md-4">
-                <label>Téléphone 1</label>
+                <label>Téléphone 1(Par Defaut)</label>
                 <input type="text" name="Tel1" class="form-control">
             </div>
             <div class="form-group col-md-4">

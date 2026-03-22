@@ -77,6 +77,7 @@ class ResidentModel
     public function update($id, $data)
     {
         $sql = "UPDATE resident_tbl SET
+                    Gender = :gender,
                     Prenom = :prenom,
                     Nom = :nom,
                     Anniversaire = :anniversaire,
@@ -90,6 +91,7 @@ class ResidentModel
 
         $stmt = $this->pdo->prepare($sql);
         $stmt->execute([
+            'gender' => $data['Gender'],
             'prenom' => $data['Prenom'],
             'nom' => $data['Nom'],
             'anniversaire' => $data['Anniversaire'],
@@ -246,5 +248,14 @@ class ResidentModel
     {
         $stmt = $this->pdo->query("SELECT * FROM resident_tbl WHERE enabled=1 ORDER BY id DESC LIMIT 5 ");
         return $stmt->fetchAll();
+    }
+    public function makeTelDefault($id_resident, $tel)
+    {
+        $sql = "UPDATE resident_tbl SET Tel_default = :tel WHERE id = :id_resident";
+        $stmt = $this->pdo->prepare($sql);
+        $stmt->execute([
+            'tel' => $tel,
+            'id_resident' => $id_resident
+        ]);
     }
 }

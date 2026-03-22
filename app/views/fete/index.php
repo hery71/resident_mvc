@@ -62,6 +62,9 @@
                         <td><?= e($a['Nom'])? e($a['Nom']):'--NO '; ?> <?= e($a['Prenom'])? e($a['Prenom']):'RESIDENT--' ?></td>
                         <td><?= e($a['date']) ?></td>  
                         <td>
+                            <a href="/birthday/printRequisition/<?= (int)$a['id'] ?>" 
+                            class="btn btn-sm btn-outline-danger" target="_blank">
+                            Requisition</a>
                             <a href="/fete/edit?id_fete=<?=  $a['id'] ?>&param=<?= $annee .$mois ?>" class="btn btn-sm btn-info">
                             Modifier
                             </a>

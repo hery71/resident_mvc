@@ -76,24 +76,26 @@
                   class="btn btn-sm btn-info btn-info-resident"
                   data-toggle="modal"
                   data-target="#infoModal"
+                  data-id="<?= $r['id'] ?>"
                   data-prenom="<?= e($r['Prenom']) ?>"
                   data-nom="<?= e($r['Nom']) ?>"
                   data-anniversaire="<?= e($r['Anniversaire']) ?>"
                   data-tel1="<?= e($r['Tel1'] ?? '') ?>"
                   data-tel2="<?= e($r['Tel2'] ?? '') ?>"
                   data-tel3="<?= e($r['Tel3'] ?? '') ?>"
+                  data-tel-default ="<?= e($r['Tel_default'] ?? '') ?>"
                   data-famille="<?= e($r['Famille'] ?? '') ?>"
                   data-relation="<?= e($r['Relation'] ?? '') ?>">
-                  ℹ️ Modal Info
+                  ℹ️ 
                 </button>
                  <a href="/resident/informations/<?= $r['id'] ?>"
                    class="btn btn-sm btn-info ml-1">
-                  ✏️ Informations
+                Informations
                 </a>
                 
                 <a href="/resident/edit/<?= $r['id'] ?>"
                    class="btn btn-sm btn-info ml-1">
-                  ✏️ Modifier
+                  Modifier
                 </a>
 
                 <a href="/resident/preferenceAlimentaire?id=<?= $r['id'] ?>"
@@ -166,6 +168,12 @@
       </div>
 
       <div class="modal-footer">
+        <button type="button" id="btn-edit-resident" onclick="window.location.href='/resident/edit/0'" class="btn btn-primary" data-dismiss="modal">
+          Editer les informations
+        </button>
+        <button  type="button" id="btn-info-resident" onclick="window.location.href='/resident/informations/0'" class="btn btn-primary" data-dismiss="modal">
+          Informations
+        </button>
         <button class="btn btn-secondary" data-dismiss="modal">
           Fermer
         </button>
@@ -187,17 +195,13 @@
           <h5 class="modal-title">Confirmer le départ</h5>
           <button type="button" class="close" data-dismiss="modal">&times;</button>
         </div>
-
         <div class="modal-body">
-
           <input type="hidden" name="id" id="depart-id">
-
           <p>
             Confirmer le départ de :
             <strong id="depart-prenom"></strong>
             <strong id="depart-nom"></strong>
           </p>
-
           <div class="form-group">
             <label>Motif du départ</label>
             <select name="CauseDepart" class="form-control" required>
@@ -206,7 +210,6 @@
               <?php endforeach; ?>
             </select>
           </div>
-
           <div class="form-group">
             <label>Date de départ</label>
             <input type="date"
@@ -214,9 +217,7 @@
                    class="form-control"
                    required>
           </div>
-
         </div>
-
         <div class="modal-footer">
           <button class="btn btn-danger">
             Confirmer le départ
@@ -227,9 +228,7 @@
             Annuler
           </button>
         </div>
-
       </form>
-
     </div>
   </div>
 </div><!-- ================= END MODAL DEPART ================= -->
@@ -247,6 +246,22 @@ document.querySelectorAll('.btn-info-resident').forEach(btn => {
     document.getElementById('info-tel3').textContent = this.dataset.tel3;
     document.getElementById('info-famille').textContent = this.dataset.famille;
     document.getElementById('info-relation').textContent = this.dataset.relation;
+    document.getElementById('btn-edit-resident').setAttribute('onclick', "window.location.href='/resident/edit/" + this.dataset.id + "'");
+    document.getElementById('btn-info-resident').setAttribute('onclick', "window.location.href='/resident/informations/" + this.dataset.id + "'");
+    if(this.dataset.telDefault) {
+      const telDefault = parseInt(this.dataset.telDefault, 10);
+                switch (telDefault) {
+                  case 1:
+                    document.getElementById('info-tel1').innerHTML = "<span class='text-danger font-weight-bold'>" + this.dataset.tel1 + " (Par défaut)</span>";
+                    break;
+                  case 2:
+                    document.getElementById('info-tel2').innerHTML = "<span class='text-danger font-weight-bold'>" + this.dataset.tel2 + " (Par défaut)</span>";
+                    break;  
+                  case 3:
+                    document.getElementById('info-tel3').innerHTML = "<span class='text-danger font-weight-bold'>" + this.dataset.tel3 + " (Par défaut)</span>";
+                    break;
+                }
+    }
   });
 });
 </script>

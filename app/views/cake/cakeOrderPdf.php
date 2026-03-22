@@ -92,9 +92,9 @@ $pdf->Ln(6);
 $pdf->Cell(100, $lineHeight, enc('Objet spécial à ajouter:(ex, gradué, premiere communion, dessin etc 3$ ou 5$'), 0, 1, 'L');
 //******************************************************
 $pdf->Cell(15, $lineHeight, enc('Nom :'), 0, 0,'L');
-$pdf->Cell(75, $lineHeight, enc($GLOBALS['organisation_name']), 'B', 0, 'L');
+$pdf->Cell(75, $lineHeight, enc($company['name'] ?? ''), 'B', 0, 'L');
 $pdf->Cell(30, $lineHeight, enc('Telephone :'), 0, 0,'L');
-$pdf->Cell(60, $lineHeight, enc('506-775-2040'), 'B', 1, 'L');
+$pdf->Cell(60, $lineHeight, enc($company['telephone'] ?? ''), 'B', 1, 'L');
 //****************************************************************
 $pdf->Cell(50, $lineHeight, enc('Signature: Hery :'), 0, 0,'L');
 $pdf->Output("I", "CakeOrder.pdf");

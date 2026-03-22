@@ -95,15 +95,25 @@ class CakeModel
 
     return $idCake;
     }
-    public function findForPdf(int $idCake)
+    public function findByIdCake(int $idCake)
     {
         $sql = "
-            SELECT r.Prenom, r.Nom, r.Anniversaire,
-                c.dateAnniversaire, c.dateLivraison, c.message, c.observation, c.couleur
-            FROM cake c
-            INNER JOIN resident_tbl r ON r.id = c.idResident
-            WHERE c.id = :id
-            LIMIT 1
+             SELECT 
+        r.Prenom, 
+        r.Nom, 
+        r.Anniversaire,
+        c.*, 
+        a.*
+        FROM cake c
+        INNER JOIN resident_tbl r 
+            ON r.id = c.idResident
+        INNER JOIN anniversaire_tbl a 
+            ON a.id_resident = r.id 
+            AND a.annee = c.annee
+        WHERE c.id = :id 
+        AND c.enabled = 1 
+        AND a.enabled = 1
+        LIMIT 1
         ";
 
         $stmt = $this->pdo->prepare($sql);

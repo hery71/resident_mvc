@@ -17,9 +17,30 @@
             <tr><th>Prénom</th><td><?= e($resident['Prenom']) ?></td></tr>
             <tr><th>Nom</th><td><?= e($resident['Nom']) ?></td></tr>
             <tr><th>Chambre</th><td><?= e($resident['Chambre']) ?></td></tr>
-            <tr><th>Tel1</th><td><?= e($resident['Tel1']) ?></td></tr>
-            <tr><th>Tel2</th><td><?= e($resident['Tel2'] ?? '') ?></td></tr>
-            <tr><th>Tel3</th><td><?= e($resident['Tel3'] ?? '') ?></td></tr>
+            <tr><th>Tel1</th><td>
+                <?php if ($resident['Tel_default'] == 1): ?>
+                    <span class="badge badge-danger">Default</span>
+                    <?= $resident['Tel1'] ?> 
+                <?php else:  ?>
+                     <?= $resident['Tel1']? $resident['Tel1'] . ' <a class="btn btn-secondary btn-sm py-0 px-2" href="/resident/telByDefault?tel=1&id='.$id.'">Defaut</a>' : 'NC' ?> 
+                <?php endif ?>
+            </td></tr>
+            <tr><th>Tel2</th><td>
+                <?php if ($resident['Tel_default'] == 2): ?>
+                    <span class="badge badge-danger">Default</span>
+                    <?= $resident['Tel2'] ?> 
+                <?php else:  ?>
+                     <?= $resident['Tel2']? $resident['Tel2'] . ' <a class="btn btn-secondary btn-sm py-0 px-2" href="/resident/telByDefault?tel=2&id='.$id.'">Defaut</a>' : 'NC' ?> 
+                <?php endif ?>
+            </td></tr>
+            <tr><th>Tel3</th><td>
+                <?php if ($resident['Tel_default'] == 3): ?>
+                    <span class="badge badge-danger">Default</span>
+                    <?= $resident['Tel3'] ?> 
+                <?php else:  ?>
+                     <?= $resident['Tel3']? $resident['Tel3'] . ' <a class="btn btn-secondary btn-sm py-0 px-2" href="/resident/telByDefault?tel=3&id='.$id.'">Defaut</a>' : 'NC' ?> 
+                <?php endif ?>
+            </td></tr>
             <tr><th>Famille</th><td><?= e($resident['Famille'] ?? '') ?></td></tr>
             <tr><th>Relation Parente</th><td><?= e($resident['Relation'] ?? '') ?></td></tr>
             <tr><th>Date anniversaire</th><td><?= e($resident['Anniversaire'] ?? '') ?></td></tr>

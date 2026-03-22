@@ -29,8 +29,27 @@
             <?= sprintf('%02d-%02d-%d', $jour, $mois, $annee) ?>
         </p>
          <p class="mb-0">
-            <strong>Famille :</strong>
-            <?= $resident['Famille'] ?> - <?= $resident['Tel1']?? 'NC' ?> / <?= $resident['Tel2']?? 'NC' ?> / <?= $resident['Tel3']?? 'NC' ?>
+            <strong>Contact Famille :</strong>
+            <?= $resident['Famille'] ?>(
+                <?= $resident['Relation'] ?>) -
+                <?php if ($resident['Tel_default'] == 1): ?>
+                    <span class="badge badge-danger">Default</span>
+                    <?= $resident['Tel1'] ?> /
+                <?php else:  ?>
+                     <?= $resident['Tel1']? $resident['Tel1'] . ' <a class="btn btn-secondary btn-sm py-0 px-2" href="/birthday/telByDefault?id='.$id_resident.'&tel=1&year='.$annee.'&month='.$mois.'&day='.$jour.'">Defaut</a>' : 'NC' ?> / 
+                <?php endif ?>
+                <?php if ($resident['Tel_default'] == 2): ?>
+                    <span class="badge badge-danger">Default</span>
+                    <?= $resident['Tel2'] ?> /
+                <?php else:  ?>
+                     <?= $resident['Tel2']? $resident['Tel2'] . ' <a class="btn btn-secondary btn-sm py-0 px-2" href="/birthday/telByDefault?id='.$id_resident.'&tel=2&year='.$annee.'&month='.$mois.'&day='.$jour.'">Defaut</a>' : 'NC' ?> /
+                <?php endif ?>
+                <?php if ($resident['Tel_default'] == 3): ?>
+                    <span class="badge badge-danger">Default</span>
+                    <?= $resident['Tel3'] ?> 
+                <?php else:  ?>
+                     <?= $resident['Tel3']? $resident['Tel3'] . ' <a class="btn btn-secondary btn-sm py-0 px-2" href="/birthday/telByDefault?id='.$id_resident.'&tel=3&year='.$annee.'&month='.$mois.'&day='.$jour.'">Defaut</a>' : 'NC' ?>  
+                <?php endif ?>
         </p>
     </div>
 </div>

@@ -19,7 +19,7 @@ class BirthdayRequisitionPDF extends FPDF
         }
 
         $this->SetFont('Arial', 'B', 15);
-        $titre = $this->organisation['nom'] . ' - Requisition Anniversaire';
+        $titre = $this->organisation['nom'] . ' - Requisition Celebration';
         $this->Cell(0, 10, f8($titre), 0, 1, 'C');
         $this->Ln(10);
     }

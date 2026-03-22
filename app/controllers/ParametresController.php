@@ -5,8 +5,8 @@ class ParametresController
     public function index()
     {
 
-        $model = new ParametresModel();
-        $company = $model->getCompanyInfo();
+        $model = new OrganisationModel();
+        $company = $model->getOrganisation();
 
         // Logique pour récupérer les paramètres si nécessaire
 

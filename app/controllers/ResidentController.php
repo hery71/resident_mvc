@@ -340,4 +340,34 @@ class ResidentController extends Controller
 
         require __DIR__ . '/../views/residents/informations.php';
     }
+    public function telByDefault()
+    {
+        $id = (int)($_GET['id'] ?? 0);
+        $tel = (int)($_GET['tel'] ?? 0);
+    
+        if (!$id || !$tel) {
+            die("Données manquantes ou invalides");
+        }
+
+        $model = new ResidentModel();
+        $model->makeTelDefault($id, $tel);
+
+        header("Location: /resident/informations/$id");
+        exit;
+    }
+    public function telByDefaultEdit()
+    {
+        $id = (int)($_GET['id'] ?? 0);
+        $tel = (int)($_GET['tel'] ?? 0);
+    
+        if (!$id || !$tel) {
+            die("Données manquantes ou invalides");
+        }
+
+        $model = new ResidentModel();
+        $model->makeTelDefault($id, $tel);
+
+        header("Location: /resident/edit/$id");
+        exit;
+    }
 }

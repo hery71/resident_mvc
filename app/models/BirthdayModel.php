@@ -83,6 +83,12 @@ class BirthdayModel
                 r.Prenom,
                 r.Gender,
                 r.Anniversaire,
+                r.Famille,
+                r.Relation,
+                r.Tel1,
+                r.Tel2,
+                r.Tel3,
+                r.Tel_default,
                 month(r.Anniversaire) AS mois 
             FROM anniversaire_tbl a
             LEFT JOIN resident_tbl r ON r.id = a.id_resident

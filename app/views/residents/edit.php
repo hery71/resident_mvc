@@ -7,7 +7,7 @@
     <div class="card-body">
 
     <form method="post" action="/resident/update/<?= $resident['id'] ?>">
-
+        
         <div class="form-row">
             <div class="form-group col-md-6">
                 <label>Prénom</label>
@@ -21,6 +21,16 @@
                 <input type="text" name="Nom"
                        class="form-control"
                        value="<?= e($resident['Nom']) ?>">
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label>Gender</label>
+                <select name="Gender" class="form-control">
+                    <?php foreach ($options['Gender'] as $g1): ?>
+                        <option value="<?= e($g1) ?>" <?= $resident['Gender'] === $g1 ? 'selected' : '' ?>><?= e($g1) ?></option>
+                    <?php endforeach; ?>
+                </select>
             </div>
         </div>
 
@@ -48,19 +58,19 @@
         </div>  
         <div class="form-row">
             <div class="form-group col">
-                <label>Tél 1</label>
+                <label>Tél 1<?= $resident['Tel_default'] === 1 ? '<span class="badge badge-danger">Default</span>' : (e($resident['Tel1'])? '<a class="btn  btn-sm btn-secondary py-0 px-1" href="/resident/telByDefaultEdit?id=' . $resident['id'] . '&tel=1">Mettre par Defaut</a>': '' )?></label>
                 <input type="text" name="Tel1"
                        class="form-control"
                        value="<?= e($resident['Tel1']) ?>">
             </div>
             <div class="form-group col">
-                <label>Tél 2</label>
+                <label>Tél 2<?= $resident['Tel_default'] === 2 ? '<span class="badge badge-danger">Default</span>' : (e($resident['Tel2'])? '<a class="btn  btn-sm btn-secondary py-0 px-1" href="/resident/telByDefaultEdit?id=' . $resident['id'] . '&tel=2">Mettre par Defaut</a>': '' )?></label>
                 <input type="text" name="Tel2"
                        class="form-control"
                        value="<?= e($resident['Tel2']) ?>">
             </div>
             <div class="form-group col">
-                <label>Tél 3</label>
+                <label>Tél 3<?= $resident['Tel_default'] === 3 ? '<span class="badge badge-danger">Default</span>' : (e($resident['Tel3'])? '<a class="btn  btn-sm btn-secondary py-0 px-1" href="/resident/telByDefaultEdit?id=' . $resident['id'] . '&tel=3">Mettre par Defaut</a>': '' )?></label>
                 <input type="text" name="Tel3"
                        class="form-control"
                        value="<?= e($resident['Tel3']) ?>">
