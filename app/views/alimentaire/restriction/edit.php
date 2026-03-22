@@ -113,24 +113,11 @@
             <?= htmlspecialchars($error) ?>
         </div>
     <?php endif; ?>
-    <!-- DROPDOWN LISTE TABLE -->
-    <form method="get" class="mb-4">    
-        <label class="fw-bold">Choisir une catégorie :</label>
-        <select name="table" class="form-select w-auto d-inline-block" onchange="this.form.submit()">
-            <?php foreach ($listTables as $key => $label): ?>
-                <option value="<?= $key ?>" <?= ($table == $key) ? 'selected' : '' ?>>
-                    <?= $label ?>
-                </option>
-            <?php endforeach; ?>
-        </select>
-    </form>
-
+     
     <div class="container-grid">
-
         <!-- LISTE DES MEALS -->
         <div class="card card-custom">
-            <div class="card-header bg-dark text-white fw-bold">Meals (<?= $listTables[$table] ?>)</div>
-
+            <div class="card-header bg-dark text-white fw-bold">Meals</div>
             <ul class="list-group list-group-flush scroll-list">
                 <?php foreach ($meals as $m): ?>
                     <li class="list-group-item d-flex justify-content-between">

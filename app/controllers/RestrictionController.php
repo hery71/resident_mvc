@@ -6,12 +6,11 @@ class RestrictionController
 
 public function index()
     {
-        global $pdo;
         /***************************************************
          * TABLES DISPONIBLES
          ***************************************************/
         $xtable="meal_tbl";
-            $model = new RestrictionModel($pdo);
+            $model = new RestrictionModel();
             $restrictions= $model->getRestrictions($xtable);
             $data[$xtable] = [
                 'label' => "Meal",
@@ -24,7 +23,6 @@ public function index()
     }
 public function edit()
     {
-        global $pdo;
         $page_css = 'edit_restriction.css';
         $mealId = $_GET['id'] ?? 0;
         $selectedMeal = null;
@@ -39,7 +37,7 @@ public function edit()
             $intolerances = $_POST['intolerance'] ?? '';
             //$allergeneStr = implode(',', $allergenes ??[]);
             //$intoleranceStr = implode(',', $intolerances ??[]);
-            $model = new RestrictionModel($pdo);
+            $model = new RestrictionModel();
             $success = $model->saveRestrictions($table, $mealId, $allergenes, $intolerances);
             if ($success) {
                 header("Location: /restriction/edit?table=$table&id=$mealId&success=1");
@@ -58,11 +56,11 @@ public function edit()
         $intoleranceCategories = array_keys(
             $json['Intolerances_Alimentaires_Canada'] ?? []
         );
-        $model = new AllergieModel($pdo);
+        $model = new AllergieModel();
         $allergenList = $model->all();
-        $model2 = new IntoleranceModel($pdo);
+        $model2 = new IntoleranceModel();
         $intoleranceList = $model2->all();
-        $model = new RestrictionModel($pdo);
+        $model = new RestrictionModel();
         if ($mealId) {
             $selectedMeal = $model->getRestrictionByMealId($table, (int)$mealId);
             if ($selectedMeal) {

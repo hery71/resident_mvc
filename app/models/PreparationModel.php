@@ -339,25 +339,33 @@ class PreparationModel
     public function removeIngredientFromMeal(string $plat, string $ingredient): bool
     {
         $table = 'meal_tbl';
+
         $stmt = $this->pdo->prepare("
             SELECT id, ingredients
-            FROM $table
+            FROM `$table`
             WHERE LOWER(TRIM(meal)) = LOWER(TRIM(?))
             LIMIT 1
         ");
         $stmt->execute([$plat]);
         $row = $stmt->fetch(PDO::FETCH_ASSOC);
-        if (!$row) continue;
+
+        if (!$row) {
+            return false;
+        }
+
         $items = array_map('trim', explode(',', $row['ingredients']));
         $items = array_filter($items, fn($i) => strtolower($i) !== strtolower($ingredient));
         $new = implode(', ', $items);
+
         $up = $this->pdo->prepare("
-            UPDATE $table
+            UPDATE `$table`
             SET ingredients = ?
             WHERE id = ?
         ");
-        return $up->execute([$new, $row['id']]):
-}
+
+        return $up->execute([$new, $row['id']]);
+    }
+
    public function addIngredientDictionary(string $ingredient): array
     {
         $ingredient = $this->cleanIngredient($ingredient);

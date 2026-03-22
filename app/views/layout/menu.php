@@ -106,6 +106,9 @@
                         <hr class="dropdown-divider">
                         <a class="dropdown-item" href="/restriction/index">Liste des restrictions Alimentaires</a>
                         <a class="dropdown-item" href="/restriction/edit">Éditer Restrictions Alimentaires</a>
+                        <hr class="dropdown-divider">
+                        <a class="dropdown-item" href="/recette/indexca">Liste des recettes Canada</a>
+                        <a class="dropdown-item" href="/recette/indexfr">Liste des recettes France</a>
                     </div>
                 </li>
                  <li class="nav-item dropdown">

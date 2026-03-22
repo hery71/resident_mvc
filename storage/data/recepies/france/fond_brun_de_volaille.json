@@ -1,0 +1,53 @@
+{
+  "titre": "Le fond brun de volaille",
+  "type": "Fonds",
+  "pax": "1 litre",
+  "base": [
+    {"nom": "abattis de volaille (sauf le foie)", "unite": "kg", "quantite": "1.000"},
+    {"nom": "carcasses de volaille", "unite": "kg", "quantite": "PM"},
+    {"nom": "volaille âgée (facultatif)", "unite": "kg", "quantite": "PM"}
+  ],
+  "garniture_aromatique": [
+    {"nom": "carottes", "unite": "kg", "quantite": "0.100"},
+    {"nom": "oignons", "unite": "kg", "quantite": "0.100"},
+    {"nom": "tomates", "unite": "kg", "quantite": "0.200"},
+    {"nom": "concentré de tomates", "unite": "kg", "quantite": "0.020"},
+    {"nom": "ail", "unite": "kg", "quantite": "0.010"},
+    {"nom": "bouquet garni", "unite": "pièce", "quantite": "PM"}
+  ],
+  "mouillement": [
+    {"nom": "eau ou fond de volaille", "unite": "litre", "quantite": "1.5"}
+  ],
+  "assaisonnement": [
+    {"nom": "gros sel (facultatif)", "unite": "PM", "quantite": "PM"}
+  ],
+  "technique_de_realisation": [
+    "1. Mise en place",
+    "Réunir les denrées.",
+    "Réunir le matériel de préparation et de cuisson.",
+    "Contrôler la fraîcheur et la qualité des produits.",
+    "2. Concasser les carcasses et les abattis",
+    "Concasser les carcasses et les abattis en menus morceaux.",
+    "3. Coloration au four",
+    "Colorer les carcasses dans une plaque à rôtir adaptée.",
+    "Ne pas ajouter de matière grasse.",
+    "Retourner fréquemment durant la coloration.",
+    "4. Préparer la garniture aromatique",
+    "Éplucher et laver les légumes.",
+    "Tailler carottes et oignons en mirepoix.",
+    "Écraser les gousses d'ail.",
+    "Concasser les tomates.",
+    "Confectionner le bouquet garni.",
+    "5. Cuisson du fond",
+    "Ajouter les carottes et les oignons lorsque la coloration est presque terminée.",
+    "Laisser suer une dizaine de minutes.",
+    "Débarrasser dans une marmite ou un rondeau haut.",
+    "Mouiller avec l'eau froide ou le fond de volaille.",
+    "Porter à ébullition puis maintenir à frémissement.",
+    "Écumer, dégraisser et dépouiller régulièrement.",
+    "Compenser l'évaporation si nécessaire avec de l'eau bouillante.",
+    "Passer au chinois sans fouler.",
+    "Refroidir rapidement.",
+    "Réserver couvert en enceinte réfrigérée à +3°C maximum."
+  ]
+}

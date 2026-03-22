@@ -2,10 +2,15 @@
 
 class RestrictionModel
 {
-    private PDO $pdo;
+    private $pdo;
 
-    public function __construct(PDO $pdo)
+    public function __construct()
     {
+       global $pdo;
+        if (!$pdo) {
+            die("❌ PDO non initialisé (db.php non chargé)");
+        }
+
         $this->pdo = $pdo;
     }
     public function getRestrictions(string $table): array

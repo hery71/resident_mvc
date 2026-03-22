@@ -1,8 +1,5 @@
 <?php
-/*
-var_dump(file_exists(dirname(__DIR__, 2) . '/db.php'));
-exit;
-*/
+
 require_once __DIR__ . '/../../app/config/db.php';
 
 class ResidentModel

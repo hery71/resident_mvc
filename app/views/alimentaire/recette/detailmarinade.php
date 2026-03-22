@@ -1,0 +1,40 @@
+<?php $title = 'Détails de la marinade'; 
+    $custom_js = <<<'JS'
+    JS;
+    $custom_style = <<<'CSS'
+    CSS;
+?>
+<?php require __DIR__ . '/../../layout/header.php'; ?>
+<div class="container mt-4">
+    <div class="card-modern">
+        <div class="card-header-pastel"><?= htmlspecialchars($title) ?></div>
+        <div class="card-body">
+            <p class="font-weight-bold text-center text-decoration-underline"><?= htmlspecialchars($r['titre']) ?></p>
+
+            <?php if (!empty($r['base'])): ?>
+            <p><strong>Base :</strong> <?= htmlspecialchars($r['base']) ?></p>
+            <?php endif; ?>
+
+            <?php if (!empty($r['type_de_viande'])): ?>
+            <p><strong>Type de viande :</strong> <?= htmlspecialchars($r['type_de_viande']) ?></p>
+            <?php endif; ?>
+
+            <h5>Ingrédients</h5>
+            <ul>
+                <?php foreach ($r['ingredients'] as $ing): ?>
+                <li><?= htmlspecialchars($ing) ?></li>
+                <?php endforeach; ?>
+            </ul>
+
+            <h5>Technique de réalisation</h5>
+            <ol>
+                <?php foreach ($r['technique'] as $etape): ?>
+                <li><?= htmlspecialchars($etape) ?></li>
+                <?php endforeach; ?>
+            </ol>
+
+            <a href="/recette/indexfr" class="btn btn-secondary mt-3">← Retour</a>
+        </div>
+    </div>
+</div>
+<?php require __DIR__ . '/../../layout/footer.php'; ?>
