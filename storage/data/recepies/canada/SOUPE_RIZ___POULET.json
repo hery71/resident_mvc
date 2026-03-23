@@ -1,0 +1,68 @@
+{
+  "titre": "Soupe Riz & Poulet",
+  "pax": 50,
+  "ingredients": [
+    {
+      "nom": "Margarine",
+      "unite": "oz.",
+      "quantite": 4
+    },
+    {
+      "nom": "Carottes en cubes",
+      "unite": "tasses",
+      "quantite": 4
+    },
+    {
+      "nom": "Céleri en cubes",
+      "unite": "tasses",
+      "quantite": 4
+    },
+    {
+      "nom": "Oignons en cubes",
+      "unite": "tasses",
+      "quantite": 4
+    },
+    {
+      "nom": "Eau ou bouillon de poulet",
+      "unite": "gallons",
+      "quantite": 2.5
+    },
+    {
+      "nom": "Base de poulet",
+      "unite": "oz.",
+      "quantite": 8
+    },
+    {
+      "nom": "Sel",
+      "unite": "tbsp.",
+      "quantite": 2
+    },
+    {
+      "nom": "Poivre",
+      "unite": "tsp.",
+      "quantite": 0.5
+    },
+    {
+      "nom": "Sarriette",
+      "unite": "tsp.",
+      "quantite": 1
+    },
+    {
+      "nom": "Riz",
+      "unite": "tasses",
+      "quantite": 3
+    },
+    {
+      "nom": "Viande de poulet haché",
+      "unite": "tasses",
+      "quantite": 2
+    }
+  ],
+  "technique_de_realisation": [
+    "Faire sauter les carottes, céleri et oignons dans la margarine.",
+    "Ajouter l'eau ou bouillon de poulet, la base de poulet, sel, poivre et sarriette.",
+    "Mijoter 10 minutes.",
+    "Ajouter le riz et la viande de poulet.",
+    "Mijoter 40 minutes."
+  ]
+}

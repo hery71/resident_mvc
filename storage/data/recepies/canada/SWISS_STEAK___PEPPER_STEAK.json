@@ -1,0 +1,25 @@
+{
+  "titre": "Swiss Steak / Pepper Steak",
+  "pax": 40,
+  "ingredients": [
+    {"nom": "Spencer steak", "unite": "lbs", "quantite": 10},
+    {"nom": "Oil", "unite": "PM", "quantite": 1},
+    {"nom": "Diced onion", "unite": "cups", "quantite": 2},
+    {"nom": "Diced celery", "unite": "cups", "quantite": 2},
+    {"nom": "Corn oil", "unite": "cup", "quantite": 0.25},
+    {"nom": "Margarine", "unite": "oz.", "quantite": 8},
+    {"nom": "Flour", "unite": "oz.", "quantite": 8},
+    {"nom": "Tomato", "unite": "can (28 oz)", "quantite": 1.5},
+    {"nom": "Beef stock", "unite": "gal.", "quantite": 0.67},
+    {"nom": "Salt", "unite": "PM", "quantite": 1},
+    {"nom": "Pepper", "unite": "PM", "quantite": 1}
+  ],
+  "technique_de_realisation": [
+    "Slice steak and grill lightly in oil. Divide in two pans.",
+    "Sauté onions and celery in corn oil and add to steak.",
+    "Make a roux with margarine and flour.",
+    "Add tomatoes and beef stock to roux, stir until thickened and smooth.",
+    "Pour over steak, cover and put in oven at 350 F for 2 hours.",
+    "Variation - Pepper Steak: Omit tomatoes and add 2 cups green pepper instead."
+  ]
+}

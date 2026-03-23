@@ -1,0 +1,22 @@
+{
+  "titre": "Poitrine Poulet Parmesan",
+  "pax": 60,
+  "ingredients": [
+    {"nom": "Chapelure de pain", "unite": "tasses", "quantite": 4},
+    {"nom": "Fromage Parmesan", "unite": "tasses", "quantite": 2.5},
+    {"nom": "Sel", "unite": "c. à table", "quantite": 2},
+    {"nom": "Poivre", "unite": "c. à thé", "quantite": 2},
+    {"nom": "Paprika", "unite": "c. à thé", "quantite": 2},
+    {"nom": "Thyme", "unite": "c. à thé", "quantite": 2},
+    {"nom": "Huile", "unite": "tasses", "quantite": 3},
+    {"nom": "Poulet (poitrines)", "unite": "PM", "quantite": 60},
+    {"nom": "Ketchup", "unite": "oz.", "quantite": 0.75}
+  ],
+  "technique_de_realisation": [
+    "Mélanger la chapelure, parmesan, sel, poivre, paprika et thyme.",
+    "Passer le poulet dans le mélange.",
+    "Placer dans un plat et brosser avec l'huile.",
+    "Cuire à 350 F pour 45 minutes.",
+    "Servir avec 3/4 oz de ketchup."
+  ]
+}

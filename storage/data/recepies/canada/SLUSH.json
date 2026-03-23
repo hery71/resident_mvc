@@ -1,0 +1,42 @@
+{
+  "titre": "Slush",
+  "pax": 1,
+  "ingredients": [
+    {
+      "nom": "Eau",
+      "unite": "tasses",
+      "quantite": 8
+    },
+    {
+      "nom": "Sucre",
+      "unite": "tasses",
+      "quantite": 4
+    },
+    {
+      "nom": "Pineapple juice (no sugar)",
+      "unite": "oz.",
+      "quantite": 48
+    },
+    {
+      "nom": "Orange juice (no sugar)",
+      "unite": "oz.",
+      "quantite": 48
+    },
+    {
+      "nom": "Lemon juice",
+      "unite": "ml",
+      "quantite": 500
+    },
+    {
+      "nom": "Gin",
+      "unite": "oz.",
+      "quantite": 26
+    }
+  ],
+  "technique_de_realisation": [
+    "Faire bouillir l'eau et le sucre, mijoter 20 minutes et refroidir.",
+    "Mélanger avec le jus d'ananas, jus d'orange, jus de citron et gin.",
+    "Mettre au congélateur.",
+    "Servir avec Sprite ou 7 Up."
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "titre": "Filet de Poisson (Golden Fish Pie)",
+  "pax": 50,
+  "ingredients": [
+    {
+      "nom": "Filet de poisson",
+      "unite": "lbs",
+      "quantite": 10
+    },
+    {
+      "nom": "Oignons",
+      "unite": "tasses",
+      "quantite": 6
+    },
+    {
+      "nom": "Margarine",
+      "unite": "tasse",
+      "quantite": 1
+    },
+    {
+      "nom": "Mix végétable",
+      "unite": "sac (2 kg)",
+      "quantite": 1
+    },
+    {
+      "nom": "Soupe crème de céleri",
+      "unite": "boite (48 oz)",
+      "quantite": 1
+    },
+    {
+      "nom": "Soupe crème de champignon",
+      "unite": "boite (48 oz)",
+      "quantite": 1
+    },
+    {
+      "nom": "Lait",
+      "unite": "tasses",
+      "quantite": 4
+    },
+    {
+      "nom": "Sel",
+      "unite": "tsp.",
+      "quantite": 1
+    },
+    {
+      "nom": "Thyme",
+      "unite": "tsp.",
+      "quantite": 1.5
+    }
+  ],
+  "technique_de_realisation": [
+    "Décongeler partiellement le poisson 30 minutes à température ambiante et détailler en cubes.",
+    "Blondir les oignons dans la margarine. Mettre de côté.",
+    "Cuire les légumes. Mettre de côté.",
+    "Mélanger tous les ingrédients ensemble.",
+    "Verser dans une casserole de table chaude graissée.",
+    "Cuire à 400 F pendant 25 à 30 minutes."
+  ]
+}

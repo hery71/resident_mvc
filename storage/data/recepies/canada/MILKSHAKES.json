@@ -1,0 +1,29 @@
+{
+  "titre": "Milkshakes",
+  "pax": 5,
+  "ingredients": [
+    {
+      "nom": "Crème glacée",
+      "unite": "100 ml",
+      "quantite": 4
+    },
+    {
+      "nom": "Lait 2%",
+      "unite": "tasses",
+      "quantite": 2
+    },
+    {
+      "nom": "Vanille",
+      "unite": "c. à thé",
+      "quantite": 2
+    },
+    {
+      "nom": "Meritene",
+      "unite": "c. à thé",
+      "quantite": 4
+    }
+  ],
+  "technique_de_realisation": [
+    "Mélanger au blender pendant 3 à 4 minutes."
+  ]
+}

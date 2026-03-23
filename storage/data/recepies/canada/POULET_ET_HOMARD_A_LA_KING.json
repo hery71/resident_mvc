@@ -1,0 +1,28 @@
+{
+  "titre": "Poulet & Homard à la King",
+  "pax": 72,
+  "ingredients": [
+    {"nom": "Beurre ou margarine", "unite": "tasse", "quantite": 1.33},
+    {"nom": "Oignons hachés", "unite": "tasses", "quantite": 2},
+    {"nom": "Céleri haché", "unite": "tasses", "quantite": 2},
+    {"nom": "Piments verts hachés", "unite": "tasses", "quantite": 2},
+    {"nom": "Farine", "unite": "tasse", "quantite": 1},
+    {"nom": "Sel", "unite": "c. à table", "quantite": 1},
+    {"nom": "Soupe crème de champignons", "unite": "cans (10 oz)", "quantite": 4},
+    {"nom": "Lait", "unite": "tasses", "quantite": 12},
+    {"nom": "Champignons en morceaux", "unite": "cans (10 oz)", "quantite": 4},
+    {"nom": "Poulet cuit en cubes", "unite": "tasses", "quantite": 12},
+    {"nom": "Homard", "unite": "oz.", "quantite": 24},
+    {"nom": "Crevettes", "unite": "boites", "quantite": 3},
+    {"nom": "Salade aux crabes", "unite": "pqt.", "quantite": 1}
+  ],
+  "technique_de_realisation": [
+    "Fondre le beurre dans une casserole.",
+    "Sauter les oignons, céleri et piments verts jusqu'à tendreté.",
+    "Ajouter la farine et le sel.",
+    "Combiner le lait et la soupe de champignons et graduellement ajouter au mélange de farine.",
+    "Cuire à feu moyen en brassant jusqu'à ce que le mélange épaississe.",
+    "Ajouter le poulet, le homard, les crevettes, la salade aux crabes et les champignons.",
+    "Peut être servi avec du riz, des nouilles ou des puff pastry shells."
+  ]
+}

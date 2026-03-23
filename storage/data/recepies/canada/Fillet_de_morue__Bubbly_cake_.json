@@ -1,0 +1,37 @@
+{
+  "titre": "Fillet de Morue (Bubbly Cake)",
+  "pax": 50,
+  "ingredients": [
+    {
+      "nom": "Filet de morue",
+      "unite": "lbs",
+      "quantite": 15
+    },
+    {
+      "nom": "Soupe crème de champignon",
+      "unite": "48 oz.",
+      "quantite": 2
+    },
+    {
+      "nom": "Oignon haché",
+      "unite": "tasses",
+      "quantite": 6
+    },
+    {
+      "nom": "Jus de citron",
+      "unite": "tsp.",
+      "quantite": 12
+    },
+    {
+      "nom": "Fromage cheddar",
+      "unite": "PM",
+      "quantite": 1
+    }
+  ],
+  "technique_de_realisation": [
+    "Mettre le filet dans les plats.",
+    "Ajouter les oignons et le jus de citron.",
+    "Couvrir avec la soupe crème de champignons.",
+    "Cuire au four à 350 F pendant 30 minutes."
+  ]
+}

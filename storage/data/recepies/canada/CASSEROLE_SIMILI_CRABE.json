@@ -1,0 +1,81 @@
+{
+  "titre": "Casserole Simili Crabe",
+  "pax": 50,
+  "ingredients": [
+    {
+      "nom": "Nouilles (petites coquilles)",
+      "unite": "tasses",
+      "quantite": 4
+    },
+    {
+      "nom": "Beurre ou margarine",
+      "unite": "tasse",
+      "quantite": 1
+    },
+    {
+      "nom": "Farine",
+      "unite": "tasses",
+      "quantite": 1.25
+    },
+    {
+      "nom": "Lait 2%",
+      "unite": "litres",
+      "quantite": 3.5
+    },
+    {
+      "nom": "Moutarde sèche",
+      "unite": "c. à thé",
+      "quantite": 1
+    },
+    {
+      "nom": "Sel",
+      "unite": "c. à thé",
+      "quantite": 1.5
+    },
+    {
+      "nom": "Poudre d'ail",
+      "unite": "c. à thé",
+      "quantite": 0.25
+    },
+    {
+      "nom": "Poudre d'oignons",
+      "unite": "c. à thé",
+      "quantite": 1
+    },
+    {
+      "nom": "Bouillon de poulet en poudre",
+      "unite": "tasse",
+      "quantite": 0.33
+    },
+    {
+      "nom": "Eau",
+      "unite": "tasses",
+      "quantite": 2
+    },
+    {
+      "nom": "Fromage cheddar râpé",
+      "unite": "tasses",
+      "quantite": 2
+    },
+    {
+      "nom": "Simili crabe",
+      "unite": "lbs",
+      "quantite": 5
+    },
+    {
+      "nom": "Piment vert haché",
+      "unite": "petit",
+      "quantite": 1
+    }
+  ],
+  "technique_de_realisation": [
+    "Faire cuire les nouilles et égoutter.",
+    "Faire un roux avec le beurre et la farine, puis ajouter les épices et le lait chauffé. Cuire jusqu'à ce que la sauce devienne épaisse.",
+    "Dissoudre le bouillon de poulet dans l'eau et l'ajouter à la sauce.",
+    "Ajouter le fromage râpé et brasser jusqu'à ce que le fromage soit fondu.",
+    "Ajouter les nouilles et le simili crabe à la sauce.",
+    "Faire sauter le piment vert et l'ajouter à la casserole.",
+    "Placer la casserole dans les plats et saupoudrer le dessus avec du fromage râpé.",
+    "Cuire au four à 375 F jusqu'à ce que le dessus soit doré (golden brown)."
+  ]
+}

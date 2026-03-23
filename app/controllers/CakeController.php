@@ -4,15 +4,14 @@ class CakeController
     public function create($idResident, $annee,$idAniversaire)
     {
         $model = new CakeModel();
-
         // Vérifier si une commande existe déjà
         $cake = $model->findByResidentAndYear($idResident, $annee);
         // Infos résident
         $residentModel = new ResidentModel();
         $resident = $residentModel->findById($idResident);
-
+        $model = new BirthdayModel();
+        $fete = $model->getById($idAniversaire);
         $token = Auth::generateToken();
-
         require __DIR__ . '/../views/cake/create.php';
     }
      public function cake_list_order()

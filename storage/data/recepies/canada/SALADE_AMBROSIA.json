@@ -1,0 +1,46 @@
+{
+  "titre": "Salade Ambrosia",
+  "pax": 60,
+  "ingredients": [
+    {
+      "nom": "Mandarin orange sections",
+      "unite": "qts.",
+      "quantite": 2.25
+    },
+    {
+      "nom": "Crushed pineapple",
+      "unite": "qts.",
+      "quantite": 2.25
+    },
+    {
+      "nom": "Orange flavored gelatin",
+      "unite": "lbs.",
+      "quantite": 2.25
+    },
+    {
+      "nom": "Boiling water",
+      "unite": "qts.",
+      "quantite": 3
+    },
+    {
+      "nom": "Syrup from canned fruits",
+      "unite": "qts.",
+      "quantite": 2.25
+    },
+    {
+      "nom": "Flaked coconut",
+      "unite": "cups",
+      "quantite": 3
+    }
+  ],
+  "technique_de_realisation": [
+    "Drain fruits, reserving syrup.",
+    "In mixing bowl, dissolve gelatin in boiling water.",
+    "Stir in syrup from fruits and refrigerate until slightly thickened.",
+    "Fold in drained fruits and coconut.",
+    "Pour into steam table pans.",
+    "Refrigerate until set.",
+    "Cut each pan 4x6.",
+    "Serve on lettuce-lined plates as salad or in dessert dishes with whipped topping or custard sauce."
+  ]
+}

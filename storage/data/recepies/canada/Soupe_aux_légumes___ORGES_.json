@@ -1,0 +1,53 @@
+{
+  "titre": "Soupe aux Légumes (Orges)",
+  "pax": 50,
+  "ingredients": [
+    {
+      "nom": "Céleri",
+      "unite": "tasses",
+      "quantite": 4
+    },
+    {
+      "nom": "Oignons",
+      "unite": "tasses",
+      "quantite": 2
+    },
+    {
+      "nom": "Navet",
+      "unite": "tasses",
+      "quantite": 6
+    },
+    {
+      "nom": "Carottes",
+      "unite": "tasses",
+      "quantite": 6
+    },
+    {
+      "nom": "Choux",
+      "unite": "tasses",
+      "quantite": 6
+    },
+    {
+      "nom": "Eau",
+      "unite": "gallons",
+      "quantite": 3
+    },
+    {
+      "nom": "Base de poulet ou boeuf",
+      "unite": "tasse",
+      "quantite": 0.67
+    },
+    {
+      "nom": "Orge, mélange à soupe ou alphabet",
+      "unite": "tasses",
+      "quantite": 2
+    }
+  ],
+  "technique_de_realisation": [
+    "Faire sauter les légumes.",
+    "Ajouter l'eau et la base de poulet ou boeuf.",
+    "Note: Orge ou mélange à soupe: mettre à tremper la veille ou tôt le matin.",
+    "Ajouter l'orge ou le mélange à soupe. Mijoter en tout temps.",
+    "Note: Si alphabet, cuire 20 minutes seulement."
+  ]
+}

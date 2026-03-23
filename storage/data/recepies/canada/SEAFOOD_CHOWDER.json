@@ -1,0 +1,78 @@
+{
+  "titre": "Seafood Chowder",
+  "pax": 50,
+  "ingredients": [
+    {
+      "nom": "Baby clams",
+      "unite": "cans (10 oz.)",
+      "quantite": 8
+    },
+    {
+      "nom": "Water (clam juice + water to complete)",
+      "unite": "cups",
+      "quantite": 16
+    },
+    {
+      "nom": "Diced potatoes",
+      "unite": "PM",
+      "quantite": 1
+    },
+    {
+      "nom": "Lobster",
+      "unite": "cans (11 oz.)",
+      "quantite": 3
+    },
+    {
+      "nom": "Crab meat",
+      "unite": "lbs",
+      "quantite": 3
+    },
+    {
+      "nom": "Fresh mushrooms chopped",
+      "unite": "oz.",
+      "quantite": 25
+    },
+    {
+      "nom": "Celery stalks chopped",
+      "unite": "PM",
+      "quantite": 16
+    },
+    {
+      "nom": "Green onions chopped",
+      "unite": "PM",
+      "quantite": 30
+    },
+    {
+      "nom": "Soya sauce",
+      "unite": "tsp",
+      "quantite": 2
+    },
+    {
+      "nom": "Worcestershire sauce",
+      "unite": "tbsp",
+      "quantite": 1
+    },
+    {
+      "nom": "Milk",
+      "unite": "cups",
+      "quantite": 32
+    },
+    {
+      "nom": "Butter or margarine",
+      "unite": "cup",
+      "quantite": 1
+    }
+  ],
+  "technique_de_realisation": [
+    "Take clam juice and add water to make 16 cups.",
+    "Add diced potatoes and bring to a boil.",
+    "When boiling, add clams, lobster and crab.",
+    "Let simmer.",
+    "With a little margarine, saute mushrooms, celery and green onions for 5 minutes or until vegetables are tender.",
+    "Add soya sauce and Worcestershire sauce.",
+    "In a double boiler or large pot, slowly heat milk and butter (margarine).",
+    "When ready, add the milk mixture and vegetable mixture to the simmering potatoes and seafood.",
+    "Make a roux to thicken the broth.",
+    "Serve in individual bowls."
+  ]
+}

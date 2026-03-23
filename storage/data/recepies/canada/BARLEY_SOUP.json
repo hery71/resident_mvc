@@ -1,0 +1,78 @@
+{
+  "titre": "Barley Soup",
+  "pax": 40,
+  "ingredients": [
+    {
+      "nom": "Stew meat",
+      "unite": "PM",
+      "quantite": 0.5
+    },
+    {
+      "nom": "Beef broth",
+      "unite": "qts.",
+      "quantite": 6
+    },
+    {
+      "nom": "Barley",
+      "unite": "cup",
+      "quantite": 1.25
+    },
+    {
+      "nom": "Carrots",
+      "unite": "cup",
+      "quantite": 1
+    },
+    {
+      "nom": "Turnips",
+      "unite": "cup",
+      "quantite": 1
+    },
+    {
+      "nom": "Cabbage",
+      "unite": "cup",
+      "quantite": 1
+    },
+    {
+      "nom": "Onions",
+      "unite": "cup",
+      "quantite": 1.25
+    },
+    {
+      "nom": "Potatoes",
+      "unite": "cup",
+      "quantite": 1.25
+    },
+    {
+      "nom": "Celery",
+      "unite": "cup",
+      "quantite": 0.5
+    },
+    {
+      "nom": "Tomatoes",
+      "unite": "can (19 oz)",
+      "quantite": 1
+    },
+    {
+      "nom": "Chicken base",
+      "unite": "oz.",
+      "quantite": 2
+    },
+    {
+      "nom": "Salt",
+      "unite": "PM",
+      "quantite": 1
+    },
+    {
+      "nom": "Pepper",
+      "unite": "PM",
+      "quantite": 1
+    }
+  ],
+  "technique_de_realisation": [
+    "Soak barley for at least 4 hours.",
+    "Simmer stew meat with beef broth and barley for 1 1/2 hours.",
+    "Add carrots, turnips and cabbage. Simmer 30 minutes.",
+    "Add onions, potatoes, celery, tomatoes and chicken base. Simmer 30 minutes.",
+    "Season with salt and pepper. Simmer for 2 1/2 hours total."
+  ]
+}

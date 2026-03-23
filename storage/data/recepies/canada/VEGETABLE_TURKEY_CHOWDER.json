@@ -1,0 +1,74 @@
+{
+  "titre": "Vegetable Turkey Chowder",
+  "pax": 60,
+  "ingredients": [
+    {
+      "nom": "Céleri haché",
+      "unite": "tasses",
+      "quantite": 2.5
+    },
+    {
+      "nom": "Carottes en cubes",
+      "unite": "lbs",
+      "quantite": 2.5
+    },
+    {
+      "nom": "Patates en cubes",
+      "unite": "lbs",
+      "quantite": 4
+    },
+    {
+      "nom": "Oignons hachés",
+      "unite": "lbs",
+      "quantite": 1.5
+    },
+    {
+      "nom": "Poultry seasoning",
+      "unite": "c. à thé",
+      "quantite": 2
+    },
+    {
+      "nom": "Bouillon de poulet ou chicken base",
+      "unite": "litres",
+      "quantite": 10
+    },
+    {
+      "nom": "Sage",
+      "unite": "c. à thé",
+      "quantite": 4
+    },
+    {
+      "nom": "Sel",
+      "unite": "c. à table",
+      "quantite": 1
+    },
+    {
+      "nom": "Poivre",
+      "unite": "c. à thé",
+      "quantite": 1
+    },
+    {
+      "nom": "Lait 2%",
+      "unite": "litres",
+      "quantite": 1.5
+    },
+    {
+      "nom": "Farine tout usage",
+      "unite": "tasse",
+      "quantite": 1.25
+    },
+    {
+      "nom": "Dinde ou poulet en cubes",
+      "unite": "lbs",
+      "quantite": 1.5
+    }
+  ],
+  "technique_de_realisation": [
+    "Combiner tous les légumes, les épices et le bouillon de poulet.",
+    "Bouillir pendant 15 minutes.",
+    "Mélanger le lait et la farine. Ajouter aux légumes cuits.",
+    "Cuire 10 minutes.",
+    "Ajouter la viande et faire chauffer.",
+    "Mettre dans les plats de table chaude et servir."
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "titre": "Potato Salad",
+  "pax": 50,
+  "ingredients": [
+    {
+      "nom": "Potatoes",
+      "unite": "gal.",
+      "quantite": 0.75
+    },
+    {
+      "nom": "Eggs",
+      "unite": "",
+      "quantite": 18
+    },
+    {
+      "nom": "Celery diced fine",
+      "unite": "cups",
+      "quantite": 2
+    },
+    {
+      "nom": "Onion diced fine",
+      "unite": "cups",
+      "quantite": 2
+    },
+    {
+      "nom": "Salt",
+      "unite": "PM",
+      "quantite": 1
+    },
+    {
+      "nom": "Pepper",
+      "unite": "PM",
+      "quantite": 1
+    },
+    {
+      "nom": "Salad dressing",
+      "unite": "cups",
+      "quantite": 3
+    }
+  ],
+  "technique_de_realisation": [
+    "Cook, cool and cube the potatoes.",
+    "Mix eggs, celery, onion, salt and pepper with potatoes.",
+    "If possible let stand 2 hours or overnight.",
+    "Mix in salad dressing 1 hour before serving."
+  ]
+}

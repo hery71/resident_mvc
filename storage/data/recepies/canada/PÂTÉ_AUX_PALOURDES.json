@@ -1,0 +1,61 @@
+{
+  "titre": "Pâté aux Palourdes",
+  "pax": 50,
+  "ingredients": [
+    {
+      "nom": "Palourdes",
+      "unite": "btes (51 oz)",
+      "quantite": 3
+    },
+    {
+      "nom": "Patates en dés",
+      "unite": "tasses",
+      "quantite": 12
+    },
+    {
+      "nom": "Oignons hachés",
+      "unite": "tasses",
+      "quantite": 2
+    },
+    {
+      "nom": "Margarine",
+      "unite": "tasse",
+      "quantite": 1.25
+    },
+    {
+      "nom": "Farine",
+      "unite": "tasse",
+      "quantite": 1.5
+    },
+    {
+      "nom": "Lait",
+      "unite": "tasses",
+      "quantite": 2.5
+    },
+    {
+      "nom": "Jus de palourdes",
+      "unite": "tasses",
+      "quantite": 2.5
+    },
+    {
+      "nom": "Sel",
+      "unite": "PM",
+      "quantite": 1
+    },
+    {
+      "nom": "Poivre",
+      "unite": "PM",
+      "quantite": 1
+    }
+  ],
+  "technique_de_realisation": [
+    "Égoutter les palourdes.",
+    "Faire cuire les patates.",
+    "Sauter les oignons dans la margarine.",
+    "Mélanger la farine, margarine, lait et jus de palourdes dans un bain-marie et faire une sauce. Laisser épaissir.",
+    "Mettre les patates et palourdes dans un plat de cuisson.",
+    "Vider la sauce par-dessus et mélanger le tout. Assaisonner au goût.",
+    "Recouvrir de la pâte.",
+    "Cuire à 375 F jusqu'à ce que le dessus soit doré, environ 20 minutes."
+  ]
+}

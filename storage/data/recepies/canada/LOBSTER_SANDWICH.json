@@ -1,0 +1,37 @@
+{
+  "titre": "Lobster Sandwich Filling",
+  "pax": 20,
+  "ingredients": [
+    {
+      "nom": "Lobster meat",
+      "unite": "cans (14 oz cold pack)",
+      "quantite": 3
+    },
+    {
+      "nom": "Celery diced fine",
+      "unite": "cups",
+      "quantite": 1.5
+    },
+    {
+      "nom": "Salad dressing",
+      "unite": "cups",
+      "quantite": 1.25
+    },
+    {
+      "nom": "Salt",
+      "unite": "PM",
+      "quantite": 1
+    },
+    {
+      "nom": "Pepper",
+      "unite": "PM",
+      "quantite": 1
+    }
+  ],
+  "technique_de_realisation": [
+    "Cut lobster into small pieces.",
+    "Add finely chopped celery. Mix thoroughly.",
+    "Add salad dressing and mix well.",
+    "Season to taste."
+  ]
+}

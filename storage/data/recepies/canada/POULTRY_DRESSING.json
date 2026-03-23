@@ -1,0 +1,58 @@
+{
+  "titre": "Poultry Dressing",
+  "pax": 40,
+  "ingredients": [
+    {
+      "nom": "Bread",
+      "unite": "loaf",
+      "quantite": 1
+    },
+    {
+      "nom": "Onion fine dice",
+      "unite": "cups",
+      "quantite": 2
+    },
+    {
+      "nom": "Celery fine dice",
+      "unite": "cup",
+      "quantite": 1.25
+    },
+    {
+      "nom": "Margarine",
+      "unite": "cup",
+      "quantite": 0.5
+    },
+    {
+      "nom": "Salt",
+      "unite": "tsp.",
+      "quantite": 1
+    },
+    {
+      "nom": "Pepper",
+      "unite": "tsp.",
+      "quantite": 0.5
+    },
+    {
+      "nom": "Poultry seasoning or thyme",
+      "unite": "tsp.",
+      "quantite": 4
+    },
+    {
+      "nom": "Turkey stock",
+      "unite": "oz",
+      "quantite": 10
+    },
+    {
+      "nom": "Chicken soup base",
+      "unite": "oz",
+      "quantite": 2.5
+    }
+  ],
+  "technique_de_realisation": [
+    "Cube the bread.",
+    "Saute onion and celery in margarine and add to bread.",
+    "Simmer turkey stock and chicken soup base for 5 minutes and add to bread.",
+    "Add salt, pepper and poultry seasoning.",
+    "Bake uncovered at 350 F for 30 minutes."
+  ]
+}

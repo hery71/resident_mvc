@@ -1,0 +1,45 @@
+{
+  "titre": "Garlic Sauce avec Miel",
+  "pax": 1,
+  "ingredients": [
+    {
+      "nom": "Sucre blanc",
+      "unite": "tasse",
+      "quantite": 1
+    },
+    {
+      "nom": "Soya sauce",
+      "unite": "PM",
+      "quantite": 1
+    },
+    {
+      "nom": "Garlic",
+      "unite": "bulbs",
+      "quantite": 3
+    },
+    {
+      "nom": "Eau",
+      "unite": "tasse",
+      "quantite": 0.75
+    },
+    {
+      "nom": "Miel",
+      "unite": "tbsp.",
+      "quantite": 2
+    },
+    {
+      "nom": "Sel",
+      "unite": "PM",
+      "quantite": 1
+    },
+    {
+      "nom": "Poivre",
+      "unite": "PM",
+      "quantite": 1
+    }
+  ],
+  "technique_de_realisation": [
+    "Mélanger tous les ingrédients.",
+    "Utiliser la soya sauce pour fondre le sucre."
+  ]
+}

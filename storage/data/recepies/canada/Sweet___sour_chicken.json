@@ -1,0 +1,56 @@
+{
+  "titre": "Sweet & Sour Chicken",
+  "pax": 1,
+  "ingredients": [
+    {
+      "nom": "Cut-up chicken",
+      "unite": "lb",
+      "quantite": 5.5
+    },
+    {
+      "nom": "Ketchup",
+      "unite": "cup",
+      "quantite": 1
+    },
+    {
+      "nom": "Chili sauce",
+      "unite": "cup",
+      "quantite": 0.25
+    },
+    {
+      "nom": "Brown sugar",
+      "unite": "cup",
+      "quantite": 0.5
+    },
+    {
+      "nom": "Garlic powder or garlic salt",
+      "unite": "tsp.",
+      "quantite": 1
+    },
+    {
+      "nom": "Water",
+      "unite": "cup",
+      "quantite": 1
+    },
+    {
+      "nom": "Onion salt or onion powder",
+      "unite": "tbsp.",
+      "quantite": 1
+    },
+    {
+      "nom": "Worcestershire sauce",
+      "unite": "tsp.",
+      "quantite": 1
+    },
+    {
+      "nom": "Lemon juice",
+      "unite": "tbsp.",
+      "quantite": 2
+    }
+  ],
+  "technique_de_realisation": [
+    "Broil both sides of chicken until brown.",
+    "Place in roaster and cover with sauce made from the remaining ingredients.",
+    "Bake in oven at 350 F for 1 hour."
+  ]
+}

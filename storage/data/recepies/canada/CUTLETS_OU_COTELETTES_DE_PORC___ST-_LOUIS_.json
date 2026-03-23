@@ -1,0 +1,21 @@
+{
+  "titre": "Cutlets ou Côtelettes de Porc (St-Louis)",
+  "pax": 75,
+  "ingredients": [
+    {"nom": "Cutlets ou côtelettes de porc", "unite": "lbs", "quantite": 30},
+    {"nom": "Oignons (sauce)", "unite": "tasses", "quantite": 3},
+    {"nom": "Sel (sauce)", "unite": "c. à thé", "quantite": 8},
+    {"nom": "Poivre (sauce)", "unite": "c. à thé", "quantite": 2},
+    {"nom": "Sauce Worcestershire (sauce)", "unite": "c. à table", "quantite": 8},
+    {"nom": "Eau (sauce)", "unite": "tasses", "quantite": 7},
+    {"nom": "Vinaigre (sauce)", "unite": "c. à table", "quantite": 16},
+    {"nom": "Sucre brun (sauce)", "unite": "c. à table", "quantite": 10},
+    {"nom": "Poudre chili (sauce)", "unite": "c. à thé", "quantite": 8},
+    {"nom": "Ketchup (sauce)", "unite": "tasses", "quantite": 6}
+  ],
+  "technique_de_realisation": [
+    "Cuire les côtelettes au four pendant 1h30 à 375 F.",
+    "Mélanger tous les ingrédients de la sauce.",
+    "Ajouter la sauce sur le dessus des côtelettes et remettre au four pour 1 heure."
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "titre": "Chowder au Jambon & Choufleur",
+  "pax": 50,
+  "ingredients": [
+    {
+      "nom": "Eau",
+      "unite": "tasses",
+      "quantite": 6.75
+    },
+    {
+      "nom": "Patates en cubes",
+      "unite": "tasses",
+      "quantite": 24
+    },
+    {
+      "nom": "Oignons hachés",
+      "unite": "tasses",
+      "quantite": 3
+    },
+    {
+      "nom": "Choufleur",
+      "unite": "tasses",
+      "quantite": 20
+    },
+    {
+      "nom": "Bouillon de poulet ou jambon",
+      "unite": "tasses",
+      "quantite": 0.67
+    },
+    {
+      "nom": "Farine",
+      "unite": "tasses",
+      "quantite": 1.08
+    },
+    {
+      "nom": "Lait",
+      "unite": "tasses",
+      "quantite": 9.33
+    },
+    {
+      "nom": "Soupe crème de céleri",
+      "unite": "oz.",
+      "quantite": 64
+    },
+    {
+      "nom": "Jambon coupé en morceaux",
+      "unite": "tasses",
+      "quantite": 13.5
+    }
+  ],
+  "technique_de_realisation": [
+    "Combiner les patates, choufleur et oignons.",
+    "Ajouter l'eau et le bouillon de poulet ou jambon. Amener à ébullition.",
+    "Réduire la chaleur, couvrir et laisser mijoter 10 à 12 minutes.",
+    "Mélanger la farine et le lait. Ajouter graduellement avec la soupe crème en brassant.",
+    "Cuire à feu moyen en brassant constamment jusqu'à épaississement.",
+    "Ajouter le jambon et laisser chauffer."
+  ]
+}

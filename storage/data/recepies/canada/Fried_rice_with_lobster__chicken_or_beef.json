@@ -1,0 +1,70 @@
+{
+  "titre": "Fried Rice with Lobster, Chicken or Beef",
+  "pax": 1,
+  "ingredients": [
+    {
+      "nom": "Onion",
+      "unite": "large",
+      "quantite": 1
+    },
+    {
+      "nom": "Celery",
+      "unite": "stalk",
+      "quantite": 1
+    },
+    {
+      "nom": "Green pepper",
+      "unite": "PM",
+      "quantite": 1
+    },
+    {
+      "nom": "Mushrooms chopped",
+      "unite": "can",
+      "quantite": 1
+    },
+    {
+      "nom": "Egg",
+      "unite": "PM",
+      "quantite": 1
+    },
+    {
+      "nom": "Cooking oil",
+      "unite": "tbsp.",
+      "quantite": 3
+    },
+    {
+      "nom": "Soya sauce",
+      "unite": "tbsp.",
+      "quantite": 3
+    },
+    {
+      "nom": "Cooked rice",
+      "unite": "cups",
+      "quantite": 3
+    },
+    {
+      "nom": "Salt",
+      "unite": "PM",
+      "quantite": 1
+    },
+    {
+      "nom": "Pepper",
+      "unite": "PM",
+      "quantite": 1
+    },
+    {
+      "nom": "Lobster, shrimp, chicken or turkey",
+      "unite": "cup",
+      "quantite": 1
+    }
+  ],
+  "technique_de_realisation": [
+    "Heat a large skillet or electric frying pan. Pour in oil.",
+    "Break in egg and stir to cook.",
+    "Add chopped onion, celery and green peppers. Sauté about 5 minutes or until tender.",
+    "Drain mushrooms and add to skillet with salt and pepper.",
+    "Pour in cooked rice. Add oil if necessary. Pour on soya sauce mixing until brown.",
+    "When well mixed and fried, add the cup of meat.",
+    "Serve at once with any sweet & sour recipe or alone."
+  ]
+}

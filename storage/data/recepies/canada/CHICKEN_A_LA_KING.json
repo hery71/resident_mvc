@@ -1,0 +1,18 @@
+{
+  "titre": "Chicken à la King",
+  "pax": 50,
+  "ingredients": [
+    {"nom": "Oignons", "unite": "PM", "quantite": 2},
+    {"nom": "Branches de céleri", "unite": "PM", "quantite": 3},
+    {"nom": "Champignons fricassés égouttés", "unite": "cans", "quantite": 2},
+    {"nom": "Poulet désossé coupé en morceaux", "unite": "PM", "quantite": 4},
+    {"nom": "Légumes", "unite": "tasses", "quantite": 3},
+    {"nom": "Soupe crème de poulet", "unite": "cans (48 oz)", "quantite": 2},
+    {"nom": "Eau", "unite": "can", "quantite": 1}
+  ],
+  "technique_de_realisation": [
+    "Faire cuire les légumes, oignons et céleri.",
+    "Mettre la soupe crème de poulet et l'eau dans un gros chaudron et faire chauffer.",
+    "Ajouter les légumes, le mélange d'oignons, les champignons et le poulet."
+  ]
+}

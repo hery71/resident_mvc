@@ -1,0 +1,20 @@
+{
+  "titre": "Poulet Chasseur",
+  "pax": 40,
+  "ingredients": [
+    {"nom": "Chicken", "unite": "lbs", "quantite": 13},
+    {"nom": "Diced carrots", "unite": "cup", "quantite": 1.5},
+    {"nom": "Diced celery", "unite": "cup", "quantite": 1.5},
+    {"nom": "Diced onions", "unite": "cup", "quantite": 1.5},
+    {"nom": "Tomatoes", "unite": "can (28 oz)", "quantite": 1},
+    {"nom": "Gravy", "unite": "gal.", "quantite": 0.67}
+  ],
+  "technique_de_realisation": [
+    "Cut up chicken, trim excess fat, place on wire rack in cookie sheet.",
+    "Roast in oven at 350 F for 30 minutes. Season.",
+    "Divide chicken and vegetables in two pans and pour on gravy.",
+    "Bake 1 hour.",
+    "Variation: May add bay leaves and garlic salt.",
+    "Gravy: 1 oz fat - 1 oz flour to 10 oz stock."
+  ]
+}

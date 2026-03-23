@@ -1,0 +1,64 @@
+{
+  "titre": "Chowder au Bacon & Patates",
+  "pax": 50,
+  "ingredients": [
+    {
+      "nom": "Bacon",
+      "unite": "tranches",
+      "quantite": 50
+    },
+    {
+      "nom": "Oignons hachés",
+      "unite": "tasses",
+      "quantite": 6.5
+    },
+    {
+      "nom": "Patates en cubes",
+      "unite": "tasses",
+      "quantite": 18.75
+    },
+    {
+      "nom": "Eau",
+      "unite": "tasses",
+      "quantite": 6.5
+    },
+    {
+      "nom": "Sel",
+      "unite": "c. à table",
+      "quantite": 1
+    },
+    {
+      "nom": "Poivre",
+      "unite": "PM",
+      "quantite": 1
+    },
+    {
+      "nom": "Soupe crème de poulet",
+      "unite": "cans (10 oz.)",
+      "quantite": 7
+    },
+    {
+      "nom": "Crème sûre",
+      "unite": "tasses",
+      "quantite": 6.5
+    },
+    {
+      "nom": "Lait",
+      "unite": "tasses",
+      "quantite": 11.5
+    },
+    {
+      "nom": "Persil haché",
+      "unite": "tasse",
+      "quantite": 0.67
+    }
+  ],
+  "technique_de_realisation": [
+    "Cuire le bacon jusqu'à croustillant. Égoutter le gras.",
+    "Faire sauter les oignons.",
+    "Incorporer le bacon et les oignons aux patates avec l'eau, le sel et le poivre. Faire bouillir.",
+    "Couvrir et laisser mijoter 10-15 minutes ou jusqu'à ce que les patates soient tendres.",
+    "Incorporer graduellement la soupe crème, la crème sûre, le lait et le persil en brassant.",
+    "Laisser chauffer sans faire bouillir."
+  ]
+}

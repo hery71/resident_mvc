@@ -1,0 +1,54 @@
+{
+  "titre": "Garniture au Citron",
+  "pax": 5,
+  "ingredients": [
+    {
+      "nom": "Eau",
+      "unite": "lbs oz.",
+      "quantite": 3.5
+    },
+    {
+      "nom": "Sucre blanc",
+      "unite": "lbs oz.",
+      "quantite": 2.25
+    },
+    {
+      "nom": "Fécule de maïs",
+      "unite": "oz.",
+      "quantite": 6
+    },
+    {
+      "nom": "Poudre de citron",
+      "unite": "oz.",
+      "quantite": 2
+    },
+    {
+      "nom": "Sel",
+      "unite": "oz.",
+      "quantite": 0.25
+    },
+    {
+      "nom": "Eau (2e quantité)",
+      "unite": "oz.",
+      "quantite": 8
+    },
+    {
+      "nom": "Jaunes d'oeufs",
+      "unite": "PM",
+      "quantite": 10
+    },
+    {
+      "nom": "Graisse végétale",
+      "unite": "oz.",
+      "quantite": 4
+    }
+  ],
+  "technique_de_realisation": [
+    "Porter à ébullition la première quantité d'eau et le sucre.",
+    "Combiner la fécule de maïs et le sel. Ajouter la moitié de la 2e eau aux jaunes d'oeufs, brasser et ajouter au sel et fécule de maïs. Brasser jusqu'à ce que le mélange soit lisse.",
+    "Ajouter au sirop bouillant en brassant continuellement. Continuer à cuire jusqu'à ce qu'il ne reste aucun goût de fécule de maïs.",
+    "Dissoudre la poudre de citron dans la dernière moitié d'eau.",
+    "Juste avant de vider dans les croûtes, ajouter le jus de citron et la graisse.",
+    "Note: Si le jus de citron et la graisse sont ajoutés trop longtemps avant de remplir les croûtes, la garniture peut s'effondrer et devenir liquide."
+  ]
+}

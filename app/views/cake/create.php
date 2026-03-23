@@ -25,7 +25,12 @@ $title = "Commande de gâteau"; ?>
         <strong><?= e($resident['Prenom']) ?> <?= e($resident['Nom']) ?></strong>
         (<?= e($annee) ?>)
     </p>
-
+    <p>
+        DOB : <STRONG><?= e($resident['Anniversaire']) ?></STRONG>
+    </p>
+    <p>
+       Date de la Fête : <STRONG><?= e($fete['date']) ?></STRONG>
+    </p>
     <?php if (!empty($cake)): ?>
         <div class="alert alert-info">
             ⚠️ Une commande existe déjà pour cet anniversaire.
@@ -37,11 +42,11 @@ $title = "Commande de gâteau"; ?>
         <input type="hidden" name="idResident" value="<?= e($resident['id']) ?>">
         <input type="hidden" name="idAnniversaire" value="<?= e($idAniversaire) ?>">
         <input type="hidden" name="annee" value="<?= e($annee) ?>">
-        <input type="hidden" name="dateAnniversaire" value="<?= e($resident['Anniversaire']) ?>">
+        <input type="hidden" name="dateAnniversaire" value="<?= e($fete['date']) ?>">
 
         <div class="form-group">
             <label>Date livraison</label>
-            <input type="date" name="dateLivraison" class="form-control" value ="<?=  $dateFete ?>" required>
+            <input type="date" name="dateLivraison" class="form-control" value ="<?=  (new DateTime($fete['date']))->format('Y-m-d') ?>" required>
         </div>
 
         <div class="form-group">

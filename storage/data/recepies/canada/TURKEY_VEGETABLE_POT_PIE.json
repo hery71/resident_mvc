@@ -1,0 +1,71 @@
+{
+  "titre": "Turkey Vegetable Pot Pie",
+  "pax": 48,
+  "ingredients": [
+    {
+      "nom": "Frozen mixed vegetables (broccoli, cauliflower & carrots)",
+      "unite": "pkg (16 oz)",
+      "quantite": 8
+    },
+    {
+      "nom": "Margarine or butter",
+      "unite": "cup",
+      "quantite": 1
+    },
+    {
+      "nom": "Chopped onion",
+      "unite": "cups",
+      "quantite": 4
+    },
+    {
+      "nom": "Sliced celery",
+      "unite": "cups",
+      "quantite": 4
+    },
+    {
+      "nom": "Dried thyme leaves crushed",
+      "unite": "tbsp.",
+      "quantite": 2
+    },
+    {
+      "nom": "Condensed cream of broccoli or cream of mushroom soup",
+      "unite": "cans (10 oz)",
+      "quantite": 8
+    },
+    {
+      "nom": "Condensed cream of chicken soup",
+      "unite": "cans (10 oz)",
+      "quantite": 8
+    },
+    {
+      "nom": "Milk",
+      "unite": "cups",
+      "quantite": 8
+    },
+    {
+      "nom": "Diced cooked turkey or chicken",
+      "unite": "cups",
+      "quantite": 24
+    },
+    {
+      "nom": "Pepper",
+      "unite": "tbsp.",
+      "quantite": 1
+    },
+    {
+      "nom": "Refrigerated crescent rolls",
+      "unite": "pkg (8 oz)",
+      "quantite": 8
+    }
+  ],
+  "technique_de_realisation": [
+    "Preheat oven to 375 F.",
+    "In a sauté pan over medium heat, cook onion, celery and thyme in hot margarine until onion is tender.",
+    "Add soups and mix smooth.",
+    "In a 12 x 8 inch baking dish, combine turkey and cooked vegetables. Add soup mixture, stirring gently.",
+    "Unroll crescent rolls. Firmly press perforations and cut dough lengthwise into 8 strips about 3/4 inch wide.",
+    "Arrange dough strips over chicken mixture to form a lattice, cutting strips as needed. Press ends of strips to baking dish.",
+    "Cover edges with foil after 20 minutes if pastry browns too quickly.",
+    "Cook at 375 F for 30 minutes or until golden. Let stand before serving."
+  ]
+}

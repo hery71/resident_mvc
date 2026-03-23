@@ -1,0 +1,31 @@
+{
+  "titre": "Tuna Salad Sandwich Filling",
+  "pax": 18,
+  "ingredients": [
+    {
+      "nom": "Tuna fish",
+      "unite": "cups",
+      "quantite": 4.5
+    },
+    {
+      "nom": "Celery diced fine",
+      "unite": "cup",
+      "quantite": 1
+    },
+    {
+      "nom": "Lemon juice powder",
+      "unite": "tbsp.",
+      "quantite": 2
+    },
+    {
+      "nom": "Salad dressing",
+      "unite": "cup",
+      "quantite": 0.75
+    }
+  ],
+  "technique_de_realisation": [
+    "Flake tuna fish with a fork.",
+    "Add diced celery and lemon juice to tuna. Mix together.",
+    "Add salad dressing, mix and season to taste."
+  ]
+}

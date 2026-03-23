@@ -1,0 +1,19 @@
+{
+  "titre": "Poulet Cantanaise",
+  "pax": 50,
+  "ingredients": [
+    {"nom": "Sauce soya", "unite": "tasse", "quantite": 0.33},
+    {"nom": "Sucre brun", "unite": "tasses", "quantite": 2.5},
+    {"nom": "Sel de céleri", "unite": "c. à table", "quantite": 1},
+    {"nom": "Vinaigre", "unite": "tasses", "quantite": 1.25},
+    {"nom": "Huile", "unite": "tasse", "quantite": 0.33},
+    {"nom": "Poudre de chili", "unite": "c. à table", "quantite": 3},
+    {"nom": "Soupe aux tomates", "unite": "oz.", "quantite": 48},
+    {"nom": "Poulet (boneless chicken breast)", "unite": "cases", "quantite": 2}
+  ],
+  "technique_de_realisation": [
+    "Mélanger tous les ingrédients sauf le poulet pour faire une sauce.",
+    "Placer le poulet dans une casserole et couvrir de sauce.",
+    "Cuire au four à 350 F pour 1 heure ou jusqu'à ce que le poulet soit bien cuit et tendre."
+  ]
+}

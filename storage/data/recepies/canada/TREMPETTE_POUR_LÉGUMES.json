@@ -1,0 +1,50 @@
+{
+  "titre": "Trempette pour Légumes",
+  "pax": 1,
+  "ingredients": [
+    {
+      "nom": "Miracle Whip",
+      "unite": "tasses",
+      "quantite": 2
+    },
+    {
+      "nom": "Crème sûre",
+      "unite": "tasse",
+      "quantite": 1
+    },
+    {
+      "nom": "Sel",
+      "unite": "c. à thé",
+      "quantite": 0.5
+    },
+    {
+      "nom": "Jus de citron",
+      "unite": "c. à thé",
+      "quantite": 3
+    },
+    {
+      "nom": "Persil",
+      "unite": "c. à thé",
+      "quantite": 1
+    },
+    {
+      "nom": "Curried powder",
+      "unite": "c. à thé",
+      "quantite": 0.25
+    },
+    {
+      "nom": "Oignons râpés",
+      "unite": "c. à thé",
+      "quantite": 2
+    },
+    {
+      "nom": "Worcestershire sauce",
+      "unite": "c. à thé",
+      "quantite": 1
+    }
+  ],
+  "technique_de_realisation": [
+    "Mélanger le tout.",
+    "Prêt à servir."
+  ]
+}

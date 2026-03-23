@@ -1,0 +1,31 @@
+{
+  "titre": "Ham Sandwich Filling",
+  "pax": 9,
+  "ingredients": [
+    {
+      "nom": "Ham diced fine",
+      "unite": "cups",
+      "quantite": 2.25
+    },
+    {
+      "nom": "Sweet relish well drained",
+      "unite": "cup",
+      "quantite": 0.25
+    },
+    {
+      "nom": "Prepared mustard",
+      "unite": "tsp.",
+      "quantite": 1
+    },
+    {
+      "nom": "Salad dressing",
+      "unite": "cup",
+      "quantite": 0.5
+    }
+  ],
+  "technique_de_realisation": [
+    "Mix ham, relish and mustard together.",
+    "Add salad dressing and mix well.",
+    "Season to taste."
+  ]
+}

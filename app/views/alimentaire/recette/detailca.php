@@ -23,7 +23,7 @@
                 <li><?= htmlspecialchars($etape) ?></li>
                 <?php endforeach; ?>
             </ol>
-            <a href="/recette/" class="btn btn-secondary mt-3">← Retour</a>
+            <a href="/recette/indexca" class="btn btn-secondary mt-3">← Retour</a>
         </div>
     </div>
 </div>

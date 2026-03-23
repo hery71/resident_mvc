@@ -1,0 +1,57 @@
+{
+  "titre": "Irish Stew",
+  "pax": 50,
+  "ingredients": [
+    {
+      "nom": "Boeuf coupé en cubes",
+      "unite": "lbs",
+      "quantite": 10
+    },
+    {
+      "nom": "Oignons",
+      "unite": "tasses",
+      "quantite": 3
+    },
+    {
+      "nom": "Poivre blanc",
+      "unite": "c. à table",
+      "quantite": 2
+    },
+    {
+      "nom": "Sel",
+      "unite": "tasse",
+      "quantite": 0.5
+    },
+    {
+      "nom": "Navet",
+      "unite": "lbs",
+      "quantite": 6
+    },
+    {
+      "nom": "Carottes",
+      "unite": "lbs",
+      "quantite": 6
+    },
+    {
+      "nom": "Patates coupées en cubes",
+      "unite": "gallon",
+      "quantite": 1.5
+    },
+    {
+      "nom": "Farine",
+      "unite": "tasses",
+      "quantite": 2
+    },
+    {
+      "nom": "Lait",
+      "unite": "litre",
+      "quantite": 1
+    }
+  ],
+  "technique_de_realisation": [
+    "Mijoter le boeuf avec les oignons, sel et poivre blanc jusqu'à ce que la viande soit tendre.",
+    "Couper le navet, carottes et oignons en cubes et ajouter à la viande. Mijoter 30 minutes.",
+    "Ajouter les patates coupées en cubes.",
+    "Épaissir le bouillon avec la farine et le lait."
+  ]
+}

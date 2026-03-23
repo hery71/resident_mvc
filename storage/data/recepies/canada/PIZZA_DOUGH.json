@@ -1,0 +1,44 @@
+{
+  "titre": "Pizza Dough",
+  "pax": 1,
+  "ingredients": [
+    {
+      "nom": "Yeast",
+      "unite": "pkg. (2 1/4 tsp.)",
+      "quantite": 1
+    },
+    {
+      "nom": "Sugar",
+      "unite": "tsp.",
+      "quantite": 1
+    },
+    {
+      "nom": "Warm water",
+      "unite": "cup",
+      "quantite": 1.33
+    },
+    {
+      "nom": "Flour",
+      "unite": "cups",
+      "quantite": 3
+    },
+    {
+      "nom": "Salt",
+      "unite": "tsp.",
+      "quantite": 1
+    },
+    {
+      "nom": "Olive oil or regular oil",
+      "unite": "tbsp.",
+      "quantite": 2
+    }
+  ],
+  "technique_de_realisation": [
+    "Mix yeast, sugar and warm water. Let stand 10 minutes.",
+    "Add flour, salt and oil.",
+    "Knead for a few minutes.",
+    "Let rise until double.",
+    "Spread on pizza pans and let rise again.",
+    "Makes 12\" + 9\" or 16\"."
+  ]
+}

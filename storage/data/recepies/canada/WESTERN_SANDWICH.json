@@ -1,0 +1,43 @@
+{
+  "titre": "Western Sandwich Filling",
+  "pax": 50,
+  "ingredients": [
+    {
+      "nom": "Eggs whole",
+      "unite": "PM",
+      "quantite": 50
+    },
+    {
+      "nom": "Ham fine dice",
+      "unite": "oz.",
+      "quantite": 25
+    },
+    {
+      "nom": "Onion fine dice",
+      "unite": "oz.",
+      "quantite": 13
+    },
+    {
+      "nom": "Green pepper fine dice",
+      "unite": "oz.",
+      "quantite": 8
+    },
+    {
+      "nom": "Salt",
+      "unite": "PM",
+      "quantite": 1
+    },
+    {
+      "nom": "Pepper",
+      "unite": "PM",
+      "quantite": 1
+    }
+  ],
+  "technique_de_realisation": [
+    "Beat eggs well.",
+    "Add ham, onion and green pepper. Blend well.",
+    "Portion 2 oz. onto grill at 275-300 F.",
+    "Serve on plain or toasted bread.",
+    "Note: Eastern sandwich = same recipe without the onion."
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "titre": "Poulet Italien",
+  "pax": 40,
+  "ingredients": [
+    {"nom": "Chicken", "unite": "PM", "quantite": 8},
+    {"nom": "Vinegar", "unite": "cup", "quantite": 1},
+    {"nom": "Garlic powder", "unite": "tsp.", "quantite": 1},
+    {"nom": "Ketchup", "unite": "cups", "quantite": 4},
+    {"nom": "Chopped onions", "unite": "cups", "quantite": 2.67},
+    {"nom": "Tabasco sauce", "unite": "tsp.", "quantite": 1},
+    {"nom": "Sugar", "unite": "cup", "quantite": 1},
+    {"nom": "Salt", "unite": "tbsp.", "quantite": 1.33},
+    {"nom": "Water", "unite": "cups", "quantite": 2},
+    {"nom": "Summer savory", "unite": "tbsp.", "quantite": 1.33},
+    {"nom": "Mushrooms (not drained)", "unite": "cans", "quantite": 2}
+  ],
+  "technique_de_realisation": [
+    "Cut each chicken into 9 pieces. Trim fat.",
+    "Arrange on cookie sheet with wire rack and bake at 350 F for 30 minutes.",
+    "Put in insert table pans.",
+    "Mix vinegar, garlic powder, ketchup, onions, tabasco, sugar, salt, water, savory and mushrooms.",
+    "Pour sauce over chicken.",
+    "Bake at 350 F for 1h30."
+  ]
+}

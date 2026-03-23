@@ -1,0 +1,43 @@
+{
+  "titre": "Corn Chowder Soup",
+  "pax": 40,
+  "ingredients": [
+    {
+      "nom": "Diced potatoes",
+      "unite": "gal.",
+      "quantite": 0.75
+    },
+    {
+      "nom": "Milk",
+      "unite": "cups",
+      "quantite": 12.5
+    },
+    {
+      "nom": "Onions finely chopped",
+      "unite": "cup",
+      "quantite": 1.5
+    },
+    {
+      "nom": "Butter",
+      "unite": "lb",
+      "quantite": 1
+    },
+    {
+      "nom": "Creamed corn",
+      "unite": "cans (19 oz)",
+      "quantite": 8
+    },
+    {
+      "nom": "Chicken base",
+      "unite": "cup",
+      "quantite": 0.5
+    }
+  ],
+  "technique_de_realisation": [
+    "Cook potatoes in boiling salted water for 10-15 minutes. When cooked drain well.",
+    "Place milk in double boiler and bring to a scald.",
+    "Place butter in top section of double boiler over direct heat. When melted, add onions and cook until transparent.",
+    "Add cooked potatoes, creamed corn and scalded milk to onions.",
+    "Place in bottom part of double boiler filled 1/3 with boiling water and heat through."
+  ]
+}

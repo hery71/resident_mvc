@@ -1,0 +1,24 @@
+{
+  "titre": "Grilled Salmon Steaks",
+  "pax": 6,
+  "ingredients": [
+    {"nom": "Fresh or frozen salmon steaks", "unite": "PM", "quantite": 6},
+    {"nom": "Salad oil", "unite": "cup", "quantite": 0.5},
+    {"nom": "Snipped parsley", "unite": "cup", "quantite": 0.25},
+    {"nom": "Lemon juice", "unite": "cup", "quantite": 0.25},
+    {"nom": "Grated onion", "unite": "tbsp.", "quantite": 2},
+    {"nom": "Dry mustard", "unite": "tsp.", "quantite": 0.5},
+    {"nom": "Salt", "unite": "tsp.", "quantite": 0.25},
+    {"nom": "Pepper", "unite": "dash", "quantite": 1}
+  ],
+  "technique_de_realisation": [
+    "Thaw fish if frozen. Place in shallow dish.",
+    "Combine oil, parsley, lemon juice, mustard, salt and pepper. Pour over fish.",
+    "Let stand at room temperature 2 hours turning occasionally, or marinate covered in refrigerator 4 to 6 hours.",
+    "Drain, reserving marinade.",
+    "Place fish in well-greased wire grill basket.",
+    "Grill over medium to hot coals until lightly browned, 5 to 8 minutes.",
+    "Baste with marinade and turn.",
+    "Brush again with marinade and grill until fish flakes easily when tested with a fork, 5 to 8 minutes more."
+  ]
+}

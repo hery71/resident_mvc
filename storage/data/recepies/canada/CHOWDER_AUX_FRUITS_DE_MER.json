@@ -1,0 +1,69 @@
+{
+  "titre": "Chowder aux Fruits de Mer",
+  "pax": 50,
+  "ingredients": [
+    {
+      "nom": "Base de poulet",
+      "unite": "oz.",
+      "quantite": 8
+    },
+    {
+      "nom": "Eau",
+      "unite": "gal.",
+      "quantite": 1
+    },
+    {
+      "nom": "Patates en cubes",
+      "unite": "gal.",
+      "quantite": 1.25
+    },
+    {
+      "nom": "Céleri",
+      "unite": "tasses",
+      "quantite": 4
+    },
+    {
+      "nom": "Oignons",
+      "unite": "tasses",
+      "quantite": 4
+    },
+    {
+      "nom": "Sel",
+      "unite": "c. à thé",
+      "quantite": 3
+    },
+    {
+      "nom": "Poivre",
+      "unite": "c. à thé",
+      "quantite": 3
+    },
+    {
+      "nom": "Margarine",
+      "unite": "tasses",
+      "quantite": 2
+    },
+    {
+      "nom": "Lait",
+      "unite": "tasses",
+      "quantite": 14
+    },
+    {
+      "nom": "Farine",
+      "unite": "tasse",
+      "quantite": 0.67
+    },
+    {
+      "nom": "Fruits de mer",
+      "unite": "tasses",
+      "quantite": 11
+    }
+  ],
+  "technique_de_realisation": [
+    "Mijoter l'eau, base de poulet, patates, sel et poivre pendant 10 minutes.",
+    "Ajouter les fruits de mer et mijoter 5 minutes.",
+    "Sauter les légumes, ajouter la farine et faire un roux.",
+    "Mélanger le roux à la première partie.",
+    "Ajouter le lait en remuant.",
+    "Ne pas laisser bouillir."
+  ]
+}

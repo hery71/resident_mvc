@@ -1,0 +1,35 @@
+{
+  "titre": "Sweet & Sour Sauce - Chicken Wings",
+  "pax": 1,
+  "ingredients": [
+    {
+      "nom": "Sugar",
+      "unite": "cup",
+      "quantite": 0.75
+    },
+    {
+      "nom": "Soya sauce",
+      "unite": "cup",
+      "quantite": 0.25
+    },
+    {
+      "nom": "Vinegar",
+      "unite": "cup",
+      "quantite": 0.33
+    },
+    {
+      "nom": "Water",
+      "unite": "cup",
+      "quantite": 0.67
+    },
+    {
+      "nom": "Cornstarch",
+      "unite": "tbsp.",
+      "quantite": 3
+    }
+  ],
+  "technique_de_realisation": [
+    "Combine all ingredients.",
+    "Cook stirring constantly over low heat until thick."
+  ]
+}

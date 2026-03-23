@@ -1,0 +1,72 @@
+{
+  "titre": "Soupe aux Légumes",
+  "pax": 50,
+  "ingredients": [
+    {
+      "nom": "Huile ou margarine",
+      "unite": "tasse",
+      "quantite": 0.25
+    },
+    {
+      "nom": "Carottes en cubes",
+      "unite": "tasses",
+      "quantite": 5
+    },
+    {
+      "nom": "Céleri en cubes",
+      "unite": "tasses",
+      "quantite": 5
+    },
+    {
+      "nom": "Oignons tranchés fins",
+      "unite": "tasses",
+      "quantite": 5
+    },
+    {
+      "nom": "Stock (eau + base de poulet)",
+      "unite": "gallons",
+      "quantite": 3
+    },
+    {
+      "nom": "Base de poulet",
+      "unite": "oz.",
+      "quantite": 6
+    },
+    {
+      "nom": "Feuilles de laurier",
+      "unite": "PM",
+      "quantite": 2
+    },
+    {
+      "nom": "Sel",
+      "unite": "c. à table",
+      "quantite": 4
+    },
+    {
+      "nom": "Choux",
+      "unite": "tasses",
+      "quantite": 4
+    },
+    {
+      "nom": "Pois",
+      "unite": "tasses",
+      "quantite": 4
+    },
+    {
+      "nom": "Patates en cubes",
+      "unite": "tasses",
+      "quantite": 5
+    },
+    {
+      "nom": "Tomates écrasées",
+      "unite": "btes (28 oz)",
+      "quantite": 3
+    }
+  ],
+  "technique_de_realisation": [
+    "Faire frire les carottes, céleri et oignons dans l'huile ou margarine.",
+    "Ajouter le stock, feuilles de laurier, sel, choux, pois, patates et tomates écrasées.",
+    "Mijoter 45 minutes.",
+    "Ajuster le sel."
+  ]
+}

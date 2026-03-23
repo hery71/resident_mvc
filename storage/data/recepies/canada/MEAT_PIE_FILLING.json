@@ -1,0 +1,48 @@
+{
+  "titre": "Meat Pie Filling",
+  "pax": 36,
+  "ingredients": [
+    {
+      "nom": "Boneless stew meat beef",
+      "unite": "lbs",
+      "quantite": 12
+    },
+    {
+      "nom": "Boneless pork",
+      "unite": "lbs",
+      "quantite": 20
+    },
+    {
+      "nom": "Bran",
+      "unite": "cups",
+      "quantite": 6
+    },
+    {
+      "nom": "Mashed potatoes",
+      "unite": "gal.",
+      "quantite": 1
+    },
+    {
+      "nom": "Summer savory",
+      "unite": "oz.",
+      "quantite": 0.67
+    },
+    {
+      "nom": "Salt",
+      "unite": "PM",
+      "quantite": 1
+    },
+    {
+      "nom": "Pepper",
+      "unite": "PM",
+      "quantite": 1
+    }
+  ],
+  "technique_de_realisation": [
+    "Simmer meat in small amount of water for 2 hours.",
+    "Break meat into bite size pieces.",
+    "Add mashed potatoes and summer savory.",
+    "Add salt and pepper to taste.",
+    "Ladle in pie crust."
+  ]
+}

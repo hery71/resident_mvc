@@ -1,0 +1,37 @@
+{
+  "titre": "Rapé",
+  "pax": 40,
+  "ingredients": [
+    {
+      "nom": "Potatoes",
+      "unite": "gal.",
+      "quantite": 2.67
+    },
+    {
+      "nom": "Bread",
+      "unite": "loaf",
+      "quantite": 1
+    },
+    {
+      "nom": "Lard",
+      "unite": "lbs",
+      "quantite": 1.33
+    },
+    {
+      "nom": "Salt",
+      "unite": "PM",
+      "quantite": 1
+    },
+    {
+      "nom": "Pepper",
+      "unite": "PM",
+      "quantite": 1
+    }
+  ],
+  "technique_de_realisation": [
+    "Grate potatoes with fine grater and mix with bread.",
+    "Fry the lard in pan and pour potatoes and bread mixture in pan.",
+    "Salt and pepper to taste.",
+    "Cook at 350 F for 2½ to 3 hours."
+  ]
+}

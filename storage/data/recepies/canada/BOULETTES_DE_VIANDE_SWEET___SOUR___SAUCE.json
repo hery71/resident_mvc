@@ -1,0 +1,28 @@
+{
+  "titre": "Boulettes de Viande Sweet & Sour",
+  "pax": 60,
+  "ingredients": [
+    {"nom": "Boeuf haché", "unite": "lbs", "quantite": 11.75},
+    {"nom": "Sel", "unite": "c. à table", "quantite": 2},
+    {"nom": "Poivre", "unite": "c. à table", "quantite": 2},
+    {"nom": "Poudre d'ail", "unite": "c. à table", "quantite": 1.25},
+    {"nom": "Bread crumbs", "unite": "tasses", "quantite": 4},
+    {"nom": "Moutarde sèche", "unite": "c. à table", "quantite": 1.25},
+    {"nom": "Oignon haché fin", "unite": "tasses", "quantite": 4},
+    {"nom": "Céleri haché fin", "unite": "tasses", "quantite": 2},
+    {"nom": "Oeufs battus", "unite": "PM", "quantite": 10},
+    {"nom": "Sucre brun (sauce)", "unite": "tasses", "quantite": 8},
+    {"nom": "Vinaigre (sauce)", "unite": "tasses", "quantite": 4},
+    {"nom": "Moutarde sèche (sauce)", "unite": "c. à table", "quantite": 5.25},
+    {"nom": "Ketchup (sauce)", "unite": "tasses", "quantite": 8},
+    {"nom": "Eau (sauce)", "unite": "tasses", "quantite": 8}
+  ],
+  "technique_de_realisation": [
+    "Bien mélanger le boeuf haché, sel, poivre, poudre d'ail, bread crumbs, moutarde sèche, oignon, céleri et oeufs. Ne pas trop brasser.",
+    "Former les boules et déposer dans une casserole.",
+    "Faire bouillir ensemble le sucre brun, vinaigre, moutarde sèche, ketchup et eau pour faire la sauce.",
+    "Verser la sauce sur les boules.",
+    "Faire cuire au four environ 1h30 à 325 F.",
+    "Par la fin de la cuisson, épaissir avec du corn starch."
+  ]
+}

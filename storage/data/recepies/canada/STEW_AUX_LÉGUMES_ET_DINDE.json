@@ -1,0 +1,68 @@
+{
+  "titre": "Stew aux Légumes et Dinde",
+  "pax": 60,
+  "ingredients": [
+    {
+      "nom": "Dinde coupée en gros morceaux",
+      "unite": "lbs",
+      "quantite": 10
+    },
+    {
+      "nom": "Carottes fraîches coupées en diagonal",
+      "unite": "lbs",
+      "quantite": 2
+    },
+    {
+      "nom": "Oignons",
+      "unite": "lbs",
+      "quantite": 2
+    },
+    {
+      "nom": "Céleri",
+      "unite": "lbs",
+      "quantite": 2
+    },
+    {
+      "nom": "Bouillon de dinde",
+      "unite": "gallons",
+      "quantite": 2
+    },
+    {
+      "nom": "Patates coupées en gros morceaux",
+      "unite": "gallons",
+      "quantite": 2
+    },
+    {
+      "nom": "Sel",
+      "unite": "PM",
+      "quantite": 1
+    },
+    {
+      "nom": "Poivre",
+      "unite": "PM",
+      "quantite": 1
+    },
+    {
+      "nom": "Farine tout-usage",
+      "unite": "tasse",
+      "quantite": 1
+    },
+    {
+      "nom": "Corn starch",
+      "unite": "tasse",
+      "quantite": 0.25
+    },
+    {
+      "nom": "Lait",
+      "unite": "ml",
+      "quantite": 500
+    }
+  ],
+  "technique_de_realisation": [
+    "Combiner la dinde, carottes, oignons, céleri et bouillon de dinde.",
+    "Cuire jusqu'à ce que la viande et les légumes soient tendres.",
+    "Ajouter les patates et cuire jusqu'à tendreté.",
+    "Assaisonner de sel et poivre.",
+    "Épaissir le bouillon avec la farine, le corn starch et le lait."
+  ]
+}

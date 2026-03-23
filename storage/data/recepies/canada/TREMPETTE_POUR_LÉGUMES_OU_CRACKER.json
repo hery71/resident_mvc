@@ -1,0 +1,50 @@
+{
+  "titre": "Trempette pour Légumes ou Cracker (Dip)",
+  "pax": 1,
+  "ingredients": [
+    {
+      "nom": "Mayonnaise",
+      "unite": "cup",
+      "quantite": 0.5
+    },
+    {
+      "nom": "Philadelphia cream cheese",
+      "unite": "oz.",
+      "quantite": 8
+    },
+    {
+      "nom": "Ketchup",
+      "unite": "c. à table",
+      "quantite": 2
+    },
+    {
+      "nom": "Catalina dressing",
+      "unite": "c. à table",
+      "quantite": 2
+    },
+    {
+      "nom": "Oignon haché fin",
+      "unite": "c. à table",
+      "quantite": 2
+    },
+    {
+      "nom": "Flakes of chicken",
+      "unite": "oz.",
+      "quantite": 4
+    },
+    {
+      "nom": "Sel",
+      "unite": "PM",
+      "quantite": 1
+    },
+    {
+      "nom": "Poivre",
+      "unite": "PM",
+      "quantite": 1
+    }
+  ],
+  "technique_de_realisation": [
+    "Mélanger le tout.",
+    "Prêt à servir."
+  ]
+}

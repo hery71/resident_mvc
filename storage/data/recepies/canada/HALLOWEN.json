@@ -1,0 +1,72 @@
+{
+  "titre": "Halloween",
+  "pax": 1,
+  "ingredients": [
+    {
+      "nom": "JUS DE SORCELLERIE",
+      "unite": "",
+      "quantite": 0
+    },
+    {
+      "nom": "Pepsi diète",
+      "unite": "cans",
+      "quantite": 4
+    },
+    {
+      "nom": "7 Up diète",
+      "unite": "cans",
+      "quantite": 2
+    },
+    {
+      "nom": "Jus de pommes",
+      "unite": "48 oz.",
+      "quantite": 2
+    },
+    {
+      "nom": "CRÈME AUX YEUX NOIR",
+      "unite": "",
+      "quantite": 0
+    },
+    {
+      "nom": "Yogourt",
+      "unite": "PM",
+      "quantite": 1
+    },
+    {
+      "nom": "Jello orange",
+      "unite": "PM",
+      "quantite": 1
+    },
+    {
+      "nom": "Grape rouge",
+      "unite": "PM",
+      "quantite": 1
+    },
+    {
+      "nom": "CARRÉ FILET D'ARAIGNÉE",
+      "unite": "",
+      "quantite": 0
+    },
+    {
+      "nom": "Carré aux citron",
+      "unite": "PM",
+      "quantite": 1
+    },
+    {
+      "nom": "Crème fouettée",
+      "unite": "PM",
+      "quantite": 1
+    },
+    {
+      "nom": "Sirop de chocolat",
+      "unite": "PM",
+      "quantite": 1
+    }
+  ],
+  "technique_de_realisation": [
+    "JUS DE SORCELLERIE: Mélanger Pepsi diète, 7 Up diète et jus de pommes.",
+    "CRÈME AUX YEUX NOIR: Mélanger yogourt, jello orange et grape rouge.",
+    "CARRÉ FILET D'ARAIGNÉE: Couvrir le carré aux citron de crème fouettée et garnir de sirop de chocolat.",
+    "Option diabétique: Remplacer par pouding vanille diète et crème fouettée + crumbs oreo."
+  ]
+}

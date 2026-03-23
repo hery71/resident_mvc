@@ -1,0 +1,72 @@
+{
+  "titre": "Chowder au Fromage Cheddar",
+  "pax": 50,
+  "ingredients": [
+    {
+      "nom": "Eau bouillante",
+      "unite": "tasses",
+      "quantite": 9.33
+    },
+    {
+      "nom": "Patates en cubes",
+      "unite": "tasses",
+      "quantite": 13.5
+    },
+    {
+      "nom": "Carottes tranchées",
+      "unite": "tasses",
+      "quantite": 2
+    },
+    {
+      "nom": "Céleri tranché",
+      "unite": "tasses",
+      "quantite": 2
+    },
+    {
+      "nom": "Oignons tranchés",
+      "unite": "tasse",
+      "quantite": 1
+    },
+    {
+      "nom": "Sel",
+      "unite": "c. à table",
+      "quantite": 1
+    },
+    {
+      "nom": "Poivre",
+      "unite": "c. à thé",
+      "quantite": 1
+    },
+    {
+      "nom": "Margarine",
+      "unite": "tasse",
+      "quantite": 1
+    },
+    {
+      "nom": "Lait",
+      "unite": "tasses",
+      "quantite": 9.33
+    },
+    {
+      "nom": "Farine",
+      "unite": "tasse",
+      "quantite": 1
+    },
+    {
+      "nom": "Fromage râpé",
+      "unite": "tasses",
+      "quantite": 5.5
+    },
+    {
+      "nom": "Blé d'inde en crème",
+      "unite": "oz.",
+      "quantite": 67
+    }
+  ],
+  "technique_de_realisation": [
+    "Faire bouillir l'eau. Ajouter les patates, carottes, céleri, oignons, sel et poivre. Couvrir et mijoter pendant 10 minutes.",
+    "Faire une sauce blanche avec la margarine, farine et lait. Ajouter le fromage râpé et bien mélanger.",
+    "Combiner les légumes avec leur eau, le blé d'inde et la sauce. Réchauffer en remuant.",
+    "Ne pas laisser bouillir."
+  ]
+}

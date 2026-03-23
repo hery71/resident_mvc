@@ -1,0 +1,63 @@
+{
+  "titre": "Chop Suey Dish",
+  "pax": 1,
+  "ingredients": [
+    {
+      "nom": "Celery",
+      "unite": "cups",
+      "quantite": 2
+    },
+    {
+      "nom": "Hamburger or left-over chicken or turkey",
+      "unite": "lb",
+      "quantite": 1
+    },
+    {
+      "nom": "Flour",
+      "unite": "PM",
+      "quantite": 1
+    },
+    {
+      "nom": "Water",
+      "unite": "PM",
+      "quantite": 1
+    },
+    {
+      "nom": "Soya sauce",
+      "unite": "PM",
+      "quantite": 1
+    },
+    {
+      "nom": "Oil",
+      "unite": "tbsp.",
+      "quantite": 2
+    },
+    {
+      "nom": "Medium onion",
+      "unite": "PM",
+      "quantite": 2
+    },
+    {
+      "nom": "Salt",
+      "unite": "PM",
+      "quantite": 1
+    },
+    {
+      "nom": "Pepper",
+      "unite": "PM",
+      "quantite": 1
+    },
+    {
+      "nom": "Bean sprouts drained",
+      "unite": "can",
+      "quantite": 1
+    }
+  ],
+  "technique_de_realisation": [
+    "In saucepan add sliced celery with water or chicken broth. Boil until tender, drain.",
+    "In a frying pan add hamburger to the oil and add onions, salt and pepper. Cook through, then add cooked celery.",
+    "Make a gravy with water and flour. Add soya sauce to make the sauce brown.",
+    "Add drained bean sprouts.",
+    "Serve with rice or as desired."
+  ]
+}

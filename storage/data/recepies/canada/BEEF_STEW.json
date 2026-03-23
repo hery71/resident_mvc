@@ -1,0 +1,58 @@
+{
+  "titre": "Beef Stew",
+  "pax": 40,
+  "ingredients": [
+    {
+      "nom": "Margarine",
+      "unite": "lbs",
+      "quantite": 0.25
+    },
+    {
+      "nom": "Meat",
+      "unite": "lbs",
+      "quantite": 8
+    },
+    {
+      "nom": "Diced onion",
+      "unite": "cups",
+      "quantite": 2
+    },
+    {
+      "nom": "Diced celery",
+      "unite": "cups",
+      "quantite": 2
+    },
+    {
+      "nom": "Diced carrots",
+      "unite": "cups",
+      "quantite": 2
+    },
+    {
+      "nom": "Bay leaf",
+      "unite": "PM",
+      "quantite": 1
+    },
+    {
+      "nom": "Cube potatoes",
+      "unite": "gal.",
+      "quantite": 1.5
+    },
+    {
+      "nom": "Water",
+      "unite": "gal.",
+      "quantite": 2
+    },
+    {
+      "nom": "Salt",
+      "unite": "tbsp.",
+      "quantite": 3.33
+    }
+  ],
+  "technique_de_realisation": [
+    "Brown meat in margarine, add vegetables and sauté for 10 minutes.",
+    "Add water and simmer until meat is tender (about 1 hour).",
+    "Add potatoes and salt. Cook 15 minutes.",
+    "Add dumplings, cover pot and let stand 20 minutes.",
+    "Note: For dumplings, see dumpling recipe."
+  ]
+}

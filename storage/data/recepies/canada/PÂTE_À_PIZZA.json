@@ -1,0 +1,37 @@
+{
+  "titre": "Pâte à Pizza",
+  "pax": 1,
+  "ingredients": [
+    {
+      "nom": "Levure",
+      "unite": "tbsp.",
+      "quantite": 2
+    },
+    {
+      "nom": "Eau tiède",
+      "unite": "tasses",
+      "quantite": 2
+    },
+    {
+      "nom": "Sucre blanc",
+      "unite": "tbsp.",
+      "quantite": 1
+    },
+    {
+      "nom": "Farine",
+      "unite": "tasses",
+      "quantite": 4
+    },
+    {
+      "nom": "Sel",
+      "unite": "tsp.",
+      "quantite": 1
+    }
+  ],
+  "technique_de_realisation": [
+    "Mélanger la levure, l'eau tiède et le sucre blanc.",
+    "Laisser tremper 10 minutes.",
+    "Ajouter la farine et le sel.",
+    "Pétrir la pâte."
+  ]
+}

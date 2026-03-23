@@ -1,0 +1,36 @@
+{
+  "titre": "Chicken Sandwich Filling",
+  "pax": 9,
+  "ingredients": [
+    {
+      "nom": "Chicken cooked diced fine",
+      "unite": "cups",
+      "quantite": 2.25
+    },
+    {
+      "nom": "Celery diced fine",
+      "unite": "cup",
+      "quantite": 0.5
+    },
+    {
+      "nom": "Salad dressing",
+      "unite": "cup",
+      "quantite": 0.75
+    },
+    {
+      "nom": "Salt",
+      "unite": "PM",
+      "quantite": 1
+    },
+    {
+      "nom": "Pepper",
+      "unite": "PM",
+      "quantite": 1
+    }
+  ],
+  "technique_de_realisation": [
+    "Mix chicken and celery together.",
+    "Add salad dressing and mix well.",
+    "Season to taste."
+  ]
+}

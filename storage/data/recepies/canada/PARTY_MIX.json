@@ -1,0 +1,60 @@
+{
+  "titre": "Party Mix",
+  "pax": 1,
+  "ingredients": [
+    {
+      "nom": "Mini Ritz",
+      "unite": "boites",
+      "quantite": 2
+    },
+    {
+      "nom": "Buggle (plain)",
+      "unite": "sacs",
+      "quantite": 2
+    },
+    {
+      "nom": "Cheese fish",
+      "unite": "petit sac",
+      "quantite": 1
+    },
+    {
+      "nom": "Mix nuts",
+      "unite": "sacs",
+      "quantite": 2
+    },
+    {
+      "nom": "Pretzel (small)",
+      "unite": "sac",
+      "quantite": 0.5
+    },
+    {
+      "nom": "Cheese stick shreddies",
+      "unite": "sac",
+      "quantite": 1
+    },
+    {
+      "nom": "Oil",
+      "unite": "tasse",
+      "quantite": 1.5
+    },
+    {
+      "nom": "Garlic powder",
+      "unite": "tbsp.",
+      "quantite": 1.5
+    },
+    {
+      "nom": "Dill weed",
+      "unite": "tbsp.",
+      "quantite": 2
+    },
+    {
+      "nom": "Ranch dressing",
+      "unite": "enveloppes",
+      "quantite": 2
+    }
+  ],
+  "technique_de_realisation": [
+    "Mélanger tous les ingrédients et couvrir.",
+    "Laisser sur l'armoire et continuer de brasser de temps en temps."
+  ]
+}

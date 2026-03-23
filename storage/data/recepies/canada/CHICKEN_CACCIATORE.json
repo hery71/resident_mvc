@@ -1,0 +1,22 @@
+{
+  "titre": "Chicken Cacciatore",
+  "pax": 60,
+  "ingredients": [
+    {"nom": "Butter or margarine", "unite": "ml.", "quantite": 75},
+    {"nom": "Chicken parts", "unite": "Kg.", "quantite": 15},
+    {"nom": "Sliced onions", "unite": "ml.", "quantite": 1500},
+    {"nom": "Green pepper strips", "unite": "ml.", "quantite": 1500},
+    {"nom": "Bay leaves", "unite": "PM", "quantite": 12},
+    {"nom": "Garlic cloves minced", "unite": "PM", "quantite": 10},
+    {"nom": "Basil", "unite": "ml.", "quantite": 30},
+    {"nom": "V-8 juice", "unite": "L.", "quantite": 4.4}
+  ],
+  "technique_de_realisation": [
+    "In buttered baking pans, place chicken skin side up.",
+    "Bake uncovered at 400 F for 30 minutes.",
+    "Add onions, green pepper, seasonings and juice to chicken.",
+    "Continue to bake 40 minutes or until chicken is tender. Stir occasionally.",
+    "Remove bay leaves and chicken.",
+    "Thicken sauce if desired."
+  ]
+}

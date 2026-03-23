@@ -1,0 +1,45 @@
+{
+  "titre": "Chicken Fricot (Stew)",
+  "pax": 40,
+  "ingredients": [
+    {
+      "nom": "Chicken (3-4 lbs)",
+      "unite": "PM",
+      "quantite": 5
+    },
+    {
+      "nom": "Water",
+      "unite": "gal.",
+      "quantite": 2
+    },
+    {
+      "nom": "Savory",
+      "unite": "tbsp.",
+      "quantite": 1.33
+    },
+    {
+      "nom": "Onions",
+      "unite": "cups",
+      "quantite": 2
+    },
+    {
+      "nom": "Chicken base",
+      "unite": "tbsp.",
+      "quantite": 2
+    },
+    {
+      "nom": "Potatoes cubed",
+      "unite": "gal.",
+      "quantite": 1.67
+    }
+  ],
+  "technique_de_realisation": [
+    "Simmer chicken in water for 25 minutes. Remove skin and bones.",
+    "Add savory, onions and chicken base to stock. Simmer 10 minutes.",
+    "Add cubed potatoes.",
+    "Add dumplings. Simmer 10 minutes covered. Do not stir after dumplings have been added.",
+    "Add chicken back.",
+    "Simmer 1 hour.",
+    "Serve with soda biscuits or tea biscuits."
+  ]
+}

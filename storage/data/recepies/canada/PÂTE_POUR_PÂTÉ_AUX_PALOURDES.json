@@ -1,0 +1,41 @@
+{
+  "titre": "Pâte pour Pâté aux Palourdes",
+  "pax": 50,
+  "ingredients": [
+    {
+      "nom": "Farine",
+      "unite": "tasses",
+      "quantite": 5
+    },
+    {
+      "nom": "Saindoux",
+      "unite": "tasses",
+      "quantite": 2.5
+    },
+    {
+      "nom": "Poudre à pâte",
+      "unite": "c. à table",
+      "quantite": 2
+    },
+    {
+      "nom": "Crème de tartre",
+      "unite": "c. à table",
+      "quantite": 0.5
+    },
+    {
+      "nom": "Sel",
+      "unite": "c. à thé",
+      "quantite": 1
+    },
+    {
+      "nom": "Eau",
+      "unite": "tasses",
+      "quantite": 2
+    }
+  ],
+  "technique_de_realisation": [
+    "Combiner la farine, la poudre à pâte et le sel.",
+    "Couper le saindoux dans la farine.",
+    "Ajouter l'eau pour faire une pâte."
+  ]
+}

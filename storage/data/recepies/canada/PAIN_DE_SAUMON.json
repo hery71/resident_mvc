@@ -1,0 +1,24 @@
+{
+  "titre": "Pain de Saumon",
+  "pax": 1,
+  "ingredients": [
+    {"nom": "Saumon", "unite": "can (8 oz)", "quantite": 1},
+    {"nom": "Miette de pain", "unite": "tasse", "quantite": 1.5},
+    {"nom": "Oeufs", "unite": "PM", "quantite": 2},
+    {"nom": "Beurre", "unite": "c. à table", "quantite": 2},
+    {"nom": "Oignon", "unite": "petit", "quantite": 1},
+    {"nom": "Feuille de céleri", "unite": "tasse", "quantite": 0.25},
+    {"nom": "Persil", "unite": "PM", "quantite": 1},
+    {"nom": "Sel", "unite": "c. à thé", "quantite": 0.5},
+    {"nom": "Moutarde sèche", "unite": "c. à thé", "quantite": 0.25},
+    {"nom": "Lait", "unite": "tasse", "quantite": 0.25}
+  ],
+  "technique_de_realisation": [
+    "Mettre la chapelure de côté dans un bol.",
+    "Placer dans un autre bol le reste des ingrédients. Mélanger 30 à 40 secondes.",
+    "Verser sur la chapelure et bien mélanger.",
+    "Verser dans un moule à pain bien graissé.",
+    "Faire cuire au four à 375 F environ 25 minutes ou jusqu'à ce que la croûte soit légèrement dorée.",
+    "Servir avec sauce blanche ou hollandaise. Également bon froid avec mayonnaise."
+  ]
+}

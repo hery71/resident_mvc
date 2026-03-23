@@ -1,0 +1,60 @@
+{
+  "titre": "Chinese Chop Suey Casserole",
+  "pax": 1,
+  "ingredients": [
+    {
+      "nom": "Ground beef",
+      "unite": "lbs",
+      "quantite": 1.75
+    },
+    {
+      "nom": "Chopped onion",
+      "unite": "cup",
+      "quantite": 1
+    },
+    {
+      "nom": "Sliced mushrooms",
+      "unite": "tin",
+      "quantite": 1
+    },
+    {
+      "nom": "Long grain rice",
+      "unite": "cups",
+      "quantite": 2
+    },
+    {
+      "nom": "Sweet & sour sauce",
+      "unite": "tin",
+      "quantite": 1
+    },
+    {
+      "nom": "Water",
+      "unite": "cups",
+      "quantite": 3
+    },
+    {
+      "nom": "Soya sauce",
+      "unite": "cup",
+      "quantite": 0.5
+    },
+    {
+      "nom": "Chopped celery",
+      "unite": "cup",
+      "quantite": 1
+    },
+    {
+      "nom": "Salt",
+      "unite": "PM",
+      "quantite": 1
+    },
+    {
+      "nom": "Pepper",
+      "unite": "PM",
+      "quantite": 1
+    }
+  ],
+  "technique_de_realisation": [
+    "Place all ingredients in casserole in order given.",
+    "Cover and bake 1 to 1 1/4 hours at 375 F."
+  ]
+}

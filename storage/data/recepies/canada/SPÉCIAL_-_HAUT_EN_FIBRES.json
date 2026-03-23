@@ -1,0 +1,25 @@
+{
+  "titre": "Spéciale - Haut en Fibres",
+  "pax": 32,
+  "ingredients": [
+    {
+      "nom": "Sauce aux pommes (sans sucre)",
+      "unite": "tasses",
+      "quantite": 2
+    },
+    {
+      "nom": "Son naturel",
+      "unite": "tasses",
+      "quantite": 2
+    },
+    {
+      "nom": "Jus de prunes 100%",
+      "unite": "tasse",
+      "quantite": 1
+    }
+  ],
+  "technique_de_realisation": [
+    "Mélanger le tout.",
+    "Prêt à servir."
+  ]
+}

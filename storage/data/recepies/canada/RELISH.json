@@ -1,0 +1,64 @@
+{
+  "titre": "Relish",
+  "pax": 1,
+  "ingredients": [
+    {
+      "nom": "Tomato",
+      "unite": "lg",
+      "quantite": 6
+    },
+    {
+      "nom": "Onion",
+      "unite": "lg",
+      "quantite": 4
+    },
+    {
+      "nom": "Carotte",
+      "unite": "PM",
+      "quantite": 4
+    },
+    {
+      "nom": "Cuke (concombre)",
+      "unite": "PM",
+      "quantite": 6
+    },
+    {
+      "nom": "Vinegar",
+      "unite": "PM",
+      "quantite": 1
+    },
+    {
+      "nom": "White sugar",
+      "unite": "cups",
+      "quantite": 5
+    },
+    {
+      "nom": "Flour",
+      "unite": "cup",
+      "quantite": 1
+    },
+    {
+      "nom": "Dry mustard",
+      "unite": "tbsp.",
+      "quantite": 2
+    },
+    {
+      "nom": "Salt",
+      "unite": "tbsp.",
+      "quantite": 2
+    },
+    {
+      "nom": "Tumeric",
+      "unite": "tbsp.",
+      "quantite": 1
+    }
+  ],
+  "technique_de_realisation": [
+    "Put tomatoes, onions, carrots and cucumbers through meat chopper.",
+    "Cover with vinegar and simmer 20 minutes.",
+    "Mix sugar, flour, dry mustard, salt and tumeric together. Add enough vinegar to make a dough.",
+    "Add dry mixture to first part.",
+    "Simmer 20 minutes.",
+    "Bottle and seal."
+  ]
+}

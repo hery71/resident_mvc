@@ -1,0 +1,47 @@
+{
+  "titre": "Pizza Noodle Casserole",
+  "pax": 1,
+  "ingredients": [
+    {
+      "nom": "Macaroni cuit",
+      "unite": "oz",
+      "quantite": 8
+    },
+    {
+      "nom": "Hamburg cuit",
+      "unite": "lb.",
+      "quantite": 1
+    },
+    {
+      "nom": "Champignons égouttés",
+      "unite": "can",
+      "quantite": 1
+    },
+    {
+      "nom": "Pepperoni coupé en morceaux",
+      "unite": "ozs",
+      "quantite": 4
+    },
+    {
+      "nom": "Sauce pizza",
+      "unite": "ozs",
+      "quantite": 15
+    },
+    {
+      "nom": "Fromage cheddar râpé",
+      "unite": "tasses",
+      "quantite": 2
+    },
+    {
+      "nom": "Mozzarella râpé",
+      "unite": "tasse",
+      "quantite": 1
+    }
+  ],
+  "technique_de_realisation": [
+    "Mélanger le macaroni, hamburg, champignons, pepperoni, sauce pizza et cheddar ensemble et mettre dans une casserole.",
+    "Mettre la mozzarella par dessus.",
+    "Note: Pour résidents bas en sel, omettre le pepperoni.",
+    "Cuire à 375 F pour 25 à 30 minutes."
+  ]
+}

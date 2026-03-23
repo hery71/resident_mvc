@@ -1,0 +1,73 @@
+{
+  "titre": "Soupe Riz ou Macaroni & Tomates",
+  "pax": 50,
+  "ingredients": [
+    {
+      "nom": "Margarine",
+      "unite": "oz.",
+      "quantite": 4
+    },
+    {
+      "nom": "Carottes en cubes",
+      "unite": "tasses",
+      "quantite": 4
+    },
+    {
+      "nom": "Céleri en cubes",
+      "unite": "tasses",
+      "quantite": 4
+    },
+    {
+      "nom": "Oignons en cubes",
+      "unite": "tasses",
+      "quantite": 4
+    },
+    {
+      "nom": "Eau ou bouillon de poulet",
+      "unite": "gallons",
+      "quantite": 2
+    },
+    {
+      "nom": "Base de poulet",
+      "unite": "oz.",
+      "quantite": 6
+    },
+    {
+      "nom": "Sel",
+      "unite": "tbsp.",
+      "quantite": 1.5
+    },
+    {
+      "nom": "Poivre",
+      "unite": "tsp.",
+      "quantite": 0.5
+    },
+    {
+      "nom": "Grosses feuilles de laurier",
+      "unite": "PM",
+      "quantite": 2
+    },
+    {
+      "nom": "Tomates",
+      "unite": "can (28 oz)",
+      "quantite": 1
+    },
+    {
+      "nom": "Jus de tomates",
+      "unite": "tasses",
+      "quantite": 4
+    },
+    {
+      "nom": "Riz ou macaroni",
+      "unite": "tasses",
+      "quantite": 3
+    }
+  ],
+  "technique_de_realisation": [
+    "Faire sauter les carottes, céleri et oignons dans la margarine.",
+    "Ajouter l'eau ou bouillon de poulet, base de poulet, sel, poivre, feuilles de laurier, tomates et jus de tomates.",
+    "Ajouter le riz ou le macaroni.",
+    "Mijoter 40 minutes.",
+    "Ajuster le sel."
+  ]
+}

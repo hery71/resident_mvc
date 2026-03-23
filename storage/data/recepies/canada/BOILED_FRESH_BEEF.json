@@ -1,0 +1,20 @@
+{
+  "titre": "Boiled Fresh Beef (Brisket)",
+  "pax": 50,
+  "ingredients": [
+    {"nom": "Fresh brisket", "unite": "lbs", "quantite": 20},
+    {"nom": "Onions", "unite": "lbs.", "quantite": 2},
+    {"nom": "Carrots", "unite": "lb.", "quantite": 1},
+    {"nom": "Celery", "unite": "lb.", "quantite": 1},
+    {"nom": "Bay leaves", "unite": "PM", "quantite": 2},
+    {"nom": "Whole cloves", "unite": "PM", "quantite": 5},
+    {"nom": "Peppercorn", "unite": "tsp.", "quantite": 1},
+    {"nom": "Salt", "unite": "PM", "quantite": 1}
+  ],
+  "technique_de_realisation": [
+    "Cover brisket with boiling water.",
+    "Return to boil and remove scum as it rises to surface.",
+    "Add vegetables and seasoning.",
+    "Simmer 2h30 to 3 hours."
+  ]
+}

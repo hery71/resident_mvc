@@ -1,0 +1,17 @@
+{
+  "titre": "Boiled Smoked Ham",
+  "pax": 60,
+  "ingredients": [
+    {"nom": "Ham", "unite": "lbs", "quantite": 22},
+    {"nom": "Water", "unite": "PM", "quantite": 1},
+    {"nom": "Molasses", "unite": "cup", "quantite": 0.5},
+    {"nom": "Whole cloves", "unite": "PM", "quantite": 6}
+  ],
+  "technique_de_realisation": [
+    "Cover ham with water.",
+    "Simmer 1h30.",
+    "Add molasses and cloves.",
+    "Simmer an extra 30 minutes.",
+    "Total simmer time: 4 hours."
+  ]
+}

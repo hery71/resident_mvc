@@ -1,0 +1,20 @@
+{
+  "titre": "Meat Loaf",
+  "pax": 60,
+  "ingredients": [
+    {"nom": "Lean ground meat", "unite": "lbs", "quantite": 10},
+    {"nom": "Diced onions", "unite": "cups", "quantite": 2},
+    {"nom": "Dried bread crumbs", "unite": "cups", "quantite": 2},
+    {"nom": "Beef consommé", "unite": "cups", "quantite": 2},
+    {"nom": "Salt", "unite": "PM", "quantite": 1},
+    {"nom": "Pepper", "unite": "PM", "quantite": 1},
+    {"nom": "Tomato soup", "unite": "cans (10 oz)", "quantite": 3}
+  ],
+  "technique_de_realisation": [
+    "Mix all ingredients and make 6 loaves.",
+    "Pour 1/2 can tomato soup over each loaf.",
+    "Cook uncovered in preheated oven for 1 hour.",
+    "Cover with foil and cook extra 1 hour.",
+    "Total: cook at 325 F for 2 hours."
+  ]
+}

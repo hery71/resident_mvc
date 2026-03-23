@@ -1,0 +1,21 @@
+{
+  "titre": "Porc Chops",
+  "pax": 40,
+  "ingredients": [
+    {"nom": "Porc chops", "unite": "pieces", "quantite": 80},
+    {"nom": "Salt", "unite": "PM", "quantite": 1},
+    {"nom": "Pepper", "unite": "PM", "quantite": 1},
+    {"nom": "Garlic", "unite": "PM", "quantite": 1},
+    {"nom": "Onions", "unite": "cups", "quantite": 4},
+    {"nom": "Celery", "unite": "cups", "quantite": 4},
+    {"nom": "Beef or chicken stock", "unite": "gallon", "quantite": 0.5}
+  ],
+  "technique_de_realisation": [
+    "Grill chops on both sides on lightly greased grill. Season with salt, pepper and garlic.",
+    "Divide into 2 deep insert pans.",
+    "Sauté onions and celery on grill and add to chops.",
+    "Divide stock into the 2 pans. Cover.",
+    "Cook at 325 F for 1 hour.",
+    "Before serving, make gravy with stock."
+  ]
+}

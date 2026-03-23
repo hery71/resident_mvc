@@ -1,0 +1,41 @@
+{
+  "titre": "Zero Gravy",
+  "pax": 50,
+  "ingredients": [
+    {
+      "nom": "Consommé or beef stock (no fat)",
+      "unite": "qts",
+      "quantite": 2.5
+    },
+    {
+      "nom": "Tomato purée or ketchup",
+      "unite": "oz.",
+      "quantite": 5
+    },
+    {
+      "nom": "Thyme",
+      "unite": "tsp.",
+      "quantite": 0.5
+    },
+    {
+      "nom": "Chopped onions",
+      "unite": "cup",
+      "quantite": 0.5
+    },
+    {
+      "nom": "Corn starch",
+      "unite": "cup",
+      "quantite": 1.5
+    },
+    {
+      "nom": "Water",
+      "unite": "cup",
+      "quantite": 1.25
+    }
+  ],
+  "technique_de_realisation": [
+    "Simmer consommé, tomato purée, thyme and onions for 10 minutes.",
+    "Mix water into corn starch and add to stock.",
+    "Cook until thick."
+  ]
+}

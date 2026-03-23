@@ -1,0 +1,49 @@
+{
+  "titre": "Scalloped Potatoes",
+  "pax": 50,
+  "ingredients": [
+    {
+      "nom": "Fat",
+      "unite": "oz",
+      "quantite": 8
+    },
+    {
+      "nom": "Flour",
+      "unite": "oz",
+      "quantite": 8
+    },
+    {
+      "nom": "Milk",
+      "unite": "oz",
+      "quantite": 120
+    },
+    {
+      "nom": "Salt",
+      "unite": "oz",
+      "quantite": 1.5
+    },
+    {
+      "nom": "Potatoes",
+      "unite": "gallon",
+      "quantite": 1
+    },
+    {
+      "nom": "Onions",
+      "unite": "oz",
+      "quantite": 16
+    },
+    {
+      "nom": "Butter",
+      "unite": "oz",
+      "quantite": 2
+    }
+  ],
+  "technique_de_realisation": [
+    "Make cream sauce with fat, flour, milk and salt.",
+    "Cook potatoes in steamer for 20 minutes.",
+    "Slice potatoes thinly.",
+    "Arrange alternate layers of potatoes, onions and cream sauce in greased steam table insert.",
+    "Pour melted butter over surface and cover.",
+    "Cook at 325 F for 2 hours. Uncover for last 30 minutes."
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "titre": "Foie",
+  "pax": 60,
+  "ingredients": [
+    {"nom": "Foie", "unite": "lbs", "quantite": 12},
+    {"nom": "Poivre", "unite": "PM", "quantite": 1},
+    {"nom": "Sel", "unite": "PM", "quantite": 1},
+    {"nom": "Liquide ou bouillon de boeuf", "unite": "tasses", "quantite": 8},
+    {"nom": "Spanish onion", "unite": "gros", "quantite": 4}
+  ],
+  "technique_de_realisation": [
+    "Frire le foie légèrement des deux côtés dans la graisse de bacon.",
+    "Saler et poivrer après la friture.",
+    "Trancher les oignons en demi-rondelles, frire et ajouter la moitié dans chaque plat.",
+    "Ajouter 4 tasses de liquide par plat.",
+    "Cuire 45 minutes à 375 F, puis 30 minutes à 300 F."
+  ]
+}
