@@ -11,7 +11,7 @@ function setOrientation(value) {
         @media print {
             @page {
                 size: ${value};
-                margin: 10mm;
+                margin: 0mm;
             }
         }
     `;
@@ -93,8 +93,8 @@ th {
 
 @media print {
 
-    @page {
-        margin: 10mm;
+    .no-print {
+        display: none !important;
     }
 
     body {
@@ -111,16 +111,19 @@ th {
         margin: 0;
         padding: 0;
         font-size: var(--print-font-size, 14px) !important;
-        width: 100%;
     }
 
     th, td {
         padding: 3px;
     }
+}
 
-    .no-print {
-        display: none !important;
+</style>
+<style id="orientation-style">
+@media print {
+    @page {
+        size: letter portrait;
+        margin: 5mm;
     }
 }
 </style>
-

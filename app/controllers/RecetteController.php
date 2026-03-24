@@ -28,6 +28,16 @@ class RecetteController
         $custom_js = $custom_style = '';
         require __DIR__ . '/../views/alimentaire/recette/detailca.php';
     }
+     public function printRecipeCa()
+    {
+        $id = $_GET['id'] ?? '';
+        $fichier = __DIR__ . '/../../storage/data/recepies/canada/' . basename($id) . '.json';
+        if (!file_exists($fichier)) { header('Location: /recette/'); exit; }
+        $r = json_decode(file_get_contents($fichier), true);
+        $title = $r['titre'];
+        $custom_js = $custom_style = '';
+        require __DIR__ . '/../views/alimentaire/recette/printRecipeCa.php';
+    }
     public function indexfr()
     {
         $recettesDir = __DIR__ . '/../../storage/data/recepies/france/';
