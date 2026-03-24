@@ -44,31 +44,34 @@
                         <a class="dropdown-item" href="/resident/create">Ajouter un résident</a>
                     </div>
                 </li>
-
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle"
-                       href="#"
-                       id="birthdayDropdown"
-                       role="button"
-                       data-toggle="dropdown">
-                        Anniversaires
+                    href="#"
+                    data-toggle="dropdown">
+                        Événements
                     </a>
                     <div class="dropdown-menu">
-                        <a class="dropdown-item" href="/birthday">Anniversaires</a>
-                        <a class="dropdown-item" href="/cake/cake_list_order?mois=<?= date('n') ?>&annee=<?= date('Y') ?>">Cake Order List</a>
+
+                        <!-- Sous-menu Anniversaires -->
+                        <div class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#">Anniversaires</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="/birthday">Anniversaires</a>
+                                <a class="dropdown-item" href="/cake/cake_list_order?mois=<?= date('n') ?>&annee=<?= date('Y') ?>">Cake Order List</a>
+                            </div>
+                        </div>
+
+                        <!-- Sous-menu Fêtes -->
+                        <div class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#">Fêtes</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="/Fete/?mois=<?= date('n') ?>&annee=<?= date('Y') ?>">Liste des fêtes</a>
+                                <a class="dropdown-item" href="/Fete/create">Ajouter fête</a>
+                            </div>
+                        </div>
+
                     </div>
                 </li>
-
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
-                        Fêtes
-                    </a>
-                    <div class="dropdown-menu">
-                        <a class="dropdown-item" href="/Fete/?mois=<?= date('n') ?>&annee=<?= date('Y') ?>"> Liste des fêtes </a>
-                        <a class="dropdown-item" href="/Fete/create"> Ajouter fête</a>
-                    </div>
-                </li>
-
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle"
                        href="#"
@@ -79,7 +82,6 @@
                         <a class="dropdown-item" href="/menage/">Liste Inspections</a>
                     </div>
                 </li>
-
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle"
                        href="#"

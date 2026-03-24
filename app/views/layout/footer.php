@@ -8,6 +8,17 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"></script>
 
     <script>
+    //Dropdown Menu
+    document.querySelectorAll('.dropdown-submenu .dropdown-toggle').forEach(el => {
+        el.addEventListener('click', function(e) {
+            e.stopPropagation();
+            e.preventDefault();
+            let menu = this.nextElementSibling;
+            menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
+        });
+    });
+
+
     // Tailles de police
 
     const fontSizes = {
