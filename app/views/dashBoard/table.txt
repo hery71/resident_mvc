@@ -1,0 +1,5 @@
+Columns:
+Id int AI PK 
+Login longtext 
+Email longtext 
+password varchar(96)
