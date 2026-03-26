@@ -22,6 +22,7 @@ $colonnes='
           href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://resident_mvc.test/assets/css/style.css">
 <?php require __DIR__ . '/../../layout/printStyleScript.php'; ?>
+<style id="orientation-style"></style>
 </head>
 <body>
 <div class="container mt-4" id="printable-area">
@@ -29,17 +30,17 @@ $colonnes='
 <H3 class="mb-4 text-center font-weight-bold">Menu du mois: <?= $monthName ?> <?= $year ?></H3> 
     <div class="table-responsive">
             <table class="table table-bordered table-striped">
-    <colgroup>
-        <col style="width:30%">  <!-- Date -->
-        <col style="width:25%">  <!-- Jour -->
-        <col style="width:4%">  <!-- Saison -->
-        <col style="width:2%">  <!-- Week -->
-        <col style="width:15%">  <!-- Breakfast -->
-        <col style="width:15%">  <!-- Lunch -->
-        <col style="width:12%">  <!-- Lunch Dessert -->
-        <col style="width:15%">  <!-- Dinner -->
-        <col style="width:12%">  <!-- Dinner Dessert -->
-    </colgroup>
+    <colgroup id="dynamic-colgroup">
+    <col style="width:8%">
+    <col style="width:10%">
+    <col style="width:5%">
+    <col style="width:4%">
+    <col style="width:15%">
+    <col style="width:20%">
+    <col style="width:10%">
+    <col style="width:20%">
+    <col style="width:10%">
+</colgroup>
                 <thead>
                     <tr>
                         
@@ -75,7 +76,7 @@ $colonnes='
                                     <?= htmlspecialchars($r['menu']['dinner_dessert'] ?? '') ?>
                                 </td>
                             <?php else: ?>
-                                <td class="toggle-col-breakfast" colspan="5" class="text-muted text-center">
+                                <td class="toggle-col-breakfast text-muted text-center" colspan="5">
                                     Aucun menu
                                 </td>
                             <?php endif; ?>
@@ -91,6 +92,7 @@ $colonnes='
             © 2026 – Resident MVC
         </small>
     </footer>
+
 </body>
     </html>
 

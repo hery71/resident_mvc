@@ -20,6 +20,7 @@ $colonnes='
           href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://resident_mvc.test/assets/css/style.css">
 <?php require __DIR__ . '/../../layout/printStyleScript.php'; ?>
+<style id="orientation-style"></style>
 </head>
 <body>
 <div class="container mt-4" id="printable-area">

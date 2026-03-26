@@ -21,11 +21,11 @@
     <!-- Orientation -->
     <div class="col-md-3">
         <label class="mb-0 mr-2">Orientation :</label>
-        <select class="form-control form-control-sm" onchange="setPrintSettings(this.value)">
-            <option value="1" selected>Letter -Portrait</option>
-            <option value="2">Letter - Paysage</option>
-            <option value="3">Legal -Portrait</option>
-            <option value="4">Legal - Paysage</option>
+        <select onchange="setPrintSettings(this.value)">
+            <option value="1">Letter Portrait</option>
+            <option value="2">Letter Landscape</option>
+            <option value="3">Legal Portrait</option>
+            <option value="4">Legal Landscape</option>
         </select>
     </div>
     

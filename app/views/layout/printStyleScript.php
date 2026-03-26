@@ -1,23 +1,56 @@
 <script>
+function updateColgroup() {
+    const cols = [
+        { cls: 'col-1', weight: 8 },
+        { cls: 'col-2', weight: 10 },
+        { cls: 'col-3', weight: 5 },
+        { cls: 'col-4', weight: 4 },
+        { cls: 'col-5', weight: 15 },
+        { cls: 'col-6', weight: 20 },
+        { cls: 'col-7', weight: 10 },
+        { cls: 'col-8', weight: 20 },
+        { cls: 'col-9', weight: 10 }
+    ];
+
+    const visibleCols = cols.filter(col => {
+        const th = document.querySelector('th.' + col.cls);
+        return th && !th.classList.contains('hide-col');
+    });
+
+    const total = visibleCols.reduce((sum, col) => sum + col.weight, 0);
+
+    const colgroup = document.getElementById('dynamic-colgroup');
+    if (!colgroup) return;
+
+    colgroup.innerHTML = '';
+
+    visibleCols.forEach(colData => {
+        const col = document.createElement('col');
+        col.style.width = ((colData.weight / total) * 100) + '%';
+        colgroup.appendChild(col);
+    });
+}
 function setPrintFontSize(size) {
     document
         .getElementById('printable-area')
         .style
         .setProperty('--print-font-size', size);
 }
-function setOrientation(value) {
-
-    document.getElementById('orientation-style').innerHTML = `
+function applyPrintStyle(paper, orientation) {
+    const style = document.getElementById('orientation-style');
+    style.innerHTML = `
         @media print {
             @page {
-                size: ${value};
+                size: ${paper} ${orientation};
                 margin: 10mm;
             }
         }
     `;
 }
 function setPrintSettings(valeur) {
-    let paper, orientation;
+    let paper = 'letter';
+    let orientation = 'portrait';
+
     switch(valeur) {
         case '1':
             paper = 'letter';
@@ -35,28 +68,22 @@ function setPrintSettings(valeur) {
             paper = 'legal';
             orientation = 'landscape';
             break;
-        default:
-            paper = 'letter';
-            orientation = 'portrait';
     }
-    document.getElementById('orientation-style').textContent = `
-        @media print {
-            @page {
-                size: ${paper} ${orientation};
-                margin: 10mm;
-            }
-        }
-    `;
+
+    applyPrintStyle(paper, orientation);
 }
 function toggleColumn(colClass) {
     document.querySelectorAll("." + colClass).forEach(el => {
         el.classList.toggle("hide-col");
     });
+
+    updateColgroup(); // ← AJOUT IMPORTANT
 }
-</script>
-<script>
 document.addEventListener('DOMContentLoaded', () => {
-  setPrintSettings(document.querySelector('select[onchange*="setPrintSettings"]').value);
+  const select = document.querySelector('select[onchange*="setPrintSettings"]');
+  if (select) {
+      setPrintSettings(select.value);
+  }
 });
 </script>
 <style>
