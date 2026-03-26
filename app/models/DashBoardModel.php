@@ -125,4 +125,27 @@ class DashboardModel
 
         return $results;
     }
+    public function savesetting($userId, $cols, $color){
+         $stmt = $this->pdo->prepare("
+            INSERT INTO user_settings (user_id, dash_cols, dash_color)
+            VALUES (?, ?, ?)
+            ON DUPLICATE KEY UPDATE
+                dash_cols = VALUES(dash_cols),
+                dash_color = VALUES(dash_color)
+        ");
+
+        $stmt->execute([$userId, $cols, $color]);
+    }
+    public function getUserSettings($userId)
+    {
+        $stmt = $this->pdo->prepare("
+            SELECT dash_cols, dash_color
+            FROM user_settings
+            WHERE user_id = ?
+            LIMIT 1
+        ");
+
+        $stmt->execute([$userId]);
+        return $stmt->fetch(PDO::FETCH_ASSOC);
+    }
 }

@@ -49,7 +49,8 @@ class AuthController
             $newHash = password_hash($password, PASSWORD_DEFAULT);
             //$model->updatePassword($user['Id'], $newHash);
         }
-
+        // Connexion OK
+        $_SESSION['user_id'] = $user['Id'];
         Auth::login($user);
         header("Location: /dashBoard");
         exit;

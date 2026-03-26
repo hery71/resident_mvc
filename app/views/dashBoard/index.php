@@ -1,6 +1,78 @@
 <?php $title = "DashBoard";
     $custom_js = <<<'JS'
     // Custom JavaScript can be added here
+        const colors = [
+        { name: 'Bleu',    val: '#A8D8EA' },
+        { name: 'Vert',    val: '#B8E0C8' },
+        { name: 'Rose',    val: '#F2C4CE' },
+        { name: 'Lavande', val: '#D4B8E0' },
+        { name: 'Pêche',   val: '#F9D5A7' },
+        { name: 'Menthe',  val: '#A8EDD4' },
+        { name: 'Gris',    val: '#DDE1E7' },
+        { name: 'Jaune',   val: '#FFF0A0' },
+    ];
+
+    document.addEventListener('DOMContentLoaded', () => {
+
+        const container = document.getElementById('color-swatches');
+
+        const savedCols = document.getElementById('init-cols').value || '3';
+        const savedColor = document.getElementById('init-color').value || '#A8D8EA';
+
+        document.getElementById('active-color').value = savedColor;
+        document.getElementById('col-slider').value = savedCols;
+
+        function applySettings() {
+            const cols = parseInt(document.getElementById('col-slider').value);
+            document.getElementById('col-display').textContent = cols + ' par ligne';
+
+            const fontSizes = { 2:'1.05rem', 3:'0.95rem', 4:'0.82rem', 5:'0.72rem', 6:'0.65rem' };
+            const cardHeight = { 2:'420px', 3:'350px', 4:'300px', 5:'270px', 6:'240px' };
+
+            document.getElementById('dashboard-grid').style.gridTemplateColumns = `repeat(${cols}, 1fr)`;
+
+            document.querySelectorAll('.pastel-tile').forEach(el => {
+                el.style.height = cardHeight[cols];
+                el.style.minHeight = cardHeight[cols];
+                el.style.fontSize = fontSizes[cols];
+            });
+
+            const color = document.getElementById('active-color').value;
+            document.querySelectorAll('.pastel-tile').forEach(el => {
+                el.style.backgroundColor = color;
+            });
+
+            fetch('/dashBoard/saveSettings', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                body: `cols=${cols}&color=${color}`
+            });
+        }
+
+        colors.forEach(c => {
+            const s = document.createElement('div');
+            s.className = 'swatch' + (c.val === savedColor ? ' active' : '');
+            s.style.backgroundColor = c.val;
+
+            s.addEventListener('click', () => {
+                document.querySelectorAll('.swatch').forEach(x => x.classList.remove('active'));
+                s.classList.add('active');
+                document.getElementById('active-color').value = c.val;
+                applySettings();
+            });
+
+            container.appendChild(s);
+        });
+
+        applySettings();
+
+        document.getElementById('col-slider').addEventListener('input', applySettings);
+
+        document.getElementById('config-toggle').addEventListener('click', () => {
+            document.getElementById('config-panel').classList.toggle('open');
+        });
+
+    });
     JS;
     $custom_style = <<<'CSS'
     /* Custom CSS can be added here */
@@ -48,9 +120,55 @@
         border-radius: 12px;
         box-shadow: 0 4px 10px rgba(0,0,0,0.05);
     }
+    /* Panneau config */
+    #config-panel {
+        position: fixed;
+        top: 80px;
+        right: -260px;
+        width: 250px;
+        background: #fff;
+        border: 1px solid #ccc;
+        border-radius: 12px 0 0 12px;
+        box-shadow: -4px 0 15px rgba(0,0,0,0.1);
+        z-index: 9999;
+        transition: right 0.3s ease;
+        padding: 15px;
+    }
+    #config-panel.open { right: 0; }
+    #config-toggle {
+        position: fixed;
+        top: 80px;
+        right: 0;
+        background: #5ebdef;
+        color: white;
+        border: none;
+        border-radius: 8px 0 0 8px;
+        padding: 10px 8px;
+        cursor: pointer;
+        z-index: 10000;
+        writing-mode: vertical-rl;
+        font-size: 0.8rem;
+        font-weight: 600;
+    }
+    #config-panel label { font-size: 0.85rem; font-weight: 600; display: block; margin-top: 10px; }
+    #config-panel input[type=range] { width: 100%; }
+    #col-display { font-size: 0.8rem; color: #555; }
+    .color-swatches { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 5px; }
+    .swatch {
+        width: 28px; height: 28px; border-radius: 6px;
+        cursor: pointer; border: 2px solid transparent;
+        transition: transform 0.15s;
+    }
+    .swatch:hover, .swatch.active { border-color: #333; transform: scale(1.15); }
+    #dashboard-grid {
+    display: grid;
+    gap: 20px;
+    }
 CSS;
 ?>
 <?php require __DIR__ . '/../layout/header.php'; ?>
+<input type="hidden" id="init-cols" value="<?= $settings['dash_cols'] ?? 3 ?>">
+<input type="hidden" id="init-color" value="<?= $settings['dash_color'] ?? '#A8D8EA' ?>">
 <div class="container-fluid mt-4">
 
     <!-- =============================== -->
@@ -76,12 +194,12 @@ CSS;
 
     </div>
 
-    <div class="row">
+    <div id="dashboard-grid">
 
         <!-- ===================== -->
         <!-- TUILE L1 1 : MENU du jour      -->
         <!-- ===================== -->
-        <div class="col-md-4 mb-4">
+        <div class="mb-4">
             <div class="card pastel-tile">
                 <div class="card-header card-header-pastel">
                     Menu du Jour
@@ -126,7 +244,7 @@ CSS;
         <!-- ===================== -->
         <!-- TUILE L1 2 : RESTRICTIONS -->
         <!-- ===================== -->
-        <div class="col-md-4 mb-4">
+        <div class="mb-4">
             <div class="card pastel-tile">
                 <div class="card-header card-header-pastel">
                     Restrictions
@@ -180,7 +298,7 @@ CSS;
         <!-- ===================== -->
         <!-- TUILE L1 3 : ANNIVERSAIRES -->
         <!-- ===================== -->
-        <div class="col-md-4 mb-4">
+        <div class="mb-4">
             <div class="card pastel-tile">
                 <div class="card-header card-header-pastel">
                     Anniversaires
@@ -239,12 +357,10 @@ CSS;
                 </div>
             </div>
         </div>
-    </div>
-    <div class="row">
          <!-- ===================== -->
         <!-- TUILE L2 1: Fetes du jour-->
         <!-- ===================== -->
-        <div class="col-md-4 mb-4">
+        <div class="mb-4">
             <div class="card pastel-tile">
                 <div class="card-header card-header-pastel">
                    Fetes du Jour
@@ -273,7 +389,7 @@ CSS;
          <!-- ===================== -->
         <!-- TUILE L2 2: Gâteaux d'anniversaire -->
         <!-- ===================== -->
-        <div class="col-md-4 mb-4">
+        <div class="mb-4">
             <div class="card pastel-tile">
                 <div class="card-header card-header-pastel">
                     Commande gateau
@@ -302,7 +418,7 @@ CSS;
         <!-- TUILE L2 3: Next Periode -->
         <!-- ===================== -->
          <!-- ===================== array(4) { ["Saison"]=> string(6) "Winter" ["Début"]=> string(10) "2026-01-04" ["Fin"]=> string(10) "2026-03-21" ["Durée"]=> float(76.95833333333333) } -->
-        <div class="col-md-4 mb-4">
+        <div class="mb-4">
             <div class="card pastel-tile">
                 <div class="card-header card-header-pastel">
                     Periode en cours
@@ -326,13 +442,11 @@ CSS;
                 </div>
             </div>
         </div>
-    </div>
-    <div class="row">
          <!-- ===================== -->
         <!-- TUILE L3 1: Info residents -->
         <!-- ===================== -->
          <!-- ===================== array(4) { ["Saison"]=> string(6) "Winter" ["Début"]=> string(10) "2026-01-04" ["Fin"]=> string(10) "2026-03-21" ["Durée"]=> float(76.95833333333333) } -->
-        <div class="col-md-4 mb-4">
+        <div class="mb-4">
             <div class="card pastel-tile">
                 <div class="card-header card-header-pastel">
                     Info Residents
@@ -361,6 +475,23 @@ CSS;
             </div>
         </div>
     </div>
+</div>
+<!-------------------PANNEAUX DE CONFIGURATION------------------->
+<input type="hidden" id="active-color" value="#A8D8EA">
+
+<button id="config-toggle">⚙ Config</button>
+
+<div id="config-panel">
+    <strong>Paramètres affichage</strong>
+
+    <label>Colonnes par ligne : <span id="col-display">3 par ligne</span></label>
+    <input type="range" id="col-slider" min="2" max="6" step="1" value="3">
+    <div style="display:flex;justify-content:space-between;font-size:0.75rem;color:#888">
+        <span>2</span><span>3</span><span>4</span><span>5</span><span>6</span>
+    </div>
+
+    <label>Couleur des tuiles :</label>
+    <div class="color-swatches" id="color-swatches"></div>
 </div>
 
 <?php require __DIR__ . '/../layout/footer.php'; ?>

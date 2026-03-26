@@ -96,11 +96,24 @@ class DashBoardController extends Controller
         $upcomingBirthdays = $birthdayModel->getFirstWeekBirthday((int)$target->format('m'));
         $anniversaires = $birthdayModel->getByMonthAndYear($month, $year);
         //-----------------------------
+        $userId = $_SESSION['user_id'];
+        $model = new DashBoardModel($pdo); // ou ton model existant
+        $settings = $model->getUserSettings($userId);
         // Resident
         $lastResidents = $residentModel->getLastResidentId();
         // ==============================
         // 5️⃣ VIEW
         // ==============================
         require __DIR__ . '/../views/dashBoard/index.php';
+    }
+    public function saveSettings()
+    {
+        global $pdo;
+        $userId = $_SESSION['user_id'];
+        $cols  = $_POST['cols'] ?? 3;
+        $color = $_POST['color'] ?? '#A8D8EA';
+        $dashboardModel = new DashboardModel($pdo);
+        $dashboardModel->savesetting($userId, $cols, $color);
+        echo json_encode(['success' => true]);
     }
 }
