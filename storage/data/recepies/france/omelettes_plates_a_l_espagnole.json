@@ -70,11 +70,10 @@
                 "quantite": "PM",
                 "unite": ""
             }
-        ]
-    },
+        ],
     "duree_moyenne_preparation": "1 h",
     "duree_moyenne_cuisson": "1 à 2 min par omelette + 30 min (garniture)",
-    "technique": [
+    "technique_de_realisation": [
         "1. Mettre en place le poste de travail – 5 min",
         "Denrées, matériels de préparation, de cuisson et de dressage.",
         "2. Préparer la garniture espagnole – 30 min",

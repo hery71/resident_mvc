@@ -1,5 +1,5 @@
 {
-    "titre": "Œufs pochés façon bourguignonne",
+    "titre": "OEUFS pochés façon bourguignonne",
     "type": "Hors-d'œuvre chauds à base d'œufs pochés",
     "description": "Œufs pochés servis chauds sur croûtons, nappés d'une sauce bourguignonne au vin rouge réduit, accompagnés de champignons, oignons grelots, lardons et persil haché. Garniture classique à la bourguignonne.",
     "pax":8,
@@ -84,11 +84,10 @@
                 "quantite": "PM",
                 "unite": ""
             }
-        ]
-    },
+        ],
     "duree_moyenne_preparation": "1 h 15 min",
     "duree_moyenne_cuisson": "3 min (pochage œufs) + 20 à 30 min (sauce)",
-    "technique": [
+    "technique_de_realisation": [
         "1. Mettre en place le poste de travail – 5 min",
         "Denrées, matériels de préparation, de cuisson et de dressage.",
         "2. Préparer la garniture bourguignonne – 20 min",

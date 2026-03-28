@@ -109,11 +109,10 @@
                 "quantite": "PM",
                 "unite": ""
             }
-        ]
-    },
+        ],
     "duree_moyenne_preparation": "1 h 35 min",
     "duree_moyenne_cuisson": "18 à 22 min",
-    "technique": [
+    "technique_de_realisation": [
         "1. Mettre en place le poste de travail – 5 min",
         "Rassembler denrées, matériels de préparation, cuisson et dressage.",
         "2. Préparer la lotte – 10 min",

@@ -1,5 +1,5 @@
 {
-    "titre": "Œufs frits au bacon",
+    "titre": "OEUFS frits au bacon",
     "type": "Hors-d'œuvre chauds à base d'œufs",
     "description": "Œufs frits à l'huile dans une poêle, servis sur des croûtons de pain de mie frits, accompagnés de tranches de bacon grillé et de persil frit. Présentation classique avec bouquet de persil au centre.",
     "pax":8,
@@ -40,11 +40,10 @@
                 "quantite": "PM",
                 "unite": ""
             }
-        ]
-    },
+        ],
     "duree_moyenne_preparation": "40 min",
     "duree_moyenne_cuisson": "20 à 40 sec (œufs) + 5 à 10 min (garniture)",
-    "technique": [
+    "technique_de_realisation": [
         "1. Mettre en place le poste de travail – 5 min",
         "Denrées, matériels de préparation, de cuisson et de dressage.",
         "2. Préparer les éléments de la garniture – 15 min",

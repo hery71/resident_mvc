@@ -79,11 +79,10 @@
                 "quantite": "PM",
                 "unite": ""
             }
-        ]
-    },
+        ],
     "duree_moyenne_preparation": "40 min",
     "duree_moyenne_cuisson": "2 min par omelette + 15 min (fondue tomates)",
-    "technique": [
+    "technique_de_realisation": [
         "1. Mettre en place le poste de travail – 5 min",
         "Denrées, matériels de préparation, de cuisson et de dressage.",
         "2. Confectionner la fondue de tomates – 15 min",

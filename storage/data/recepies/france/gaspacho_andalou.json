@@ -107,10 +107,9 @@
                 "nom": "poivre du moulin",
                 "quantite": "PM"
             }
-        ]
-    },
+        ],
     "duree_preparation": "1 h 15 min",
-    "technique": [
+    "technique_de_realisation": [
         "1. Mettre en place le poste de travail – 5 min",
         "Denrées, matériels de préparation et de dressage.",
         "2. Éplucher et laver tous les légumes – 15 min",

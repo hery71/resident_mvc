@@ -131,11 +131,10 @@
                 "quantite": "PM",
                 "unite": ""
             }
-        ]
-    },
+        ],
     "duree_moyenne_preparation": "1 h 5 min",
     "duree_moyenne_cuisson": "45 min à 1 h (réduction sauce + séchage brick)",
-    "technique": [
+    "technique_de_realisation": [
         "1. Mettre en place le poste de travail – 5 min",
         "Denrées, matériels de préparation, de cuisson et de dressage.",
         "2. Marquer les blancs de calamars en cuisson à l'américaine – 20 min",

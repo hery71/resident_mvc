@@ -15,7 +15,10 @@
     'bandeau',
     'duree_moyenne_de_preparation',
     'duree_moyenne_preparation',
-    'duree_moyenne_de_cuisson'
+    'duree_moyenne_de_cuisson',
+    'duree_moyenne_cuisson',
+    'description',
+    'remarques'
     ];
     $groupes_ingredients = array_diff_key($r, array_flip($cles_exclues));
 ?>

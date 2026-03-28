@@ -81,11 +81,10 @@
                 "quantite": "PM",
                 "unite": ""
             }
-        ]
-    },
+        ],
     "duree_moyenne_preparation": "1 h 40 min (hors sauce américaine)",
     "duree_moyenne_cuisson": "12 à 18 min (pochage médaillons) + finition sauce",
-    "technique": [
+    "technique_de_realisation": [
         "1. Mettre en place le poste de travail",
         "Rassembler denrées, matériels de préparation, cuisson et dressage.",
         "2. Préparer la lotte",

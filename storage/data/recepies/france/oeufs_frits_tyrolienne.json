@@ -1,5 +1,5 @@
 {
-    "titre": "Œufs frits tyrolienne",
+    "titre": "OEUFS frits tyrolienne",
     "type": "Hors-d'œuvre chauds à base d'œufs",
     "description": "Œufs frits à l'huile, servis sur un lit de sauce tomate, accompagnés de tomates et oignons frits, persil frit et éventuellement lardons ou bacon grillé. Présentation colorée avec garniture croustillante.",
     "pax":8,
@@ -52,11 +52,10 @@
                 "quantite": "PM",
                 "unite": ""
             }
-        ]
-    },
+        ],
     "duree_moyenne_preparation": "45 min",
     "duree_moyenne_cuisson": "20 à 40 sec (œufs) + 5 à 10 min (garniture)",
-    "technique": [
+    "technique_de_realisation": [
         "1. Mettre en place le poste de travail – 5 min",
         "Denrées, matériels de préparation, de cuisson et de dressage.",
         "2. Préparer la garniture – 15 min",

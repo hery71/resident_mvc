@@ -58,11 +58,10 @@
                 "quantite": "0,100",
                 "unite": "kg"
             }
-        ]
-    },
+        ],
     "duree_moyenne_preparation": "environ 1 h",
     "duree_moyenne_cuisson": "20 à 25 min (gratinage)",
-    "technique": [
+    "technique_de_realisation": [
         "1. Mettre en place le poste de travail – 5 min",
         "Denrées, matériels de préparation, de cuisson et de dressage.",
         "2. Râper et tamiser 110 g de gruyère pour l'appareil et 100 g pour le gratin. Réserver.",

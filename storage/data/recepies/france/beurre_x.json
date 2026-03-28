@@ -1,0 +1,14 @@
+{
+    "titre": "beurre x",
+    "type": "beurre compose",
+    "genre": "beurre sale",
+    "ingredients": [
+        "beurre, sel"
+    ],
+    "technique_de_realisation": {
+        "1": " Mixer le beurre et le poisson fumé. Passer au tamis si nécessaire"
+    },
+    "utilisation": [
+        "crepes"
+    ]
+}

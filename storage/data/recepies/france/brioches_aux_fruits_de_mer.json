@@ -69,11 +69,10 @@
                 "quantite": "PM",
                 "unite": ""
             }
-        ]
-    },
+        ],
     "duree_moyenne_preparation": "environ 1 h 30 min (incluant pousse de la pâte)",
     "duree_moyenne_cuisson": "15 à 20 min",
-    "technique": [
+    "technique_de_realisation": [
         "1. Mettre en place le poste de travail – 5 min",
         "Denrées, matériels de préparation, de cuisson et de dressage.",
         "2. Préparer la garniture crémeuse",

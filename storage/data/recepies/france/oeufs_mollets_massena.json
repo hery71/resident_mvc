@@ -1,5 +1,5 @@
 {
-    "titre": "Œufs mollets Masséna",
+    "titre": "OEUFS mollets Masséna",
     "type": "Hors-d'œuvre chauds à base d'œufs",
     "description": "Œufs mollets dressés sur fonds d'artichauts, nappés de sauce béarnaise, accompagnés d'une garniture de moelle de bœuf poêlée et de sauce tomate ou béarnaise. Dressage classique avec persil ou pointe de sauce.",
     "pax":8,
@@ -99,11 +99,10 @@
                 "quantite": "PM",
                 "unite": ""
             }
-        ]
-    },
+        ],
     "duree_moyenne_preparation": "1 h 15 min",
     "duree_moyenne_cuisson": "15 à 20 min (artichauts + œufs mollets + moelle)",
-    "technique": [
+    "technique_de_realisation": [
         "1. Mettre en place le poste de travail – 5 min",
         "Denrées, matériels de préparation, de cuisson et de dressage.",
         "2. Détailler et cuire les fonds d'artichauts – 20 min",

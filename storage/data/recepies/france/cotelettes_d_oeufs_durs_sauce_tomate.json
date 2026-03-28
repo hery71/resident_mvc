@@ -69,11 +69,10 @@
                 "quantite": "PM",
                 "unite": ""
             }
-        ]
-    },
+        ],
     "duree_moyenne_preparation": "1 h",
     "duree_moyenne_cuisson": "5 à 8 min (friture/sautage des côtelettes)",
-    "technique": [
+    "technique_de_realisation": [
         "1. Mettre en place le poste de travail – 5 min",
         "Denrées, matériels de préparation, de cuisson et de dressage.",
         "2. Durcir et concasser les œufs – 10 min",

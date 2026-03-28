@@ -92,11 +92,10 @@
                 "quantite": "PM",
                 "unite": ""
             }
-        ]
-    },
+        ],
     "duree_moyenne_preparation": "1 h 45 min",
     "duree_moyenne_cuisson": "2 min 30 à 3 min (pochage œufs)",
-    "technique": [
+    "technique_de_realisation": [
         "1. Mettre en place le poste de travail – 5 min",
         "Denrées, matériels de préparation, de cuisson et de dressage.",
         "2. Clarifier le consommé et préparer la gelée – 30 min",

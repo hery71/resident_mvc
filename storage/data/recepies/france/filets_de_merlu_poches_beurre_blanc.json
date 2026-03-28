@@ -82,11 +82,10 @@
                 "quantite": "PM",
                 "unite": ""
             }
-        ]
-    },
+        ],
     "duree_moyenne_preparation": "50 min",
     "duree_moyenne_cuisson": "6 à 8 min (pochage filets) + 10 min (beurre blanc)",
-    "technique": [
+    "technique_de_realisation": [
         "1. Mettre en place le poste de travail – 5 min",
         "Denrées, matériels de préparation, de cuisson et de dressage.",
         "2. Habiller et détailler les filets – 15 min",

@@ -97,11 +97,10 @@
                 "quantite": "PM",
                 "unite": ""
             }
-        ]
-    },
+        ],
     "duree_moyenne_preparation": "50 min",
     "duree_moyenne_cuisson": "8 à 12 min (pochage poissons) + 10 min (beurre nantais)",
-    "technique": [
+    "technique_de_realisation": [
         "1. Mettre en place le poste de travail – 5 min",
         "Denrées, matériels de préparation, de cuisson et de dressage.",
         "2. Préparer les éléments de la nage (court-bouillon au vinaigre) – 20 min",

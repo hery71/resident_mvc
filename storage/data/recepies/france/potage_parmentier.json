@@ -65,11 +65,10 @@
                 "nom": "sel fin",
                 "quantite": "PM"
             }
-        ]
-    },
+        ],
     "duree_preparation": "55 min",
     "duree_cuisson": "30 min",
-    "technique": [
+    "technique_de_realisation": [
         "1. Mettre en place le poste de travail – 5 min",
         "Denrées, matériels de préparation, de cuisson et de dressage.",
         "2. Préparer les légumes – 20 min",

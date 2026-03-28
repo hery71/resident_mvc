@@ -96,11 +96,10 @@
                 "quantite": "PM",
                 "unite": ""
             }
-        ]
-    },
+        ],
     "duree_moyenne_preparation": "1 h 40 min",
     "duree_moyenne_cuisson": "20 à 25 min",
-    "technique": [
+    "technique_de_realisation": [
         "1. Mettre en place le poste de travail – 5 min",
         "Denrées, matériels de préparation, de cuisson et de dressage.",
         "2. Confectionner la pâte feuilletée – 45 min (voir p. 288)",

@@ -59,11 +59,10 @@
                 "quantite": "PM",
                 "unite": ""
             }
-        ]
-    },
+        ],
     "duree_moyenne_preparation": "1 h 30 min à 1 h 45 min",
     "duree_moyenne_cuisson": "5 à 8 min (pochage) + glaçage",
-    "technique": [
+    "technique_de_realisation": [
         "1. Mettre en place le poste de travail",
         "Rassembler denrées, matériels de préparation, cuisson et dressage.",
         "2. Habiller les soles et lever les filets",

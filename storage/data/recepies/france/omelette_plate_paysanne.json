@@ -67,11 +67,10 @@
                 "quantite": "PM",
                 "unite": ""
             }
-        ]
-    },
+        ],
     "duree_moyenne_preparation": "50 min",
     "duree_moyenne_cuisson": "10 à 15 min (garniture) + 2 à 4 min par omelette",
-    "technique": [
+    "technique_de_realisation": [
         "1. Mettre en place le poste de travail – 5 min",
         "Denrées, matériels de préparation, de cuisson et de dressage.",
         "2. Préparer la garniture paysanne – 20 min",

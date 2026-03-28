@@ -1,5 +1,5 @@
 {
-    "titre": "Œufs durs farcis Chimay",
+    "titre": "OEUFS durs farcis Chimay",
     "type": "Hors-d'œuvre chauds à base d'œufs",
     "description": "Œufs durs dont les blancs sont garnis d'une farce à base de jaunes durs hachés, de duxelles de champignons, nappés de sauce Mornay et gratinés au four.",
     "pax":8,
@@ -99,11 +99,10 @@
                 "quantite": "PM",
                 "unite": ""
             }
-        ]
-    },
+        ],
     "duree_moyenne_preparation": "1 h 40 min",
     "duree_moyenne_cuisson": "10 min (œufs) + gratinage",
-    "technique": [
+    "technique_de_realisation": [
         "1. Mettre en place le poste de travail – 5 min",
         "Denrées, matériels de préparation, de cuisson et de dressage.",
         "2. Marquer les œufs durs en cuisson – 10 min",

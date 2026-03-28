@@ -10,8 +10,28 @@
         <div class="card-header-pastel"><?= $title ?></div>
         <div class="card-body">
             <h3>Recettes</h3>
-            <a href="/recette/ajouter" class="btn btn-primary mb-3">Ajouter une recette</a>
+            <div class="d-flex justify-content-between mb-3">
+                <a href="/recette/add_Recipe" class="btn btn-primary">Ajouter une recette</a>
+                <form method="get" class="d-flex" style="gap:5px;">
+                    <input 
+                        type="text" 
+                        name="search" 
+                        class="form-control" 
+                        placeholder="Rechercher..."
+                        value="<?= htmlspecialchars($_GET['search'] ?? '') ?>">
+                    <button class="btn btn-secondary">Search</button>
+                </form>
+            </div>
             <ul class="list-group">
+                <?php
+                $search = strtolower(trim($_GET['search'] ?? ''));
+
+                if ($search !== '') {
+                    $recettes = array_filter($recettes, function($r) use ($search) {
+                        return strpos(strtolower($r['titre']), $search) !== false;
+                    });
+                }
+                ?>
                 <?php foreach ($recettes as $r): ?>
                 <li class="list-group-item">
                     <a href="/recette/detailfr?id=<?= urlencode($r['fichier']) ?>">

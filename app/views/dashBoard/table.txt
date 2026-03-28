@@ -1,5 +1,7 @@
-Columns:
-Id int AI PK 
-Login longtext 
-Email longtext 
-password varchar(96)
+CREATE TABLE user_settings (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    user_id INT NOT NULL,
+    dash_cols INT DEFAULT 3,
+    dash_color VARCHAR(20) DEFAULT '#A8D8EA',
+    UNIQUE KEY (user_id)
+);

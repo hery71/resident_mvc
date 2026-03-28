@@ -84,14 +84,13 @@
                 "nom": "sucre semoule",
                 "quantite": "PM"
             }
-        ]
-    },
+        ],
     "duree_preparation": "1 h 15 min",
     "duree_cuisson": {
         "plat_principal": "30 min",
         "garniture": "15 min"
     },
-    "technique": [
+    "technique_de_realisation": [
         "1. Mettre en place le poste de travail – 5 min",
         "Denrées, matériels de préparation, de cuisson et de dressage.",
         "2. Préparer les légumes – 20 min",

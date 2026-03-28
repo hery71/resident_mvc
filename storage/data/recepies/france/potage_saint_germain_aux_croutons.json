@@ -98,11 +98,10 @@
                 "nom": "sel fin",
                 "quantite": "PM"
             }
-        ]
-    },
+        ],
     "duree_preparation": "1 h 20 min",
     "duree_cuisson": "45 min à 1 h",
-    "technique": [
+    "technique_de_realisation": [
         "1. Mettre en place le poste de travail – 5 min",
         "Denrées, matériels de préparation, de cuisson et de dressage.",
         "2. Blanchir les pois cassés – 5 min",

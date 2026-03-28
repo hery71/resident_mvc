@@ -108,9 +108,8 @@
         "nom": "poivre du moulin",
         "quantite": "PM"
       }
-    ]
-  },
-  "technique": [
+    ],
+  "technique_de_realisation": [
     "1. Mettre en place le poste de travail - 5 min",
     "• Denrées, matériels de préparation, de cuisson et de dressage.",
     "2. Nettoyer puis ouvrir les moules - 20 min",

@@ -1,0 +1,13 @@
+{
+    "titre": "Marinade de Fruits de mer",
+    "type": "marinade",
+    "genre": "marinade",
+    "base": "",
+    "type_de_viande": "Poisson",
+    "ingredients": {
+        "1": "Vin blanc, Garniture aromatique, bouquet garni"
+    },
+    "technique_de_realisation": {
+        "2": "Mettre le tout dans un conrtenant et mettre au refrigerateur"
+    }
+}

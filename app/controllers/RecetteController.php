@@ -14,6 +14,10 @@ class RecetteController
                 'fichier' => basename($fichier, '.json')
             ];
         }
+        // 🔹 tri alphabétique sur le titre
+    usort($recettes, function ($a, $b) {
+        return strcasecmp($a['titre'], $b['titre']);
+    });
         
         require __DIR__ . '/../views/alimentaire/recette/indexca.php';
     }
@@ -50,31 +54,132 @@ class RecetteController
                 'fichier' => basename($fichier, '.json')
             ];
         }
+        // 🔹 tri alphabétique sur le titre
+    usort($recettes, function ($a, $b) {
+        return strcasecmp($a['titre'], $b['titre']);
+    });
         
         require __DIR__ . '/../views/alimentaire/recette/indexfr.php';
     }
 
     public function detailfr()
-{
-    $id = $_GET['id'] ?? '';
-    $fichier = __DIR__ . '/../../storage/data/recepies/france/' . basename($id) . '.json';
-    if (!file_exists($fichier)) { header('Location: /recette/'); exit; }
-    $r = json_decode(file_get_contents($fichier), true);
-    $title = $r['titre'];
-    $custom_js = $custom_style = '';
+    {
+        $id = $_GET['id'] ?? '';
+        $fichier = __DIR__ . '/../../storage/data/recepies/france/' . basename($id) . '.json';
+        if (!file_exists($fichier)) { header('Location: /recette/'); exit; }
+        $r = json_decode(file_get_contents($fichier), true);
+        $title = $r['titre'];
+        $custom_js = $custom_style = '';
 
-    $type = strtolower($r['type'] ?? '');
+        $type = strtolower($r['type'] ?? '');
 
-    switch ($type) {
-        case 'beurre compose':
-            require __DIR__ . '/../views/alimentaire/recette/detailbeurre.php';
-            break;
-        case 'marinade':
-            require __DIR__ . '/../views/alimentaire/recette/detailmarinade.php';
-            break;
-        default:
-            require __DIR__ . '/../views/alimentaire/recette/detailfr.php';
-            break;
+        switch ($type) {
+            case 'beurre compose':
+                require __DIR__ . '/../views/alimentaire/recette/detailbeurre.php';
+                break;
+            case 'marinade':
+                require __DIR__ . '/../views/alimentaire/recette/detailmarinade.php';
+                break;
+            default:
+                require __DIR__ . '/../views/alimentaire/recette/detailfr.php';
+                break;
+        }
     }
-}
+    public function add_recipe()
+    {
+        $error = $_GET['error'] ?? '';
+        $options = require __DIR__ . '/../config/options.php';
+        $Sections = $options['Sections'] ?? [];
+        sort($Sections);        
+        require __DIR__ . '/../views/alimentaire/recette/add_recipe.php';   
+    }
+    public function scan(){
+        require __DIR__ . '/../views/alimentaire/recette/scan.php';   
+    }
+    public function store()
+    {
+        
+        $type  = $_POST['type'] ?? 'general';
+        $titre = trim($_POST['titre'] ?? '');
+
+        if ($titre === '') {
+            header('Location: /recette/add_recipe?error=Le titre est requis');
+            exit;
+        }
+
+        $data = [
+            'titre' => $titre,
+            'type'  => $_POST['type_recette'] ?? ''
+        ];
+
+        // 🔹 GENERAL
+        if ($type === 'general') {
+
+            $data['pax'] = $_POST['pax'] ?? '';
+
+            $sectionsSelect = $_POST['section_select'] ?? [];
+            $sectionsInput  = $_POST['section_input'] ?? [];
+            $noms = $_POST['nom'] ?? [];
+            $unites = $_POST['unite'] ?? [];
+            $quantites = $_POST['quantite'] ?? [];
+
+            foreach ($sectionsSelect as $index => $sectionName) {
+
+                if (!empty($sectionName) && $sectionName !== 'custom') {
+                    $finalSection = $sectionName;
+                } else {
+                    $finalSection = trim($sectionsInput[$index] ?? '');
+                }
+
+                if ($finalSection === '') continue;
+
+                $data[$finalSection] = [];
+
+                foreach ($noms[$index] ?? [] as $i => $nom) {
+
+                    if (trim($nom) === '') continue;
+
+                    $item = ['nom' => trim($nom)];
+
+                    if (!empty($unites[$index][$i])) {
+                        $item['unite'] = trim($unites[$index][$i]);
+                    }
+
+                    if (!empty($quantites[$index][$i])) {
+                        $item['quantite'] = trim($quantites[$index][$i]);
+                    }
+
+                    $data[$finalSection][] = $item;
+                }
+            }
+
+            $data['technique_de_realisation'] = array_filter($_POST['technique'] ?? []);
+        }
+
+        // 🔹 BEURRE
+        if ($type === 'beurre') {
+            $data['genre'] = 'beurre compose';
+            $data['ingredients'] = array_filter($_POST['ingredients'] ?? []);
+            $data['technique_de_realisation'] = array_filter($_POST['technique'] ?? []);
+            $data['utilisation'] = array_filter($_POST['utilisation'] ?? []);
+        }
+
+        // 🔹 MARINADE
+        if ($type === 'marinade') {
+            $data['genre'] = 'marinade';
+            $data['base'] = $_POST['base'] ?? '';
+            $data['type_de_viande'] = $_POST['type_viande'] ?? '';
+            $data['ingredients'] = array_filter($_POST['ingredients'] ?? []);
+            $data['technique_de_realisation'] = array_filter($_POST['technique'] ?? []);
+        }
+
+        // 🔹 SAVE JSON
+        $filename = strtolower(str_replace(' ', '_', $titre)) . '.json';
+        $path = __DIR__ . '/../../storage/data/recepies/france/' . $filename;
+
+        file_put_contents($path, json_encode($data, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
+
+        header('Location: /recette/indexfr');
+        exit;
+    }
 }

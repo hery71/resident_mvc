@@ -97,11 +97,10 @@
                 "quantite": "PM",
                 "unite": ""
             }
-        ]
-    },
+        ],
     "duree_moyenne_preparation": "environ 50 min",
     "duree_moyenne_cuisson": "20 à 30 min (piperade + séchage brick + saisie thon)",
-    "technique": [
+    "technique_de_realisation": [
         "1. Mettre en place le poste de travail – 5 min",
         "Denrées, matériels de préparation, de cuisson et de dressage.",
         "2. Marquer la piperade en cuisson",

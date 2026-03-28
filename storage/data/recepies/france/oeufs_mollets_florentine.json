@@ -1,5 +1,5 @@
 {
-    "titre": "Œufs mollets florentine",
+    "titre": "OEUFS mollets florentine",
     "type": "Hors-d'œuvre chauds à base d'œufs",
     "description": "Œufs mollets dressés sur un lit d'épinards sautés au beurre noisette, nappés de sauce Mornay, saupoudrés de gruyère râpé et gratinés au four ou sous salamandre.",
     "pax":8,
@@ -89,11 +89,10 @@
                 "quantite": "PM",
                 "unite": ""
             }
-        ]
-    },
+        ],
     "duree_moyenne_preparation": "1 h 10 min",
     "duree_moyenne_cuisson": "5 à 6 min (œufs mollets) + gratinage",
-    "technique": [
+    "technique_de_realisation": [
         "1. Mettre en place le poste de travail – 5 min",
         "Denrées, matériels de préparation, de cuisson et de dressage.",
         "2. Trier, équeuter, laver et blanchir les épinards – 15 min",

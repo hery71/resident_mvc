@@ -1,5 +1,5 @@
 {
-    "titre": "Œufs brouillés à l'espagnole",
+    "titre": "OEufs brouillés à l'espagnole",
     "type": "Hors-d'œuvre chauds à base d'œufs",
     "description": "Œufs brouillés crémeux servis sur une fondue de tomates, entourés d'anneaux d'oignons frits en beignet et décorés de poivrons rouges ou persil. Garniture typique espagnole avec tomates, oignons et éventuellement poivrons.",
     "pax":8,
@@ -87,11 +87,10 @@
                 "quantite": "PM",
                 "unite": ""
             }
-        ]
-    },
+        ],
     "duree_moyenne_preparation": "1 h",
     "duree_moyenne_cuisson": "6 à 8 min (brouillage) + 15 min (fondue) + 5 min (friture oignons)",
-    "technique": [
+    "technique_de_realisation": [
         "1. Mettre en place le poste de travail – 5 min",
         "Denrées, matériels de préparation, de cuisson et de dressage.",
         "2. Préparer la pâte pour anneaux d'oignons – 10 min",

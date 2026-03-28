@@ -99,11 +99,10 @@
                 "quantite": "PM",
                 "unite": ""
             }
-        ]
-    },
+        ],
     "duree_moyenne_preparation": "1 h 30 min",
     "duree_moyenne_cuisson": "12 à 15 min (cuisson paupiettes)",
-    "technique": [
+    "technique_de_realisation": [
         "1. Mettre en place le poste de travail – 5 min",
         "Denrées, matériels de préparation, de cuisson et de dressage.",
         "2. Habiller et lever les filets de merlan – 15 min",

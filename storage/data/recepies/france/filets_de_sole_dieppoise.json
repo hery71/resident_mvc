@@ -74,11 +74,10 @@
                 "quantite": "PM",
                 "unite": ""
             }
-        ]
-    },
+        ],
     "duree_moyenne_preparation": "1 h 50 min",
     "duree_moyenne_cuisson": "5 à 6 min (pochage filets) + réduction sauce",
-    "technique": [
+    "technique_de_realisation": [
         "1. Mettre en place le poste de travail – 5 min",
         "Rassembler denrées, matériels de préparation, cuisson et dressage.",
         "2. Habiller les soles et lever les filets – 30 min",

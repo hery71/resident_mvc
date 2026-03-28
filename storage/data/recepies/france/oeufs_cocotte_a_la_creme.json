@@ -1,5 +1,5 @@
 {
-    "titre": "Œufs cocotte à la crème",
+    "titre": "OEUFS cocotte à la crème",
     "type": "Hors-d'œuvre chauds à base d'œufs",
     "description": "Œufs cuits au bain-marie dans des petites cocottes en porcelaine beurrées, avec un blanc à peine coagulé et un jaune coulant et crémeux, entourés d'un cordon de crème réduite. Servis très chauds avec persil frais.",
     "pax":8,
@@ -42,11 +42,10 @@
                 "quantite": "PM",
                 "unite": ""
             }
-        ]
-    },
+        ],
     "duree_moyenne_preparation": "environ 30 min",
     "duree_moyenne_cuisson": "5 à 6 min (selon épaisseur des cocottes)",
-    "technique": [
+    "technique_de_realisation": [
         "1. Mettre en place le poste de travail – 5 min",
         "Denrées, matériels de préparation, de cuisson et de dressage.",
         "2. Préparer les cocottes et les œufs – 10 min",

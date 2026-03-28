@@ -24,7 +24,7 @@
 
             <h5>Technique de réalisation</h5>
             <ol>
-                <?php foreach ($r['technique'] as $etape): ?>
+                <?php foreach ($r['technique_de_realisation'] as $etape): ?>
                 <li><?= htmlspecialchars($etape) ?></li>
                 <?php endforeach; ?>
             </ol>

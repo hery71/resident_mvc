@@ -130,11 +130,10 @@
                 "quantite": "PM",
                 "unite": ""
             }
-        ]
-    },
+        ],
     "duree_moyenne_preparation": "1 h 25 min",
     "duree_moyenne_cuisson": "17 à 25 min (gratinage)",
-    "technique": [
+    "technique_de_realisation": [
         "1. Mettre en place le poste de travail – 5 min",
         "Denrées, matériels de préparation, de cuisson et de dressage.",
         "2. Réaliser la pâte à crêpes – 20 min (voir p. 355/357)",
