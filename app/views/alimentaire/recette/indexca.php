@@ -10,7 +10,7 @@
         <div class="card-header-pastel"><?= $title ?></div>
         <div class="card-body">
             <h3>Recettes</h3>
-            <a href="/recette/ajouter" class="btn btn-primary mb-3">Ajouter une recette</a>
+            <a href="/recette/add_Recipe_Ca" class="btn btn-primary mb-3">Ajouter une recette</a>
             <ul class="list-group">
                 <?php foreach ($recettes as $r): ?>
                 <li class="list-group-item">

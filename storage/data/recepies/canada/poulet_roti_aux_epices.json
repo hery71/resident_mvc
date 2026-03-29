@@ -1,0 +1,26 @@
+{
+    "titre": "Poulet Roti aux epices",
+    "pax": 4,
+    "ingredients": [
+        {
+            "nom": "Poulet entier",
+            "unite": "Pc",
+            "quantite": 1
+        },
+        {
+            "nom": "Epice Montreal",
+            "unite": "PM",
+            "quantite": 1
+        },
+        {
+            "nom": "Huile de cuisson",
+            "unite": "Pm",
+            "quantite": 1
+        }
+    ],
+    "technique_de_realisation": [
+        "Enrober le poulet masser avec l epice de Montreal",
+        "mettre dans une plaque legerement huilé",
+        "Cuire 1H au four reglé a 360F"
+    ]
+}

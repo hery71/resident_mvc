@@ -42,6 +42,36 @@ class RecetteController
         $custom_js = $custom_style = '';
         require __DIR__ . '/../views/alimentaire/recette/printRecipeCa.php';
     }
+    public function printRecipeFr()
+    {
+        $id = $_GET['id'] ?? '';
+        $fichier = __DIR__ . '/../../storage/data/recepies/france/' . basename($id) . '.json';
+        if (!file_exists($fichier)) { header('Location: /recette/'); exit; }
+        $r = json_decode(file_get_contents($fichier), true);
+        $title = $r['titre'];
+        $custom_js = $custom_style = '';
+        require __DIR__ . '/../views/alimentaire/recette/printRecipeFr.php';
+    }
+    public function printRecipeBeurre()
+    {
+        $id = $_GET['id'] ?? '';
+        $fichier = __DIR__ . '/../../storage/data/recepies/france/' . basename($id) . '.json';
+        if (!file_exists($fichier)) { header('Location: /recette/'); exit; }
+        $r = json_decode(file_get_contents($fichier), true);
+        $title = $r['titre'];
+        $custom_js = $custom_style = '';
+        require __DIR__ . '/../views/alimentaire/recette/printRecipeBeurre.php';
+    }
+    public function printRecipeMarinade()
+    {
+        $id = $_GET['id'] ?? '';
+        $fichier = __DIR__ . '/../../storage/data/recepies/france/' . basename($id) . '.json';
+        if (!file_exists($fichier)) { header('Location: /recette/'); exit; }
+        $r = json_decode(file_get_contents($fichier), true);
+        $title = $r['titre'];
+        $custom_js = $custom_style = '';
+        require __DIR__ . '/../views/alimentaire/recette/printRecipeMarinade.php';
+    }
     public function indexfr()
     {
         $recettesDir = __DIR__ . '/../../storage/data/recepies/france/';
@@ -85,18 +115,23 @@ class RecetteController
                 break;
         }
     }
-    public function add_recipe()
+    public function add_recipe_Fr()
     {
         $error = $_GET['error'] ?? '';
         $options = require __DIR__ . '/../config/options.php';
         $Sections = $options['Sections'] ?? [];
         sort($Sections);        
-        require __DIR__ . '/../views/alimentaire/recette/add_recipe.php';   
+        require __DIR__ . '/../views/alimentaire/recette/add_recipe_fr.php';   
+    }
+    public function add_recipe_Ca()
+    {
+        $error = $_GET['error'] ?? '';      
+        require __DIR__ . '/../views/alimentaire/recette/add_recipe_ca.php';   
     }
     public function scan(){
         require __DIR__ . '/../views/alimentaire/recette/scan.php';   
     }
-    public function store()
+    public function save_recipe_fr()
     {
         
         $type  = $_POST['type'] ?? 'general';
@@ -182,4 +217,68 @@ class RecetteController
         header('Location: /recette/indexfr');
         exit;
     }
+    public function save_recipe_ca()
+    {
+        if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
+            header('Location: /recette/add_recipe_ca');
+            exit;
+        }
+        $titre = trim($_POST['titre'] ?? '');
+        $pax   = (int)($_POST['pax'] ?? 0);
+
+        $ingredientNoms = $_POST['ingredient_nom'] ?? [];
+        $ingredientUnites = $_POST['ingredient_unite'] ?? [];
+        $ingredientQuantites = $_POST['ingredient_quantite'] ?? [];
+
+        $techniques = $_POST['technique_de_realisation'] ?? [];
+
+        $ingredients = [];
+        foreach ($ingredientNoms as $i => $nom) {
+            $nom = trim($nom);
+            $unite = trim($ingredientUnites[$i] ?? '');
+            $quantite = $ingredientQuantites[$i] ?? '';
+
+            if ($nom === '' || $unite === '' || $quantite === '') {
+                continue;
+            }
+
+            $ingredients[] = [
+                'nom' => $nom,
+                'unite' => $unite,
+                'quantite' => (float)$quantite
+            ];
+        }
+
+        $technique_de_realisation = [];
+        foreach ($techniques as $etape) {
+            $etape = trim($etape);
+            if ($etape !== '') {
+                $technique_de_realisation[] = $etape;
+            }
+        }
+
+        $data = [
+            'titre' => $titre,
+            'pax' => $pax,
+            'ingredients' => $ingredients,
+            'technique_de_realisation' => $technique_de_realisation
+        ];
+
+        $filename = preg_replace('/[^A-Za-z0-9_-]/', '_', strtolower($titre)) . '.json';
+        $folder = __DIR__ . '/../../storage/data/recepies/canada/';
+        $file =$folder . '/' . $filename;
+        $path = __DIR__ . '/../../storage/data/recepies/canada/' . $filename;
+
+        if (!is_dir($folder)) {
+            mkdir($folder, 0777, true);
+        }
+        file_put_contents(
+            $path,
+            json_encode($data, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE)
+        );
+
+        header('Location: /recette/indexca');
+        exit;
+    }
+    
 }

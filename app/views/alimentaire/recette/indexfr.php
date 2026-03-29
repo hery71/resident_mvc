@@ -11,7 +11,7 @@
         <div class="card-body">
             <h3>Recettes</h3>
             <div class="d-flex justify-content-between mb-3">
-                <a href="/recette/add_Recipe" class="btn btn-primary">Ajouter une recette</a>
+                <a href="/recette/add_Recipe_Fr" class="btn btn-primary">Ajouter une recette</a>
                 <form method="get" class="d-flex" style="gap:5px;">
                     <input 
                         type="text" 

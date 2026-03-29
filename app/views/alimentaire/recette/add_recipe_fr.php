@@ -2,6 +2,25 @@
 $title = 'Ajouter recette'; 
 
 $options = require __DIR__ . '/../../../config/options.php';
+
+$custom_style = <<<'CSS'
+.table td, .table th {
+    vertical-align: middle;
+}
+textarea.form-control {
+    resize: vertical;
+}
+.section-block {
+    border: 1px solid #dee2e6;
+    border-radius: 6px;
+    padding: 15px;
+    background: #f8f9fa;
+}
+.section-title {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+CSS;
 $Sections = $options['Sections'] ?? [];
 sort($Sections);
 
@@ -98,7 +117,7 @@ if(isset($error)) {
         <div class="card-header-pastel"><?= $title ?></div>
         <div class="card-body">
 
-            <form method="post" action="/recette/store">
+            <form method="post" action="/recette/save_recipe_fr">
                 <label>Type de recette</label>
                 <select name="type" class="form-control" onchange="toggleType(this.value)">
                     <option value="general">Recette générale</option>
@@ -124,17 +143,22 @@ if(isset($error)) {
                                 <option value="custom">Autre</option>
                             </select>
                             <input type="text" name="section_input[]" class="form-control mb-2" placeholder="Nouvelle section" style="display:none;">
-                            <div class="ingredients_container">
+                            <div class="ingredients_container">    
                                 <div class="row mb-2">
                                     <div class="col"><input type="text" name="nom[0][]" class="form-control" placeholder="Nom"></div>
                                     <div class="col"><input type="text" name="unite[0][]" class="form-control" placeholder="Unité"></div>
                                     <div class="col"><input type="text" name="quantite[0][]" class="form-control" placeholder="Quantité"></div>
+                                    <div class="col-2">
+                                        <button type="button" class="btn btn-sm btn-danger" onclick="removeIngredient(this)">X</button>
+                                    </div>
                                 </div>
                             </div>
                             <button type="button" class="btn btn-sm btn-secondary" onclick="addIngredient(this,0)">+ ingrédient</button>
+                            <button type="button" class="btn btn-sm btn-danger" onclick="removeSection(this)">Supprimer section</button>
                         </div>
                     </div>
                     <button type="button" class="btn btn-sm btn-primary mt-2" onclick="addSection()">+ section</button>
+
                     <label class="mt-2">Technique</label>
                     <textarea name="technique[]" class="form-control"></textarea>
                 </div>
@@ -160,7 +184,8 @@ if(isset($error)) {
                     <label class="mt-2">Technique</label>
                     <textarea name="technique[]" class="form-control"></textarea>
                 </div>
-                <button class="btn btn-success mt-3">Enregistrer</button>
+                <button class="btn btn-success">Enregistrer</button>
+                <a href="/recette/indexfr" class="btn btn-outline-secondary">Annuler</a>
             </form>
 
         </div>
@@ -225,10 +250,14 @@ function addSection() {
                 <div class="col"><input type="text" name="nom[${index}][]" class="form-control" placeholder="Nom"></div>
                 <div class="col"><input type="text" name="unite[${index}][]" class="form-control" placeholder="Unité"></div>
                 <div class="col"><input type="text" name="quantite[${index}][]" class="form-control" placeholder="Quantité"></div>
-            </div>
+                 <div class="col-2">
+                    <button type="button" class="btn btn-sm btn-danger" onclick="removeIngredient(this)">X</button>
+                </div>
+                </div>
         </div>
         <button type="button" class="btn btn-sm btn-secondary" onclick="addIngredient(this,${index})">+ ingrédient</button>
-    </div>`;
+        <button type="button" class="btn btn-sm btn-danger" onclick="removeSection(this)">Supprimer section</button>
+        </div>`;
     document.getElementById('sections_container').insertAdjacentHTML('beforeend', html);
 }
 
@@ -237,11 +266,14 @@ function addIngredient(btn, index) {
     let container = btn.parentElement.querySelector('.ingredients_container');
 
     let html = `
-    <div class="row mb-2">
-        <div class="col"><input type="text" name="nom[${index}][]" class="form-control" placeholder="Nom"></div>
-        <div class="col"><input type="text" name="unite[${index}][]" class="form-control" placeholder="Unité"></div>
-        <div class="col"><input type="text" name="quantite[${index}][]" class="form-control" placeholder="Quantité"></div>
-    </div>`;
+<div class="row mb-2">
+    <div class="col"><input type="text" name="nom[${index}][]" class="form-control" placeholder="Nom"></div>
+    <div class="col"><input type="text" name="unite[${index}][]" class="form-control" placeholder="Unité"></div>
+    <div class="col"><input type="text" name="quantite[${index}][]" class="form-control" placeholder="Quantité"></div>
+    <div class="col-2">
+        <button type="button" class="btn btn-sm btn-danger" onclick="removeIngredient(this)">X</button>
+    </div>
+</div>`;
 
     container.insertAdjacentHTML('beforeend', html);
 }
@@ -260,6 +292,18 @@ document.addEventListener('change', function(e) {
         }
     }
 });
+function removeSection(btn) {
+    let section = btn.closest('.section-block');
+    if (section) {
+        section.remove();
+    }
+}
+function removeIngredient(btn) {
+    let row = btn.closest('.row');
+    if (row) {
+        row.remove();
+    }
+}
 </script>
 
 <?php require __DIR__ . '/../../layout/footer.php'; ?>

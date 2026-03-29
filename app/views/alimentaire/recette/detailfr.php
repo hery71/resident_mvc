@@ -51,6 +51,7 @@
                 <?php endforeach; ?>
             </ol>
             <a href="/recette/indexfr" class="btn btn-secondary mt-3">← Retour</a>
+            <a href="/recette/printRecipeFr?id=<?= $id ?>" class="btn btn-primary mt-3">Imprimer</a>
         </div>
     </div>
 </div>
