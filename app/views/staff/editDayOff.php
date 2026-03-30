@@ -213,6 +213,7 @@
             <button class="btn btn-primary mt-2">
                 Save
             </button>
+            <a href="/staff/liste" class="btn btn-secondary mt-2">Retour à la liste</a>
         </form>
         <hr>
         <h4 class="mt-4">Summary by Service</h4>

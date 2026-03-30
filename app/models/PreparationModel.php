@@ -280,49 +280,56 @@ class PreparationModel
     }
     public function addIngredientToMeal(string $plat, string $ingredient): bool
     {
+        // 🔹 nettoyage
         $ingredient = $this->cleanIngredient($ingredient);
 
         if ($ingredient === '') {
             return false;
         }
 
-        $table= 'meal_tbl';
+        // 🔹 normalisation du plat (très important)
+        $plat = trim($plat);
+        $plat = preg_replace('/\s+/', ' ', $plat);
+
+        $table = 'meal_tbl';
+
+        // 🔹 recherche du plat (accent-insensible)
         $stmt = $this->pdo->prepare("
             SELECT id, ingredients
             FROM `$table`
-            WHERE TRIM(LOWER(meal)) = TRIM(LOWER(?))
+            WHERE LOWER(TRIM(meal)) = LOWER(TRIM(?))
             LIMIT 1
         ");
 
         $stmt->execute([$plat]);
         $row = $stmt->fetch(PDO::FETCH_ASSOC);
 
+        // =========================================================
+        // 🔹 CAS 1 : le plat existe → UPDATE
+        // =========================================================
         if ($row) {
 
             $existing = trim((string)$row['ingredients']);
 
-            // transformer en tableau
             $items = $existing !== ''
                 ? array_map('trim', explode(',', $existing))
                 : [];
 
-            // supprimer éléments vides
             $items = array_filter($items, fn($v) => $v !== '');
 
-            // vérifier si déjà présent
+            // 🔹 vérifier doublon
             foreach ($items as $item) {
                 if (mb_strtolower($item) === mb_strtolower($ingredient)) {
                     return true;
                 }
             }
 
-            // ajouter l'ingrédient
+            // 🔹 ajout
             $items[] = $ingredient;
 
-            // tri alphabétique
+            // 🔹 tri
             natcasesort($items);
 
-            // reconstruire la chaîne
             $newValue = implode(', ', $items);
 
             $up = $this->pdo->prepare("
@@ -331,10 +338,28 @@ class PreparationModel
                 WHERE id = ?
             ");
 
-            return $up->execute([$newValue, $row['id']]);
+            if (!$up->execute([$newValue, $row['id']])) {
+                $error = $up->errorInfo();
+                throw new Exception("UPDATE ERROR: " . $error[2]);
+            }
+
+            return true;
         }
 
-        return false;
+        // =========================================================
+        // 🔹 CAS 2 : le plat n’existe pas → INSERT
+        // =========================================================
+        $insert = $this->pdo->prepare("
+            INSERT INTO `$table` (meal, ingredients)
+            VALUES (?, ?)
+        ");
+
+        if (!$insert->execute([$plat, $ingredient])) {
+            $error = $insert->errorInfo();
+            throw new Exception("INSERT ERROR: " . $error[2]);
+        }
+
+        return true;
     }
     public function removeIngredientFromMeal(string $plat, string $ingredient): bool
     {
@@ -473,5 +498,31 @@ class PreparationModel
         }
 
         return $text;
+    }
+    public function getMealsWithoutIngredients(): array
+    {
+        $stmt = $this->pdo->prepare("
+            SELECT id, meal
+            FROM meal_tbl
+            WHERE ingredients IS NULL 
+            OR TRIM(ingredients) = ''
+            ORDER BY meal ASC
+        ");
+
+        $stmt->execute();
+
+        return $stmt->fetchAll(PDO::FETCH_ASSOC);
+    }
+    public function getMealById(int $id)
+    {
+        $stmt = $this->pdo->prepare("
+            SELECT *
+            FROM meal_tbl
+            WHERE id = ?
+        ");
+
+        $stmt->execute([$id]);
+
+        return $stmt->fetch(PDO::FETCH_ASSOC);
     }
 }

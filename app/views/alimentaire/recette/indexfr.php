@@ -20,6 +20,7 @@
                         placeholder="Rechercher..."
                         value="<?= htmlspecialchars($_GET['search'] ?? '') ?>">
                     <button class="btn btn-secondary">Search</button>
+                    <a href="/recette/indexfr" class="btn btn-secondary">Init</a>
                 </form>
             </div>
             <ul class="list-group">

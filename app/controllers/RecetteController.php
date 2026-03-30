@@ -21,6 +21,25 @@ class RecetteController
         
         require __DIR__ . '/../views/alimentaire/recette/indexca.php';
     }
+    public function indexfr()
+    {
+        $recettesDir = __DIR__ . '/../../storage/data/recepies/france/';
+        $fichiers = glob($recettesDir . '*.json');
+        $recettes = [];
+        foreach ($fichiers as $fichier) {
+            $data = json_decode(file_get_contents($fichier), true);
+            $recettes[] = [
+                'titre' => $data['titre'] ?? basename($fichier, '.json'),
+                'fichier' => basename($fichier, '.json')
+            ];
+        }
+        // 🔹 tri alphabétique sur le titre
+    usort($recettes, function ($a, $b) {
+        return strcasecmp($a['titre'], $b['titre']);
+    });
+        
+        require __DIR__ . '/../views/alimentaire/recette/indexfr.php';
+    }
 
     public function detailca()
     {
@@ -72,25 +91,7 @@ class RecetteController
         $custom_js = $custom_style = '';
         require __DIR__ . '/../views/alimentaire/recette/printRecipeMarinade.php';
     }
-    public function indexfr()
-    {
-        $recettesDir = __DIR__ . '/../../storage/data/recepies/france/';
-        $fichiers = glob($recettesDir . '*.json');
-        $recettes = [];
-        foreach ($fichiers as $fichier) {
-            $data = json_decode(file_get_contents($fichier), true);
-            $recettes[] = [
-                'titre' => $data['titre'] ?? basename($fichier, '.json'),
-                'fichier' => basename($fichier, '.json')
-            ];
-        }
-        // 🔹 tri alphabétique sur le titre
-    usort($recettes, function ($a, $b) {
-        return strcasecmp($a['titre'], $b['titre']);
-    });
-        
-        require __DIR__ . '/../views/alimentaire/recette/indexfr.php';
-    }
+    
 
     public function detailfr()
     {

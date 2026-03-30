@@ -224,30 +224,25 @@
     {
         let plat = document.getElementById("ingredient_plat").value;
         let ingredient = document.getElementById("ingredientSelectModal").value;
+        let date = document.getElementById("ingredient_date").value;
 
-        if (!plat || !ingredient) {
-            alert("Veuillez choisir un ingrédient.");
+        if (!plat || !ingredient || !date) {
+            alert("Veuillez choisir un plat, une date et un ingrédient.");
             return;
         }
 
-        // vérifier si l'ingrédient existe déjà dans la liste
+        // vérifier si déjà présent
         let existing = [];
 
         document.querySelectorAll("#ingredientExistingTable tr").forEach(row => {
-
             let name = row.children[0].innerText.trim();
-
             existing.push(name.toLowerCase());
-
         });
 
         if (existing.includes(ingredient.toLowerCase())) {
-
             alert("Cet ingrédient est déjà dans la liste.");
             return;
-
         }
-
         fetch("/preparation/addMealIngredient", {
             method: "POST",
             headers: {
@@ -255,26 +250,29 @@
             },
             body:
                 "plat=" + encodeURIComponent(plat) +
-                "&ingredient=" + encodeURIComponent(ingredient)
+                "&ingredient=" + encodeURIComponent(ingredient) +
+                "&date=" + encodeURIComponent(date)
         })
+        
         .then(r => r.json())
         .then(res => {
 
             if (res.success) {
 
-                openIngredientModal(
-                    plat,
-                    document.getElementById("ingredient_date").value
-                );
+                // refresh modal
+                openIngredientModal(plat, date);
 
             } else {
 
-                alert("Impossible d'ajouter l'ingrédient.");
+                alert(res.message || "Impossible d'ajouter l'ingrédient.");
 
             }
 
+        })
+        .catch(err => {
+            console.error(err);
+            alert("Erreur serveur.");
         });
-
     }
     function removeIngredientFromMeal(ingredient) 
     {
@@ -322,7 +320,6 @@
     }
     function addNewIngredient() 
     {
-
         let ingredient = document.getElementById("ingredientNew").value.trim();
 
         if (ingredient === "") {
@@ -340,20 +337,34 @@
         .then(r => r.json())
         .then(res => {
 
+            // 🔹 déjà existant → on sélectionne direct
             if (res.exists) {
-                alert("Cet ingrédient existe déjà.");
+
+                reloadIngredientModalSelect(res.ingredient || ingredient);
+
+                document.getElementById("ingredientNew").value = "";
+
+                return;
             }
 
+            // 🔹 similaire → on sélectionne le proche
             if (res.similar) {
-                alert("Attention : ingrédient similaire : " + res.similar);
+
+                reloadIngredientModalSelect(res.similar);
+
+                document.getElementById("ingredientNew").value = "";
+
+                return;
             }
 
+            // 🔹 nouvel ingrédient ajouté
             if (res.success) {
 
                 reloadIngredientModalSelect(res.ingredient);
 
                 document.getElementById("ingredientNew").value = "";
 
+                return;
             }
 
         });
@@ -507,7 +518,7 @@
         .then(r => r.json())
         .then(res => {
             if(!res.success){
-                alert("Impossible d'ajouter l'ingrédient");
+                alert("Impossible d'ajouter l'ingrédient  Err02");
                 return;
             }
             reloadIngredientSelect(name);
@@ -683,20 +694,20 @@ foreach (['breakfast','lunch','lunch_dessert','dinner','dinner_dessert'] as $cat
               <?php endforeach; ?>
             </select>
             <button type="button" class="btn btn-primary" onclick="addIngredientToMeal()">
-              Ajouter
+              Ajouterx
             </button>
           </div>
           <div class="d-flex mb-2">
          <input type="text"
                   id="ingredientNew"
                   class="form-control mr-2"
-                  placeholder="Nouvel ingrédient"
+                  placeholder="Nouvel ingrédient - Ajouter- Rechercher..."
                   list="ingredientSuggestions"
                   onkeyup="suggestIngredients()">
           <button type="button"
                   class="btn btn-success"
                   onclick="addNewIngredient()">
-            Ajouter ingrédient
+            Rechercher Ajouter
           </button>
           </div>
 

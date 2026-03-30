@@ -157,7 +157,7 @@
                 Save
                 </button>
 
-                <a href="<?= BASE_URL ?>/staff" class="btn btn-secondary">
+                <a href="<?= BASE_URL ?>/staff/liste" class="btn btn-secondary">
                 Cancel
                 </a>
 

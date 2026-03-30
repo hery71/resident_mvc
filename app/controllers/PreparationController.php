@@ -190,6 +190,18 @@ class PreparationController
         header('Content-Type: application/json');
         echo json_encode($ingredients);
     }
+    public function addMealIngredient2()
+    {
+        var_dump($_POST);
+        exit();
+        header('Content-Type: application/json');
+
+        echo json_encode([
+            'success' => true,
+            'test' => $_POST
+        ]);
+        exit;
+    }
     public function addMealIngredient()
     {
         if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
@@ -297,5 +309,29 @@ class PreparationController
 
         header('Content-Type: application/json');
         echo json_encode($model->get_ingredients());
+    }
+    public function mealList()
+    {
+        $model = new PreparationModel();
+
+        $meals = $model->getMealsWithoutIngredients();
+        $ingredients = $model->get_Ingredients();
+
+        require __DIR__ . '/../views/alimentaire/preparation/mealList.php';
+    }
+    public function editMeal()
+    {
+        $id = (int)($_GET['id'] ?? 0);
+
+        if (!$id) {
+            echo "ID invalide";
+            return;
+        }
+
+        $model = new PreparationModel();
+
+        $meal = $model->getMealById($id);
+
+        require __DIR__ . '/../views/alimentaire/preparation/editMeal.php';
     }
 }
