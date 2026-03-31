@@ -1,11 +1,10 @@
 <?php $title = "Meals sans ingrédients"; 
 $custom_js = <<<'JS'
     // Custom JavaScript can be added here
-    function openIngredientModal(plat, date) 
+    function openIngredientModal(plat) 
     {
       document.getElementById("ingredient_plat_display").textContent = plat;
       document.getElementById("ingredient_plat").value = plat;
-      document.getElementById("ingredient_date").value = date;
       document.getElementById("ingredientNew").value = "";
       
       fetch("/preparation/getIngredients?v=" + Date.now())
@@ -54,15 +53,14 @@ $custom_js = <<<'JS'
           $('#ingredientModal').modal('show');
       });
     }
-    function addIngredientToMeal() 
+     function addIngredientToMeal() 
     {
         let plat = document.getElementById("ingredient_plat").value;
         let ingredient = document.getElementById("ingredientSelectModal").value;
-        let date = document.getElementById("ingredient_date").value;
 
-        if (!plat || !ingredient || !date) {
-            alert("Veuillez choisir un plat, une date et un ingrédient.");
-            return;
+        if (!plat || !ingredient ) {
+            alert("Veuillez choisir un plat et un ingrédient.");
+           return;
         }
 
         // vérifier si déjà présent
@@ -84,8 +82,7 @@ $custom_js = <<<'JS'
             },
             body:
                 "plat=" + encodeURIComponent(plat) +
-                "&ingredient=" + encodeURIComponent(ingredient) +
-                "&date=" + encodeURIComponent(date)
+                "&ingredient=" + encodeURIComponent(ingredient)
         })
         
         .then(r => r.json())
@@ -94,7 +91,7 @@ $custom_js = <<<'JS'
             if (res.success) {
 
                 // refresh modal
-                openIngredientModal(plat, date);
+                openIngredientModal(plat);
 
             } else {
 
@@ -125,7 +122,7 @@ $custom_js = <<<'JS'
         .then(r => r.json())
         .then(res => {
             if (res.success) {
-                openIngredientModal(plat, document.getElementById("ingredient_date").value);
+                openIngredientModal(plat);
             }
         });
     }
@@ -171,7 +168,6 @@ $custom_js = <<<'JS'
         .then(r => r.json())
         .then(res => {
 
-            // 🔹 déjà existant → on sélectionne direct
             if (res.exists) {
 
                 reloadIngredientModalSelect(res.ingredient || ingredient);
@@ -181,7 +177,6 @@ $custom_js = <<<'JS'
                 return;
             }
 
-            // 🔹 similaire → on sélectionne le proche
             if (res.similar) {
 
                 reloadIngredientModalSelect(res.similar);
@@ -191,7 +186,6 @@ $custom_js = <<<'JS'
                 return;
             }
 
-            // 🔹 nouvel ingrédient ajouté
             if (res.success) {
 
                 reloadIngredientModalSelect(res.ingredient);
@@ -201,6 +195,11 @@ $custom_js = <<<'JS'
                 return;
             }
 
+            alert(res.message || "Impossible d'ajouter l'ingrédient.");
+        })
+        .catch(err => {
+            console.error(err);
+            alert("Erreur serveur.");
         });
     }
     function reloadIngredientSelect(selectedIngredient)
@@ -238,6 +237,43 @@ $custom_js = <<<'JS'
   
         });
     }
+    $('#ingredientModal').on('hidden.bs.modal', function () {
+        location.reload();
+    });
+    document.addEventListener('DOMContentLoaded', () => {
+        $('#ingredientModal').on('hidden.bs.modal', function () {
+            location.reload();
+        });
+    });
+    function reloadIngredientModalSelect(selectedIngredient)
+    {
+        fetch("/preparation/getIngredients?v=" + Date.now())
+        .then(r => r.json())
+        .then(data => {
+
+            let sel = document.getElementById("ingredientSelectModal");
+
+            sel.innerHTML = "";
+
+            data.sort((a,b)=>a.localeCompare(b,'fr',{sensitivity:'base'}));
+
+            data.forEach(i => {
+
+                let opt = document.createElement("option");
+
+                opt.value = i;
+                opt.textContent = i;
+
+                if(i === selectedIngredient){
+                    opt.selected = true;
+                }
+
+                sel.appendChild(opt);
+
+            });
+
+        });
+    }
     JS;
 ?>
 <?php require __DIR__ . '/../../layout/header.php'; ?>
@@ -266,12 +302,12 @@ $custom_js = <<<'JS'
                         <?php foreach ($meals as $m): ?>
                             <tr>
                                 <td><?= (int)$m['id'] ?></td>
-                                <td><?= htmlspecialchars($m['meal']) ?></td>
+                                <td><?= e($m['meal']) ?></td>
                                 <td>
                                     <button
                                         type="button"
                                         class="btn btn-sm btn-primary"
-                                        onclick="openIngredientModal('<?= htmlspecialchars($m['meal'], ENT_QUOTES) ?>', '')">
+                                        onclick="openIngredientModal('<?= e($m['meal']) ?>', '')">
                                         Ajouter ingrédients
                                     </button>
                                 </td>
