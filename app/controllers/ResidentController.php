@@ -459,5 +459,44 @@ class ResidentController extends Controller
 
         echo json_encode(array_slice(array_values($allItems), 0, 15));
     }
+    public function updateRestriction()
+{
+    $id     = (int)($_POST['id'] ?? 0);
+    $field  = $_POST['field'] ?? '';
+    $value  = trim($_POST['value'] ?? '');
+    $action = $_POST['action'] ?? '';
+
+    $allowed = ['Allergie', 'Intolerance', 'ingredients'];
+
+    if (!$id || !in_array($field, $allowed, true) || $value === '') {
+        echo json_encode(['success' => false, 'message' => 'Données invalides']);
+        return;
+    }
+
+    $model = new ResidentModel();
+    $current = (string)$model->getrestriction($field, $id);
+    $items = array_filter(array_map('trim', explode(',', $current)));
+
+    if ($action === 'add') {
+        $exists = false;
+        foreach ($items as $item) {
+            if (mb_strtolower($item) === mb_strtolower($value)) {
+                $exists = true;
+                break;
+            }
+        }
+        if (!$exists) {
+            $items[] = $value;
+        }
+    }
+
+    $newValue = implode(',', $items);
+    $model = new ResidentModel();
+    $ok = $model->updateRestriction($field, $newValue, $id  );
+    echo json_encode([
+        'success' => $ok,
+        'saved' => $newValue
+    ]);
+}
     
 }

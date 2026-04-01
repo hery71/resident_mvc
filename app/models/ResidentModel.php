@@ -265,4 +265,17 @@ class ResidentModel
         ");
         return $stmt->fetchAll(PDO::FETCH_ASSOC);
     }
+    public function getrestriction($field, $id){
+    $stmt = $this->pdo->prepare("SELECT `$field` FROM resident_tbl WHERE Id = ?");
+    $stmt->execute([$id]);
+    return $stmt->fetchColumn();
+    }
+    public function updateRestriction($field, $value, $id){
+        $sql = "UPDATE resident_tbl SET `$field` = :value WHERE Id = :id";
+        $stmt = $this->pdo->prepare($sql);
+        return $stmt->execute([
+            'value' => $value,
+            'id' => $id
+        ]);
+    }
 }

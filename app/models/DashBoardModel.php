@@ -22,7 +22,6 @@ class DashboardModel
             'dinner',
             'dinner_dessert'
         ];
-
         $results = [];
 
         // 🔹 Récupérer tous les résidents actifs
