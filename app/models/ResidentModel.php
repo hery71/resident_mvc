@@ -255,4 +255,14 @@ class ResidentModel
             'id_resident' => $id_resident
         ]);
     }
+    public function getAllEnabled()
+    {
+        $stmt = $this->pdo->query("
+            SELECT Id, Prenom, Nom
+            FROM resident_tbl
+            WHERE enabled = 1
+            ORDER BY Prenom
+        ");
+        return $stmt->fetchAll(PDO::FETCH_ASSOC);
+    }
 }

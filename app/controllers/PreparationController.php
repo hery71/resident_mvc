@@ -21,6 +21,7 @@ class PreparationController
         $ingredients = $model->get_ingredients();
         $actions = $model->get_actions();
         $unites = $model->get_unites();
+        $meals = $model->getAllMealsWithIngredients();
         require __DIR__ . '/../views/alimentaire/preparation/edit.php';
     }   
     public function save()

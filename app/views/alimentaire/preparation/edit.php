@@ -589,6 +589,11 @@
 
         });
     }
+    document.addEventListener('DOMContentLoaded', function () {
+        $('#ingredientModal').on('hidden.bs.modal', function () {
+            location.reload();
+        });
+    });
     JS;
     $custom_style = <<<CSS
     /* Custom CSS can be added here */
@@ -638,23 +643,47 @@ foreach (['breakfast','lunch','lunch_dessert','dinner','dinner_dessert'] as $cat
     }
   ?>
   <ul class="list-group">
-    <?php foreach ($plats as $p): 
+    <?php
+    $ingredientsByMeal = [];
+    foreach ($meals as $m) {
+        $ingredientsByMeal[$m['meal']] = $m['ingredients'] ?? '';
+    }
+    foreach ($plats as $p): 
     $hasPrep = isset($prepByPlat[$p]); 
     ?>
- <li class="list-group-item d-flex align-items-center">
-    <span class="flex-grow-1"><?= htmlspecialchars($p) ?></span>
+    <li class="list-group-item d-flex align-items-center">
 
-    <div class="d-flex align-items-center gap-2 ml-3">
-       <button class="btn btn-primary btn-sm mr-2"
-        onclick="openIngredientModal('<?= addslashes($p) ?>', '<?= $xdate ?>')">
-          Ajouter / Modifier Ingrédients  
-      </button>
-      <button class="btn btn-primary btn-sm"
-            onclick="openPrepModal('<?= addslashes($p) ?>', '<?= $xdate ?>')">
-          <?= $hasPrep ? 'Voir préparation' : 'Créer préparation' ?>
-      </button>
-    </div>
-</li>
+        <!-- 🔹 colonne plat -->
+        <span class="flex-grow-1">
+            <?= e($p) ?>
+        </span>
+
+        <!-- 🔹 colonne ingrédients -->
+        <span class="flex-grow-1 text-muted">
+            <?php 
+                $ing = $ingredientsByMeal[$p] ?? '';
+            ?>
+            <?= $ing ? e($ing) : '—' ?>
+        </span>
+
+        <!-- 🔹 actions -->
+        <div class="d-flex align-items-center gap-2 ml-3">
+
+            <button class="btn btn-sm <?= empty($ing) ? 'btn-danger' : 'btn-primary' ?> mr-2"
+                onclick="openIngredientModal('<?= addslashes($p) ?>', '<?= $xdate ?>')">
+
+                <?= empty($ing) ? 'Ajouter ingrédients' : 'Modifier ingrédients' ?>
+
+            </button>
+
+            <button class="btn btn-primary btn-sm"
+                onclick="openPrepModal('<?= addslashes($p) ?>', '<?= $xdate ?>')">
+                <?= $hasPrep ? 'Voir préparation' : 'Créer préparation' ?>
+            </button>
+
+        </div>
+
+    </li>
     <?php endforeach; ?>
 
     </ul>

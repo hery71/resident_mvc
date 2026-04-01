@@ -525,4 +525,13 @@ class PreparationModel
 
         return $stmt->fetch(PDO::FETCH_ASSOC);
     }
+    public function getAllMealsWithIngredients(): array
+{
+    $stmt = $this->pdo->query("
+        SELECT meal, ingredients
+        FROM meal_tbl
+        WHERE enabled = 1
+    ");
+    return $stmt->fetchAll(PDO::FETCH_ASSOC);
+}
 }

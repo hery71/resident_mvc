@@ -370,4 +370,94 @@ class ResidentController extends Controller
         header("Location: /resident/edit/$id");
         exit;
     }
+    public function restriction()
+    {
+
+        $model = new ResidentModel();
+
+        // 🔹 liste des résidents actifs
+        $residents = $model->getAllEnabled();
+
+        // 🔹 id depuis GET ou défaut = premier
+        $id = (int)($_GET['id'] ?? 0);
+
+        if ($id === 0 && !empty($residents)) {
+            $id = $residents[0]['Id']; // 🔥 premier résident
+        }
+
+        $resident = $model->findById($id);
+
+        require __DIR__ . '/../views/residents/restriction.php';
+    }
+   public function getDictionary()
+    {
+        $type = $_GET['type'] ?? '';
+
+        $map = [
+            'ingredients'  => __DIR__ . '/../../storage/data/ingredients.json',
+            'intolerances' => __DIR__ . '/../../storage/data/intolerances.json',
+            'allergies'    => __DIR__ . '/../../storage/data/allergies.json',
+        ];
+
+        if (!isset($map[$type]) || !file_exists($map[$type])) {
+            echo json_encode([]);
+            return;
+        }
+
+        $json = json_decode(file_get_contents($map[$type]), true);
+
+        $result = [];
+
+        // 🔥 FLATTEN JSON
+        array_walk_recursive($json, function($item) use (&$result){
+            if (is_string($item)) {
+                $result[] = $item;
+            }
+        });
+
+        // 🔥 enlever doublons + trier
+        $result = array_unique($result);
+        sort($result);
+
+        echo json_encode(array_values($result));
+    }
+    public function suggest()
+    {
+        $type = $_GET['type'] ?? '';
+        $term = trim($_GET['term'] ?? '');
+
+        $map = [
+            'ingredients'  => __DIR__ . '/../../storage/data/ingredients.json',
+            'intolerances' => __DIR__ . '/../../storage/data/intolerances.json',
+            'allergies'    => __DIR__ . '/../../storage/data/allergies.json',
+        ];
+
+        if (!isset($map[$type]) || !file_exists($map[$type])) {
+            echo json_encode([]);
+            return;
+        }
+
+        $json = json_decode(file_get_contents($map[$type]), true);
+
+        $allItems = [];
+
+        array_walk_recursive($json, function ($item) use (&$allItems) {
+            if (is_string($item)) {
+                $allItems[] = trim($item);
+            }
+        });
+
+        $allItems = array_values(array_unique(array_filter($allItems)));
+
+        if ($term !== '') {
+            $allItems = array_values(array_filter($allItems, function ($item) use ($term) {
+                return stripos($item, $term) !== false;
+            }));
+        }
+
+        natcasesort($allItems);
+
+        echo json_encode(array_slice(array_values($allItems), 0, 15));
+    }
+    
 }

@@ -42,6 +42,7 @@
                     <div class="dropdown-menu">
                         <a class="dropdown-item" href="/resident">Liste des résidents</a>
                         <a class="dropdown-item" href="/resident/create">Ajouter un résident</a>
+                        <a class="dropdown-item" href="/resident/restriction">Restrictions alimentaires</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown">
