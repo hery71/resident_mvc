@@ -5,10 +5,16 @@ require_once __DIR__ . '/../../app/config/db.php';
 class ResidentModel
 {
     private $pdo;
+    private string $fileIngredients;
+    private string $fileAllergies;
+    private string $fileIntolerances;
 
     public function __construct()
     {
         global $pdo;
+        $this->fileIngredients = dirname(__DIR__, 2) . '/storage/data/ingredients.json';
+        $this->fileAllergies = dirname(__DIR__, 2) . '/storage/data/allergies.json';
+        $this->fileIntolerances = dirname(__DIR__, 2) . '/storage/data/intolerances.json';
 
         if (!$pdo) {
             die("❌ PDO non initialisé (db.php non chargé)");
@@ -277,5 +283,163 @@ class ResidentModel
             'value' => $value,
             'id' => $id
         ]);
+    }
+     private function cleanIngredient(string $text): string
+    {
+        $text = trim($text);
+
+        // minuscules
+        $text = mb_strtolower($text, 'UTF-8');
+
+        // enlever accents
+        $text = iconv('UTF-8', 'ASCII//TRANSLIT', $text);
+
+        // remplacer apostrophes et tirets par espace
+        $text = str_replace(["'", "’", "-", "_"], " ", $text);
+
+        // supprimer espaces multiples
+        $text = preg_replace('/\s+/', ' ', $text);
+
+        $text = trim($text);
+
+        // enlever pluriel simple
+        if (substr($text, -1) === "s") {
+            $text = substr($text, 0, -1);
+        }
+
+        if (substr($text, -1) === "x") {
+            $text = substr($text, 0, -1);
+        }
+
+        return $text;
+    }
+    public function get_item($type)
+    {
+        if (!file_exists($this->fileIngredients)) {
+            return [];
+        }
+        $file='';
+        switch ($type) {
+            case 'ingredient':
+                $file = $this->fileIngredients;
+                break;
+            case 'allergie':
+                $file = $this->fileAllergies;
+                break;
+            case 'intolerance':
+                $file = $this->fileIntolerances;
+                break;
+            default:
+                return [];
+        }
+        $json = file_get_contents($file);
+        $data = json_decode($json, true);
+        return $data ?: [];
+    }
+    public function addDictionary($type,string $value): array
+    {
+        $value = $this->cleanIngredient($value);
+
+
+        if ($value === '') {
+            return [
+                'success' => false,
+                'message' => 'Item vide'
+            ];
+        }
+
+        $list = $this->get_item($type);
+
+        // Determine the file path based on type
+        $file = '';
+        switch ($type) {
+            case 'ingredient':
+                $file = $this->fileIngredients;
+                break;
+            case 'allergie':
+                $file = $this->fileAllergies;
+                break;
+            case 'intolerance':
+                $file = $this->fileIntolerances;
+                $json = file_get_contents($file);
+                $data = json_decode($json, true);
+                if (!$data) {
+                    return ['success'=>false];
+                }
+                $mainKey = 'Intolerances_Alimentaires_Canada';
+                $defaultCategory = 'Autres_Aliments';
+
+                if (!isset($data[$mainKey][$defaultCategory])) {
+                    $data[$mainKey][$defaultCategory] = [];
+                }
+                // 🔍 vérifier si existe déjà dans toutes les catégories
+                foreach ($data[$mainKey] as $cat => $items) {
+                    foreach ($items as $existing) {
+                        if ($this->cleanIngredient($existing) === $value) {
+                            return [
+                                'success' => false,
+                                'exists' => true,
+                                'value' => $existing
+                            ];
+                        }
+                    }
+                }
+                // ✅ ajout dans catégorie par défaut
+                $data[$mainKey][$defaultCategory][] = $value;
+
+                // tri
+                sort($data[$mainKey][$defaultCategory], SORT_NATURAL | SORT_FLAG_CASE);
+
+                file_put_contents(
+                    $file,
+                    json_encode($data, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE)
+                );
+
+                return [
+                    'success' => true,
+                    'value' => $value
+                ];
+            default:
+                return [
+                    'success' => false,
+                    'message' => 'Type invalide'
+                ];
+        }
+
+        foreach ($list as $existing) {
+
+            $existingClean = $this->cleanIngredient($existing);
+
+            if ($existingClean === $value) {
+                return [
+                    'success' => false,
+                    'exists'  => true,
+                    'value' => $existing
+                ];
+            }
+            /*
+
+            if (levenshtein($ingredient, $existingClean) <= 2) {
+                return [
+                    'success' => false,
+                    'similar' => $existing
+                ];
+            }
+                */
+        }
+
+        $list[] = $value;
+
+        natcasesort($list);
+
+        file_put_contents(
+            $file,
+            json_encode(array_values($list), JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE)
+        );
+
+        return [
+            'success' => true,
+            'value' => $value
+        ];
     }
 }

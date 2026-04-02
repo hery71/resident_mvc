@@ -3,20 +3,18 @@
 $custom_js = <<<'JS'
 function reloadRestrictionSelect(type, selectId, selectedValue = null)
 {
-    fetch('/resident/getDictionary?type=' + type)
+    return fetch('/resident/getDictionary?type=' + type)
     .then(r => r.json())
     .then(data => {
 
         let sel = document.getElementById(selectId);
-
-        if (!sel) {
-            console.log('Select introuvable:', selectId);
-            return;
-        }
+        if (!sel) return;
 
         sel.innerHTML = "";
 
         data.sort((a,b)=>a.localeCompare(b,'fr',{sensitivity:'base'}));
+
+        let found = false;
 
         data.forEach(i => {
             let opt = document.createElement("option");
@@ -25,12 +23,17 @@ function reloadRestrictionSelect(type, selectId, selectedValue = null)
 
             if (selectedValue && i.toLowerCase() === selectedValue.toLowerCase()) {
                 opt.selected = true;
+                found = true;
             }
 
             sel.appendChild(opt);
         });
-    })
-    .catch(err => console.error(type, err));
+
+        // 🔥 IMPORTANT : si pas trouvé → garder 1er item
+        if (!found && selectedValue) {
+            sel.value = selectedValue;
+        }
+    });
 }
 
 function addRestrictionSelect(field, selectId)
@@ -71,23 +74,27 @@ function addRestrictionNew(field, inputId, type, selectId)
     if (!val) return;
 
     let sel = document.getElementById(selectId);
+
+    // 🔍 vérifier si existe
     let exists = false;
 
     for (let i = 0; i < sel.options.length; i++) {
         if (sel.options[i].value.toLowerCase() === val.toLowerCase()) {
             exists = true;
+
+            // ✅ sélectionner directement
+            sel.selectedIndex = i;
             break;
         }
     }
 
+    // ✅ CAS 1 → existe → rien d'autre à faire
     if (exists) {
-        reloadRestrictionSelect(type, selectId, val).then(() => {
-            addRestrictionSelect(field, selectId);
-        });
         input.value = "";
         return;
     }
 
+    // 🔵 CAS 2 → n'existe pas → ajouter + reload
     fetch('/resident/addDictionary', {
         method:'POST',
         headers:{'Content-Type':'application/x-www-form-urlencoded'},
@@ -95,12 +102,9 @@ function addRestrictionNew(field, inputId, type, selectId)
             + '&value=' + encodeURIComponent(val)
     })
     .then(r => r.text())
-    .then(text => {
-        console.log('addDictionary =>', text);
-        return reloadRestrictionSelect(type, selectId, val);
-    })
     .then(() => {
-        addRestrictionSelect(field, selectId);
+        // reload + sélectionner le nouvel item
+        reloadRestrictionSelect(type, selectId, val);
         input.value = "";
     })
     .catch(err => {
@@ -130,10 +134,38 @@ function suggestRestriction(term, datalistId, type)
 }
 
 document.addEventListener('DOMContentLoaded', function () {
-    reloadRestrictionSelect('allergies', 'allergySelect');
-    reloadRestrictionSelect('intolerances', 'intoleranceSelect');
-    reloadRestrictionSelect('ingredients', 'ingredientSelect');
+    reloadRestrictionSelect('allergie', 'allergySelect');
+    reloadRestrictionSelect('intolerance', 'intoleranceSelect');
+    reloadRestrictionSelect('ingredient', 'ingredientSelect');
 });
+function removeRestriction(field, value)
+{
+    let id = document.getElementById('residentId').value;
+
+    if (!id || !value) return;
+
+    if (!confirm("Supprimer cet élément : " + value + " ?")) {
+        return;
+    }
+
+    fetch('/resident/updateRestriction', {
+        method: 'POST',
+        headers: {'Content-Type':'application/x-www-form-urlencoded'},
+        body: 'id=' + encodeURIComponent(id)
+            + '&field=' + encodeURIComponent(field)
+            + '&value=' + encodeURIComponent(value)
+            + '&action=remove'
+    })
+    .then(r => r.text())
+    .then(text => {
+        console.log('removeRestriction =>', text);
+        location.reload();
+    })
+    .catch(err => {
+        console.error(err);
+        alert('Erreur suppression');
+    });
+}
 JS;
 ?>
 
@@ -173,7 +205,11 @@ JS;
                 <h5>Allergies</h5>
                 <div class="mb-2">
                     <?php foreach (array_filter(array_map('trim', explode(',', $resident['Allergie'] ?? ''))) as $a): ?>
-                        <span class="badge badge-secondary mr-1"><?= e($a) ?></span>
+                        <span class="badge badge-danger mr-1"
+                            style="cursor:pointer"
+                            onclick="removeRestriction('Allergie','<?= addslashes($a) ?>')">
+                            <?= e($a) ?>
+                        </span>
                     <?php endforeach; ?>
                 </div>
 
@@ -188,10 +224,10 @@ JS;
                 <div class="d-flex mb-3">
                     <input id="allergyNew" class="form-control mr-2"
                         list="allergySuggestions"
-                        onkeyup="suggestRestriction(this.value,'allergySuggestions','allergies')"
+                        onkeyup="suggestRestriction(this.value,'allergySuggestions','allergie')"
                         placeholder="Rechercher / Ajouter">
                     <button type="button" class="btn btn-success"
-                        onclick="addRestrictionNew('Allergie','allergyNew','allergies','allergySelect')">
+                        onclick="addRestrictionNew('allergie','allergyNew','allergie','allergySelect')">
                         Rechercher Ajouter
                     </button>
                 </div>
@@ -201,7 +237,11 @@ JS;
                 <h5>Intolérances</h5>
                 <div class="mb-2">
                     <?php foreach (array_filter(array_map('trim', explode(',', $resident['Intolerance'] ?? ''))) as $i): ?>
-                        <span class="badge badge-secondary mr-1"><?= e($i) ?></span>
+                        <span class="badge badge-danger mr-1"
+                            style="cursor:pointer"
+                            onclick="removeRestriction('Intolerance','<?= addslashes($i) ?>')">
+                            <?= e($i) ?>
+                        </span>
                     <?php endforeach; ?>
                 </div>
 
@@ -216,10 +256,10 @@ JS;
                 <div class="d-flex mb-3">
                     <input id="intoleranceNew" class="form-control mr-2"
                         list="intoleranceSuggestions"
-                        onkeyup="suggestRestriction(this.value,'intoleranceSuggestions','intolerances')"
+                        onkeyup="suggestRestriction(this.value,'intoleranceSuggestions','intolerance')"
                         placeholder="Rechercher / Ajouter">
                     <button type="button" class="btn btn-success"
-                        onclick="addRestrictionNew('Intolerance','intoleranceNew','intolerances','intoleranceSelect')">
+                        onclick="addRestrictionNew('Intolerance','intoleranceNew','intolerance','intoleranceSelect')">
                         Rechercher Ajouter
                     </button>
                 </div>
@@ -228,15 +268,19 @@ JS;
 
                 <h5>Ingrédients non autorisés</h5>
                 <div class="mb-2">
-                    <?php foreach (array_filter(array_map('trim', explode(',', $resident['ingredients'] ?? ''))) as $i): ?>
-                        <span class="badge badge-danger mr-1"><?= e($i) ?></span>
+                    <?php foreach (array_filter(array_map('trim', explode(',', $resident['ingredient'] ?? ''))) as $i): ?>
+                        <span class="badge badge-danger mr-1"
+                            style="cursor:pointer"
+                            onclick="removeRestriction('ingredient','<?= addslashes($i) ?>')">
+                            <?= e($i) ?>
+                        </span>
                     <?php endforeach; ?>
                 </div>
 
                 <div class="d-flex mb-2">
                     <select id="ingredientSelect" class="form-control mr-2"></select>
                     <button type="button" class="btn btn-danger"
-                        onclick="addRestrictionSelect('ingredients','ingredientSelect')">
+                        onclick="addRestrictionSelect('ingredient','ingredientSelect')">
                         Ajouter
                     </button>
                 </div>
@@ -244,10 +288,10 @@ JS;
                 <div class="d-flex mb-3">
                     <input id="ingredientNew" class="form-control mr-2"
                         list="ingredientSuggestions"
-                        onkeyup="suggestRestriction(this.value,'ingredientSuggestions','ingredients')"
+                        onkeyup="suggestRestriction(this.value,'ingredientSuggestions','ingredient')"
                         placeholder="Rechercher / Ajouter">
                     <button type="button" class="btn btn-danger"
-                        onclick="addRestrictionNew('ingredients','ingredientNew','ingredients','ingredientSelect')">
+                        onclick="addRestrictionNew('ingredient','ingredientNew','ingredient','ingredientSelect')">
                         Rechercher Ajouter
                     </button>
                 </div>

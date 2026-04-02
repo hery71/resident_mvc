@@ -394,9 +394,9 @@ class ResidentController extends Controller
         $type = $_GET['type'] ?? '';
 
         $map = [
-            'ingredients'  => __DIR__ . '/../../storage/data/ingredients.json',
-            'intolerances' => __DIR__ . '/../../storage/data/intolerances.json',
-            'allergies'    => __DIR__ . '/../../storage/data/allergies.json',
+            'ingredient'  => __DIR__ . '/../../storage/data/ingredients.json',
+            'intolerance' => __DIR__ . '/../../storage/data/intolerances.json',
+            'allergie'    => __DIR__ . '/../../storage/data/allergies.json',
         ];
 
         if (!isset($map[$type]) || !file_exists($map[$type])) {
@@ -427,9 +427,9 @@ class ResidentController extends Controller
         $term = trim($_GET['term'] ?? '');
 
         $map = [
-            'ingredients'  => __DIR__ . '/../../storage/data/ingredients.json',
-            'intolerances' => __DIR__ . '/../../storage/data/intolerances.json',
-            'allergies'    => __DIR__ . '/../../storage/data/allergies.json',
+            'ingredient'  => __DIR__ . '/../../storage/data/ingredients.json',
+            'intolerance' => __DIR__ . '/../../storage/data/intolerances.json',
+            'allergie'    => __DIR__ . '/../../storage/data/allergies.json',
         ];
 
         if (!isset($map[$type]) || !file_exists($map[$type])) {
@@ -466,7 +466,7 @@ class ResidentController extends Controller
     $value  = trim($_POST['value'] ?? '');
     $action = $_POST['action'] ?? '';
 
-    $allowed = ['Allergie', 'Intolerance', 'ingredients'];
+    $allowed = ['Allergie', 'Intolerance', 'ingredient'];
 
     if (!$id || !in_array($field, $allowed, true) || $value === '') {
         echo json_encode(['success' => false, 'message' => 'Données invalides']);
@@ -489,6 +489,11 @@ class ResidentController extends Controller
             $items[] = $value;
         }
     }
+    if ($action === 'remove') {
+        $items = array_filter($items, function($item) use ($value) {
+            return mb_strtolower($item) !== mb_strtolower($value);
+        });
+    }
 
     $newValue = implode(',', $items);
     $model = new ResidentModel();
@@ -497,6 +502,22 @@ class ResidentController extends Controller
         'success' => $ok,
         'saved' => $newValue
     ]);
+}
+    public function addDictionary()
+{
+    $value = trim($_POST['value'] ?? '');
+    $type = $_POST['type'] ?? '';   
+
+    if ($value == "") {
+        echo json_encode(['success'=>false]);
+        return;
+    }
+
+    $model = new ResidentModel();
+
+    $res = $model->addDictionary($type, $value);
+
+    echo json_encode($res);
 }
     
 }

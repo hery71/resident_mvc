@@ -69,12 +69,15 @@
             "Boissons contenant guarana ou taurine"
         ],
         "Autres_Aliments": [
-            "Œufs",
-            "Levure",
+            "bacon",
+            "Cacao et chocolat",
             "Chou",
-            "Viande rouge",
+            "crotin",
+            "Levure",
+            "muscade",
             "Poisson gras",
-            "Cacao et chocolat"
+            "Viande rouge",
+            "Œufs"
         ],
         "Substances_Chimiques_et_Contact": [
             "Nickel",
@@ -82,7 +85,7 @@
             "Agents nettoyants alimentaires",
             "Histamine"
         ],
-         "Viandes_et_Autres": [
+        "Viandes_et_Autres": [
             "Boeuf",
             "Poulet",
             "Porc",
