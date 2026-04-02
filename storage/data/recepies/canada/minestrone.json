@@ -1,0 +1,59 @@
+{
+    "titre": "Minestrone",
+    "pax": 50,
+    "ingredients": [
+        {
+            "nom": "Oignons en de",
+            "unite": "Kg",
+            "quantite": 1
+        },
+        {
+            "nom": "Carotte en de",
+            "unite": "Kg",
+            "quantite": 2
+        },
+        {
+            "nom": "Hariv+cots verts en de",
+            "unite": "Kg",
+            "quantite": 1
+        },
+        {
+            "nom": "Zukini en de",
+            "unite": "Kg",
+            "quantite": 2
+        },
+        {
+            "nom": "Pomme de terre",
+            "unite": "Kg",
+            "quantite": 2
+        },
+        {
+            "nom": "Beans en boite 540gr",
+            "unite": "Pc",
+            "quantite": 8
+        },
+        {
+            "nom": "Tomates en de en boite 2.84L",
+            "unite": "Pc",
+            "quantite": 1
+        },
+        {
+            "nom": "Parmesan rape",
+            "unite": "Kg",
+            "quantite": 0.5
+        },
+        {
+            "nom": "Pasta Coquillette",
+            "unite": "Kg",
+            "quantite": 1.5
+        },
+        {
+            "nom": "Bouillon de Boeuf",
+            "unite": "L",
+            "quantite": 10
+        }
+    ],
+    "technique_de_realisation": [
+        "Dans une casserole à feu moyen-élevé, cuire l’oignon, la carotte et le céleri dans l’huile 8 minutes ou jusqu’à ce qu’ils soient translucides. Saler.\r\nAjouter la courgette et l’ail. Poursuivre la cuisson 5 minutes ou jusqu’à ce que la courgette soit légèrement dorée. Ajouter le reste des ingrédients, sauf les pâtes et le parmesan râpé. Saler et poivrer. Porter à ébullition. Laisser mijoter 45 minutes ou jusqu’à ce que les légumes soient tendres et que le bouillon ait légèrement épaissi.\r\nEntre-temps, dans une deuxième casserole d’eau bouillante salée, cuire les pâtes jusqu’à ce qu’elles soient tendres (voir note). Égoutter.\r\nAjouter les pâtes à la soupe. Retirer les feuilles de laurier et la croûte de parmesan, et les composter. Rectifier l’assaisonnement.\r\nDans des bols, répartir la soupe. Arroser d’un filet d’huile et parsemer de parmesan. Accompagner de pesto de basilic ou de pain, si désiré."
+    ]
+}
