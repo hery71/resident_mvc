@@ -2,12 +2,13 @@
 
 require_once __DIR__ . '/../../app/config/db.php';
 
-class ResidentModel
+class ResidentModel extends JsonRepository
 {
     private $pdo;
     private string $fileIngredients;
     private string $fileAllergies;
     private string $fileIntolerances;
+    private string $fileDrinks;
 
     public function __construct()
     {
@@ -15,6 +16,7 @@ class ResidentModel
         $this->fileIngredients = dirname(__DIR__, 2) . '/storage/data/ingredients.json';
         $this->fileAllergies = dirname(__DIR__, 2) . '/storage/data/allergies.json';
         $this->fileIntolerances = dirname(__DIR__, 2) . '/storage/data/intolerances.json';
+        $this->fileDrinks = dirname(__DIR__, 2) . '/storage/data/drinks.json';
 
         if (!$pdo) {
             die("❌ PDO non initialisé (db.php non chargé)");
@@ -271,12 +273,20 @@ class ResidentModel
         ");
         return $stmt->fetchAll(PDO::FETCH_ASSOC);
     }
-    public function getrestriction($field, $id){
+    public function getResidentInfoByField($field, $id){
     $stmt = $this->pdo->prepare("SELECT `$field` FROM resident_tbl WHERE Id = ?");
     $stmt->execute([$id]);
     return $stmt->fetchColumn();
     }
     public function updateRestriction($field, $value, $id){
+        $sql = "UPDATE resident_tbl SET `$field` = :value WHERE Id = :id";
+        $stmt = $this->pdo->prepare($sql);
+        return $stmt->execute([
+            'value' => $value,
+            'id' => $id
+        ]);
+    }
+    public function updateDrink($field, $value, $id){
         $sql = "UPDATE resident_tbl SET `$field` = :value WHERE Id = :id";
         $stmt = $this->pdo->prepare($sql);
         return $stmt->execute([
@@ -329,6 +339,9 @@ class ResidentModel
             case 'intolerance':
                 $file = $this->fileIntolerances;
                 break;
+            case 'drink':
+                $file = $this->fileDrinks;
+                break;
             default:
                 return [];
         }
@@ -358,6 +371,9 @@ class ResidentModel
                 break;
             case 'allergie':
                 $file = $this->fileAllergies;
+                break;
+            case 'drink':
+                $file = $this->fileDrinks;
                 break;
             case 'intolerance':
                 $file = $this->fileIntolerances;
@@ -441,5 +457,9 @@ class ResidentModel
             'success' => true,
             'value' => $value
         ];
+    }
+     public function allDrinks(): array
+    {
+        return $this->read($this->fileDrinks); 
     }
 }

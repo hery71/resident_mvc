@@ -397,6 +397,7 @@ class ResidentController extends Controller
             'ingredient'  => __DIR__ . '/../../storage/data/ingredients.json',
             'intolerance' => __DIR__ . '/../../storage/data/intolerances.json',
             'allergie'    => __DIR__ . '/../../storage/data/allergies.json',
+            'drink'       => __DIR__ . '/../../storage/data/drinks.json',
         ];
 
         if (!isset($map[$type]) || !file_exists($map[$type])) {
@@ -430,6 +431,7 @@ class ResidentController extends Controller
             'ingredient'  => __DIR__ . '/../../storage/data/ingredients.json',
             'intolerance' => __DIR__ . '/../../storage/data/intolerances.json',
             'allergie'    => __DIR__ . '/../../storage/data/allergies.json',
+            'drink'       => __DIR__ . '/../../storage/data/drinks.json',
         ];
 
         if (!isset($map[$type]) || !file_exists($map[$type])) {
@@ -474,7 +476,7 @@ class ResidentController extends Controller
     }
 
     $model = new ResidentModel();
-    $current = (string)$model->getrestriction($field, $id);
+    $current = (string)$model->getResidentInfoByField($field, $id);
     $items = array_filter(array_map('trim', explode(',', $current)));
 
     if ($action === 'add') {
@@ -503,21 +505,104 @@ class ResidentController extends Controller
         'saved' => $newValue
     ]);
 }
-    public function addDictionary()
+public function updateDrink()
 {
-    $value = trim($_POST['value'] ?? '');
-    $type = $_POST['type'] ?? '';   
+    $id     = (int)($_POST['id'] ?? 0);
+    $field  = $_POST['field'] ?? '';
+    $value  = trim($_POST['value'] ?? '');
+    $action = $_POST['action'] ?? '';
 
-    if ($value == "") {
-        echo json_encode(['success'=>false]);
+    $allowed = ['Drink_breakfast', 'Drink_lunch', 'Drink_dinner'];
+
+    if (!$id || !in_array($field, $allowed, true) || $value === '') {
+        echo json_encode(['success' => false, 'message' => 'Données invalides']);
         return;
     }
 
     $model = new ResidentModel();
+    $current = (string)$model->getResidentInfoByField($field, $id);
+    $items = array_filter(array_map('trim', explode(',', $current)));
 
+    if ($action === 'add') {
+        $exists = false;
+        foreach ($items as $item) {
+            if (mb_strtolower($item) === mb_strtolower($value)) {
+                $exists = true;
+                break;
+            }
+        }
+        if (!$exists) {
+            $items[] = $value;
+        }
+    }
+    if ($action === 'remove') {
+        $items = array_filter($items, function($item) use ($value) {
+            return mb_strtolower($item) !== mb_strtolower($value);
+        });
+    }
+    $newValue = implode(',', $items);
+    $model = new ResidentModel();
+    $ok = $model->updateDrink($field, $newValue, $id  );
+    echo json_encode([
+        'success' => $ok,
+        'saved' => $newValue
+    ]);
+}
+    public function addDictionary()
+{
+    $value = trim($_POST['value'] ?? '');
+    $type = $_POST['type'] ?? '';   
+    if ($value == "") {
+        echo json_encode(['success'=>false]);
+        return;
+    }
+    $model = new ResidentModel();
     $res = $model->addDictionary($type, $value);
-
     echo json_encode($res);
+}
+public function drinks()
+{
+    $model = new ResidentModel();
+
+    $residents = $model->getAllEnabled();
+    $id = (int)($_GET['id'] ?? ($residents[0]['Id'] ?? 0));
+    $resident = $model->findById($id);
+
+    require __DIR__ . '/../views/residents/drinks.php';
+}
+public function getDrinks()
+{
+    $file = __DIR__ . '/../../storage/data/drinks.json';
+
+    if (!file_exists($file)) {
+        echo json_encode([]);
+        return;
+    }
+
+    $data = json_decode(file_get_contents($file), true);
+
+    $flat = [];
+
+    $iterator = function($arr) use (&$flat, &$iterator) {
+        foreach ($arr as $v) {
+            if (is_array($v)) {
+                $iterator($v);
+            } else {
+                $flat[] = $v;
+            }
+        }
+    };
+
+    $iterator($data);
+
+    echo json_encode($flat);
+}
+public function edit_drinks()
+{
+    $model = new ResidentModel();
+    $drinks = $model->allDrinks();
+
+    require __DIR__ . '/../views/residents/edit_drinks.php';
 }
     
 }

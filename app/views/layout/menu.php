@@ -43,6 +43,8 @@
                         <a class="dropdown-item" href="/resident">Liste des résidents</a>
                         <a class="dropdown-item" href="/resident/create">Ajouter un résident</a>
                         <a class="dropdown-item" href="/resident/restriction">Restrictions alimentaires</a>
+                        <a class="dropdown-item" href="/resident/drinks">Gestions des Boissons des residents</a>
+                        <a class="dropdown-item" href="/resident/edit_drinks">Editer Boissons</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown">
