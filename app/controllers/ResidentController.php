@@ -462,147 +462,353 @@ class ResidentController extends Controller
         echo json_encode(array_slice(array_values($allItems), 0, 15));
     }
     public function updateRestriction()
-{
-    $id     = (int)($_POST['id'] ?? 0);
-    $field  = $_POST['field'] ?? '';
-    $value  = trim($_POST['value'] ?? '');
-    $action = $_POST['action'] ?? '';
+    {
+        $id     = (int)($_POST['id'] ?? 0);
+        $field  = $_POST['field'] ?? '';
+        $value  = trim($_POST['value'] ?? '');
+        $action = $_POST['action'] ?? '';
 
-    $allowed = ['Allergie', 'Intolerance', 'ingredient'];
+        $allowed = ['Allergie', 'Intolerance', 'ingredient'];
 
-    if (!$id || !in_array($field, $allowed, true) || $value === '') {
-        echo json_encode(['success' => false, 'message' => 'Données invalides']);
-        return;
-    }
+        if (!$id || !in_array($field, $allowed, true) || $value === '') {
+            echo json_encode(['success' => false, 'message' => 'Données invalides']);
+            return;
+        }
 
-    $model = new ResidentModel();
-    $current = (string)$model->getResidentInfoByField($field, $id);
-    $items = array_filter(array_map('trim', explode(',', $current)));
+        $model = new ResidentModel();
+        $current = (string)$model->getResidentInfoByField($field, $id);
+        $items = array_filter(array_map('trim', explode(',', $current)));
 
-    if ($action === 'add') {
-        $exists = false;
-        foreach ($items as $item) {
-            if (mb_strtolower($item) === mb_strtolower($value)) {
-                $exists = true;
-                break;
+        if ($action === 'add') {
+            $exists = false;
+            foreach ($items as $item) {
+                if (mb_strtolower($item) === mb_strtolower($value)) {
+                    $exists = true;
+                    break;
+                }
+            }
+            if (!$exists) {
+                $items[] = $value;
             }
         }
-        if (!$exists) {
-            $items[] = $value;
+        if ($action === 'remove') {
+            $items = array_filter($items, function($item) use ($value) {
+                return mb_strtolower($item) !== mb_strtolower($value);
+            });
         }
+
+        $newValue = implode(',', $items);
+        $model = new ResidentModel();
+        $ok = $model->updateRestriction($field, $newValue, $id  );
+        echo json_encode([
+            'success' => $ok,
+            'saved' => $newValue
+        ]);
     }
-    if ($action === 'remove') {
-        $items = array_filter($items, function($item) use ($value) {
-            return mb_strtolower($item) !== mb_strtolower($value);
+    public function updateDrink()
+    {
+        $id     = (int)($_POST['id'] ?? 0);
+        $field  = $_POST['field'] ?? '';
+        $value  = trim($_POST['value'] ?? '');
+        $action = $_POST['action'] ?? '';
+
+        $allowed = ['Drink_breakfast', 'Drink_lunch', 'Drink_dinner'];
+
+        if (!$id || !in_array($field, $allowed, true) || $value === '') {
+            echo json_encode(['success' => false, 'message' => 'Données invalides']);
+            return;
+        }
+
+        $model = new ResidentModel();
+        $current = (string)$model->getResidentInfoByField($field, $id);
+        $items = array_filter(array_map('trim', explode(',', $current)));
+
+        if ($action === 'add') {
+            $exists = false;
+            foreach ($items as $item) {
+                if (mb_strtolower($item) === mb_strtolower($value)) {
+                    $exists = true;
+                    break;
+                }
+            }
+            if (!$exists) {
+                $items[] = $value;
+            }
+        }
+        if ($action === 'remove') {
+            $items = array_filter($items, function($item) use ($value) {
+                return mb_strtolower($item) !== mb_strtolower($value);
+            });
+        }
+        $newValue = implode(',', $items);
+        $model = new ResidentModel();
+        $ok = $model->updateDrink($field, $newValue, $id  );
+        echo json_encode([
+            'success' => $ok,
+            'saved' => $newValue
+        ]);
+    }
+        public function addDictionary()
+    {
+        $value = trim($_POST['value'] ?? '');
+        $type = $_POST['type'] ?? '';   
+        if ($value == "") {
+            echo json_encode(['success'=>false]);
+            return;
+        }
+        $model = new ResidentModel();
+        $res = $model->addDictionary($type, $value);
+        echo json_encode($res);
+    }
+    public function drinks()
+    {
+        $model = new ResidentModel();
+
+        $residents = $model->getAllEnabled();
+        $id = (int)($_GET['id'] ?? ($residents[0]['Id'] ?? 0));
+        $resident = $model->findById($id);
+
+        require __DIR__ . '/../views/residents/drinks.php';
+    }
+    public function getDrinks()
+    {
+        $file = __DIR__ . '/../../storage/data/drinks.json';
+
+        if (!file_exists($file)) {
+            echo json_encode([]);
+            return;
+        }
+
+        $data = json_decode(file_get_contents($file), true);
+
+        $flat = [];
+
+        $iterator = function($arr) use (&$flat, &$iterator) {
+            foreach ($arr as $v) {
+                if (is_array($v)) {
+                    $iterator($v);
+                } else {
+                    $flat[] = $v;
+                }
+            }
+        };
+
+        $iterator($data);
+
+        echo json_encode($flat);
+    }
+    public function edit_drinks()
+    {
+        $model = new ResidentModel();
+        $drinks = $model->allDrinks();
+
+        require __DIR__ . '/../views/residents/edit_drinks.php';
+    }
+    public function unlike_meal()
+    {
+        $model = new ResidentModel();
+        $residents = $model->getAllEnabled();
+        $id = (int)($_GET['id'] ?? ($residents[0]['Id'] ?? 0));
+        $resident = $model->findById($id);
+
+        require __DIR__ . '/../views/residents/unlike_meal.php';
+        
+    }
+    public function getMeals()
+    {
+        $model = new MealModel();
+        $meals = $model->get_Meals();
+        echo json_encode($meals);
+    }
+    public function updateUnlikeMeal()
+    {
+        $id = (int)($_POST['id'] ?? 0);
+        $meal = trim($_POST['value'] ?? '');
+        $action = $_POST['action'] ?? '';
+
+        if (!$id || $meal === '') {
+            echo json_encode(['success' => false, 'message' => 'Données invalides']);
+            return;
+        }
+
+        $model = new ResidentModel();
+        $current = (string)$model->getResidentInfoByField('Unlike_meal', $id);
+        $items = array_filter(array_map('trim', explode(',', $current)));
+
+        if ($action === 'add') {
+            $exists = false;
+            foreach ($items as $item) {
+                if (mb_strtolower($item) === mb_strtolower($meal)) {
+                    $exists = true;
+                    break;
+                }
+            }
+            if (!$exists) {
+                $items[] = $meal;
+            }
+        }
+        if ($action === 'remove') {
+            $items = array_filter($items, function($item) use ($meal) {
+                return mb_strtolower($item) !== mb_strtolower($meal);
+            });
+        }
+
+        $newValue = implode(',', $items);
+        $ok = $model->updateUnlikeMeal($newValue, $id);
+        echo json_encode([
+            'success' => $ok,
+            'saved' => $newValue
+        ]);
+    }
+    public function suggestMeal()
+    {
+        header('Content-Type: application/json');
+
+        $term = $_GET['term'] ?? '';
+
+        $model = new MealModel();
+        $all = $model->get_Meals();
+
+        $filtered = array_filter($all, function($m) use ($term) {
+            return stripos($m, $term) !== false;
         });
+
+        echo json_encode(array_values($filtered));
+        exit;
     }
+    public function resident_menu()
+    {
+        global $pdo;
 
-    $newValue = implode(',', $items);
-    $model = new ResidentModel();
-    $ok = $model->updateRestriction($field, $newValue, $id  );
-    echo json_encode([
-        'success' => $ok,
-        'saved' => $newValue
-    ]);
-}
-public function updateDrink()
-{
-    $id     = (int)($_POST['id'] ?? 0);
-    $field  = $_POST['field'] ?? '';
-    $value  = trim($_POST['value'] ?? '');
-    $action = $_POST['action'] ?? '';
+        date_default_timezone_set('America/Moncton');
 
-    $allowed = ['Drink_breakfast', 'Drink_lunch', 'Drink_dinner'];
+        $xdate  = $_GET['date'] ?? date('Y-m-d');
+        $target = new DateTime($xdate);
+        $day    = $target->format('l');
 
-    if (!$id || !in_array($field, $allowed, true) || $value === '') {
-        echo json_encode(['success' => false, 'message' => 'Données invalides']);
-        return;
-    }
+        $cycle = MenuCycle::getSeasonAndWeek($xdate);
+        $cycleYear = $cycle['year'];
 
-    $model = new ResidentModel();
-    $current = (string)$model->getResidentInfoByField($field, $id);
-    $items = array_filter(array_map('trim', explode(',', $current)));
+        $menuModel = new MenuModel($pdo);
+        $residentModel = new ResidentModel($pdo);
 
-    if ($action === 'add') {
-        $exists = false;
-        foreach ($items as $item) {
-            if (mb_strtolower($item) === mb_strtolower($value)) {
-                $exists = true;
-                break;
+        $menu = null;
+
+        // PRIORITÉ MENU UNIQUE
+        $uniqueMenu = $menuModel->getUniqueMenuForDate($xdate);
+
+        if ($uniqueMenu) {
+            $menu   = $uniqueMenu;
+            $saison = $cycle['season'];
+            $week   = null;
+        } else {
+            $saison = $cycle['season'];
+            $week   = $cycle['week'];
+
+            if ($week !== null) {
+                $menu = $menuModel->getBaseMenu(
+                    $saison,
+                    $week,
+                    $day,
+                    $cycleYear
+                );
             }
         }
-        if (!$exists) {
-            $items[] = $value;
+
+        // RESIDENTS
+        $residents = $residentModel->getEnabledResidents();
+        foreach ($residents as &$r) {
+
+            $unlikes = array_map('trim', explode(',', (string)($r['Unlike_meal'] ?? '')));
+            $ingredients = array_map('trim', explode(',', (string)($r['ingredient'] ?? '')));
+
+            $r['Breakfast_final'] = $this->adaptMeal($menu['breakfast'] ?? '', $unlikes, $ingredients);
+            $r['Lunch_final']     = $this->adaptMeal($menu['lunch'] ?? '', $unlikes, $ingredients);
+            $r['Dinner_final']    = $this->adaptMeal($menu['dinner'] ?? '', $unlikes, $ingredients);
         }
+        unset($r);
+        require __DIR__ . '/../views/residents/resident_menu.php';
     }
-    if ($action === 'remove') {
-        $items = array_filter($items, function($item) use ($value) {
-            return mb_strtolower($item) !== mb_strtolower($value);
-        });
-    }
-    $newValue = implode(',', $items);
-    $model = new ResidentModel();
-    $ok = $model->updateDrink($field, $newValue, $id  );
-    echo json_encode([
-        'success' => $ok,
-        'saved' => $newValue
-    ]);
-}
-    public function addDictionary()
+    private function normalizeText($text)
 {
-    $value = trim($_POST['value'] ?? '');
-    $type = $_POST['type'] ?? '';   
-    if ($value == "") {
-        echo json_encode(['success'=>false]);
-        return;
-    }
-    $model = new ResidentModel();
-    $res = $model->addDictionary($type, $value);
-    echo json_encode($res);
+    $text = mb_strtolower((string)$text, 'UTF-8');
+    $text = preg_replace('/\([^)]*\)/u', ' ', $text);
+    $text = preg_replace('/[^\p{L}\p{N}\s]/u', ' ', $text);
+    $text = preg_replace('/\s+/u', ' ', $text);
+    return trim($text);
 }
-public function drinks()
+
+private function textToWords($text)
 {
-    $model = new ResidentModel();
-
-    $residents = $model->getAllEnabled();
-    $id = (int)($_GET['id'] ?? ($residents[0]['Id'] ?? 0));
-    $resident = $model->findById($id);
-
-    require __DIR__ . '/../views/residents/drinks.php';
-}
-public function getDrinks()
-{
-    $file = __DIR__ . '/../../storage/data/drinks.json';
-
-    if (!file_exists($file)) {
-        echo json_encode([]);
-        return;
+    $text = $this->normalizeText($text);
+    if ($text === '') {
+        return [];
     }
+    return preg_split('/\s+/u', $text);
+}
 
-    $data = json_decode(file_get_contents($file), true);
+private function matchUnlike($part, $unlikes)
+{
+    $partWords = $this->textToWords($part);
 
-    $flat = [];
+    foreach ($unlikes as $u) {
 
-    $iterator = function($arr) use (&$flat, &$iterator) {
-        foreach ($arr as $v) {
-            if (is_array($v)) {
-                $iterator($v);
-            } else {
-                $flat[] = $v;
+        $uWords = $this->textToWords($u);
+
+        if (empty($uWords)) {
+            continue;
+        }
+
+        foreach ($uWords as $w) {
+
+            if ($w === '') continue;
+
+            if (in_array($w, $partWords, true)) {
+                return true; // ✔ un seul mot suffit
             }
         }
-    };
+    }
 
-    $iterator($data);
-
-    echo json_encode($flat);
+    return false;
 }
-public function edit_drinks()
+
+private function matchIngredient($part, $ingredients)
 {
-    $model = new ResidentModel();
-    $drinks = $model->allDrinks();
+    $partClean = $this->normalizeText($part);
 
-    require __DIR__ . '/../views/residents/edit_drinks.php';
+    foreach ($ingredients as $ing) {
+
+        $ingClean = $this->normalizeText($ing);
+        //var_dump($partClean, $ingClean); die; // 👈 ici
+
+        if ($ingClean === '') continue;
+
+        if (mb_strpos($partClean, $ingClean) !== false) {
+            return true;
+        }
+    }
+
+    return false;
 }
-    
+
+private function adaptMeal($meal, $unlikes, $ingredients)
+{
+    //var_dump($ingredients); die; // 👈 ici
+    $parts = array_map('trim', explode(',', (string)$meal));
+    $result = [];
+
+    foreach ($parts as $part) {
+        if ($part === '') {
+            continue;
+        }
+
+        $replace =
+            $this->matchUnlike($part, $unlikes) ||
+            $this->matchIngredient($part, $ingredients);
+
+        $result[] = $replace ? '#(' . $part . ')#' : $part;
+    }
+
+    return implode(', ', $result);
+}
 }

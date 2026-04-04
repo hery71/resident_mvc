@@ -6,8 +6,7 @@ class MenuModel
 
     public function __construct()
     {
-        global $pdo;
-        $this->pdo = $pdo;
+        $this->pdo = $GLOBALS['pdo'];
     }
 
     /* ============================================================

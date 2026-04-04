@@ -77,9 +77,10 @@
     $custom_style = <<<'CSS'
     /* Custom CSS can be added here */
     .card-header-pastel {
-    background-color: #5ebdef; /* gris pastel doux */
+    background-color: #6e7071; /* gris pastel doux */
     font-weight: 600;
     text-align: center;
+    color: #fffbfb;
     border: 1px solid #E0E0E0;
     border-radius: 18px;
     padding: 5px;

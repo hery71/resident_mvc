@@ -7,6 +7,14 @@ function e($value): string
 {
     return htmlspecialchars((string)($value ?? ''), ENT_QUOTES, 'UTF-8');
 }
+function formatTxt($value): string
+{
+    return preg_replace(
+    '/#\((.*?)\)#/',
+    '<strong style="color:red; text-decoration:line-through;">$1</strong>',
+    e((string)$value)
+    ) ?? '';
+}
 function f8($value): string
 {
     return mb_convert_encoding((string)($value ?? ''), 'ISO-8859-1', 'UTF-8');

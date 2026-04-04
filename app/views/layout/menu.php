@@ -45,6 +45,8 @@
                         <a class="dropdown-item" href="/resident/restriction">Restrictions alimentaires</a>
                         <a class="dropdown-item" href="/resident/drinks">Gestions des Boissons des residents</a>
                         <a class="dropdown-item" href="/resident/edit_drinks">Editer Boissons</a>
+                        <a class="dropdown-item" href="/resident/unlike_meal">Gérer les plats non appréciés</a>
+                        <a class="dropdown-item" href="/resident/resident_menu">Menu du jour par resident</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown">

@@ -1,55 +1,8 @@
-id int AI PK 
-Gender varchar(45) 
-Prenom text 
-Nom text 
-Enabled int 
-mark int 
-Anniversaire date 
-Famille text 
-Relation text 
-Tel1 text 
-Tel2 text 
-Tel3 text 
-Chambre text 
-Numero varchar(45) 
-Diabet varchar(45) 
-Puree varchar(45) 
-Grinded varchar(45) 
-leavedate date 
-CauseDepart varchar(45) 
-LieuRepas varchar(45) 
-Admission date 
-ModeEating varchar(45) 
-Juice varchar(45) 
-Prune varchar(45) 
-Bread varchar(450) 
-Eggs varchar(45) 
-Cereale varchar(450) 
-Picture varchar(45) 
-Diet varchar(45) 
-Lunch varchar(45) 
-Dinner varchar(45) 
-moremeal varchar(45) 
-lessmeal varchar(45) 
-Thickened varchar(45) 
-Consistance varchar(45) 
-Milk varchar(45) 
-Lactose varchar(45) 
-HotDrink varchar(45) 
-Confirmation_birthday int 
-DepartObs varchar(45) 
-Tartinade varchar(450) 
-Proteine varchar(450) 
-Fruit varchar(450) 
-Breuvage_dej varchar(450) 
-Breuvage_din varchar(450) 
-Breuvage_sou varchar(450) 
-Autre_fruit varchar(450) 
-Regime varchar(450) 
-Tel_default int 
-Allergie longtext 
-Intolerance longtext 
-ingredient longtext 
-Drink_Breakfast longtext 
-Drink_lunch longtext 
-Drink_dinner
+INSERT INTO meal_tbl (meal, enabled, allergene, intolerance, ingredients)
+SELECT ml.meal, ml.enabled, ml.allergene, ml.intolerance, ml.ingredients
+FROM meal_dinner_dessert ml
+WHERE NOT EXISTS (
+    SELECT 1 
+    FROM meal_tbl mt 
+    WHERE TRIM(LOWER(mt.meal)) = TRIM(LOWER(ml.meal))
+);

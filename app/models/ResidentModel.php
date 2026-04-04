@@ -462,4 +462,19 @@ class ResidentModel extends JsonRepository
     {
         return $this->read($this->fileDrinks); 
     }
+    public function updateUnlikeMeal(string $value, $id): bool
+    {
+        $sql = "UPDATE resident_tbl SET Unlike_meal = :value WHERE Id = :id";
+        $stmt = $this->pdo->prepare($sql);
+        return $stmt->execute([
+            'value' => $value,
+            'id' => $id
+        ]);
+    } 
+    public function getEnabledResidents()
+    {
+        $stmt = $this->pdo->query("SELECT * FROM resident_tbl WHERE enabled = 1 ORDER BY Prenom");
+        return $stmt->fetchAll(PDO::FETCH_ASSOC);
+    }
+        
 }

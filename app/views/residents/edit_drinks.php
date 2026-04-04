@@ -1,4 +1,4 @@
-<?php $title = 'Editer Drinks'; 
+<?php $title = 'Editer les boissons'; 
 
 $custom_js = <<<JS
 function addInput() {
