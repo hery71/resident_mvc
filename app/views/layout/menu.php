@@ -47,6 +47,7 @@
                         <a class="dropdown-item" href="/resident/edit_drinks">Editer Boissons</a>
                         <a class="dropdown-item" href="/resident/unlike_meal">Gérer les plats non appréciés</a>
                         <a class="dropdown-item" href="/resident/resident_menu">Menu du jour par resident</a>
+                        <a class="dropdown-item" href="/resident/print_menu">Imprimer menu par résident</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown">
