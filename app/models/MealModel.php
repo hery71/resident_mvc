@@ -14,5 +14,17 @@ class MealModel
         $stmt = $this->pdo->query("SELECT meal FROM meal_tbl WHERE enabled = 1 ORDER BY meal ASC");
         return $stmt->fetchAll(PDO::FETCH_COLUMN);
     }
+    public function getMealAllergens($meal)
+    {
+        $stmt = $this->pdo->prepare("SELECT allergene FROM meal_tbl WHERE meal = :meal");
+        $stmt->execute(['meal' => $meal]);
+        return $stmt->fetchAll(PDO::FETCH_COLUMN);
+    }
+    public function getMealIntolerances($meal)
+    {
+        $stmt = $this->pdo->prepare("SELECT intolerance FROM meal_tbl WHERE meal = :meal");
+        $stmt->execute(['meal' => $meal]);
+        return $stmt->fetchAll(PDO::FETCH_COLUMN);
+    }
 
 }

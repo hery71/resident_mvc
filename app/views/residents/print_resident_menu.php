@@ -27,7 +27,7 @@
 <body>
 <div class="container mt-4" id="printable-area">
 <?php include __DIR__ . '/../layout/printSizeOption.php'; ?>
-<H3 class="mb-4 text-center font-weight-bold">Impression des Menus</H3>
+<H3 class="mb-4 text-center font-weight-bold"><?= e(ucfirst($_GET['service'] ?? '')) ?></H3>
 <div>
 
 <?php foreach ($residents as $r): ?>

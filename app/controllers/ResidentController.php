@@ -721,152 +721,227 @@ class ResidentController extends Controller
 
             $unlikes = array_map('trim', explode(',', (string)($r['Unlike_meal'] ?? '')));
             $ingredients = array_map('trim', explode(',', (string)($r['ingredient'] ?? '')));
+            $allergens = array_map('trim', explode(',', (string)($r['Allergie'] ?? '')));
+            $intolerances = array_map('trim', explode(',', (string)($r['Intolerance'] ?? '')));
 
-            $r['Breakfast_final'] = $this->adaptMeal($menu['breakfast'] ?? '', $unlikes, $ingredients);
-            $r['Lunch_final']     = $this->adaptMeal($menu['lunch'] ?? '', $unlikes, $ingredients);
-            $r['Dinner_final']    = $this->adaptMeal($menu['dinner'] ?? '', $unlikes, $ingredients);
+            $r['Breakfast_final'] = $this->adaptMeal($menu['breakfast'] ?? '', $unlikes, $ingredients,$allergens, $intolerances);
+            $r['Lunch_final']     = $this->adaptMeal($menu['lunch'] ?? '', $unlikes, $ingredients,$allergens, $intolerances);
+            $r['Dinner_final']    = $this->adaptMeal($menu['dinner'] ?? '', $unlikes, $ingredients,$allergens, $intolerances);
         }
         unset($r);
         require __DIR__ . '/../views/residents/resident_menu.php';
     }
     private function normalizeText($text)
-{
-    $text = mb_strtolower((string)$text, 'UTF-8');
-    $text = preg_replace('/\([^)]*\)/u', ' ', $text);
-    $text = preg_replace('/[^\p{L}\p{N}\s]/u', ' ', $text);
-    $text = preg_replace('/\s+/u', ' ', $text);
-    return trim($text);
-}
-
-private function textToWords($text)
     {
-        $text = $this->normalizeText($text);
-        if ($text === '') {
-            return [];
-        }
-        return preg_split('/\s+/u', $text);
+        $text = mb_strtolower((string)$text, 'UTF-8');
+        $text = preg_replace('/\([^)]*\)/u', ' ', $text);
+        $text = preg_replace('/[^\p{L}\p{N}\s]/u', ' ', $text);
+        $text = preg_replace('/\s+/u', ' ', $text);
+        return trim($text);
     }
 
-private function matchUnlike($part, $unlikes)
-    {
-        $partWords = $this->textToWords($part);
-
-        foreach ($unlikes as $u) {
-
-            $uWords = $this->textToWords($u);
-
-            if (empty($uWords)) {
-                continue;
+    private function textToWords($text)
+        {
+            $text = $this->normalizeText($text);
+            if ($text === '') {
+                return [];
             }
+            return preg_split('/\s+/u', $text);
+        }
 
-            foreach ($uWords as $w) {
+    private function matchUnlike($part, $unlikes)
+        {
+            $partWords = $this->textToWords($part);
 
-                if ($w === '') continue;
+            foreach ($unlikes as $u) {
 
-                if (in_array($w, $partWords, true)) {
-                    return true; // ✔ un seul mot suffit
+                $uWords = $this->textToWords($u);
+
+                if (empty($uWords)) {
+                    continue;
+                }
+
+                foreach ($uWords as $w) {
+
+                    if ($w === '') continue;
+
+                    if (in_array($w, $partWords, true)) {
+                        return true; // ✔ un seul mot suffit
+                    }
                 }
             }
+
+            return false;
         }
 
-        return false;
-    }
+        private function matchIngredient($part, $ingredients)
+        {
+            $partClean = $this->normalizeText($part);
 
-    private function matchIngredient($part, $ingredients)
+            foreach ($ingredients as $ing) {
+
+                $ingClean = $this->normalizeText($ing);
+                //var_dump($partClean, $ingClean); die; // 👈 ici
+
+                if ($ingClean === '') continue;
+
+                if (mb_strpos($partClean, $ingClean) !== false) {
+                    return true;
+                }
+            }
+
+            return false;
+        }
+
+        private function adaptMeal($meal, $unlikes, $ingredients, $residentAllergens = '', $residentIntolerances = ''   )
+        {
+            $model = new MealModel();
+
+            $parts = array_map('trim', explode(',', (string)$meal));
+            $result = [];
+
+            foreach ($parts as $part) {
+                if ($part === '') {
+                    continue;
+                }
+
+                // 🔴 priorité allergène
+                $mealAllergens = $model->getMealAllergens($part);
+                $mealIntolerances = $model->getMealIntolerances($part);
+
+                if ($this->matchAllergen($mealAllergens, $residentAllergens)) {
+                    $result[] = '#(' . $part . ')#';
+                    continue;
+                }
+                if ($this->matchIntolerance($mealIntolerances, $residentIntolerances)) {
+                    $result[] = '#(' . $part . ')#';
+                    continue;
+                }
+
+                // ✅ sinon
+                $replace =
+                    $this->matchUnlike($part, $unlikes) ||
+                    $this->matchIngredient($part, $ingredients);
+
+                $result[] = $replace ? '#(' . $part . ')#' : $part;
+            }
+
+            return implode(', ', $result);
+        }
+    public function matchAllergen($mealAllergens, $residentAllergens)
     {
-        $partClean = $this->normalizeText($part);
+        if (empty($mealAllergens) || empty($residentAllergens)) {
+            return false;
+        }
 
-        foreach ($ingredients as $ing) {
+        // 🔴 meal
+        if (is_array($mealAllergens)) {
+            $mealParts = array_map(fn($v) => trim(strtolower((string)$v)), $mealAllergens);
+        } else {
+            $mealParts = array_map('trim', explode(',', strtolower((string)$mealAllergens)));
+        }
 
-            $ingClean = $this->normalizeText($ing);
-            //var_dump($partClean, $ingClean); die; // 👈 ici
+        // 🔴 resident
+        if (is_array($residentAllergens)) {
+            $residentParts = array_map(fn($v) => trim(strtolower((string)$v)), $residentAllergens);
+        } else {
+            $residentParts = array_map('trim', explode(',', strtolower((string)$residentAllergens)));
+        }
 
-            if ($ingClean === '') continue;
-
-            if (mb_strpos($partClean, $ingClean) !== false) {
+        foreach ($mealParts as $m) {
+            if ($m !== '' && in_array($m, $residentParts)) {
                 return true;
             }
         }
 
         return false;
     }
-
-    private function adaptMeal($meal, $unlikes, $ingredients)
+    public function matchIntolerance($mealIntolerances, $residentIntolerances)
     {
-        //var_dump($ingredients); die; // 👈 ici
-        $parts = array_map('trim', explode(',', (string)$meal));
-        $result = [];
-
-        foreach ($parts as $part) {
-            if ($part === '') {
-                continue;
-            }
-
-            $replace =
-                $this->matchUnlike($part, $unlikes) ||
-                $this->matchIngredient($part, $ingredients);
-
-            $result[] = $replace ? '#(' . $part . ')#' : $part;
+        if (empty($mealIntolerances) || empty($residentIntolerances)) {
+            return false;
         }
 
-        return implode(', ', $result);
+        // 🔴 meal
+        if (is_array($mealIntolerances)) {
+            $mealParts = array_map(fn($v) => trim(strtolower((string)$v)), $mealIntolerances);
+        } else {
+            $mealParts = array_map('trim', explode(',', strtolower((string)$mealIntolerances)));
+        }
+
+        // 🔴 resident
+        if (is_array($residentIntolerances)) {
+            $residentParts = array_map(fn($v) => trim(strtolower((string)$v)), $residentIntolerances);
+        } else {
+            $residentParts = array_map('trim', explode(',', strtolower((string)$residentIntolerances)));
+        }
+
+        foreach ($mealParts as $m) {
+            if ($m !== '' && in_array($m, $residentParts)) {
+                return true;
+            }
+        }
+
+        return false;
     }
     public function print_resident_menu()
-{
-    global $pdo;
+    {
+        global $pdo;
 
-    date_default_timezone_set('America/Moncton');
+        date_default_timezone_set('America/Moncton');
 
-    $xdate  = $_GET['date'] ?? date('Y-m-d');
-    $target = new DateTime($xdate);
-    $day    = $target->format('l');
+        $xdate  = $_GET['date'] ?? date('Y-m-d');
+        $target = new DateTime($xdate);
+        $day    = $target->format('l');
 
-    $cycle = MenuCycle::getSeasonAndWeek($xdate);
-    $cycleYear = $cycle['year'];
+        $cycle = MenuCycle::getSeasonAndWeek($xdate);
+        $cycleYear = $cycle['year'];
 
-    $menuModel = new MenuModel($pdo);
-    $residentModel = new ResidentModel($pdo);
+        $menuModel = new MenuModel($pdo);
+        $residentModel = new ResidentModel($pdo);
 
-    $menu = null;
+        $menu = null;
 
-    // MENU (identique)
-    $uniqueMenu = $menuModel->getUniqueMenuForDate($xdate);
+        // MENU (identique)
+        $uniqueMenu = $menuModel->getUniqueMenuForDate($xdate);
 
-    if ($uniqueMenu) {
-        $menu   = $uniqueMenu;
-    } else {
-        $week = $cycle['week'];
-        $saison = $cycle['season'];
+        if ($uniqueMenu) {
+            $menu   = $uniqueMenu;
+        } else {
+            $week = $cycle['week'];
+            $saison = $cycle['season'];
 
-        if ($week !== null) {
-            $menu = $menuModel->getBaseMenu(
-                $saison,
-                $week,
-                $day,
-                $cycleYear
-            );
+            if ($week !== null) {
+                $menu = $menuModel->getBaseMenu(
+                    $saison,
+                    $week,
+                    $day,
+                    $cycleYear
+                );
+            }
         }
+
+        // OPTIONS IMPRESSION
+        $service     = $_GET['service'] ?? 'breakfast';
+        $showDrinks  = $_GET['drinks'] ?? 1;
+        $showMenu    = $_GET['menu'] ?? 1;
+
+        // RESIDENTS
+        $residents = $residentModel->getEnabledResidents();
+
+        foreach ($residents as &$r) {
+
+            $unlikes = array_map('trim', explode(',', (string)($r['Unlike_meal'] ?? '')));
+            $ingredients = array_map('trim', explode(',', (string)($r['ingredient'] ?? '')));
+            $residentAllergens = array_map('trim', explode(',', (string)($r['Allergens'] ?? '')));
+            $residentIntolerances = array_map('trim', explode(',', (string)($r['Intolerance'] ?? '')));
+
+            $r['Breakfast_final'] = $this->adaptMeal($menu['breakfast'] ?? '', $unlikes, $ingredients, $residentAllergens, $residentIntolerances);
+            $r['Lunch_final']     = $this->adaptMeal($menu['lunch'] ?? '', $unlikes, $ingredients, $residentAllergens, $residentIntolerances);
+            $r['Dinner_final']    = $this->adaptMeal($menu['dinner'] ?? '', $unlikes, $ingredients, $residentAllergens, $residentIntolerances);
+        }
+        unset($r);
+
+        require __DIR__ . '/../views/residents/print_resident_menu.php';
     }
-
-    // OPTIONS IMPRESSION
-    $service     = $_GET['service'] ?? 'breakfast';
-    $showDrinks  = $_GET['drinks'] ?? 1;
-    $showMenu    = $_GET['menu'] ?? 1;
-
-    // RESIDENTS
-    $residents = $residentModel->getEnabledResidents();
-
-    foreach ($residents as &$r) {
-
-        $unlikes = array_map('trim', explode(',', (string)($r['Unlike_meal'] ?? '')));
-        $ingredients = array_map('trim', explode(',', (string)($r['ingredient'] ?? '')));
-
-        $r['Breakfast_final'] = $this->adaptMeal($menu['breakfast'] ?? '', $unlikes, $ingredients);
-        $r['Lunch_final']     = $this->adaptMeal($menu['lunch'] ?? '', $unlikes, $ingredients);
-        $r['Dinner_final']    = $this->adaptMeal($menu['dinner'] ?? '', $unlikes, $ingredients);
-    }
-    unset($r);
-
-    require __DIR__ . '/../views/residents/print_resident_menu.php';
-}
 }

@@ -6,6 +6,21 @@
         <div class="card-header-pastel"><?= $title ?></div>
 
         <div class="card-body">
+            <a target="_blank"
+            href="/resident/print_resident_menu?service=breakfast&drinks=1&menu=1&date=<?= $xdate ?>"
+            class="btn btn-outline-primary">
+            Imprimer Breakfast
+            </a>
+            <a target="_blank"
+            href="/resident/print_resident_menu?service=lunch&drinks=1&menu=1&date=<?= $xdate ?>"
+            class="btn btn-outline-primary">
+            Imprimer Lunch
+            </a>
+            <a target="_blank"
+            href="/resident/print_resident_menu?service=dinner&drinks=1&menu=1&date=<?= $xdate ?>"
+            class="btn btn-outline-primary">
+            Imprimer Dinner
+            </a>
 
             <table class="table table-bordered table-sm">
                 <thead>
@@ -45,19 +60,6 @@
         </div>
     </div>
 </div>
-<a target="_blank"
-   href="/resident/print_resident_menu?service=breakfast&drinks=1&menu=1&date=<?= $xdate ?>"
-   class="btn btn-outline-primary">
-   Imprimer Breakfast
-</a>
-<a target="_blank"
-   href="/resident/print_resident_menu?service=lunch&drinks=1&menu=1&date=<?= $xdate ?>"
-   class="btn btn-outline-primary">
-   Imprimer Lunch
-</a>
-<a target="_blank"
-   href="/resident/print_resident_menu?service=dinner&drinks=1&menu=1&date=<?= $xdate ?>"
-   class="btn btn-outline-primary">
-   Imprimer Dinner
-</a>
+
+
 <?php require __DIR__ . '/../layout/footer.php'; ?>
