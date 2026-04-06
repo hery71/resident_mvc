@@ -12,7 +12,7 @@ class MealModel
     public function get_Meals()
     {
         $stmt = $this->pdo->query("
-            SELECT id, meal 
+            SELECT * 
             FROM meal_tbl 
             WHERE enabled = 1 
             ORDER BY meal ASC
@@ -20,17 +20,51 @@ class MealModel
 
         return $stmt->fetchAll(PDO::FETCH_ASSOC);
     }
-    public function getMealAllergens($meal)
+    public function getMealAllergens2($meal)
     {
         $stmt = $this->pdo->prepare("SELECT allergene FROM meal_tbl WHERE meal = :meal");
         $stmt->execute(['meal' => $meal]);
         return $stmt->fetchAll(PDO::FETCH_COLUMN);
     }
-    public function getMealIntolerances($meal)
+    public function getMealAllergens($meal)
+    {
+        $stmt = $this->pdo->prepare("
+            SELECT allergene 
+            FROM meal_tbl 
+            WHERE meal = :meal
+        ");
+        $stmt->execute(['meal' => $meal]);
+
+        $row = $stmt->fetch(PDO::FETCH_ASSOC);
+
+        if (!$row || empty($row['allergene'])) {
+            return [];
+        }
+
+        return array_map('trim', explode(',', $row['allergene']));
+    }
+    public function getMealIntolerances2($meal)
     {
         $stmt = $this->pdo->prepare("SELECT intolerance FROM meal_tbl WHERE meal = :meal");
         $stmt->execute(['meal' => $meal]);
         return $stmt->fetchAll(PDO::FETCH_COLUMN);
+    }
+    public function getMealIntolerances($meal)
+    {
+        $stmt = $this->pdo->prepare("
+            SELECT intolerance 
+            FROM meal_tbl 
+            WHERE meal = :meal
+        ");
+        $stmt->execute(['meal' => $meal]);
+
+        $row = $stmt->fetch(PDO::FETCH_ASSOC);
+
+        if (!$row || empty($row['intolerance'])) {
+            return [];
+        }
+
+        return array_map('trim', explode(',', $row['intolerance']));
     }
     public function deleteMeal($id)
     {
@@ -94,6 +128,32 @@ class MealModel
 
         // minuscule pour comparaison
         return strtolower($meal);
+    }
+    public function updateAllergens($meal, $allergene)
+    {
+        $stmt = $this->pdo->prepare("
+            UPDATE meal_tbl 
+            SET allergene = :allergene
+            WHERE meal = :meal
+        ");
+
+        $stmt->execute([
+            'meal' => $meal,
+            'allergene' => $allergene
+        ]);
+    }
+    public function updateIntolerances($meal, $intolerance)
+    {
+        $stmt = $this->pdo->prepare("
+            UPDATE meal_tbl 
+            SET intolerance = :intolerance  
+            WHERE meal = :meal
+        ");
+
+        $stmt->execute([
+            'meal' => $meal,
+            'intolerance' => $intolerance
+        ]);
     }
 
 }

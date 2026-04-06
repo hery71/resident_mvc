@@ -1,5 +1,55 @@
 <?php $title = 'Liste des plats'; 
 $custom_js = <<<'JS'
+let currentMeal = null;
+function checkAlergen(meal){
+    currentMeal = meal; 
+    fetch("/meal/checkAllergen?meal=" + encodeURIComponent(meal))
+    .then(r => r.json())
+    .then(data => {
+
+        // décocher tout
+        document.querySelectorAll('.allergen-check').forEach(cb => {
+            cb.checked = false;
+        });
+
+        // créer map pour perf
+        let map = {};
+        data.forEach(a => {
+            map[a.toLowerCase().trim()] = true;
+        });
+
+        // cocher ceux correspondants
+        document.querySelectorAll('.allergen-check').forEach(cb => {
+            let val = cb.value.toLowerCase().trim();
+            cb.checked = !!map[val];
+        });
+    });
+}
+function checkIntolerance(meal){
+    currentMeal = meal;
+    fetch("/meal/checkIntolerance?meal=" + encodeURIComponent(meal))
+    .then(r => r.json())
+    .then(data => {
+
+        // décocher tout
+        document.querySelectorAll('.intolerance-check').forEach(cb => {
+            cb.checked = false;
+        });
+
+        // créer map pour perf
+        let map = {};
+        data.forEach(a => {
+            map[a.toLowerCase().trim()] = true;
+        });
+
+        // cocher ceux correspondants
+        document.querySelectorAll('.intolerance-check').forEach(cb => {
+            let val = cb.value.toLowerCase().trim();
+            cb.checked = !!map[val];
+        });
+
+    });
+}
 function deleteMeal(id) {
     if (!confirm("Supprimer ce plat ?")) return;
 
@@ -196,6 +246,70 @@ function reloadIngredientModalSelect(selectedIngredient)
 
         });
     }
+function saveAllergens(meal)
+    {
+        alert("meal = " + meal);
+        let selected = [];
+            document.querySelectorAll('.allergen-check:checked').forEach(cb => {
+                selected.push(cb.value.trim());
+            });
+
+            let allergenes = selected.join(',');
+
+            fetch('/meal/saveAllergens', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded'
+                },
+                body:
+                    'meal=' + encodeURIComponent(meal) +
+                    '&allergene=' + encodeURIComponent(allergenes)
+            })
+            .then(r => r.json())
+            .then(res => {
+                if(res.success){
+                    alert("Enregistré");
+                    // fermer la modale APRES
+                    $('#allergenModal').modal('hide');
+                     location.reload();
+                } else {
+                    alert("Erreur");
+                }
+            });
+            
+    }
+function saveIntolerances(meal)
+    {
+        alert("meal = " + meal);
+        let selected = [];
+            document.querySelectorAll('.intolerance-check:checked').forEach(cb => {
+                selected.push(cb.value.trim());
+            });
+
+            let intolerances = selected.join(',');
+
+            fetch('/meal/saveIntolerances', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded'
+                },
+                body:
+                    'meal=' + encodeURIComponent(meal) +
+                    '&intolerance=' + encodeURIComponent(intolerances)
+            })
+            .then(r => r.json())
+            .then(res => {
+                if(res.success){
+                    alert("Enregistré");
+                    // fermer la modale APRES
+                    $('#intoleranceModal').modal('hide');
+                     location.reload();
+                } else {
+                    alert("Erreur");
+                }
+            });
+            
+    }
 JS;
 
 $custom_style = <<<'CSS'
@@ -228,6 +342,9 @@ CSS;
                     <thead>
                         <tr>
                             <th>Plat</th>
+                            <th>Ingrédients</th>
+                            <th>Allergenes</th>
+                            <th>Intolérances</th>
                             <th style="width:200px;">Actions</th>
                         </tr>
                     </thead>
@@ -235,8 +352,10 @@ CSS;
                         <?php foreach ($meals as $m): ?>
                             <tr>
                                 <td><?= e($m['meal']) ?></td>
+                                <td><?= e($m['ingredients']) ?></td>
+                                <td><?= e($m['allergene']) ?></td>
+                                <td><?= e($m['intolerance']) ?></td>
                                 <td>
-
                                     <button class="btn btn-danger btn-sm"
                                         onclick="deleteMeal(<?= (int)$m['id'] ?>)">
                                         Supprimer
@@ -246,6 +365,20 @@ CSS;
                                         class="btn btn-sm btn-primary"
                                         onclick="openIngredientModal('<?= e($m['meal']) ?>', '')">
                                         Ajouter ingrédients
+                                    </button>    
+                                    <button type="button"
+                                            class="btn btn-outline-primary btn-sm"
+                                            onclick="checkAlergen('<?= addslashes($m['meal']) ?>')"
+                                            data-toggle="modal"
+                                            data-target="#allergenModal">
+                                        Allergènes
+                                    </button>
+                                    <button type="button"
+                                            class="btn btn-outline-primary btn-sm"
+                                            onclick="checkIntolerance('<?= addslashes($m['meal']) ?>')"
+                                            data-toggle="modal"
+                                            data-target="#intoleranceModal">
+                                        Intolérances
                                     </button>
                                 </td>
                             </tr>
@@ -324,6 +457,152 @@ CSS;
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
         </div>
       </div>
+    </div>
+  </div>
+</div>
+<!-- ============================================================
+     🟦 MODALE DE GESTION DES ALLERGÈNES + Intolerances
+     ============================================================ -->   
+<!---------------------------------------MODALES--------------------------------------->
+    <!-- MODALE ALLERGENES -->
+    <div class="modal fade" id="allergenModal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h5 class="modal-title">Allergènes</h5>
+                    <button type="button"
+                        class="btn btn-sm btn-outline-secondary mt-2"
+                        data-toggle="modal"
+                        data-target="#addAllergenModal">
+                        ➕ Ajouter un allergène
+                    </button>
+                    <button type="button" class="btn-close" data-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                    <?php foreach ($allergenList as $a): ?>
+                        <div class="col-md-4">
+                        <div class="form-check">
+                        <input class="form-check-input allergen-check"
+                            type="checkbox"
+                            value="<?= htmlspecialchars($a) ?>"
+                            id="allergen_<?= md5($a) ?>">
+                        <label class="form-check-label" for="allergen_<?= md5($a) ?>">
+                            <?= htmlspecialchars($a) ?>
+                        </label>
+                        </div>
+                        </div>
+                    <?php endforeach; ?>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                <button class="btn btn-primary" onclick="saveAllergens(currentMeal)">
+                    Appliquer
+                </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- MODALE INTOLERANCES -->
+     <div class="modal fade" id="intoleranceModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-scrollable">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h5 class="modal-title">Intolérances alimentaires</h5>
+                    <button type="button"
+                            class="btn btn-sm btn-outline-secondary mt-2"
+                            data-toggle="modal"
+                            data-target="#addIntoleranceModal">
+                        ➕ Ajouter une intolérance
+                    </button>
+                    <button type="button" class="btn-close" data-dismiss="modal"></button>
+                </div>
+
+                <div class="modal-body">
+                    <div class="row">
+                         <?php foreach ($intoleranceList as $i): ?>
+                            <div class="col-md-4 col-sm-6">
+                                <div class="form-check">
+                                    <input class="form-check-input intolerance-check"
+                                        type="checkbox"
+                                        value="<?= htmlspecialchars($i) ?>"
+                                        id="intol_<?= md5($i) ?>">
+                                    <label class="form-check-label" for="intol_<?= md5($i) ?>">
+                                    <?= htmlspecialchars($i) ?>
+                                    </label>
+                                </div>
+                            </div>
+                        <?php endforeach; ?>
+                    </div>
+                </div>
+
+                <div class="modal-footer">
+                        <button class="btn btn-primary" onclick="saveIntolerances(currentMeal)">
+                            Appliquer
+                        </button>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-----------------------------------MODALE AJOUTER ALLERGENES-------------------------------------------->
+<div class="modal fade" id="addAllergenModal" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <h5 class="modal-title">Ajouter un allergène</h5>
+        <button class="close" data-dismiss="modal">&times;</button>
+      </div>
+
+      <div class="modal-body">
+        <input type="text"
+               id="new-allergen"
+               class="form-control"
+               placeholder="Ex: Sésame">
+      </div>
+
+      <div class="modal-footer">
+        <button class="btn btn-primary" onclick="saveAllergen()">Enregistrer</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+<!-----------------------------------mODALE AJOUTER INTOLERANCES-------------------------------------------->
+<div class="modal fade" id="addIntoleranceModal" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <h5 class="modal-title">Ajouter une intolérance</h5>
+        <button class="close" data-dismiss="modal">&times;</button>
+      </div>
+
+      <div class="modal-body">
+
+        <select id="intolerance-category" class="form-control mb-2">
+            <option value="">-- Catégorie --</option>
+
+            <?php foreach ($intoleranceCategories as $cat): ?>
+                <option value="<?= e($cat) ?>">
+                    <?= e(str_replace('_', ' ', $cat)) ?>
+                </option>
+            <?php endforeach; ?>
+        </select>
+
+        <input type="text"
+               id="new-intolerance"
+               class="form-control"
+               placeholder="Ex: Porc">
+
+      </div>
+
+      <div class="modal-footer">
+        <button class="btn btn-primary" onclick="saveIntolerance()">Enregistrer</button>
+      </div>
+
     </div>
   </div>
 </div>
