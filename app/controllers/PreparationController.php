@@ -311,14 +311,14 @@ class PreparationController
         header('Content-Type: application/json');
         echo json_encode($model->get_ingredients());
     }
-    public function mealList()
+    public function mealAddIngredient()
     {
         $model = new PreparationModel();
 
         $meals = $model->getMealsWithoutIngredients();
         $ingredients = $model->get_Ingredients();
 
-        require __DIR__ . '/../views/alimentaire/preparation/mealList.php';
+        require __DIR__ . '/../views/alimentaire/preparation/mealAddIngredient.php';
     }
     public function editMeal()
     {

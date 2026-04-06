@@ -1,132 +1,89 @@
-<?php $title = "Meals sans ingrédients"; 
+<?php $title = 'Liste des plats'; 
 $custom_js = <<<'JS'
-    // Custom JavaScript can be added here
-    function openIngredientModal(plat) 
-    {
-      document.getElementById("ingredient_plat_display").textContent = plat;
-      document.getElementById("ingredient_plat").value = plat;
-      document.getElementById("ingredientNew").value = "";
-      
-      fetch("/preparation/getIngredients?v=" + Date.now())
-      .then(r => r.json())
-      .then(data => {
+function deleteMeal(id) {
+    if (!confirm("Supprimer ce plat ?")) return;
 
-          let sel = document.getElementById("ingredientSelectModal");
-
-          sel.innerHTML = "";
-
-          data.sort((a,b)=>a.localeCompare(b,'fr',{sensitivity:'base'}));
-
-          data.forEach(i => {
-
-              let opt = document.createElement("option");
-
-              opt.value = i;
-              opt.textContent = i;
-
-              sel.appendChild(opt);
-
-          });
-
-      });
-
-      fetch(`/preparation/loadMealIngredients?plat=${encodeURIComponent(plat)}`)
-      .then(r => r.json())
-      .then(rows => {
-          let tbody = document.getElementById("ingredientExistingTable");
-          tbody.innerHTML = "";
-
-          rows.forEach(ingredient => {
-              tbody.innerHTML += `
-                  <tr>
-                      <td>${ingredient}</td>
-                      <td width="40">
-                      <button class="btn btn-danger btn-sm"
-                          onclick="removeIngredientFromMeal('${ingredient}')">
-                          ❌
-                      </button>
-          </td>
-                  </tr>
-              `;
-          });
-
-          $('#ingredientModal').modal('show');
-      });
-    }
-     function addIngredientToMeal() 
-    {
-        let plat = document.getElementById("ingredient_plat").value;
-        let ingredient = document.getElementById("ingredientSelectModal").value;
-
-        if (!plat || !ingredient ) {
-            alert("Veuillez choisir un plat et un ingrédient.");
-           return;
+    fetch('/meal/deleteMeal', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/x-www-form-urlencoded'
+        },
+        body: 'id=' + encodeURIComponent(id)
+    })
+    .then(r => r.json())
+    .then(res => {
+        if (res.success) {
+            location.reload();
+        } else {
+            alert("Erreur lors de la suppression");
         }
+    });
+}
+function syncMeals() {
+    if (!confirm("Mettre à jour meal_tbl à partir des menus ?")) return;
 
-        // vérifier si déjà présent
-        let existing = [];
+    fetch('/meal/syncMeals', {
+        method: 'POST'
+    })
+    .then(r => r.json())
+    .then(res => {
+        alert(res.message);
+        location.reload();
+    });
+}
+function openIngredientModal(plat) 
+{
+    document.getElementById("ingredient_plat_display").textContent = plat;
+    document.getElementById("ingredient_plat").value = plat;
+    document.getElementById("ingredientNew").value = "";
+    
+    fetch("/preparation/getIngredients?v=" + Date.now())
+    .then(r => r.json())
+    .then(data => {
 
-        document.querySelectorAll("#ingredientExistingTable tr").forEach(row => {
-            let name = row.children[0].innerText.trim();
-            existing.push(name.toLowerCase());
+        let sel = document.getElementById("ingredientSelectModal");
+
+        sel.innerHTML = "";
+
+        data.sort((a,b)=>a.localeCompare(b,'fr',{sensitivity:'base'}));
+
+        data.forEach(i => {
+
+            let opt = document.createElement("option");
+
+            opt.value = i;
+            opt.textContent = i;
+
+            sel.appendChild(opt);
+
         });
 
-        if (existing.includes(ingredient.toLowerCase())) {
-            alert("Cet ingrédient est déjà dans la liste.");
-            return;
-        }
-        fetch("/preparation/addMealIngredient", {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/x-www-form-urlencoded"
-            },
-            body:
-                "plat=" + encodeURIComponent(plat) +
-                "&ingredient=" + encodeURIComponent(ingredient)
-        })
-        
-        .then(r => r.json())
-        .then(res => {
+    });
 
-            if (res.success) {
+    fetch(`/preparation/loadMealIngredients?plat=${encodeURIComponent(plat)}`)
+    .then(r => r.json())
+    .then(rows => {
+        let tbody = document.getElementById("ingredientExistingTable");
+        tbody.innerHTML = "";
 
-                // refresh modal
-                openIngredientModal(plat);
-
-            } else {
-
-                alert(res.message || "Impossible d'ajouter l'ingrédient.");
-
-            }
-
-        })
-        .catch(err => {
-            console.error(err);
-            alert("Erreur serveur.");
+        rows.forEach(ingredient => {
+            tbody.innerHTML += `
+                <tr>
+                    <td>${ingredient}</td>
+                    <td width="40">
+                    <button class="btn btn-danger btn-sm"
+                        onclick="removeIngredientFromMeal('${ingredient}')">
+                        ❌
+                    </button>
+        </td>
+                </tr>
+            `;
         });
-    }
-    function removeIngredientFromMeal(ingredient) 
-    {
 
-        let plat = document.getElementById("ingredient_plat").value;
-
-        if (!confirm("Supprimer cet ingrédient ?")) return;
-
-        fetch("/preparation/removeMealIngredient", {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/x-www-form-urlencoded"
-            },
-            body: "plat=" + encodeURIComponent(plat) + "&ingredient=" + encodeURIComponent(ingredient)
-        })
-        .then(r => r.json())
-        .then(res => {
-            if (res.success) {
-                openIngredientModal(plat);
-            }
-        });
-    }
-    function suggestIngredients() 
+        $('#ingredientModal').modal('show');
+    });
+}
+function suggestIngredients() 
     {
         let input = document.getElementById("ingredientNew");
         if (!input) return;
@@ -149,7 +106,7 @@ $custom_js = <<<'JS'
                 });
             });
     }
-    function addNewIngredient() 
+function addNewIngredient() 
     {
         let ingredient = document.getElementById("ingredientNew").value.trim();
 
@@ -202,50 +159,15 @@ $custom_js = <<<'JS'
             alert("Erreur serveur.");
         });
     }
-    function reloadIngredientSelect(selectedIngredient)
-    {
-      console.log("reloadIngredientSelect exécuté");
-        fetch("/preparation/getIngredients?v=" + Date.now())
-        .then(r => r.json())
-        .then(data => {
-
-            let sel = document.getElementById("ingredientsList");
-
-            let groups = sel.querySelectorAll("optgroup");
-
-            if(groups.length < 2) return;
-
-            let otherGroup = groups[1]; // deuxième groupe = autres ingrédients
-
-            otherGroup.innerHTML = "";
-
-            data.sort((a,b)=>a.localeCompare(b,'fr',{sensitivity:'base'}));
-
-            data.forEach(i => {
-                let opt = document.createElement("option");
-
-                opt.value = i;
-                opt.textContent = i;
-
-                if(i === selectedIngredient){
-                    opt.selected = true;
-                }
-
-                otherGroup.appendChild(opt);
-
-            });
-  
-        });
-    }
+$('#ingredientModal').on('hidden.bs.modal', function () {
+        location.reload();
+    });
+document.addEventListener('DOMContentLoaded', () => {
     $('#ingredientModal').on('hidden.bs.modal', function () {
         location.reload();
     });
-    document.addEventListener('DOMContentLoaded', () => {
-        $('#ingredientModal').on('hidden.bs.modal', function () {
-            location.reload();
-        });
-    });
-    function reloadIngredientModalSelect(selectedIngredient)
+});
+function reloadIngredientModalSelect(selectedIngredient)
     {
         fetch("/preparation/getIngredients?v=" + Date.now())
         .then(r => r.json())
@@ -274,7 +196,13 @@ $custom_js = <<<'JS'
 
         });
     }
-    JS;
+JS;
+
+$custom_style = <<<'CSS'
+.table td, .table th {
+    vertical-align: middle;
+}
+CSS;
 ?>
 <?php require __DIR__ . '/../../layout/header.php'; ?>
 
@@ -284,27 +212,36 @@ $custom_js = <<<'JS'
 
         <div class="card-body">
 
+            <h3>Liste des Plats actifs</h3>
+            <div class="mb-3">
+                <button class="btn btn-success" onclick="syncMeals()">
+                    Synchroniser les meals
+                </button>
+            </div>
             <?php if (empty($meals)): ?>
-                <div class="alert alert-success">
-                    Tous les meals ont des ingrédients ✔
+                <div class="alert alert-info">
+                    Aucun plat trouvé
                 </div>
             <?php else: ?>
 
                 <table class="table table-bordered table-sm">
                     <thead>
                         <tr>
-                            <th>ID</th>
-                            <th>Meal</th>
-                            <th>Action</th>
+                            <th>Plat</th>
+                            <th style="width:200px;">Actions</th>
                         </tr>
                     </thead>
                     <tbody>
                         <?php foreach ($meals as $m): ?>
                             <tr>
-                                <td><?= (int)$m['id'] ?></td>
                                 <td><?= e($m['meal']) ?></td>
                                 <td>
-                                    <button
+
+                                    <button class="btn btn-danger btn-sm"
+                                        onclick="deleteMeal(<?= (int)$m['id'] ?>)">
+                                        Supprimer
+                                    </button>
+                                     <button
                                         type="button"
                                         class="btn btn-sm btn-primary"
                                         onclick="openIngredientModal('<?= e($m['meal']) ?>', '')">
@@ -368,7 +305,7 @@ $custom_js = <<<'JS'
           </button>
           </div>
 
-<datalist id="ingredientSuggestions"></datalist>
+        <datalist id="ingredientSuggestions"></datalist>
           <hr>
 
           <label class="mt-3"><strong>Ingrédients déjà enregistrés</strong></label>
@@ -390,6 +327,5 @@ $custom_js = <<<'JS'
     </div>
   </div>
 </div>
-
 
 <?php require __DIR__ . '/../../layout/footer.php'; ?>

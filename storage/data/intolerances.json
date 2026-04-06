@@ -3,7 +3,7 @@
         "Produits_Laitiers": [
             "Lactose",
             "Caséine",
-            "Protéine du lactosérum"
+            "lactosérum"
         ],
         "Céréales_et_Gluten": [
             "Gluten",
@@ -21,10 +21,10 @@
         ],
         "Protéines_et_Légumineuses": [
             "Soja",
-            "Pois chiches",
+            "Pois_chiches",
             "Lentilles",
-            "Haricots rouges",
-            "Pois verts",
+            "Haricots_rouges",
+            "Pois_verts",
             "Arachides"
         ],
         "Fruits_et_Légumes": [
@@ -32,7 +32,7 @@
             "Brocoli",
             "Cerises",
             "Chou-fleur",
-            "Chou de Bruxelles",
+            "Chou_de_Bruxelles",
             "Figues",
             "Letchis",
             "Mangue",
@@ -43,41 +43,44 @@
             "Pruneaux"
         ],
         "Amines_et_Histamine": [
-            "Fromages vieillis",
+            "Fromagges",
             "Charcuterie",
-            "Poisson fumé ou en conserve",
-            "Vin rouge et bière",
-            "Tomates et produits à base de tomate",
-            "Chocolat et cacao",
-            "Fraises",
-            "Épinards",
-            "Vinaigre balsamique"
+            "Poisson_fumé",
+            "Vin_rouge",
+            "Bière",
+            "Tomate",
+            "Chocolat",
+            "cacao",
+            "Fraise",
+            "Épinard",
+            "Vinaigre_balsamique"
         ],
         "Additifs_et_Conservateurs": [
-            "Glutamate de Sodium - Ve Tsin",
+            "Glutamate_de_Sodium",
+            "Ve_Tsin",
             "Sulfites",
             "Benzoates",
-            "Glutamate monosodique",
-            "Nitrites et nitrates",
-            "Colorants artificiels",
-            "Édulcorants artificiels"
+            "Glutamate_monosodique",
+            "Nitrites",
+            "Nitrates",
+            "Colorants",
+            "Édulcorants"
         ],
         "Boissons_et_Stimulants": [
-            "Caféine",
+            "Cafeine",
             "Alcool",
-            "Boissons gazeuses",
-            "Boissons contenant guarana ou taurine"
+            "Boisson_ gazeuse",
+            "Taurine"
         ],
         "Autres_Aliments": [
             "bacon",
-            "Cacao et chocolat",
             "Chou",
             "crotin",
             "Levure",
             "muscade",
-            "Poisson gras",
-            "Viande rouge",
-            "Œufs"
+            "Poisson",
+            "Viande_rouge",
+            "Œuf"
         ],
         "Substances_Chimiques_et_Contact": [
             "Nickel",
@@ -96,9 +99,8 @@
             "Lapin",
             "Gibier",
             "Mouton",
-            "oie",
-            "Poisson",
-            "Fruits de mer"
+            "Oie",
+            "Fruits_de_mer"
         ]
     }
 }

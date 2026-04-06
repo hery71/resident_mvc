@@ -105,8 +105,10 @@
                         <hr class="dropdown-divider">
                         <a class="dropdown-item" href="/menuUnique/index">Menu Unique</a>                       
                         <hr class="dropdown-divider">
+                        <a class="dropdown-item" href="/meal/mealManager">Gestion des plats</a>
+                        <hr class="dropdown-divider">
                         <a class="dropdown-item" href="/ingredient/edit">Éditer Ingrédients</a>
-                        <a class="dropdown-item" href="/preparation/mealList">Meals sans ingrédients</a>
+                        <a class="dropdown-item" href="/preparation/mealAddIngredient">Plats sans ingrédients</a>
                         <a class="dropdown-item" href="/preparation/edit">Éditer Preparations</a>
                         <a class="dropdown-item" href="/preparation/hebdomadaire">Préparations Hebdomadaires</a>
                         <hr class="dropdown-divider">
