@@ -53,7 +53,6 @@
     function saveAllergen() {
     const value = document.getElementById('new-allergen').value.trim();
     if (!value) return alert('Champ vide');
-    alert("1");
     fetch('/ajaxRestriction/addAllergen', {
         method: 'POST',
         headers: {'Content-Type': 'application/json'},
@@ -303,7 +302,7 @@
     </div>
   </div>
 </div>
-<!-----------------------------------mODALE AJOUTER INTOLERANCES-------------------------------------------->
+<!-----------------------------------MODALE AJOUTER INTOLERANCES-------------------------------------------->
 <div class="modal fade" id="addIntoleranceModal" tabindex="-1">
   <div class="modal-dialog">
     <div class="modal-content">

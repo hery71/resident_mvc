@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <rect x="50" y="50" width="400" height="400" rx="40" fill="#eaeaea" stroke="#2a6f97" stroke-width="10"/>
+
+  <!-- simplified 7-branch knot -->
+  <g stroke="#1b6ca8" stroke-width="20" fill="none" stroke-linecap="round">
+    <path d="M250 120 Q350 150 350 250 Q350 350 250 380 Q150 350 150 250 Q150 150 250 120 Z"/>
+    <path d="M250 120 L250 380"/>
+    <path d="M150 250 L350 250"/>
+  </g>
+</svg>

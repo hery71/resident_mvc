@@ -8,6 +8,11 @@
             </h4>
             <div class="card">
                 <div class="card-body">
+                     <div class="text-center mb-3">
+                        <img src="/assets/images/logoCFSM2026.png" 
+                            alt="Logo" 
+                            style="max-width:300px;">
+                    </div>
                     <?php if (!empty($_SESSION['error'])): ?>
                         <div class="alert alert-danger">
                             <?= e($_SESSION['error']) ?>

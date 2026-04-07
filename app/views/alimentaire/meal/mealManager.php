@@ -248,7 +248,7 @@ function reloadIngredientModalSelect(selectedIngredient)
     }
 function saveAllergens(meal)
     {
-        alert("meal = " + meal);
+        //alert("meal = " + meal);
         let selected = [];
             document.querySelectorAll('.allergen-check:checked').forEach(cb => {
                 selected.push(cb.value.trim());
@@ -310,6 +310,101 @@ function saveIntolerances(meal)
             });
             
     }
+function addIngredientToMeal() 
+    {
+        let plat = document.getElementById("ingredient_plat").value;
+        let ingredient = document.getElementById("ingredientSelectModal").value;
+
+        if (!plat || !ingredient ) {
+            alert("Veuillez choisir un plat et un ingrédient.");
+           return;
+        }
+
+        // vérifier si déjà présent
+        let existing = [];
+
+        document.querySelectorAll("#ingredientExistingTable tr").forEach(row => {
+            let name = row.children[0].innerText.trim();
+            existing.push(name.toLowerCase());
+        });
+
+        if (existing.includes(ingredient.toLowerCase())) {
+            alert("Cet ingrédient est déjà dans la liste.");
+            return;
+        }
+        fetch("/preparation/addMealIngredient", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/x-www-form-urlencoded"
+            },
+            body:
+                "plat=" + encodeURIComponent(plat) +
+                "&ingredient=" + encodeURIComponent(ingredient)
+        })
+        
+        .then(r => r.json())
+        .then(res => {
+
+            if (res.success) {
+
+                // refresh modal
+                openIngredientModal(plat);
+
+            } else {
+
+                alert(res.message || "Impossible d'ajouter l'ingrédient.");
+
+            }
+
+        })
+        .catch(err => {
+            console.error(err);
+            alert("Erreur serveur.");
+        });
+    }
+function addNewAllergen() {
+    const value = document.getElementById('new-allergen').value.trim();
+    if (!value) return alert('Champ vide');
+    fetch('/ajaxRestriction/addAllergen', {
+        method: 'POST',
+        headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify({ value })
+    })
+    .then(r => r.json())
+    .then(data => {
+        if (data.success) {
+            $('#addAllergenModal').modal('hide');
+            location.reload(); // ou reload partiel
+        } else {
+            alert(data.error);
+        }
+    });
+    }
+    function addNewIntolerance() {
+    const category = document.getElementById('intolerance-category').value;
+    const value    = document.getElementById('new-intolerance').value.trim();
+
+    if (!category || !value) {
+        alert('Champs requis');
+        return;
+    }
+
+    fetch('/ajaxRestriction/addIntolerance', {
+        method: 'POST',
+        headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify({ category, value })
+    })
+    .then(r => r.json())
+    .then(data => {
+        if (data.success) {
+            $('#addIntoleranceModal').modal('hide');
+            location.reload();
+        } else {
+            alert(data.error);
+        }
+    });
+    }
+
 JS;
 
 $custom_style = <<<'CSS'
@@ -421,7 +516,7 @@ CSS;
               <?php endforeach; ?>
             </select>
             <button type="button" class="btn btn-primary" onclick="addIngredientToMeal()">
-              Ajouterx
+              Ajouter
             </button>
           </div>
           <div class="d-flex mb-2">
@@ -564,7 +659,7 @@ CSS;
       </div>
 
       <div class="modal-footer">
-        <button class="btn btn-primary" onclick="saveAllergen()">Enregistrer</button>
+        <button class="btn btn-primary" onclick="addNewAllergen()">Enregistrer</button>
       </div>
 
     </div>
@@ -600,7 +695,7 @@ CSS;
       </div>
 
       <div class="modal-footer">
-        <button class="btn btn-primary" onclick="saveIntolerance()">Enregistrer</button>
+        <button class="btn btn-primary" onclick="addNewIntolerance()">Enregistrer</button>
       </div>
 
     </div>

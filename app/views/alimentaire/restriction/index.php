@@ -26,8 +26,8 @@
                 <?php foreach ($info['restrictions'] as $restriction): ?>
                     <tr>
                         <td><?= htmlspecialchars($info['label'] . ' - ' . $restriction['meal']) ?></td>
-                        <td><?= htmlspecialchars($restriction['allergene']) ?></td>
-                        <td><?= htmlspecialchars($restriction['intolerance']) ?></td>
+                        <td><?= htmlspecialchars($restriction['allergene'] ?? '') ?></td>
+                        <td><?= htmlspecialchars($restriction['intolerance'] ?? '') ?></td>
                     </tr>
                 <?php endforeach; ?>
             <?php endforeach; ?>

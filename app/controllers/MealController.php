@@ -15,6 +15,12 @@ class MealController
 
 public function mealManager()
     {
+        $file = dirname(__DIR__, 2) . '/storage/data/intolerances.json';
+        $json = json_decode(file_get_contents($file), true);
+
+        $intoleranceCategories = array_keys(
+            $json['Intolerances_Alimentaires_Canada'] ?? []
+        );
         $model = new MealModel();
         $meals = $model->get_Meals();
         $model1 = new AllergieModel();
