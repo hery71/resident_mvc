@@ -4,7 +4,24 @@ class FeteController
 {
     public function index()
     {
+        // Récupérer les paramètres de mois et d'année, ou utiliser les valeurs par défaut
         $mois  = isset($_GET['mois']) ? (int)$_GET['mois'] : (int)date('m');
+        $annee = isset($_GET['annee']) ? (int)$_GET['annee'] : (int)date('Y');
+        $model = new FeteModel();
+        $fete = $model->feteList($mois, $annee);
+        $test=`test`;
+   
+
+        $moisLabel = [
+            1=>'Janvier', 2=>'Février', 3=>'Mars', 4=>'Avril',
+            5=>'Mai', 6=>'Juin', 7=>'Juillet', 8=>'Août',
+            9=>'Septembre', 10=>'Octobre', 11=>'Novembre', 12=>'Décembre'
+        ];
+
+        require __DIR__ . '/../views/fete/index.php';
+    }
+    public function printListFete()
+    {    $mois  = isset($_GET['mois']) ? (int)$_GET['mois'] : (int)date('m');
         $annee = isset($_GET['annee']) ? (int)$_GET['annee'] : (int)date('Y');
 
         $model = new FeteModel();
@@ -17,7 +34,7 @@ class FeteController
             9=>'Septembre', 10=>'Octobre', 11=>'Novembre', 12=>'Décembre'
         ];
 
-        require __DIR__ . '/../views/fete/index.php';
+        require __DIR__ . '/../views/fete/printListFete.php';
     }
 
      public function create()

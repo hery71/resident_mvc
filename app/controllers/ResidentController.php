@@ -944,4 +944,82 @@ class ResidentController extends Controller
 
         require __DIR__ . '/../views/residents/print_resident_menu.php';
     }
+    public function printLabels()
+    {
+        $model = new ResidentModel();
+
+        $residents = $model->getAll();
+
+        $this->render('residents/printLabels', [
+            'residents' => $residents
+        ]);
+    }
+   public function printThermopatchLabels()
+    {
+        $labels = $_POST['labels'] ?? [];
+
+        if (empty($labels)) {
+            die('Aucune étiquette.');
+        }
+
+        $content = chr(27) . "@";           // reset Epson
+        $content .= chr(27) . "W" . chr(1); // double largeur
+        $content .= chr(27) . "E";          // bold ON
+        $content .= chr(27) . "G";          // double-strike ON
+
+        foreach ($labels as $l) {
+
+            $nom = strtoupper(trim($l['nom'] ?? ''));
+            $prenom = strtoupper(trim($l['prenom'] ?? ''));
+            $chambre = trim($l['chambre'] ?? '');
+            $copies = (int)($l['copies'] ?? 1);
+
+            if ($copies < 1) {
+                $copies = 1;
+            }
+
+            $line = trim($prenom . ' ' . $nom . ' CH:' . $chambre);
+
+            for ($i = 0; $i < $copies; $i++) {
+                $content .= $this->centerText($line, 16) . "\r\n";
+                $content .= "\r\n\r\n";
+            }
+        }
+
+        $content .= chr(27) . "H";          // double-strike OFF
+        $content .= chr(27) . "F";          // bold OFF
+        $content .= chr(27) . "W" . chr(0); // double largeur OFF
+
+        $file = dirname(__DIR__, 2) . '/storage/print/thermopatch_labels.prn';
+
+        if (!is_dir(dirname($file))) {
+            mkdir(dirname($file), 0777, true);
+        }
+
+        file_put_contents($file, $content);
+
+        $fileReal = realpath($file);
+
+        if ($fileReal === false) {
+            die('Fichier PRN introuvable.');
+        }
+
+        $fileReal = str_replace('/', '\\', $fileReal);
+
+        $printer = '\\\\ASUS-BEBS\\EPSON LQ-590';
+
+        $cmd = 'cmd /c copy /B "' . $fileReal . '" "' . $printer . '"';
+
+        exec($cmd . ' 2>&1', $output, $code);
+
+        header('Location: /resident/printLabel');
+        exit;
+    }
+private function centerText(string $text, int $width): string
+    {
+        $text = mb_substr($text, 0, $width);
+        $len = mb_strlen($text);
+        $spaces = max(0, floor(($width - $len) / 2));
+        return str_repeat(' ', $spaces) . $text;
+    }
 }

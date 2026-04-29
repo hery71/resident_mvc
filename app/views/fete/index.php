@@ -81,7 +81,7 @@
             <button class="btn btn-secondary" onclick="window.location.href='/'">
                 Retour accueil
                 </button>
-                <button onclick="window.print()" class="btn btn-info">
+                <button onclick="window.open('/fete/printListFete?mois=<?= $mois ?>&annee=<?= $annee ?>', '_blank')" class="btn btn-info">
                 Imprimer le tableau
                 </button>
                 <button class="btn btn-outline-secondary btn-sm" onclick="setFontSize('s')">S</button>
@@ -91,6 +91,6 @@
                 <button class="btn btn-outline-secondary btn-sm" onclick="setFontSize('tg')">TG</button>
             </div>
     </div>
-    </div>
+</div>
 </div> <!-- container -->
 <?php require __DIR__ . '/../layout/footer.php'; ?>

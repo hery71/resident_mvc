@@ -422,5 +422,394 @@ public function deleteMeal(): void
         
        
     }
-   
+public function searchMeal()
+    {
+        require_once __DIR__ . '/../services/SeasonService.php';
+
+        $currentYear = (int)date('Y');
+
+        $selectedYear = isset($_GET['annee']) ? (int)$_GET['annee'] : $currentYear;
+        $selectedSeasonName = trim($_GET['saison'] ?? '');
+        $years = [];
+        for ($y = $currentYear - 5; $y <= $currentYear + 1; $y++) {
+            $years[] = $y;
+        }
+
+        $seasons = SeasonService::getSeasonsForYear($selectedYear);
+        $service = $_GET['service'] ?? 'all';
+        $keywordsRaw = trim($_GET['keywords'] ?? '');
+
+        $allowedServices = [
+            'all'                  => 'Tous les services',
+            'menu_breakfast'       => 'Breakfast',
+            'menu_lunch'           => 'Lunch',
+            'menu_lunch_dessert'   => 'Lunch Dessert',
+            'menu_dinner'          => 'Dinner',
+            'menu_dinner_dessert'  => 'Dinner Dessert',
+        ];
+
+        if (!array_key_exists($service, $allowedServices)) {
+            $service = 'all';
+        }
+
+        $results = [];
+
+        if ($keywordsRaw !== '') {
+            $menuModel = new MenuModel();
+
+            $keywords = array_filter(array_map('trim', explode('+', $keywordsRaw)));
+
+            if (!empty($keywords)) {
+                if ($service === 'all') {
+                    $tables = [
+                        'menu_breakfast'       => 'Breakfast',
+                        'menu_lunch'           => 'Lunch',
+                        'menu_lunch_dessert'   => 'Lunch Dessert',
+                        'menu_dinner'          => 'Dinner',
+                        'menu_dinner_dessert'  => 'Dinner Dessert',
+                    ];
+
+                    foreach ($tables as $table => $label) {
+                        $rows = $menuModel->searchMealsByKeywords($table, $keywords, $selectedYear, $selectedSeasonName);
+
+                        foreach ($rows as &$row) {
+                            $row['service_name'] = $label;
+                            $row['service_table'] = $table;
+                        }
+
+                        $results = array_merge($results, $rows);
+                    }
+
+                    usort($results, function ($a, $b) {
+                        return
+                            strcmp((string)($b['annee'] ?? ''), (string)($a['annee'] ?? '')) ?:
+                            ((int)($b['week'] ?? 0) <=> (int)($a['week'] ?? 0)) ?:
+                            strcmp((string)($a['day'] ?? ''), (string)($b['day'] ?? '')) ?:
+                            strcmp((string)($a['service_name'] ?? ''), (string)($b['service_name'] ?? '')) ?:
+                            strcmp((string)($a['meal'] ?? ''), (string)($b['meal'] ?? ''));
+                    });
+
+                } else {
+                    $results = $menuModel->searchMealsByKeywords($service, $keywords, $selectedYear, $selectedSeasonName);
+
+                    $label = $allowedServices[$service] ?? $service;
+
+                    foreach ($results as &$row) {
+                        $row['service_name'] = $label;
+                        $row['service_table'] = $service;
+                    }
+                }
+            }
+        }
+
+        $title = 'Recherche de menu';
+        require '../app/views/alimentaire/menu/searchMeal.php';
+    }
+
+   public function mealCalendar()
+    {
+        require_once __DIR__ . '/../models/MenuModel.php';
+        require_once __DIR__ . '/../services/SeasonService.php';
+
+        $service = $_GET['service'] ?? '';
+        $meal = trim($_GET['meal'] ?? '');
+        $year = (int)($_GET['year'] ?? date('Y'));
+        $season = trim($_GET['season'] ?? '');
+        $week = (int)($_GET['week'] ?? 1);
+        $day = trim($_GET['day'] ?? '');
+
+        $allowedServices = [
+            'menu_breakfast' => 'Breakfast',
+            'menu_lunch' => 'Lunch',
+            'menu_lunch_dessert' => 'Lunch Dessert',
+            'menu_dinner' => 'Dinner',
+            'menu_dinner_dessert' => 'Dinner Dessert',
+        ];
+
+        if (!array_key_exists($service, $allowedServices) || $meal === '') {
+            die('Paramètres invalides.');
+        }
+
+        if ($week < 1 || $week > 3) {
+            $week = 1;
+        }
+
+        $dayNum = $this->mapDayToWeekdayNumber($day);
+        if ($dayNum === null) {
+            die('Jour invalide.');
+        }
+
+        $menuModel = new MenuModel();
+
+        $seasons = SeasonService::getSeasonsForYear($year);
+        $selectedSeason = null;
+
+        foreach ($seasons as $s) {
+            if (($s['Saison'] ?? '') === $season) {
+                $selectedSeason = $s;
+                break;
+            }
+        }
+
+        if ($selectedSeason === null) {
+            die('Saison invalide.');
+        }
+
+        $seasonStartWeek = (int)$menuModel->getSeasonStartWeek($year, $season);
+
+        if ($seasonStartWeek < 1 || $seasonStartWeek > 3) {
+            $seasonStartWeek = 1;
+        }
+
+        $dates = $this->getDatesForCycleBetween(
+            $selectedSeason['Début'],
+            $selectedSeason['Fin'],
+            $seasonStartWeek,
+            $week,
+            $dayNum
+        );
+
+        $rows = [];
+        foreach ($dates as $d) {
+            $rows[] = [
+                'date' => $d,
+                'service' => $allowedServices[$service] ?? $service,
+                'meal' => $meal,
+                'season' => $season,
+                'year' => $year,
+                'week' => $week,
+                'day' => $day,
+            ];
+        }
+
+        $title = 'Meal Calendar';
+        require __DIR__ . '/../views/alimentaire/menu/mealCalendar.php';
+    }
+private function getDatesForCycleBetween(
+    string $start,
+    string $end,
+    int $seasonStartWeek,
+    int $targetWeek,
+    int $targetDay
+): array {
+    $dates = [];
+
+    $startTs = strtotime($start);
+    $endTs = strtotime($end);
+
+    if ($startTs === false || $endTs === false || $startTs > $endTs) {
+        return [];
+    }
+
+    $currentWeekStart = $startTs;
+
+    while ($currentWeekStart <= $endTs) {
+        $weeksFromStart = (int)floor(($currentWeekStart - $startTs) / 86400 / 7);
+        $cycleWeek = (($seasonStartWeek - 1 + $weeksFromStart) % 3) + 1;
+
+        if ($cycleWeek === $targetWeek) {
+            $candidate = strtotime("+{$targetDay} days", $currentWeekStart);
+
+            if ($candidate !== false && $candidate >= $startTs && $candidate <= $endTs) {
+                $dates[] = date('Y-m-d', $candidate);
+            }
+        }
+
+        $currentWeekStart = strtotime('+7 days', $currentWeekStart);
+    }
+
+    return $dates;
+}
+    public function mealCalendar2()
+    {
+        require_once __DIR__ . '/../models/MenuModel.php';
+        require_once __DIR__ . '/../services/SeasonService.php';
+
+        $service = $_GET['service'] ?? '';
+        $meal = trim($_GET['meal'] ?? '');
+        $year = (int)($_GET['year'] ?? date('Y'));
+        $season = trim($_GET['season'] ?? '');
+
+        $allowedServices = [
+            'menu_breakfast' => 'Breakfast',
+            'menu_lunch' => 'Lunch',
+            'menu_lunch_dessert' => 'Lunch Dessert',
+            'menu_dinner' => 'Dinner',
+            'menu_dinner_dessert' => 'Dinner Dessert',
+        ];
+
+        if (!array_key_exists($service, $allowedServices) || $meal === '') {
+            die('Paramètres invalides.');
+        }
+
+        $menuModel = new MenuModel();
+        $rows = $menuModel->findExactMealOccurrences($service, $meal);
+
+        $today = date('Y-m-d');
+        $year = (int)date('Y');
+        $seasons = SeasonService::getSeasonsForYear($year);
+        $currentSeason = $this->findCurrentSeason($seasons, $today);
+
+        $dates = [];
+
+        foreach ($rows as $row) {
+
+            if (!empty($row['unique_date'])) {
+                $dates[] = [
+                    'date' => $row['unique_date'],
+                    'source' => 'Unique',
+                    'service' => $allowedServices[$service] ?? $service,
+                    'meal' => $row['meal'],
+                    'day' => '',
+                    'unique_nom' => $row['unique_nom'] ?? '',
+                    'unique_observation' => $row['unique_observation'] ?? '',
+                ];
+            }
+
+            if (!empty($row['day']) && !empty($currentSeason['Début']) && !empty($currentSeason['Fin'])) {
+                $regularDates = $this->getDatesForWeekdayBetween(
+                    $currentSeason['Début'],
+                    $currentSeason['Fin'],
+                    (int)$row['week'],
+                    $row['day']
+                );
+
+                foreach ($regularDates as $d) {
+                    $dates[] = [
+                        'date' => $d,
+                        'source' => 'Regular',
+                        'service' => $allowedServices[$service] ?? $service,
+                        'meal' => $row['meal'],
+                        'day' => $row['day'],
+                        'unique_nom' => '',
+                        'unique_observation' => '',
+                    ];
+                }
+            }
+        }
+
+        $dates = $this->deduplicateMealDates($dates);
+
+        usort($dates, function ($a, $b) {
+            return strcmp($a['date'], $b['date']);
+        });
+
+        $title = 'Meal Calendar';
+        require __DIR__ . '/../views/alimentaire/menu/mealCalendar.php';
+    }
+
+private function findCurrentSeason(array $seasons, string $today): ?array
+    {
+        foreach ($seasons as $season) {
+            if ($today >= $season['Début'] && $today <= $season['Fin']) {
+                return $season;
+            }
+        }
+        return null;
+    }
+
+private function mapDayToWeekdayNumber(string $day): ?int
+    {
+        $map = [
+            'sunday' => 0,
+            'monday' => 1,
+            'tuesday' => 2,
+            'wednesday' => 3,
+            'thursday' => 4,
+            'friday' => 5,
+            'saturday' => 6,
+        ];
+
+        $key = strtolower(trim($day));
+        return $map[$key] ?? null;
+    }
+private function getDatesForCycle3Weeks(string $start, string $end, int $week, string $day): array
+    {
+        $weekday = $this->mapDayToWeekdayNumber($day);
+        if ($weekday === null) {
+            return [];
+        }
+
+        $startTs = strtotime($start);
+        $endTs = strtotime($end);
+
+        // trouver le premier jour correspondant dans la semaine 1
+        $firstWeekStart = $startTs;
+
+        // ajuster au bon jour de la semaine
+        while ((int)date('w', $firstWeekStart) !== $weekday) {
+            $firstWeekStart = strtotime('+1 day', $firstWeekStart);
+        }
+
+        // décaler selon week (1,2,3)
+        $offset = ($week - 1) * 7;
+        $firstOccurrence = strtotime("+{$offset} days", $firstWeekStart);
+
+        $dates = [];
+        $current = $firstOccurrence;
+
+        while ($current <= $endTs) {
+            $dates[] = date('Y-m-d', $current);
+            $current = strtotime('+21 days', $current);
+        }
+
+        return $dates;
+    }
+
+private function getDatesForWeekdayBetween(string $start, string $end, int $week, string $day): array
+    {
+        $weekday = $this->mapDayToWeekdayNumber($day);
+        if ($weekday === null) {
+            return [];
+        }
+        $seasonStart = strtotime($start);
+        $endTs = strtotime($end);
+        $current = $seasonStart;
+        while ($current <= $endTs) {
+            if ((int)date('w', $current) === $weekday) {
+                break;
+            }
+            $current = strtotime('+1 day', $current);
+        }
+        if ($current > $endTs) {
+            return [];
+        }
+        $offsetDays = ($week - 1) * 7;
+        $current = strtotime("+{$offsetDays} days", $current);
+
+        $dates = [];
+
+        while ($current <= $endTs) {
+            $dates[] = date('Y-m-d', $current);
+            $current = strtotime('+21 days', $current);
+        }
+
+        return $dates;
+    }
+
+private function deduplicateMealDates(array $dates): array
+    {
+        $seen = [];
+        $result = [];
+
+        foreach ($dates as $row) {
+            $key = $row['date'] . '|' . $row['source'] . '|' . $row['service'] . '|' . $row['meal'];
+
+            if (!isset($seen[$key])) {
+                $seen[$key] = true;
+                $result[] = $row;
+            }
+        }
+
+        return $result;
+    }
+    public function menu2weeks()
+{
+    $date = $_GET['date'] ?? date('Y-m-d');
+
+    $model = new MenuModel();
+    $data = $model->get2WeeksMenus($date);
+
+    $this->render('alimentaire/menu/menu2weeks', $data);
+}
 }

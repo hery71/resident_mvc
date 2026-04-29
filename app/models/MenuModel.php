@@ -274,5 +274,285 @@ public function getSpecialMenus(int $annee, int $week): array
             echo "Erreur SQL: ".$e->getMessage();
         }
     }
+    public function limitSpaces(string $input): string
+    {
+        $input = trim($input);
+        $input = preg_replace('/\s+/', ' ', $input);
+        return $input;
+    }
+    public function searchMealsByKeywords(string $table, array $keywords, int $year, string $season): array
+    {
+        $allowedTables = [
+            'menu_breakfast',
+            'menu_lunch',
+            'menu_lunch_dessert',
+            'menu_dinner',
+            'menu_dinner_dessert'
+        ];
+        if (!in_array($table, $allowedTables, true)) {
+            return [];
+        }
+       $sql = "
+        SELECT 
+            m.id,
+            m.meal,
+            m.id_menu,
+            m.ids,
+            mt.week,
+            mt.day,
+            mt.annee,
+            mt.breakfast,
+            mt.lunch,
+            mt.lunch_dessert,
+            mt.dinner,
+            mt.dinner_dessert,
+            mu.nom AS unique_nom,
+            mu.date AS unique_date,
+            mu.observation AS unique_observation
+        FROM {$table} m
+        LEFT JOIN menu_tbl mt ON mt.id = m.id_menu
+        LEFT JOIN menu_unique mu ON mu.id = m.ids
+        WHERE 1=1 AND mt.annee>=:year AND mt.saison = :season
+    ";
+    $params = [':year' => $year, ':season' => $season];
+    if (!empty($keywords)) {
+        $sql .= " AND (";
+        foreach ($keywords as $index => $word) {
+            $word = $this->limitSpaces($word);
+            $param = ":idx{$index}";
+            if ($index > 0) {
+                $sql .= " OR ";
+            }
+            $sql .= " LOWER(m.meal) LIKE {$param}";
+            $params[$param] = '%' . mb_strtolower($word) . '%';
+        }
+        $sql .= ")";
+    }
+    $sql .= " ORDER BY mt.annee DESC, mt.week DESC, mt.day ASC, m.meal ASC";
+    $stmt = $this->pdo->prepare($sql);
+    $stmt->execute($params);
+    return $stmt->fetchAll(PDO::FETCH_ASSOC);
+    }
+public function findExactMealOccurrences(string $table, string $meal): array
+    {
+        $allowedTables = [
+            'menu_breakfast',
+            'menu_lunch',
+            'menu_lunch_dessert',
+            'menu_dinner',
+            'menu_dinner_dessert'
+        ];
 
+        if (!in_array($table, $allowedTables, true)) {
+            return [];
+        }
+
+        $meal = $this->limitSpaces($meal);
+
+        $sql = "
+            SELECT
+                m.id,
+                m.meal,
+                m.id_menu,
+                m.ids,
+                mt.week,
+                mt.day,
+                mu.date AS unique_date,
+                mu.nom AS unique_nom,
+                mu.observation AS unique_observation
+            FROM {$table} m
+            LEFT JOIN menu_tbl mt ON mt.id = m.id_menu
+            LEFT JOIN menu_unique mu ON mu.id = m.ids
+            WHERE TRIM(LOWER(m.meal)) = TRIM(LOWER(:meal))
+            ORDER BY mu.date ASC, mt.day ASC, m.meal ASC
+        ";
+
+        $stmt = $this->pdo->prepare($sql);
+        $stmt->execute([
+            ':meal' => mb_strtolower($meal)
+        ]);
+
+        return $stmt->fetchAll(PDO::FETCH_ASSOC);
+    }
+public function getSeasonStartWeek(int $year, string $season): int
+    {
+        $sql = "SELECT week 
+                FROM season_start_week
+                WHERE annee = :annee
+                AND saison = :saison
+                AND enabled = 1
+                LIMIT 1";
+
+        $stmt = $this->pdo->prepare($sql);
+        $stmt->execute([
+            ':annee' => $year,
+            ':saison' => $season,
+        ]);
+
+        $result = $stmt->fetch(PDO::FETCH_ASSOC);
+
+        return (int)($result['week'] ?? 1);
+    }
+public function getMenuForDate(string $date): array
+    {
+        $date = date('Y-m-d', strtotime($date));
+
+        // 1. vérifier menu unique
+        $sql = "SELECT * FROM menu_unique WHERE date = :date AND enabled = 1 LIMIT 1";
+        $stmt = $this->pdo->prepare($sql);
+        $stmt->execute([':date' => $date]);
+        $unique = $stmt->fetch(PDO::FETCH_ASSOC);
+
+        if ($unique) {
+            return [
+                'date' => $date,
+                'day' => date('l', strtotime($date)),
+                'saison' => 'Special',
+                'week' => '',
+                'menu' => [
+                    'breakfast' => $unique['nom'] ?? '',
+                    'lunch' => $unique['nom'] ?? '',
+                    'lunch_dessert' => '',
+                    'dinner' => $unique['nom'] ?? '',
+                    'dinner_dessert' => '',
+                ]
+            ];
+        }
+
+        // 2. calcul saison + week
+        require_once __DIR__ . '/../services/SeasonService.php';
+
+        $year = (int)date('Y', strtotime($date));
+        $seasons = SeasonService::getSeasonsForYear($year);
+
+        $season = null;
+        foreach ($seasons as $s) {
+            if ($date >= $s['Début'] && $date <= $s['Fin']) {
+                $season = $s;
+                break;
+            }
+        }
+
+        if (!$season) {
+            return [
+                'date' => $date,
+                'day' => date('l', strtotime($date)),
+                'saison' => 'N/A',
+                'week' => '',
+                'menu' => null
+            ];
+        }
+
+        // 3. récupérer week de départ saison
+        $sql = "SELECT week FROM season_start_week 
+                WHERE annee = :annee AND saison = :saison AND enabled = 1 LIMIT 1";
+        $stmt = $this->pdo->prepare($sql);
+        $stmt->execute([
+            ':annee' => $year,
+            ':saison' => $season['Saison']
+        ]);
+
+        $startWeek = (int)($stmt->fetchColumn() ?? 1);
+
+        // 4. calcul week du cycle
+        $startTs = strtotime($season['Début']);
+        $currentTs = strtotime($date);
+
+        $daysDiff = floor(($currentTs - $startTs) / 86400);
+        $weeksDiff = floor($daysDiff / 7);
+
+        $cycleWeek = (($startWeek - 1 + $weeksDiff) % 3) + 1;
+
+        // 5. récupérer menu_tbl
+        $day = strtolower(date('l', strtotime($date)));
+
+        $sql = "SELECT * FROM menu_tbl 
+                WHERE annee = :annee 
+                AND week = :week 
+                AND LOWER(day) = :day 
+                LIMIT 1";
+
+        $stmt = $this->pdo->prepare($sql);
+        $stmt->execute([
+            ':annee' => $year,
+            ':week' => $cycleWeek,
+            ':day' => $day
+        ]);
+
+        $menu = $stmt->fetch(PDO::FETCH_ASSOC);
+
+        return [
+            'date' => $date,
+            'day' => date('l', strtotime($date)),
+            'saison' => $season['Saison'],
+            'week' => $cycleWeek,
+            'menu' => $menu ?: null
+        ];
+    }
+public function get2WeeksMenus(string $date): array
+    {
+        $selectedDate = new DateTime($date);
+
+        // dimanche précédent le plus proche (ou le même jour si déjà dimanche)
+        $start = clone $selectedDate;
+        $dayOfWeek = (int)$start->format('w'); // 0 = dimanche
+        if ($dayOfWeek > 0) {
+            $start->modify("-{$dayOfWeek} days");
+        }
+
+        $end = (clone $start)->modify('+13 days');
+
+        $rows = [];
+        $current = clone $start;
+
+        $cycle = MenuCycle::getSeasonAndWeek($current->format('Y-m-d'));
+        $season = $cycle['season'];
+        $week = $cycle['week'];
+        $cycleYear = $cycle['cycleYear'] ?? (int)$current->format('Y');
+
+        while ($current <= $end) {
+            $currentDate = $current->format('Y-m-d');
+            $day = $current->format('l');
+
+            if ($current->format('w') == 0) {
+                $cycle = MenuCycle::getSeasonAndWeek($currentDate);
+                $season = $cycle['season'];
+                $week = $cycle['week'];
+                $cycleYear = $cycle['cycleYear'] ?? (int)$current->format('Y');
+            }
+
+            $special = $this->getSpecialMenuForDate($currentDate);
+
+            if ($special) {
+                $rows[] = [
+                    'date' => $currentDate,
+                    'day' => $day,
+                    'saison' => 'Special',
+                    'week' => '-',
+                    'menu' => $special
+                ];
+            } else {
+                $menu = ($week !== null)
+                    ? $this->getFullMenu($season, $week, $day, $cycleYear)
+                    : null;
+
+                $rows[] = [
+                    'date' => $currentDate,
+                    'day' => $day,
+                    'saison' => $season,
+                    'week' => $week ?? '-',
+                    'menu' => $menu
+                ];
+            }
+
+            $current->modify('+1 day');
+        }
+
+        return [
+            'rows' => $rows,
+            'selectedDate' => $selectedDate->format('Y-m-d'),
+            'startDate' => $start->format('Y-m-d'),
+            'endDate' => $end->format('Y-m-d'),
+        ];
+    }
 }

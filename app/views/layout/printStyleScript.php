@@ -39,12 +39,10 @@ function setPrintFontSize(size) {
 function applyPrintStyle(paper, orientation) {
     const style = document.getElementById('orientation-style');
     style.innerHTML = `
-        @media print {
             @page {
                 size: ${paper} ${orientation};
                 margin: 10mm;
             }
-        }
     `;
 }
 function setPrintSettings(valeur) {
@@ -127,6 +125,11 @@ th {
     body {
         margin: 0;
     }
+    footer {
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+    }
 
     .container {
         margin: 0;
@@ -148,6 +151,13 @@ th {
     .no-print {
         display: none !important;
     }
+}
+.maxw-50 {
+    width: 5px;
+    max-width: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 </style>
 

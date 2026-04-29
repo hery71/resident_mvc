@@ -476,5 +476,6 @@ class ResidentModel extends JsonRepository
         $stmt = $this->pdo->query("SELECT * FROM resident_tbl WHERE enabled = 1 ORDER BY Prenom");
         return $stmt->fetchAll(PDO::FETCH_ASSOC);
     }
+    
         
 }

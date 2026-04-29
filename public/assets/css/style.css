@@ -139,3 +139,10 @@ h3.mb-4 {
 .dropdown-submenu:hover .dropdown-menu {
     display: block;
 }
+.maxw-50 {
+        width: 50px;
+        max-width: 50px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

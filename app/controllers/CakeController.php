@@ -32,6 +32,23 @@ class CakeController
 
         require __DIR__ . '/../views/cake/cake_list_order.php';
     }
+    public function print_cake_list_order()
+    {
+        $mois  = isset($_GET['mois']) ? (int)$_GET['mois'] : (int)date('m');
+        $annee = isset($_GET['annee']) ? (int)$_GET['annee'] : (int)date('Y');
+        
+        $model = new CakeModel();
+
+        $cake = $model->cakeOrderList($mois, $annee);
+
+        $token = Auth::generateToken();
+         $moisLabel = [
+            1=>'Janvier', 2=>'Février', 3=>'Mars', 4=>'Avril',
+            5=>'Mai', 6=>'Juin', 7=>'Juillet', 8=>'Août',
+            9=>'Septembre', 10=>'Octobre', 11=>'Novembre', 12=>'Décembre'
+        ];
+        require __DIR__ . '/../views/cake/print_cake_list_order.php';
+    }
 
     public function store()
     {
@@ -86,6 +103,7 @@ class CakeController
     {
         $cakeModel = new CakeModel();
         $cake = $cakeModel->findByIdCake($id);
+        $token = Auth::generateToken();
          require __DIR__ . '/../views/cake/edit.php';
     }
 }

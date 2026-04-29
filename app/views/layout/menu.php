@@ -48,6 +48,7 @@
                         <a class="dropdown-item" href="/resident/unlike_meal">Gérer les plats non appréciés</a>
                         <a class="dropdown-item" href="/resident/resident_menu">Menu du jour par resident</a>
                         <a class="dropdown-item" href="/resident/print_menu">Imprimer menu par résident</a>
+                        <a class="dropdown-item" href="/resident/printLabels">Imprimer étiquettes des résident</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown">
@@ -98,8 +99,10 @@
                         <a class="dropdown-item" href="/alimentaire/index">Sommaire Alimentaire</a>
                         <a class="dropdown-item" href="/alimentaire/saison">Cycle saison</a>
                         <a class="dropdown-item" href="/menu/edit">Editer Menu </a>
+                        <a class="dropdown-item" href="/menu/searchMeal">Rechercher un plat dans les menus</a>
                         <a class="dropdown-item" href="/menu/dailyMenu">Menu du jour</a>
                         <a class="dropdown-item" href="/menu/weeklyMenu">Menu de la semaine</a>
+                        <a class="dropdown-item" href="/menu/menu2weeks">Menu aux 2 semaines</a>
                         <a class="dropdown-item" href="/menu/monthlyMenu">Menu du Mois</a>
                         <a class="dropdown-item" href="/menu/special">Menu Noel et Fin d année</a>
                         <hr class="dropdown-divider">
