@@ -9,7 +9,6 @@ class FeteController
         $annee = isset($_GET['annee']) ? (int)$_GET['annee'] : (int)date('Y');
         $model = new FeteModel();
         $fete = $model->feteList($mois, $annee);
-        $test=`test`;
    
 
         $moisLabel = [

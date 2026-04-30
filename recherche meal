@@ -1,0 +1,124 @@
+FICHE TECHNIQUE — GESTION DES MENUS ET MEALS (resident_mvc)
+
+OBJET
+Décrire le fonctionnement réel du système de récupération des meals à partir d’une date.
+
+PRINCIPE GÉNÉRAL
+Le système fonctionne en deux modes :
+
+Menu standard basé sur cycle (menu_tbl)
+Menu spécifique à une date (menu_unique)
+
+Les meals ne sont jamais stockés directement dans menu_tbl.
+Ils sont stockés dans des tables séparées par service.
+
+TABLES PRINCIPALES
+
+menu_tbl
+
+id
+saison
+week
+day
+annee
+
+menu_unique
+
+id
+date
+nom
+observation
+
+Tables de meals (même structure) :
+
+menu_breakfast
+menu_lunch
+menu_lunch_dessert
+menu_dinner
+menu_dinner_dessert
+
+Structure :
+
+id
+meal
+allergene
+intolerance
+enabled
+id_menu (menu standard)
+ids (menu unique)
+
+ALGORITHME DE RÉCUPÉRATION D’UN MENU
+
+Entrée : une date (ex: 2026-10-10)
+
+ÉTAPE 1 — Vérification menu unique
+
+Chercher la date dans menu_unique
+
+SI TROUVÉ :
+→ récupérer menu_unique.id
+→ utiliser ce id dans colonne ids des tables meals
+
+Requêtes :
+
+SELECT * FROM menu_breakfast WHERE ids = ?
+SELECT * FROM menu_lunch WHERE ids = ?
+SELECT * FROM menu_lunch_dessert WHERE ids = ?
+SELECT * FROM menu_dinner WHERE ids = ?
+SELECT * FROM menu_dinner_dessert WHERE ids = ?
+
+ÉTAPE 2 — Sinon (menu standard)
+
+Calculer :
+saison
+week
+day
+
+(avec MenuCycle)
+
+Rechercher dans menu_tbl :
+SELECT id FROM menu_tbl 
+WHERE saison = ? AND week = ? AND day = ?
+Récupérer id_menu
+Charger les meals :
+SELECT * FROM menu_breakfast WHERE id_menu = ?
+SELECT * FROM menu_lunch WHERE id_menu = ?
+SELECT * FROM menu_lunch_dessert WHERE id_menu = ?
+SELECT * FROM menu_dinner WHERE id_menu = ?
+SELECT * FROM menu_dinner_dessert WHERE id_menu = ?
+
+RÈGLE CLÉ
+
+id_menu = menu standard (cycle)
+ids = menu unique (date spécifique)
+
+PRIORITÉ
+menu_unique PRIORITAIRE sur menu_tbl
+
+STRUCTURE LOGIQUE
+
+DATE
+ → menu_unique ?
+    → OUI → utiliser ids
+    → NON → calcul cycle → menu_tbl → id_menu
+ → récupérer meals via tables séparées
+
+AVANTAGE
+
+modification flexible d’un jour sans toucher au cycle
+séparation claire :
+structure du menu (menu_tbl)
+contenu réel (tables meals)
+permet gestion allergènes / intolérances par meal
+
+REMARQUE
+menu_tbl ne contient que la logique du cycle
+Les vrais meals sont uniquement dans :
+
+menu_breakfast
+menu_lunch
+menu_lunch_dessert
+menu_dinner
+menu_dinner_dessert
+
+FIN DE FICHE

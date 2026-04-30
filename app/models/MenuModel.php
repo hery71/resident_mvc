@@ -83,6 +83,7 @@ class MenuModel
         };
 
         return [
+            'id_menu'        => $menuRow['id'],
             'breakfast'       => $fetchMeals('menu_breakfast'),
             'lunch'           => $fetchMeals('menu_lunch'),
             'lunch_dessert'   => $fetchMeals('menu_lunch_dessert'),

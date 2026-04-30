@@ -131,7 +131,9 @@ class MenuController extends Controller
                  Saison : <strong>$saison</strong> — 
                  Semaine : <strong>" . ($week ? "Week $week" : "Unique") . "</strong> — 
                  Jour : <strong>$day</strong> — 
-                 Cycle : <strong>$cycleYear</strong>";
+                 Cycle : <strong>$cycleYear</strong> —  
+                 Id_base : <strong>" . ($menu['id_menu'] ?? 'N/A') . "</strong> — 
+                 Id_Unique : <strong>" . ($uniqueMenu['id'] ?? 'N/A') . "</strong>";
 
         // === VARIABLES POUR LA VIEW ===
         require __DIR__ . '/../views/alimentaire/menu/daylyMenu.php';
