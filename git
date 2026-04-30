@@ -1,3 +1,7 @@
 git add .
 git commit -m "modif sur l'autre PC"
 git push
+**********************************************
+git add .
+git commit -m "sauvegarde locale"
+git pull origin main
