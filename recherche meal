@@ -122,3 +122,10 @@ menu_dinner
 menu_dinner_dessert
 
 FIN DE FICHE
+
+     <a href="/meal/dayMealManagement?signe=back&date=<?= e($xdate) ?>" class="btn btn-secondary">
+        <i class="fas fa-arrow-right"></i> suivant
+    </a>
+        <a href="/meal/dayMealManagement?signe=ahead&date=<?= e($xdate)?>" class="btn btn-secondary">
+        <i class="fas fa-arrow-left"></i> Retour
+    </a>

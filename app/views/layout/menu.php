@@ -105,15 +105,17 @@
                         <a class="dropdown-item" href="/menu/menu2weeks">Menu aux 2 semaines</a>
                         <a class="dropdown-item" href="/menu/monthlyMenu">Menu du Mois</a>
                         <a class="dropdown-item" href="/menu/special">Menu Noel et Fin d année</a>
-                        <hr class="dropdown-divider">
                         <a class="dropdown-item" href="/menuUnique/index">Menu Unique</a>                       
                         <hr class="dropdown-divider">
                         <a class="dropdown-item" href="/meal/mealManager">Gestion des plats</a>
+                        <a class="dropdown-item" href="/meal/dayMealManagement">Gestion des plats du jour</a>
                         <hr class="dropdown-divider">
                         <a class="dropdown-item" href="/ingredient/edit">Éditer Ingrédients</a>
                         <a class="dropdown-item" href="/preparation/mealAddIngredient">Plats sans ingrédients</a>
                         <a class="dropdown-item" href="/preparation/edit">Éditer Preparations</a>
                         <a class="dropdown-item" href="/preparation/hebdomadaire">Préparations Hebdomadaires</a>
+                        <hr class="dropdown-divider">
+                        <a class="dropdown-item" href="/order/">Liste des commandes</a>
                         <hr class="dropdown-divider">
                         <a class="dropdown-item" href="/allergie/edit">Éditer Allergies</a>
                         <a class="dropdown-item" href="/intolerance/edit">Éditer Intolérances</a>

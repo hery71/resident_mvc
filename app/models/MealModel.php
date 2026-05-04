@@ -155,5 +155,79 @@ class MealModel
             'intolerance' => $intolerance
         ]);
     }
+public function ensureMealExists($meal)
+    {
+        $meal = trim($meal);
+
+        if ($meal === '') return;
+
+        $stmt = $this->pdo->prepare("
+            SELECT id FROM meal_tbl 
+            WHERE LOWER(meal) = LOWER(?)
+        ");
+        $stmt->execute([$meal]);
+
+        if (!$stmt->fetch()) {
+            $insert = $this->pdo->prepare("
+                INSERT INTO meal_tbl (meal, enabled)
+                VALUES (?, 1)
+            ");
+            $insert->execute([$meal]);
+        }
+    }
+public function normalizeMealName(string $meal): string
+    {
+        $meal = trim($meal);
+
+        // enlever contenu entre () ou {}
+        $meal = preg_replace('/[\(\{].*?[\)\}]/', '', $meal);
+
+        // gérer "or"
+        if (stripos($meal, ' or ') !== false) {
+            $parts = explode(' or ', $meal);
+            $meal = trim($parts[0]);
+        }
+
+        // nettoyer double espaces
+        $meal = preg_replace('/\s+/', ' ', $meal);
+
+        return trim($meal);
+    }
+public function getMealsByNames(array $names): array
+    {
+        if (empty($names)) return [];
+
+        $normalized = array_map(function ($n) {
+            return mb_strtolower(trim($n));
+        }, $names);
+
+        $placeholders = implode(',', array_fill(0, count($normalized), '?'));
+
+        $sql = "
+            SELECT id, meal, ingredients, allergene, intolerance
+            FROM meal_tbl
+            WHERE LOWER(meal) IN ($placeholders)
+        ";
+
+        $stmt = $this->pdo->prepare($sql);
+        $stmt->execute($normalized);
+
+        $rows = $stmt->fetchAll(PDO::FETCH_ASSOC);
+
+        $map = [];
+        foreach ($rows as $r) {
+            $key = mb_strtolower(trim($r['meal']));
+            $map[$key] = $r;
+        }
+
+        $ordered = [];
+        foreach ($normalized as $n) {
+            if (isset($map[$n])) {
+                $ordered[] = $map[$n];
+            }
+        }
+
+        return $ordered;
+    }
 
 }

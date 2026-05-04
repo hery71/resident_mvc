@@ -75,6 +75,7 @@ require __DIR__ . '/../../layout/header.php'; ?>
   <?php endif; ?>
    <div class="text-center mt-4">
     <a href="/alimentaire/index" class="btn btn-secondary">⬅ Accueil</a>
+    <a href="/meal/dayMealManagement?date=<?= htmlspecialchars($xdate) ?>" class="btn btn-secondary">Gérer ce Menu</a>
   </div>
   </div>
   </div>

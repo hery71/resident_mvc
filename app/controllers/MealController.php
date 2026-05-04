@@ -87,5 +87,82 @@ public function saveIntolerances()
 
         echo json_encode(['success' => true]);
     }
+public function dayMealManagement()
+    {
+        global $pdo;
 
+        date_default_timezone_set('America/Moncton');
+
+        $xdate = $_GET['date'] ?? date('Y-m-d');
+
+        $target = new DateTime($xdate);
+        $day    = $target->format('l');
+
+        $cycle = MenuCycle::getSeasonAndWeek($xdate);
+        $cycleYear = $cycle['year'];
+
+        $menuModel = new MenuModel($pdo);
+        $mealModel = new MealModel();
+
+        $menu = null;
+        $id_unique = null;
+        $saison = $cycle['season'];
+        $week = $cycle['week'];
+
+        $uniqueMenu = $menuModel->getUniqueMenuForDate($xdate);
+
+        if ($uniqueMenu) {
+            $menu = $uniqueMenu;
+            $id_unique = $uniqueMenu['id'];
+            $week = null;
+        } else {
+            if ($week !== null) {
+                $menu = $menuModel->getBaseMenu(
+                    $saison,
+                    $week,
+                    $day,
+                    $cycleYear
+                );
+            }
+        }
+
+        $mealNames = [];
+
+        if (!empty($menu)) {
+            foreach (['breakfast', 'lunch', 'lunch_dessert', 'dinner', 'dinner_dessert'] as $service) {
+                if (!empty($menu[$service])) {
+                    foreach (explode(',', $menu[$service]) as $item) {
+                        $mealName = trim($item);
+
+                        if ($mealName !== '') {
+                            $mealNames[] = $mealName;
+                        }
+                    }
+                }
+            }
+        }
+
+        $mealNames = array_values(array_unique($mealNames));
+
+        foreach ($mealNames as $mealName) {
+            $mealModel->ensureMealExists($mealName);
+        }
+
+        $meals = $mealModel->getMealsByNames($mealNames);
+
+        $file = dirname(__DIR__, 2) . '/storage/data/intolerances.json';
+        $json = json_decode(file_get_contents($file), true);
+
+        $intoleranceCategories = array_keys(
+            $json['Intolerances_Alimentaires_Canada'] ?? []
+        );
+
+        $model1 = new AllergieModel();
+        $allergenList = $model1->all();
+
+        $model2 = new IntoleranceModel();
+        $intoleranceList = $model2->all();
+
+        require __DIR__ . '/../views/alimentaire/meal/dayMealManagement.php';
+    }
 }
