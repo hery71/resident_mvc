@@ -7,16 +7,12 @@
     <link rel="stylesheet"
           href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://resident_mvc.test/assets/css/style.css">
-<?php require __DIR__ . '/../../layout/printStyleScript.php'; ?>
+<?php require __DIR__ . '/../layout/printStyleScript.php'; ?>
 </head>
 <body>
 <div class="container mt-4" id="printable-area">
-<?php include __DIR__ . '/../../layout/printSizeOption.php'; ?>
+<?php include __DIR__ . '/../layout/printSizeOption.php'; ?>
 <H3 class="mb-4 text-center font-weight-bold">BASE PRINT PAGE</H3>
-
-  
-
-
 
 </div> <!-- container -->
 

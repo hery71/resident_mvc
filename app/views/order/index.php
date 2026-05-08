@@ -295,9 +295,23 @@ require_once __DIR__ . '/../layout/header.php'; ?>
 
                 </div>
             </div>
-
+            <div class="card-footer text-center">
+                <a href="/order/print?date=<?= e($xdate) ?>&range=<?= e($range) ?>&type=<?= e($group) ?>"
+                target="_blank"
+                class="btn btn-sm btn-primary">
+                    Imprimer
+                </a>
+            </div>
         </div>
+        
         <?php endforeach; ?>
+        <div class="text-center mt-4">
+            <a href="/order/print?date=<?= e($xdate) ?>&range=<?= e($range) ?>&type=all"
+            target="_blank"
+            class="btn btn-success">
+                Imprimer Tous
+            </a>
+        </div>
     </div>
     <?php if (!empty($orderList['mealsWithoutIngredients'])): ?>
     <div class="row mt-4">
