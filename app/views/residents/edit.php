@@ -35,6 +35,12 @@
         </div>
 
         <div class="form-group">
+            <label>Date admission</label>
+            <input type="date" name="Admission"
+                   class="form-control"
+                   value="<?= e($resident['Admission']) ?>">
+        </div>
+        <div class="form-group">
             <label>Date anniversaire</label>
             <input type="date" name="Anniversaire"
                    class="form-control"

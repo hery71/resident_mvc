@@ -67,16 +67,18 @@ class OrderModel
             'dinner' => []
         ];
 
+        $allMeals = [];
+
+        $serviceMap = [
+            'breakfast' => ['breakfast'],
+            'lunch' => ['lunch', 'lunch_dessert'],
+            'dinner' => ['dinner', 'dinner_dessert']
+        ];
+
         foreach ($menus as $menu) {
             if (empty($menu)) {
                 continue;
             }
-
-            $serviceMap = [
-                'breakfast' => ['breakfast'],
-                'lunch' => ['lunch', 'lunch_dessert'],
-                'dinner' => ['dinner', 'dinner_dessert']
-            ];
 
             foreach ($serviceMap as $groupName => $services) {
                 foreach ($services as $service) {
@@ -89,19 +91,22 @@ class OrderModel
                     foreach ($meals as $meal) {
                         if ($meal !== '') {
                             $groups[$groupName][] = $meal;
+                            $allMeals[] = $meal;
                         }
                     }
                 }
             }
         }
 
-        $allMealNames = [];
+        $allMeals = array_values(array_unique($allMeals));
 
-        foreach ($groups as $mealNames) {
-            $allMealNames = array_merge($allMealNames, $mealNames);
+        $mealModel = new MealModel();
+
+        foreach ($allMeals as $meal) {
+            $mealModel->ensureMealExists($meal);
         }
 
-        $mealsWithoutIngredients = $this->getMealWithoutIngredients($allMealNames);
+        $mealsWithoutIngredients = $this->getMealWithoutIngredients($allMeals);
 
         $result = [];
 
