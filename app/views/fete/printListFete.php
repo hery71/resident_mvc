@@ -22,6 +22,7 @@
                 <th>Motif</th>
                 <th>Résident</th>
                 <th>Date</th>
+                <th>Heure</th>
             </tr>
         </thead>
         <tbody>
@@ -29,7 +30,7 @@
         $n= 0;    
         if (empty($fete)): ?>
             <tr>
-                <td colspan="4" class="text-center text-muted">
+                <td colspan="5" class="text-center text-muted">
                     Aucune Fete ce mois-ci
                 </td>
             </tr>
@@ -43,6 +44,7 @@
                 <td class="text-center"><?= e($a['motif']) ?></td>
                 <td><?= e($a['Nom'])? e($a['Nom']):'--NO '; ?> <?= e($a['Prenom'])? e($a['Prenom']):'RESIDENT--' ?></td>
                 <td class="text-center"><?= e($a['date']) ?></td>  
+                <td class="text-center"><?= e($a['heure'] ?? '') ?></td>
         </tr>
         <?php endforeach; ?>
         </tbody>

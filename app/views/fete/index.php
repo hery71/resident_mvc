@@ -32,6 +32,16 @@
         <a href="/fete/create" class="btn btn-secondary no-print">
            Créer fête
         </a>
+        <button type="button"
+                onclick="window.open('/fete/printListFete?mois=<?= (int)$mois ?>&annee=<?= (int)$annee ?>', '_blank')"
+                class="btn btn-info no-print">
+            Imprimer programme
+        </button>
+        <button type="button"
+                onclick="window.open('/fete/printListFete?mois=<?= (int)$mois ?>&annee=<?= (int)$annee ?>', '_blank')"
+                class="btn btn-info no-print">
+            Imprimer le tableau
+        </button>
             <table class="table table-bordered table-sm table-hover">
                 <thead >
                     <tr>
@@ -39,6 +49,7 @@
                         <th>Motif</th>
                         <th>Résident</th>
                         <th>Date</th>
+                        <th>Heure</th>
                         <th>Actions</th>
                     </tr>
                 </thead>
@@ -61,6 +72,7 @@
                         <td><?= e($a['motif']) ?></td>
                         <td><?= e($a['Nom'])? e($a['Nom']):'--NO '; ?> <?= e($a['Prenom'])? e($a['Prenom']):'RESIDENT--' ?></td>
                         <td><?= e($a['date']) ?></td>  
+                        <td><?= e($a['heure'] ?? '') ?></td>
                         <td>
                             <a href="/birthday/printRequisition/<?= (int)$a['id'] ?>" 
                             class="btn btn-sm btn-outline-danger" target="_blank">
@@ -81,14 +93,6 @@
             <button class="btn btn-secondary" onclick="window.location.href='/'">
                 Retour accueil
                 </button>
-                <button onclick="window.open('/fete/printListFete?mois=<?= $mois ?>&annee=<?= $annee ?>', '_blank')" class="btn btn-info">
-                Imprimer le tableau
-                </button>
-                <button class="btn btn-outline-secondary btn-sm" onclick="setFontSize('s')">S</button>
-                <button class="btn btn-outline-secondary btn-sm" onclick="setFontSize('m')">M</button>
-                <button class="btn btn-outline-secondary btn-sm" onclick="setFontSize('l')">L</button>
-                <button class="btn btn-outline-secondary btn-sm" onclick="setFontSize('xl')">XL</button>
-                <button class="btn btn-outline-secondary btn-sm" onclick="setFontSize('tg')">TG</button>
             </div>
     </div>
 </div>
