@@ -89,11 +89,11 @@
 
 <?php
 $meals = [
-    'breakfast' => 'Breakfast',
-    'lunch' => 'Lunch',
-    'lunch_dessert' => 'Lunch Dessert',
-    'dinner' => 'Dinner',
-    'dinner_dessert' => 'Dinner Dessert'
+    'menu_breakfast' => 'Breakfast',
+    'menu_lunch' => 'Lunch',
+    'menu_lunch_dessert' => 'Lunch Dessert',
+    'menu_dinner' => 'Dinner',
+    'menu_dinner_dessert' => 'Dinner Dessert'
 ];
 ?>
 
