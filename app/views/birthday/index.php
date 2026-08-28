@@ -34,6 +34,7 @@
                 <th>Jour</th>
                 <th>Résident</th>
                 <th>Date de naissance</th>
+                <th>Date Fete</th>
                 <th>Actions</th>
             </tr>
         </thead>
@@ -41,7 +42,7 @@
 
         <?php if (empty($anniversaires)): ?>
             <tr>
-                <td colspan="4" class="text-center text-muted">
+                <td colspan="5" class="text-center text-muted">
                     Aucun anniversaire ce mois-ci
                 </td>
             </tr>
@@ -51,6 +52,9 @@
                 <td class="text-center"><?= $a['jour'] ?></td>
                 <td><?= e($a['Nom']) ?> <?= e($a['Prenom']) ?></td>
                 <td><?= e($a['date_naissance']) ?></td>
+                <td>
+                    <?= !empty($a['date_fete']) ? e($a['date_fete']) : '—' ?>
+                </td>
                 <td class="text-left">
                     <?php if ($a['fete_id']): ?>
                         <a href="/birthday/edit?idBirthday=<?= $a['fete_id'] ."&jour=" .$a['jour'] ."&mois=" .$mois ."&annee=" .$annee ?>"

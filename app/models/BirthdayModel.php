@@ -222,6 +222,7 @@ class BirthdayModel
             DAY(r.Anniversaire) AS jour,
             MONTH(r.Anniversaire) AS mois,
             a.id AS fete_id,
+            a.date AS date_fete,
             a.annee,
             a.motif,
             a.enabled,
