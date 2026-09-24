@@ -350,5 +350,24 @@ class BirthdayController
         exit;
 
     }
+    public function birthdayList()
+    {
+        $model = new BirthdayModel();
 
+        // Récupérer tous les résidents avec leur anniversaire
+        $residents = $model->getBirthdayList();
+
+        require __DIR__ . '/../views/birthday/birthday_list.php';
+    }
+    //************************************************************************************************** */
+public function birthdayListPrint()
+    {
+        $model = new BirthdayModel();
+
+        // Récupérer la liste complète des résidents avec leurs anniversaires
+        $residents = $model->getBirthdayList();
+
+        // Vue imprimable
+        require __DIR__ . '/../views/birthday/birthday_list_print.php';
+    }
 }

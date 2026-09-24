@@ -30,35 +30,55 @@ class ResidentModel extends JsonRepository
         $stmt = $this->pdo->query("SELECT * FROM resident_tbl WHERE 1=1 AND enabled=1 ORDER BY Nom");
         return $stmt->fetchAll();
     }
-    public function getPaginated($limit, $offset, $nom, $prenom)
-    {
-        $sql = "SELECT * FROM resident_tbl WHERE 1=1 AND enabled=1";
-        $params = [];
+    public function getPaginated(
+    $limit,
+    $offset,
+    $nom,
+    $prenom,
+    $sort = 'prenom',
+    $direction = 'asc'
+) {
+    $sql = "SELECT * FROM resident_tbl WHERE enabled = 1";
+    $params = [];
 
-        if ($nom !== '') {
-            $sql .= " AND Nom LIKE :nom";
-            $params['nom'] = "%$nom%";
-        }
-
-        if ($prenom !== '') {
-            $sql .= " AND Prenom LIKE :prenom";
-            $params['prenom'] = "%$prenom%";
-        }
-
-        $sql .= " ORDER BY Prenom ASC LIMIT :limit OFFSET :offset";
-
-        $stmt = $this->pdo->prepare($sql);
-
-        foreach ($params as $k => $v) {
-            $stmt->bindValue(":$k", $v);
-        }
-
-        $stmt->bindValue(':limit', (int)$limit, PDO::PARAM_INT);
-        $stmt->bindValue(':offset', (int)$offset, PDO::PARAM_INT);
-
-        $stmt->execute();
-        return $stmt->fetchAll();
+    if ($nom !== '') {
+        $sql .= " AND Nom LIKE :nom";
+        $params['nom'] = "%$nom%";
     }
+
+    if ($prenom !== '') {
+        $sql .= " AND Prenom LIKE :prenom";
+        $params['prenom'] = "%$prenom%";
+    }
+
+    // Colonnes autorisées
+    $columns = [
+        'prenom'  => 'Prenom',
+        'nom'     => 'Nom',
+        'chambre' => 'Chambre'
+    ];
+
+    $sortColumn = $columns[$sort] ?? 'Prenom';
+
+    $direction = strtolower($direction);
+    $direction = ($direction === 'desc') ? 'DESC' : 'ASC';
+
+    $sql .= " ORDER BY `$sortColumn` $direction
+              LIMIT :limit OFFSET :offset";
+
+    $stmt = $this->pdo->prepare($sql);
+
+    foreach ($params as $k => $v) {
+        $stmt->bindValue(":$k", $v);
+    }
+
+    $stmt->bindValue(':limit', (int)$limit, PDO::PARAM_INT);
+    $stmt->bindValue(':offset', (int)$offset, PDO::PARAM_INT);
+
+    $stmt->execute();
+
+    return $stmt->fetchAll();
+}
     public function countFiltered($nom, $prenom)
     {
         $sql = "SELECT COUNT(*) FROM resident_tbl WHERE 1=1 AND enabled=1";
@@ -478,6 +498,44 @@ class ResidentModel extends JsonRepository
         $stmt = $this->pdo->query("SELECT * FROM resident_tbl WHERE enabled = 1 ORDER BY Prenom");
         return $stmt->fetchAll(PDO::FETCH_ASSOC);
     }
-    
-        
+    public function updateRoom(int $id, string $chambre): bool
+    {
+        $sql = "UPDATE resident_tbl
+                SET Chambre = :chambre
+                WHERE id = :id
+                AND enabled = 1";
+
+        $stmt = $this->pdo->prepare($sql);
+
+        return $stmt->execute([
+            'chambre' => trim($chambre),
+            'id'      => $id
+        ]);
+    } 
+    public function update_rooms(array $chambres): bool
+    {
+        $sql = "UPDATE resident_tbl
+                SET Chambre = :chambre
+                WHERE id = :id
+                AND enabled = 1";
+
+        $stmt = $this->pdo->prepare($sql);
+
+        foreach ($chambres as $id => $chambre) {
+
+            $id = (int)$id;
+
+            if ($id <= 0) {
+                continue;
+            }
+
+            $stmt->execute([
+                'chambre' => trim((string)$chambre),
+                'id'      => $id
+            ]);
+        }
+
+        return true;
+    }
+
 }

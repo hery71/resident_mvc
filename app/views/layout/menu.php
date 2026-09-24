@@ -42,6 +42,7 @@
                     <div class="dropdown-menu">
                         <a class="dropdown-item" href="/resident">Liste des résidents</a>
                         <a class="dropdown-item" href="/resident/create">Ajouter un résident</a>
+                        <a class="dropdown-item" href="/resident/room">Chambres</a>
                         <a class="dropdown-item" href="/resident/restriction">Restrictions alimentaires</a>
                         <a class="dropdown-item" href="/resident/drinks">Gestions des Boissons des residents</a>
                         <a class="dropdown-item" href="/resident/edit_drinks">Editer Boissons</a>
@@ -63,6 +64,7 @@
                         <div class="dropdown-submenu">
                             <a class="dropdown-item dropdown-toggle" href="#">Anniversaires</a>
                             <div class="dropdown-menu">
+                                <a class="dropdown-item" href="/birthday/birthdayList">Liste des anniversaires</a>
                                 <a class="dropdown-item" href="/birthday">Anniversaires</a>
                                 <a class="dropdown-item" href="/cake/cake_list_order?mois=<?= date('n') ?>&annee=<?= date('Y') ?>">Cake Order List</a>
                             </div>

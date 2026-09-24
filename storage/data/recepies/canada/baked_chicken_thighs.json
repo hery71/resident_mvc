@@ -1,0 +1,72 @@
+{
+    "titre": "Baked Chicken thighs",
+    "pax": 30,
+    "ingredients": [
+        {
+            "nom": "Boneless Chicken Thigs",
+            "unite": "Kg",
+            "quantite": 2
+        },
+        {
+            "nom": "Diced Onion",
+            "unite": "Cup",
+            "quantite": 1
+        },
+        {
+            "nom": "Paprika",
+            "unite": "TS",
+            "quantite": 2
+        },
+        {
+            "nom": "Garlic",
+            "unite": "TS",
+            "quantite": 1
+        },
+        {
+            "nom": "brown sugar",
+            "unite": "Cup",
+            "quantite": 0.5
+        },
+        {
+            "nom": "Peper",
+            "unite": "PM",
+            "quantite": 1
+        },
+        {
+            "nom": "Soya Sauce",
+            "unite": "TS",
+            "quantite": 6
+        },
+        {
+            "nom": "Oil",
+            "unite": "Cup",
+            "quantite": 0.5
+        },
+        {
+            "nom": "Ketchup",
+            "unite": "Cup",
+            "quantite": 1
+        },
+        {
+            "nom": "Mustard",
+            "unite": "Cup",
+            "quantite": 0.44
+        },
+        {
+            "nom": "Chicken Broth",
+            "unite": "Cup",
+            "quantite": 4
+        }
+    ],
+    "technique_de_realisation": [
+        "Mix all the ingredients together, except the chicken broth.",
+        "Add the boneless chicken thighs and mix well to coat evenly.",
+        "Cover and marinate in the refrigerator for 1 to 2 hours.",
+        "Place the chicken thighs on a lightly oiled baking sheet, without overcrowding.",
+        "Bake at 375°F (190°C) for approximately 25 to 30 minutes, or until the internal temperature reaches 165°F (74°C).",
+        "Check the color of the chicken before removing it from the oven. Cook a little longer if necessary to obtain a nice golden-brown color.",
+        "About 10 to 15 minutes before the end of cooking, pour the chicken broth into the baking sheet and allow it to simmer with the chicken.",
+        "Remove the chicken from the oven and collect the cooking juices from the bottom of the pan to use as a sauce.",
+        "Serve the chicken thighs with the cooking juices."
+    ]
+}

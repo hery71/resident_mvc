@@ -2,24 +2,49 @@
 class ResidentController extends Controller
 {
     public function index()
-    {
-        $model = new ResidentModel();
-        // Pagination
-        $perPage = 10;
-        $page = max(1, (int)($_GET['page'] ?? 1));
-        $offset = ($page - 1) * $perPage;
+{
+    $model = new ResidentModel();
 
-        // Filtres
-        $nom = trim($_GET['nom'] ?? '');
-        $prenom = trim($_GET['prenom'] ?? '');
+    // Pagination
+    $perPage = 10;
+    $page = max(1, (int)($_GET['page'] ?? 1));
+    $offset = ($page - 1) * $perPage;
 
-        // Données
-        $residents = $model->getPaginated($perPage, $offset, $nom, $prenom);
-        $total = $model->countFiltered($nom, $prenom);
+    // Filtres
+    $nom = trim($_GET['nom'] ?? '');
+    $prenom = trim($_GET['prenom'] ?? '');
 
-        $totalPages = ceil($total / $perPage);
-        require __DIR__ . '/../views/residents/index.php';
+    // Tri
+    $sort = $_GET['sort'] ?? 'prenom';
+    $direction = strtolower($_GET['direction'] ?? 'asc');
+
+    // Sécurité
+    $allowedSort = ['prenom', 'nom', 'chambre'];
+
+    if (!in_array($sort, $allowedSort, true)) {
+        $sort = 'prenom';
     }
+
+    if (!in_array($direction, ['asc', 'desc'], true)) {
+        $direction = 'asc';
+    }
+
+    // Données
+    $residents = $model->getPaginated(
+        $perPage,
+        $offset,
+        $nom,
+        $prenom,
+        $sort,
+        $direction
+    );
+
+    $total = $model->countFiltered($nom, $prenom);
+
+    $totalPages = ceil($total / $perPage);
+
+    require __DIR__ . '/../views/residents/index.php';
+}
 
      public function printIndex()
     {
@@ -1021,5 +1046,59 @@ private function centerText(string $text, int $width): string
         $len = mb_strlen($text);
         $spaces = max(0, floor(($width - $len) / 2));
         return str_repeat(' ', $spaces) . $text;
+    }
+public function room()
+    {
+        $model = new ResidentModel();
+
+        $residents = $model->getAll();
+
+        // Tri par prénom A-Z
+        usort($residents, function ($a, $b) {
+            return strcasecmp($a['Prenom'], $b['Prenom']);
+        });
+
+        require __DIR__ . '/../views/residents/room.php';
+    }
+
+public function updateRoom()
+    {
+        if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
+            http_response_code(405);
+            exit;
+        }
+
+        $id = (int)($_POST['id'] ?? 0);
+        $chambre = trim($_POST['chambre'] ?? '');
+
+        if ($id <= 0) {
+            die('Résident invalide');
+        }
+
+        $model = new ResidentModel();
+        $model->updateRoom($id, $chambre);
+
+        header('Location: /resident/room');
+        exit;
+    }
+    public function update_rooms()
+    {
+        if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
+            http_response_code(405);
+            exit;
+        }
+
+        $chambres = $_POST['chambres'] ?? [];
+
+        if (!is_array($chambres)) {
+            header('Location: /resident/room');
+            exit;
+        }
+
+        $model = new ResidentModel();
+        $model->update_rooms($chambres);
+
+        header('Location: /resident/room');
+        exit;
     }
 }

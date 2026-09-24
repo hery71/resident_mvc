@@ -10,6 +10,7 @@ $logoPathPublic = $logoFilename
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="/assets/images/logocfsm.png?v=3">
     <title><?= e($title ?? 'Resident MVC') ?></title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1">

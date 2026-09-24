@@ -56,10 +56,47 @@
 
         <thead>
           <tr>
-            <th>Prénom</th>
-            <th>Nom</th>
-            <th>Chambre</th>
-            <th>Action</th>
+            <?php
+              function sortUrl($column, $sort, $direction, $nom, $prenom) {
+                  $newDirection = ($sort === $column && $direction === 'asc') ? 'desc' : 'asc';
+
+                  return '?sort=' . urlencode($column)
+                      . '&direction=' . $newDirection
+                      . '&nom=' . urlencode($nom)
+                      . '&prenom=' . urlencode($prenom)
+                      . '&page=1';
+              }
+
+              function sortIcon($column, $sort, $direction) {
+                  if ($sort !== $column) {
+                      return '↕';
+                  }
+
+                  return $direction === 'asc' ? '▲' : '▼';
+              }
+              ?>
+              <th>
+                  <a href="<?= sortUrl('prenom', $sort, $direction, $nom, $prenom) ?>"
+                    class="text-dark text-decoration-none">
+                      Prénom <?= sortIcon('prenom', $sort, $direction) ?>
+                  </a>
+              </th>
+
+              <th>
+                  <a href="<?= sortUrl('nom', $sort, $direction, $nom, $prenom) ?>"
+                    class="text-dark text-decoration-none">
+                      Nom <?= sortIcon('nom', $sort, $direction) ?>
+                  </a>
+              </th>
+
+              <th>
+                  <a href="<?= sortUrl('chambre', $sort, $direction, $nom, $prenom) ?>"
+                    class="text-dark text-decoration-none">
+                      Chambre <?= sortIcon('chambre', $sort, $direction) ?>
+                  </a>
+              </th>
+
+              <th>Action</th>
           </tr>
         </thead>
 
@@ -126,18 +163,32 @@
       </table>
 
       <!-- Pagination -->
+      <?php if ($totalPages > 1): ?>
       <nav>
-        <ul class="pagination">
-          <?php for ($i = 1; $i <= $totalPages; $i++): ?>
-            <li class="page-item <?= $i == $page ? 'active' : '' ?>">
-              <a class="page-link"
-                 href="?page=<?= $i ?>&nom=<?= urlencode($nom) ?>&prenom=<?= urlencode($prenom) ?>">
-                <?= $i ?>
-              </a>
-            </li>
-          <?php endfor; ?>
-        </ul>
+          <ul class="pagination">
+
+              <?php for ($i = 1; $i <= $totalPages; $i++): ?>
+
+                  <li class="page-item <?= $i == $page ? 'active' : '' ?>">
+
+                      <a class="page-link"
+                        href="?page=<?= $i ?>
+                        &nom=<?= urlencode($nom) ?>
+                        &prenom=<?= urlencode($prenom) ?>
+                        &sort=<?= urlencode($sort) ?>
+                        &direction=<?= urlencode($direction) ?>">
+
+                          <?= $i ?>
+
+                      </a>
+
+                  </li>
+
+              <?php endfor; ?>
+
+          </ul>
       </nav>
+      <?php endif; ?>
 
     </div><!-- card-body -->
   </div><!-- card-modern -->

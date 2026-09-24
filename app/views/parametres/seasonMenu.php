@@ -33,10 +33,10 @@
             <select name="saison" class="form-control" required>
                 <option value="">-- Choisir --</option>
                 <?php 
-                $seasons = ['Winter','Spring','Summer','Falls','Christmass','New Year'];
+                $seasons = ['Winter','Spring','Summer','Fall','Christmass','New Year'];
                 foreach ($seasons as $s): ?>
                     <option value="<?= $s ?>" <?= ($saison ?? '') == $s ? 'selected' : '' ?>>
-                        <?= $s ?>
+                        <?= $s=='Fall' ? 'Falls' : $s ?>
                     </option>
                 <?php endforeach; ?>
             </select>

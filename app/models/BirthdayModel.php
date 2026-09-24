@@ -310,5 +310,30 @@ public function getFirstWeekBirthday(int $month)
 
         return $stmt->fetchAll();
     }
+    //****************************************************************************************** */
+public function getBirthdayList()
+    {
+        $sql = "
+            SELECT
+                id,
+                Prenom,
+                Nom,
+                Anniversaire,
+                DAY(Anniversaire) AS jour,
+                MONTH(Anniversaire) AS mois
+            FROM resident_tbl
+            WHERE enabled = 1
+            AND Anniversaire IS NOT NULL
+            ORDER BY
+                MONTH(Anniversaire) ASC,
+                DAY(Anniversaire) ASC,
+                Nom ASC,
+                Prenom ASC
+        ";
 
+        $stmt = $this->pdo->prepare($sql);
+        $stmt->execute();
+
+        return $stmt->fetchAll(PDO::FETCH_ASSOC);
+    }
 }

@@ -171,7 +171,7 @@ $meals = [
             <option value="Winter">Winter</option>
             <option value="Spring">Spring</option>
             <option value="Summer">Summer</option>
-            <option value="Fall">Fall</option>
+            <option value="Fall">Falls</option>
         </select>
     </div>
     <div class="form-group w-25">
