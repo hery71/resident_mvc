@@ -407,4 +407,76 @@ class ParametresController
         header('Location: ' . BASE_URL . '/parametres/editStartSeasonWeek?message=0x0');
         exit;
     }
+
+    public function seasonDuration()
+    {
+        $model = new ParametresModel();
+        $seasonDurations = $model->getSeasonDurations();
+        $seasonDuration = null;
+
+        $editId = (int)($_GET['edit'] ?? 0);
+        if ($editId > 0) {
+            $seasonDuration = $model->getSeasonDurationById($editId);
+            if (!$seasonDuration) {
+                http_response_code(404);
+                exit('Configuration introuvable.');
+            }
+        }
+
+        $message = $_GET['message'] ?? '';
+        $token = Auth::generateToken();
+
+        require __DIR__ . '/../views/parametres/seasonDuration.php';
+    }
+
+    public function saveSeasonDuration()
+    {
+        if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
+            http_response_code(405);
+            exit('Méthode non autorisée.');
+        }
+
+        if (!Auth::checkToken($_POST['token'] ?? '')) {
+            http_response_code(403);
+            exit('Token CSRF invalide.');
+        }
+
+        $data = [
+            'id'      => (int)($_POST['id'] ?? 0),
+            'annee'   => (int)($_POST['annee'] ?? 0),
+            'winter'  => (int)($_POST['winter'] ?? 0),
+            'spring'  => (int)($_POST['spring'] ?? 0),
+            'summer'  => (int)($_POST['summer'] ?? 0),
+            'fall'    => (int)($_POST['fall'] ?? 0),
+            'enabled' => (int)($_POST['enabled'] ?? 0) === 1 ? 1 : 0,
+        ];
+
+        $weeks = [$data['winter'], $data['spring'], $data['summer'], $data['fall']];
+        if ($data['annee'] < 2000 || $data['annee'] > 2100) {
+            header('Location: /parametres/seasonDuration?message=invalid_year');
+            exit;
+        }
+
+        foreach ($weeks as $weekCount) {
+            if ($weekCount < 1 || $weekCount > 53) {
+                header('Location: /parametres/seasonDuration?message=invalid_weeks');
+                exit;
+            }
+        }
+
+        try {
+            $model = new ParametresModel();
+            $model->saveSeasonDuration($data);
+        } catch (PDOException $e) {
+            if ((string)$e->getCode() === '23000') {
+                header('Location: /parametres/seasonDuration?message=duplicate_year');
+                exit;
+            }
+            throw $e;
+        }
+
+        $message = $data['id'] > 0 ? 'updated' : 'created';
+        header('Location: /parametres/seasonDuration?message=' . $message);
+        exit;
+    }
 }

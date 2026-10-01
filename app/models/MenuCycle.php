@@ -1,5 +1,7 @@
 <?php
 
+require_once __DIR__ . '/../services/seasonService.php';
+
 class MenuCycle
 {
     // 🔹 DIMANCHE de référence du cycle menus (Menu 2)
@@ -212,83 +214,27 @@ class MenuCycle
        ============================================================ */
     public static function getSeasonsForYear(int $year): array
     {
-        $seasons = [];
+        $regular = [];
+        $special = [];
 
-        // 🎆 Semaine spéciale Nouvel An (début année)
-        $newyear = strtotime("$year-01-01");
-        $ny_day = date('w', $newyear); // 0=dimanche
-        $specialNY_start = strtotime("-$ny_day days", $newyear);
-        $specialNY_end   = strtotime("+6 days", $specialNY_start);
+        foreach (SeasonService::getSeasonsForYear($year) as $season) {
+            if ($season['Saison'] === 'Semaine Noël') {
+                $season['Saison'] = 'Christmass';
+                $special[] = $season;
+                continue;
+            }
 
-        // 🧊 Winter
-        $winterStart = strtotime("+7 days", $specialNY_start);
-        //$winterEnd   = strtotime("+75 days", $winterStart);
-        //$winterEnd   = strtotime("saturday this week", $winterEnd);
-        $winterEnd   = strtotime("+75 days", $winterStart);
-        $winterEnd   = strtotime("next saturday", $winterEnd);
+            if ($season['Saison'] === 'Nouvel An') {
+                $season['Saison'] = 'New year';
+                $special[] = $season;
+                continue;
+            }
 
-        // 🌷 Spring
-        $springStart = strtotime("+1 day", $winterEnd);
-        //$springEnd   = strtotime("+90 days", $springStart);
-        //$springEnd   = strtotime("saturday this week", $springEnd);
-        $springEnd = strtotime("+90 days", $springStart);
-        $springEnd = strtotime("next saturday", $springEnd);
-
-        // ☀️ Summer
-        $summerStart = strtotime("+1 day", $springEnd);
-        //$summerEnd   = strtotime("+90 days", $summerStart);
-        //$summerEnd   = strtotime("saturday this week", $summerEnd);
-        $summerEnd = strtotime("+90 days", $summerStart);
-        $summerEnd = strtotime("next saturday", $summerEnd);
-
-        // 🍂 Fall
-        $fallStart = strtotime("+1 day", $summerEnd);
-        //$fallEnd   = strtotime("+90 days", $fallStart);
-        //$fallEnd   = strtotime("saturday this week", $fallEnd);
-        $fallEnd = strtotime("+90 days", $fallStart);
-        $fallEnd = strtotime("next saturday", $fallEnd);
-
-        // 🎄 Semaine Noël
-        $xmas = strtotime("$year-12-25");
-        $xmas_day = date('w', $xmas);
-        $specialXmas_start = strtotime("-$xmas_day days", $xmas);
-        $specialXmas_end   = strtotime("+6 days", $specialXmas_start);
-
-        // 🎆 Semaine Nouvel An (fin d’année)
-        $specialNY2 = strtotime(($year + 1) . "-01-01");
-        $ny2_day = date('w', $specialNY2);
-
-        $specialNY2_start = strtotime("-$ny2_day days", $specialNY2);
-        $specialNY2_end   = strtotime("+6 days", $specialNY2_start);
-
-        // 🧊 Winter2 (pour couvrir janvier suivant)
-        $winter2Start = strtotime("+7 days", $specialNY2_start);
-        $winter2End   = strtotime("+75 days", $winter2Start);
-        $winter2End = strtotime("next saturday", $winter2End);
-
-       $ranges = [
-            ['Christmass', $specialXmas_start, $specialXmas_end],
-            ['New year',   $specialNY2_start,  $specialNY2_end],
-
-            ['Winter',     $winterStart,       $winterEnd],
-            ['Spring',     $springStart,       $springEnd],
-            ['Summer',     $summerStart,       $summerEnd],
-            ['Fall',       $fallStart,         $fallEnd],
-
-            ['Winter',     $winter2Start,      $winter2End], // Important
-        ];
-
-        $out = [];
-        foreach ($ranges as $s) {
-            $out[] = [
-                'Saison' => $s[0],
-                'Début'  => date('Y-m-d', $s[1]),
-                'Fin'    => date('Y-m-d', $s[2]),
-                'Durée'  => (($s[2] - $s[1]) / 86400) + 1
-            ];
+            $regular[] = $season;
         }
 
-        return $out;
+        // Les semaines spéciales sont évaluées avant les saisons régulières.
+        return array_merge($special, $regular);
     }
 
 

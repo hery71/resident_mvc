@@ -265,4 +265,82 @@ class ParametresModel
         ");
         $stmt->execute([$annee, $saison, $week]);
     }
+
+    public function getSeasonDurations(): array
+    {
+        $stmt = $this->pdo->query("
+            SELECT id, annee, winter, spring, summer, fall, enabled
+            FROM season_duration
+            ORDER BY annee DESC
+        ");
+
+        return $stmt->fetchAll(PDO::FETCH_ASSOC);
+    }
+
+    public function getSeasonDurationById(int $id): array|false
+    {
+        $stmt = $this->pdo->prepare("
+            SELECT id, annee, winter, spring, summer, fall, enabled
+            FROM season_duration
+            WHERE id = ?
+            LIMIT 1
+        ");
+        $stmt->execute([$id]);
+
+        return $stmt->fetch(PDO::FETCH_ASSOC);
+    }
+
+    public function getActiveSeasonDurationForYear(int $year): array|false
+    {
+        $stmt = $this->pdo->prepare("
+            SELECT annee, winter, spring, summer, fall
+            FROM season_duration
+            WHERE annee = ?
+              AND enabled = 1
+            LIMIT 1
+        ");
+        $stmt->execute([$year]);
+
+        return $stmt->fetch(PDO::FETCH_ASSOC);
+    }
+
+    public function saveSeasonDuration(array $data): void
+    {
+        if (!empty($data['id'])) {
+            $stmt = $this->pdo->prepare("
+                UPDATE season_duration
+                SET annee = ?,
+                    winter = ?,
+                    spring = ?,
+                    summer = ?,
+                    fall = ?,
+                    enabled = ?
+                WHERE id = ?
+            ");
+            $stmt->execute([
+                $data['annee'],
+                $data['winter'],
+                $data['spring'],
+                $data['summer'],
+                $data['fall'],
+                $data['enabled'],
+                $data['id'],
+            ]);
+            return;
+        }
+
+        $stmt = $this->pdo->prepare("
+            INSERT INTO season_duration
+                (annee, winter, spring, summer, fall, enabled)
+            VALUES (?, ?, ?, ?, ?, ?)
+        ");
+        $stmt->execute([
+            $data['annee'],
+            $data['winter'],
+            $data['spring'],
+            $data['summer'],
+            $data['fall'],
+            $data['enabled'],
+        ]);
+    }
 }
