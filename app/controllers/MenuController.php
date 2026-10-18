@@ -811,6 +811,7 @@ private function deduplicateMealDates(array $dates): array
 
     $model = new MenuModel();
     $data = $model->get2WeeksMenus($date);
+    $data['secondChoice'] = (new SecondChoiceModel())->get();
 
     $this->render('alimentaire/menu/menu2weeks', $data);
 }

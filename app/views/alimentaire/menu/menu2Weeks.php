@@ -1,4 +1,4 @@
-<?php $title = 'Menu 2 Weeks'; 
+<?php $title = 'Menu aux 2 Semaines'; 
     $inspection = Config::inspection();
 
     $custom_js = <<<JS
@@ -72,6 +72,17 @@
             this.innerHTML = '<i class="bi bi-eye"></i> Afficher Desserts';
         }
     });
+    document.getElementById("toggleSecondChoiceBtn").addEventListener("click", function() {
+        const show = this.getAttribute("aria-expanded") !== "true";
+        document.querySelectorAll('.second-choice-row').forEach(row => {
+            row.hidden = !show;
+        });
+        this.setAttribute("aria-expanded", String(show));
+        this.innerHTML = show
+            ? '<i class="bi bi-eye-slash"></i> Masquer 2ème choix'
+            : '<i class="bi bi-eye"></i> Afficher 2ème choix';
+    });
+
     JS;
 
     $custom_style = <<<CSS
@@ -90,6 +101,8 @@
     }
 
     .special-row { background: #fff3cd; }
+    .second-choice-row { background: #eef6ff; }
+    .second-choice-row[hidden] { display: none !important; }
 
     .toggle-btn {
         margin-right: 5px;
@@ -114,6 +127,10 @@
                 </form>
 
                 <div class="mb-3 no-print">
+                    <button type="button" id="toggleSecondChoiceBtn" class="btn btn-info toggle-btn" aria-expanded="false">
+                        <i class="bi bi-eye"></i> Afficher 2ème choix
+                    </button>
+
                     <button id="toggleSeasonWeekBtn" class="btn btn-warning toggle-btn">
                         <i class="bi bi-eye-slash"></i> Afficher Saison / Week
                     </button>
@@ -124,6 +141,10 @@
 
                     <button id="toggleDessertsBtn" class="btn btn-info toggle-btn">
                         <i class="bi bi-eye"></i> Masquer Desserts
+                    </button>
+                    
+                    <button type="button" class="btn btn-secondary toggle-btn" onclick="window.print()">
+                        <i class="bi bi-printer"></i> Imprimer
                     </button>
                 </div>
 
@@ -164,6 +185,16 @@
                                         <td class="toggle-col-desserts"></td>
                                     <?php endif; ?>
                                 </tr>
+                                <tr class="second-choice-row" hidden>
+                                    <th scope="row" colspan="2">2ème Choix</th>
+                                    <td class="toggle-col-season-week hidden-col"></td>
+                                    <td class="toggle-col-season-week hidden-col"></td>
+                                    <td class="toggle-col-breakfast"><?= e($secondChoice['Breakfast'] ?? '') ?></td>
+                                    <td><?= e($secondChoice['lunch'] ?? '') ?></td>
+                                    <td class="toggle-col-desserts"></td>
+                                    <td><?= e($secondChoice['diner'] ?? '') ?></td>
+                                    <td class="toggle-col-desserts"></td>
+                                </tr>
                             <?php endforeach; ?>
                         </tbody>
                     </table>
@@ -174,4 +205,4 @@
     </div>
 </div>
 
-<?php require __DIR__ . '/../../layout/footer.php'; ?>33333
+<?php require __DIR__ . '/../../layout/footer.php'; ?>

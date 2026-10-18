@@ -164,6 +164,7 @@
                         <a class="dropdown-item" href="/parametres/jsonProcess">Traitement des fichiers JSON</a>
                         <a class="dropdown-item" href="/parametres/editStartSeasonWeek">Editer semaine de début de saison</a>
                         <a class="dropdown-item" href="/parametres/seasonDuration">Durée des saisons</a>
+                        <a class="dropdown-item" href="/parametres/secondChoice">2ème choix</a>
                     </div>
                 </li>
 
