@@ -20,8 +20,9 @@ $title = "Editer Commande de gâteau"; ?>
         <strong><?= e((new DateTime($cake['date']))->format('d/m/Y')) ?></strong>
     </p>
 
-    <form method="post" action="/cake/store">
+    <form method="post" action="/cake/update">
         <input type="hidden" name="token" value="<?= e($token) ?>">
+        <input type="hidden" name="idCake" value="<?= e($cake['id']) ?>">
         <input type="hidden" name="idResident" value="<?= e($cake['idResident']) ?>">
         <input type="hidden" name="annee" value="<?= e($cake['annee']) ?>">
         <input type="hidden" name="dateAnniversaire" value="<?= e($cake['dateAnniversaire']) ?>">
@@ -32,7 +33,7 @@ $title = "Editer Commande de gâteau"; ?>
 
         <div class="form-group">
             <label>Message sur le gâteau</label>
-            <input type="text" name="message" value="<?= e($cake['message']) ?>" class="form-control">
+            <input type="text" name="message" value="<?= e($cake['message']) ?>" class="form-control" maxlength="45">
         </div>
 
         <div class="form-group">
@@ -46,7 +47,7 @@ $title = "Editer Commande de gâteau"; ?>
         
         <div class="form-group">
             <label>Observation</label>
-            <textarea name="observation" class="form-control"><?= e($cake['observation'] ?? '') ?></textarea>
+            <textarea name="observation" class="form-control" maxlength="45"><?= e($cake['observation'] ?? '') ?></textarea>
         </div>
         <button class="btn btn-info">Enregistrer la commande</button>
         <a href="/birthday" class="btn btn-secondary">Retour</a>

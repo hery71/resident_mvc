@@ -72,6 +72,7 @@ class BirthdayModel
 
     $stmt = $this->pdo->prepare($sql);
     $stmt->execute($birthdayData);
+    return (int)$this->pdo->lastInsertId();
     }
     public function getById(int $id)
     {

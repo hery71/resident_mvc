@@ -35,6 +35,113 @@ class BirthdayController
         require __DIR__ . '/../views/birthday/create.php';
     }
     //************************************************************************************************** */
+    public function saveCall(): void
+    {
+        header('Content-Type: application/json; charset=utf-8');
+        header('Cache-Control: no-store');
+        $respond = static function (int $status, string $message): void {
+            http_response_code($status);
+            echo json_encode(['message' => $message], JSON_UNESCAPED_UNICODE);
+        };
+        if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
+            header('Allow: POST');
+            $respond(405, 'Méthode non autorisée.');
+            return;
+        }
+        $userId = (int)($_SESSION['user']['id'] ?? 0);
+        if (!$userId) {
+            $respond(401, 'Veuillez vous reconnecter.');
+            return;
+        }
+        $token = $_POST['token'] ?? '';
+        if (!is_string($token) || !Auth::checkToken($token)) {
+            $respond(403, 'Session expirée. Rechargez la page après avoir conservé votre saisie.');
+            return;
+        }
+        $birthdayId = filter_var($_POST['id_anniversaire'] ?? null, FILTER_VALIDATE_INT,
+            ['options' => ['min_range' => 1]]);
+        $numero = $_POST['numero'] ?? '';
+        $etat = $_POST['etat'] ?? '';
+        if (!$birthdayId || !is_string($numero) || !is_string($etat)
+            || !in_array($etat, Config::options()['EtatAppel'], true)) {
+            $respond(422, 'Sélectionnez un anniversaire, un numéro et un état valides.');
+            return;
+        }
+        $numero = trim($numero);
+        $resident = (new BirthdayModel())->getById($birthdayId);
+        if (!$resident || (int)($resident['enabled'] ?? 0) !== 1) {
+            $respond(404, 'Anniversaire introuvable.');
+            return;
+        }
+        if (!in_array($numero, CallLogModel::phoneNumbers($resident), true)
+            || strlen($numero) > 255) {
+            $respond(422, 'Le numéro doit appartenir aux numéros enregistrés du résident.');
+            return;
+        }
+        $timezone = new DateTimeZone('America/Halifax');
+        $dateRappel = null;
+        if ($etat === 'À rappeler') {
+            $raw = $_POST['date_rappel'] ?? '';
+            $date = is_string($raw)
+                ? DateTimeImmutable::createFromFormat('!Y-m-d\TH:i', $raw, $timezone) : false;
+            if (!$date || $date->format('Y-m-d\TH:i') !== $raw) {
+                $respond(422, 'Indiquez une date et une heure de rappel valides.');
+                return;
+            }
+            $dateRappel = $date->format('Y-m-d H:i:s');
+        }
+        try {
+            $data = [
+                'anniversaire' => $birthdayId,
+                'user' => $userId,
+                'date_appel' => (new DateTimeImmutable('now', $timezone))->format('Y-m-d H:i:s'),
+                'etat' => $etat,
+                'numero' => $numero,
+                'date_rappel' => $dateRappel,
+                // La modale est toujours ouverte depuis l’événement enregistré.
+                'controller' => self::class,
+                'method' => 'edit',
+                'view' => 'birthday/edit.php',
+            ];
+            $logId = (new CallLogModel())->insert($data);
+            http_response_code(201);
+            echo json_encode(['message' => 'Appel enregistré.', 'log' => [
+                'Id' => $logId, 'date_appel' => $data['date_appel'], 'Etat' => $etat,
+                'numero' => $numero, 'date_rappel' => $dateRappel,
+                'id_user' => $userId, 'user_name' => $_SESSION['user']['login'] ?? (string)$userId,
+            ]], JSON_UNESCAPED_UNICODE);
+        } catch (PDOException $e) {
+            error_log('Enregistrement appel anniversaire : ' . $e->getMessage());
+            $respond(500, 'Impossible d’enregistrer l’appel. Veuillez réessayer.');
+        }
+    }
+
+    public function callHistory(): void
+    {
+        header('Content-Type: application/json; charset=utf-8');
+        header('Cache-Control: no-store');
+        if ($_SERVER['REQUEST_METHOD'] !== 'GET') {
+            header('Allow: GET');
+            http_response_code(405);
+            echo json_encode(['message' => 'Méthode non autorisée.']);
+            return;
+        }
+        if (!Auth::check()) {
+            http_response_code(401);
+            echo json_encode(['message' => 'Veuillez vous reconnecter.']);
+            return;
+        }
+        $id = filter_var($_GET['id_anniversaire'] ?? null, FILTER_VALIDATE_INT,
+            ['options' => ['min_range' => 1]]);
+        $birthday = $id ? (new BirthdayModel())->getById($id) : false;
+        if (!$birthday || (int)($birthday['enabled'] ?? 0) !== 1) {
+            http_response_code(404);
+            echo json_encode(['message' => 'Anniversaire introuvable.']);
+            return;
+        }
+        echo json_encode(['logs' => (new CallLogModel())->getByBirthday($id)], JSON_UNESCAPED_UNICODE);
+    }
+
     public function save()
     {
        if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
@@ -86,9 +193,11 @@ class BirthdayController
         $mois = $_POST['mois'];
         $annee = $_POST['annee'];
         $model = new BirthdayModel();
-        $model->insertBirthday($data);
-        // Redirection vers birthday/index.php
-        header("Location: /birthday?mois=$mois&annee=$annee");
+        $idBirthday = $model->insertBirthday($data);
+        $_SESSION['birthday_call_after_save'] = $idBirthday;
+        header('Location: /birthday/edit?' . http_build_query([
+            'idBirthday' => $idBirthday, 'mois' => (int)$mois, 'annee' => (int)$annee,
+        ]));
         exit;
     }
     //************************************************************************************************** */
@@ -107,18 +216,25 @@ class BirthdayController
 
         $model = new BirthdayModel();
         $birthday = $model->getById($idBirthday);
+        if (!$birthday) {
+            http_response_code(404);
+            exit('Anniversaire introuvable');
+        }
         $model = new CakeModel();
-        $cake = $model->findByResidentAndYear($birthday['id_resident'], $annee);
+        $cake = !empty($birthday['idCakeOrder'])
+            ? $model->findByIdCake((int)$birthday['idCakeOrder']) : false;
+        if (!$cake) {
+            $cake = $model->findByResidentAndYear($birthday['id_resident'], $annee);
+        }
 
          if ($cake) {
             $birthday['cake'] = $cake['enabled'] ? 1 : 0;
         } else {
             $birthday['cake'] = 0;
         }
-        if (!$birthday) {
-            http_response_code(404);
-            exit('Anniversaire introuvable');
-        }
+        $openCallModal = (int)($_SESSION['birthday_call_after_save'] ?? 0) === $idBirthday;
+        if ($openCallModal) unset($_SESSION['birthday_call_after_save']);
+        $callLogs = (new CallLogModel())->getByBirthday($idBirthday);
 
         require __DIR__ . '/../views/birthday/edit.php';
     }

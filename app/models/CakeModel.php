@@ -103,7 +103,9 @@ class CakeModel
         r.Nom, 
         r.Anniversaire,
         c.*, 
-        a.*
+        a.id AS idAnniversaire,
+        a.date,
+        a.idCakeOrder
         FROM cake c
         INNER JOIN resident_tbl r 
             ON r.id = c.idResident
@@ -113,12 +115,22 @@ class CakeModel
         WHERE c.id = :id 
         AND c.enabled = 1 
         AND a.enabled = 1
+        ORDER BY (a.idCakeOrder = c.id) DESC, a.id DESC
         LIMIT 1
         ";
 
         $stmt = $this->pdo->prepare($sql);
         $stmt->execute(['id' => $idCake]);
         return $stmt->fetch();
+    }
+
+    public function update(array $data): void
+    {
+        $stmt = $this->pdo->prepare('UPDATE cake SET
+            dateLivraison = :dateLivraison, message = :message,
+            couleur = :couleur, observation = :observation
+            WHERE id = :id AND enabled = 1');
+        $stmt->execute($data);
     }
 
 

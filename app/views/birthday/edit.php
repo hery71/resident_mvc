@@ -86,6 +86,13 @@ if ($messageCake != 'Non Commande') {
                      <?= $birthday['Tel3']? $birthday['Tel3'] . ' <a class="btn btn-secondary btn-sm py-0 px-2" href="/birthday/telByDefaultCreate?idBirthday='.$idBirthday.'&id='.$birthday['id_resident'].'&tel=3&year='.$annee.'&month='.$mois.'&day='.$jour.'">Defaut</a>' : 'NC' ?>  
                 <?php endif ?>
         </p>
+        <?php $callNumbers = CallLogModel::phoneNumbers($birthday); ?>
+        <button type="button" class="btn btn-info mt-2 mb-2" data-toggle="modal" data-target="#birthdayCallModal"
+                >Appel</button>
+        <?php if (!$callNumbers): ?>
+            <small class="text-muted">Aucun numéro enregistré.</small>
+        <?php endif; ?>
+        <div id="birthdayCallSuccess" class="text-success mt-2" role="status" aria-live="polite"></div>
         <p class="mb-0">
             <strong>Date Anniversaire:</strong>
             <?= sprintf('%02d-%02d-%d',
@@ -102,7 +109,7 @@ if ($messageCake != 'Non Commande') {
             <strong>Commande de gateau :</strong>
             <?= $dateCake ? $dateCake->format('d-m-Y') : 'Non commandé' ?>
             <?php if ($idCake): ?>
-                <a href="/cake/edit?id=<?= $idCake ?>" class="btn btn-sm btn-primary">Modifier commande Cake</a>
+                <a href="/cake/edit/<?= (int)$idCake ?>" class="btn btn-sm btn-primary">Modifier commande Cake</a>
             <?php else: ?>
                 <a href="/cake/create?resident_id=<?= $birthday['id_resident'] ?>&mois=<?= $mois ?>&annee=<?= $annee ?>" class="btn btn-sm btn-success">Ajouter commande Cake</a>
             <?php endif; ?>
@@ -320,4 +327,8 @@ document.addEventListener('DOMContentLoaded', function () {
 */
 </script>
 
+<?php
+$resident = $birthday;
+require __DIR__ . '/call_modal.php';
+?>
 <?php require __DIR__ . '/../layout/footer.php'; ?>

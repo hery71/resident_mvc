@@ -71,7 +71,6 @@ class CakeController
             'observation'      => $_POST['observation'],
             'annee'            => $_POST['annee'],
         ];
-        var_dump($data);
         $model = new CakeModel();
         $model->insert($data);
         header("Location: /birthday");
@@ -99,11 +98,65 @@ class CakeController
     require __DIR__ . '/../views/cake/cakeOrderPdf.php';
     exit;
 }
-    public function edit($id)
+    public function edit($id = null)
     {
+        $id = filter_var($id ?? ($_GET['id'] ?? null), FILTER_VALIDATE_INT,
+            ['options' => ['min_range' => 1]]);
+        if (!$id) {
+            http_response_code(400);
+            exit('ID de commande invalide');
+        }
         $cakeModel = new CakeModel();
         $cake = $cakeModel->findByIdCake($id);
+        if (!$cake) {
+            http_response_code(404);
+            exit('Commande introuvable');
+        }
         $token = Auth::generateToken();
          require __DIR__ . '/../views/cake/edit.php';
+    }
+
+    public function update(): void
+    {
+        if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
+            http_response_code(405);
+            header('Allow: POST');
+            exit;
+        }
+        $token = $_POST['token'] ?? '';
+        if (!is_string($token) || !Auth::checkToken($token)) {
+            http_response_code(403);
+            exit('Token CSRF invalide');
+        }
+        $id = filter_var($_POST['idCake'] ?? null, FILTER_VALIDATE_INT,
+            ['options' => ['min_range' => 1]]);
+        $model = new CakeModel();
+        $cake = $id ? $model->findByIdCake($id) : false;
+        if (!$cake) {
+            http_response_code(404);
+            exit('Commande introuvable');
+        }
+        $date = $_POST['dateLivraison'] ?? '';
+        $parsed = is_string($date) ? DateTimeImmutable::createFromFormat('!Y-m-d', $date) : false;
+        if (!$parsed || $parsed->format('Y-m-d') !== $date) {
+            http_response_code(422);
+            exit('Date de livraison invalide');
+        }
+        $data = ['id' => $id, 'dateLivraison' => $date];
+        foreach (['message', 'couleur', 'observation'] as $field) {
+            $value = $_POST[$field] ?? '';
+            if (!is_string($value) || mb_strlen($value, 'UTF-8') > 45) {
+                http_response_code(422);
+                exit('Les champs de la commande sont limités à 45 caractères.');
+            }
+            $data[$field] = $value;
+        }
+        $model->update($data);
+        header('Location: /birthday/edit?' . http_build_query([
+            'idBirthday' => (int)$cake['idAnniversaire'],
+            'annee' => (int)$cake['annee'],
+            'mois' => (int)date('m', strtotime($cake['Anniversaire'])),
+        ]));
+        exit;
     }
 }
