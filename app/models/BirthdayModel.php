@@ -204,9 +204,13 @@ class BirthdayModel
     public function softDelete(int $id)
     {
         $sql = "
-            UPDATE anniversaire_tbl
-            SET enabled = 0
-            WHERE id = :id
+            UPDATE anniversaire_tbl a
+            LEFT JOIN cake c ON c.id = a.idCakeOrder
+                OR (a.motif = 'Birthday'
+                    AND c.idResident = a.id_resident
+                    AND c.annee = a.annee)
+            SET a.enabled = 0, c.enabled = 0
+            WHERE a.id = :id
         ";
 
         $stmt = $this->pdo->prepare($sql);

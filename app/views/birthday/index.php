@@ -1,4 +1,12 @@
-<?php $title = 'Anniversaires du mois'; ?>
+<?php
+$title = 'Anniversaires du mois';
+$previousMonth = (int)$mois === 1 ? 12 : (int)$mois - 1;
+$previousYear = (int)$mois === 1 ? (int)$annee - 1 : (int)$annee;
+$nextMonth = (int)$mois === 12 ? 1 : (int)$mois + 1;
+$nextYear = (int)$mois === 12 ? (int)$annee + 1 : (int)$annee;
+$previousUrl = '/birthday?' . http_build_query(['mois' => $previousMonth, 'annee' => $previousYear]);
+$nextUrl = '/birthday?' . http_build_query(['mois' => $nextMonth, 'annee' => $nextYear]);
+?>
 <?php require __DIR__ . '/../layout/header.php'; ?>
 <div class="container mt-4">
     <div class="card-modern">
@@ -6,7 +14,9 @@
     <div class="card-body">
 
     <!-- FILTRES -->
-    <form method="get" class="form-inline mb-4">
+    <div class="d-flex align-items-center justify-content-between mb-4">
+        <a href="<?= e($previousUrl) ?>" class="btn btn-outline-primary mr-2" aria-label="Mois précédent" title="Mois précédent">&lt;</a>
+    <form method="get" class="form-inline justify-content-center flex-wrap mx-2">
         <label class="mr-2 font-weight-bold">Mois</label>
         <select name="mois" class="form-control mr-3">
             <?php foreach ($moisLabel as $num => $label): ?>
@@ -26,6 +36,8 @@
             Afficher
         </button>
     </form>
+        <a href="<?= e($nextUrl) ?>" class="btn btn-outline-primary ml-2" aria-label="Mois suivant" title="Mois suivant">&gt;</a>
+    </div>
 
     <!-- TABLEAU -->
     <table class="table table-bordered table-sm table-hover">
@@ -63,6 +75,13 @@
                          <a href="/birthday/printRequisition/<?= (int)$a['fete_id'] ?>" 
                             class="btn btn-sm btn-outline-danger" target="_blank">
                             Requisition</a>
+                        <form method="post" action="/birthday/delete" class="d-inline">
+                            <input type="hidden" name="token" value="<?= e($token) ?>">
+                            <input type="hidden" name="id" value="<?= (int)$a['fete_id'] ?>">
+                            <input type="hidden" name="mois" value="<?= (int)$mois ?>">
+                            <input type="hidden" name="annee" value="<?= (int)$annee ?>">
+                            <button type="submit" class="btn btn-sm" style="background-color: #f49a38; border-color: #f49a38; color: #212529;">Supprimer</button>
+                        </form>
                     <?php else: ?>
                         <a href="/birthday/create?
                             id_resident=<?= $a['id'] ?>

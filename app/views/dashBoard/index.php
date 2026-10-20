@@ -1,176 +1,138 @@
-<?php $title = "DashBoard";
+<?php $title = "Tableau de bord";
     $custom_js = <<<'JS'
-    // Custom JavaScript can be added here
-        const colors = [
-        { name: 'Bleu',    val: '#A8D8EA' },
-        { name: 'Vert',    val: '#B8E0C8' },
-        { name: 'Rose',    val: '#F2C4CE' },
-        { name: 'Lavande', val: '#D4B8E0' },
-        { name: 'Pêche',   val: '#F9D5A7' },
-        { name: 'Menthe',  val: '#A8EDD4' },
-        { name: 'Gris',    val: '#DDE1E7' },
-        { name: 'Jaune',   val: '#FFF0A0' },
+    const colors = [
+        { name: 'Bleu', val: '#A8D8EA' }, { name: 'Vert', val: '#B8E0C8' },
+        { name: 'Rose', val: '#F2C4CE' }, { name: 'Lavande', val: '#D4B8E0' },
+        { name: 'Pêche', val: '#F9D5A7' }, { name: 'Menthe', val: '#A8EDD4' },
+        { name: 'Gris', val: '#DDE1E7' }, { name: 'Jaune', val: '#FFF0A0' }
     ];
-
     document.addEventListener('DOMContentLoaded', () => {
-
-        const container = document.getElementById('color-swatches');
-
-        const savedCols = document.getElementById('init-cols').value || '3';
-        const savedColor = document.getElementById('init-color').value || '#A8D8EA';
-
-        document.getElementById('active-color').value = savedColor;
-        document.getElementById('col-slider').value = savedCols;
-
+        const grid = document.getElementById('dashboard-grid');
+        const slider = document.getElementById('col-slider');
+        const activeColor = document.getElementById('active-color');
+        const panel = document.getElementById('config-panel');
+        const toggle = document.getElementById('config-toggle');
+        const savedCols = Math.max(2, Math.min(6, parseInt(document.getElementById('init-cols').value, 10) || 3));
+        const rawColor = document.getElementById('init-color').value;
+        const savedColor = /^#[0-9a-f]{6}$/i.test(rawColor) ? rawColor : '#A8D8EA';
+        slider.value = savedCols;
+        activeColor.value = savedColor;
+        const icons = ['fa-utensils', 'fa-shield-alt', 'fa-birthday-cake', 'fa-glass-cheers', 'fa-birthday-cake', 'fa-leaf', 'fa-users'];
+        grid.querySelectorAll('.card-header-pastel').forEach((header, index) => {
+            const title = document.createElement('span');
+            title.textContent = header.textContent.trim();
+            const icon = document.createElement('i');
+            icon.className = 'fas ' + (icons[index] || 'fa-th-large');
+            icon.setAttribute('aria-hidden', 'true');
+            header.replaceChildren(icon, title);
+        });
         function applySettings() {
-            const cols = parseInt(document.getElementById('col-slider').value);
-            document.getElementById('col-display').textContent = cols + ' par ligne';
-
-            const fontSizes = { 2:'1.05rem', 3:'0.95rem', 4:'0.82rem', 5:'0.72rem', 6:'0.65rem' };
-            const cardHeight = { 2:'420px', 3:'350px', 4:'300px', 5:'270px', 6:'240px' };
-
-            document.getElementById('dashboard-grid').style.gridTemplateColumns = `repeat(${cols}, 1fr)`;
-
-            document.querySelectorAll('.pastel-tile').forEach(el => {
-                el.style.height = cardHeight[cols];
-                el.style.minHeight = cardHeight[cols];
-                el.style.fontSize = fontSizes[cols];
-            });
-
-            const color = document.getElementById('active-color').value;
-            document.querySelectorAll('.pastel-tile').forEach(el => {
-                el.style.backgroundColor = color;
-            });
-
-            fetch('/dashBoard/saveSettings', {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-                body: `cols=${cols}&color=${color}`
-            });
+            const desired = Number(slider.value);
+            const available = Math.max(1, Math.floor((grid.clientWidth + 20) / 290));
+            const columns = Math.min(desired, available);
+            grid.style.gridTemplateColumns = `repeat(${columns}, minmax(0, 1fr))`;
+            grid.style.setProperty('--dashboard-accent', activeColor.value);
+            document.getElementById('col-display').textContent = desired + ' par ligne' + (columns < desired ? ' (adapté à l’écran)' : '');
         }
-
-        colors.forEach(c => {
-            const s = document.createElement('div');
-            s.className = 'swatch' + (c.val === savedColor ? ' active' : '');
-            s.style.backgroundColor = c.val;
-
-            s.addEventListener('click', () => {
-                document.querySelectorAll('.swatch').forEach(x => x.classList.remove('active'));
-                s.classList.add('active');
-                document.getElementById('active-color').value = c.val;
-                applySettings();
+        let saveTimer;
+        function saveSettings() {
+            clearTimeout(saveTimer);
+            saveTimer = setTimeout(() => {
+                fetch('/dashBoard/saveSettings', {
+                    method: 'POST', headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                    body: new URLSearchParams({ cols: slider.value, color: activeColor.value }).toString()
+                }).catch(() => {});
+            }, 350);
+        }
+        colors.forEach(color => {
+            const button = document.createElement('button');
+            button.type = 'button';
+            button.className = 'swatch' + (color.val.toLowerCase() === savedColor.toLowerCase() ? ' active' : '');
+            button.style.backgroundColor = color.val;
+            button.title = color.name;
+            button.setAttribute('aria-label', color.name);
+            button.setAttribute('aria-pressed', String(color.val.toLowerCase() === savedColor.toLowerCase()));
+            button.addEventListener('click', () => {
+                document.querySelectorAll('#color-swatches .swatch').forEach(item => {
+                    item.classList.remove('active'); item.setAttribute('aria-pressed', 'false');
+                });
+                button.classList.add('active'); button.setAttribute('aria-pressed', 'true');
+                activeColor.value = color.val; applySettings(); saveSettings();
             });
-
-            container.appendChild(s);
+            document.getElementById('color-swatches').appendChild(button);
         });
-
+        slider.addEventListener('input', () => { applySettings(); saveSettings(); });
+        toggle.addEventListener('click', () => {
+            const open = panel.classList.toggle('open');
+            panel.setAttribute('aria-hidden', String(!open));
+            panel.inert = !open;
+            toggle.setAttribute('aria-expanded', String(open));
+        });
+        document.getElementById('config-close').addEventListener('click', () => {
+            panel.classList.remove('open');
+            panel.setAttribute('aria-hidden', 'true');
+            panel.inert = true;
+            toggle.setAttribute('aria-expanded', 'false');
+            toggle.focus();
+        });
+        document.addEventListener('keydown', event => {
+            if (event.key === 'Escape' && panel.classList.contains('open')) {
+                panel.classList.remove('open'); panel.setAttribute('aria-hidden', 'true'); panel.inert = true;
+                toggle.setAttribute('aria-expanded', 'false'); toggle.focus();
+            }
+        });
+        if (window.ResizeObserver) new ResizeObserver(applySettings).observe(grid);
+        else window.addEventListener('resize', applySettings);
         applySettings();
-
-        document.getElementById('col-slider').addEventListener('input', applySettings);
-
-        document.getElementById('config-toggle').addEventListener('click', () => {
-            document.getElementById('config-panel').classList.toggle('open');
-        });
-
     });
     JS;
     $custom_style = <<<'CSS'
-    /* Custom CSS can be added here */
-    .card-header-pastel {
-    background-color: #6e7071; /* gris pastel doux */
-    font-weight: 600;
-    text-align: center;
-    color: #fffbfb;
-    border: 1px solid #E0E0E0;
-    border-radius: 18px;
-    padding: 5px;
-    box-shadow: inset 0 -1px 0 rgba(0,0,0,0.05);
-    }
-    .pastel-tile {
-        background-color: #A8D8EA;
-        border-radius: 18px;
-        box-shadow: 0 8px 20px rgba(0,0,0,0.06);
-        transition: all 0.25s ease;
-        min-height: 350px;
-        color: #2E2E2E;
-        height: 350px;               /* fixe la grandeur */
-        display: flex;
-        flex-direction: column;      /* header en haut, contenu en bas */
-        overflow: hidden;            /* garde le border-radius propre */
-    }
-    .pastel-tile .card-body {
-        flex: 1 1 auto;              /* prend le reste de la hauteur */
-        min-height: 0;               /* TRÈS IMPORTANT pour que overflow marche en flex */
-        overflow-y: auto;            /* scrollbar si nécessaire */
-        overflow-x: hidden;
-        padding: 10px;             /* ton padding ici plutôt que sur la tile */
-    }
-
-    .pastel-tile:hover {
-        transform: translateY(-4px);
-        box-shadow: 0 14px 28px rgba(0,0,0,0.10);
-    }
-
-    .tile-content {
-        font-size: 0.95rem;
-    }
-
-    .top-bar {
-        background-color: #f8f9fa;
-        padding: 15px;
-        border-radius: 12px;
-        box-shadow: 0 4px 10px rgba(0,0,0,0.05);
-    }
-    /* Panneau config */
-    #config-panel {
-        position: fixed;
-        top: 80px;
-        right: -260px;
-        width: 250px;
-        background: #fff;
-        border: 1px solid #ccc;
-        border-radius: 12px 0 0 12px;
-        box-shadow: -4px 0 15px rgba(0,0,0,0.1);
-        z-index: 9999;
-        transition: right 0.3s ease;
-        padding: 15px;
-    }
-    #config-panel.open { right: 0; }
-    #config-toggle {
-        position: fixed;
-        top: 80px;
-        right: 0;
-        background: #5ebdef;
-        color: white;
-        border: none;
-        border-radius: 8px 0 0 8px;
-        padding: 10px 8px;
-        cursor: pointer;
-        z-index: 10000;
-        writing-mode: vertical-rl;
-        font-size: 0.8rem;
-        font-weight: 600;
-    }
-    #config-panel label { font-size: 0.85rem; font-weight: 600; display: block; margin-top: 10px; }
-    #config-panel input[type=range] { width: 100%; }
-    #col-display { font-size: 0.8rem; color: #555; }
-    .color-swatches { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 5px; }
-    .swatch {
-        width: 28px; height: 28px; border-radius: 6px;
-        cursor: pointer; border: 2px solid transparent;
-        transition: transform 0.15s;
-    }
-    .swatch:hover, .swatch.active { border-color: #333; transform: scale(1.15); }
-    #dashboard-grid {
-    display: grid;
-    gap: 20px;
-    }
+    #cfsm-dashboard { padding: 0 24px 28px; color: #243f56; }
+    #cfsm-dashboard .dashboard-heading { display: flex; justify-content: space-between; align-items: center; gap: 16px; margin-bottom: 20px; }
+    #cfsm-dashboard .dashboard-heading h1 { font-size: 1.65rem; font-weight: 700; letter-spacing: -.5px; margin-bottom: 4px; }
+    #cfsm-dashboard .dashboard-heading p { margin: 0; color: #718096; font-size: .93rem; }
+    #cfsm-dashboard .top-bar { background: #fff; border: 1px solid #e3eaf0; padding: 18px; border-radius: 14px; box-shadow: 0 3px 12px rgba(24,43,64,.025); font-size: .91rem; color: #506578; }
+    #cfsm-dashboard .top-bar .form-control { border-radius: 8px; border-color: #d5e0e8; }
+    #dashboard-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%,280px),1fr)); gap: 20px; --dashboard-accent: #A8D8EA; }
+    #dashboard-grid > .mb-4 { margin-bottom: 0 !important; min-width: 0; }
+    #dashboard-grid .pastel-tile { background: #fff; border: 1px solid #e1e8ef; border-top: 3px solid var(--dashboard-accent); border-radius: 15px; height: 365px; display: flex; flex-direction: column; overflow: hidden; box-shadow: 0 4px 16px rgba(24,43,64,.04); transition: box-shadow .2s, border-color .2s; }
+    #dashboard-grid .pastel-tile:hover { box-shadow: 0 8px 24px rgba(24,43,64,.09); border-color: #c6d6df; border-top-color: var(--dashboard-accent); }
+    #dashboard-grid .card-header-pastel { display: flex; align-items: center; gap: 12px; background: #fff; border: 0; border-bottom: 1px solid #edf1f5; border-radius: 0; box-shadow: none; text-align: left; padding: 17px 18px; color: #243f56; font-size: 1rem; font-weight: 700; min-height: 72px; }
+    #dashboard-grid .card-header-pastel > i { display: inline-flex; align-items: center; justify-content: center; width: 36px; height: 36px; flex-shrink: 0; border-radius: 11px; background: var(--dashboard-accent); color: #243f56; font-size: 1rem; }
+    #dashboard-grid .card-body { display: flex; flex-direction: column; flex: 1; min-height: 0; padding: 18px; overflow-y: auto; overflow-wrap: anywhere; scrollbar-width: thin; }
+    #dashboard-grid .tile-content { font-size: .92rem; line-height: 1.65; color: #526578; }
+    #dashboard-grid .tile-content strong { color: #243f56; font-size: .9rem; }
+    #dashboard-grid .card-body > p { font-size: .9rem; color: #526578; }
+    #dashboard-grid .card-body > .d-flex:last-child { margin-top: auto !important; padding-top: 16px; }
+    #dashboard-grid .card-body .btn-secondary { background: #edf5f6; color: #176c73; border: 1px solid #d6e8ea; border-radius: 8px; font-size: .82rem; font-weight: 600; padding: 6px 14px; }
+    #dashboard-grid .card-body .btn-secondary:hover { background: #176c73; color: #fff; border-color: #176c73; }
+    #dashboard-grid .text-left.mt-4, #dashboard-grid .text-center.mt-4 { margin-top: 6px !important; color: #778596; font-size: .91rem; line-height: 1.6; }
+    #dashboard-grid hr { border-color: #edf1f5; }
+    #config-toggle { border: 1px solid #dce5ec; background: #fff; color: #3c566c; border-radius: 10px; padding: 9px 14px; font-size: .86rem; font-weight: 600; white-space: nowrap; cursor: pointer; }
+    #config-toggle:hover { background: #edf5f6; }
+    #config-panel { position: fixed; top: 80px; right: -300px; width: 280px; max-width: calc(100vw - 24px); max-height: calc(100vh - 100px); overflow-y: auto; padding: 22px; background: #fff; border: 1px solid #dce5ec; border-radius: 14px 0 0 14px; box-shadow: -6px 8px 28px rgba(24,43,64,.12); z-index: 1042; visibility: hidden; transition: right .2s, visibility .2s; }
+    #config-panel.open { right: 0; visibility: visible; }
+    #config-panel .config-heading { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+    #config-close { display: inline-flex; align-items: center; justify-content: center; width: 32px; height: 32px; flex-shrink: 0; padding: 0; border: 0; border-radius: 7px; background: #edf2f6; color: #3c566c; font-size: 1.35rem; cursor: pointer; }
+    #config-close:hover { background: #dce5ec; }
+    #config-close:focus-visible { outline: 3px solid #176c73; outline-offset: 2px; }
+    #config-panel label { display: block; font-size: .85rem; font-weight: 600; margin-top: 20px; }
+    #config-panel input[type=range] { width: 100%; accent-color: #176c73; }
+    #col-display { font-size: .78rem; color: #718096; }
+    #color-swatches { display: flex; flex-wrap: wrap; gap: 9px; margin-top: 10px; }
+    #color-swatches .swatch { width: 30px; height: 30px; border-radius: 50%; border: 2px solid #fff; outline: 1px solid #e1e8ef; cursor: pointer; }
+    #color-swatches .swatch.active { outline: 2px solid #243f56; }
+    #config-toggle:focus-visible, #color-swatches .swatch:focus-visible { outline: 3px solid #176c73; outline-offset: 3px; }
+    @media (max-width: 575.98px) { #cfsm-dashboard { padding: 0 12px 20px; } #cfsm-dashboard .dashboard-heading { align-items: flex-start; } #cfsm-dashboard .dashboard-heading h1 { font-size: 1.3rem; } #cfsm-dashboard .dashboard-heading p { font-size: .83rem; } #dashboard-grid { gap: 14px; } }
+    @media (prefers-reduced-motion: reduce) { #dashboard-grid .pastel-tile, #config-panel { transition: none; } }
+    @media print { #config-panel, #config-toggle { display: none !important; } #dashboard-grid { grid-template-columns: repeat(2,minmax(0,1fr)) !important; } #dashboard-grid .pastel-tile { height: auto; break-inside: avoid; box-shadow: none; } #dashboard-grid .card-body { overflow: visible; } }
 CSS;
 ?>
 <?php require __DIR__ . '/../layout/header.php'; ?>
 <input type="hidden" id="init-cols" value="<?= $settings['dash_cols'] ?? 3 ?>">
 <input type="hidden" id="init-color" value="<?= $settings['dash_color'] ?? '#A8D8EA' ?>">
-<div class="container-fluid mt-4">
+<div class="container-fluid mt-4" id="cfsm-dashboard">
+<div class="dashboard-heading"><div><h1>Vue d’ensemble</h1><p>Les informations utiles pour organiser votre journée.</p></div><button type="button" id="config-toggle" aria-controls="config-panel" aria-expanded="false"><i class="fas fa-sliders-h mr-2" aria-hidden="true"></i>Affichage</button></div>
 
     <!-- =============================== -->
     <!-- BARRE SUPERIEURE : DATE        -->
@@ -480,10 +442,13 @@ CSS;
 <!-------------------PANNEAUX DE CONFIGURATION------------------->
 <input type="hidden" id="active-color" value="#A8D8EA">
 
-<button id="config-toggle">⚙ Config</button>
 
-<div id="config-panel">
-    <strong>Paramètres affichage</strong>
+
+<div id="config-panel" aria-hidden="true" inert>
+    <div class="config-heading">
+        <strong>Paramètres affichage</strong>
+        <button type="button" id="config-close" aria-label="Fermer les paramètres d’affichage"><span aria-hidden="true">&times;</span></button>
+    </div>
 
     <label>Colonnes par ligne : <span id="col-display">3 par ligne</span></label>
     <input type="range" id="col-slider" min="2" max="6" step="1" value="3">
@@ -491,7 +456,7 @@ CSS;
         <span>2</span><span>3</span><span>4</span><span>5</span><span>6</span>
     </div>
 
-    <label>Couleur des tuiles :</label>
+    <label>Couleur d’accent :</label>
     <div class="color-swatches" id="color-swatches"></div>
 </div>
 

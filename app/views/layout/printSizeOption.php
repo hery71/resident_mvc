@@ -5,7 +5,7 @@
         <label class="mb-0 mr-2">Taille police :</label>
         <select class="form-control form-control-sm"
                 onchange="setPrintFontSize(this.value)">
-            <option value="11px">12</option>
+            <option value="11px">11</option>
             <option value="12px">12</option>
             <option value="13px">13</option>
             <option value="14px" selected>14</option>
@@ -31,10 +31,13 @@
     
     <!-- Bouton imprimer -->
     <div class="col-auto">
-        <button class="btn btn-primary mt-2 mt-md-0"
+        <button type="button" class="btn btn-primary mt-2 mt-md-0"
                 onclick="window.print()">
             🖨 Imprimer
         </button>
+    </div>
+    <div class="col-auto">
+        <label class="mb-0"><input type="checkbox" id="fitPrintPage"> Ajuster à une page (11 px minimum)</label>
     </div>
     <!-- Afficher/ Masquer colonnes -->
      <?php if(isset($colonnes) && !empty($colonnes)): ?>
@@ -46,7 +49,6 @@
                     echo '<label><input type="checkbox" checked onchange="toggleColumn(\'col-' . $colIndex . '\')"> ' . htmlspecialchars($colName) . '</label>';
                 }    
                 ?>
-            </select>
         </div>
     <?php endif; ?>
 

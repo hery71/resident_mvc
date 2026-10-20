@@ -72,8 +72,16 @@ class CakeController
             'annee'            => $_POST['annee'],
         ];
         $model = new CakeModel();
+        $fete = (new BirthdayModel())->getById((int)$data['idAnniversaire']);
+        if (!$fete || (int)$fete['id_resident'] !== (int)$data['idResident']) {
+            http_response_code(400);
+            exit('Anniversaire invalide');
+        }
         $model->insert($data);
-        header("Location: /birthday");
+        header('Location: /birthday/index?' . http_build_query([
+            'mois' => (int)$fete['mois'],
+            'annee' => (int)$fete['annee'],
+        ]));
         exit;
     }
     public function cakeOrderPdf($idCake)

@@ -4,6 +4,7 @@ class BirthdayController
 {
     public function index()
     {
+        $token = $_SESSION['token'] ?? Auth::generateToken();
         $mois  = isset($_GET['mois']) ? (int)$_GET['mois'] : (int)date('m');
         $annee = isset($_GET['annee']) ? (int)$_GET['annee'] : (int)date('Y');
 
@@ -305,7 +306,13 @@ class BirthdayController
             exit('Méthode non autorisée');
         }
 
-        $id = (int)($_POST['id'] ?? 0);
+        $token = $_POST['token'] ?? '';
+        if (!is_string($token) || !Auth::checkToken($token)) {
+            http_response_code(403);
+            exit('Token CSRF invalide');
+        }
+        $id = filter_var($_POST['id'] ?? null, FILTER_VALIDATE_INT,
+            ['options' => ['min_range' => 1]]);
 
         if (!$id) {
             http_response_code(400);
@@ -316,7 +323,11 @@ class BirthdayController
         $model->softDelete($id);
 
         // Redirection vers la liste mensuelle
-        header("Location: /birthday");
+        $mois = filter_var($_POST['mois'] ?? date('m'), FILTER_VALIDATE_INT,
+            ['options' => ['min_range' => 1, 'max_range' => 12]]) ?: (int)date('m');
+        $annee = filter_var($_POST['annee'] ?? date('Y'), FILTER_VALIDATE_INT,
+            ['options' => ['min_range' => 1, 'max_range' => 9999]]) ?: (int)date('Y');
+        header('Location: /birthday?' . http_build_query(['mois' => $mois, 'annee' => $annee]));
         exit;
     }
     public function printRequisition(int $id): void

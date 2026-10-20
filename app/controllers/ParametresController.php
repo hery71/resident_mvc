@@ -479,4 +479,43 @@ class ParametresController
         header('Location: /parametres/seasonDuration?message=' . $message);
         exit;
     }
+    public function secondChoice()
+    {
+        $model = new SecondChoiceModel();
+        $values = $model->get();
+        $saved = false;
+        $error = '';
+
+        if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+            if (!is_string($_POST['token'] ?? null) || !Auth::checkToken($_POST['token'])) {
+                http_response_code(403);
+                exit('Token CSRF invalide.');
+            }
+
+            foreach (['Breakfast', 'lunch', 'diner'] as $field) {
+                if (!is_string($_POST[$field] ?? null)) {
+                    $error = 'Veuillez renseigner les trois champs.';
+                    continue;
+                }
+                $values[$field] = trim($_POST[$field]);
+                if (preg_match('/\A.{0,1000}\z/us', $values[$field]) !== 1) {
+                    $error = 'Le texte saisi est trop long (1 000 caractères maximum par champ).';
+                }
+            }
+
+            if ($error === '') {
+                $model->save($values);
+                $_SESSION['second_choice_saved'] = true;
+                header('Location: /parametres/secondChoice');
+                exit;
+            }
+        } else {
+            $saved = !empty($_SESSION['second_choice_saved']);
+            unset($_SESSION['second_choice_saved']);
+        }
+
+        $token = Auth::generateToken();
+        require __DIR__ . '/../views/parametres/secondChoice.php';
+    }
+
 }

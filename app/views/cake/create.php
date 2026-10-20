@@ -69,7 +69,7 @@ $title = "Commande de gâteau"; ?>
         </div>
 
         <button class="btn btn-info">Enregistrer la commande</button>
-        <a href="/birthday" class="btn btn-secondary">Retour</a>
+        <a href="<?= e('/birthday/index?' . http_build_query(['mois' => (int)$fete['mois'], 'annee' => (int)$fete['annee']])) ?>" class="btn btn-secondary">Retour</a>
     </form>
 </div>
 </div>

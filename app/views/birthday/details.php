@@ -43,7 +43,10 @@
         action="/birthday/delete"
          onsubmit="return confirm('Confirmer la suppression de cet anniversaire ?');"
         style="display:inline-block">
+        <input type="hidden" name="token" value="<?= e($_SESSION['token'] ?? Auth::generateToken()) ?>">
         <input type="hidden" name="id" value="<?= e($birthday['id']) ?>">
+        <input type="hidden" name="mois" value="<?= (int)$birthday['mois'] ?>">
+        <input type="hidden" name="annee" value="<?= (int)$birthday['annee'] ?>">
         <button class="btn btn-danger">
             🗑 Supprimer anniversaire
         </button>

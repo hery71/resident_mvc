@@ -40,6 +40,11 @@ if ($messageCake != 'Non Commande') {
     La date du cake ne peut pas être après la date de la fête.
 </div>
 <div class="container mt-4">
+<div class="mb-3">
+    <a href="<?= e('/birthday/index?' . http_build_query(['mois' => (int)$mois, 'annee' => (int)$annee])) ?>" class="btn btn-outline-secondary">
+        &larr; Retour aux anniversaires
+    </a>
+</div>
 <div class="card-modern">
     <div class="card-header-pastel"><?= $title ?></div>
     <div class="card-body">
