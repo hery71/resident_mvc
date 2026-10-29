@@ -1,3 +1,4 @@
+<?php require_once __DIR__ . '/printButton.php'; ?>
 <script>
 function updateColgroup() {
     document.querySelectorAll('#printable-area table').forEach(table => {

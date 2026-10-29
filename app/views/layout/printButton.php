@@ -1,0 +1,84 @@
+<style>
+.project-print-actions { display:flex; justify-content:flex-end; flex-wrap:wrap; gap:10px; margin-bottom:12px; }
+.project-print-button {
+    box-sizing:border-box;
+    display:inline-flex !important; align-items:center; justify-content:center;
+    width:64px !important; height:64px !important; min-width:64px; padding:4px !important;
+    margin:0 !important; border:1px solid #c6d8f5 !important; border-radius:14px !important;
+    background:#fff !important; box-shadow:0 3px 10px rgba(24,90,189,.12);
+    cursor:pointer; text-decoration:none !important; flex-shrink:0;
+}
+.project-print-button:hover { background:#edf4ff !important; border-color:#185abd !important; box-shadow:0 5px 14px rgba(24,90,189,.2); }
+.project-print-button:focus-visible { outline:3px solid #185abd; outline-offset:3px; }
+.project-print-button img { width:54px !important; height:54px !important; object-fit:contain; }
+.project-print-button.project-print-send { width:48px !important; height:48px !important; min-width:48px; border-color:#f1c4c4 !important; box-shadow:0 3px 10px rgba(211,47,47,.12); }
+.project-print-button.project-print-send img { width:40px !important; height:40px !important; }
+.project-print-button.project-print-send:hover { background:#fff1f1 !important; border-color:#d32f2f !important; }
+.project-print-button.project-print-send:focus-visible { outline-color:#d32f2f; }
+.modal-header .project-print-actions { margin:0 12px 0 auto; }
+@media (max-width:575.98px) {
+ .project-print-button { width:52px !important; height:52px !important; min-width:52px; }
+ .project-print-button img { width:44px !important; height:44px !important; }
+}
+@media print { .project-print-actions, .project-print-button { display:none !important; } }
+</style>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    const routes = new Set([
+        '/base/print', '/birthday/birthdaylistprint', '/cake/print_cake_list_order',
+        '/fete/printlistfete', '/order/print', '/resident/printindex', '/resident/print_resident_menu',
+        '/resident/print_menu', '/staff/printsummaryStaffList'.toLowerCase(), '/staff/printsummarystaff',
+        '/staff/printsummarydepartement', '/menu/printdailymenu', '/menu/printweeklymenu',
+        '/menu/printmonthlymenu', '/menu/printdisplaymonthlymenu', '/menu/menu2weeksprint',
+        '/preparation/printhebdomadaire', '/recette/printrecipebeurre', '/recette/printrecipeca',
+        '/recette/printrecipefr', '/recette/printrecipemarinade', '/inventaire/inventoryindexprint',
+        '/inventaire/inventoryhistoryprint', '/inventaire/inventoryevolutionprint'
+    ]);
+    const groups = new Map();
+    document.querySelectorAll('a[href], button').forEach(control => {
+        if (control.closest('#residentNavigation, #residentNavBar')) return;
+        let supported = control.hasAttribute('data-project-print');
+        const href = control.getAttribute('href');
+        if (href && control.classList.contains('btn')) {
+            try { supported = supported || routes.has(new URL(href, window.location.href).pathname.replace(/\/$/, '').toLowerCase()); } catch (error) {}
+        }
+        const onclick = control.getAttribute('onclick') || '';
+        const open = onclick.match(/window\.open\(['"]([^'"]+)/);
+        if (open) {
+            try { supported = supported || routes.has(new URL(open[1], window.location.href).pathname.toLowerCase()); } catch (error) {}
+        }
+        if (control.id === 'menuPrintButton') supported = true;
+        if (!supported) return;
+        const directPrint = control.hasAttribute('data-project-print');
+        if (control.tagName === 'A') {
+            control.target = '_blank';
+            control.relList.add('noopener');
+        }
+        const label = directPrint ? 'Envoyer à l’impression' : control.getAttribute('aria-label') || control.textContent.trim() || 'Imprimer';
+        control.setAttribute('aria-label', label);
+        control.title = directPrint ? label : label + ' — choix de la police et du papier';
+        control.className = 'project-print-button no-print' + (directPrint ? ' project-print-send' : '');
+        const icon = document.createElement('img');
+        icon.src = directPrint ? '/assets/images/icone-impression-rouge.png' : '/assets/images/icone-impression-bleu-word.png';
+        icon.alt = '';
+        control.replaceChildren(icon);
+        // Row-specific print actions stay associated with their row.
+        if (control.closest('tr')) return;
+        const modal = control.closest('.modal');
+        const scope = modal ? modal.querySelector('.modal-header') :
+            document.getElementById('printable-area') || control.closest('.container, .container-fluid') || control.parentElement;
+        if (!scope) return;
+        let tray = groups.get(scope);
+        if (!tray) {
+            tray = document.createElement('div');
+            tray.className = 'project-print-actions no-print';
+            tray.setAttribute('role', 'group');
+            tray.setAttribute('aria-label', 'Impression');
+            if (modal) scope.insertBefore(tray, scope.querySelector('.close'));
+            else scope.prepend(tray);
+            groups.set(scope, tray);
+        }
+        tray.appendChild(control);
+    });
+});
+</script>

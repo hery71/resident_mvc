@@ -31,7 +31,7 @@
     
     <!-- Bouton imprimer -->
     <div class="col-auto">
-        <button type="button" class="btn btn-primary mt-2 mt-md-0"
+        <button type="button" class="btn btn-primary mt-2 mt-md-0" data-project-print aria-label="Imprimer"
                 onclick="window.print()">
             🖨 Imprimer
         </button>

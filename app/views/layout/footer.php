@@ -1,3 +1,4 @@
+    <?php require_once __DIR__ . '/printButton.php'; ?>
     <footer class="bg-light text-center mt-5 py-3">
         <small class="text-muted">
             © <?= date('Y') ?> – CFSM v1.7.<?= APP_VERSION_DATE ."(" .APP_VERSION .")" ?>

@@ -37,11 +37,6 @@
                 class="btn btn-info no-print">
             Imprimer programme
         </button>
-        <button type="button"
-                onclick="window.open('/fete/printListFete?mois=<?= (int)$mois ?>&annee=<?= (int)$annee ?>', '_blank')"
-                class="btn btn-info no-print">
-            Imprimer le tableau
-        </button>
             <table class="table table-bordered table-sm table-hover">
                 <thead >
                     <tr>

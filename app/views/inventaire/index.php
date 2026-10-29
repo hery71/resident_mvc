@@ -6,6 +6,38 @@ $posted = static function (string $key, string $default = ''): string {
 $articleRetry = $error !== '' && $modal === 'articleModal';
 $movementRetry = $error !== '' && $modal === 'movementModal';
 $custom_js = <<<'JS'
+document.querySelectorAll('[data-inventory-details]').forEach(button => {
+    button.addEventListener('click', function () {
+        const article = JSON.parse(this.dataset.inventoryDetails);
+        document.getElementById('articleDetailsName').value = article.nom;
+        document.getElementById('articleDetailsNotes').value = article.observations || '';
+    });
+});
+const inventoryTable = document.getElementById('inventoryTable');
+if (inventoryTable) {
+    const collator = new Intl.Collator('fr', { numeric: true, sensitivity: 'base' });
+    inventoryTable.querySelectorAll('[data-inventory-sort]').forEach(button => {
+        button.addEventListener('click', function () {
+            const heading = this.closest('th');
+            const descending = heading.getAttribute('aria-sort') === 'ascending';
+            const column = Number(this.dataset.inventorySort);
+            const rows = Array.from(inventoryTable.tBodies[0].rows).filter(row => row.cells.length === 3);
+            rows.sort((a, b) => {
+                const left = a.cells[column].textContent.trim();
+                const right = b.cells[column].textContent.trim();
+                const comparison = column === 1 ? Number(left) - Number(right) : collator.compare(left, right);
+                return descending ? -comparison : comparison;
+            });
+            inventoryTable.querySelectorAll('th[aria-sort]').forEach(th => {
+                th.setAttribute('aria-sort', 'none');
+                th.querySelector('[data-sort-indicator]').textContent = '↕';
+            });
+            heading.setAttribute('aria-sort', descending ? 'descending' : 'ascending');
+            this.querySelector('[data-sort-indicator]').textContent = descending ? '▼' : '▲';
+            rows.forEach(row => inventoryTable.tBodies[0].appendChild(row));
+        });
+    });
+}
 document.querySelectorAll('[data-inventory-article]').forEach(button => {
     button.addEventListener('click', function () {
         const article = JSON.parse(this.dataset.inventoryArticle);
@@ -23,8 +55,43 @@ document.querySelectorAll('[data-inventory-movement]').forEach(button => {
         document.getElementById('movementArticle').value = this.dataset.inventoryMovement;
         document.getElementById('movementQuantity').value = '';
         document.getElementById('movementNotes').value = '';
+        syncMovementKeywords();
     });
 });
+function syncMovementKeywords() {
+    const notes = document.getElementById('movementNotes');
+    if (!notes) return;
+    const values = notes.value.split(',').map(value => value.trim().toLocaleLowerCase('fr'));
+    document.querySelectorAll('[data-movement-keyword]').forEach(button => {
+        const active = values.includes(button.dataset.movementKeyword.toLocaleLowerCase('fr'));
+        button.setAttribute('aria-pressed', String(active));
+        button.classList.toggle('btn-primary', active);
+        button.classList.toggle('btn-outline-primary', !active);
+    });
+    document.getElementById('movementKeywordStatus').textContent = '';
+}
+document.querySelectorAll('[data-movement-keyword]').forEach(button => {
+    button.addEventListener('click', function () {
+        const notes = document.getElementById('movementNotes');
+        const keyword = this.dataset.movementKeyword;
+        const values = notes.value.split(',');
+        const matches = value => value.trim().toLocaleLowerCase('fr') === keyword.toLocaleLowerCase('fr');
+        const next = values.some(matches)
+            ? values.filter(value => !matches(value)).map(value => value.trim()).filter(Boolean).join(', ')
+            : (notes.value.trim() ? notes.value.trim().replace(/,\s*$/, '') + ', ' : '') + keyword;
+        if (next.length > notes.maxLength) {
+            document.getElementById('movementKeywordStatus').textContent = 'La limite de 4 000 caractères est atteinte.';
+            return;
+        }
+        notes.value = next;
+        notes.dispatchEvent(new Event('input', { bubbles: true }));
+    });
+});
+const movementNotes = document.getElementById('movementNotes');
+if (movementNotes) {
+    movementNotes.addEventListener('input', syncMovementKeywords);
+    syncMovementKeywords();
+}
 document.querySelectorAll('form[data-confirm]').forEach(form => {
     form.addEventListener('submit', function (event) {
         if (!window.confirm(this.dataset.confirm)) event.preventDefault();
@@ -57,6 +124,7 @@ require __DIR__ . '/../layout/header.php';
                 <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#departmentsModal">Liste des départements</button>
                 <?php if ($selected): ?>
                 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#articleModal" data-inventory-article="{}">Ajouter un article</button>
+                <a class="btn btn-secondary" href="/inventaire/inventoryIndexPrint?departement=<?= $selected ?>" target="_blank" rel="noopener">Imprimer</a>
                 <?php endif; ?>
             </div>
             <?php if (!$selected): ?>
@@ -67,17 +135,21 @@ require __DIR__ . '/../layout/header.php';
                 <p>Stock en cours = total des entrées et sorties actives. Entrée : quantité positive. Sortie : quantité négative.</p>
                 <div class="table-responsive">
                     <table class="table table-bordered table-hover" id="inventoryTable">
-                        <thead><tr><th>Article</th><th>Observations</th><th class="text-right">Stock en cours</th><th>Actions</th></tr></thead>
+                        <thead><tr>
+                            <th aria-sort="none"><button type="button" class="btn btn-link p-0 font-weight-bold" style="color:inherit" data-inventory-sort="0">Article <span data-sort-indicator aria-hidden="true">↕</span><span class="sr-only"> : trier</span></button></th>
+                            <th class="text-right" aria-sort="none"><button type="button" class="btn btn-link p-0 font-weight-bold" style="color:inherit" data-inventory-sort="1">Stock en cours <span data-sort-indicator aria-hidden="true">↕</span><span class="sr-only"> : trier</span></button></th>
+                            <th>Actions</th>
+                        </tr></thead>
                         <tbody>
                         <?php foreach ($articles as $article): ?>
                             <tr>
-                                <td><?= e($article['nom']) ?></td>
-                                <td><?= nl2br(e($article['observations'])) ?></td>
+                                <td><button type="button" class="btn btn-link p-0 text-left" data-toggle="modal" data-target="#articleDetailsModal" data-inventory-details="<?= e(json_encode(['nom' => $article['nom'], 'observations' => $article['observations']], JSON_UNESCAPED_UNICODE | JSON_INVALID_UTF8_SUBSTITUTE)) ?>"><?= e($article['nom']) ?></button></td>
                                 <td class="text-right <?= (int)$article['stock'] < 0 ? 'text-danger' : '' ?>"><strong><?= e($article['stock']) ?></strong></td>
                                 <td>
                                     <div class="d-flex flex-wrap" style="gap:6px">
                                         <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#movementModal" data-inventory-movement="<?= (int)$article['id'] ?>">Entrée / sortie</button>
-                                        <a class="btn btn-outline-primary btn-sm" href="/inventaire/index?departement=<?= $selected ?>&amp;article=<?= (int)$article['id'] ?>">Historique</a>
+                                        <a class="btn btn-outline-primary btn-sm" href="/inventaire/index?departement=<?= $selected ?>&amp;article=<?= (int)$article['id'] ?>">Modifier E/S</a>
+                                        <a class="btn btn-outline-info btn-sm" href="/inventaire/index?departement=<?= $selected ?>&amp;evolution=<?= (int)$article['id'] ?>">Historique</a>
                                         <button type="button" class="btn btn-outline-secondary btn-sm" data-toggle="modal" data-target="#articleModal" data-inventory-article="<?= e(json_encode($article, JSON_UNESCAPED_UNICODE | JSON_INVALID_UTF8_SUBSTITUTE)) ?>">Modifier</button>
                                         <form method="post" action="/inventaire/index" class="mb-0" data-confirm="Supprimer cet article de la liste ? Son historique sera conservé.">
                                             <input type="hidden" name="token" value="<?= e($token) ?>"><input type="hidden" name="departement_id" value="<?= $selected ?>">
@@ -88,7 +160,7 @@ require __DIR__ . '/../layout/header.php';
                                 </td>
                             </tr>
                         <?php endforeach; ?>
-                        <?php if (!$articles): ?><tr><td colspan="4" class="text-center text-muted">Aucun article. Ajoutez votre premier article.</td></tr><?php endif; ?>
+                        <?php if (!$articles): ?><tr><td colspan="3" class="text-center text-muted">Aucun article. Ajoutez votre premier article.</td></tr><?php endif; ?>
                         </tbody>
                     </table>
                 </div>
@@ -125,6 +197,15 @@ require __DIR__ . '/../layout/header.php';
 </div>
 
 <?php if ($selected): ?>
+<div class="modal fade" id="articleDetailsModal" tabindex="-1" role="dialog" aria-labelledby="articleDetailsTitle" aria-hidden="true">
+ <div class="modal-dialog" role="document"><div class="modal-content">
+  <div class="modal-header"><h2 class="modal-title h5" id="articleDetailsTitle">Détails de l’article</h2><button type="button" class="close" data-dismiss="modal" aria-label="Fermer"><span aria-hidden="true">&times;</span></button></div>
+  <div class="modal-body">
+   <div class="form-group"><label for="articleDetailsName">Nom de l’article</label><input type="text" class="form-control" id="articleDetailsName" readonly></div>
+   <div class="form-group"><label for="articleDetailsNotes">Observations</label><textarea class="form-control" id="articleDetailsNotes" rows="5" readonly></textarea></div>
+  </div>
+ </div></div>
+</div>
 <div class="modal fade" id="articleModal" tabindex="-1" role="dialog" aria-labelledby="articleModalTitle" aria-hidden="true">
  <div class="modal-dialog" role="document"><form method="post" action="/inventaire/index" class="modal-content">
   <div class="modal-header"><h2 class="modal-title h5" id="articleModalTitle">Article</h2><button type="button" class="close" data-dismiss="modal" aria-label="Fermer"><span aria-hidden="true">&times;</span></button></div>
@@ -153,7 +234,16 @@ require __DIR__ . '/../layout/header.php';
    </select></div>
    <div class="form-group"><label for="movementDate">Date</label><input class="form-control" id="movementDate" name="date" type="date" required value="<?= e($movementRetry ? $posted('date') : date('Y-m-d')) ?>"></div>
    <div class="form-group"><label for="movementQuantity">Quantité (+ entrée / − sortie)</label><input class="form-control" id="movementQuantity" name="nb" type="number" step="1" min="-2147483648" max="2147483647" required placeholder="Ex. : 20 ou -5" value="<?= e($movementRetry ? $posted('nb') : '') ?>"><small class="form-text text-muted">Une sortie de 5 articles se saisit −5. Zéro n’est pas un mouvement.</small></div>
-   <div class="form-group"><label for="movementNotes">Observation</label><textarea class="form-control" id="movementNotes" name="observation" maxlength="4000" rows="3"><?= e($movementRetry ? $posted('observation') : '') ?></textarea></div>
+   <div class="form-group"><label for="movementNotes">Observation</label>
+    <div class="d-flex flex-wrap mb-2" style="gap:6px" role="group" aria-label="Mots-clés pour l’observation">
+     <?php foreach (['Stock Initial', 'Destruction', 'Don', 'Retour'] as $keyword): ?>
+      <button type="button" class="btn btn-outline-primary btn-sm" data-movement-keyword="<?= e($keyword) ?>" aria-pressed="false"><?= e($keyword) ?></button>
+     <?php endforeach; ?>
+    </div>
+    <textarea class="form-control" id="movementNotes" name="observation" maxlength="4000" rows="3"><?= e($movementRetry ? $posted('observation') : '') ?></textarea>
+    <small class="form-text text-muted">Cliquez sur un mot-clé pour l’ajouter ou le retirer. Vous pouvez aussi saisir du texte.</small>
+    <small id="movementKeywordStatus" class="form-text text-danger" role="status"></small>
+   </div>
   </div><div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Annuler</button><button class="btn btn-primary">Enregistrer le mouvement</button></div>
  </form></div>
 </div>
@@ -161,7 +251,7 @@ require __DIR__ . '/../layout/header.php';
 <?php if ($historyArticle): ?>
 <div class="modal fade" id="historyModal" tabindex="-1" role="dialog" aria-labelledby="historyTitle" aria-hidden="true">
  <div class="modal-dialog modal-lg" role="document"><div class="modal-content">
-  <div class="modal-header"><h2 class="modal-title h5" id="historyTitle">Historique — <?= e($historyArticle['nom']) ?></h2><button type="button" class="close" data-dismiss="modal" aria-label="Fermer"><span aria-hidden="true">&times;</span></button></div>
+  <div class="modal-header"><h2 class="modal-title h5" id="historyTitle">Modifier E/S — <?= e($historyArticle['nom']) ?></h2><button type="button" class="close" data-dismiss="modal" aria-label="Fermer"><span aria-hidden="true">&times;</span></button></div>
   <div class="modal-body"><div class="table-responsive"><table class="table table-bordered">
    <thead><tr><th>Date</th><th class="text-right">Quantité</th><th>Observation</th><th>Action</th></tr></thead><tbody>
    <?php foreach ($history as $record): ?><tr>
@@ -173,7 +263,43 @@ require __DIR__ . '/../layout/header.php';
    </tr><?php endforeach; ?>
    <?php if (!$history): ?><tr><td colspan="4" class="text-center text-muted">Aucun mouvement enregistré.</td></tr><?php endif; ?>
    </tbody></table></div></div>
-  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button></div>
+  <div class="modal-footer">
+   <a class="btn btn-primary" href="/inventaire/inventoryHistoryPrint?departement=<?= $selected ?>&amp;article=<?= (int)$historyArticle['id'] ?>" target="_blank" rel="noopener">Imprimer</a>
+   <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+  </div>
+ </div></div>
+</div>
+<?php endif; ?>
+<?php if (!empty($evolutionArticle)): ?>
+<div class="modal fade" id="evolutionModal" tabindex="-1" role="dialog" aria-labelledby="evolutionTitle" aria-hidden="true">
+ <div class="modal-dialog modal-xl" role="document"><div class="modal-content">
+  <div class="modal-header"><h2 class="modal-title h5" id="evolutionTitle">Historique — <?= e($evolutionArticle['nom']) ?></h2><button type="button" class="close" data-dismiss="modal" aria-label="Fermer"><span aria-hidden="true">&times;</span></button></div>
+  <div class="modal-body">
+   <p><?= e($department['departement']) ?> — Stock en cours : <strong><?= e($evolutionStock) ?></strong></p>
+   <p class="text-muted">Mouvements actifs, du plus ancien au plus récent. Le stock est recalculé après chaque mouvement.</p>
+   <div class="table-responsive"><table class="table table-bordered table-hover" id="inventoryEvolutionTable">
+    <thead><tr><th>Date</th><th class="text-right">Entrée</th><th class="text-right">Sortie</th><th class="text-right">Stock après mouvement</th><th>Observation</th></tr></thead>
+    <tbody>
+    <?php foreach ($evolution as $movement): ?><tr>
+     <td><?= e(date('d/m/Y', strtotime($movement['date']))) ?></td>
+     <td class="text-right text-success"><?= (int)$movement['nb'] > 0 ? '+' . e($movement['nb']) : '—' ?></td>
+     <td class="text-right text-danger"><?= (int)$movement['nb'] < 0 ? e($movement['nb']) : '—' ?></td>
+     <td class="text-right <?= $movement['stock'] < 0 ? 'text-danger' : '' ?>"><strong><?= e($movement['stock']) ?></strong></td>
+     <td><?= nl2br(e($movement['observation'])) ?></td>
+    </tr><?php endforeach; ?>
+    <?php if (!$evolution): ?><tr><td colspan="5" class="text-center text-muted">Aucun mouvement enregistré.</td></tr><?php endif; ?>
+    </tbody>
+    <tfoot><tr class="table-info">
+     <th scope="row" colspan="3">Stock final</th>
+     <td class="text-right <?= $evolutionStock < 0 ? 'text-danger' : '' ?>"><strong><?= e($evolutionStock) ?></strong></td>
+     <td></td>
+    </tr></tfoot>
+   </table></div>
+  </div>
+  <div class="modal-footer">
+   <a class="btn btn-primary" href="/inventaire/inventoryEvolutionPrint?departement=<?= $selected ?>&amp;article=<?= (int)$evolutionArticle['id'] ?>" target="_blank" rel="noopener">Imprimer</a>
+   <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+  </div>
  </div></div>
 </div>
 <?php endif; ?>

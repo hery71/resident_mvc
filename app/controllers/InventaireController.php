@@ -14,6 +14,56 @@ class InventaireController
             throw new InvalidArgumentException('Vérifiez les champs : nom obligatoire et longueur maximale respectée.');
         return $value;
     }
+    public function inventoryIndexPrint(): void {
+        if (!Auth::check()) { header('Location: /auth/login'); return; }
+        try {
+            $selected = $this->id($_GET['departement'] ?? 0);
+        } catch (InvalidArgumentException $exception) {
+            http_response_code(400); echo 'Département invalide.'; return;
+        }
+        $model = new InventoryModel();
+        $department = $model->department($selected);
+        if (!$department) { http_response_code(404); echo 'Département introuvable.'; return; }
+        $articles = $model->articles($selected);
+        require __DIR__ . '/../views/inventaire/inventoryIndexPrint.php';
+    }
+    public function inventoryHistoryPrint(): void {
+        if (!Auth::check()) { header('Location: /auth/login'); return; }
+        try {
+            $selected = $this->id($_GET['departement'] ?? 0);
+            $articleId = $this->id($_GET['article'] ?? 0);
+        } catch (InvalidArgumentException $exception) {
+            http_response_code(400); echo 'Identifiant invalide.'; return;
+        }
+        $model = new InventoryModel();
+        $department = $model->department($selected);
+        $article = $model->article($articleId, $selected);
+        if (!$department || !$article) { http_response_code(404); echo 'Article introuvable dans ce département.'; return; }
+        $history = $model->history($articleId, $selected);
+        $stock = array_sum(array_column($history, 'nb'));
+        require __DIR__ . '/../views/inventaire/inventoryHistoryPrint.php';
+    }
+    public function inventoryEvolutionPrint(): void {
+        if (!Auth::check()) { header('Location: /auth/login'); return; }
+        try {
+            $selected = $this->id($_GET['departement'] ?? 0);
+            $articleId = $this->id($_GET['article'] ?? 0);
+        } catch (InvalidArgumentException $exception) {
+            http_response_code(400); echo 'Identifiant invalide.'; return;
+        }
+        $model = new InventoryModel();
+        $department = $model->department($selected);
+        $article = $model->article($articleId, $selected);
+        if (!$department || !$article) { http_response_code(404); echo 'Article introuvable dans ce département.'; return; }
+        $evolution = [];
+        $stock = 0;
+        foreach (array_reverse($model->history($articleId, $selected)) as $movement) {
+            $stock += (int)$movement['nb'];
+            $movement['stock'] = $stock;
+            $evolution[] = $movement;
+        }
+        require __DIR__ . '/../views/inventaire/inventoryEvolutionPrint.php';
+    }
     public function index(): void {
         if (!Auth::check()) { header('Location: /auth/login'); return; }
         $model = new InventoryModel();
@@ -21,9 +71,11 @@ class InventaireController
         $modal = '';
         $selected = 0;
         $historyId = 0;
+        $evolutionId = 0;
         try {
             $selected = $this->id($_GET['departement'] ?? 0);
             $historyId = $this->id($_GET['article'] ?? 0);
+            $evolutionId = $this->id($_GET['evolution'] ?? 0);
             if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 if (!is_string($_POST['token'] ?? null) || !Auth::checkToken($_POST['token'])) {
                     http_response_code(403); echo 'Token CSRF invalide. Rechargez la page.'; return;
@@ -82,8 +134,19 @@ class InventaireController
         $articles = $selected ? $model->articles($selected) : [];
         $historyArticle = $historyId ? $model->article($historyId, $selected) : [];
         $history = $historyArticle ? $model->history($historyId, $selected) : [];
+        $evolutionArticle = $evolutionId ? $model->article($evolutionId, $selected) : [];
+        $evolution = [];
+        $evolutionStock = 0;
+        if ($evolutionArticle) {
+            foreach (array_reverse($model->history($evolutionId, $selected)) as $movement) {
+                $evolutionStock += (int)$movement['nb'];
+                $movement['stock'] = $evolutionStock;
+                $evolution[] = $movement;
+            }
+        }
         if ($error === '' && isset($_GET['departements'])) $modal = 'departmentsModal';
         if ($historyArticle) $modal = 'historyModal';
+        if ($evolutionArticle) $modal = 'evolutionModal';
         $message = $_SESSION['inventory_message'] ?? '';
         unset($_SESSION['inventory_message']);
         $token = Auth::generateToken();

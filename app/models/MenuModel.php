@@ -313,7 +313,7 @@ public function getSpecialMenus(int $annee, int $week): array
         FROM {$table} m
         LEFT JOIN menu_tbl mt ON mt.id = m.id_menu
         LEFT JOIN menu_unique mu ON mu.id = m.ids
-        WHERE 1=1 AND mt.annee>=:year AND mt.saison = :season
+        WHERE mt.annee = :year AND mt.saison = :season
     ";
     $params = [':year' => $year, ':season' => $season];
     if (!empty($keywords)) {

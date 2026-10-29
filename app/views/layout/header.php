@@ -27,7 +27,10 @@ $logoPathPublic = $logoFilename
     <?php endif; ?>
     </head>
 <body>
-<?php require __DIR__ . '/../layout/menu.php'; 
+<?php
+if (empty($hideNavigation)) {
+    require __DIR__ . '/../layout/menu.php';
+}
 $options = Config::options(); 
 if (!isset($custom_js)) {
     $custom_js = '';

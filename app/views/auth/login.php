@@ -1,4 +1,4 @@
-<?php $title = 'Connexion'; ?>
+<?php $title = 'Connexion'; $hideNavigation = true; ?>
 <?php require __DIR__ . '/../layout/header.php'; ?>
 <div class="container mt-5">
     <div class="row justify-content-center">
