@@ -104,6 +104,7 @@ class DashBoardController extends Controller
         // ==============================
         // 5️⃣ VIEW
         // ==============================
+        $newInventoryOrders = (new InventoryOrderModel($pdo))->unread();
         require __DIR__ . '/../views/dashBoard/index.php';
     }
     public function saveSettings()

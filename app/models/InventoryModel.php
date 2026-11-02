@@ -14,7 +14,7 @@ class InventoryModel
     public function articles(int $department): array {
         $s = $this->pdo->prepare('SELECT a.*, COALESCE(SUM(r.nb), 0) AS stock FROM inventory_article a
             LEFT JOIN inventory_record r ON r.id_article = a.id AND r.id_departement = a.departement AND r.enabled = 1
-            WHERE a.departement = ? AND a.enabled = 1 GROUP BY a.id, a.departement, a.nom, a.observations, a.enabled ORDER BY a.nom, a.id');
+            WHERE a.departement = ? AND a.enabled = 1 GROUP BY a.id, a.departement, a.nom, a.item, a.observations, a.enabled ORDER BY a.nom, a.id');
         $s->execute([$department]);
         return $s->fetchAll(PDO::FETCH_ASSOC);
     }
@@ -40,16 +40,16 @@ class InventoryModel
         $s = $this->pdo->prepare('UPDATE liste_departement SET enabled = 0 WHERE id = ?');
         $s->execute([$id]);
     }
-    public function saveArticle(int $id, int $department, string $name, string $notes): int {
+    public function saveArticle(int $id, int $department, string $name, string $notes, string $item = ''): int {
         if (!$this->department($department)) throw new InvalidArgumentException('Choisissez un département actif.');
         if ($id) {
             if (!$this->article($id, $department)) throw new InvalidArgumentException('Article introuvable dans ce département.');
-            $s = $this->pdo->prepare('UPDATE inventory_article SET nom = ?, observations = ? WHERE id = ? AND departement = ? AND enabled = 1');
-            $s->execute([$name, $notes, $id, $department]);
+            $s = $this->pdo->prepare('UPDATE inventory_article SET nom = ?, observations = ?, item = ? WHERE id = ? AND departement = ? AND enabled = 1');
+            $s->execute([$name, $notes, $item, $id, $department]);
             return $id;
         }
-        $s = $this->pdo->prepare('INSERT INTO inventory_article (departement, nom, observations) VALUES (?, ?, ?)');
-        $s->execute([$department, $name, $notes]);
+        $s = $this->pdo->prepare('INSERT INTO inventory_article (departement, nom, observations, item) VALUES (?, ?, ?, ?)');
+        $s->execute([$department, $name, $notes, $item]);
         return (int)$this->pdo->lastInsertId();
     }
     public function removeArticle(int $id, int $department): void {

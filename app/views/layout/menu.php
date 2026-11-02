@@ -259,6 +259,8 @@ body.resident-nav-layout.resident-nav-collapsed { padding-left: 76px; }
                     </a>
                     <div class="dropdown-menu">
                         <a class="dropdown-item" href="/inventaire/index">Inventaire par département</a>
+                        <a class="dropdown-item" href="/inventaireCommandes/form">Demande de commande</a>
+                        <a class="dropdown-item" href="/inventaireCommandes/index">Liste des commandes</a>
                     </div>
                 </li>
 

@@ -17,7 +17,7 @@
         const savedColor = /^#[0-9a-f]{6}$/i.test(rawColor) ? rawColor : '#A8D8EA';
         slider.value = savedCols;
         activeColor.value = savedColor;
-        const icons = ['fa-utensils', 'fa-shield-alt', 'fa-birthday-cake', 'fa-glass-cheers', 'fa-birthday-cake', 'fa-leaf', 'fa-users'];
+        const icons = ['fa-shopping-cart', 'fa-utensils', 'fa-shield-alt', 'fa-birthday-cake', 'fa-glass-cheers', 'fa-birthday-cake', 'fa-leaf', 'fa-users'];
         grid.querySelectorAll('.card-header-pastel').forEach((header, index) => {
             const title = document.createElement('span');
             title.textContent = header.textContent.trim();
@@ -158,6 +158,19 @@ CSS;
     </div>
 
     <div id="dashboard-grid">
+        <div class="mb-4">
+            <div class="card pastel-tile">
+                <div class="card-header card-header-pastel">Commandes</div>
+                <div class="card-body">
+                    <?php if (!$newInventoryOrders): ?><p class="text-muted">Aucune nouvelle commande.</p><?php endif; ?>
+                    <?php foreach ($newInventoryOrders as $newOrder): ?>
+                    <p><a href="/inventaireCommandes/view?id=<?= (int)$newOrder['id'] ?>&amp;dashboard=1"><strong>Nouvelle commande : <?= e($newOrder['nom']) ?></strong></a><br>
+                    <?= e($newOrder['departement_nom']) ?> — <?= e($newOrder['demandeur']) ?><br><small><?= e(date('d/m/Y H:i', strtotime($newOrder['sent_at']))) ?></small></p>
+                    <?php endforeach; ?>
+                    <div class="d-flex justify-content-end mt-3"><a class="btn btn-secondary" href="/inventaireCommandes/index">Toutes les commandes</a></div>
+                </div>
+            </div>
+        </div>
 
         <!-- ===================== -->
         <!-- TUILE L1 1 : MENU du jour      -->

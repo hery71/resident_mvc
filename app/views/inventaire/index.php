@@ -10,6 +10,7 @@ document.querySelectorAll('[data-inventory-details]').forEach(button => {
     button.addEventListener('click', function () {
         const article = JSON.parse(this.dataset.inventoryDetails);
         document.getElementById('articleDetailsName').value = article.nom;
+        document.getElementById('articleDetailsItem').value = article.item || '';
         document.getElementById('articleDetailsNotes').value = article.observations || '';
     });
 });
@@ -21,11 +22,11 @@ if (inventoryTable) {
             const heading = this.closest('th');
             const descending = heading.getAttribute('aria-sort') === 'ascending';
             const column = Number(this.dataset.inventorySort);
-            const rows = Array.from(inventoryTable.tBodies[0].rows).filter(row => row.cells.length === 3);
+            const rows = Array.from(inventoryTable.tBodies[0].rows).filter(row => row.cells.length === 4);
             rows.sort((a, b) => {
                 const left = a.cells[column].textContent.trim();
                 const right = b.cells[column].textContent.trim();
-                const comparison = column === 1 ? Number(left) - Number(right) : collator.compare(left, right);
+                const comparison = column === 2 ? Number(left) - Number(right) : collator.compare(left, right);
                 return descending ? -comparison : comparison;
             });
             inventoryTable.querySelectorAll('th[aria-sort]').forEach(th => {
@@ -43,6 +44,7 @@ document.querySelectorAll('[data-inventory-article]').forEach(button => {
         const article = JSON.parse(this.dataset.inventoryArticle);
         document.getElementById('articleId').value = article.id || 0;
         document.getElementById('articleName').value = article.nom || '';
+        document.getElementById('articleItem').value = article.item || '';
         document.getElementById('articleNotes').value = article.observations || '';
         const department = document.getElementById('articleDepartment');
         department.value = article.departement || department.dataset.current;
@@ -137,13 +139,15 @@ require __DIR__ . '/../layout/header.php';
                     <table class="table table-bordered table-hover" id="inventoryTable">
                         <thead><tr>
                             <th aria-sort="none"><button type="button" class="btn btn-link p-0 font-weight-bold" style="color:inherit" data-inventory-sort="0">Article <span data-sort-indicator aria-hidden="true">↕</span><span class="sr-only"> : trier</span></button></th>
-                            <th class="text-right" aria-sort="none"><button type="button" class="btn btn-link p-0 font-weight-bold" style="color:inherit" data-inventory-sort="1">Stock en cours <span data-sort-indicator aria-hidden="true">↕</span><span class="sr-only"> : trier</span></button></th>
+                            <th aria-sort="none"><button type="button" class="btn btn-link p-0 font-weight-bold" style="color:inherit" data-inventory-sort="1">Item <span data-sort-indicator aria-hidden="true">↕</span><span class="sr-only"> : trier</span></button></th>
+                            <th class="text-right" aria-sort="none"><button type="button" class="btn btn-link p-0 font-weight-bold" style="color:inherit" data-inventory-sort="2">Stock en cours <span data-sort-indicator aria-hidden="true">↕</span><span class="sr-only"> : trier</span></button></th>
                             <th>Actions</th>
                         </tr></thead>
                         <tbody>
                         <?php foreach ($articles as $article): ?>
                             <tr>
-                                <td><button type="button" class="btn btn-link p-0 text-left" data-toggle="modal" data-target="#articleDetailsModal" data-inventory-details="<?= e(json_encode(['nom' => $article['nom'], 'observations' => $article['observations']], JSON_UNESCAPED_UNICODE | JSON_INVALID_UTF8_SUBSTITUTE)) ?>"><?= e($article['nom']) ?></button></td>
+                                <td><button type="button" class="btn btn-link p-0 text-left" data-toggle="modal" data-target="#articleDetailsModal" data-inventory-details="<?= e(json_encode(['nom' => $article['nom'], 'item' => $article['item'], 'observations' => $article['observations']], JSON_UNESCAPED_UNICODE | JSON_INVALID_UTF8_SUBSTITUTE)) ?>"><?= e($article['nom']) ?></button></td>
+                                <td><?= e($article['item']) ?></td>
                                 <td class="text-right <?= (int)$article['stock'] < 0 ? 'text-danger' : '' ?>"><strong><?= e($article['stock']) ?></strong></td>
                                 <td>
                                     <div class="d-flex flex-wrap" style="gap:6px">
@@ -160,7 +164,7 @@ require __DIR__ . '/../layout/header.php';
                                 </td>
                             </tr>
                         <?php endforeach; ?>
-                        <?php if (!$articles): ?><tr><td colspan="3" class="text-center text-muted">Aucun article. Ajoutez votre premier article.</td></tr><?php endif; ?>
+                        <?php if (!$articles): ?><tr><td colspan="4" class="text-center text-muted">Aucun article. Ajoutez votre premier article.</td></tr><?php endif; ?>
                         </tbody>
                     </table>
                 </div>
@@ -202,6 +206,7 @@ require __DIR__ . '/../layout/header.php';
   <div class="modal-header"><h2 class="modal-title h5" id="articleDetailsTitle">Détails de l’article</h2><button type="button" class="close" data-dismiss="modal" aria-label="Fermer"><span aria-hidden="true">&times;</span></button></div>
   <div class="modal-body">
    <div class="form-group"><label for="articleDetailsName">Nom de l’article</label><input type="text" class="form-control" id="articleDetailsName" readonly></div>
+   <div class="form-group"><label for="articleDetailsItem">Item — référence fournisseur</label><input type="text" class="form-control" id="articleDetailsItem" readonly></div>
    <div class="form-group"><label for="articleDetailsNotes">Observations</label><textarea class="form-control" id="articleDetailsNotes" rows="5" readonly></textarea></div>
   </div>
  </div></div>
@@ -219,6 +224,7 @@ require __DIR__ . '/../layout/header.php';
     </select>
    </div>
    <div class="form-group"><label for="articleName">Nom de l’article</label><input class="form-control" id="articleName" name="nom" maxlength="200" required value="<?= e($articleRetry ? $posted('nom') : '') ?>"></div>
+   <div class="form-group"><label for="articleItem">Item — référence fournisseur</label><input type="text" class="form-control" id="articleItem" name="item" maxlength="200" value="<?= e($articleRetry ? $posted('item') : '') ?>"><small class="form-text text-muted">Numéro ou série de l&#8217;article chez le fournisseur.</small></div>
    <div class="form-group"><label for="articleNotes">Observations</label><textarea class="form-control" id="articleNotes" name="observations" maxlength="4000" rows="3"><?= e($articleRetry ? $posted('observations') : '') ?></textarea></div>
   </div><div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Annuler</button><button class="btn btn-primary">Enregistrer</button></div>
  </form></div>

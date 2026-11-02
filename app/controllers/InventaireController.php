@@ -97,7 +97,7 @@ class InventaireController
                         $modal = 'articleModal';
                         $articleDepartment = $this->id($_POST['article_departement'] ?? $selected);
                         if ($id && $articleDepartment !== $selected) throw new InvalidArgumentException('Le département d’un article existant ne peut pas être changé.');
-                        $model->saveArticle($id, $articleDepartment, $this->text('nom', 200, true), $this->text('observations', 4000));
+                        $model->saveArticle($id, $articleDepartment, $this->text('nom', 200, true), $this->text('observations', 4000), $this->text('item', 200));
                         $selected = $articleDepartment;
                         break;
                     case 'article_remove': $model->removeArticle($id, $selected); break;

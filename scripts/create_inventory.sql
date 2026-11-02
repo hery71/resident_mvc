@@ -8,6 +8,7 @@ CREATE TABLE IF NOT EXISTS inventory_article (
  id INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
  departement INT UNSIGNED NOT NULL,
  nom VARCHAR(200) NOT NULL,
+ item VARCHAR(200) NOT NULL DEFAULT '',
  observations TEXT NOT NULL,
  enabled TINYINT(1) NOT NULL DEFAULT 1,
  UNIQUE KEY inventory_article_department (id, departement),
